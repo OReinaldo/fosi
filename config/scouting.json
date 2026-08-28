@@ -1,0 +1,27 @@
+{
+  "scouting": {
+    "mode": "on-demand",
+    "default_depth": "full",
+    "default_matches": 10,
+    "retain_archive": true,
+    "layers": [
+      "team",
+      "players",
+      "matches",
+      "events",
+      "spatial",
+      "set_pieces",
+      "video"
+    ]
+  },
+  "teams": [
+    {
+      "country": "Poland",
+      "competition": "Ekstraklasa",
+      "season": "2026/27",
+      "name": "Pogoń Szczecin",
+      "active": true,
+      "depth": "full"
+    }
+  ]
+}
