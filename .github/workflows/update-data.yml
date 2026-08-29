@@ -18,8 +18,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Collect Pogoń data
-        run: python collectors/fotmob_collector.py
+      - name: Run FOSI scouting pipeline
+        run: python engine/run_scout.py
       - name: Commit updated scouting data
         run: |
           git config user.name 'fosi-bot'
