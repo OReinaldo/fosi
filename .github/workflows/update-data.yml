@@ -1,0 +1,29 @@
+name: FOSI - Update scouting data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 3 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect Pogoń data
+        run: python collectors/fotmob_collector.py
+      - name: Commit updated scouting data
+        run: |
+          git config user.name 'fosi-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/scouting/
+          git diff --cached --quiet || git commit -m 'data: update scouting dataset'
+          git push
