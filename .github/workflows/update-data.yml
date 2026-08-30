@@ -22,6 +22,8 @@ jobs:
         run: python engine/run_scout.py
       - name: Publish dashboard payload
         run: python engine/publish_dashboard.py
+      - name: Validate dashboard payload
+        run: python engine/validate_dashboard.py
       - name: Commit updated scouting data and dashboard payload
         run: |
           git config user.name 'fosi-bot'
