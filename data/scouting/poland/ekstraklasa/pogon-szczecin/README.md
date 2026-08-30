@@ -1,16 +1,16 @@
-# Pogoń Szczecin — On-Demand Scout
+# Pogoń Szczecin — FOSI scouting dataset
 
-This directory contains the deep dataset generated for the selected team. Raw provider responses should be kept separate from normalized/derived data.
+This folder is the on-demand scouting cache for the selected team.
 
-Expected layers:
-
-- team
-- players
-- matches
-- stats
-- events
-- spatial
+## Data layers
+- team identity
+- squad / players
+- fixtures and results
+- team statistics
+- event data
+- spatial data / shots / heatmaps
 - set pieces
 - video evidence
-- metrics
-- intelligence
+- derived intelligence
+
+Raw provider responses remain separate from normalized data. Each derived insight must retain an evidence trail and confidence score.
