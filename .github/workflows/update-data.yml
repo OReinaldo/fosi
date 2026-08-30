@@ -2,6 +2,19 @@ name: FOSI - Update scouting data
 
 on:
   workflow_dispatch:
+    inputs:
+      country:
+        description: 'Country'
+        required: false
+        default: 'Poland'
+      competition:
+        description: 'Competition'
+        required: false
+        default: 'Ekstraklasa'
+      team:
+        description: 'Team'
+        required: false
+        default: 'Pogoń Szczecin'
   push:
     paths:
       - 'collectors/**'
@@ -12,6 +25,11 @@ on:
 
 permissions:
   contents: write
+
+env:
+  FOSI_COUNTRY: ${{ inputs.country || 'Poland' }}
+  FOSI_COMPETITION: ${{ inputs.competition || 'Ekstraklasa' }}
+  FOSI_TEAM: ${{ inputs.team || 'Pogoń Szczecin' }}
 
 jobs:
   update:
