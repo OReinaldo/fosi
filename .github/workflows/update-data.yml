@@ -5,15 +5,15 @@ on:
     inputs:
       country:
         description: 'Country'
-        required: false
+        required: true
         default: 'Poland'
       competition:
         description: 'Competition'
-        required: false
+        required: true
         default: 'Ekstraklasa'
       team:
         description: 'Team'
-        required: false
+        required: true
         default: 'Pogoń Szczecin'
   push:
     paths:
