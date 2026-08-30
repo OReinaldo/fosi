@@ -1,0 +1,12 @@
+{
+  "policy": "multi-source-when-available",
+  "sources": [
+    {"id":"fotmob","role":["fixtures","results","events","lineups","stats","shots"],"access":"public-upstream","priority":1},
+    {"id":"fbref","role":["season_stats","player_stats","shooting","goalkeeping","fixtures"],"access":"public-web","priority":2},
+    {"id":"transfermarkt","role":["squad","transfers","market_context","injuries"],"access":"public-web","priority":3},
+    {"id":"sofascore","role":["matches","events","lineups","stats","shots","heatmaps-when-available"],"access":"public-web","priority":4},
+    {"id":"understat","role":["xg","xga","shots"],"access":"public-web","priority":5},
+    {"id":"club_official","role":["squad","news","press","official_video"],"access":"public-web","priority":6}
+  ],
+  "rule": "Never silently replace a value from another source; retain source, timestamp and confidence."
+}
