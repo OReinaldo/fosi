@@ -1,18 +1,12 @@
 {
-  "team": "Pogoń Szczecin",
-  "competition": "Ekstraklasa",
-  "season": "2026/27",
-  "status": "configured",
-  "last_update": null,
-  "layers": {
-    "team": "pending",
-    "players": "pending",
-    "matches": "pending",
-    "events": "pending",
-    "spatial": "pending",
-    "set_pieces": "pending",
-    "video": "pending"
+  "team_id": "pogon-szczecin",
+  "team_name": "Pogoń Szczecin",
+  "provider_ids": {
+    "fotmob": "8023"
   },
-  "data_score": null,
-  "notes": "Waiting for first collector run."
+  "collector": "fotmob",
+  "status": "error",
+  "started_at": "2026-08-30T03:19:54.357370+00:00",
+  "error": "HTTP Error 404: Not Found",
+  "data_score": 0
 }
