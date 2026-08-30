@@ -1,12 +1,12 @@
 {
-  "catalog_version": 1,
+  "catalog_version": 2,
   "competitions": [
-    {
-      "country": "Poland",
-      "competition": "Ekstraklasa",
-      "season": "2026/27",
-      "status": "active",
-      "initial_team": "Pogoń Szczecin"
-    }
+    {"country":"Poland","competition":"Ekstraklasa","season":"2026/27","status":"active","teams":["Pogoń Szczecin","Legia Warszawa","Lech Poznań","Jagiellonia Białystok"]},
+    {"country":"Spain","competition":"LaLiga","season":"2026/27","status":"catalog","teams":["Real Madrid","FC Barcelona","Atlético de Madrid"]},
+    {"country":"Portugal","competition":"Primeira Liga","season":"2026/27","status":"catalog","teams":["FC Porto","SL Benfica","Sporting CP","Boavista FC"]},
+    {"country":"England","competition":"Premier League","season":"2026/27","status":"catalog","teams":["Arsenal","Chelsea","Liverpool","Manchester City","Manchester United"]},
+    {"country":"Germany","competition":"Bundesliga","season":"2026/27","status":"catalog","teams":["Bayern München","Borussia Dortmund","RB Leipzig"]},
+    {"country":"France","competition":"Ligue 1","season":"2026/27","status":"catalog","teams":["Paris Saint-Germain","Olympique de Marseille","Olympique Lyonnais"]},
+    {"country":"Italy","competition":"Serie A","season":"2026/27","status":"catalog","teams":["Inter","Juventus","AC Milan","Napoli"]}
   ]
 }
