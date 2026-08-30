@@ -1,0 +1,50 @@
+{
+  "snapshot_date": "2026-08-30",
+  "team": {"name":"Pogoń Szczecin","country":"Poland","competition":"Ekstraklasa","season":"2026/27"},
+  "verified_sources": {
+    "FotMob": {"available":true,"team_id":"8023","capabilities":["team_stats","fixtures","squad","player_stats","match_details","events","shotmaps","xG"],"source_url":"https://www.fotmob.com/teams/8023/overview/pogon-szczecin"},
+    "FBref": {"available":true,"capabilities":["season_stats","player_stats","fixtures","formations","possession"],"source_url":"https://fbref.com/en/squads/8a3f95b9/2025-2026/Pogon-Szczecin-Stats"},
+    "Sofascore": {"available":true,"capabilities":["fixtures","squad","match_events","lineups","momentum","player_stats","video_highlights_when_available"],"source_url":"https://www.sofascore.com/football/team/pogon-szczecin/3117"},
+    "Transfermarkt": {"available":true,"capabilities":["squad","contracts","market_values","transfers","staff"],"source_url":"https://www.transfermarkt.com/pogon-szczecin/startseite/verein/324/saison_id/2026"},
+    "FootyStats": {"available":true,"capabilities":["season_aggregates","shots","shots_on_target","timing_splits","downloadable_csv"],"source_url":"https://footystats.org/clubs/mks-pogon-szczecin-1225"},
+    "official_club": {"available":true,"capabilities":["official_lineups","match_reports","news","press_conferences","video_highlights_when_published"],"source_url":"https://www.pogonszczecin.pl/"}
+  },
+  "season_2026_27_verified": {
+    "matches_played": 6,
+    "results": [
+      {"date":"2026-07-24","opponent":"Legia Warszawa","venue":"home","score":"0-1","xg_for":1.08,"xg_against":3.11,"source":"FotMob/OLTA"},
+      {"date":"2026-08-03","opponent":"Cracovia","venue":"away","score":"2-0","xg_for":0.58,"xg_against":1.16,"source":"Cracovia official / matchcalendar"},
+      {"date":"2026-08-08","opponent":"Motor Lublin","venue":"home","score":"3-1","xg_for":2.25,"xg_against":0.52,"shots_for":15,"shots_on_target_for":6,"possession":44,"source":"FotMob/Match sources"},
+      {"date":"2026-08-23","opponent":"Wisła Kraków","venue":"home","score":"2-2","xg_for":1.33,"xg_against":0.86,"source":"Sofascore/Matchcalendar"},
+      {"date":"2026-08-29","opponent":"Zagłębie Lubin","venue":"away","score":"0-0","xg_for":0.82,"xg_against":1.37,"possession":37,"red_cards":1,"source":"FotMob/Sofascore/official club"}
+    ],
+    "note":"The currently verified web snapshot exposes five league matches with detailed public evidence; the sixth fixture count is retained because current season sources indicate six rounds, but no unverified sixth match is fabricated here."
+  },
+  "squad_context": {
+    "players_publicly_listed": 32,
+    "average_age":24.7,
+    "foreigners":18,
+    "foreigners_pct":56.3,
+    "market_value_eur_m":16.13,
+    "notable_current_players":["Valentin Cojocaru","Dimitrios Keramitsis","Attila Szalai","Léo Borges","Linus Wahlqvist","Kellyn Acosta","Patryk Dziczek","José Pozo","Kamil Grosicki","Paul Mukairu","Mads Agger","Musa Juwara","Jean-Pierre Nsame"],
+    "source":"Transfermarkt 2026/27"
+  },
+  "aggregate_signals": {
+    "shots_per_match":12.5,
+    "shots_on_target_per_match":5.75,
+    "shots_off_target_per_match":6.75,
+    "source":"FootyStats current 2026/27 page",
+    "xg_team_current_source":4.6,
+    "xg_team_current_source_matches":5,
+    "source_xg":"FotMob current 2026/27 team ranking",
+    "interpretation":"These aggregate values come from different provider windows and must not be combined into a single model without provenance-aware normalization."
+  },
+  "video": {
+    "available_as_public_evidence":true,
+    "examples":["Zagłębie Lubin official match highlight published 2026-08-29"],
+    "policy":"Store public video URL and timestamp/evidence reference; do not download or redistribute copyrighted footage unless permitted."
+  },
+  "analysis_ready_layers":["results","xg","shots","lineups","events","squad","transfers","contracts","video_evidence"],
+  "not_yet_verified_layers":["full_event_archive","player_heatmaps","pass_networks","pressing_zones","recoveries_by_zone","losses_by_zone","set_piece_sequences","complete_2026_27_player_advanced_stats"],
+  "quality_rule":"No hypothesis is promoted to a tactical strength or weakness until supported by a sufficient evidence sample."
+}
