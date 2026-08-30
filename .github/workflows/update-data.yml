@@ -20,10 +20,12 @@ jobs:
           python-version: '3.12'
       - name: Run FOSI scouting pipeline
         run: python engine/run_scout.py
-      - name: Commit updated scouting data
+      - name: Publish dashboard payload
+        run: python engine/publish_dashboard.py
+      - name: Commit updated scouting data and dashboard payload
         run: |
           git config user.name 'fosi-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/scouting/
-          git diff --cached --quiet || git commit -m 'data: update scouting dataset'
+          git add data/scouting/ dashboard/data.json
+          git diff --cached --quiet || git commit -m 'data: update scouting dataset and dashboard'
           git push
