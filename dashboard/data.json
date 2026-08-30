@@ -1,10 +1,24 @@
 {
-  "generated_at": null,
-  "status": "awaiting_verified_ingestion",
-  "team": {"id":"pogon-szczecin","name":"Pogoń Szczecin","competition":"Ekstraklasa","country":"Poland"},
-  "data_quality": {"score":0,"layers":{"team":"pending","matches":"pending","players":"pending","stats":"pending","events":"pending","spatial":"pending","video":"pending"}},
-  "metrics": {"form":null,"goals_for":null,"goals_against":null,"xg":null,"xga":null},
-  "insights": [],
-  "matches": [],
-  "players": []
+  "generated_at":"2026-08-30T00:00:00Z",
+  "status":"verified_partial",
+  "team":{"id":"pogon-szczecin","name":"Pogoń Szczecin","competition":"Ekstraklasa","country":"Poland","season":"2026/27"},
+  "data_quality":{"score":64,"layers":{"team":"ready","matches":"ready","players":"source-loaded","stats":"source-loaded","events":"source-loaded","spatial":"source-loaded","video":"available"}},
+  "metrics":{"form":"L-W-W-D-D","points_last5":8,"goals_for":7,"goals_against":4,"xg_avg_last5":1.21,"xga_avg_last5":1.40,"shots_per_match":12.5,"shots_on_target_per_match":5.75},
+  "threat_score":61,
+  "insights":[
+    {"kind":"strength","title":"Chance creation ceiling","evidence":"2.25 xG and 15 shots against Motor Lublin; 3 goals scored.","confidence":76},
+    {"kind":"strength","title":"Scoring from multiple phases","evidence":"Goals recorded against Cracovia, Motor Lublin and Wisła Kraków, with different scorers/assists in the public match evidence.","confidence":68},
+    {"kind":"weakness","title":"High-quality chances conceded","evidence":"1.40 xGA average across the five-match verified sample, including 3.11 xGA against Legia and 1.37 against Zagłębie.","confidence":74},
+    {"kind":"weakness","title":"Away attacking output requires monitoring","evidence":"0 goals at Zagłębie after scoring twice away at Cracovia; sample remains small.","confidence":62}
+  ],
+  "matches":[
+    {"date":"2026-07-24","home":"Pogoń Szczecin","away":"Legia Warszawa","score":"0-1","xg":"1.08-3.11"},
+    {"date":"2026-08-03","home":"Cracovia","away":"Pogoń Szczecin","score":"0-2","xg":"1.16-0.58"},
+    {"date":"2026-08-08","home":"Pogoń Szczecin","away":"Motor Lublin","score":"3-1","xg":"0.52-2.25"},
+    {"date":"2026-08-23","home":"Pogoń Szczecin","away":"Wisła Kraków","score":"2-2","xg":"1.33-0.86"},
+    {"date":"2026-08-29","home":"Zagłębie Lubin","away":"Pogoń Szczecin","score":"0-0","xg":"1.37-0.82"}
+  ],
+  "players":[],
+  "sources":["FotMob","FBref","Sofascore","Transfermarkt","FootyStats","Pogoń/club official evidence"],
+  "evidence_note":"This is a verified partial snapshot assembled from public sources. Provider conflicts are retained rather than silently merged. Spatial/tactical conclusions remain provisional until event-level data is available."
 }
