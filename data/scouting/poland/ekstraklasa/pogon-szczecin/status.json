@@ -1,12 +1,36 @@
 {
   "team_id": "pogon-szczecin",
   "team_name": "Pogoń Szczecin",
+  "competition": "Ekstraklasa",
+  "country": "Poland",
   "provider_ids": {
     "fotmob": "8023"
   },
   "collector": "fotmob",
-  "status": "error",
-  "started_at": "2026-08-30T03:19:54.357370+00:00",
-  "error": "HTTP Error 404: Not Found",
-  "data_score": 0
+  "status": "success",
+  "started_at": "2026-08-31T06:12:01.909131+00:00",
+  "last_successful_update": "2026-08-31T06:12:04.355933+00:00",
+  "match_count": 6,
+  "match_detail_errors": [],
+  "layers": {
+    "team": "ready",
+    "matches": "ready",
+    "players": "source-loaded",
+    "stats": "source-loaded",
+    "events": "source-loaded",
+    "spatial": "source-loaded",
+    "video": "pending"
+  },
+  "data_score": 90,
+  "selected_target": {
+    "enabled": true,
+    "country": "Poland",
+    "competition": "Ekstraklasa",
+    "team": "Pogoń Szczecin",
+    "team_id": "pogon-szczecin",
+    "provider_ids": {
+      "fotmob": "8023"
+    },
+    "last_team_id": null
+  }
 }
