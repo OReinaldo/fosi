@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "strategy": "maximum-public-coverage",
+  "sources": [
+    {"id":"fotmob","priority":1,"enabled":true,"layers":["fixtures","results","team_stats","player_stats","match_events","shots","xg","lineups","substitutions","cards","spatial_events"]},
+    {"id":"sofascore","priority":2,"enabled":true,"layers":["fixtures","results","team_stats","player_stats","events","shots","xg","lineups","momentum","heatmaps","player_ratings"]},
+    {"id":"fbref","priority":3,"enabled":true,"layers":["standard_stats","shooting","passing","possession","defense","misc","keeper","playing_time","advanced_stats"]},
+    {"id":"transfermarkt","priority":4,"enabled":true,"layers":["squad","positions","minutes","contracts","market_value","transfers","injuries","suspensions"]},
+    {"id":"footystats","priority":5,"enabled":true,"layers":["fixtures","results","team_form","goals","corners","cards","halves","clean_sheets","btts","over_under"]},
+    {"id":"club_official","priority":6,"enabled":true,"layers":["squad","news","fixtures","press_releases","coach_comments"]},
+    {"id":"competition_official","priority":7,"enabled":true,"layers":["fixtures","tables","disciplinary","official_match_data"]}
+  ],
+  "rules": {"never_invent":true,"preserve_raw":true,"store_source_provenance":true,"deduplicate_by_match_and_provider":true,"continue_on_source_failure":true}
+}
