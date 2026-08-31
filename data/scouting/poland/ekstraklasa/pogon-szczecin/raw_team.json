@@ -1744,6 +1744,34 @@
               "qualColor": null
             },
             {
+              "name": "Wisła Płock",
+              "shortName": "Wisła Płock",
+              "id": 8243,
+              "pageUrl": "/teams/8243/overview/wisa-pock",
+              "featuredInMatch": false,
+              "ongoing": null,
+              "played": 5,
+              "wins": 1,
+              "draws": 1,
+              "losses": 3,
+              "scoresStr": "3-10",
+              "goalConDiff": -7,
+              "pts": 4,
+              "teamId": 8243,
+              "teamName": "Wisła Płock",
+              "xg": 8.359599947929382,
+              "xgConceded": 8.59390014410019,
+              "xPoints": 6.650717149392469,
+              "position": 9,
+              "xgDiff": -5.359599947929382,
+              "xgConcededDiff": 1.4060998558998108,
+              "xPointsDiff": -2.6507171493924693,
+              "xPosition": 9,
+              "idx": 9,
+              "xPositionDiff": 7,
+              "qualColor": null
+            },
+            {
               "name": "Pogoń Szczecin",
               "shortName": "Pogoń Szczecin",
               "id": 8023,
@@ -1762,41 +1790,13 @@
               "xg": 6.860300123691559,
               "xgConceded": 7.4888999462127686,
               "xPoints": 6.6350981381838015,
-              "position": 9,
+              "position": 10,
               "xgDiff": 0.13969987630844116,
               "xgConcededDiff": -3.4888999462127686,
               "xPointsDiff": 1.3649018618161985,
-              "xPosition": 9,
-              "idx": 9,
-              "xPositionDiff": -2,
-              "qualColor": null
-            },
-            {
-              "name": "Wisła Płock",
-              "shortName": "Wisła Płock",
-              "id": 8243,
-              "pageUrl": "/teams/8243/overview/wisa-pock",
-              "featuredInMatch": false,
-              "ongoing": null,
-              "played": 5,
-              "wins": 1,
-              "draws": 1,
-              "losses": 3,
-              "scoresStr": "3-10",
-              "goalConDiff": -7,
-              "pts": 4,
-              "teamId": 8243,
-              "teamName": "Wisła Płock",
-              "xg": 8.22439992427826,
-              "xgConceded": 8.604600191116333,
-              "xPoints": 6.572447900531818,
-              "position": 10,
-              "xgDiff": -5.224399924278259,
-              "xgConcededDiff": 1.395399808883667,
-              "xPointsDiff": -2.5724479005318184,
               "xPosition": 10,
               "idx": 10,
-              "xPositionDiff": 6,
+              "xPositionDiff": -3,
               "qualColor": null
             },
             {
@@ -1983,13 +1983,13 @@
               "pts": 8,
               "teamId": 8245,
               "teamName": "Korona Kielce",
-              "xg": 5.649500012397766,
-              "xgConceded": 8.055900037288666,
-              "xPoints": 5.070295340004302,
+              "xg": 5.638799965381622,
+              "xgConceded": 8.191100060939789,
+              "xPoints": 5.008439674464973,
               "position": 17,
-              "xgDiff": 0.3504999876022339,
-              "xgConcededDiff": -4.055900037288666,
-              "xPointsDiff": 2.929704659995698,
+              "xgDiff": 0.3612000346183777,
+              "xgConcededDiff": -4.191100060939789,
+              "xPointsDiff": 2.991560325535027,
               "xPosition": 17,
               "idx": 17,
               "xPositionDiff": -9,
@@ -5404,6 +5404,40 @@
       ],
       "Players out": [
         {
+          "name": "Mads Agger",
+          "playerId": 1183326,
+          "position": {
+            "label": "RW",
+            "key": "rightwinger_short"
+          },
+          "transferDate": "2026-08-31T20:55:23Z",
+          "transferText": [
+            "To",
+            8428,
+            "Häcken"
+          ],
+          "fromClub": "Pogoń Szczecin",
+          "fromClubFullName": "Pogoń Szczecin",
+          "fromClubId": 8023,
+          "toClub": "Häcken",
+          "toClubFullName": "Häcken",
+          "toClubId": 8428,
+          "fee": {
+            "feeText": "on loan",
+            "localizedFeeText": "on_loan"
+          },
+          "amountEuroEstimated": null,
+          "transferType": {
+            "text": "on loan",
+            "localizationKey": "on_loan"
+          },
+          "contractExtension": false,
+          "onLoan": true,
+          "fromDate": "2026-08-31T00:00:00Z",
+          "toDate": "2026-12-31T00:00:00Z",
+          "marketValue": 981221
+        },
+        {
           "name": "Karol Angielski",
           "playerId": 414552,
           "position": {
@@ -6092,6 +6126,40 @@
       ]
     },
     "allTransfers": [
+      {
+        "name": "Mads Agger",
+        "playerId": 1183326,
+        "position": {
+          "label": "RW",
+          "key": "rightwinger_short"
+        },
+        "transferDate": "2026-08-31T20:55:23Z",
+        "transferText": [
+          "To",
+          8428,
+          "Häcken"
+        ],
+        "fromClub": "Pogoń Szczecin",
+        "fromClubFullName": "Pogoń Szczecin",
+        "fromClubId": 8023,
+        "toClub": "Häcken",
+        "toClubFullName": "Häcken",
+        "toClubId": 8428,
+        "fee": {
+          "feeText": "on loan",
+          "localizedFeeText": "on_loan"
+        },
+        "amountEuroEstimated": null,
+        "transferType": {
+          "text": "on loan",
+          "localizationKey": "on_loan"
+        },
+        "contractExtension": false,
+        "onLoan": true,
+        "fromDate": "2026-08-31T00:00:00Z",
+        "toDate": "2026-12-31T00:00:00Z",
+        "marketValue": 981221
+      },
       {
         "name": "Karol Angielski",
         "playerId": 414552,
@@ -8827,6 +8895,34 @@
                 "qualColor": null
               },
               {
+                "name": "Wisła Płock",
+                "shortName": "Wisła Płock",
+                "id": 8243,
+                "pageUrl": "/teams/8243/overview/wisa-pock",
+                "featuredInMatch": false,
+                "ongoing": null,
+                "played": 5,
+                "wins": 1,
+                "draws": 1,
+                "losses": 3,
+                "scoresStr": "3-10",
+                "goalConDiff": -7,
+                "pts": 4,
+                "teamId": 8243,
+                "teamName": "Wisła Płock",
+                "xg": 8.359599947929382,
+                "xgConceded": 8.59390014410019,
+                "xPoints": 6.650717149392469,
+                "position": 9,
+                "xgDiff": -5.359599947929382,
+                "xgConcededDiff": 1.4060998558998108,
+                "xPointsDiff": -2.6507171493924693,
+                "xPosition": 9,
+                "idx": 9,
+                "xPositionDiff": 7,
+                "qualColor": null
+              },
+              {
                 "name": "Pogoń Szczecin",
                 "shortName": "Pogoń Szczecin",
                 "id": 8023,
@@ -8845,41 +8941,13 @@
                 "xg": 6.860300123691559,
                 "xgConceded": 7.4888999462127686,
                 "xPoints": 6.6350981381838015,
-                "position": 9,
+                "position": 10,
                 "xgDiff": 0.13969987630844116,
                 "xgConcededDiff": -3.4888999462127686,
                 "xPointsDiff": 1.3649018618161985,
-                "xPosition": 9,
-                "idx": 9,
-                "xPositionDiff": -2,
-                "qualColor": null
-              },
-              {
-                "name": "Wisła Płock",
-                "shortName": "Wisła Płock",
-                "id": 8243,
-                "pageUrl": "/teams/8243/overview/wisa-pock",
-                "featuredInMatch": false,
-                "ongoing": null,
-                "played": 5,
-                "wins": 1,
-                "draws": 1,
-                "losses": 3,
-                "scoresStr": "3-10",
-                "goalConDiff": -7,
-                "pts": 4,
-                "teamId": 8243,
-                "teamName": "Wisła Płock",
-                "xg": 8.22439992427826,
-                "xgConceded": 8.604600191116333,
-                "xPoints": 6.572447900531818,
-                "position": 10,
-                "xgDiff": -5.224399924278259,
-                "xgConcededDiff": 1.395399808883667,
-                "xPointsDiff": -2.5724479005318184,
                 "xPosition": 10,
                 "idx": 10,
-                "xPositionDiff": 6,
+                "xPositionDiff": -3,
                 "qualColor": null
               },
               {
@@ -9066,13 +9134,13 @@
                 "pts": 8,
                 "teamId": 8245,
                 "teamName": "Korona Kielce",
-                "xg": 5.649500012397766,
-                "xgConceded": 8.055900037288666,
-                "xPoints": 5.070295340004302,
+                "xg": 5.638799965381622,
+                "xgConceded": 8.191100060939789,
+                "xPoints": 5.008439674464973,
                 "position": 17,
-                "xgDiff": 0.3504999876022339,
-                "xgConcededDiff": -4.055900037288666,
-                "xPointsDiff": 2.929704659995698,
+                "xgDiff": 0.3612000346183777,
+                "xgConcededDiff": -4.191100060939789,
+                "xPointsDiff": 2.991560325535027,
                 "xPosition": 17,
                 "idx": 17,
                 "xPositionDiff": -9,
@@ -13753,7 +13821,40 @@
         "cancelled": false,
         "finished": false
       },
-      "odds": null,
+      "odds": {
+        "persistentKey": "SuperBet_Poland",
+        "providerId": "99999",
+        "logoUrl": "https://images.fotmob.com/images/betting/superbet",
+        "promoText": {
+          "lang": "en",
+          "text": "Sign up with Superbet today!",
+          "text2": "",
+          "link": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c=",
+          "linkIOS": "",
+          "linkWeb": "",
+          "callToAction": ""
+        },
+        "ongoing": false,
+        "callToActionLink": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c=",
+        "betBoostMarkets": null,
+        "odds": {
+          "resolvedOddsMarket": null
+        },
+        "restrictions": {
+          "disableLiveOdds": false,
+          "excludedLeagueIds": [
+            "11548",
+            "11648"
+          ],
+          "excludedMatchIds": [
+            "5159283",
+            "5159284",
+            "5159285",
+            "5214835",
+            "5333731"
+          ]
+        }
+      },
       "liveTime": {
         "short": "1‎’‎",
         "shortKey": "",
@@ -15945,6 +16046,40 @@
         ],
         "Players out": [
           {
+            "name": "Mads Agger",
+            "playerId": 1183326,
+            "position": {
+              "label": "RW",
+              "key": "rightwinger_short"
+            },
+            "transferDate": "2026-08-31T20:55:23Z",
+            "transferText": [
+              "To",
+              8428,
+              "Häcken"
+            ],
+            "fromClub": "Pogoń Szczecin",
+            "fromClubFullName": "Pogoń Szczecin",
+            "fromClubId": 8023,
+            "toClub": "Häcken",
+            "toClubFullName": "Häcken",
+            "toClubId": 8428,
+            "fee": {
+              "feeText": "on loan",
+              "localizedFeeText": "on_loan"
+            },
+            "amountEuroEstimated": null,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            },
+            "contractExtension": false,
+            "onLoan": true,
+            "fromDate": "2026-08-31T00:00:00Z",
+            "toDate": "2026-12-31T00:00:00Z",
+            "marketValue": 981221
+          },
+          {
             "name": "Karol Angielski",
             "playerId": 414552,
             "position": {
@@ -16633,6 +16768,40 @@
         ]
       },
       "allTransfers": [
+        {
+          "name": "Mads Agger",
+          "playerId": 1183326,
+          "position": {
+            "label": "RW",
+            "key": "rightwinger_short"
+          },
+          "transferDate": "2026-08-31T20:55:23Z",
+          "transferText": [
+            "To",
+            8428,
+            "Häcken"
+          ],
+          "fromClub": "Pogoń Szczecin",
+          "fromClubFullName": "Pogoń Szczecin",
+          "fromClubId": 8023,
+          "toClub": "Häcken",
+          "toClubFullName": "Häcken",
+          "toClubId": 8428,
+          "fee": {
+            "feeText": "on loan",
+            "localizedFeeText": "on_loan"
+          },
+          "amountEuroEstimated": null,
+          "transferType": {
+            "text": "on loan",
+            "localizationKey": "on_loan"
+          },
+          "contractExtension": false,
+          "onLoan": true,
+          "fromDate": "2026-08-31T00:00:00Z",
+          "toDate": "2026-12-31T00:00:00Z",
+          "marketValue": 981221
+        },
         {
           "name": "Karol Angielski",
           "playerId": 414552,
@@ -18468,7 +18637,7 @@
         "participant": {
           "id": 316558,
           "name": "Jean Pierre Nsame",
-          "rank": 19,
+          "rank": 18,
           "ccode": "CMR",
           "teamId": 8023,
           "teamName": "Pogoń Szczecin",
@@ -18485,7 +18654,7 @@
           {
             "id": 316558,
             "name": "Jean Pierre Nsame",
-            "rank": 19,
+            "rank": 18,
             "ccode": "CMR",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
@@ -19407,7 +19576,7 @@
           {
             "id": 1439702,
             "name": "Filip Cuic",
-            "rank": 55,
+            "rank": 54,
             "ccode": "BIH",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
@@ -19700,7 +19869,7 @@
         "participant": {
           "id": 1188767,
           "name": "Léo Borges",
-          "rank": 29,
+          "rank": 30,
           "ccode": "BRA",
           "teamId": 8023,
           "teamName": "Pogoń Szczecin",
@@ -19717,7 +19886,7 @@
           {
             "id": 1188767,
             "name": "Léo Borges",
-            "rank": 29,
+            "rank": 30,
             "ccode": "BRA",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
@@ -20278,14 +20447,14 @@
         "participant": {
           "id": 289211,
           "name": "Valentin Cojocaru",
-          "rank": 2,
+          "rank": 1,
           "ccode": "ROU",
           "teamId": 8023,
           "teamName": "Pogoń Szczecin",
-          "value": 2.1,
+          "value": 3.1,
           "stat": {
             "name": "_goals_prevented",
-            "value": 2.1,
+            "value": 3.1,
             "format": "fraction",
             "fractions": 1
           }
@@ -20295,14 +20464,14 @@
           {
             "id": 289211,
             "name": "Valentin Cojocaru",
-            "rank": 2,
+            "rank": 1,
             "ccode": "ROU",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
-            "value": 2.1,
+            "value": 3.1,
             "stat": {
               "name": "_goals_prevented",
-              "value": 2.1,
+              "value": 3.1,
               "format": "fraction",
               "fractions": 1
             },
@@ -21034,10 +21203,10 @@
             "rank": 1,
             "ccode": "POL",
             "teamId": 10265,
-            "value": 32172,
+            "value": 32448,
             "stat": {
               "name": "home_attendance_team",
-              "value": 32172,
+              "value": 32448,
               "format": "number",
               "fractions": 0
             },
@@ -21370,10 +21539,10 @@
             "rank": 1,
             "ccode": "POL",
             "teamId": 10265,
-            "value": 22,
+            "value": 23,
             "stat": {
               "name": "big_chance_team",
-              "value": 22,
+              "value": 23,
               "format": "number",
               "fractions": 0
             },
@@ -21807,13 +21976,13 @@
           {
             "id": 0,
             "name": "Legia Warszawa",
-            "rank": 2,
+            "rank": 1,
             "ccode": "POL",
             "teamId": 8673,
-            "value": 177,
+            "value": 178,
             "stat": {
               "name": "touches_in_opp_box_team",
-              "value": 177,
+              "value": 178,
               "format": "number",
               "fractions": 0
             },
