@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.6",
-  "generated_at": "2026-09-01T07:51:52.045163+00:00",
-  "status": "verified_partial",
+  "schema_version": "0.7",
+  "generated_at": "2026-09-01T07:52:13.075377+00:00",
+  "status": "success",
   "team": {
     "id": "pogon-szczecin",
     "name": "Pogoń Szczecin",
@@ -9,7 +9,7 @@
     "country": "Poland"
   },
   "metrics": {
-    "form": "?????",
+    "form": null,
     "goals_for": 0,
     "goals_against": 0,
     "xg": 1.37,
@@ -116,8 +116,27 @@
   "sources": [
     {
       "provider": "FotMob",
-      "type": "team + match details",
-      "retrieved": "2026-09-01T07:51:52.045176+00:00"
+      "status": "configured"
+    },
+    {
+      "provider": "FBref",
+      "status": "configured"
+    },
+    {
+      "provider": "Sofascore",
+      "status": "configured"
+    },
+    {
+      "provider": "Transfermarkt",
+      "status": "configured"
+    },
+    {
+      "provider": "Understat",
+      "status": "configured"
+    },
+    {
+      "provider": "Official club",
+      "status": "configured"
     }
   ]
 }
