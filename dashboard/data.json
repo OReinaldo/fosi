@@ -1,7 +1,7 @@
 {
   "schema_version": "0.7",
-  "generated_at": "2026-09-01T20:05:21.840557+00:00",
-  "status": "success",
+  "generated_at": "2026-09-01T20:06:00.662877+00:00",
+  "status": "awaiting_verified_ingestion",
   "team": {
     "id": "pogon-szczecin",
     "name": "Pogoń Szczecin",
@@ -103,13 +103,12 @@
   "data_quality": {
     "score": 90,
     "layers": {
-      "team": "ready",
-      "matches": "ready",
-      "players": "source-loaded",
-      "stats": "source-loaded",
-      "events": "source-loaded",
-      "spatial": "source-loaded",
-      "video": "pending"
+      "team": "available",
+      "players": "available",
+      "matches": "available",
+      "stats": "available",
+      "events": "available",
+      "spatial": "available"
     },
     "sample_matches": 6
   },
