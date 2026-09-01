@@ -9,7 +9,7 @@ def main():
     if not cfg.get("enabled") or not cfg.get("team"): print("FOSI: no active scouting target; nothing to do"); return
     target=cfg.get("team_id") or cfg["team"].lower().replace(" ","-");root=ROOT/cfg["country"].lower().replace(" ","-")/cfg["competition"].lower().replace(" ","-")/target;root.mkdir(parents=True,exist_ok=True)
     previous=(root/"master-status.json").exists();results=[]
-    for collector in ["collectors/fotmob_collector.py","collectors/sofascore_collector.py","collectors/understat_collector.py"]:
+    for collector in ["collectors/fotmob_collector.py","collectors/sofascore_collector.py","collectors/understat_collector.py","collectors/site_collector.py"]:
         p=subprocess.run(["python",collector],capture_output=True,text=True);results.append({"collector":collector,"returncode":p.returncode,"stdout":p.stdout[-2000:],"stderr":p.stderr[-4000:]})
         if p.returncode:print(p.stderr);raise subprocess.CalledProcessError(p.returncode,collector)
     statuses={"sources":[],"layers":{},"target":cfg,"updated_at":datetime.now(timezone.utc).isoformat(),"update_mode":"incremental" if previous else "initial","collectors":results}
