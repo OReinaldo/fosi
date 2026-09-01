@@ -22,8 +22,22 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
+      - name: Apply requested scouting target
+        run: |
+          python - <<'PY'
+          import json, os, re
+          from pathlib import Path
+          p=Path('config/selected-scout.json')
+          d=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
+          country=os.environ['FOSI_COUNTRY']; competition=os.environ['FOSI_COMPETITION']; team=os.environ['FOSI_TEAM']
+          slug=re.sub(r'[^a-z0-9]+','-',team.lower()).strip('-')
+          d.update({'enabled':True,'country':country,'competition':competition,'team':team,'team_id':slug})
+          p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
       - name: Run selected-target acquisition
         run: python engine/run_scout.py
+      - name: Build spatial evidence index
+        run: python engine/spatial.py
       - name: Publish dashboard payload
         run: python engine/publish_dashboard.py
       - name: Validate dashboard payload
