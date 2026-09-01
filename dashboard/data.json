@@ -1,6 +1,6 @@
 {
   "schema_version": "0.8",
-  "generated_at": "2026-09-01T20:06:34.256158+00:00",
+  "generated_at": "2026-09-01T20:07:01.707701+00:00",
   "status": "awaiting_verified_ingestion",
   "team": {
     "id": "pogon-szczecin",
@@ -118,9 +118,18 @@
     },
     "sources": [
       {
+        "source": "understat",
+        "retrieved_at": "2026-09-01T20:07:01.384358+00:00",
+        "layers": {},
+        "records": {},
+        "errors": [],
+        "status": "not_applicable",
+        "reason": "competition is outside Understat supported league set"
+      },
+      {
         "source": "fotmob",
         "status": "success",
-        "retrieved_at": "2026-09-01T20:06:33.366707+00:00",
+        "retrieved_at": "2026-09-01T20:07:00.395189+00:00",
         "layers": {
           "team": "available",
           "players": "available",
@@ -139,7 +148,7 @@
       {
         "source": "sofascore",
         "status": "error",
-        "retrieved_at": "2026-09-01T20:06:34.054414+00:00",
+        "retrieved_at": "2026-09-01T20:07:01.236300+00:00",
         "team": "Pogoń Szczecin",
         "layers": {},
         "records": {},
@@ -154,9 +163,18 @@
   },
   "sources": [
     {
+      "source": "understat",
+      "retrieved_at": "2026-09-01T20:07:01.384358+00:00",
+      "layers": {},
+      "records": {},
+      "errors": [],
+      "status": "not_applicable",
+      "reason": "competition is outside Understat supported league set"
+    },
+    {
       "source": "fotmob",
       "status": "success",
-      "retrieved_at": "2026-09-01T20:06:33.366707+00:00",
+      "retrieved_at": "2026-09-01T20:07:00.395189+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -175,7 +193,7 @@
     {
       "source": "sofascore",
       "status": "error",
-      "retrieved_at": "2026-09-01T20:06:34.054414+00:00",
+      "retrieved_at": "2026-09-01T20:07:01.236300+00:00",
       "team": "Pogoń Szczecin",
       "layers": {},
       "records": {},

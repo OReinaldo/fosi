@@ -1,9 +1,18 @@
 {
   "sources": [
     {
+      "source": "understat",
+      "retrieved_at": "2026-09-01T20:07:01.384358+00:00",
+      "layers": {},
+      "records": {},
+      "errors": [],
+      "status": "not_applicable",
+      "reason": "competition is outside Understat supported league set"
+    },
+    {
       "source": "fotmob",
       "status": "success",
-      "retrieved_at": "2026-09-01T20:06:33.366707+00:00",
+      "retrieved_at": "2026-09-01T20:07:00.395189+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -22,7 +31,7 @@
     {
       "source": "sofascore",
       "status": "error",
-      "retrieved_at": "2026-09-01T20:06:34.054414+00:00",
+      "retrieved_at": "2026-09-01T20:07:01.236300+00:00",
       "team": "Pogoń Szczecin",
       "layers": {},
       "records": {},
@@ -53,7 +62,7 @@
     },
     "last_team_id": null
   },
-  "updated_at": "2026-09-01T20:06:34.131742+00:00",
+  "updated_at": "2026-09-01T20:07:01.392331+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
@@ -64,6 +73,12 @@
     },
     {
       "collector": "collectors/sofascore_collector.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "collector": "collectors/understat_collector.py",
       "returncode": 0,
       "stdout": "",
       "stderr": ""
