@@ -1,6 +1,6 @@
 {
-  "schema_version": "0.7",
-  "generated_at": "2026-09-01T20:06:00.662877+00:00",
+  "schema_version": "0.8",
+  "generated_at": "2026-09-01T20:06:34.256158+00:00",
   "status": "awaiting_verified_ingestion",
   "team": {
     "id": "pogon-szczecin",
@@ -27,7 +27,8 @@
       "goals_for": null,
       "goals_against": null,
       "xg_for": 1.43,
-      "xg_against": 0.87
+      "xg_against": 0.87,
+      "source": "FotMob"
     },
     {
       "id": 5904696,
@@ -39,7 +40,8 @@
       "goals_for": null,
       "goals_against": null,
       "xg_for": null,
-      "xg_against": null
+      "xg_against": null,
+      "source": "FotMob"
     },
     {
       "id": 5803936,
@@ -51,7 +53,8 @@
       "goals_for": null,
       "goals_against": null,
       "xg_for": 2.39,
-      "xg_against": 0.89
+      "xg_against": 0.89,
+      "source": "FotMob"
     },
     {
       "id": 5803967,
@@ -63,7 +66,8 @@
       "goals_for": null,
       "goals_against": null,
       "xg_for": 0.71,
-      "xg_against": 1.53
+      "xg_against": 1.53,
+      "source": "FotMob"
     },
     {
       "id": 5803923,
@@ -75,7 +79,8 @@
       "goals_for": null,
       "goals_against": null,
       "xg_for": 1.22,
-      "xg_against": 1.4
+      "xg_against": 1.4,
+      "source": "FotMob"
     },
     {
       "id": 5803899,
@@ -87,11 +92,12 @@
       "goals_for": null,
       "goals_against": null,
       "xg_for": 1.01,
-      "xg_against": 2.96
+      "xg_against": 2.96,
+      "source": "FotMob"
     }
   ],
   "players": [],
-  "threat_score": 48,
+  "threat_score": null,
   "insights": [
     {
       "kind": "weakness",
@@ -110,32 +116,74 @@
       "events": "available",
       "spatial": "available"
     },
+    "sources": [
+      {
+        "source": "fotmob",
+        "status": "success",
+        "retrieved_at": "2026-09-01T20:06:33.366707+00:00",
+        "layers": {
+          "team": "available",
+          "players": "available",
+          "matches": "available",
+          "stats": "available",
+          "events": "available",
+          "spatial": "available"
+        },
+        "records": {
+          "team": 1,
+          "matches": 6,
+          "match_details": 6
+        },
+        "errors": []
+      },
+      {
+        "source": "sofascore",
+        "status": "error",
+        "retrieved_at": "2026-09-01T20:06:34.054414+00:00",
+        "team": "Pogoń Szczecin",
+        "layers": {},
+        "records": {},
+        "errors": [
+          {
+            "fatal": "HTTP Error 403: Forbidden"
+          }
+        ]
+      }
+    ],
     "sample_matches": 6
   },
   "sources": [
     {
-      "provider": "FotMob",
-      "status": "configured"
+      "source": "fotmob",
+      "status": "success",
+      "retrieved_at": "2026-09-01T20:06:33.366707+00:00",
+      "layers": {
+        "team": "available",
+        "players": "available",
+        "matches": "available",
+        "stats": "available",
+        "events": "available",
+        "spatial": "available"
+      },
+      "records": {
+        "team": 1,
+        "matches": 6,
+        "match_details": 6
+      },
+      "errors": []
     },
     {
-      "provider": "FBref",
-      "status": "configured"
-    },
-    {
-      "provider": "Sofascore",
-      "status": "configured"
-    },
-    {
-      "provider": "Transfermarkt",
-      "status": "configured"
-    },
-    {
-      "provider": "Understat",
-      "status": "configured"
-    },
-    {
-      "provider": "Official club",
-      "status": "configured"
+      "source": "sofascore",
+      "status": "error",
+      "retrieved_at": "2026-09-01T20:06:34.054414+00:00",
+      "team": "Pogoń Szczecin",
+      "layers": {},
+      "records": {},
+      "errors": [
+        {
+          "fatal": "HTTP Error 403: Forbidden"
+        }
+      ]
     }
   ]
 }
