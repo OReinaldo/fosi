@@ -1,12 +1,13 @@
 {
-  "version": 1,
+  "version": 2,
   "sources": [
-    {"id":"fotmob","name":"FotMob","priority":1,"layers":["team","matches","players","stats","events","shots","spatial"]},
-    {"id":"fbref","name":"FBref","priority":2,"layers":["matches","players","team_stats","shooting","passing","defense","possession"]},
-    {"id":"sofascore","name":"Sofascore","priority":3,"layers":["matches","events","shots","lineups","stats","heatmaps"]},
-    {"id":"transfermarkt","name":"Transfermarkt","priority":4,"layers":["squad","transfers","coach","availability"]},
-    {"id":"understat","name":"Understat","priority":5,"layers":["xg","shots","players"]},
-    {"id":"club","name":"Official club sources","priority":6,"layers":["news","squad","video","context"]}
+    {"id":"fotmob","name":"FotMob","priority":1,"adapter":"collectors/fotmob_collector.py","mode":"public_json","layers":["team","matches","players","stats","events","shots","spatial"]},
+    {"id":"sofascore","name":"Sofascore","priority":2,"adapter":"collectors/sofascore_collector.py","mode":"public_json","layers":["team","squad","matches","events","shots","lineups","stats","graph","spatial"]},
+    {"id":"fbref","name":"FBref","priority":3,"adapter":null,"mode":"compliance_gated","layers":["matches","players","team_stats","shooting","passing","defense","possession"]},
+    {"id":"understat","name":"Understat","priority":4,"adapter":"collectors/understat_collector.py","mode":"public_grey","layers":["xg","shots","players"],"applicability":"limited_competitions"},
+    {"id":"transfermarkt","name":"Transfermarkt","priority":5,"adapter":null,"mode":"compliance_gated","layers":["squad","transfers","coach","availability"]},
+    {"id":"club","name":"Official club sources","priority":6,"adapter":null,"mode":"site_specific","layers":["news","squad","video","context"]},
+    {"id":"competition","name":"Official competition sources","priority":7,"adapter":null,"mode":"site_specific","layers":["fixtures","standings","news","video","discipline"]}
   ],
-  "policy":"Attempt every applicable source. Store raw responses separately, normalize into the FOSI schema, preserve provenance and never fabricate unavailable fields. Respect each source's access and usage terms."
+  "policy":"Attempt every applicable source. Preserve raw provider responses, normalize later, retain provenance and retrieval timestamps. Never fabricate unavailable fields. Compliance-gated sources must not be automated until their access terms permit it."
 }
