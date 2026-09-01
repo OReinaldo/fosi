@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.8",
-  "generated_at": "2026-09-01T20:08:10.058092+00:00",
-  "status": "awaiting_verified_ingestion",
+  "schema_version": "0.9",
+  "generated_at": "2026-09-01T20:15:20.393211+00:00",
+  "status": "verified_partial",
   "team": {
     "id": "pogon-szczecin",
     "name": "Pogoń Szczecin",
@@ -9,88 +9,88 @@
     "country": "Poland"
   },
   "metrics": {
-    "form": null,
-    "goals_for": 0,
-    "goals_against": 0,
+    "form": "DLWDW",
+    "goals_for": 7,
+    "goals_against": 8,
     "xg": 1.35,
     "xga": 1.53,
     "matches_sample": 6
   },
   "matches": [
     {
-      "id": 5803955,
+      "id": "5803955",
       "date": "Sun, Aug 23, 2026, 18:15 UTC",
       "home": "Pogoń Szczecin",
       "away": "Wisła Kraków",
       "finished": true,
-      "score": null,
-      "goals_for": null,
-      "goals_against": null,
+      "score": "2 - 2",
+      "goals_for": 2,
+      "goals_against": 2,
       "xg_for": 1.43,
       "xg_against": 0.87,
       "source": "FotMob"
     },
     {
-      "id": 5904696,
+      "id": "5904696",
       "date": "Sat, Jul 11, 2026, 17:30 UTC",
       "home": "Fenerbahçe",
       "away": "Pogoń Szczecin",
       "finished": true,
-      "score": null,
-      "goals_for": null,
-      "goals_against": null,
+      "score": "4 - 0",
+      "goals_for": 0,
+      "goals_against": 4,
       "xg_for": null,
       "xg_against": null,
       "source": "FotMob"
     },
     {
-      "id": 5803936,
+      "id": "5803936",
       "date": "Sat, Aug 8, 2026, 15:30 UTC",
       "home": "Pogoń Szczecin",
       "away": "Motor Lublin",
       "finished": true,
-      "score": null,
-      "goals_for": null,
-      "goals_against": null,
+      "score": "3 - 1",
+      "goals_for": 3,
+      "goals_against": 1,
       "xg_for": 2.39,
       "xg_against": 0.89,
       "source": "FotMob"
     },
     {
-      "id": 5803967,
+      "id": "5803967",
       "date": "Sat, Aug 29, 2026, 18:15 UTC",
       "home": "Zagłębie Lubin",
       "away": "Pogoń Szczecin",
       "finished": true,
-      "score": null,
-      "goals_for": null,
-      "goals_against": null,
+      "score": "0 - 0",
+      "goals_for": 0,
+      "goals_against": 0,
       "xg_for": 0.71,
       "xg_against": 1.53,
       "source": "FotMob"
     },
     {
-      "id": 5803923,
+      "id": "5803923",
       "date": "Mon, Aug 3, 2026, 17:00 UTC",
       "home": "Cracovia",
       "away": "Pogoń Szczecin",
       "finished": true,
-      "score": null,
-      "goals_for": null,
-      "goals_against": null,
+      "score": "0 - 2",
+      "goals_for": 2,
+      "goals_against": 0,
       "xg_for": 1.22,
       "xg_against": 1.4,
       "source": "FotMob"
     },
     {
-      "id": 5803899,
+      "id": "5803899",
       "date": "Fri, Jul 24, 2026, 18:30 UTC",
       "home": "Pogoń Szczecin",
       "away": "Legia Warszawa",
       "finished": true,
-      "score": null,
-      "goals_for": null,
-      "goals_against": null,
+      "score": "0 - 1",
+      "goals_for": 0,
+      "goals_against": 1,
       "xg_for": 1.01,
       "xg_against": 2.96,
       "source": "FotMob"
@@ -120,7 +120,7 @@
     "sources": [
       {
         "source": "understat",
-        "retrieved_at": "2026-09-01T20:08:08.199519+00:00",
+        "retrieved_at": "2026-09-01T20:15:18.955467+00:00",
         "layers": {},
         "records": {},
         "errors": [],
@@ -130,12 +130,12 @@
       {
         "source": "official-sites",
         "status": "partial",
-        "retrieved_at": "2026-09-01T20:08:08.252342+00:00",
+        "retrieved_at": "2026-09-01T20:15:19.017135+00:00",
         "layers": {
           "news": "available"
         },
         "records": {
-          "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215645
+          "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215598
         },
         "errors": [
           {
@@ -147,7 +147,7 @@
       {
         "source": "fotmob",
         "status": "success",
-        "retrieved_at": "2026-09-01T20:08:07.570053+00:00",
+        "retrieved_at": "2026-09-01T20:15:17.532366+00:00",
         "layers": {
           "team": "available",
           "players": "available",
@@ -167,7 +167,7 @@
       {
         "source": "sofascore",
         "status": "error",
-        "retrieved_at": "2026-09-01T20:08:08.071369+00:00",
+        "retrieved_at": "2026-09-01T20:15:18.750258+00:00",
         "team": "Pogoń Szczecin",
         "layers": {},
         "records": {},
@@ -183,7 +183,7 @@
   "sources": [
     {
       "source": "understat",
-      "retrieved_at": "2026-09-01T20:08:08.199519+00:00",
+      "retrieved_at": "2026-09-01T20:15:18.955467+00:00",
       "layers": {},
       "records": {},
       "errors": [],
@@ -193,12 +193,12 @@
     {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-01T20:08:08.252342+00:00",
+      "retrieved_at": "2026-09-01T20:15:19.017135+00:00",
       "layers": {
         "news": "available"
       },
       "records": {
-        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215645
+        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215598
       },
       "errors": [
         {
@@ -210,7 +210,7 @@
     {
       "source": "fotmob",
       "status": "success",
-      "retrieved_at": "2026-09-01T20:08:07.570053+00:00",
+      "retrieved_at": "2026-09-01T20:15:17.532366+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -230,7 +230,7 @@
     {
       "source": "sofascore",
       "status": "error",
-      "retrieved_at": "2026-09-01T20:08:08.071369+00:00",
+      "retrieved_at": "2026-09-01T20:15:18.750258+00:00",
       "team": "Pogoń Szczecin",
       "layers": {},
       "records": {},
