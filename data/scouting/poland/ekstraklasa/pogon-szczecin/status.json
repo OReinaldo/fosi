@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "understat",
-      "retrieved_at": "2026-09-01T20:07:25.178436+00:00",
+      "retrieved_at": "2026-09-01T20:08:08.199519+00:00",
       "layers": {},
       "records": {},
       "errors": [],
@@ -10,9 +10,26 @@
       "reason": "competition is outside Understat supported league set"
     },
     {
+      "source": "official-sites",
+      "status": "partial",
+      "retrieved_at": "2026-09-01T20:08:08.252342+00:00",
+      "layers": {
+        "news": "available"
+      },
+      "records": {
+        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215645
+      },
+      "errors": [
+        {
+          "url": "https://www.pogonszczecin.pl/",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
       "source": "fotmob",
       "status": "success",
-      "retrieved_at": "2026-09-01T20:07:23.632384+00:00",
+      "retrieved_at": "2026-09-01T20:08:07.570053+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -32,7 +49,7 @@
     {
       "source": "sofascore",
       "status": "error",
-      "retrieved_at": "2026-09-01T20:07:25.027674+00:00",
+      "retrieved_at": "2026-09-01T20:08:08.071369+00:00",
       "team": "Pogoń Szczecin",
       "layers": {},
       "records": {},
@@ -44,6 +61,7 @@
     }
   ],
   "layers": {
+    "news": "available",
     "team": "available",
     "players": "available",
     "matches": "available",
@@ -61,9 +79,13 @@
       "fotmob": "8023",
       "sofascore": "3117"
     },
+    "public_site_urls": [
+      "https://www.pogonszczecin.pl/",
+      "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/"
+    ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-01T20:07:25.185202+00:00",
+  "updated_at": "2026-09-01T20:08:09.975855+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
@@ -80,6 +102,12 @@
     },
     {
       "collector": "collectors/understat_collector.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "collector": "collectors/site_collector.py",
       "returncode": 0,
       "stdout": "",
       "stderr": ""
