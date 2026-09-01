@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "sources": [
+    {"id":"fotmob","name":"FotMob","priority":1,"layers":["team","matches","players","stats","events","shots","spatial"]},
+    {"id":"fbref","name":"FBref","priority":2,"layers":["matches","players","team_stats","shooting","passing","defense","possession"]},
+    {"id":"sofascore","name":"Sofascore","priority":3,"layers":["matches","events","shots","lineups","stats","heatmaps"]},
+    {"id":"transfermarkt","name":"Transfermarkt","priority":4,"layers":["squad","transfers","coach","availability"]},
+    {"id":"understat","name":"Understat","priority":5,"layers":["xg","shots","players"]},
+    {"id":"club","name":"Official club sources","priority":6,"layers":["news","squad","video","context"]}
+  ],
+  "policy":"Attempt every applicable source. Store raw responses separately, normalize into the FOSI schema, preserve provenance and never fabricate unavailable fields. Respect each source's access and usage terms."
+}
