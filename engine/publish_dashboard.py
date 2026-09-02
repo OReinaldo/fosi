@@ -24,11 +24,14 @@ def main():
     insights = build_insights({"xg_for": xgf, "xg_against": xga})
     data_score = status.get("data_score", 0)
     payload = {
-        "schema_version": "1.1", "generated_at": datetime.now(timezone.utc).isoformat(),
+        "schema_version": "1.2", "generated_at": datetime.now(timezone.utc).isoformat(),
         "status": "verified_partial" if data_score > 0 else status.get("status", "awaiting_verified_ingestion"),
         "team": {"id": cfg["team_id"], "name": cfg["team"], "competition": cfg["competition"], "country": cfg["country"]},
         "metrics": metrics, "metric_meta": raw_metrics,
         "matches": (metrics_bundle.get("recent_matches") or normalized.get("matches", []))[:20],
+        "match_metrics": metrics_bundle.get("match_metrics", []),
+        "xg_by_match": metrics_bundle.get("xg_by_match", {}),
+        "shot_zones_for": metrics_bundle.get("shot_zones_for", {}),
         "players": normalized.get("players", []), "events": normalized.get("events", []),
         "shots": normalized.get("shots", []), "spatial_actions": normalized.get("spatial_actions", []),
         "threat_score": None, "insights": insights,
