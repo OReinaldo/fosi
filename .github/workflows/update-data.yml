@@ -39,6 +39,8 @@ jobs:
         run: python engine/run_scout.py
       - name: Build RAW field dictionary
         run: python engine/build_data_dictionary.py
+      - name: Build normalized FOSI data layer
+        run: python engine/normalize_sources.py
       - name: Build spatial evidence index
         run: python engine/spatial.py
       - name: Publish dashboard payload
