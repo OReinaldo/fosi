@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "model": "FOSI metrics",
-  "generated_at": "2026-09-03T13:32:06.522509+00:00",
+  "generated_at": "2026-09-03T13:35:14.873006+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -94,18 +94,18 @@
     },
     "xg_per_match": {
       "value": 2.34,
-      "observed": 116,
+      "observed": 6,
       "total": 6,
-      "coverage": 19.333,
+      "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
       "source": null
     },
     "xga_per_match": {
       "value": 2.61,
-      "observed": 182,
+      "observed": 6,
       "total": 6,
-      "coverage": 30.333,
+      "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
       "source": null
@@ -499,7 +499,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "5803967",
-        "retrieved_at": "2026-09-03T13:32:05.953423+00:00"
+        "retrieved_at": "2026-09-03T13:35:14.270230+00:00"
       }
     },
     {
@@ -526,7 +526,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "5803955",
-        "retrieved_at": "2026-09-03T13:32:05.939403+00:00"
+        "retrieved_at": "2026-09-03T13:35:14.255998+00:00"
       }
     },
     {
@@ -553,7 +553,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "5803936",
-        "retrieved_at": "2026-09-03T13:32:05.925174+00:00"
+        "retrieved_at": "2026-09-03T13:35:14.241867+00:00"
       }
     },
     {
@@ -580,7 +580,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "5803923",
-        "retrieved_at": "2026-09-03T13:32:05.910508+00:00"
+        "retrieved_at": "2026-09-03T13:35:14.227329+00:00"
       }
     },
     {
@@ -607,7 +607,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "5803899",
-        "retrieved_at": "2026-09-03T13:32:05.894746+00:00"
+        "retrieved_at": "2026-09-03T13:35:14.211754+00:00"
       }
     },
     {
@@ -634,8 +634,190 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": "5904696",
-        "retrieved_at": "2026-09-03T13:32:05.965672+00:00"
+        "retrieved_at": "2026-09-03T13:35:14.282136+00:00"
       }
+    }
+  ],
+  "player_metrics": [
+    {
+      "fosi_id": "player:fotmob:289211",
+      "player_id": "289211",
+      "name": {
+        "firstName": "Valentin",
+        "lastName": "Cojocaru",
+        "fullName": "Valentin Cojocaru"
+      },
+      "position": null,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:749648",
+      "player_id": "749648",
+      "name": {
+        "firstName": "Attila",
+        "lastName": "Szalai",
+        "fullName": "Attila Szalai"
+      },
+      "position": null,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1329535",
+      "player_id": "1329535",
+      "name": {
+        "firstName": "Dimitrios",
+        "lastName": "Keramitsis",
+        "fullName": "Dimitrios Keramitsis"
+      },
+      "position": null,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1188767",
+      "player_id": "1188767",
+      "name": {
+        "firstName": "Léo",
+        "lastName": "Borges",
+        "fullName": "Léo Borges"
+      },
+      "position": null,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:558189",
+      "player_id": "558189",
+      "name": {
+        "firstName": "Patryk",
+        "lastName": "Dziczek",
+        "fullName": "Patryk Dziczek"
+      },
+      "position": null,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1078936",
+      "player_id": "1078936",
+      "name": {
+        "firstName": "Paul",
+        "lastName": "Mukairu",
+        "fullName": "Paul Mukairu"
+      },
+      "position": null,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:431948",
+      "player_id": "431948",
+      "name": {
+        "firstName": "Kellyn",
+        "lastName": "Acosta",
+        "fullName": "Kellyn Acosta"
+      },
+      "position": null,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:949336",
+      "player_id": "949336",
+      "name": {
+        "firstName": "Musa",
+        "lastName": "Juwara",
+        "fullName": "Musa Juwara"
+      },
+      "position": null,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:833697",
+      "player_id": "833697",
+      "name": {
+        "firstName": "Darko",
+        "lastName": "Churlinov",
+        "fullName": "Darko Churlinov"
+      },
+      "position": null,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:180283",
+      "player_id": "180283",
+      "name": {
+        "firstName": "Fredrik",
+        "lastName": "Ulvestad",
+        "fullName": "Fredrik Ulvestad"
+      },
+      "position": null,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1667987",
+      "player_id": "1667987",
+      "name": {
+        "firstName": "Maciej",
+        "lastName": "Wojciechowski",
+        "fullName": "Maciej Wojciechowski"
+      },
+      "position": null,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:406506",
+      "player_id": "406506",
+      "name": {
+        "firstName": "Linus Wahlqvist",
+        "lastName": "Egnell",
+        "fullName": "Linus Wahlqvist Egnell"
+      },
+      "position": null,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1092563",
+      "player_id": "1092563",
+      "name": {
+        "firstName": "Hussein",
+        "lastName": "Ali",
+        "fullName": "Hussein Ali"
+      },
+      "position": null,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1117005",
+      "player_id": "1117005",
+      "name": {
+        "firstName": "Jan",
+        "lastName": "Bieganski",
+        "fullName": "Jan Bieganski"
+      },
+      "position": null,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:69541",
+      "player_id": "69541",
+      "name": {
+        "firstName": "Kamil",
+        "lastName": "Grosicki",
+        "fullName": "Kamil Grosicki"
+      },
+      "position": null,
+      "stats": {},
+      "per90": {}
     }
   ],
   "coverage": {

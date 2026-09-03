@@ -1,18 +1,9 @@
 {
   "sources": [
     {
-      "source": "understat",
-      "retrieved_at": "2026-09-03T13:32:01.081458+00:00",
-      "layers": {},
-      "records": {},
-      "errors": [],
-      "status": "not_applicable",
-      "reason": "competition is outside Understat supported league set"
-    },
-    {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-03T13:32:01.138042+00:00",
+      "retrieved_at": "2026-09-03T13:35:11.796904+00:00",
       "layers": {
         "news": "available"
       },
@@ -27,9 +18,22 @@
       ]
     },
     {
+      "source": "sofascore",
+      "status": "error",
+      "retrieved_at": "2026-09-03T13:35:11.534169+00:00",
+      "team": "Pogoń Szczecin",
+      "layers": {},
+      "records": {},
+      "errors": [
+        {
+          "fatal": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
       "source": "fotmob",
       "status": "success",
-      "retrieved_at": "2026-09-03T13:31:59.892740+00:00",
+      "retrieved_at": "2026-09-03T13:35:09.902411+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -47,17 +51,13 @@
       "team_id": "8023"
     },
     {
-      "source": "sofascore",
-      "status": "error",
-      "retrieved_at": "2026-09-03T13:32:00.903773+00:00",
-      "team": "Pogoń Szczecin",
+      "source": "understat",
+      "retrieved_at": "2026-09-03T13:35:11.734412+00:00",
       "layers": {},
       "records": {},
-      "errors": [
-        {
-          "fatal": "HTTP Error 403: Forbidden"
-        }
-      ]
+      "errors": [],
+      "status": "not_applicable",
+      "reason": "competition is outside Understat supported league set"
     }
   ],
   "layers": {
@@ -85,7 +85,7 @@
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-03T13:32:05.451358+00:00",
+  "updated_at": "2026-09-03T13:35:13.734591+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
