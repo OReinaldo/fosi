@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-02T07:35:47.868723+00:00",
+  "generated_at": "2026-09-03T05:55:50.724997+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -184894,7 +184894,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-118"
+      "example": "-111"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
@@ -184906,7 +184906,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.85"
+      "example": "1.90"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
@@ -184918,7 +184918,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "17/20"
+      "example": "9/10"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
@@ -185122,7 +185122,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-118"
+      "example": "-111"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
@@ -185134,7 +185134,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.85"
+      "example": "1.90"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
@@ -185146,7 +185146,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "17/20"
+      "example": "9/10"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
@@ -195627,38 +195627,14 @@
     {
       "path": "$.overview.transfers.allTransfers[].fee",
       "types": {
-        "object": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.transfers.allTransfers[].fee.feeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "on loan"
-    },
-    {
-      "path": "$.overview.transfers.allTransfers[].fee.localizedFeeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "on_loan"
+      "example": "None"
     },
     {
       "path": "$.overview.transfers.allTransfers[].fromClub",
@@ -195706,7 +195682,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-08-31T00:00:00Z"
+      "example": "2026-09-02T00:00:00Z"
     },
     {
       "path": "$.overview.transfers.allTransfers[].marketValue",
@@ -195718,7 +195694,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "976296"
+      "example": "281463"
     },
     {
       "path": "$.overview.transfers.allTransfers[].name",
@@ -195730,7 +195706,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Mads Agger"
+      "example": "Fredrik Ulvestad"
     },
     {
       "path": "$.overview.transfers.allTransfers[].onLoan",
@@ -195742,7 +195718,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.overview.transfers.allTransfers[].playerId",
@@ -195754,7 +195730,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1183326"
+      "example": "180283"
     },
     {
       "path": "$.overview.transfers.allTransfers[].position",
@@ -195778,7 +195754,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "rightwinger_short"
+      "example": "centerdefensivemidfielder_short"
     },
     {
       "path": "$.overview.transfers.allTransfers[].position.label",
@@ -195790,7 +195766,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "RW"
+      "example": "DM"
     },
     {
       "path": "$.overview.transfers.allTransfers[].toClub",
@@ -195802,7 +195778,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Häcken"
+      "example": "OB"
     },
     {
       "path": "$.overview.transfers.allTransfers[].toClubFullName",
@@ -195814,7 +195790,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Häcken"
+      "example": "OB"
     },
     {
       "path": "$.overview.transfers.allTransfers[].toClubId",
@@ -195826,7 +195802,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8428"
+      "example": "8414"
     },
     {
       "path": "$.overview.transfers.allTransfers[].toDate",
@@ -195838,7 +195814,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-12-31T00:00:00Z"
+      "example": "2028-06-30T00:00:00Z"
     },
     {
       "path": "$.overview.transfers.allTransfers[].transferDate",
@@ -195850,7 +195826,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-08-31T20:55:23Z"
+      "example": "2026-09-02T20:58:33Z"
     },
     {
       "path": "$.overview.transfers.allTransfers[].transferText",
@@ -195898,7 +195874,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on_loan"
+      "example": "contract"
     },
     {
       "path": "$.overview.transfers.allTransfers[].transferType.text",
@@ -195910,7 +195886,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on loan"
+      "example": "contract"
     },
     {
       "path": "$.overview.transfers.data",
@@ -196647,38 +196623,14 @@
     {
       "path": "$.overview.transfers.data.Players out[].fee",
       "types": {
-        "object": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.transfers.data.Players out[].fee.feeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "on loan"
-    },
-    {
-      "path": "$.overview.transfers.data.Players out[].fee.localizedFeeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "on_loan"
+      "example": "None"
     },
     {
       "path": "$.overview.transfers.data.Players out[].fromClub",
@@ -196726,7 +196678,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-08-31T00:00:00Z"
+      "example": "2026-09-02T00:00:00Z"
     },
     {
       "path": "$.overview.transfers.data.Players out[].marketValue",
@@ -196738,7 +196690,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "976296"
+      "example": "281463"
     },
     {
       "path": "$.overview.transfers.data.Players out[].name",
@@ -196750,7 +196702,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Mads Agger"
+      "example": "Fredrik Ulvestad"
     },
     {
       "path": "$.overview.transfers.data.Players out[].onLoan",
@@ -196762,7 +196714,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.overview.transfers.data.Players out[].playerId",
@@ -196774,7 +196726,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1183326"
+      "example": "180283"
     },
     {
       "path": "$.overview.transfers.data.Players out[].position",
@@ -196798,7 +196750,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "rightwinger_short"
+      "example": "centerdefensivemidfielder_short"
     },
     {
       "path": "$.overview.transfers.data.Players out[].position.label",
@@ -196810,7 +196762,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "RW"
+      "example": "DM"
     },
     {
       "path": "$.overview.transfers.data.Players out[].toClub",
@@ -196822,7 +196774,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Häcken"
+      "example": "OB"
     },
     {
       "path": "$.overview.transfers.data.Players out[].toClubFullName",
@@ -196834,7 +196786,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Häcken"
+      "example": "OB"
     },
     {
       "path": "$.overview.transfers.data.Players out[].toClubId",
@@ -196846,7 +196798,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8428"
+      "example": "8414"
     },
     {
       "path": "$.overview.transfers.data.Players out[].toDate",
@@ -196858,7 +196810,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-12-31T00:00:00Z"
+      "example": "2028-06-30T00:00:00Z"
     },
     {
       "path": "$.overview.transfers.data.Players out[].transferDate",
@@ -196870,7 +196822,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-08-31T20:55:23Z"
+      "example": "2026-09-02T20:58:33Z"
     },
     {
       "path": "$.overview.transfers.data.Players out[].transferText",
@@ -196918,7 +196870,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on_loan"
+      "example": "contract"
     },
     {
       "path": "$.overview.transfers.data.Players out[].transferType.text",
@@ -196930,7 +196882,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on loan"
+      "example": "contract"
     },
     {
       "path": "$.overview.transfers.maxFee",
@@ -198922,7 +198874,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "9"
+      "example": "10"
     },
     {
       "path": "$.stats.teams[].participant.stat",
@@ -207255,38 +207207,14 @@
     {
       "path": "$.transfers.allTransfers[].fee",
       "types": {
-        "object": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.transfers.allTransfers[].fee.feeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "on loan"
-    },
-    {
-      "path": "$.transfers.allTransfers[].fee.localizedFeeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "on_loan"
+      "example": "None"
     },
     {
       "path": "$.transfers.allTransfers[].fromClub",
@@ -207334,7 +207262,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-08-31T00:00:00Z"
+      "example": "2026-09-02T00:00:00Z"
     },
     {
       "path": "$.transfers.allTransfers[].marketValue",
@@ -207346,7 +207274,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "976296"
+      "example": "281463"
     },
     {
       "path": "$.transfers.allTransfers[].name",
@@ -207358,7 +207286,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Mads Agger"
+      "example": "Fredrik Ulvestad"
     },
     {
       "path": "$.transfers.allTransfers[].onLoan",
@@ -207370,7 +207298,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.transfers.allTransfers[].playerId",
@@ -207382,7 +207310,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1183326"
+      "example": "180283"
     },
     {
       "path": "$.transfers.allTransfers[].position",
@@ -207406,7 +207334,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "rightwinger_short"
+      "example": "centerdefensivemidfielder_short"
     },
     {
       "path": "$.transfers.allTransfers[].position.label",
@@ -207418,7 +207346,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "RW"
+      "example": "DM"
     },
     {
       "path": "$.transfers.allTransfers[].toClub",
@@ -207430,7 +207358,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Häcken"
+      "example": "OB"
     },
     {
       "path": "$.transfers.allTransfers[].toClubFullName",
@@ -207442,7 +207370,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Häcken"
+      "example": "OB"
     },
     {
       "path": "$.transfers.allTransfers[].toClubId",
@@ -207454,7 +207382,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8428"
+      "example": "8414"
     },
     {
       "path": "$.transfers.allTransfers[].toDate",
@@ -207466,7 +207394,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-12-31T00:00:00Z"
+      "example": "2028-06-30T00:00:00Z"
     },
     {
       "path": "$.transfers.allTransfers[].transferDate",
@@ -207478,7 +207406,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-08-31T20:55:23Z"
+      "example": "2026-09-02T20:58:33Z"
     },
     {
       "path": "$.transfers.allTransfers[].transferText",
@@ -207526,7 +207454,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on_loan"
+      "example": "contract"
     },
     {
       "path": "$.transfers.allTransfers[].transferType.text",
@@ -207538,7 +207466,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on loan"
+      "example": "contract"
     },
     {
       "path": "$.transfers.data",
@@ -208275,38 +208203,14 @@
     {
       "path": "$.transfers.data.Players out[].fee",
       "types": {
-        "object": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.transfers.data.Players out[].fee.feeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "on loan"
-    },
-    {
-      "path": "$.transfers.data.Players out[].fee.localizedFeeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "on_loan"
+      "example": "None"
     },
     {
       "path": "$.transfers.data.Players out[].fromClub",
@@ -208354,7 +208258,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-08-31T00:00:00Z"
+      "example": "2026-09-02T00:00:00Z"
     },
     {
       "path": "$.transfers.data.Players out[].marketValue",
@@ -208366,7 +208270,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "976296"
+      "example": "281463"
     },
     {
       "path": "$.transfers.data.Players out[].name",
@@ -208378,7 +208282,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Mads Agger"
+      "example": "Fredrik Ulvestad"
     },
     {
       "path": "$.transfers.data.Players out[].onLoan",
@@ -208390,7 +208294,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.transfers.data.Players out[].playerId",
@@ -208402,7 +208306,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1183326"
+      "example": "180283"
     },
     {
       "path": "$.transfers.data.Players out[].position",
@@ -208426,7 +208330,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "rightwinger_short"
+      "example": "centerdefensivemidfielder_short"
     },
     {
       "path": "$.transfers.data.Players out[].position.label",
@@ -208438,7 +208342,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "RW"
+      "example": "DM"
     },
     {
       "path": "$.transfers.data.Players out[].toClub",
@@ -208450,7 +208354,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Häcken"
+      "example": "OB"
     },
     {
       "path": "$.transfers.data.Players out[].toClubFullName",
@@ -208462,7 +208366,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Häcken"
+      "example": "OB"
     },
     {
       "path": "$.transfers.data.Players out[].toClubId",
@@ -208474,7 +208378,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8428"
+      "example": "8414"
     },
     {
       "path": "$.transfers.data.Players out[].toDate",
@@ -208486,7 +208390,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-12-31T00:00:00Z"
+      "example": "2028-06-30T00:00:00Z"
     },
     {
       "path": "$.transfers.data.Players out[].transferDate",
@@ -208498,7 +208402,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-08-31T20:55:23Z"
+      "example": "2026-09-02T20:58:33Z"
     },
     {
       "path": "$.transfers.data.Players out[].transferText",
@@ -208546,7 +208450,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on_loan"
+      "example": "contract"
     },
     {
       "path": "$.transfers.data.Players out[].transferType.text",
@@ -208558,7 +208462,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on loan"
+      "example": "contract"
     },
     {
       "path": "$.transfers.maxFee",
