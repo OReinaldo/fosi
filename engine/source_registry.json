@@ -1,13 +1,14 @@
 {
-  "version": 3,
+  "version": 4,
   "sources": [
     {"id":"fotmob","name":"FotMob","priority":1,"adapter":"collectors/fotmob_collector.py","mode":"public_json","layers":["competition","team","matches","players","player_history","player_profiles","transfers","stats","events","shots","spatial","live_ticker"]},
-    {"id":"sofascore","name":"Sofascore","priority":2,"adapter":"collectors/sofascore_collector.py","mode":"public_json","layers":["team","squad","matches","events","shots","lineups","stats","graph","spatial"]},
-    {"id":"fbref","name":"FBref","priority":3,"adapter":null,"mode":"compliance_gated","layers":["matches","players","team_stats","shooting","passing","defense","possession"]},
-    {"id":"understat","name":"Understat","priority":4,"adapter":"collectors/understat_collector.py","mode":"public_grey","layers":["xg","shots","players"],"applicability":"limited_competitions"},
-    {"id":"transfermarkt","name":"Transfermarkt","priority":5,"adapter":null,"mode":"compliance_gated","layers":["squad","transfers","coach","availability"]},
-    {"id":"club","name":"Official club sources","priority":6,"adapter":"collectors/site_collector.py","mode":"site_specific","layers":["news","squad","video","context"]},
-    {"id":"competition","name":"Official competition sources","priority":7,"adapter":"collectors/site_collector.py","mode":"site_specific","layers":["fixtures","standings","news","video","discipline"]}
+    {"id":"sofascore","name":"Sofascore","priority":2,"adapter":"collectors/sofascore_collector.py","mode":"public_json","layers":["team","squad","matches","events","shots","lineups","stats","graph","spatial","competition"]},
+    {"id":"espn","name":"ESPN","priority":3,"adapter":"collectors/espn_collector.py","mode":"public_json","layers":["team","matches","squad","stats","transfers","news","competition"]},
+    {"id":"fbref","name":"FBref","priority":4,"adapter":null,"mode":"compliance_gated","layers":["matches","players","team_stats","shooting","passing","defense","possession"]},
+    {"id":"understat","name":"Understat","priority":5,"adapter":"collectors/understat_collector.py","mode":"public_grey","layers":["xg","shots","players"],"applicability":"limited_competitions"},
+    {"id":"transfermarkt","name":"Transfermarkt","priority":6,"adapter":null,"mode":"compliance_gated","layers":["squad","transfers","coach","availability"]},
+    {"id":"club","name":"Official club sources","priority":7,"adapter":"collectors/site_collector.py","mode":"site_specific","layers":["news","squad","video","context"]},
+    {"id":"competition","name":"Official competition sources","priority":8,"adapter":"collectors/site_collector.py","mode":"site_specific","layers":["fixtures","standings","news","video","discipline","stats"]}
   ],
-  "policy":"Attempt every applicable source. Preserve raw provider responses, normalize later, retain provenance and retrieval timestamps. Never fabricate unavailable fields. Compliance-gated sources must not be automated until their access terms permit it."
+  "policy":"Attempt every applicable source. Preserve raw provider responses, normalize later, retain provenance and retrieval timestamps. Never fabricate unavailable fields. Compliance-gated sources must not be automated until their access terms permit it. Public sources may fail or be incomplete; failure is recorded explicitly and retried through documented alternate routes when available."
 }
