@@ -54,6 +54,9 @@ jobs:
       - name: Test FOSI intelligence
         working-directory: engine
         run: python -m unittest test_intelligence.py -v
+      - name: Test FOSI scouting intelligence
+        working-directory: engine
+        run: python -m unittest test_scouting_intelligence.py -v
       - name: Build FOSI metrics
         run: python engine/metrics_engine.py
       - name: Build spatial evidence index
@@ -78,4 +81,4 @@ jobs:
       - name: Deploy refreshed dashboard
         id: deployment
         uses: actions/deploy-pages@v4
-# FOSI pipeline: acquisition -> normalization -> tests -> metrics -> publication -> validation -> Pages
+# FOSI pipeline: acquisition -> normalization -> tests -> scouting intelligence -> metrics -> publication -> validation -> Pages
