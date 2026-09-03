@@ -29,6 +29,18 @@ def finished(m):
     s=m.get("status") or {};return bool(s.get("finished") or (s.get("reason") or {}).get("short") in {"FT","AET","PEN"})
 def team_match(m,name):
     ns=[(m.get("home") or {}).get("name"),(m.get("home") or {}).get("longName"),(m.get("away") or {}).get("name"),(m.get("away") or {}).get("longName")];return any(name.lower() in str(x).lower() for x in ns if x)
+def find_first(node,keys):
+    wanted={k.lower() for k in keys}
+    if isinstance(node,dict):
+        for k,v in node.items():
+            if k.lower() in wanted and isinstance(v,str) and v.strip(): return v
+            found=find_first(v,keys)
+            if found:return found
+    elif isinstance(node,list):
+        for v in node:
+            found=find_first(v,keys)
+            if found:return found
+    return None
 def main():
     cfg=json.loads(CONFIG.read_text(encoding="utf-8"));st={"source":"fotmob","status":"collecting","retrieved_at":datetime.now(timezone.utc).isoformat(),"layers":{},"records":{},"errors":[]}
     if not cfg.get("enabled") or not cfg.get("team"):return
@@ -40,12 +52,19 @@ def main():
         if not tid:raise RuntimeError("FotMob team id could not be resolved")
         team=get_json(f"/teams?id={tid}&ccode3=POL");save(raw/"team.json",team);st["layers"].update({"team":"available","players":"available"});st["records"]["team"]=1;st["team_id"]=tid
         matches={str(m["id"]):m for m in walk_matches(team) if team_match(m,cfg["team"]) and finished(m)};matches=sorted(matches.values(),key=lambda m:str((m.get("status") or {}).get("utcTime") or m.get("timeTS") or ""),reverse=True)
-        st["layers"]["matches"]="available" if matches else "pending";st["records"]["matches"]=len(matches);detail=0;errors=[]
+        st["layers"]["matches"]="available" if matches else "pending";st["records"]["matches"]=len(matches);detail=0;heatmaps=0;errors=[]
         for m in matches:
             mid=str(m["id"])
-            try:save(raw/"matches"/(mid+".json"),get_json(f"/matchDetails?matchId={mid}"));detail+=1
+            try:
+                detail_payload=get_json(f"/matchDetails?matchId={mid}");save(raw/"matches"/(mid+".json"),detail_payload);detail+=1
+                heatmap_url=find_first(detail_payload,("heatmapUrl","heatmapURL"))
+                if heatmap_url:
+                    q=urllib.parse.urlencode({"heatmapUrl":heatmap_url})
+                    try:
+                        save(raw/"heatmaps"/(mid+".json"),get_json(f"/heatmap/match/{mid}/heatmaps?{q}"));heatmaps+=1
+                    except Exception as he: errors.append({"match_id":mid,"heatmap_error":str(he)})
             except Exception as e:errors.append({"match_id":mid,"error":str(e)})
-        st["records"]["match_details"]=detail;st["layers"].update({"stats":"available" if detail else "pending","events":"available" if detail else "pending","spatial":"available" if detail else "pending"});st["errors"].extend(errors);st["status"]="success" if not errors else "partial"
+        st["records"]["match_details"]=detail;st["records"]["heatmaps"]=heatmaps;st["layers"].update({"stats":"available" if detail else "pending","events":"available" if detail else "pending","spatial":"available" if heatmaps else ("available" if detail else "pending")});st["errors"].extend(errors);st["status"]="success" if not errors else "partial"
     except Exception as e:st["status"]="error";st["errors"].append({"fatal":str(e)})
     save(root/"source-status-fotmob.json",st);save(root/"status-fotmob.json",st)
 if __name__=="__main__":main()
