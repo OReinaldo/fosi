@@ -1,0 +1,21 @@
+{
+  "source": "espn",
+  "status": "error",
+  "retrieved_at": "2026-09-03T21:14:27.753823+00:00",
+  "layers": {},
+  "records": {},
+  "errors": [
+    {
+      "layer": "competition",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "layer": "team/matches",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "layer": "news",
+      "error": "HTTP Error 400: Bad Request"
+    }
+  ]
+}
