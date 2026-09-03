@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "understat",
-      "retrieved_at": "2026-09-03T13:36:01.633543+00:00",
+      "retrieved_at": "2026-09-03T14:18:00.708077+00:00",
       "layers": {},
       "records": {},
       "errors": [],
@@ -12,24 +12,24 @@
     {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-03T13:36:01.688453+00:00",
+      "retrieved_at": "2026-09-03T14:18:00.768915+00:00",
       "layers": {
         "news": "available"
       },
       "records": {
-        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215602
+        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215688
       },
       "errors": [
         {
           "url": "https://www.pogonszczecin.pl/",
-          "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+          "error": "HTTP Error 403: Forbidden"
         }
       ]
     },
     {
       "source": "fotmob",
       "status": "success",
-      "retrieved_at": "2026-09-03T13:35:59.466662+00:00",
+      "retrieved_at": "2026-09-03T14:17:57.242459+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -49,7 +49,7 @@
     {
       "source": "sofascore",
       "status": "error",
-      "retrieved_at": "2026-09-03T13:36:01.474108+00:00",
+      "retrieved_at": "2026-09-03T14:18:00.575046+00:00",
       "team": "Pogoń Szczecin",
       "layers": {},
       "records": {},
@@ -85,7 +85,7 @@
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-03T13:36:02.128828+00:00",
+  "updated_at": "2026-09-03T14:18:02.082523+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
