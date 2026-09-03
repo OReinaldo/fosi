@@ -24,16 +24,13 @@ PLAYER_FIELDS = {
 }
 
 
-def load(path: Path) -> Any:
-    return json.loads(path.read_text(encoding="utf-8"))
-
+def load(path: Path) -> Any: return json.loads(path.read_text(encoding="utf-8"))
 
 def first(d: dict, *keys, default=None):
     if not isinstance(d, dict): return default
     for key in keys:
         if key in d and d[key] is not None: return d[key]
     return default
-
 
 def walk(node):
     if isinstance(node, dict):
@@ -42,14 +39,12 @@ def walk(node):
     elif isinstance(node, list):
         for v in node: yield from walk(v)
 
-
 def deep_first(node, keys):
     wanted = {k.lower() for k in keys}
     for obj in walk(node):
         for k, v in obj.items():
             if k.lower() in wanted and v is not None: return v
     return None
-
 
 def find_lists(node: Any, wanted: set[str], found=None):
     found = found if found is not None else {}
@@ -61,11 +56,22 @@ def find_lists(node: Any, wanted: set[str], found=None):
         for v in node: find_lists(v, wanted, found)
     return found
 
+def all_list_items(node):
+    if isinstance(node, dict):
+        for v in node.values():
+            if isinstance(v, list):
+                for item in v:
+                    if isinstance(item, dict): yield item
+                    yield from all_list_items(item)
+            else:
+                yield from all_list_items(v)
+    elif isinstance(node, list):
+        for item in node:
+            if isinstance(item, dict): yield item
+            yield from all_list_items(item)
 
 def source_meta(source, raw_path, provider_id=None):
-    return {"source": source, "raw_path": raw_path, "provider_id": str(provider_id) if provider_id is not None else None,
-            "retrieved_at": datetime.now(timezone.utc).isoformat()}
-
+    return {"source": source, "raw_path": raw_path, "provider_id": str(provider_id) if provider_id is not None else None, "retrieved_at": datetime.now(timezone.utc).isoformat()}
 
 def team_from_payload(payload, side):
     wanted = {f"{side}team", f"{side}_team"}
@@ -74,27 +80,22 @@ def team_from_payload(payload, side):
             if k.lower() in wanted:
                 if isinstance(v, dict): return v
                 if isinstance(v, list):
-                    # FotMob header.teams is ordered home, away.
                     idx = 0 if side == "home" else 1
                     if len(v) > idx and isinstance(v[idx], dict): return v[idx]
     return {}
-
 
 def parse_match_name(value):
     if not isinstance(value, str) or "-vs-" not in value: return None, None, None
     pair, *rest = value.split("_", 1); home, away = pair.split("-vs-", 1)
     return home.strip(), away.strip(), rest[0] if rest else None
 
-
 def score_from_header(payload, side):
     for obj in walk(payload):
         teams = obj.get("teams") if isinstance(obj, dict) else None
         if isinstance(teams, list) and len(teams) >= 2 and all(isinstance(x, dict) for x in teams[:2]):
-            idx = 0 if side == "home" else 1
-            v = first(teams[idx], "score", "goals")
+            idx = 0 if side == "home" else 1; v = first(teams[idx], "score", "goals")
             if isinstance(v, (int, float)) and not isinstance(v, bool): return v
     return None
-
 
 def numeric_score(payload, side):
     v = score_from_header(payload, side)
@@ -109,129 +110,91 @@ def numeric_score(payload, side):
             except ValueError: pass
     return value if isinstance(value, (int, float)) and not isinstance(value, bool) else None
 
-
 def normalize_match(payload, raw_path, source):
-    general = payload.get("general") or {}
-    mid = first(general, "matchId", "id") or deep_first(payload, ("matchId", "match_id"))
+    general = payload.get("general") or {}; mid = first(general, "matchId", "id") or deep_first(payload, ("matchId", "match_id"))
     if mid is None: return None
     home, away = team_from_payload(payload, "home"), team_from_payload(payload, "away")
     match_name = first(general, "matchName", "name") or deep_first(payload, ("matchName",))
     parsed_home, parsed_away, parsed_date = parse_match_name(match_name)
-    home_name = first(home, "name", "longName", "teamName") or parsed_home
-    away_name = first(away, "name", "longName", "teamName") or parsed_away
-    hs = first(home, "score", "goals")
-    ass = first(away, "score", "goals")
+    home_name = first(home, "name", "longName", "teamName") or parsed_home; away_name = first(away, "name", "longName", "teamName") or parsed_away
+    hs = first(home, "score", "goals"); ass = first(away, "score", "goals")
     if hs is None: hs = numeric_score(payload, "home")
     if ass is None: ass = numeric_score(payload, "away")
-    result = ("D" if isinstance(hs, (int, float)) and isinstance(ass, (int, float)) and hs == ass
-              else "W" if isinstance(hs, (int, float)) and isinstance(ass, (int, float)) and hs > ass
-              else "L" if isinstance(hs, (int, float)) and isinstance(ass, (int, float)) else None)
+    result = ("D" if isinstance(hs, (int, float)) and isinstance(ass, (int, float)) and hs == ass else "W" if isinstance(hs, (int, float)) and isinstance(ass, (int, float)) and hs > ass else "L" if isinstance(hs, (int, float)) and isinstance(ass, (int, float)) else None)
     date = first(general, "matchTimeUTCDate", "matchTime", "utcTime", "date", "startTime") or parsed_date
     competition = first(general, "leagueName", "competitionName") or deep_first(payload, ("leagueName", "competitionName"))
-    return {"fosi_id": f"match:{source}:{mid}", "provider": source, "provider_id": str(mid), "date": date,
-            "competition": competition, "round": first(general, "matchRound", "round", "leagueRoundName"),
-            "home_team": {"id": first(home, "id", "teamId"), "name": home_name},
-            "away_team": {"id": first(away, "id", "teamId"), "name": away_name},
-            "score": {"home": hs, "away": ass}, "result_for_home": result,
-            "source_meta": source_meta(source, raw_path, mid)}
-
+    return {"fosi_id": f"match:{source}:{mid}", "provider": source, "provider_id": str(mid), "date": date, "competition": competition, "round": first(general, "matchRound", "round", "leagueRoundName"), "home_team": {"id": first(home, "id", "teamId"), "name": home_name}, "away_team": {"id": first(away, "id", "teamId"), "name": away_name}, "score": {"home": hs, "away": ass}, "result_for_home": result, "source_meta": source_meta(source, raw_path, mid)}
 
 def player_stats(p):
     stats = {}
-    # Direct player fields.
     for canonical, aliases in PLAYER_FIELDS.items():
         v = deep_first(p, aliases)
         if isinstance(v, (int, float)) and not isinstance(v, bool): stats[canonical] = v
         elif isinstance(v, str):
             try: stats[canonical] = float(v.replace(",", ".").replace("%", ""))
             except ValueError: pass
-    # FotMob match player stats: {title, key, stats: {label: {key, stat:{value,total}}}}.
     for obj in walk(p):
         if not isinstance(obj, dict): continue
         for label, entry in obj.items():
             if not isinstance(entry, dict) or not isinstance(entry.get("stat"), dict): continue
             stat = entry["stat"]; value = stat.get("value")
             if not isinstance(value, (int, float)) or isinstance(value, bool): continue
-            raw_key = str(entry.get("key") or "").lower()
-            label_key = re.sub(r"[^a-z0-9]+", "_", str(label).lower()).strip("_")
-            candidates = {raw_key, label_key}
+            raw_key = str(entry.get("key") or "").lower(); label_key = re.sub(r"[^a-z0-9]+", "_", str(label).lower()).strip("_"); candidates = {raw_key, label_key}
             for canonical, aliases in PLAYER_FIELDS.items():
-                if any(c == a.lower() for c in candidates for a in aliases):
-                    stats[canonical] = value
-                    break
-            if "accurate_passes" in candidates and "accurate_passes" not in stats: stats["accurate_passes"] = value
+                if any(c == a.lower() for c in candidates for a in aliases): stats[canonical] = value; break
     return stats
 
+def player_candidate(p):
+    if not isinstance(p, dict): return False
+    pid = first(p, "id", "playerId", "player_id"); name = first(p, "name", "playerName", "fullName")
+    if pid is None or not name: return False
+    # Reject event objects that happen to contain player id/name.
+    if any(k in p for k in ("reactKey", "eventId", "timeStr", "overloadTime", "newScore")): return False
+    return bool(first(p, "teamId", "team_id", "position", "positionName", "role", "stats", "profileUrl", "pageUrl"))
 
 def normalize_players(payload, raw_path, source):
     result, seen = [], set()
-    lists = find_lists(payload, {"players", "lineup", "lineups", "playerdata", "squad"})
-    for values in lists.values():
-        for p in values:
-            if not isinstance(p, dict): continue
-            pid = first(p, "id", "playerId", "player_id")
-            name = first(p, "name", "playerName", "fullName")
-            # Never turn stat-section labels such as "goals" into fake players.
-            if pid is None: continue
-            key = str(pid)
-            if key in seen: continue
-            seen.add(key)
-            result.append({"fosi_id": f"player:{source}:{key}", "provider": source, "provider_id": key,
-                           "name": name, "position": first(p, "position", "role", "positionName"),
-                           "team_id": first(p, "teamId", "team_id"), "stats": player_stats(p),
-                           "source_meta": source_meta(source, raw_path, pid)})
+    candidates = list(all_list_items(payload))
+    named = find_lists(payload, {"players", "lineup", "lineups", "playerdata", "squad"})
+    for values in named.values(): candidates.extend(values)
+    for p in candidates:
+        if not player_candidate(p): continue
+        pid = first(p, "id", "playerId", "player_id"); key = str(pid)
+        if key in seen: continue
+        seen.add(key)
+        result.append({"fosi_id": f"player:{source}:{key}", "provider": source, "provider_id": key, "name": first(p, "name", "playerName", "fullName"), "position": first(p, "position", "role", "positionName"), "team_id": first(p, "teamId", "team_id"), "stats": player_stats(p), "source_meta": source_meta(source, raw_path, pid)})
     return result
 
-
 def normalize_event_like(payload, raw_path, source):
-    out = {"shots": [], "events": [], "spatial_actions": []}
-    lists = find_lists(payload, {"shotmap", "shots", "incidents", "events", "passes"})
-    mid = deep_first(payload, ("matchId", "match_id"))
+    out = {"shots": [], "events": [], "spatial_actions": []}; lists = find_lists(payload, {"shotmap", "shots", "incidents", "events", "passes"}); mid = deep_first(payload, ("matchId", "match_id"))
     for key, values in lists.items():
         for item in values:
             if not isinstance(item, dict): continue
-            iid = first(item, "id", "eventId", "shotId")
-            target = key if key in out else "events"; index = len(out[target])
-            record = dict(item); record["fosi_id"] = f"{key}:{source}:{iid}" if iid is not None else f"{key}:{source}:{mid}:{index}"
-            record["provider"] = source; record["provider_id"] = str(iid) if iid is not None else None
-            record["match_id"] = str(mid) if mid is not None else None; record["source_meta"] = source_meta(source, raw_path, iid)
+            iid = first(item, "id", "eventId", "shotId"); target = key if key in out else "events"; index = len(out[target]); record = dict(item); record["fosi_id"] = f"{key}:{source}:{iid}" if iid is not None else f"{key}:{source}:{mid}:{index}"; record["provider"] = source; record["provider_id"] = str(iid) if iid is not None else None; record["match_id"] = str(mid) if mid is not None else None; record["source_meta"] = source_meta(source, raw_path, iid)
             if key in {"shotmap", "shots"}: out["shots"].append(record)
             elif key == "passes": out["spatial_actions"].append(record)
             else: out["events"].append(record)
     return out
 
-
-def normalize_file(payload, raw_path, source):
-    return normalize_match(payload, raw_path, source), normalize_players(payload, raw_path, source), normalize_event_like(payload, raw_path, source)
-
+def normalize_file(payload, raw_path, source): return normalize_match(payload, raw_path, source), normalize_players(payload, raw_path, source), normalize_event_like(payload, raw_path, source)
 
 def main():
-    cfg = load(CONFIG); root = ROOT / cfg["country"].lower().replace(" ", "-") / cfg["competition"].lower().replace(" ", "-") / cfg["team_id"]
-    raw_root, out_root = root / "raw", root / "normalized"; out_root.mkdir(parents=True, exist_ok=True)
+    cfg = load(CONFIG); root = ROOT / cfg["country"].lower().replace(" ", "-") / cfg["competition"].lower().replace(" ", "-") / cfg["team_id"]; raw_root, out_root = root / "raw", root / "normalized"; out_root.mkdir(parents=True, exist_ok=True)
     matches, players, events, shots, spatial = [], [], [], [], []; records = 0
     for path in sorted(raw_root.rglob("*.json")) if raw_root.exists() else []:
         if "source-status" in path.name or path.name.startswith("status-"): continue
         try: payload = load(path)
         except Exception: continue
-        source = path.relative_to(raw_root).parts[0]; rel = str(path.relative_to(ROOT)).replace("\\", "/")
-        match, ps, ev = normalize_file(payload, rel, source)
+        source = path.relative_to(raw_root).parts[0]; rel = str(path.relative_to(ROOT)).replace("\\", "/"); match, ps, ev = normalize_file(payload, rel, source)
         if match: matches.append(match)
         players.extend(ps); events.extend(ev["events"]); shots.extend(ev["shots"]); spatial.extend(ev["spatial_actions"]); records += 1
-
     def dedupe(rows):
         seen, out = set(), []
         for row in rows:
             key = row.get("fosi_id") or json.dumps(row, sort_keys=True, ensure_ascii=False)
             if key not in seen: seen.add(key); out.append(row)
         return out
-
-    bundle = {"schema_version": "1.3", "model": "FOSI normalized", "generated_at": datetime.now(timezone.utc).isoformat(),
-              "scope": {"country": cfg["country"], "competition": cfg["competition"], "team": cfg["team"], "team_id": cfg["team_id"]},
-              "method": "normalized-from-raw", "counts": {}, "matches": dedupe(matches), "players": dedupe(players),
-              "events": dedupe(events), "shots": dedupe(shots), "spatial_actions": dedupe(spatial)}
-    bundle["counts"] = {k: len(bundle[k]) for k in ("matches", "players", "events", "shots", "spatial_actions")}
-    (out_root / "fosi.json").write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"FOSI normalized: {records} RAW files -> {bundle['counts']}")
-
+    bundle = {"schema_version": "1.4", "model": "FOSI normalized", "generated_at": datetime.now(timezone.utc).isoformat(), "scope": {"country": cfg["country"], "competition": cfg["competition"], "team": cfg["team"], "team_id": cfg["team_id"]}, "method": "normalized-from-raw", "counts": {}, "matches": dedupe(matches), "players": dedupe(players), "events": dedupe(events), "shots": dedupe(shots), "spatial_actions": dedupe(spatial)}
+    bundle["counts"] = {k: len(bundle[k]) for k in ("matches", "players", "events", "shots", "spatial_actions")}; (out_root / "fosi.json").write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8"); print(f"FOSI normalized: {records} RAW files -> {bundle['counts']}")
 
 if __name__ == "__main__": main()
