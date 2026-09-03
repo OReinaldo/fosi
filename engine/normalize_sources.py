@@ -8,14 +8,7 @@ from typing import Any
 CONFIG = Path("config/selected-scout.json")
 ROOT = Path("data/scouting")
 PLAYER_FIELDS = {
-    "minutes": ("minutes", "minsPlayed", "minutesPlayed", "minutes_played"), "starts": ("starts", "started"),
-    "appearances": ("appearances", "apps", "appearancesTotal"), "goals": ("goals", "goalsTotal"), "assists": ("assists", "assistsTotal"),
-    "rating": ("rating", "avgRating", "averageRating"), "shots": ("shots", "shotsTotal", "totalShots"), "shots_on_target": ("shotsOnTarget", "shotsOnTargetTotal", "shots_on_target"),
-    "xg": ("xg", "expectedGoals", "expected_goals"), "xgot": ("xgot", "expectedGoalsOnTarget", "expected_goals_on_target"),
-    "key_passes": ("keyPasses", "keyPassesTotal", "key_passes", "chances_created"), "passes": ("passes", "totalPasses", "total_passes"),
-    "accurate_passes": ("accuratePasses", "passesAccurate", "accurate_passes"), "tackles": ("tackles", "tacklesTotal"), "interceptions": ("interceptions", "interceptionsTotal"), "duels": ("duels", "duelsTotal"),
-    "recoveries": ("recoveries", "ballRecoveries"), "turnovers": ("turnovers", "possessionLost", "dispossessed"), "fouls": ("fouls", "foulsCommitted"), "yellow_cards": ("yellowCards", "yellowCard"), "red_cards": ("redCards", "redCard"),
-    "touches": ("touches",), "touches_opp_box": ("touches_opp_box",), "final_third_entries": ("passes_into_final_third", "finalThirdEntries", "final_third_entries"), "clearances": ("clearances",), "blocks": ("shot_blocks",), "defensive_actions": ("defensive_actions",),
+    "minutes": ("minutes", "minsPlayed", "minutesPlayed", "minutes_played"), "starts": ("starts", "started"), "appearances": ("appearances", "apps", "appearancesTotal"), "goals": ("goals", "goalsTotal"), "assists": ("assists", "assistsTotal"), "rating": ("rating", "avgRating", "averageRating"), "shots": ("shots", "shotsTotal", "totalShots"), "shots_on_target": ("shotsOnTarget", "shotsOnTargetTotal", "shots_on_target"), "xg": ("xg", "expectedGoals", "expected_goals"), "xgot": ("xgot", "expectedGoalsOnTarget", "expected_goals_on_target"), "key_passes": ("keyPasses", "keyPassesTotal", "key_passes", "chances_created"), "passes": ("passes", "totalPasses", "total_passes"), "accurate_passes": ("accuratePasses", "passesAccurate", "accurate_passes"), "tackles": ("tackles", "tacklesTotal"), "interceptions": ("interceptions", "interceptionsTotal"), "duels": ("duels", "duelsTotal"), "recoveries": ("recoveries", "ballRecoveries"), "turnovers": ("turnovers", "possessionLost", "dispossessed"), "fouls": ("fouls", "foulsCommitted"), "yellow_cards": ("yellowCards", "yellowCard"), "red_cards": ("redCards", "redCard"), "touches": ("touches",), "touches_opp_box": ("touches_opp_box",), "final_third_entries": ("passes_into_final_third", "finalThirdEntries", "final_third_entries"), "clearances": ("clearances",), "blocks": ("shot_blocks",), "defensive_actions": ("defensive_actions",),
 }
 SUM_FIELDS = set(PLAYER_FIELDS) - {"rating"}
 
@@ -63,32 +56,24 @@ def all_list_items(node):
             if isinstance(item, dict): yield item
             yield from all_list_items(item)
 
-def source_meta(source, raw_path, provider_id=None):
-    return {"source": source, "raw_path": raw_path, "provider_id": str(provider_id) if provider_id is not None else None, "retrieved_at": datetime.now(timezone.utc).isoformat()}
+def source_meta(source, raw_path, provider_id=None): return {"source": source, "raw_path": raw_path, "provider_id": str(provider_id) if provider_id is not None else None, "retrieved_at": datetime.now(timezone.utc).isoformat()}
 
 def team_from_payload(payload, side):
     wanted = {f"{side}team", f"{side}_team"}
     for obj in walk(payload):
         for k, v in obj.items():
-            if k.lower() in wanted:
-                if isinstance(v, dict): return v
-                if isinstance(v, list):
-                    idx = 0 if side == "home" else 1
-                    if len(v) > idx and isinstance(v[idx], dict): return v[idx]
+            if k.lower() in wanted and isinstance(v, dict): return v
+            if k.lower() == "teams" and isinstance(v, list) and len(v) >= 2 and all(isinstance(x, dict) for x in v[:2]):
+                return v[0 if side == "home" else 1]
     return {}
 
 def parse_match_name(value):
     if not isinstance(value, str) or "-vs-" not in value: return None, None, None
-    pair, *rest = value.split("_", 1); home, away = pair.split("-vs-", 1)
-    return home.strip(), away.strip(), rest[0] if rest else None
+    pair, *rest = value.split("_", 1); home, away = pair.split("-vs-", 1); return home.strip(), away.strip(), rest[0] if rest else None
 
 def score_from_header(payload, side):
-    for obj in walk(payload):
-        teams = obj.get("teams") if isinstance(obj, dict) else None
-        if isinstance(teams, list) and len(teams) >= 2 and all(isinstance(x, dict) for x in teams[:2]):
-            idx = 0 if side == "home" else 1; v = first(teams[idx], "score", "goals")
-            if isinstance(v, (int, float)) and not isinstance(v, bool): return v
-    return None
+    team = team_from_payload(payload, side); value = first(team, "score", "goals")
+    return value if isinstance(value, (int, float)) and not isinstance(value, bool) else None
 
 def numeric_score(payload, side):
     v = score_from_header(payload, side)
@@ -151,8 +136,7 @@ def normalize_players(payload, raw_path, source, target_team_id):
     for p in candidates:
         if not player_candidate(p, target_team_id): continue
         pid = str(first(p, "id", "playerId", "player_id")); stats = player_stats(p); row = rows.get(pid)
-        if row is None:
-            rows[pid] = {"fosi_id": f"player:{source}:{pid}", "provider": source, "provider_id": pid, "name": first(p, "name", "playerName", "fullName"), "position": first(p, "position", "role", "positionName"), "team_id": first(p, "teamId", "team_id"), "stats": stats, "source_meta": source_meta(source, raw_path, pid)}
+        if row is None: rows[pid] = {"fosi_id": f"player:{source}:{pid}", "provider": source, "provider_id": pid, "name": first(p, "name", "playerName", "fullName"), "position": first(p, "position", "role", "positionName"), "team_id": first(p, "teamId", "team_id"), "stats": stats, "source_meta": source_meta(source, raw_path, pid)}
         else:
             for k, v in stats.items():
                 if k in SUM_FIELDS and isinstance(v, (int, float)): row["stats"][k] = row["stats"].get(k, 0) + v
@@ -175,8 +159,7 @@ def normalize_file(payload, raw_path, source, target_team_id): return normalize_
 
 def main():
     cfg = load(CONFIG); root = ROOT / cfg["country"].lower().replace(" ", "-") / cfg["competition"].lower().replace(" ", "-") / cfg["team_id"]; raw_root, out_root = root / "raw", root / "normalized"; out_root.mkdir(parents=True, exist_ok=True)
-    matches, players, events, shots, spatial = [], [], [], [], []; records = 0
-    provider_ids = cfg.get("provider_ids") or {}
+    matches, players, events, shots, spatial = [], [], [], [], []; records = 0; provider_ids = cfg.get("provider_ids") or {}
     for path in sorted(raw_root.rglob("*.json")) if raw_root.exists() else []:
         if "source-status" in path.name or path.name.startswith("status-"): continue
         try: payload = load(path)
@@ -190,7 +173,7 @@ def main():
             key = row.get("fosi_id") or json.dumps(row, sort_keys=True, ensure_ascii=False)
             if key not in seen: seen.add(key); out.append(row)
         return out
-    bundle = {"schema_version": "1.6", "model": "FOSI normalized", "generated_at": datetime.now(timezone.utc).isoformat(), "scope": {"country": cfg["country"], "competition": cfg["competition"], "team": cfg["team"], "team_id": cfg["team_id"]}, "method": "normalized-from-raw", "counts": {}, "matches": dedupe(matches), "players": dedupe(players), "events": dedupe(events), "shots": dedupe(shots), "spatial_actions": dedupe(spatial)}
+    bundle = {"schema_version": "1.7", "model": "FOSI normalized", "generated_at": datetime.now(timezone.utc).isoformat(), "scope": {"country": cfg["country"], "competition": cfg["competition"], "team": cfg["team"], "team_id": cfg["team_id"]}, "method": "normalized-from-raw", "counts": {}, "matches": dedupe(matches), "players": dedupe(players), "events": dedupe(events), "shots": dedupe(shots), "spatial_actions": dedupe(spatial)}
     bundle["counts"] = {k: len(bundle[k]) for k in ("matches", "players", "events", "shots", "spatial_actions")}; (out_root / "fosi.json").write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8"); print(f"FOSI normalized: {records} RAW files -> {bundle['counts']}")
 
 if __name__ == "__main__": main()
