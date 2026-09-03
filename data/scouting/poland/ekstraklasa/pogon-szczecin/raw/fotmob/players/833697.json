@@ -1,0 +1,6120 @@
+{
+  "id": 833697,
+  "name": "Darko Churlinov",
+  "birthDate": {
+    "utcTime": "2000-07-11T00:00:00.000Z",
+    "timezone": "UTC"
+  },
+  "contractEnd": {
+    "utcTime": "2028-06-30T00:00:00.000Z",
+    "timezone": "UTC"
+  },
+  "isCoach": false,
+  "isCaptain": false,
+  "gender": "male",
+  "primaryTeam": {
+    "teamId": 8023,
+    "teamName": "Pogoń Szczecin",
+    "onLoan": false,
+    "teamColors": {
+      "color": "#102457",
+      "colorAlternate": "#1753a4",
+      "colorAway": "#880E02",
+      "colorAwayAlternate": "#9f2815"
+    }
+  },
+  "positionDescription": {
+    "positions": [
+      {
+        "strPos": {
+          "label": "Right Wing-Back",
+          "key": "right_wing_back"
+        },
+        "strPosShort": {
+          "label": "RWB",
+          "key": "right_wing_back_short"
+        },
+        "occurences": 1,
+        "position": "62",
+        "isMainPosition": false,
+        "pitchPositionData": null
+      },
+      {
+        "strPos": {
+          "label": "Right Midfielder",
+          "key": "rightmidfielder"
+        },
+        "strPosShort": {
+          "label": "RM",
+          "key": "rightmidfielder_short"
+        },
+        "occurences": 1,
+        "position": "72",
+        "isMainPosition": false,
+        "pitchPositionData": null
+      },
+      {
+        "strPos": {
+          "label": "Right Winger",
+          "key": "rightwinger"
+        },
+        "strPosShort": {
+          "label": "RW",
+          "key": "rightwinger_short"
+        },
+        "occurences": 4,
+        "position": "83",
+        "isMainPosition": false,
+        "pitchPositionData": {
+          "right": 0.83,
+          "top": 0.26,
+          "ratio": 0.38181818181818183
+        }
+      },
+      {
+        "strPos": {
+          "label": "Attacking Midfielder",
+          "key": "centerattackingmidfielder"
+        },
+        "strPosShort": {
+          "label": "AM",
+          "key": "centerattackingmidfielder_short"
+        },
+        "occurences": 1,
+        "position": "85",
+        "isMainPosition": false,
+        "pitchPositionData": null
+      },
+      {
+        "strPos": {
+          "label": "Left Winger",
+          "key": "leftwinger"
+        },
+        "strPosShort": {
+          "label": "LW",
+          "key": "leftwinger_short"
+        },
+        "occurences": 15,
+        "position": "87",
+        "isMainPosition": true,
+        "pitchPositionData": {
+          "right": 0.17,
+          "top": 0.26
+        }
+      }
+    ],
+    "primaryPosition": {
+      "label": "Left Winger",
+      "key": "leftwinger"
+    },
+    "nonPrimaryPositions": [
+      {
+        "label": "Right Winger",
+        "key": "rightwinger"
+      }
+    ]
+  },
+  "injuryInformation": null,
+  "internationalDuty": null,
+  "playerInformation": [
+    {
+      "value": {
+        "numberValue": 180,
+        "key": null,
+        "fallback": "180 cm"
+      },
+      "title": "Height",
+      "translationKey": "height_sentencecase"
+    },
+    {
+      "value": {
+        "numberValue": 21,
+        "options": {},
+        "key": null,
+        "fallback": 21
+      },
+      "title": "Shirt",
+      "translationKey": "shirt"
+    },
+    {
+      "value": {
+        "numberValue": 26,
+        "options": {
+          "style": "unit",
+          "unit": "year",
+          "unitDisplay": "long"
+        },
+        "key": null,
+        "fallback": "26"
+      },
+      "title": "Age",
+      "translationKey": "age_sentencecase"
+    },
+    {
+      "value": {
+        "key": "right",
+        "fallback": "Right"
+      },
+      "title": "Preferred foot",
+      "translationKey": "preferred_foot"
+    },
+    {
+      "value": {
+        "key": null,
+        "fallback": "North Macedonia"
+      },
+      "title": "Country",
+      "translationKey": "country_sentencecase",
+      "icon": {
+        "type": "country",
+        "id": "MKD"
+      },
+      "countryCode": "MKD"
+    },
+    {
+      "value": {
+        "numberValue": 1083765,
+        "key": null,
+        "fallback": "€1.1m"
+      },
+      "title": "Market value",
+      "translationKey": "transfer_value"
+    },
+    {
+      "value": {
+        "dateValue": "2028-06-30",
+        "key": null,
+        "fallback": {
+          "utcTime": "2028-06-30T00:00:00.000Z",
+          "timezone": "UTC"
+        }
+      },
+      "title": "Contract end",
+      "translationKey": "contract_end"
+    }
+  ],
+  "mainLeague": {
+    "leagueId": 196,
+    "leagueName": "Ekstraklasa",
+    "season": "2026/2027",
+    "stats": [
+      {
+        "title": "Goals",
+        "localizedTitleId": "goals",
+        "value": 1
+      },
+      {
+        "title": "Assists",
+        "localizedTitleId": "assists",
+        "value": 0
+      },
+      {
+        "title": "Started",
+        "localizedTitleId": "started",
+        "value": 3
+      },
+      {
+        "title": "Matches",
+        "localizedTitleId": "matches_uppercase",
+        "value": 4
+      },
+      {
+        "title": "Minutes played",
+        "localizedTitleId": "minutes_played",
+        "value": 192
+      },
+      {
+        "title": "Rating",
+        "localizedTitleId": "rating",
+        "value": 6.8
+      },
+      {
+        "title": "Yellow cards",
+        "localizedTitleId": "yellow_cards",
+        "value": 0
+      },
+      {
+        "title": "Red cards",
+        "localizedTitleId": "red_cards",
+        "value": 0
+      }
+    ]
+  },
+  "trophies": {
+    "playerTrophies": [
+      {
+        "ccode": "ENG",
+        "teamId": 8191,
+        "teamName": "Burnley",
+        "tournaments": [
+          {
+            "ccode": "ENG",
+            "leagueId": 48,
+            "leagueName": "Championship",
+            "seasonsWon": [
+              "2022/2023"
+            ],
+            "seasonsRunnerUp": []
+          }
+        ]
+      },
+      {
+        "ccode": "GER",
+        "teamId": 10189,
+        "teamName": "Schalke 04",
+        "tournaments": [
+          {
+            "ccode": "GER",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "seasonsWon": [
+              "2021/2022"
+            ],
+            "seasonsRunnerUp": []
+          }
+        ]
+      }
+    ],
+    "coachTrophies": []
+  },
+  "recentMatches": [
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8021,
+      "opponentTeamName": "Zagłębie Lubin",
+      "isHomeTeam": false,
+      "id": 5803967,
+      "matchDate": {
+        "utcTime": "2026-08-29T18:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#5803967",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.4",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 88,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 10265,
+      "opponentTeamName": "Wisła Kraków",
+      "isHomeTeam": true,
+      "id": 5803955,
+      "matchDate": {
+        "utcTime": "2026-08-23T18:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-krakow/2rkl8v#5803955",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 2,
+      "minutesPlayed": 30,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.5",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 89466,
+      "opponentTeamName": "Motor Lublin",
+      "isHomeTeam": true,
+      "id": 5803936,
+      "matchDate": {
+        "utcTime": "2026-08-08T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-motor-lublin/26lbxv7#5803936",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 1,
+      "minutesPlayed": 57,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.7",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 87,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 2186,
+      "opponentTeamName": "Cracovia",
+      "isHomeTeam": false,
+      "id": 5803923,
+      "matchDate": {
+        "utcTime": "2026-08-03T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/cracovia-vs-pogon-szczecin/v17vs#5803923",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "minutesPlayed": 60,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.7",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 83,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8260,
+      "teamName": "North Macedonia",
+      "opponentTeamId": 6595,
+      "opponentTeamName": "Turkiye",
+      "isHomeTeam": false,
+      "id": 5483930,
+      "matchDate": {
+        "utcTime": "2026-06-01T17:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/turkiye-vs-north-macedonia/1tp7j4#5483930",
+      "leagueId": 114,
+      "leagueName": "Friendlies",
+      "stage": null,
+      "homeScore": 4,
+      "awayScore": 0,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.8",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8260,
+      "teamName": "North Macedonia",
+      "opponentTeamId": 10106,
+      "opponentTeamName": "Bosnia and Herzegovina",
+      "isHomeTeam": false,
+      "id": 5648176,
+      "matchDate": {
+        "utcTime": "2026-05-29T18:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/north-macedonia-vs-bosnia-herzegovina/2sf8h1#5648176",
+      "leagueId": 114,
+      "leagueName": "Friendlies",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 1931,
+      "opponentTeamName": "Antalyaspor",
+      "isHomeTeam": false,
+      "id": 4842612,
+      "matchDate": {
+        "utcTime": "2026-05-17T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-antalyaspor/3ncx5#4842612",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "minutesPlayed": 63,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "5.9",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 107,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 2088,
+      "opponentTeamName": "Fatih Karagümrük",
+      "isHomeTeam": true,
+      "id": 4842610,
+      "matchDate": {
+        "utcTime": "2026-05-09T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-fatih-karagumruk/3zelx#4842610",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "minutesPlayed": 17,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "5.9",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 7800,
+      "opponentTeamName": "Gençlerbirliği",
+      "isHomeTeam": false,
+      "id": 4842590,
+      "matchDate": {
+        "utcTime": "2026-04-26T11:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-genclerbirligi/q4ynx#4842590",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "minutesPlayed": 28,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 1925,
+      "opponentTeamName": "Göztepe",
+      "isHomeTeam": true,
+      "id": 4842582,
+      "matchDate": {
+        "utcTime": "2026-04-18T14:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-goztepe/3mwq2#4842582",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minutesPlayed": 16,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.5",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 8637,
+      "opponentTeamName": "Galatasaray",
+      "isHomeTeam": false,
+      "id": 4842571,
+      "matchDate": {
+        "utcTime": "2026-04-12T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-galatasaray/v0kq6#4842571",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minutesPlayed": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 1933,
+      "opponentTeamName": "Başakşehir",
+      "isHomeTeam": true,
+      "id": 4842564,
+      "matchDate": {
+        "utcTime": "2026-04-06T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-basaksehir/3nibq#4842564",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "minutesPlayed": 22,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.2",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8260,
+      "teamName": "North Macedonia",
+      "opponentTeamId": 5791,
+      "opponentTeamName": "Ireland",
+      "isHomeTeam": false,
+      "id": 5279748,
+      "matchDate": {
+        "utcTime": "2026-03-31T18:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/ireland-vs-north-macedonia/1ms50a#5279748",
+      "leagueId": 114,
+      "leagueName": "Friendlies",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "minutesPlayed": 60,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "5.9",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 62,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8260,
+      "teamName": "North Macedonia",
+      "opponentTeamId": 8238,
+      "opponentTeamName": "Denmark",
+      "isHomeTeam": false,
+      "id": 5067290,
+      "matchDate": {
+        "utcTime": "2026-03-26T19:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/denmark-vs-north-macedonia/2919zz#5067290",
+      "leagueId": 10195,
+      "leagueName": "World Cup Qualification UEFA",
+      "stage": "1/2",
+      "homeScore": 4,
+      "awayScore": 0,
+      "minutesPlayed": 64,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.5",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 87,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 4678,
+      "opponentTeamName": "Alanyaspor",
+      "isHomeTeam": false,
+      "id": 4842549,
+      "matchDate": {
+        "utcTime": "2026-03-18T13:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-alanyaspor/bmdyq#4842549",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 5,
+      "awayScore": 0,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.4",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 88,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 8622,
+      "opponentTeamName": "Konyaspor",
+      "isHomeTeam": true,
+      "id": 4842546,
+      "matchDate": {
+        "utcTime": "2026-03-14T10:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-konyaspor/uxao6#4842546",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 2,
+      "minutesPlayed": 78,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.3",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 107,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 4681,
+      "opponentTeamName": "Eyüpspor",
+      "isHomeTeam": false,
+      "id": 4842534,
+      "matchDate": {
+        "utcTime": "2026-03-09T13:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-eyupspor/bmsfk#4842534",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "minutesPlayed": 62,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.5",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 87,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 551694,
+      "opponentTeamName": "Beyoğlu Yeni Çarşı Futbol Kulubu",
+      "isHomeTeam": false,
+      "id": 5085956,
+      "matchDate": {
+        "utcTime": "2026-03-04T17:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-beyoglu-yeni-cars-futbol-kulubu/1yb6huk6#5085956",
+      "leagueId": 151,
+      "leagueName": "Turkish Cup",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "minutesPlayed": 90,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 107,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 10188,
+      "opponentTeamName": "Beşiktaş",
+      "isHomeTeam": true,
+      "id": 4842528,
+      "matchDate": {
+        "utcTime": "2026-02-28T13:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-besiktas/155i30#4842528",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "minutesPlayed": 29,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 2166,
+      "opponentTeamName": "Rizespor",
+      "isHomeTeam": false,
+      "id": 4842521,
+      "matchDate": {
+        "utcTime": "2026-02-20T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-rizespor/45l56#4842521",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "minutesPlayed": 90,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.7",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 87,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 4081,
+      "opponentTeamName": "Gaziantep FK",
+      "isHomeTeam": true,
+      "id": 4842511,
+      "matchDate": {
+        "utcTime": "2026-02-15T11:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-gaziantep-fk/9i93w#4842511",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 0,
+      "minutesPlayed": 18,
+      "goals": 0,
+      "assists": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "8.3",
+        "isTopRating": true
+      },
+      "playerOfTheMatch": true,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 10182,
+      "opponentTeamName": "Kayserispor",
+      "isHomeTeam": false,
+      "id": 4842500,
+      "matchDate": {
+        "utcTime": "2026-02-09T14:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-kayserispor/153znx#4842500",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 2,
+      "minutesPlayed": 18,
+      "goals": 0,
+      "assists": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.2",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 10188,
+      "opponentTeamName": "Beşiktaş",
+      "isHomeTeam": true,
+      "id": 5085953,
+      "matchDate": {
+        "utcTime": "2026-02-05T15:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-besiktas/155i30#5085953",
+      "leagueId": 151,
+      "leagueName": "Turkish Cup",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minutesPlayed": 73,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 83,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 8695,
+      "opponentTeamName": "Fenerbahçe",
+      "isHomeTeam": true,
+      "id": 4842494,
+      "matchDate": {
+        "utcTime": "2026-02-02T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-fenerbahce/vdaub#4842494",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "minutesPlayed": 11,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.2",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 9750,
+      "opponentTeamName": "Samsunspor",
+      "isHomeTeam": false,
+      "id": 4842484,
+      "matchDate": {
+        "utcTime": "2026-01-24T14:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-samsunspor/125ct6#4842484",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 9752,
+      "opponentTeamName": "Trabzonspor",
+      "isHomeTeam": true,
+      "id": 4842475,
+      "matchDate": {
+        "utcTime": "2026-01-18T14:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-trabzonspor/125ua5#4842475",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 2,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 85,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 4081,
+      "opponentTeamName": "Gaziantep FK",
+      "isHomeTeam": false,
+      "id": 5085949,
+      "matchDate": {
+        "utcTime": "2026-01-13T15:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-gaziantep-fk/9i93w#5085949",
+      "leagueId": 151,
+      "leagueName": "Turkish Cup",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "minutesPlayed": 77,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 83,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 281467,
+      "opponentTeamName": "Erzurumspor FK",
+      "isHomeTeam": true,
+      "id": 5085944,
+      "matchDate": {
+        "utcTime": "2025-12-23T12:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-erzurumspor-fk/iefs1xt#5085944",
+      "leagueId": 151,
+      "leagueName": "Turkish Cup",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 1,
+      "minutesPlayed": 61,
+      "goals": 2,
+      "assists": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 107,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 1931,
+      "opponentTeamName": "Antalyaspor",
+      "isHomeTeam": true,
+      "id": 4842466,
+      "matchDate": {
+        "utcTime": "2025-12-19T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-antalyaspor/3ncx5#4842466",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "minutesPlayed": 73,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.3",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 87,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 2088,
+      "opponentTeamName": "Fatih Karagümrük",
+      "isHomeTeam": false,
+      "id": 4842453,
+      "matchDate": {
+        "utcTime": "2025-12-14T14:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-fatih-karagumruk/3zelx#4842453",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minutesPlayed": 18,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.4",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 4685,
+      "opponentTeamName": "Kasımpaşa",
+      "isHomeTeam": true,
+      "id": 4842448,
+      "matchDate": {
+        "utcTime": "2025-12-07T14:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-kasmpasa/bnbqe#4842448",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "minutesPlayed": 81,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.6",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 83,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 162990,
+      "opponentTeamName": "Karacabey Belediye Spor",
+      "isHomeTeam": false,
+      "id": 5046382,
+      "matchDate": {
+        "utcTime": "2025-12-03T10:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-karacabey-belediye-spor/67xeuo6#5046382",
+      "leagueId": 151,
+      "leagueName": "Turkish Cup",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 2,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 7800,
+      "opponentTeamName": "Gençlerbirliği",
+      "isHomeTeam": true,
+      "id": 4842437,
+      "matchDate": {
+        "utcTime": "2025-11-28T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-genclerbirligi/q4ynx#4842437",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "minutesPlayed": 84,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.7",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 87,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 1925,
+      "opponentTeamName": "Göztepe",
+      "isHomeTeam": false,
+      "id": 4842428,
+      "matchDate": {
+        "utcTime": "2025-11-23T11:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-goztepe/3mwq2#4842428",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "minutesPlayed": 25,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.1",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8260,
+      "teamName": "North Macedonia",
+      "opponentTeamId": 5790,
+      "opponentTeamName": "Wales",
+      "isHomeTeam": false,
+      "id": 4689453,
+      "matchDate": {
+        "utcTime": "2025-11-18T19:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/wales-vs-north-macedonia/1mru5z#4689453",
+      "leagueId": 10195,
+      "leagueName": "World Cup Qualification UEFA",
+      "stage": null,
+      "homeScore": 7,
+      "awayScore": 1,
+      "minutesPlayed": 35,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.3",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8260,
+      "teamName": "North Macedonia",
+      "opponentTeamId": 5795,
+      "opponentTeamName": "Latvia",
+      "isHomeTeam": true,
+      "id": 4960814,
+      "matchDate": {
+        "utcTime": "2025-11-13T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/latvia-vs-north-macedonia/1mtcds#4960814",
+      "leagueId": 114,
+      "leagueName": "Friendlies",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "minutesPlayed": 60,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 107,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 8637,
+      "opponentTeamName": "Galatasaray",
+      "isHomeTeam": true,
+      "id": 4842420,
+      "matchDate": {
+        "utcTime": "2025-11-09T14:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-galatasaray/v0kq6#4842420",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "minutesPlayed": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 1933,
+      "opponentTeamName": "Başakşehir",
+      "isHomeTeam": false,
+      "id": 4842406,
+      "matchDate": {
+        "utcTime": "2025-10-31T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-basaksehir/3nibq#4842406",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "minutesPlayed": 13,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8260,
+      "teamName": "North Macedonia",
+      "opponentTeamId": 8265,
+      "opponentTeamName": "Kazakhstan",
+      "isHomeTeam": true,
+      "id": 4689448,
+      "matchDate": {
+        "utcTime": "2025-10-13T18:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/north-macedonia-vs-kazakhstan/29au04#4689448",
+      "leagueId": 10195,
+      "leagueName": "World Cup Qualification UEFA",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.2",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8260,
+      "teamName": "North Macedonia",
+      "opponentTeamId": 8263,
+      "opponentTeamName": "Belgium",
+      "isHomeTeam": false,
+      "id": 4689447,
+      "matchDate": {
+        "utcTime": "2025-10-10T18:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/north-macedonia-vs-belgium/29a4i1#4689447",
+      "leagueId": 10195,
+      "leagueName": "World Cup Qualification UEFA",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.1",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 4681,
+      "opponentTeamName": "Eyüpspor",
+      "isHomeTeam": true,
+      "id": 4842384,
+      "matchDate": {
+        "utcTime": "2025-10-04T14:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-eyupspor/bmsfk#4842384",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.6",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 10188,
+      "opponentTeamName": "Beşiktaş",
+      "isHomeTeam": false,
+      "id": 4842370,
+      "matchDate": {
+        "utcTime": "2025-09-29T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-besiktas/155i30#4842370",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 1,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.2",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 87,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 2166,
+      "opponentTeamName": "Rizespor",
+      "isHomeTeam": true,
+      "id": 4842366,
+      "matchDate": {
+        "utcTime": "2025-09-21T14:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-rizespor/45l56#4842366",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minutesPlayed": 78,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 87,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 1569,
+      "teamName": "Kocaelispor",
+      "opponentTeamId": 4081,
+      "opponentTeamName": "Gaziantep FK",
+      "isHomeTeam": false,
+      "id": 4842354,
+      "matchDate": {
+        "utcTime": "2025-09-14T16:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/kocaelispor-vs-gaziantep-fk/9i93w#4842354",
+      "leagueId": 71,
+      "leagueName": "Süper Lig",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "5.5",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 107,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8260,
+      "teamName": "North Macedonia",
+      "opponentTeamId": 5799,
+      "opponentTeamName": "Liechtenstein",
+      "isHomeTeam": true,
+      "id": 4689444,
+      "matchDate": {
+        "utcTime": "2025-09-07T16:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/liechtenstein-vs-north-macedonia/1mujrq#4689444",
+      "leagueId": 10195,
+      "leagueName": "World Cup Qualification UEFA",
+      "stage": null,
+      "homeScore": 5,
+      "awayScore": 0,
+      "minutesPlayed": 59,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "8.2",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 72,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8260,
+      "teamName": "North Macedonia",
+      "opponentTeamId": 7795,
+      "opponentTeamName": "Saudi Arabia",
+      "isHomeTeam": false,
+      "id": 4928756,
+      "matchDate": {
+        "utcTime": "2025-09-04T15:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/saudi-arabia-vs-north-macedonia/24qq6g#4928756",
+      "leagueId": 114,
+      "leagueName": "Friendlies",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    }
+  ],
+  "matchesUrl": "https://pub.fotmob.com/prod/db/api/player/833697/matches",
+  "careerHistory": {
+    "showFootnote": false,
+    "careerItems": {
+      "senior": {
+        "teamEntries": [
+          {
+            "participantId": 833697,
+            "teamId": 8023,
+            "team": "Pogoń Szczecin",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2026-07-27T00:00:00",
+            "endDate": null,
+            "active": true,
+            "role": null,
+            "appearances": "4",
+            "goals": "1",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 833697,
+            "teamId": 1569,
+            "team": "Kocaelispor",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2025-09-01T00:00:00",
+            "endDate": "2026-07-27T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "30",
+            "goals": "2",
+            "assists": "4",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 833697,
+            "teamId": 8191,
+            "team": "Burnley",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "back from loan",
+              "localizationKey": "transfer_type_back_from_loan"
+            },
+            "startDate": "2025-07-01T00:00:00",
+            "endDate": "2025-09-01T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": null,
+            "goals": null,
+            "assists": null,
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 833697,
+            "teamId": 1957,
+            "team": "Jagiellonia Białystok",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            },
+            "startDate": "2024-08-07T00:00:00",
+            "endDate": "2025-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "43",
+            "goals": "7",
+            "assists": "3",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 833697,
+            "teamId": 8191,
+            "team": "Burnley",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "back from loan",
+              "localizationKey": "transfer_type_back_from_loan"
+            },
+            "startDate": "2024-07-01T00:00:00",
+            "endDate": "2024-08-07T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": null,
+            "goals": null,
+            "assists": null,
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 833697,
+            "teamId": 10189,
+            "team": "Schalke 04",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            },
+            "startDate": "2024-01-23T00:00:00",
+            "endDate": "2024-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "10",
+            "goals": "1",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 833697,
+            "teamId": 8191,
+            "team": "Burnley",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2022-08-19T00:00:00",
+            "endDate": "2024-01-23T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "13",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 833697,
+            "teamId": 10269,
+            "team": "VfB Stuttgart",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "back from loan",
+              "localizationKey": "transfer_type_back_from_loan"
+            },
+            "startDate": "2022-07-01T00:00:00",
+            "endDate": "2022-08-19T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "2",
+            "goals": "1",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 833697,
+            "teamId": 10189,
+            "team": "Schalke 04",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            },
+            "startDate": "2021-08-18T00:00:00",
+            "endDate": "2022-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "23",
+            "goals": "2",
+            "assists": "4",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 833697,
+            "teamId": 10269,
+            "team": "VfB Stuttgart",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2020-01-08T00:00:00",
+            "endDate": "2021-08-17T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "23",
+            "goals": "2",
+            "assists": "1",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 833697,
+            "teamId": 8459,
+            "team": "FC Köln II",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2018-09-01T00:00:00",
+            "endDate": "2020-01-07T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "10",
+            "goals": "6",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 833697,
+            "teamId": 8722,
+            "team": "1. FC Köln",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2019-08-16T00:00:00",
+            "endDate": "2019-12-31T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          }
+        ],
+        "seasonEntries": [
+          {
+            "seasonName": "2026/2027",
+            "appearances": "4",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": "6.80"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 196,
+                "leagueName": "Ekstraklasa",
+                "seasonName": "2026/2027",
+                "tournamentId": 37304,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "4",
+                "rating": {
+                  "rating": "6.80"
+                }
+              }
+            ],
+            "teamId": 8023,
+            "team": "Pogoń Szczecin",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2025/2026",
+            "appearances": "30",
+            "goals": "2",
+            "assists": "4",
+            "rating": {
+              "rating": "6.43"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 71,
+                "leagueName": "Super Lig",
+                "seasonName": "2025/2026",
+                "tournamentId": 27244,
+                "goals": "0",
+                "assists": "3",
+                "appearances": "26",
+                "rating": {
+                  "rating": "6.43"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 151,
+                "leagueName": "Turkish Cup",
+                "seasonName": "2025/2026",
+                "tournamentId": 28511,
+                "goals": "2",
+                "assists": "1",
+                "appearances": "4",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 1569,
+            "team": "Kocaelispor",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2024/2025",
+            "appearances": "43",
+            "goals": "7",
+            "assists": "3",
+            "rating": {
+              "rating": "7.04"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 196,
+                "leagueName": "Ekstraklasa",
+                "seasonName": "2024/2025",
+                "tournamentId": 23622,
+                "goals": "5",
+                "assists": "3",
+                "appearances": "26",
+                "rating": {
+                  "rating": "7.11"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 200,
+                "leagueName": "Super Cup",
+                "seasonName": "2024/2025",
+                "tournamentId": 27047,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 73,
+                "leagueName": "Europa League",
+                "seasonName": "2024/2025",
+                "tournamentId": 24112,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 10216,
+                "leagueName": "Conference League",
+                "seasonName": "2024/2025",
+                "tournamentId": 24113,
+                "goals": "2",
+                "assists": "0",
+                "appearances": "12",
+                "rating": {
+                  "rating": "6.91"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueName": "Cup",
+                "seasonName": "2024/2025",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 1957,
+            "team": "Jagiellonia Białystok",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            }
+          },
+          {
+            "seasonName": "2023/2024",
+            "appearances": "10",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": "6.33"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 146,
+                "leagueName": "2. Bundesliga",
+                "seasonName": "2023/2024",
+                "tournamentId": 20947,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "10",
+                "rating": {
+                  "rating": "6.33"
+                }
+              }
+            ],
+            "teamId": 10189,
+            "team": "Schalke 04",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            }
+          },
+          {
+            "seasonName": "2022/2023",
+            "appearances": "13",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": "6.66"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 48,
+                "leagueName": "Championship",
+                "seasonName": "2022/2023",
+                "tournamentId": 17834,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "7",
+                "rating": {
+                  "rating": "6.64"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 132,
+                "leagueName": "FA Cup",
+                "seasonName": "2022/2023",
+                "tournamentId": 17927,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "4",
+                "rating": {
+                  "rating": "6.91"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 133,
+                "leagueName": "EFL Cup",
+                "seasonName": "2022/2023",
+                "tournamentId": 17837,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": "6.26"
+                }
+              }
+            ],
+            "teamId": 8191,
+            "team": "Burnley",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2022/2023",
+            "appearances": "2",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": "7.02"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 54,
+                "leagueName": "Bundesliga",
+                "seasonName": "2022/2023",
+                "tournamentId": 17801,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "6.20"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 209,
+                "leagueName": "DFB Pokal",
+                "seasonName": "2022/2023",
+                "tournamentId": 17692,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "7.85"
+                }
+              }
+            ],
+            "teamId": 10269,
+            "team": "VfB Stuttgart",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "back from loan",
+              "localizationKey": "transfer_type_back_from_loan"
+            }
+          },
+          {
+            "seasonName": "2021/2022",
+            "appearances": "23",
+            "goals": "2",
+            "assists": "4",
+            "rating": {
+              "rating": "7.06"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 146,
+                "leagueName": "2. Bundesliga",
+                "seasonName": "2021/2022",
+                "tournamentId": 16495,
+                "goals": "2",
+                "assists": "4",
+                "appearances": "22",
+                "rating": {
+                  "rating": "7.12"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 209,
+                "leagueName": "DFB Pokal",
+                "seasonName": "2021/2022",
+                "tournamentId": 16553,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "5.94"
+                }
+              }
+            ],
+            "teamId": 10189,
+            "team": "Schalke 04",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            }
+          },
+          {
+            "seasonName": "2021/2022",
+            "appearances": "1",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": "5.94"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 209,
+                "leagueName": "DFB Pokal",
+                "seasonName": "2021/2022",
+                "tournamentId": 16553,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "5.94"
+                }
+              }
+            ],
+            "teamId": 10269,
+            "team": "VfB Stuttgart",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2020/2021",
+            "appearances": "16",
+            "goals": "0",
+            "assists": "1",
+            "rating": {
+              "rating": "6.36"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 54,
+                "leagueName": "Bundesliga",
+                "seasonName": "2020/2021",
+                "tournamentId": 15481,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "14",
+                "rating": {
+                  "rating": "6.27"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 209,
+                "leagueName": "DFB Pokal",
+                "seasonName": "2020/2021",
+                "tournamentId": 15391,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": "6.99"
+                }
+              }
+            ],
+            "teamId": 10269,
+            "team": "VfB Stuttgart",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2019/2020",
+            "appearances": "6",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": "6.19"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 146,
+                "leagueName": "2. Bundesliga",
+                "seasonName": "2019/2020",
+                "tournamentId": 14145,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "6",
+                "rating": {
+                  "rating": "6.19"
+                }
+              }
+            ],
+            "teamId": 10269,
+            "team": "VfB Stuttgart",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2019/2020",
+            "appearances": "9",
+            "goals": "6",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 512,
+                "leagueName": "Regionalliga",
+                "seasonName": "2019/2020",
+                "tournamentId": 14057,
+                "goals": "6",
+                "assists": "undefined",
+                "appearances": "9",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8459,
+            "team": "FC Köln II",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2018/2019",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 512,
+                "leagueName": "Regionalliga",
+                "seasonName": "2018/2019",
+                "tournamentId": 12789,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8459,
+            "team": "FC Köln II",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2019/2020",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": "5.66"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 54,
+                "leagueName": "Bundesliga",
+                "seasonName": "2019/2020",
+                "tournamentId": 14144,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "5.66"
+                }
+              }
+            ],
+            "teamId": 8722,
+            "team": "1. FC Köln",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          }
+        ]
+      },
+      "youth": {
+        "teamEntries": [
+          {
+            "participantId": 833697,
+            "teamId": 1796112,
+            "team": "Burnley U21",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2023-10-06T00:00:00",
+            "endDate": "2024-01-23T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 833697,
+            "teamId": 664924,
+            "team": "FC Köln U19",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2016-11-01T00:00:00",
+            "endDate": "2019-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "57",
+            "goals": "26",
+            "assists": "0",
+            "hasUncertainData": false
+          }
+        ],
+        "seasonEntries": [
+          {
+            "seasonName": "2023/2024",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "Premier League Cup",
+                "seasonName": "2023/2024",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 1796112,
+            "team": "Burnley U21",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2018/2019",
+            "appearances": "23",
+            "goals": "18",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "U19 Bundesliga",
+                "seasonName": "2018/2019",
+                "tournamentId": -1,
+                "goals": "18",
+                "assists": "undefined",
+                "appearances": "23",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 664924,
+            "team": "FC Köln U19",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2017/2018",
+            "appearances": "24",
+            "goals": "3",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "U19 Bundesliga",
+                "seasonName": "2017/2018",
+                "tournamentId": -1,
+                "goals": "3",
+                "assists": "undefined",
+                "appearances": "24",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 664924,
+            "team": "FC Köln U19",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2016/2017",
+            "appearances": "10",
+            "goals": "5",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "U19 Bundesliga",
+                "seasonName": "2016/2017",
+                "tournamentId": -1,
+                "goals": "5",
+                "assists": "undefined",
+                "appearances": "10",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 664924,
+            "team": "FC Köln U19",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          }
+        ]
+      },
+      "national team": {
+        "teamEntries": [
+          {
+            "participantId": 833697,
+            "teamId": 8260,
+            "team": "North Macedonia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2017-01-01T00:00:00",
+            "endDate": null,
+            "active": true,
+            "role": null,
+            "appearances": "42",
+            "goals": "5",
+            "assists": "1",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 833697,
+            "teamId": 8504,
+            "team": "North Macedonia U21",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2018-08-21T00:00:00",
+            "endDate": "2021-08-24T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "11",
+            "goals": "5",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 833697,
+            "teamId": 401897,
+            "team": "North Macedonia U19",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2017-11-01T00:00:00",
+            "endDate": "2019-11-10T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "9",
+            "goals": "2",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 833697,
+            "teamId": 395316,
+            "team": "North Macedonia U17",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2016-10-01T00:00:00",
+            "endDate": "2017-10-01T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "3",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          }
+        ],
+        "seasonEntries": [
+          {
+            "seasonName": "2026",
+            "appearances": "3",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": "6.22"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2026",
+                "tournamentId": 29822,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "3",
+                "rating": {
+                  "rating": "6.22"
+                }
+              }
+            ],
+            "teamId": 8260,
+            "team": "North Macedonia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2025/2026",
+            "appearances": "9",
+            "goals": "1",
+            "assists": "1",
+            "rating": {
+              "rating": "6.72"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 10195,
+                "leagueName": "World Cup Qualification UEFA",
+                "seasonName": "2025/2026",
+                "tournamentId": 24488,
+                "goals": "1",
+                "assists": "1",
+                "appearances": "9",
+                "rating": {
+                  "rating": "6.72"
+                }
+              }
+            ],
+            "teamId": 8260,
+            "team": "North Macedonia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2025",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2025",
+                "tournamentId": 24481,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8260,
+            "team": "North Macedonia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2024/2026",
+            "appearances": "4",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 9806,
+                "leagueName": "UEFA Nations League A",
+                "seasonName": "2024/2026",
+                "tournamentId": 22886,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "4",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8260,
+            "team": "North Macedonia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2024",
+            "appearances": "3",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": "6.23"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2024",
+                "tournamentId": 22275,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "3",
+                "rating": {
+                  "rating": "6.23"
+                }
+              }
+            ],
+            "teamId": 8260,
+            "team": "North Macedonia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2023/2024",
+            "appearances": "3",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 10607,
+                "leagueName": "EURO Qualification",
+                "seasonName": "2023/2024",
+                "tournamentId": -1,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "3",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8260,
+            "team": "North Macedonia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2023",
+            "appearances": "2",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2023",
+                "tournamentId": 18498,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8260,
+            "team": "North Macedonia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2022/2024",
+            "appearances": "3",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 9806,
+                "leagueName": "UEFA Nations League A",
+                "seasonName": "2022/2024",
+                "tournamentId": 17161,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "3",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8260,
+            "team": "North Macedonia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2021/2022",
+            "appearances": "9",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": "7.22"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 10195,
+                "leagueName": "World Cup Qualification UEFA",
+                "seasonName": "2021/2022",
+                "tournamentId": 17272,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "9",
+                "rating": {
+                  "rating": "7.22"
+                }
+              }
+            ],
+            "teamId": 8260,
+            "team": "North Macedonia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2021",
+            "appearances": "4",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": "6.28"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 50,
+                "leagueName": "EURO",
+                "seasonName": "2021",
+                "tournamentId": 12715,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": "6.28"
+                }
+              },
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2021",
+                "tournamentId": 15943,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8260,
+            "team": "North Macedonia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2017",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2017",
+                "tournamentId": 10882,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8260,
+            "team": "North Macedonia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2019/2021",
+            "appearances": "9",
+            "goals": "4",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 288,
+                "leagueName": "EURO U21",
+                "seasonName": "2019/2021",
+                "tournamentId": 15894,
+                "goals": "4",
+                "assists": "0",
+                "appearances": "9",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8504,
+            "team": "North Macedonia U21",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2017/2019",
+            "appearances": "2",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 288,
+                "leagueName": "EURO U21",
+                "seasonName": "2017/2019",
+                "tournamentId": 12600,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8504,
+            "team": "North Macedonia U21",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2019",
+            "appearances": "3",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 287,
+                "leagueName": "UEFA U19 Championship",
+                "seasonName": "2019",
+                "tournamentId": 13944,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "3",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 401897,
+            "team": "North Macedonia U19",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2018",
+            "appearances": "6",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 287,
+                "leagueName": "UEFA U19 Championship",
+                "seasonName": "2018",
+                "tournamentId": 12597,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "6",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 401897,
+            "team": "North Macedonia U19",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2017",
+            "appearances": "3",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 301,
+                "leagueName": "UEFA U17 Championship",
+                "seasonName": "2017",
+                "tournamentId": 11355,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "3",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 395316,
+            "team": "North Macedonia U17",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          }
+        ]
+      }
+    },
+    "fullCareer": true
+  },
+  "traits": {
+    "key": "stats_comparison_att_mid_wingers",
+    "title": "Stats compared to other attacking midfielders/wingers",
+    "items": [
+      {
+        "key": "chances_created",
+        "title": "Chances created",
+        "value": 0.04
+      },
+      {
+        "key": "aerials_won",
+        "title": "Aerial duels",
+        "value": 0.27
+      },
+      {
+        "key": "defensive_actions",
+        "title": "Defensive actions",
+        "value": 0.28
+      },
+      {
+        "key": "goals",
+        "title": "Goals",
+        "value": 0.4
+      },
+      {
+        "key": "shot_attempts",
+        "title": "Shot attempts",
+        "value": 0.17
+      },
+      {
+        "key": "touches",
+        "title": "Touches",
+        "value": 0.08
+      }
+    ]
+  },
+  "meta": {
+    "seopath": "darko-churlinov",
+    "pageurl": "/players/833697/darko-churlinov",
+    "faqJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How old is Darko Churlinov?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Darko Churlinov is 26 years old. Born on Tue Jul 11 2000."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How tall is Darko Churlinov?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Darko Churlinov is 180 cm tall. Or 5 ft 11 in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When was Darko Churlinov born?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Darko Churlinov was born Tue Jul 11 2000 and is now 26 years old."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which is Darko Churlinov's preferred foot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Darko Churlinov's preferred foot is right."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is Darko Churlinov's transfer value?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Darko Churlinov's transfer value is estimated to be around €1.1m."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Darko Churlinov from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Darko Churlinov is from North Macedonia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many goals has Darko Churlinov scored this season?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Darko Churlinov has scored 1 goals in the Ekstraklasa."
+          }
+        }
+      ]
+    },
+    "personJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Darko Churlinov",
+      "birthDate": "2000-07-11T00:00:00.000Z",
+      "url": "https://www.fotmob.com/players/833697/darko-churlinov",
+      "nationality": {
+        "@type": "Country",
+        "name": "North Macedonia"
+      },
+      "affiliation": {
+        "@type": "SportsTeam",
+        "name": "Pogoń Szczecin"
+      },
+      "gender": "https://schema.org/Male",
+      "height": {
+        "@type": "QuantitativeValue",
+        "unitText": "cm",
+        "value": "180"
+      },
+      "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "kg",
+        "value": "74"
+      }
+    },
+    "breadcrumbJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fotmob.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ekstraklasa 2026/2027",
+          "item": "https://www.fotmob.com/leagues/196/overview/ekstraklasa-20262027"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Pogoń Szczecin",
+          "item": "https://www.fotmob.com/teams/8023/overview/pogon-szczecin"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Darko Churlinov",
+          "item": "https://www.fotmob.com/leagues/833697/overview/darko-churlinov"
+        }
+      ]
+    }
+  },
+  "coachStats": null,
+  "statSeasons": [
+    {
+      "seasonName": "2026/2027",
+      "tournaments": [
+        {
+          "name": "Ekstraklasa",
+          "tournamentId": 196,
+          "entryId": "0-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2025/2026",
+      "tournaments": [
+        {
+          "name": "Super Lig",
+          "tournamentId": 71,
+          "entryId": "1-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Cup Grp. C",
+          "tournamentId": 151,
+          "entryId": "1-1",
+          "hasDeepStats": false
+        },
+        {
+          "name": "World Cup UEFA qualification",
+          "tournamentId": 10195,
+          "entryId": "1-2",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2024/2025",
+      "tournaments": [
+        {
+          "name": "Ekstraklasa",
+          "tournamentId": 196,
+          "entryId": "2-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Europa League Qualification qualification",
+          "tournamentId": 10613,
+          "entryId": "2-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "UEFA Nations League C",
+          "tournamentId": 9808,
+          "entryId": "2-2",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Conference League",
+          "tournamentId": 10216,
+          "entryId": "2-3",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2023/2024",
+      "tournaments": [
+        {
+          "name": "2. Bundesliga",
+          "tournamentId": 146,
+          "entryId": "3-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "EURO Qualification qualification",
+          "tournamentId": 10607,
+          "entryId": "3-1",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2022/2023",
+      "tournaments": [
+        {
+          "name": "Championship",
+          "tournamentId": 48,
+          "entryId": "4-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Bundesliga",
+          "tournamentId": 54,
+          "entryId": "4-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "FA Cup",
+          "tournamentId": 132,
+          "entryId": "4-2",
+          "hasDeepStats": true
+        },
+        {
+          "name": "EFL Cup",
+          "tournamentId": 133,
+          "entryId": "4-3",
+          "hasDeepStats": true
+        },
+        {
+          "name": "DFB Pokal",
+          "tournamentId": 209,
+          "entryId": "4-4",
+          "hasDeepStats": true
+        },
+        {
+          "name": "UEFA Nations League C",
+          "tournamentId": 9808,
+          "entryId": "4-5",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2021/2022",
+      "tournaments": [
+        {
+          "name": "2. Bundesliga",
+          "tournamentId": 146,
+          "entryId": "5-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "DFB Pokal",
+          "tournamentId": 209,
+          "entryId": "5-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "World Cup UEFA qualification",
+          "tournamentId": 10195,
+          "entryId": "5-2",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2020/2021",
+      "tournaments": [
+        {
+          "name": "Bundesliga",
+          "tournamentId": 54,
+          "entryId": "6-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "DFB Pokal",
+          "tournamentId": 209,
+          "entryId": "6-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "EURO",
+          "tournamentId": 50,
+          "entryId": "6-2",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2019/2020",
+      "tournaments": [
+        {
+          "name": "Bundesliga",
+          "tournamentId": 54,
+          "entryId": "7-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "2. Bundesliga",
+          "tournamentId": 146,
+          "entryId": "7-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Regionalliga West",
+          "tournamentId": 512,
+          "entryId": "7-2",
+          "hasDeepStats": false
+        },
+        {
+          "name": "EURO U-21 Qualification qualification",
+          "tournamentId": 10437,
+          "entryId": "7-3",
+          "hasDeepStats": false
+        }
+      ]
+    },
+    {
+      "seasonName": "2017/2018",
+      "tournaments": [
+        {
+          "name": "EURO U-21 Qualification qualification",
+          "tournamentId": 10437,
+          "entryId": "8-0",
+          "hasDeepStats": false
+        }
+      ]
+    }
+  ],
+  "firstSeasonStats": {
+    "sectionOrder": [
+      "top-stat-card",
+      "shotmap",
+      "stats-section"
+    ],
+    "shotmap": [
+      {
+        "id": 2951501429,
+        "playerName": "Darko Churlinov",
+        "eventType": "AttemptSaved",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 8023,
+        "playerId": 833697,
+        "x": 93.9,
+        "y": 21.547006373,
+        "min": 17,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": true,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 97.2807017537,
+        "blockedY": 24.6998726165,
+        "goalCrossedY": 31.94125,
+        "goalCrossedZ": 1.219999994,
+        "expectedGoals": 0.0605242252349854,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 1.54464285714286,
+          "y": 0.322751321164021,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 2186,
+        "awayTeamId": 8023,
+        "homeTeamName": "Cracovia",
+        "awayTeamName": "Pogoń Szczecin",
+        "homeScore": 0,
+        "awayScore": 2,
+        "matchId": 5803923,
+        "matchDate": "2026-08-03T17:00:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      },
+      {
+        "id": 2951503337,
+        "playerName": "Darko Churlinov",
+        "eventType": "Miss",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 8023,
+        "playerId": 833697,
+        "x": 92.7,
+        "y": 35.9825,
+        "min": 23,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 31.865,
+        "goalCrossedZ": 3.3768275888,
+        "expectedGoals": 0.18231026828289,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 1.42819062800886,
+          "y": 0.677248677248677,
+          "zoomRatio": 0.758107997130446
+        },
+        "box": "InsideBox",
+        "homeTeamId": 2186,
+        "awayTeamId": 8023,
+        "homeTeamName": "Cracovia",
+        "awayTeamName": "Pogoń Szczecin",
+        "homeScore": 0,
+        "awayScore": 2,
+        "matchId": 5803923,
+        "matchDate": "2026-08-03T17:00:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      },
+      {
+        "id": 2952643543,
+        "playerName": "Darko Churlinov",
+        "eventType": "Goal",
+        "shotType": "RightFoot",
+        "situation": "ThrowInSetPiece",
+        "teamId": 8023,
+        "playerId": 833697,
+        "x": 103.577586207,
+        "y": 35.75375,
+        "min": 17,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 35.75375,
+        "goalCrossedZ": 1.1365263102,
+        "expectedGoals": 0.972236454486847,
+        "expectedGoalsOnTarget": 0.995176076889038,
+        "onGoalShot": {
+          "x": 0.536044973544974,
+          "y": 0.300668336031746,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8023,
+        "awayTeamId": 89466,
+        "homeTeamName": "Pogoń Szczecin",
+        "awayTeamName": "Motor Lublin",
+        "homeScore": 3,
+        "awayScore": 1,
+        "matchId": 5803936,
+        "matchDate": "2026-08-08T15:30:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      },
+      {
+        "id": 2952663429,
+        "playerName": "Darko Churlinov",
+        "eventType": "Miss",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 8023,
+        "playerId": 833697,
+        "x": 97.7631578942,
+        "y": 41.425625,
+        "min": 37,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 27.278333333,
+        "goalCrossedZ": 6.7571034616,
+        "expectedGoals": 0.165099665522575,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 1.67369693020127,
+          "y": 0.677248677248677,
+          "zoomRatio": 0.378860559786933
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8023,
+        "awayTeamId": 89466,
+        "homeTeamName": "Pogoń Szczecin",
+        "awayTeamName": "Motor Lublin",
+        "homeScore": 3,
+        "awayScore": 1,
+        "matchId": 5803936,
+        "matchDate": "2026-08-08T15:30:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      },
+      {
+        "id": 2959138191,
+        "playerName": "Darko Churlinov",
+        "eventType": "AttemptSaved",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 8023,
+        "playerId": 833697,
+        "x": 99.2105263157,
+        "y": 20.145732487,
+        "min": 62,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": true,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 100.8275862072,
+        "blockedY": 23.8591082849,
+        "goalCrossedY": 32.9325,
+        "goalCrossedZ": 1.219999994,
+        "expectedGoals": 0.0301783997565508,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 1.28240740740741,
+          "y": 0.322751321164021,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8023,
+        "awayTeamId": 10265,
+        "homeTeamName": "Pogoń Szczecin",
+        "awayTeamName": "Wisła Kraków",
+        "homeScore": 2,
+        "awayScore": 2,
+        "matchId": 5803955,
+        "matchDate": "2026-08-23T18:15:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      },
+      {
+        "id": 2959139603,
+        "playerName": "Darko Churlinov",
+        "eventType": "AttemptSaved",
+        "shotType": "LeftFoot",
+        "situation": "RegularPlay",
+        "teamId": 8023,
+        "playerId": 833697,
+        "x": 86.889705882,
+        "y": 21.547006373,
+        "min": 63,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": false,
+        "blockedX": 103.2931034484,
+        "blockedY": 32.78,
+        "goalCrossedY": 32.6275,
+        "goalCrossedZ": 0.609999997,
+        "expectedGoals": 0.0331363119184971,
+        "expectedGoalsOnTarget": 0.0535592250525951,
+        "onGoalShot": {
+          "x": 1.36309523809524,
+          "y": 0.161375660582011,
+          "zoomRatio": 1
+        },
+        "box": "OutsideBox",
+        "homeTeamId": 8023,
+        "awayTeamId": 10265,
+        "homeTeamName": "Pogoń Szczecin",
+        "awayTeamName": "Wisła Kraków",
+        "homeScore": 2,
+        "awayScore": 2,
+        "matchId": 5803955,
+        "matchDate": "2026-08-23T18:15:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      },
+      {
+        "id": 2959157165,
+        "playerName": "Darko Churlinov",
+        "eventType": "AttemptSaved",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 8023,
+        "playerId": 833697,
+        "x": 92,
+        "y": 19.8654777098,
+        "min": 82,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 103.2931034484,
+        "blockedY": 32.24625,
+        "goalCrossedY": 33.8475,
+        "goalCrossedZ": 0.2439999988,
+        "expectedGoals": 0.0358321070671082,
+        "expectedGoalsOnTarget": 0.0201666224747896,
+        "onGoalShot": {
+          "x": 1.04034391534392,
+          "y": 0.0645502642328042,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8023,
+        "awayTeamId": 10265,
+        "homeTeamName": "Pogoń Szczecin",
+        "awayTeamName": "Wisła Kraków",
+        "homeScore": 2,
+        "awayScore": 2,
+        "matchId": 5803955,
+        "matchDate": "2026-08-23T18:15:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      }
+    ],
+    "statsSection": {
+      "id": "stats-section",
+      "items": [
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "goals",
+              "per90": 0.46875,
+              "percentileRank": 52.38095238095239,
+              "percentileRankPer90": 77.77777777777779,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Goals"
+            },
+            {
+              "localizedTitleId": "expected_goals",
+              "per90": 0.693375002592802,
+              "percentileRank": 85.71428571428571,
+              "percentileRankPer90": 96.82539682539682,
+              "statFormat": "fraction",
+              "statValue": "1.48",
+              "title": "xG"
+            },
+            {
+              "localizedTitleId": "expected_goals_on_target",
+              "per90": 0.5010468699038029,
+              "percentileRank": 76.19047619047619,
+              "percentileRankPer90": 84.12698412698413,
+              "statFormat": "fraction",
+              "statValue": "1.07",
+              "title": "xGOT"
+            },
+            {
+              "localizedTitleId": "non_penalty_xg",
+              "per90": 0.693375002592802,
+              "percentileRank": 88.88888888888889,
+              "percentileRankPer90": 96.82539682539682,
+              "statFormat": "fraction",
+              "statValue": "1.48",
+              "title": "xG excl. penalty"
+            },
+            {
+              "localizedTitleId": "shots",
+              "per90": 3.28125,
+              "percentileRank": 53.96825396825397,
+              "percentileRankPer90": 77.77777777777779,
+              "statFormat": "number",
+              "statValue": "7",
+              "title": "Shots"
+            },
+            {
+              "localizedTitleId": "ShotsOnTarget",
+              "per90": 1.40625,
+              "percentileRank": 57.14285714285714,
+              "percentileRankPer90": 88.88888888888889,
+              "statFormat": "number",
+              "statValue": "3",
+              "title": "Shots on target"
+            }
+          ],
+          "localizedTitleId": "shooting",
+          "title": "Shooting",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "assists",
+              "per90": 0,
+              "percentileRank": 0,
+              "percentileRankPer90": 0,
+              "statFormat": "number",
+              "statValue": "0",
+              "title": "Assists"
+            },
+            {
+              "localizedTitleId": "expected_assists",
+              "per90": 0.04232467501424253,
+              "percentileRank": 20.634920634920633,
+              "percentileRankPer90": 22.22222222222222,
+              "statFormat": "fraction",
+              "statValue": "0.09",
+              "title": "xA"
+            },
+            {
+              "localizedTitleId": "successful_passes",
+              "per90": 16.875,
+              "percentileRank": 30.158730158730158,
+              "percentileRankPer90": 28.57142857142857,
+              "statFormat": "number",
+              "statValue": "36",
+              "title": "Accurate passes"
+            },
+            {
+              "localizedTitleId": "successful_passes_accuracy",
+              "per90": 80,
+              "percentileRank": 53.96825396825397,
+              "percentileRankPer90": 53.96825396825397,
+              "statFormat": "percent",
+              "statValue": "80.0",
+              "title": "Pass accuracy"
+            },
+            {
+              "localizedTitleId": "long_balls_accurate",
+              "per90": 0.46875,
+              "percentileRank": 25.396825396825395,
+              "percentileRankPer90": 36.507936507936506,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Accurate long balls"
+            },
+            {
+              "localizedTitleId": "long_ball_succeeeded_accuracy",
+              "per90": 33.333333333333336,
+              "percentileRank": 38.095238095238095,
+              "percentileRankPer90": 38.095238095238095,
+              "statFormat": "percent",
+              "statValue": "33.3",
+              "title": "Long ball accuracy"
+            },
+            {
+              "localizedTitleId": "chances_created",
+              "per90": 0.46875,
+              "percentileRank": 11.11111111111111,
+              "percentileRankPer90": 15.873015873015872,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Chances created"
+            },
+            {
+              "localizedTitleId": "crosses_succeeeded",
+              "per90": 1.40625,
+              "percentileRank": 73.01587301587301,
+              "percentileRankPer90": 84.12698412698413,
+              "statFormat": "number",
+              "statValue": "3",
+              "title": "Successful crosses"
+            },
+            {
+              "localizedTitleId": "crosses_succeeeded_accuracy",
+              "per90": 33.333333333333336,
+              "percentileRank": 80.95238095238095,
+              "percentileRankPer90": 80.95238095238095,
+              "statFormat": "percent",
+              "statValue": "33.3",
+              "title": "Cross accuracy"
+            }
+          ],
+          "localizedTitleId": "passing",
+          "title": "Passing",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "dribbles_succeeded",
+              "per90": 0.9375,
+              "percentileRank": 36.507936507936506,
+              "percentileRankPer90": 44.44444444444444,
+              "statFormat": "number",
+              "statValue": "2",
+              "title": "Dribbles"
+            },
+            {
+              "localizedTitleId": "won_contest_subtitle",
+              "per90": 28.571428571428573,
+              "percentileRank": 30.158730158730158,
+              "percentileRankPer90": 30.158730158730158,
+              "statFormat": "percent",
+              "statValue": "28.6",
+              "title": "Dribbles success rate"
+            },
+            {
+              "localizedTitleId": "duel_won",
+              "per90": 3.28125,
+              "percentileRank": 26.984126984126984,
+              "percentileRankPer90": 19.047619047619047,
+              "statFormat": "number",
+              "statValue": "7",
+              "title": "Duels won"
+            },
+            {
+              "localizedTitleId": "duel_won_percent",
+              "per90": 38.888888888888886,
+              "percentileRank": 28.57142857142857,
+              "percentileRankPer90": 28.57142857142857,
+              "statFormat": "percent",
+              "statValue": "38.9",
+              "title": "Duels won %"
+            },
+            {
+              "localizedTitleId": "aerials_won",
+              "per90": 0.46875,
+              "percentileRank": 17.46031746031746,
+              "percentileRankPer90": 28.57142857142857,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Aerials won"
+            },
+            {
+              "localizedTitleId": "aerials_won_percent",
+              "per90": 33.333333333333336,
+              "percentileRank": 31.746031746031743,
+              "percentileRankPer90": 31.746031746031743,
+              "statFormat": "percent",
+              "statValue": "33.3",
+              "title": "Aerials won %"
+            },
+            {
+              "localizedTitleId": "touches",
+              "per90": 40.3125,
+              "percentileRank": 31.746031746031743,
+              "percentileRankPer90": 28.57142857142857,
+              "statFormat": "number",
+              "statValue": "86",
+              "title": "Touches"
+            },
+            {
+              "localizedTitleId": "touches_opp_box",
+              "per90": 4.21875,
+              "percentileRank": 44.44444444444444,
+              "percentileRankPer90": 60.317460317460316,
+              "statFormat": "number",
+              "statValue": "9",
+              "title": "Touches in opposition box"
+            },
+            {
+              "localizedTitleId": "dispossessed",
+              "per90": 0.46875,
+              "percentileRank": 74.60317460317461,
+              "percentileRankPer90": 85.71428571428571,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Dispossessed"
+            },
+            {
+              "localizedTitleId": "fouls_won",
+              "per90": 1.40625,
+              "percentileRank": 26.984126984126984,
+              "percentileRankPer90": 47.61904761904761,
+              "statFormat": "number",
+              "statValue": "3",
+              "title": "Fouls won"
+            }
+          ],
+          "localizedTitleId": "possession",
+          "title": "Possession",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "defensive_actions",
+              "per90": 3.28125,
+              "percentileRank": 39.682539682539684,
+              "percentileRankPer90": 53.96825396825397,
+              "statFormat": "number",
+              "statValue": "7",
+              "title": "Defensive actions"
+            },
+            {
+              "localizedTitleId": "matchstats.headers.tackles",
+              "per90": 0.46875,
+              "percentileRank": 9.523809523809524,
+              "percentileRankPer90": 17.46031746031746,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Tackles"
+            },
+            {
+              "localizedTitleId": "interceptions",
+              "per90": 1.40625,
+              "percentileRank": 73.01587301587301,
+              "percentileRankPer90": 93.65079365079364,
+              "statFormat": "number",
+              "statValue": "3",
+              "title": "Interceptions"
+            },
+            {
+              "localizedTitleId": "recoveries",
+              "per90": 1.40625,
+              "percentileRank": 7.936507936507936,
+              "percentileRankPer90": 6.349206349206349,
+              "statFormat": "number",
+              "statValue": "3",
+              "title": "Recoveries"
+            },
+            {
+              "localizedTitleId": "dribbled_past",
+              "per90": 1.40625,
+              "percentileRank": 22.22222222222222,
+              "percentileRankPer90": 7.936507936507936,
+              "statFormat": "number",
+              "statValue": "3",
+              "title": "Dribbled past"
+            },
+            {
+              "localizedTitleId": "clearances",
+              "per90": 1.40625,
+              "percentileRank": 53.96825396825397,
+              "percentileRankPer90": 73.01587301587301,
+              "statFormat": "number",
+              "statValue": "3",
+              "title": "Clearances"
+            },
+            {
+              "localizedTitleId": "clean_sheet_team_title",
+              "per90": 0,
+              "percentileRank": 0,
+              "percentileRankPer90": 0,
+              "statFormat": "number",
+              "statValue": "0",
+              "title": "Clean sheets"
+            },
+            {
+              "localizedTitleId": "goals_conceded_while_on_pitch",
+              "per90": 0,
+              "percentileRank": 100,
+              "percentileRankPer90": 100,
+              "statFormat": "number",
+              "statValue": "0",
+              "title": "Goals conceded while on pitch"
+            },
+            {
+              "localizedTitleId": "expected_goals_against_while_on_pitch",
+              "per90": 0.7888125255703926,
+              "percentileRank": 84.12698412698413,
+              "percentileRankPer90": 95.23809523809523,
+              "statFormat": "fraction",
+              "statValue": "1.68",
+              "title": "xG against while on pitch"
+            }
+          ],
+          "localizedTitleId": "defending",
+          "title": "Defending",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "yellow_cards",
+              "per90": 0,
+              "percentileRank": 100,
+              "percentileRankPer90": 100,
+              "statFormat": "number",
+              "statValue": "0",
+              "title": "Yellow cards"
+            },
+            {
+              "localizedTitleId": "red_cards",
+              "per90": 0,
+              "percentileRank": 0,
+              "percentileRankPer90": 0,
+              "statFormat": "number",
+              "statValue": "0",
+              "title": "Red cards"
+            }
+          ],
+          "localizedTitleId": "discipline",
+          "title": "Discipline",
+          "type": "stat-values"
+        }
+      ],
+      "localizedTitleId": "season_performance",
+      "title": "Season performance",
+      "type": "grouped-stat-values"
+    },
+    "topStatCard": {
+      "display": "stats-group",
+      "id": "top-stat-card",
+      "items": [
+        {
+          "localizedTitleId": "goals",
+          "per90": 0.46875,
+          "percentileRank": 52.38095238095239,
+          "percentileRankPer90": 77.77777777777779,
+          "statFormat": "number",
+          "statValue": "1",
+          "title": "Goals"
+        },
+        {
+          "localizedTitleId": "assists",
+          "per90": 0,
+          "percentileRank": 0,
+          "percentileRankPer90": 0,
+          "statFormat": "number",
+          "statValue": "0",
+          "title": "Assists"
+        },
+        {
+          "localizedTitleId": "rating",
+          "per90": 6.805,
+          "percentileRank": 47.61904761904761,
+          "percentileRankPer90": 47.61904761904761,
+          "statFormat": "fraction",
+          "statValue": "6.80",
+          "title": "Rating"
+        },
+        {
+          "localizedTitleId": "matches_uppercase",
+          "per90": 4,
+          "percentileRank": 28.57142857142857,
+          "percentileRankPer90": 28.57142857142857,
+          "statFormat": "number",
+          "statValue": "4",
+          "title": "Matches"
+        },
+        {
+          "localizedTitleId": "player_started_matches",
+          "per90": 3,
+          "percentileRank": 39.682539682539684,
+          "percentileRankPer90": 95.23809523809523,
+          "statFormat": "number",
+          "statValue": "3",
+          "title": "Started"
+        },
+        {
+          "localizedTitleId": "minutes_played",
+          "per90": 90,
+          "percentileRank": 33.33333333333333,
+          "percentileRankPer90": 100,
+          "statFormat": "number",
+          "statValue": "192",
+          "title": "Minutes"
+        }
+      ],
+      "type": "stat-values"
+    },
+    "heatmap": {
+      "coordinates": [
+        {
+          "x": 104.62,
+          "y": 67.87
+        },
+        {
+          "x": 48.13,
+          "y": 64.39
+        },
+        {
+          "x": 65.37,
+          "y": 61.18
+        },
+        {
+          "x": 63,
+          "y": 60.72
+        },
+        {
+          "x": 75.95,
+          "y": 61.83
+        },
+        {
+          "x": 76.18,
+          "y": 10.43
+        },
+        {
+          "x": 71.79,
+          "y": 22.04
+        },
+        {
+          "x": 96.03,
+          "y": 42.47
+        },
+        {
+          "x": 93.9,
+          "y": 46.45
+        },
+        {
+          "x": 89.3,
+          "y": 57.83
+        },
+        {
+          "x": 67.28,
+          "y": 49.96
+        },
+        {
+          "x": 69.31,
+          "y": 59.8
+        },
+        {
+          "x": 98.44,
+          "y": 9.05
+        },
+        {
+          "x": 105,
+          "y": 34.92
+        },
+        {
+          "x": 104.53,
+          "y": 0.33
+        },
+        {
+          "x": 105,
+          "y": 26.63
+        },
+        {
+          "x": 104.53,
+          "y": 0.33
+        },
+        {
+          "x": 104.43,
+          "y": 30.42
+        },
+        {
+          "x": 104.53,
+          "y": 0.33
+        },
+        {
+          "x": 84.29,
+          "y": 6.49
+        },
+        {
+          "x": 92.7,
+          "y": 32.02
+        },
+        {
+          "x": 47.32,
+          "y": 62.23
+        },
+        {
+          "x": 69.98,
+          "y": 32.55
+        },
+        {
+          "x": 77.53,
+          "y": 55.6
+        },
+        {
+          "x": 89.2,
+          "y": 63.61
+        },
+        {
+          "x": 40.65,
+          "y": 57.18
+        },
+        {
+          "x": 39.75,
+          "y": 65.51
+        },
+        {
+          "x": 38.06,
+          "y": 34.92
+        },
+        {
+          "x": 104.53,
+          "y": 67.67
+        },
+        {
+          "x": 27.58,
+          "y": 55.41
+        },
+        {
+          "x": 43.96,
+          "y": 61.24
+        },
+        {
+          "x": 43.76,
+          "y": 62.49
+        },
+        {
+          "x": 91.1,
+          "y": 57.96
+        },
+        {
+          "x": 78.21,
+          "y": 49.54
+        },
+        {
+          "x": 104.43,
+          "y": 67.48
+        },
+        {
+          "x": 26.68,
+          "y": 28.79
+        },
+        {
+          "x": 29.72,
+          "y": 35.45
+        },
+        {
+          "x": 69.87,
+          "y": 7.28
+        },
+        {
+          "x": 76.85,
+          "y": 5.18
+        },
+        {
+          "x": 53.52,
+          "y": 4.99
+        },
+        {
+          "x": 61.88,
+          "y": 4.07
+        },
+        {
+          "x": 61.65,
+          "y": 4.39
+        },
+        {
+          "x": 42.45,
+          "y": 3.87
+        },
+        {
+          "x": 33.1,
+          "y": 7.28
+        },
+        {
+          "x": 28.71,
+          "y": 23.3
+        },
+        {
+          "x": 92.9,
+          "y": 37.43
+        },
+        {
+          "x": 40.76,
+          "y": 41.66
+        },
+        {
+          "x": 103.58,
+          "y": 32.25
+        },
+        {
+          "x": 35.24,
+          "y": 9.31
+        },
+        {
+          "x": 14.1,
+          "y": 19.09
+        },
+        {
+          "x": 49.25,
+          "y": 5.97
+        },
+        {
+          "x": 49.45,
+          "y": 6.82
+        },
+        {
+          "x": 14.1,
+          "y": 26.69
+        },
+        {
+          "x": 97.76,
+          "y": 26.57
+        },
+        {
+          "x": 89.4,
+          "y": 8
+        },
+        {
+          "x": 71.11,
+          "y": 6.95
+        },
+        {
+          "x": 42.9,
+          "y": 3.61
+        },
+        {
+          "x": 69.53,
+          "y": 2.89
+        },
+        {
+          "x": 55.96,
+          "y": 12.92
+        },
+        {
+          "x": 75.73,
+          "y": 17.62
+        },
+        {
+          "x": 91.3,
+          "y": 36.29
+        },
+        {
+          "x": 82.6,
+          "y": 18.95
+        },
+        {
+          "x": 80.57,
+          "y": 23.86
+        },
+        {
+          "x": 86.57,
+          "y": 4.99
+        },
+        {
+          "x": 17.36,
+          "y": 17.62
+        },
+        {
+          "x": 67.39,
+          "y": 9.84
+        },
+        {
+          "x": 76.74,
+          "y": 37.95
+        },
+        {
+          "x": 99.21,
+          "y": 47.85
+        },
+        {
+          "x": 86.89,
+          "y": 46.45
+        },
+        {
+          "x": 69.42,
+          "y": 62.42
+        },
+        {
+          "x": 87.43,
+          "y": 64.79
+        },
+        {
+          "x": 91,
+          "y": 64.39
+        },
+        {
+          "x": 66.04,
+          "y": 61.18
+        },
+        {
+          "x": 74.38,
+          "y": 62.88
+        },
+        {
+          "x": 69.87,
+          "y": 54.82
+        },
+        {
+          "x": 78.09,
+          "y": 54.82
+        },
+        {
+          "x": 92,
+          "y": 48.13
+        },
+        {
+          "x": 68.52,
+          "y": 63.15
+        },
+        {
+          "x": 24.77,
+          "y": 59.67
+        },
+        {
+          "x": 68.63,
+          "y": 62.62
+        },
+        {
+          "x": 10.23,
+          "y": 60.98
+        },
+        {
+          "x": 13.1,
+          "y": 62.62
+        },
+        {
+          "x": 73.59,
+          "y": 60.46
+        },
+        {
+          "x": 62.89,
+          "y": 53.46
+        },
+        {
+          "x": 63.68,
+          "y": 18.18
+        },
+        {
+          "x": 68.29,
+          "y": 13.71
+        },
+        {
+          "x": 69.53,
+          "y": 18.18
+        },
+        {
+          "x": 25.67,
+          "y": 14.05
+        },
+        {
+          "x": 73.93,
+          "y": 18.81
+        },
+        {
+          "x": 74.71,
+          "y": 10.76
+        },
+        {
+          "x": 61.04,
+          "y": 2.62
+        },
+        {
+          "x": 104.53,
+          "y": 67.67
+        },
+        {
+          "x": 13.6,
+          "y": 18.53
+        },
+        {
+          "x": 23.3,
+          "y": 26.34
+        },
+        {
+          "x": 37.04,
+          "y": 6.03
+        },
+        {
+          "x": 9.84,
+          "y": 31.64
+        },
+        {
+          "x": 9.84,
+          "y": 31.64
+        },
+        {
+          "x": 41.89,
+          "y": 3.02
+        }
+      ]
+    },
+    "keeperShotmap": null
+  },
+  "status": "active",
+  "marketValues": {
+    "values": [
+      {
+        "date": "2016-12-31T00:00:00+00:00",
+        "value": 90000,
+        "currency": "EUR",
+        "lowerBound": 70000,
+        "upperBound": 110000,
+        "source": "scisports",
+        "teamId": 664924,
+        "teamName": "FC Köln U19",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2017-06-30T00:00:00+00:00",
+        "value": 150000,
+        "currency": "EUR",
+        "lowerBound": 120000,
+        "upperBound": 190000,
+        "source": "scisports",
+        "teamId": 664924,
+        "teamName": "FC Köln U19"
+      },
+      {
+        "date": "2017-12-31T00:00:00+00:00",
+        "value": 220000,
+        "currency": "EUR",
+        "lowerBound": 160000,
+        "upperBound": 270000,
+        "source": "scisports",
+        "teamId": 664924,
+        "teamName": "FC Köln U19"
+      },
+      {
+        "date": "2018-06-30T00:00:00+00:00",
+        "value": 360000,
+        "currency": "EUR",
+        "lowerBound": 270000,
+        "upperBound": 450000,
+        "source": "scisports",
+        "teamId": 664924,
+        "teamName": "FC Köln U19"
+      },
+      {
+        "date": "2018-12-31T00:00:00+00:00",
+        "value": 500000,
+        "currency": "EUR",
+        "lowerBound": 370000,
+        "upperBound": 620000,
+        "source": "scisports",
+        "teamId": 664924,
+        "teamName": "FC Köln U19"
+      },
+      {
+        "date": "2019-06-30T00:00:00+00:00",
+        "value": 870000,
+        "currency": "EUR",
+        "lowerBound": 650000,
+        "upperBound": 1090000,
+        "source": "scisports",
+        "teamId": 8459,
+        "teamName": "FC Köln II",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2019-12-31T00:00:00+00:00",
+        "value": 1240000,
+        "currency": "EUR",
+        "lowerBound": 930000,
+        "upperBound": 1550000,
+        "source": "scisports",
+        "teamId": 10269,
+        "teamName": "VfB Stuttgart",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2020-06-30T00:00:00+00:00",
+        "value": 1810000,
+        "currency": "EUR",
+        "lowerBound": 1360000,
+        "upperBound": 2270000,
+        "source": "scisports",
+        "teamId": 10269,
+        "teamName": "VfB Stuttgart"
+      },
+      {
+        "date": "2020-12-31T00:00:00+00:00",
+        "value": 2390000,
+        "currency": "EUR",
+        "lowerBound": 1790000,
+        "upperBound": 2980000,
+        "source": "scisports",
+        "teamId": 10269,
+        "teamName": "VfB Stuttgart"
+      },
+      {
+        "date": "2021-06-30T00:00:00+00:00",
+        "value": 2380000,
+        "currency": "EUR",
+        "lowerBound": 1780000,
+        "upperBound": 2970000,
+        "source": "scisports",
+        "teamId": 10189,
+        "teamName": "Schalke 04",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2021-10-31T00:00:00+00:00",
+        "value": 2370000,
+        "currency": "EUR",
+        "lowerBound": 1780000,
+        "upperBound": 2970000,
+        "source": "scisports",
+        "teamId": 10189,
+        "teamName": "Schalke 04"
+      },
+      {
+        "date": "2021-11-30T00:00:00+00:00",
+        "value": 1980000,
+        "currency": "EUR",
+        "lowerBound": 1480000,
+        "upperBound": 2470000,
+        "source": "scisports",
+        "teamId": 10189,
+        "teamName": "Schalke 04"
+      },
+      {
+        "date": "2021-12-31T00:00:00+00:00",
+        "value": 1530000,
+        "currency": "EUR",
+        "lowerBound": 1150000,
+        "upperBound": 1920000,
+        "source": "scisports",
+        "teamId": 10189,
+        "teamName": "Schalke 04"
+      },
+      {
+        "date": "2022-01-31T00:00:00+00:00",
+        "value": 1230000,
+        "currency": "EUR",
+        "lowerBound": 920000,
+        "upperBound": 1540000,
+        "source": "scisports",
+        "teamId": 10189,
+        "teamName": "Schalke 04"
+      },
+      {
+        "date": "2022-02-28T00:00:00+00:00",
+        "value": 1040000,
+        "currency": "EUR",
+        "lowerBound": 780000,
+        "upperBound": 1300000,
+        "source": "scisports",
+        "teamId": 10189,
+        "teamName": "Schalke 04"
+      },
+      {
+        "date": "2022-03-31T00:00:00+00:00",
+        "value": 1200000,
+        "currency": "EUR",
+        "lowerBound": 900000,
+        "upperBound": 1500000,
+        "source": "scisports",
+        "teamId": 10189,
+        "teamName": "Schalke 04"
+      },
+      {
+        "date": "2022-04-30T00:00:00+00:00",
+        "value": 990000,
+        "currency": "EUR",
+        "lowerBound": 740000,
+        "upperBound": 1240000,
+        "source": "scisports",
+        "teamId": 10189,
+        "teamName": "Schalke 04"
+      },
+      {
+        "date": "2022-05-31T00:00:00+00:00",
+        "value": 1200000,
+        "currency": "EUR",
+        "lowerBound": 900000,
+        "upperBound": 1500000,
+        "source": "scisports",
+        "teamId": 10189,
+        "teamName": "Schalke 04"
+      },
+      {
+        "date": "2022-06-30T00:00:00+00:00",
+        "value": 1290000,
+        "currency": "EUR",
+        "lowerBound": 970000,
+        "upperBound": 1610000,
+        "source": "scisports",
+        "teamId": 10269,
+        "teamName": "VfB Stuttgart",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2022-07-31T00:00:00+00:00",
+        "value": 1300000,
+        "currency": "EUR",
+        "lowerBound": 970000,
+        "upperBound": 1620000,
+        "source": "scisports",
+        "teamId": 10269,
+        "teamName": "VfB Stuttgart"
+      },
+      {
+        "date": "2022-08-31T00:00:00+00:00",
+        "value": 2650000,
+        "currency": "EUR",
+        "lowerBound": 1990000,
+        "upperBound": 3310000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2022-09-04T00:00:00+00:00",
+        "value": 2700000,
+        "currency": "EUR",
+        "lowerBound": 2020000,
+        "upperBound": 3370000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2022-09-30T00:00:00+00:00",
+        "value": 2560000,
+        "currency": "EUR",
+        "lowerBound": 1920000,
+        "upperBound": 3200000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2022-10-31T00:00:00+00:00",
+        "value": 2500000,
+        "currency": "EUR",
+        "lowerBound": 1870000,
+        "upperBound": 3120000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2022-11-30T00:00:00+00:00",
+        "value": 2580000,
+        "currency": "EUR",
+        "lowerBound": 1940000,
+        "upperBound": 3230000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2022-12-31T00:00:00+00:00",
+        "value": 2680000,
+        "currency": "EUR",
+        "lowerBound": 2010000,
+        "upperBound": 3350000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2023-01-31T00:00:00+00:00",
+        "value": 2750000,
+        "currency": "EUR",
+        "lowerBound": 2060000,
+        "upperBound": 3440000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2023-02-28T00:00:00+00:00",
+        "value": 2760000,
+        "currency": "EUR",
+        "lowerBound": 2070000,
+        "upperBound": 3450000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2023-03-31T00:00:00+00:00",
+        "value": 2720000,
+        "currency": "EUR",
+        "lowerBound": 2040000,
+        "upperBound": 3400000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2023-04-30T00:00:00+00:00",
+        "value": 2440000,
+        "currency": "EUR",
+        "lowerBound": 1830000,
+        "upperBound": 3040000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2023-05-31T00:00:00+00:00",
+        "value": 2230000,
+        "currency": "EUR",
+        "lowerBound": 1670000,
+        "upperBound": 2790000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2023-06-30T00:00:00+00:00",
+        "value": 2010000,
+        "currency": "EUR",
+        "lowerBound": 1510000,
+        "upperBound": 2510000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2023-07-31T00:00:00+00:00",
+        "value": 1790000,
+        "currency": "EUR",
+        "lowerBound": 1340000,
+        "upperBound": 2240000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2023-09-01T00:00:00+00:00",
+        "value": 1600000,
+        "currency": "EUR",
+        "lowerBound": 1200000,
+        "upperBound": 2010000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2023-09-30T00:00:00+00:00",
+        "value": 1470000,
+        "currency": "EUR",
+        "lowerBound": 1100000,
+        "upperBound": 1840000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2023-10-31T00:00:00+00:00",
+        "value": 1340000,
+        "currency": "EUR",
+        "lowerBound": 1000000,
+        "upperBound": 1670000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2023-11-30T00:00:00+00:00",
+        "value": 1240000,
+        "currency": "EUR",
+        "lowerBound": 930000,
+        "upperBound": 1560000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2023-12-31T00:00:00+00:00",
+        "value": 1170000,
+        "currency": "EUR",
+        "lowerBound": 880000,
+        "upperBound": 1470000,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2024-01-31T00:00:00+00:00",
+        "value": 1470000,
+        "currency": "EUR",
+        "lowerBound": 1176000,
+        "upperBound": 1764000,
+        "source": "scisports",
+        "teamId": 10189,
+        "teamName": "Schalke 04",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2024-02-29T00:00:00+00:00",
+        "value": 1481372,
+        "currency": "EUR",
+        "lowerBound": 1185097,
+        "upperBound": 1777646,
+        "source": "scisports",
+        "teamId": 10189,
+        "teamName": "Schalke 04"
+      },
+      {
+        "date": "2024-03-31T00:00:00+00:00",
+        "value": 1481372,
+        "currency": "EUR",
+        "lowerBound": 1185097,
+        "upperBound": 1777646,
+        "source": "scisports",
+        "teamId": 10189,
+        "teamName": "Schalke 04"
+      },
+      {
+        "date": "2024-04-30T00:00:00+00:00",
+        "value": 1481372,
+        "currency": "EUR",
+        "lowerBound": 1185097,
+        "upperBound": 1777646,
+        "source": "scisports",
+        "teamId": 10189,
+        "teamName": "Schalke 04"
+      },
+      {
+        "date": "2024-05-31T00:00:00+00:00",
+        "value": 1481372,
+        "currency": "EUR",
+        "lowerBound": 1185097,
+        "upperBound": 1777646,
+        "source": "scisports",
+        "teamId": 10189,
+        "teamName": "Schalke 04"
+      },
+      {
+        "date": "2024-06-30T00:00:00+00:00",
+        "value": 1481372,
+        "currency": "EUR",
+        "lowerBound": 1185097,
+        "upperBound": 1777646,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2024-07-31T00:00:00+00:00",
+        "value": 1481372,
+        "currency": "EUR",
+        "lowerBound": 1185097,
+        "upperBound": 1777646,
+        "source": "scisports",
+        "teamId": 1957,
+        "teamName": "Jagiellonia Białystok",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2024-08-31T00:00:00+00:00",
+        "value": 1470446,
+        "currency": "EUR",
+        "lowerBound": 1176357,
+        "upperBound": 1764535,
+        "source": "scisports",
+        "teamId": 1957,
+        "teamName": "Jagiellonia Białystok"
+      },
+      {
+        "date": "2024-09-30T00:00:00+00:00",
+        "value": 1396562,
+        "currency": "EUR",
+        "lowerBound": 1117249,
+        "upperBound": 1675874,
+        "source": "scisports",
+        "teamId": 1957,
+        "teamName": "Jagiellonia Białystok"
+      },
+      {
+        "date": "2024-10-31T00:00:00+00:00",
+        "value": 1380046,
+        "currency": "EUR",
+        "lowerBound": 1104036,
+        "upperBound": 1656055,
+        "source": "scisports",
+        "teamId": 1957,
+        "teamName": "Jagiellonia Białystok"
+      },
+      {
+        "date": "2024-11-30T00:00:00+00:00",
+        "value": 1380046,
+        "currency": "EUR",
+        "lowerBound": 1104036,
+        "upperBound": 1656055,
+        "source": "scisports",
+        "teamId": 1957,
+        "teamName": "Jagiellonia Białystok"
+      },
+      {
+        "date": "2024-12-31T00:00:00+00:00",
+        "value": 1380046,
+        "currency": "EUR",
+        "lowerBound": 1104036,
+        "upperBound": 1656055,
+        "source": "scisports",
+        "teamId": 1957,
+        "teamName": "Jagiellonia Białystok"
+      },
+      {
+        "date": "2025-01-30T00:00:00+00:00",
+        "value": 1388829,
+        "currency": "EUR",
+        "lowerBound": 1111063,
+        "upperBound": 1666595,
+        "source": "scisports",
+        "teamId": 1957,
+        "teamName": "Jagiellonia Białystok"
+      },
+      {
+        "date": "2025-02-27T00:00:00+00:00",
+        "value": 1383057,
+        "currency": "EUR",
+        "lowerBound": 1106446,
+        "upperBound": 1659669,
+        "source": "scisports",
+        "teamId": 1957,
+        "teamName": "Jagiellonia Białystok"
+      },
+      {
+        "date": "2025-03-30T00:00:00+00:00",
+        "value": 1388671,
+        "currency": "EUR",
+        "lowerBound": 1110936,
+        "upperBound": 1666405,
+        "source": "scisports",
+        "teamId": 1957,
+        "teamName": "Jagiellonia Białystok"
+      },
+      {
+        "date": "2025-04-30T00:00:00+00:00",
+        "value": 1494529,
+        "currency": "EUR",
+        "lowerBound": 1195623,
+        "upperBound": 1793435,
+        "source": "scisports",
+        "teamId": 1957,
+        "teamName": "Jagiellonia Białystok"
+      },
+      {
+        "date": "2025-05-31T00:00:00+00:00",
+        "value": 1522128,
+        "currency": "EUR",
+        "lowerBound": 1217702,
+        "upperBound": 1826553,
+        "source": "scisports",
+        "teamId": 1957,
+        "teamName": "Jagiellonia Białystok"
+      },
+      {
+        "date": "2025-07-01T00:00:00+00:00",
+        "value": 1241453,
+        "currency": "EUR",
+        "lowerBound": 993162,
+        "upperBound": 1489743,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2025-08-01T00:00:00+00:00",
+        "value": 1162394,
+        "currency": "EUR",
+        "lowerBound": 929915,
+        "upperBound": 1394873,
+        "source": "scisports",
+        "teamId": 8191,
+        "teamName": "Burnley"
+      },
+      {
+        "date": "2025-09-01T00:00:00+00:00",
+        "value": 1337680,
+        "currency": "EUR",
+        "lowerBound": 1070144,
+        "upperBound": 1605216,
+        "source": "scisports",
+        "teamId": 1569,
+        "teamName": "Kocaelispor",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2025-10-01T00:00:00+00:00",
+        "value": 1393694,
+        "currency": "EUR",
+        "lowerBound": 1114955,
+        "upperBound": 1672433,
+        "source": "scisports",
+        "teamId": 1569,
+        "teamName": "Kocaelispor"
+      },
+      {
+        "date": "2025-11-01T00:00:00+00:00",
+        "value": 1404210,
+        "currency": "EUR",
+        "lowerBound": 1123368,
+        "upperBound": 1685052,
+        "source": "scisports",
+        "teamId": 1569,
+        "teamName": "Kocaelispor"
+      },
+      {
+        "date": "2025-12-01T00:00:00+00:00",
+        "value": 1293748,
+        "currency": "EUR",
+        "lowerBound": 1034998,
+        "upperBound": 1552498,
+        "source": "scisports",
+        "teamId": 1569,
+        "teamName": "Kocaelispor"
+      },
+      {
+        "date": "2026-01-01T00:00:00+00:00",
+        "value": 1298283,
+        "currency": "EUR",
+        "lowerBound": 1038626,
+        "upperBound": 1557940,
+        "source": "scisports",
+        "teamId": 1569,
+        "teamName": "Kocaelispor"
+      },
+      {
+        "date": "2026-02-01T00:00:00+00:00",
+        "value": 1381223,
+        "currency": "EUR",
+        "lowerBound": 1104978,
+        "upperBound": 1657468,
+        "source": "scisports",
+        "teamId": 1569,
+        "teamName": "Kocaelispor"
+      },
+      {
+        "date": "2026-03-01T00:00:00+00:00",
+        "value": 1343852,
+        "currency": "EUR",
+        "lowerBound": 1075082,
+        "upperBound": 1612623,
+        "source": "scisports",
+        "teamId": 1569,
+        "teamName": "Kocaelispor"
+      },
+      {
+        "date": "2026-04-01T00:00:00+00:00",
+        "value": 1291929,
+        "currency": "EUR",
+        "lowerBound": 1033543,
+        "upperBound": 1550315,
+        "source": "scisports",
+        "teamId": 1569,
+        "teamName": "Kocaelispor"
+      },
+      {
+        "date": "2026-05-01T00:00:00+00:00",
+        "value": 1293748,
+        "currency": "EUR",
+        "lowerBound": 1034998,
+        "upperBound": 1552498,
+        "source": "scisports",
+        "teamId": 1569,
+        "teamName": "Kocaelispor"
+      },
+      {
+        "date": "2026-06-01T00:00:00+00:00",
+        "value": 1281497,
+        "currency": "EUR",
+        "lowerBound": 1025198,
+        "upperBound": 1537797,
+        "source": "scisports",
+        "teamId": 1569,
+        "teamName": "Kocaelispor"
+      },
+      {
+        "date": "2026-07-01T00:00:00+00:00",
+        "value": 1025198,
+        "currency": "EUR",
+        "lowerBound": 820158,
+        "upperBound": 1230237,
+        "source": "scisports",
+        "teamId": 1569,
+        "teamName": "Kocaelispor"
+      },
+      {
+        "date": "2026-08-01T00:00:00+00:00",
+        "value": 903138,
+        "currency": "EUR",
+        "lowerBound": 722510,
+        "upperBound": 1083765,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2026-09-01T00:00:00+00:00",
+        "value": 1083765,
+        "currency": "EUR",
+        "lowerBound": 867012,
+        "upperBound": 1300518,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      }
+    ]
+  },
+  "relatedLinksData": {
+    "teammates": [
+      {
+        "id": 431948,
+        "name": "Kellyn Acosta"
+      },
+      {
+        "id": 1188767,
+        "name": "Léo Borges"
+      },
+      {
+        "id": 1117005,
+        "name": "Jan Bieganski"
+      },
+      {
+        "id": 949336,
+        "name": "Musa Juwara"
+      },
+      {
+        "id": 1050169,
+        "name": "Rajmund Molnár"
+      },
+      {
+        "id": 1439702,
+        "name": "Filip Cuic"
+      },
+      {
+        "id": 69541,
+        "name": "Kamil Grosicki"
+      },
+      {
+        "id": 1329535,
+        "name": "Dimitrios Keramitsis"
+      },
+      {
+        "id": 585352,
+        "name": "José Pozo"
+      },
+      {
+        "id": 1092563,
+        "name": "Hussein Ali"
+      },
+      {
+        "id": 558189,
+        "name": "Patryk Dziczek"
+      },
+      {
+        "id": 316558,
+        "name": "Jean Pierre Nsame"
+      },
+      {
+        "id": 1078936,
+        "name": "Paul Mukairu"
+      },
+      {
+        "id": 1080510,
+        "name": "Mor Ndiaye"
+      },
+      {
+        "id": 1662742,
+        "name": "Igor Brzyski"
+      },
+      {
+        "id": 280965,
+        "name": "Benjamin Mendy"
+      },
+      {
+        "id": 406506,
+        "name": "Linus Wahlqvist Egnell"
+      },
+      {
+        "id": 1299888,
+        "name": "Lukas Willen"
+      },
+      {
+        "id": 1901066,
+        "name": "Jacek Czaplinski"
+      },
+      {
+        "id": 1410436,
+        "name": "Nikolaos Botis"
+      },
+      {
+        "id": 1797493,
+        "name": "Alex Peskovic"
+      },
+      {
+        "id": 1667987,
+        "name": "Maciej Wojciechowski"
+      },
+      {
+        "id": 749648,
+        "name": "Attila Szalai"
+      },
+      {
+        "id": 1786208,
+        "name": "Natan Lawa"
+      },
+      {
+        "id": 1596043,
+        "name": "Patryk Paryzek"
+      },
+      {
+        "id": 2090858,
+        "name": "Andrzej Ossowski"
+      },
+      {
+        "id": 289211,
+        "name": "Valentin Cojocaru"
+      },
+      {
+        "id": 2170709,
+        "name": "Antoni Fojut"
+      }
+    ],
+    "mensNationalTeam": [
+      {
+        "id": 464622,
+        "name": "Damjan Siskovski"
+      },
+      {
+        "id": 1476422,
+        "name": "Stefan Despotovski"
+      },
+      {
+        "id": 653453,
+        "name": "Sebastián Herrera"
+      },
+      {
+        "id": 948623,
+        "name": "Nikola Serafimov"
+      },
+      {
+        "id": 430995,
+        "name": "Gjoko Zajkov"
+      },
+      {
+        "id": 308469,
+        "name": "Visar Musliu"
+      },
+      {
+        "id": 741049,
+        "name": "Eljif Elmas"
+      },
+      {
+        "id": 1256465,
+        "name": "Agon Elezi"
+      },
+      {
+        "id": 846970,
+        "name": "Bojan Miovski"
+      },
+      {
+        "id": 592783,
+        "name": "Enis Bardhi"
+      },
+      {
+        "id": 406283,
+        "name": "Ezgjan Alioski"
+      },
+      {
+        "id": 464608,
+        "name": "Davor Taleski"
+      },
+      {
+        "id": 1577968,
+        "name": "Imran Fetai"
+      },
+      {
+        "id": 431025,
+        "name": "Darko Velkovski"
+      },
+      {
+        "id": 1347804,
+        "name": "Elmin Rastoder"
+      },
+      {
+        "id": 351090,
+        "name": "Boban Nikolov"
+      },
+      {
+        "id": 1379749,
+        "name": "Azer Omeragikj"
+      },
+      {
+        "id": 1478440,
+        "name": "Georgije Jankulov"
+      },
+      {
+        "id": 557081,
+        "name": "Milan Ristovski"
+      },
+      {
+        "id": 1068863,
+        "name": "Sefer Emini"
+      },
+      {
+        "id": 851025,
+        "name": "Jani Atanasov"
+      },
+      {
+        "id": 831482,
+        "name": "Din Alomerovic"
+      },
+      {
+        "id": 254241,
+        "name": "Stole Dimitrievski"
+      },
+      {
+        "id": 747709,
+        "name": "Darko Dodev"
+      },
+      {
+        "id": 1300406,
+        "name": "Jovan Manev"
+      },
+      {
+        "id": 1530792,
+        "name": "Darko Angjeleski"
+      }
+    ],
+    "womensNationalTeam": []
+  },
+  "nextMatch": {
+    "matchId": 5803974,
+    "homeId": 8023,
+    "awayId": 8243,
+    "homeName": "Pogoń Szczecin",
+    "awayName": "Wisła Płock",
+    "matchDate": "2026-09-07T18:30:00Z",
+    "statusId": 1,
+    "leagueId": 196,
+    "parentLeagueId": 196,
+    "leagueName": "Ekstraklasa",
+    "status": {
+      "utcTime": "2026-09-07T18:30:00.000Z",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "stadium": {
+      "venue": "Stadion Miejski im. Floriana Krygiera",
+      "city": "Szczecin",
+      "lat": 53.43650687,
+      "long": 14.518775974
+    },
+    "matchUrl": "/matches/pogon-szczecin-vs-wisa-pock/26rtbe#5803974"
+  },
+  "dataProvider": "enet",
+  "initialMatchesPage": {
+    "matches": [
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8021,
+        "opponentTeamName": "Zagłębie Lubin",
+        "isHomeTeam": false,
+        "id": 5803967,
+        "matchDate": {
+          "utcTime": "2026-08-29T18:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#5803967",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 0,
+        "minutesPlayed": 45,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.4",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 88,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 10265,
+        "opponentTeamName": "Wisła Kraków",
+        "isHomeTeam": true,
+        "id": 5803955,
+        "matchDate": {
+          "utcTime": "2026-08-23T18:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-krakow/2rkl8v#5803955",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 2,
+        "minutesPlayed": 30,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.5",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 89466,
+        "opponentTeamName": "Motor Lublin",
+        "isHomeTeam": true,
+        "id": 5803936,
+        "matchDate": {
+          "utcTime": "2026-08-08T15:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-motor-lublin/26lbxv7#5803936",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 3,
+        "awayScore": 1,
+        "minutesPlayed": 57,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.7",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 87,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 2186,
+        "opponentTeamName": "Cracovia",
+        "isHomeTeam": false,
+        "id": 5803923,
+        "matchDate": {
+          "utcTime": "2026-08-03T17:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/cracovia-vs-pogon-szczecin/v17vs#5803923",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 2,
+        "minutesPlayed": 60,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.7",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 83,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8260,
+        "teamName": "North Macedonia",
+        "opponentTeamId": 6595,
+        "opponentTeamName": "Turkiye",
+        "isHomeTeam": false,
+        "id": 5483930,
+        "matchDate": {
+          "utcTime": "2026-06-01T17:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/turkiye-vs-north-macedonia/1tp7j4#5483930",
+        "leagueId": 114,
+        "leagueName": "Friendlies",
+        "stage": null,
+        "homeScore": 4,
+        "awayScore": 0,
+        "minutesPlayed": 45,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.8",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8260,
+        "teamName": "North Macedonia",
+        "opponentTeamId": 10106,
+        "opponentTeamName": "Bosnia and Herzegovina",
+        "isHomeTeam": false,
+        "id": 5648176,
+        "matchDate": {
+          "utcTime": "2026-05-29T18:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/north-macedonia-vs-bosnia-herzegovina/2sf8h1#5648176",
+        "leagueId": 114,
+        "leagueName": "Friendlies",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 0,
+        "minutesPlayed": 45,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.0",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 1569,
+        "teamName": "Kocaelispor",
+        "opponentTeamId": 1931,
+        "opponentTeamName": "Antalyaspor",
+        "isHomeTeam": false,
+        "id": 4842612,
+        "matchDate": {
+          "utcTime": "2026-05-17T17:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/kocaelispor-vs-antalyaspor/3ncx5#4842612",
+        "leagueId": 71,
+        "leagueName": "Süper Lig",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 0,
+        "minutesPlayed": 63,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "5.9",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 107,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 1569,
+        "teamName": "Kocaelispor",
+        "opponentTeamId": 2088,
+        "opponentTeamName": "Fatih Karagümrük",
+        "isHomeTeam": true,
+        "id": 4842610,
+        "matchDate": {
+          "utcTime": "2026-05-09T17:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/kocaelispor-vs-fatih-karagumruk/3zelx#4842610",
+        "leagueId": 71,
+        "leagueName": "Süper Lig",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 1,
+        "minutesPlayed": 17,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "5.9",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 1569,
+        "teamName": "Kocaelispor",
+        "opponentTeamId": 7800,
+        "opponentTeamName": "Gençlerbirliği",
+        "isHomeTeam": false,
+        "id": 4842590,
+        "matchDate": {
+          "utcTime": "2026-04-26T11:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/kocaelispor-vs-genclerbirligi/q4ynx#4842590",
+        "leagueId": 71,
+        "leagueName": "Süper Lig",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 0,
+        "minutesPlayed": 28,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.0",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 1569,
+        "teamName": "Kocaelispor",
+        "opponentTeamId": 1925,
+        "opponentTeamName": "Göztepe",
+        "isHomeTeam": true,
+        "id": 4842582,
+        "matchDate": {
+          "utcTime": "2026-04-18T14:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/kocaelispor-vs-goztepe/3mwq2#4842582",
+        "leagueId": 71,
+        "leagueName": "Süper Lig",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 1,
+        "minutesPlayed": 16,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.5",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 1569,
+        "teamName": "Kocaelispor",
+        "opponentTeamId": 8637,
+        "opponentTeamName": "Galatasaray",
+        "isHomeTeam": false,
+        "id": 4842571,
+        "matchDate": {
+          "utcTime": "2026-04-12T17:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/kocaelispor-vs-galatasaray/v0kq6#4842571",
+        "leagueId": 71,
+        "leagueName": "Süper Lig",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 1,
+        "minutesPlayed": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 1569,
+        "teamName": "Kocaelispor",
+        "opponentTeamId": 1933,
+        "opponentTeamName": "Başakşehir",
+        "isHomeTeam": true,
+        "id": 4842564,
+        "matchDate": {
+          "utcTime": "2026-04-06T17:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/kocaelispor-vs-basaksehir/3nibq#4842564",
+        "leagueId": 71,
+        "leagueName": "Süper Lig",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 0,
+        "minutesPlayed": 22,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.2",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8260,
+        "teamName": "North Macedonia",
+        "opponentTeamId": 5791,
+        "opponentTeamName": "Ireland",
+        "isHomeTeam": false,
+        "id": 5279748,
+        "matchDate": {
+          "utcTime": "2026-03-31T18:45:00.000Z"
+        },
+        "matchPageUrl": "/matches/ireland-vs-north-macedonia/1ms50a#5279748",
+        "leagueId": 114,
+        "leagueName": "Friendlies",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 0,
+        "minutesPlayed": 60,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "5.9",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 62,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8260,
+        "teamName": "North Macedonia",
+        "opponentTeamId": 8238,
+        "opponentTeamName": "Denmark",
+        "isHomeTeam": false,
+        "id": 5067290,
+        "matchDate": {
+          "utcTime": "2026-03-26T19:45:00.000Z"
+        },
+        "matchPageUrl": "/matches/denmark-vs-north-macedonia/2919zz#5067290",
+        "leagueId": 10195,
+        "leagueName": "World Cup Qualification UEFA",
+        "stage": "1/2",
+        "homeScore": 4,
+        "awayScore": 0,
+        "minutesPlayed": 64,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.5",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 87,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 1569,
+        "teamName": "Kocaelispor",
+        "opponentTeamId": 4678,
+        "opponentTeamName": "Alanyaspor",
+        "isHomeTeam": false,
+        "id": 4842549,
+        "matchDate": {
+          "utcTime": "2026-03-18T13:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/kocaelispor-vs-alanyaspor/bmdyq#4842549",
+        "leagueId": 71,
+        "leagueName": "Süper Lig",
+        "stage": null,
+        "homeScore": 5,
+        "awayScore": 0,
+        "minutesPlayed": 45,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.4",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 88,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 1569,
+        "teamName": "Kocaelispor",
+        "opponentTeamId": 8622,
+        "opponentTeamName": "Konyaspor",
+        "isHomeTeam": true,
+        "id": 4842546,
+        "matchDate": {
+          "utcTime": "2026-03-14T10:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/kocaelispor-vs-konyaspor/uxao6#4842546",
+        "leagueId": 71,
+        "leagueName": "Süper Lig",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 2,
+        "minutesPlayed": 78,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.3",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 107,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 1569,
+        "teamName": "Kocaelispor",
+        "opponentTeamId": 4681,
+        "opponentTeamName": "Eyüpspor",
+        "isHomeTeam": false,
+        "id": 4842534,
+        "matchDate": {
+          "utcTime": "2026-03-09T13:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/kocaelispor-vs-eyupspor/bmsfk#4842534",
+        "leagueId": 71,
+        "leagueName": "Süper Lig",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 1,
+        "minutesPlayed": 62,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.5",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 87,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 1569,
+        "teamName": "Kocaelispor",
+        "opponentTeamId": 551694,
+        "opponentTeamName": "Beyoğlu Yeni Çarşı Futbol Kulubu",
+        "isHomeTeam": false,
+        "id": 5085956,
+        "matchDate": {
+          "utcTime": "2026-03-04T17:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/kocaelispor-vs-beyoglu-yeni-cars-futbol-kulubu/1yb6huk6#5085956",
+        "leagueId": 151,
+        "leagueName": "Turkish Cup",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 0,
+        "minutesPlayed": 90,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 107,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 1569,
+        "teamName": "Kocaelispor",
+        "opponentTeamId": 10188,
+        "opponentTeamName": "Beşiktaş",
+        "isHomeTeam": true,
+        "id": 4842528,
+        "matchDate": {
+          "utcTime": "2026-02-28T13:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/kocaelispor-vs-besiktas/155i30#4842528",
+        "leagueId": 71,
+        "leagueName": "Süper Lig",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 1,
+        "minutesPlayed": 29,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.0",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 1569,
+        "teamName": "Kocaelispor",
+        "opponentTeamId": 2166,
+        "opponentTeamName": "Rizespor",
+        "isHomeTeam": false,
+        "id": 4842521,
+        "matchDate": {
+          "utcTime": "2026-02-20T17:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/kocaelispor-vs-rizespor/45l56#4842521",
+        "leagueId": 71,
+        "leagueName": "Süper Lig",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 0,
+        "minutesPlayed": 90,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.7",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 87,
+        "playedInMatch": true
+      }
+    ],
+    "previous": "https://pub.fotmob.com/prod/db/api/player/833697/matches?before=1771606800"
+  }
+}

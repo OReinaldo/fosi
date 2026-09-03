@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-03T14:24:29.478509+00:00",
+  "generated_at": "2026-09-03T14:25:51.041078+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -8,7 +8,7 @@
     "team_id": "pogon-szczecin"
   },
   "method": "observed-from-raw",
-  "files_seen": 7,
+  "files_seen": 27,
   "source_files": [
     "fotmob/matches/5803899.json",
     "fotmob/matches/5803923.json",
@@ -16,20 +16,41 @@
     "fotmob/matches/5803955.json",
     "fotmob/matches/5803967.json",
     "fotmob/matches/5904696.json",
-    "fotmob/team.json"
+    "fotmob/players/0.json",
+    "fotmob/players/1078936.json",
+    "fotmob/players/1092563.json",
+    "fotmob/players/1188767.json",
+    "fotmob/players/1329535.json",
+    "fotmob/players/1439702.json",
+    "fotmob/players/1667987.json",
+    "fotmob/players/180283.json",
+    "fotmob/players/280965.json",
+    "fotmob/players/289211.json",
+    "fotmob/players/316558.json",
+    "fotmob/players/406506.json",
+    "fotmob/players/431948.json",
+    "fotmob/players/558189.json",
+    "fotmob/players/69541.json",
+    "fotmob/players/749648.json",
+    "fotmob/players/8023.json",
+    "fotmob/players/833697.json",
+    "fotmob/players/949336.json",
+    "fotmob/team.json",
+    "fotmob/transfers.json"
   ],
   "fields": [
     {
       "path": "$",
       "types": {
-        "object": 7
+        "object": 25,
+        "null": 2
       },
-      "occurrences": 7,
+      "occurrences": 27,
       "sources": [
         "fotmob"
       ],
-      "file_count": 7,
-      "example": null
+      "file_count": 27,
+      "example": "None"
     },
     {
       "path": "$.QAData",
@@ -90,6 +111,1675 @@
       ],
       "file_count": 1,
       "example": null
+    },
+    {
+      "path": "$.birthDate",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.birthDate.timezone",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "UTC"
+    },
+    {
+      "path": "$.birthDate.utcTime",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "2000-01-18T00:00:00.000Z"
+    },
+    {
+      "path": "$.careerHistory",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team",
+      "types": {
+        "object": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries",
+      "types": {
+        "array": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[]",
+      "types": {
+        "object": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].appearances",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "5"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].assists",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "0"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].goals",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "0"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].rating",
+      "types": {
+        "object": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].rating.rating",
+      "types": {
+        "string": 6,
+        "null": 9
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "6.06"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].seasonName",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "2026"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].showTeamGender",
+      "types": {
+        "boolean": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "False"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].team",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "Iraq"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].teamGender",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "male"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].teamId",
+      "types": {
+        "integer": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "5819"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].tournamentStats",
+      "types": {
+        "array": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].tournamentStats[]",
+      "types": {
+        "object": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].tournamentStats[].appearances",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "2"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].tournamentStats[].assists",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "0"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].tournamentStats[].goals",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "0"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].tournamentStats[].isFriendly",
+      "types": {
+        "boolean": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "False"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].tournamentStats[].leagueId",
+      "types": {
+        "integer": 12
+      },
+      "occurrences": 12,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 12,
+      "example": "77"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].tournamentStats[].leagueName",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "World Cup"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].tournamentStats[].rating",
+      "types": {
+        "object": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].tournamentStats[].rating.rating",
+      "types": {
+        "string": 6,
+        "null": 9
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "5.76"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].tournamentStats[].seasonName",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "2026"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].tournamentStats[].tournamentId",
+      "types": {
+        "integer": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "24254"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.seasonEntries[].transferType",
+      "types": {
+        "null": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "None"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.teamEntries",
+      "types": {
+        "array": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.teamEntries[]",
+      "types": {
+        "object": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.teamEntries[].active",
+      "types": {
+        "boolean": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "True"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.teamEntries[].appearances",
+      "types": {
+        "string": 14,
+        "null": 1
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "29"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.teamEntries[].assists",
+      "types": {
+        "string": 14,
+        "null": 1
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "0"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.teamEntries[].endDate",
+      "types": {
+        "null": 4,
+        "string": 11
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "None"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.teamEntries[].goals",
+      "types": {
+        "string": 14,
+        "null": 1
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "1"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.teamEntries[].hasUncertainData",
+      "types": {
+        "boolean": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "False"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.teamEntries[].participantId",
+      "types": {
+        "integer": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "1092563"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.teamEntries[].role",
+      "types": {
+        "null": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "None"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.teamEntries[].showTeamGender",
+      "types": {
+        "boolean": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "False"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.teamEntries[].startDate",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "2023-09-05T00:00:00"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.teamEntries[].team",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "Iraq"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.teamEntries[].teamGender",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "male"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.teamEntries[].teamId",
+      "types": {
+        "integer": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "5819"
+    },
+    {
+      "path": "$.careerHistory.careerItems.national team.teamEntries[].transferType",
+      "types": {
+        "null": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "None"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[]",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].appearances",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "5"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].assists",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "1"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].goals",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "1"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].rating",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].rating.rating",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "7.10"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].seasonName",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "2026/2027"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].showTeamGender",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].team",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].teamGender",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "male"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].teamId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "8023"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].tournamentStats",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].tournamentStats[]",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].tournamentStats[].appearances",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "5"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].tournamentStats[].assists",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "1"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].tournamentStats[].goals",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "1"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].tournamentStats[].isFriendly",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].tournamentStats[].leagueId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "196"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].tournamentStats[].leagueName",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Ekstraklasa"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].tournamentStats[].rating",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].tournamentStats[].rating.rating",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "7.10"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].tournamentStats[].seasonName",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "2026/2027"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].tournamentStats[].tournamentId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "37304"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].transferType",
+      "types": {
+        "object": 12,
+        "null": 5
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].transferType.localizationKey",
+      "types": {
+        "string": 12
+      },
+      "occurrences": 12,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 12,
+      "example": "free_transfer"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.seasonEntries[].transferType.text",
+      "types": {
+        "string": 12
+      },
+      "occurrences": 12,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 12,
+      "example": "free transfer"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[]",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[].active",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "True"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[].appearances",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "41"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[].assists",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "1"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[].endDate",
+      "types": {
+        "null": 16,
+        "string": 1
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[].goals",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "9"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[].hasUncertainData",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[].participantId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "1078936"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[].role",
+      "types": {
+        "null": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[].showTeamGender",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[].startDate",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "2025-07-02T00:00:00"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[].team",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[].teamGender",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "male"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[].teamId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "8023"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[].transferType",
+      "types": {
+        "object": 12,
+        "null": 5
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[].transferType.localizationKey",
+      "types": {
+        "string": 12
+      },
+      "occurrences": 12,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 12,
+      "example": "free_transfer"
+    },
+    {
+      "path": "$.careerHistory.careerItems.senior.teamEntries[].transferType.text",
+      "types": {
+        "string": 12
+      },
+      "occurrences": 12,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 12,
+      "example": "free transfer"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth",
+      "types": {
+        "object": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries",
+      "types": {
+        "array": 7,
+        "null": 2
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "None"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[]",
+      "types": {
+        "object": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].appearances",
+      "types": {
+        "string": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "8"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].assists",
+      "types": {
+        "string": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "0"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].goals",
+      "types": {
+        "string": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "8"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].rating",
+      "types": {
+        "object": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].rating.rating",
+      "types": {
+        "null": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "None"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].seasonName",
+      "types": {
+        "string": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "2018/2019"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].showTeamGender",
+      "types": {
+        "boolean": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "False"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].team",
+      "types": {
+        "string": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "Antalyaspor Kulübü Under 19"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].teamGender",
+      "types": {
+        "string": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "male"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].teamId",
+      "types": {
+        "integer": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "-1"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].tournamentStats",
+      "types": {
+        "array": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].tournamentStats[]",
+      "types": {
+        "object": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].tournamentStats[].appearances",
+      "types": {
+        "string": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "8"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].tournamentStats[].assists",
+      "types": {
+        "string": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "undefined"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].tournamentStats[].goals",
+      "types": {
+        "string": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "8"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].tournamentStats[].isFriendly",
+      "types": {
+        "boolean": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "False"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].tournamentStats[].leagueId",
+      "types": {
+        "integer": 5
+      },
+      "occurrences": 5,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 5,
+      "example": "9908"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].tournamentStats[].leagueName",
+      "types": {
+        "string": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "U19 Elit A Ligi"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].tournamentStats[].rating",
+      "types": {
+        "object": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].tournamentStats[].rating.rating",
+      "types": {
+        "null": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "None"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].tournamentStats[].seasonName",
+      "types": {
+        "string": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "2018/2019"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].tournamentStats[].tournamentId",
+      "types": {
+        "integer": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "-1"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.seasonEntries[].transferType",
+      "types": {
+        "null": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "None"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.teamEntries",
+      "types": {
+        "array": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.teamEntries[]",
+      "types": {
+        "object": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": null
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.teamEntries[].active",
+      "types": {
+        "boolean": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "False"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.teamEntries[].appearances",
+      "types": {
+        "string": 6,
+        "null": 3
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "8"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.teamEntries[].assists",
+      "types": {
+        "string": 6,
+        "null": 3
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "0"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.teamEntries[].endDate",
+      "types": {
+        "string": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "2020-06-30T00:00:00"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.teamEntries[].goals",
+      "types": {
+        "string": 6,
+        "null": 3
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "8"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.teamEntries[].hasUncertainData",
+      "types": {
+        "boolean": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "False"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.teamEntries[].participantId",
+      "types": {
+        "integer": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "1078936"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.teamEntries[].role",
+      "types": {
+        "null": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "None"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.teamEntries[].showTeamGender",
+      "types": {
+        "boolean": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "False"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.teamEntries[].startDate",
+      "types": {
+        "string": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "2019-03-21T00:00:00"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.teamEntries[].team",
+      "types": {
+        "string": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "Antalyaspor Kulübü Under 19"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.teamEntries[].teamGender",
+      "types": {
+        "string": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "male"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.teamEntries[].teamId",
+      "types": {
+        "integer": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "-1"
+    },
+    {
+      "path": "$.careerHistory.careerItems.youth.teamEntries[].transferType",
+      "types": {
+        "null": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "None"
+    },
+    {
+      "path": "$.careerHistory.fullCareer",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "True"
+    },
+    {
+      "path": "$.careerHistory.showFootnote",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.coachStats",
+      "types": {
+        "null": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
     },
     {
       "path": "$.content",
@@ -168419,6 +170109,54 @@
       "example": "2"
     },
     {
+      "path": "$.contractEnd",
+      "types": {
+        "object": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": null
+    },
+    {
+      "path": "$.contractEnd.timezone",
+      "types": {
+        "string": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": "UTC"
+    },
+    {
+      "path": "$.contractEnd.utcTime",
+      "types": {
+        "string": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": "2027-06-30T00:00:00.000Z"
+    },
+    {
+      "path": "$.dataProvider",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "enet"
+    },
+    {
       "path": "$.details",
       "types": {
         "object": 1
@@ -169077,6 +170815,1447 @@
       ],
       "file_count": 1,
       "example": "team"
+    },
+    {
+      "path": "$.firstSeasonStats",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.heatmap",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.heatmap.coordinates",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.heatmap.coordinates[]",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.heatmap.coordinates[].x",
+      "types": {
+        "number": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "72.01"
+    },
+    {
+      "path": "$.firstSeasonStats.heatmap.coordinates[].y",
+      "types": {
+        "number": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "26.69"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap",
+      "types": {
+        "null": 16,
+        "array": 1
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[]",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].awayScore",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "1"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].awayTeamId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "8673"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].awayTeamName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Legia Warszawa"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].blockedX",
+      "types": {
+        "number": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "103.103448276"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].blockedY",
+      "types": {
+        "number": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "34.99125"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].box",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "InsideBox"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].eventType",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "AttemptSaved"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].expectedGoals",
+      "types": {
+        "number": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "0.351448237895966"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].expectedGoalsOnTarget",
+      "types": {
+        "number": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "0.53617650270462"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].goalCrossedY",
+      "types": {
+        "number": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "34.53375"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].goalCrossedZ",
+      "types": {
+        "number": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "1.9134736748"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].homeScore",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "0"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].homeTeamId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "8023"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].homeTeamName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].id",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "2948626577"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].isBlocked",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].isFromInsideBox",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "True"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].isOnTarget",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "True"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].isOwnGoal",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].isSavedOffLine",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].matchDate",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "2026-07-24T18:30:00Z"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].matchId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "5803899"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].min",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "6"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].onGoalShot",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].onGoalShot.x",
+      "types": {
+        "number": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "0.858796296296295"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].onGoalShot.y",
+      "types": {
+        "number": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "0.506209966878307"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].onGoalShot.zoomRatio",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "1"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].period",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "FirstHalf"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].playerId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "960491"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].playerName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Mileta Rajovic"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].shotType",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Header"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].situation",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "RegularPlay"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].teamColor",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#102457"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].teamColorDark",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#1753a4"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].teamId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "8673"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].x",
+      "types": {
+        "number": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "97.3771929818"
+    },
+    {
+      "path": "$.firstSeasonStats.keeperShotmap[].y",
+      "types": {
+        "number": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "34.22875"
+    },
+    {
+      "path": "$.firstSeasonStats.sectionOrder",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.sectionOrder[]",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "top-stat-card"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap",
+      "types": {
+        "array": 15,
+        "null": 2
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[]",
+      "types": {
+        "object": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].awayScore",
+      "types": {
+        "integer": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "1"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].awayTeamId",
+      "types": {
+        "integer": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "8673"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].awayTeamName",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "Legia Warszawa"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].blockedX",
+      "types": {
+        "number": 8
+      },
+      "occurrences": 8,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 8,
+      "example": "101.5862068968"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].blockedY",
+      "types": {
+        "number": 7,
+        "integer": 1
+      },
+      "occurrences": 8,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 8,
+      "example": "35.0675"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].box",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "InsideBox"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].eventType",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "AttemptSaved"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].expectedGoals",
+      "types": {
+        "number": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "0.32607302069664"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].expectedGoalsOnTarget",
+      "types": {
+        "integer": 10,
+        "number": 5
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "0"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].goalCrossedY",
+      "types": {
+        "integer": 1,
+        "number": 14
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "34"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].goalCrossedZ",
+      "types": {
+        "number": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "1.219999994"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].homeScore",
+      "types": {
+        "integer": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "0"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].homeTeamId",
+      "types": {
+        "integer": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "8023"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].homeTeamName",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].id",
+      "types": {
+        "integer": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "2948654343"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].isBlocked",
+      "types": {
+        "boolean": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "False"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].isFromInsideBox",
+      "types": {
+        "boolean": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "True"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].isOnTarget",
+      "types": {
+        "boolean": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "True"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].isOwnGoal",
+      "types": {
+        "boolean": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "False"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].isSavedOffLine",
+      "types": {
+        "boolean": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "True"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].matchDate",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "2026-07-24T18:30:00Z"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].matchId",
+      "types": {
+        "integer": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "5803899"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].min",
+      "types": {
+        "integer": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "79"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].onGoalShot",
+      "types": {
+        "object": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].onGoalShot.x",
+      "types": {
+        "integer": 4,
+        "number": 11
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "1"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].onGoalShot.y",
+      "types": {
+        "number": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "0.322751321164021"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].onGoalShot.zoomRatio",
+      "types": {
+        "integer": 9,
+        "number": 6
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "1"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].period",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "SecondHalf"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].playerId",
+      "types": {
+        "integer": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "1078936"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].playerName",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "Paul Mukairu"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].shotType",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "RightFoot"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].situation",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "RegularPlay"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].teamColor",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "#102457"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].teamColorDark",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "#1753a4"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].teamId",
+      "types": {
+        "integer": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "8023"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].x",
+      "types": {
+        "number": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "101.0172413796"
+    },
+    {
+      "path": "$.firstSeasonStats.shotmap[].y",
+      "types": {
+        "number": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "35.29625"
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection",
+      "types": {
+        "object": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.id",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "stats-section"
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.items",
+      "types": {
+        "array": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.items[]",
+      "types": {
+        "object": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.items[].display",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "stats-group"
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.items[].items",
+      "types": {
+        "array": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.items[].items[]",
+      "types": {
+        "object": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.items[].items[].localizedTitleId",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "goals"
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.items[].items[].per90",
+      "types": {
+        "number": 8,
+        "integer": 7
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "0.2142857142857143"
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.items[].items[].percentileRank",
+      "types": {
+        "number": 5,
+        "integer": 10
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "52.38095238095239"
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.items[].items[].percentileRankPer90",
+      "types": {
+        "number": 7,
+        "integer": 8
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "58.730158730158735"
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.items[].items[].statFormat",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "number"
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.items[].items[].statValue",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "1"
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.items[].items[].title",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "Goals"
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.items[].localizedTitleId",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "shooting"
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.items[].title",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "Shooting"
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.items[].type",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "stat-values"
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.localizedTitleId",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "season_performance"
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.title",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "Season performance"
+    },
+    {
+      "path": "$.firstSeasonStats.statsSection.type",
+      "types": {
+        "string": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": "grouped-stat-values"
+    },
+    {
+      "path": "$.firstSeasonStats.topStatCard",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.topStatCard.display",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "stats-group"
+    },
+    {
+      "path": "$.firstSeasonStats.topStatCard.id",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "top-stat-card"
+    },
+    {
+      "path": "$.firstSeasonStats.topStatCard.items",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.topStatCard.items[]",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.firstSeasonStats.topStatCard.items[].localizedTitleId",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "goals"
+    },
+    {
+      "path": "$.firstSeasonStats.topStatCard.items[].per90",
+      "types": {
+        "number": 8,
+        "integer": 9
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "0.2142857142857143"
+    },
+    {
+      "path": "$.firstSeasonStats.topStatCard.items[].percentileRank",
+      "types": {
+        "number": 5,
+        "integer": 12
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "52.38095238095239"
+    },
+    {
+      "path": "$.firstSeasonStats.topStatCard.items[].percentileRankPer90",
+      "types": {
+        "number": 7,
+        "integer": 10
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "58.730158730158735"
+    },
+    {
+      "path": "$.firstSeasonStats.topStatCard.items[].statFormat",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "number"
+    },
+    {
+      "path": "$.firstSeasonStats.topStatCard.items[].statValue",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "1"
+    },
+    {
+      "path": "$.firstSeasonStats.topStatCard.items[].title",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Goals"
+    },
+    {
+      "path": "$.firstSeasonStats.topStatCard.type",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "stat-values"
     },
     {
       "path": "$.fixtures",
@@ -170277,6 +173456,18 @@
       ],
       "file_count": 1,
       "example": "196"
+    },
+    {
+      "path": "$.gender",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "male"
     },
     {
       "path": "$.general",
@@ -182869,6 +186060,1246 @@
       "example": "0"
     },
     {
+      "path": "$.hits",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "7056"
+    },
+    {
+      "path": "$.id",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "1078936"
+    },
+    {
+      "path": "$.initialMatchesPage",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.initialMatchesPage.matches",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.initialMatchesPage.matches[]",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].assists",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "0"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].awayScore",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "0"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].goals",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "0"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].homeScore",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "0"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].id",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "5803967"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].isHomeTeam",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].leagueId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "196"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].leagueName",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Ekstraklasa"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].lineupPositionId",
+      "types": {
+        "integer": 12
+      },
+      "occurrences": 12,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 12,
+      "example": "82"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].matchDate",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].matchDate.utcTime",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "2026-08-29T18:15:00.000Z"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].matchPageUrl",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#5803967"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].minutesPlayed",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "89"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].onBench",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].opponentTeamId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "8021"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].opponentTeamName",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Zagłębie Lubin"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].playedInMatch",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "True"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].playerOfTheMatch",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].ratingProps",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].ratingProps.isTopRating",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].ratingProps.rating",
+      "types": {
+        "string": 14,
+        "integer": 3
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "6.5"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].redCards",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "0"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].stage",
+      "types": {
+        "null": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].teamId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "8023"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].teamName",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.initialMatchesPage.matches[].yellowCards",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "0"
+    },
+    {
+      "path": "$.initialMatchesPage.previous",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "https://pub.fotmob.com/prod/db/api/player/1078936/matches?before=1771163100"
+    },
+    {
+      "path": "$.injuryInformation",
+      "types": {
+        "null": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.internationalDuty",
+      "types": {
+        "null": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.isCaptain",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.isCoach",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.mainLeague",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.mainLeague.leagueId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "196"
+    },
+    {
+      "path": "$.mainLeague.leagueName",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Ekstraklasa"
+    },
+    {
+      "path": "$.mainLeague.season",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "2026/2027"
+    },
+    {
+      "path": "$.mainLeague.stats",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.mainLeague.stats[]",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.mainLeague.stats[].localizedTitleId",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "goals"
+    },
+    {
+      "path": "$.mainLeague.stats[].title",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Goals"
+    },
+    {
+      "path": "$.mainLeague.stats[].value",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "1"
+    },
+    {
+      "path": "$.marketValues",
+      "types": {
+        "object": 16,
+        "null": 1
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.marketValues.values",
+      "types": {
+        "array": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": null
+    },
+    {
+      "path": "$.marketValues.values[]",
+      "types": {
+        "object": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": null
+    },
+    {
+      "path": "$.marketValues.values[].currency",
+      "types": {
+        "string": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "EUR"
+    },
+    {
+      "path": "$.marketValues.values[].date",
+      "types": {
+        "string": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "2019-12-31T00:00:00+00:00"
+    },
+    {
+      "path": "$.marketValues.values[].isPeriodStart",
+      "types": {
+        "boolean": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": "True"
+    },
+    {
+      "path": "$.marketValues.values[].lowerBound",
+      "types": {
+        "integer": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "240000"
+    },
+    {
+      "path": "$.marketValues.values[].source",
+      "types": {
+        "string": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "scisports"
+    },
+    {
+      "path": "$.marketValues.values[].teamId",
+      "types": {
+        "integer": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": "1931"
+    },
+    {
+      "path": "$.marketValues.values[].teamName",
+      "types": {
+        "string": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": "Antalyaspor"
+    },
+    {
+      "path": "$.marketValues.values[].upperBound",
+      "types": {
+        "integer": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "400000"
+    },
+    {
+      "path": "$.marketValues.values[].value",
+      "types": {
+        "integer": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "320000"
+    },
+    {
+      "path": "$.matchesUrl",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "https://pub.fotmob.com/prod/db/api/player/1078936/matches"
+    },
+    {
+      "path": "$.maxFee",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "145000000"
+    },
+    {
+      "path": "$.meta",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.meta.breadcrumbJSONLD",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.meta.breadcrumbJSONLD.@context",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "https://schema.org"
+    },
+    {
+      "path": "$.meta.breadcrumbJSONLD.@type",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "BreadcrumbList"
+    },
+    {
+      "path": "$.meta.breadcrumbJSONLD.itemListElement",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.meta.breadcrumbJSONLD.itemListElement[]",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.meta.breadcrumbJSONLD.itemListElement[].@type",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "ListItem"
+    },
+    {
+      "path": "$.meta.breadcrumbJSONLD.itemListElement[].item",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "https://www.fotmob.com"
+    },
+    {
+      "path": "$.meta.breadcrumbJSONLD.itemListElement[].name",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Home"
+    },
+    {
+      "path": "$.meta.breadcrumbJSONLD.itemListElement[].position",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "1"
+    },
+    {
+      "path": "$.meta.faqJSONLD",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.meta.faqJSONLD.@context",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "https://schema.org"
+    },
+    {
+      "path": "$.meta.faqJSONLD.@type",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "FAQPage"
+    },
+    {
+      "path": "$.meta.faqJSONLD.mainEntity",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.meta.faqJSONLD.mainEntity[]",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.meta.faqJSONLD.mainEntity[].@type",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Question"
+    },
+    {
+      "path": "$.meta.faqJSONLD.mainEntity[].acceptedAnswer",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.meta.faqJSONLD.mainEntity[].acceptedAnswer.@type",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Answer"
+    },
+    {
+      "path": "$.meta.faqJSONLD.mainEntity[].acceptedAnswer.text",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Paul Mukairu is 26 years old. Born on Tue Jan 18 2000."
+    },
+    {
+      "path": "$.meta.faqJSONLD.mainEntity[].name",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "How old is Paul Mukairu?"
+    },
+    {
+      "path": "$.meta.pageurl",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "/players/1078936/paul-mukairu"
+    },
+    {
+      "path": "$.meta.personJSONLD",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.meta.personJSONLD.@context",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "https://schema.org"
+    },
+    {
+      "path": "$.meta.personJSONLD.@type",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Person"
+    },
+    {
+      "path": "$.meta.personJSONLD.affiliation",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.meta.personJSONLD.affiliation.@type",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "SportsTeam"
+    },
+    {
+      "path": "$.meta.personJSONLD.affiliation.name",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.meta.personJSONLD.birthDate",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "2000-01-18T00:00:00.000Z"
+    },
+    {
+      "path": "$.meta.personJSONLD.gender",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "https://schema.org/Male"
+    },
+    {
+      "path": "$.meta.personJSONLD.height",
+      "types": {
+        "object": 16,
+        "null": 1
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.meta.personJSONLD.height.@type",
+      "types": {
+        "string": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "QuantitativeValue"
+    },
+    {
+      "path": "$.meta.personJSONLD.height.unitText",
+      "types": {
+        "string": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "cm"
+    },
+    {
+      "path": "$.meta.personJSONLD.height.value",
+      "types": {
+        "string": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "182"
+    },
+    {
+      "path": "$.meta.personJSONLD.name",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Paul Mukairu"
+    },
+    {
+      "path": "$.meta.personJSONLD.nationality",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.meta.personJSONLD.nationality.@type",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Country"
+    },
+    {
+      "path": "$.meta.personJSONLD.nationality.name",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Nigeria"
+    },
+    {
+      "path": "$.meta.personJSONLD.url",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "https://www.fotmob.com/players/1078936/paul-mukairu"
+    },
+    {
+      "path": "$.meta.personJSONLD.weight",
+      "types": {
+        "object": 16,
+        "null": 1
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.meta.personJSONLD.weight.@type",
+      "types": {
+        "string": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "QuantitativeValue"
+    },
+    {
+      "path": "$.meta.personJSONLD.weight.unitText",
+      "types": {
+        "string": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "kg"
+    },
+    {
+      "path": "$.meta.personJSONLD.weight.value",
+      "types": {
+        "string": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "72"
+    },
+    {
+      "path": "$.meta.seopath",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "paul-mukairu"
+    },
+    {
+      "path": "$.name",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Paul Mukairu"
+    },
+    {
       "path": "$.nav",
       "types": {
         "array": 6
@@ -182891,6 +187322,270 @@
       ],
       "file_count": 6,
       "example": "matchfacts"
+    },
+    {
+      "path": "$.nextMatch",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.nextMatch.awayId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "8243"
+    },
+    {
+      "path": "$.nextMatch.awayName",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Wisła Płock"
+    },
+    {
+      "path": "$.nextMatch.homeId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "8023"
+    },
+    {
+      "path": "$.nextMatch.homeName",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.nextMatch.leagueId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "196"
+    },
+    {
+      "path": "$.nextMatch.leagueName",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Ekstraklasa"
+    },
+    {
+      "path": "$.nextMatch.matchDate",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "2026-09-07T18:30:00Z"
+    },
+    {
+      "path": "$.nextMatch.matchId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "5803974"
+    },
+    {
+      "path": "$.nextMatch.matchUrl",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "/matches/pogon-szczecin-vs-wisa-pock/26rtbe#5803974"
+    },
+    {
+      "path": "$.nextMatch.parentLeagueId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "196"
+    },
+    {
+      "path": "$.nextMatch.stadium",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.nextMatch.stadium.city",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Szczecin"
+    },
+    {
+      "path": "$.nextMatch.stadium.lat",
+      "types": {
+        "number": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "53.43650687"
+    },
+    {
+      "path": "$.nextMatch.stadium.long",
+      "types": {
+        "number": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "14.518775974"
+    },
+    {
+      "path": "$.nextMatch.stadium.venue",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Stadion Miejski im. Floriana Krygiera"
+    },
+    {
+      "path": "$.nextMatch.status",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.nextMatch.status.cancelled",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.nextMatch.status.finished",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.nextMatch.status.started",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.nextMatch.status.utcTime",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "2026-09-07T18:30:00.000Z"
+    },
+    {
+      "path": "$.nextMatch.statusId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "1"
     },
     {
       "path": "$.ongoing",
@@ -197029,6 +201724,993 @@
       "example": "Stadion Miejski im. Floriana Krygiera"
     },
     {
+      "path": "$.playerInformation",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.playerInformation[]",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.playerInformation[].title",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Height"
+    },
+    {
+      "path": "$.playerInformation[].translationKey",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "height_sentencecase"
+    },
+    {
+      "path": "$.playerInformation[].value",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.playerInformation[].value.fallback",
+      "types": {
+        "string": 16,
+        "integer": 1
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "182 cm"
+    },
+    {
+      "path": "$.playerInformation[].value.key",
+      "types": {
+        "null": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.playerInformation[].value.numberValue",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "182"
+    },
+    {
+      "path": "$.playerInformation[].value.options",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.positionDescription",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.positionDescription.nonPrimaryPositions",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.positionDescription.nonPrimaryPositions[]",
+      "types": {
+        "object": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": null
+    },
+    {
+      "path": "$.positionDescription.nonPrimaryPositions[].key",
+      "types": {
+        "string": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "leftmidfielder"
+    },
+    {
+      "path": "$.positionDescription.nonPrimaryPositions[].label",
+      "types": {
+        "string": 9
+      },
+      "occurrences": 9,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 9,
+      "example": "Left Midfielder"
+    },
+    {
+      "path": "$.positionDescription.positions",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.positionDescription.positions[]",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.positionDescription.positions[].isMainPosition",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.positionDescription.positions[].occurences",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "3"
+    },
+    {
+      "path": "$.positionDescription.positions[].pitchPositionData",
+      "types": {
+        "object": 10,
+        "null": 7
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.positionDescription.positions[].pitchPositionData.ratio",
+      "types": {
+        "number": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "0.33636363636363636"
+    },
+    {
+      "path": "$.positionDescription.positions[].pitchPositionData.right",
+      "types": {
+        "number": 10
+      },
+      "occurrences": 10,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 10,
+      "example": "0.17"
+    },
+    {
+      "path": "$.positionDescription.positions[].pitchPositionData.top",
+      "types": {
+        "number": 10
+      },
+      "occurrences": 10,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 10,
+      "example": "0.42"
+    },
+    {
+      "path": "$.positionDescription.positions[].position",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "78"
+    },
+    {
+      "path": "$.positionDescription.positions[].strPos",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.positionDescription.positions[].strPos.key",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "leftmidfielder"
+    },
+    {
+      "path": "$.positionDescription.positions[].strPos.label",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Left Midfielder"
+    },
+    {
+      "path": "$.positionDescription.positions[].strPosShort",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.positionDescription.positions[].strPosShort.key",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "leftmidfielder_short"
+    },
+    {
+      "path": "$.positionDescription.positions[].strPosShort.label",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "LM"
+    },
+    {
+      "path": "$.positionDescription.primaryPosition",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.positionDescription.primaryPosition.key",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "striker"
+    },
+    {
+      "path": "$.positionDescription.primaryPosition.label",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Striker"
+    },
+    {
+      "path": "$.primaryTeam",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.primaryTeam.onLoan",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.primaryTeam.teamColors",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.primaryTeam.teamColors.color",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "#102457"
+    },
+    {
+      "path": "$.primaryTeam.teamColors.colorAlternate",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "#1753a4"
+    },
+    {
+      "path": "$.primaryTeam.teamColors.colorAway",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "#880E02"
+    },
+    {
+      "path": "$.primaryTeam.teamColors.colorAwayAlternate",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "#9f2815"
+    },
+    {
+      "path": "$.primaryTeam.teamId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "8023"
+    },
+    {
+      "path": "$.primaryTeam.teamName",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.recentMatches",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.recentMatches[]",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.recentMatches[].assists",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "0"
+    },
+    {
+      "path": "$.recentMatches[].awayScore",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "0"
+    },
+    {
+      "path": "$.recentMatches[].goals",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "0"
+    },
+    {
+      "path": "$.recentMatches[].homeScore",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "0"
+    },
+    {
+      "path": "$.recentMatches[].id",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "5803967"
+    },
+    {
+      "path": "$.recentMatches[].isHomeTeam",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.recentMatches[].leagueId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "196"
+    },
+    {
+      "path": "$.recentMatches[].leagueName",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Ekstraklasa"
+    },
+    {
+      "path": "$.recentMatches[].lineupPositionId",
+      "types": {
+        "integer": 12
+      },
+      "occurrences": 12,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 12,
+      "example": "82"
+    },
+    {
+      "path": "$.recentMatches[].matchDate",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.recentMatches[].matchDate.utcTime",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "2026-08-29T18:15:00.000Z"
+    },
+    {
+      "path": "$.recentMatches[].matchPageUrl",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#5803967"
+    },
+    {
+      "path": "$.recentMatches[].minutesPlayed",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "89"
+    },
+    {
+      "path": "$.recentMatches[].onBench",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.recentMatches[].opponentTeamId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "8021"
+    },
+    {
+      "path": "$.recentMatches[].opponentTeamName",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Zagłębie Lubin"
+    },
+    {
+      "path": "$.recentMatches[].playedInMatch",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "True"
+    },
+    {
+      "path": "$.recentMatches[].playerOfTheMatch",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.recentMatches[].ratingProps",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.recentMatches[].ratingProps.isTopRating",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "False"
+    },
+    {
+      "path": "$.recentMatches[].ratingProps.rating",
+      "types": {
+        "string": 14,
+        "integer": 3
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "6.5"
+    },
+    {
+      "path": "$.recentMatches[].redCards",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "0"
+    },
+    {
+      "path": "$.recentMatches[].stage",
+      "types": {
+        "null": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.recentMatches[].teamId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "8023"
+    },
+    {
+      "path": "$.recentMatches[].teamName",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.recentMatches[].yellowCards",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "0"
+    },
+    {
+      "path": "$.relatedLinksData",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.relatedLinksData.mensNationalTeam",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.relatedLinksData.mensNationalTeam[]",
+      "types": {
+        "object": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": null
+    },
+    {
+      "path": "$.relatedLinksData.mensNationalTeam[].id",
+      "types": {
+        "integer": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "1966315"
+    },
+    {
+      "path": "$.relatedLinksData.mensNationalTeam[].name",
+      "types": {
+        "string": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "Aderemi Adeoye"
+    },
+    {
+      "path": "$.relatedLinksData.teammates",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.relatedLinksData.teammates[]",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.relatedLinksData.teammates[].id",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "431948"
+    },
+    {
+      "path": "$.relatedLinksData.teammates[].name",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Kellyn Acosta"
+    },
+    {
+      "path": "$.relatedLinksData.womensNationalTeam",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.relatedLinksData.womensNationalTeam[]",
+      "types": {
+        "object": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": null
+    },
+    {
+      "path": "$.relatedLinksData.womensNationalTeam[].id",
+      "types": {
+        "integer": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "977763"
+    },
+    {
+      "path": "$.relatedLinksData.womensNationalTeam[].name",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "Omorinsola Babajide"
+    },
+    {
       "path": "$.seo",
       "types": {
         "object": 6
@@ -198205,6 +203887,114 @@
       "example": "coach"
     },
     {
+      "path": "$.statSeasons",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.statSeasons[]",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.statSeasons[].seasonName",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "2026/2027"
+    },
+    {
+      "path": "$.statSeasons[].tournaments",
+      "types": {
+        "array": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.statSeasons[].tournaments[]",
+      "types": {
+        "object": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": null
+    },
+    {
+      "path": "$.statSeasons[].tournaments[].entryId",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "0-0"
+    },
+    {
+      "path": "$.statSeasons[].tournaments[].hasDeepStats",
+      "types": {
+        "boolean": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "True"
+    },
+    {
+      "path": "$.statSeasons[].tournaments[].name",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "Ekstraklasa"
+    },
+    {
+      "path": "$.statSeasons[].tournaments[].tournamentId",
+      "types": {
+        "integer": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "196"
+    },
+    {
       "path": "$.stats",
       "types": {
         "object": 1
@@ -199283,6 +205073,18 @@
       ],
       "file_count": 1,
       "example": "37304"
+    },
+    {
+      "path": "$.status",
+      "types": {
+        "string": 17
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "active"
     },
     {
       "path": "$.table",
@@ -207133,7 +212935,7 @@
       "example": "overview"
     },
     {
-      "path": "$.transfers",
+      "path": "$.topCompletedTransfer",
       "types": {
         "object": 1
       },
@@ -207142,6 +212944,380 @@
         "fotmob"
       ],
       "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.topCompletedTransfer.amountEuroEstimated",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.topCompletedTransfer.contractExtension",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.topCompletedTransfer.fee",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.topCompletedTransfer.fromClub",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.topCompletedTransfer.fromClubFullName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.topCompletedTransfer.fromClubId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "8023"
+    },
+    {
+      "path": "$.topCompletedTransfer.fromDate",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.topCompletedTransfer.marketValue",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.topCompletedTransfer.name",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Fredrik Ulvestad"
+    },
+    {
+      "path": "$.topCompletedTransfer.onLoan",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.topCompletedTransfer.playerId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "180283"
+    },
+    {
+      "path": "$.topCompletedTransfer.position",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.topCompletedTransfer.toClub",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "OB"
+    },
+    {
+      "path": "$.topCompletedTransfer.toClubFullName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "OB"
+    },
+    {
+      "path": "$.topCompletedTransfer.toClubId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "8414"
+    },
+    {
+      "path": "$.topCompletedTransfer.toDate",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.topCompletedTransfer.transferDate",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "2026-09-02"
+    },
+    {
+      "path": "$.topCompletedTransfer.transferText",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.topCompletedTransfer.transferText[]",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.topCompletedTransfer.transferType",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.topCompletedTransfer.transferType.localizationKey",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "contract"
+    },
+    {
+      "path": "$.topCompletedTransfer.transferType.text",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "contract"
+    },
+    {
+      "path": "$.traits",
+      "types": {
+        "object": 16,
+        "null": 1
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.traits.items",
+      "types": {
+        "array": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": null
+    },
+    {
+      "path": "$.traits.items[]",
+      "types": {
+        "object": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": null
+    },
+    {
+      "path": "$.traits.items[].key",
+      "types": {
+        "string": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "chances_created"
+    },
+    {
+      "path": "$.traits.items[].title",
+      "types": {
+        "string": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "Chances created"
+    },
+    {
+      "path": "$.traits.items[].value",
+      "types": {
+        "number": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "0.64"
+    },
+    {
+      "path": "$.traits.key",
+      "types": {
+        "string": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "stats_comparison_forwards"
+    },
+    {
+      "path": "$.traits.title",
+      "types": {
+        "string": 16
+      },
+      "occurrences": 16,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 16,
+      "example": "Stats compared to other forwards"
+    },
+    {
+      "path": "$.transfers",
+      "types": {
+        "object": 1,
+        "array": 1
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
       "example": null
     },
     {
@@ -208499,6 +214675,499 @@
       ],
       "file_count": 1,
       "example": "team"
+    },
+    {
+      "path": "$.transfers[]",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.transfers[].amountEuroEstimated",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.transfers[].contractExtension",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.transfers[].fee",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.transfers[].fee.feeText",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "free transfer"
+    },
+    {
+      "path": "$.transfers[].fee.localizedFeeText",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "transfer_type_free_transfer"
+    },
+    {
+      "path": "$.transfers[].fromClub",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Juve Stabia"
+    },
+    {
+      "path": "$.transfers[].fromClubFullName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Juve Stabia"
+    },
+    {
+      "path": "$.transfers[].fromClubId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "6106"
+    },
+    {
+      "path": "$.transfers[].fromDate",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "2026-09-01T00:00:00Z"
+    },
+    {
+      "path": "$.transfers[].marketValue",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "249496"
+    },
+    {
+      "path": "$.transfers[].name",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Alessandro Louati"
+    },
+    {
+      "path": "$.transfers[].onLoan",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.transfers[].playerId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "1463637"
+    },
+    {
+      "path": "$.transfers[].position",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.transfers[].toClub",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Free agent"
+    },
+    {
+      "path": "$.transfers[].toClubFullName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Free agent"
+    },
+    {
+      "path": "$.transfers[].toClubId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "2"
+    },
+    {
+      "path": "$.transfers[].toDate",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.transfers[].transferDate",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "2026-09-03T16:14:40Z"
+    },
+    {
+      "path": "$.transfers[].transferText",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.transfers[].transferText[]",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.transfers[].transferType",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.transfers[].transferType.localizationKey",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "contract"
+    },
+    {
+      "path": "$.transfers[].transferType.text",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "contract"
+    },
+    {
+      "path": "$.trophies",
+      "types": {
+        "object": 15,
+        "null": 2
+      },
+      "occurrences": 17,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 17,
+      "example": "None"
+    },
+    {
+      "path": "$.trophies.coachTrophies",
+      "types": {
+        "array": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.trophies.playerTrophies",
+      "types": {
+        "array": 15
+      },
+      "occurrences": 15,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 15,
+      "example": null
+    },
+    {
+      "path": "$.trophies.playerTrophies[]",
+      "types": {
+        "object": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": null
+    },
+    {
+      "path": "$.trophies.playerTrophies[].ccode",
+      "types": {
+        "string": 11
+      },
+      "occurrences": 11,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 11,
+      "example": "DEN"
+    },
+    {
+      "path": "$.trophies.playerTrophies[].teamId",
+      "types": {
+        "integer": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": "8391"
+    },
+    {
+      "path": "$.trophies.playerTrophies[].teamName",
+      "types": {
+        "string": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": "FC København"
+    },
+    {
+      "path": "$.trophies.playerTrophies[].tournaments",
+      "types": {
+        "array": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": null
+    },
+    {
+      "path": "$.trophies.playerTrophies[].tournaments[]",
+      "types": {
+        "object": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": null
+    },
+    {
+      "path": "$.trophies.playerTrophies[].tournaments[].ccode",
+      "types": {
+        "string": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": "DEN"
+    },
+    {
+      "path": "$.trophies.playerTrophies[].tournaments[].leagueId",
+      "types": {
+        "integer": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": "46"
+    },
+    {
+      "path": "$.trophies.playerTrophies[].tournaments[].leagueName",
+      "types": {
+        "string": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": "Superligaen"
+    },
+    {
+      "path": "$.trophies.playerTrophies[].tournaments[].seasonsRunnerUp",
+      "types": {
+        "array": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": null
+    },
+    {
+      "path": "$.trophies.playerTrophies[].tournaments[].seasonsRunnerUp[]",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "2013/2014"
+    },
+    {
+      "path": "$.trophies.playerTrophies[].tournaments[].seasonsWon",
+      "types": {
+        "array": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": null
+    },
+    {
+      "path": "$.trophies.playerTrophies[].tournaments[].seasonsWon[]",
+      "types": {
+        "string": 14
+      },
+      "occurrences": 14,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 14,
+      "example": "2022/2023"
     }
   ]
 }

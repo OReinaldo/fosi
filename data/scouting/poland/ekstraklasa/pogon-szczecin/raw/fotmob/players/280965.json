@@ -1,0 +1,4666 @@
+{
+  "id": 280965,
+  "name": "Benjamin Mendy",
+  "birthDate": {
+    "utcTime": "1994-07-17T00:00:00.000Z",
+    "timezone": "UTC"
+  },
+  "contractEnd": {
+    "utcTime": "2027-06-30T00:00:00.000Z",
+    "timezone": "UTC"
+  },
+  "isCoach": false,
+  "isCaptain": false,
+  "gender": "male",
+  "primaryTeam": {
+    "teamId": 8023,
+    "teamName": "Pogoń Szczecin",
+    "onLoan": false,
+    "teamColors": {
+      "color": "#102457",
+      "colorAlternate": "#1753a4",
+      "colorAway": "#880E02",
+      "colorAwayAlternate": "#9f2815"
+    }
+  },
+  "positionDescription": {
+    "positions": [
+      {
+        "strPos": {
+          "label": "Left Back",
+          "key": "leftback"
+        },
+        "strPosShort": {
+          "label": "LB",
+          "key": "leftback_short"
+        },
+        "occurences": 5,
+        "position": "38",
+        "isMainPosition": true,
+        "pitchPositionData": {
+          "right": 0.17,
+          "top": 0.74
+        }
+      }
+    ],
+    "primaryPosition": {
+      "label": "Left Back",
+      "key": "leftback"
+    },
+    "nonPrimaryPositions": []
+  },
+  "injuryInformation": null,
+  "internationalDuty": null,
+  "playerInformation": [
+    {
+      "value": {
+        "numberValue": 185,
+        "key": null,
+        "fallback": "185 cm"
+      },
+      "title": "Height",
+      "translationKey": "height_sentencecase"
+    },
+    {
+      "value": {
+        "numberValue": 23,
+        "options": {},
+        "key": null,
+        "fallback": 23
+      },
+      "title": "Shirt",
+      "translationKey": "shirt"
+    },
+    {
+      "value": {
+        "numberValue": 32,
+        "options": {
+          "style": "unit",
+          "unit": "year",
+          "unitDisplay": "long"
+        },
+        "key": null,
+        "fallback": "32"
+      },
+      "title": "Age",
+      "translationKey": "age_sentencecase"
+    },
+    {
+      "value": {
+        "key": "left",
+        "fallback": "Left"
+      },
+      "title": "Preferred foot",
+      "translationKey": "preferred_foot"
+    },
+    {
+      "value": {
+        "key": null,
+        "fallback": "France"
+      },
+      "title": "Country",
+      "translationKey": "country_sentencecase",
+      "icon": {
+        "type": "country",
+        "id": "FRA"
+      },
+      "countryCode": "FRA"
+    },
+    {
+      "value": {
+        "numberValue": 178956,
+        "key": null,
+        "fallback": "€179k"
+      },
+      "title": "Market value",
+      "translationKey": "transfer_value"
+    },
+    {
+      "value": {
+        "dateValue": "2027-06-30",
+        "key": null,
+        "fallback": {
+          "utcTime": "2027-06-30T00:00:00.000Z",
+          "timezone": "UTC"
+        }
+      },
+      "title": "Contract end",
+      "translationKey": "contract_end"
+    }
+  ],
+  "mainLeague": {
+    "leagueId": 196,
+    "leagueName": "Ekstraklasa",
+    "season": "2026/2027",
+    "stats": [
+      {
+        "title": "Goals",
+        "localizedTitleId": "goals",
+        "value": 0
+      },
+      {
+        "title": "Assists",
+        "localizedTitleId": "assists",
+        "value": 1
+      },
+      {
+        "title": "Started",
+        "localizedTitleId": "started",
+        "value": 0
+      },
+      {
+        "title": "Matches",
+        "localizedTitleId": "matches_uppercase",
+        "value": 3
+      },
+      {
+        "title": "Minutes played",
+        "localizedTitleId": "minutes_played",
+        "value": 80
+      },
+      {
+        "title": "Rating",
+        "localizedTitleId": "rating",
+        "value": 6.76
+      },
+      {
+        "title": "Yellow cards",
+        "localizedTitleId": "yellow_cards",
+        "value": 1
+      },
+      {
+        "title": "Red cards",
+        "localizedTitleId": "red_cards",
+        "value": 0
+      }
+    ]
+  },
+  "trophies": {
+    "playerTrophies": [
+      {
+        "ccode": "ENG",
+        "teamId": 8456,
+        "teamName": "Manchester City",
+        "tournaments": [
+          {
+            "ccode": "ENG",
+            "leagueId": 132,
+            "leagueName": "FA Cup",
+            "seasonsWon": [
+              "2022/2023",
+              "2018/2019"
+            ],
+            "seasonsRunnerUp": []
+          },
+          {
+            "ccode": "ENG",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "seasonsWon": [
+              "2022/2023",
+              "2021/2022",
+              "2020/2021",
+              "2018/2019",
+              "2017/2018"
+            ],
+            "seasonsRunnerUp": [
+              "2019/2020"
+            ]
+          },
+          {
+            "ccode": "INT",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "seasonsWon": [
+              "2022/2023"
+            ],
+            "seasonsRunnerUp": [
+              "2020/2021"
+            ]
+          },
+          {
+            "ccode": "ENG",
+            "leagueId": 133,
+            "leagueName": "EFL Cup",
+            "seasonsWon": [
+              "2020/2021",
+              "2019/2020",
+              "2018/2019",
+              "2017/2018"
+            ],
+            "seasonsRunnerUp": []
+          },
+          {
+            "ccode": "ENG",
+            "leagueId": 247,
+            "leagueName": "Community Shield",
+            "seasonsWon": [
+              "2019/2020",
+              "2018/2019"
+            ],
+            "seasonsRunnerUp": [
+              "2022/2023",
+              "2021/2022"
+            ]
+          }
+        ]
+      },
+      {
+        "ccode": "INT",
+        "teamId": 6723,
+        "teamName": "France",
+        "tournaments": [
+          {
+            "ccode": "INT",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "seasonsWon": [
+              "2018 Russia"
+            ],
+            "seasonsRunnerUp": []
+          }
+        ]
+      },
+      {
+        "teamId": 9829,
+        "teamName": "Monaco",
+        "tournaments": [
+          {
+            "ccode": "INT",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "seasonsWon": [
+              "2016/2017"
+            ],
+            "seasonsRunnerUp": []
+          }
+        ]
+      }
+    ],
+    "coachTrophies": []
+  },
+  "recentMatches": [
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8021,
+      "opponentTeamName": "Zagłębie Lubin",
+      "isHomeTeam": false,
+      "id": 5803967,
+      "matchDate": {
+        "utcTime": "2026-08-29T18:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#5803967",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.3",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 10265,
+      "opponentTeamName": "Wisła Kraków",
+      "isHomeTeam": true,
+      "id": 5803955,
+      "matchDate": {
+        "utcTime": "2026-08-23T18:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-krakow/2rkl8v#5803955",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 2,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 89466,
+      "opponentTeamName": "Motor Lublin",
+      "isHomeTeam": true,
+      "id": 5803936,
+      "matchDate": {
+        "utcTime": "2026-08-08T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-motor-lublin/26lbxv7#5803936",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 1,
+      "minutesPlayed": 24,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.7",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 2186,
+      "opponentTeamName": "Cracovia",
+      "isHomeTeam": false,
+      "id": 5803923,
+      "matchDate": {
+        "utcTime": "2026-08-03T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/cracovia-vs-pogon-szczecin/v17vs#5803923",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "minutesPlayed": 11,
+      "goals": 0,
+      "assists": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.3",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8673,
+      "opponentTeamName": "Legia Warszawa",
+      "isHomeTeam": true,
+      "id": 5803899,
+      "matchDate": {
+        "utcTime": "2026-07-24T18:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-legia-warszawa/2azq1p#5803899",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8695,
+      "opponentTeamName": "Fenerbahçe",
+      "isHomeTeam": false,
+      "id": 5904696,
+      "matchDate": {
+        "utcTime": "2026-07-11T17:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-fenerbahce/2b7log#5904696",
+      "leagueId": 489,
+      "leagueName": "Club Friendlies",
+      "stage": null,
+      "homeScore": 4,
+      "awayScore": 0,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.1",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 38,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 4023,
+      "opponentTeamName": "GKS Katowice",
+      "isHomeTeam": true,
+      "id": 4803721,
+      "matchDate": {
+        "utcTime": "2026-05-23T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/gks-katowice-vs-pogon-szczecin/177d4w#4803721",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minutesPlayed": 57,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 38,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8021,
+      "opponentTeamName": "Zagłębie Lubin",
+      "isHomeTeam": false,
+      "id": 4803715,
+      "matchDate": {
+        "utcTime": "2026-05-15T16:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#4803715",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "minutesPlayed": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 1957,
+      "opponentTeamName": "Jagiellonia Białystok",
+      "isHomeTeam": false,
+      "id": 4803700,
+      "matchDate": {
+        "utcTime": "2026-05-09T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/jagiellonia-biaystok-vs-pogon-szczecin/tno4d#4803700",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 2,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8243,
+      "opponentTeamName": "Wisła Płock",
+      "isHomeTeam": true,
+      "id": 4803694,
+      "matchDate": {
+        "utcTime": "2026-05-03T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-pock/26rtbe#4803694",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 0,
+      "minutesPlayed": 8,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8673,
+      "opponentTeamName": "Legia Warszawa",
+      "isHomeTeam": true,
+      "id": 4803658,
+      "matchDate": {
+        "utcTime": "2026-04-06T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-legia-warszawa/2azq1p#4803658",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.4",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 38,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8030,
+      "opponentTeamName": "Lechia Gdańsk",
+      "isHomeTeam": false,
+      "id": 4803646,
+      "matchDate": {
+        "utcTime": "2026-03-21T16:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-lechia-gdansk/24q185#4803646",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 4024,
+      "opponentTeamName": "Raków Częstochowa",
+      "isHomeTeam": false,
+      "id": 4803632,
+      "matchDate": {
+        "utcTime": "2026-03-08T16:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/rakow-czestochowa-vs-pogon-szczecin/177mfj#4803632",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.5",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8024,
+      "opponentTeamName": "Widzew Łódź",
+      "isHomeTeam": true,
+      "id": 4803623,
+      "matchDate": {
+        "utcTime": "2026-02-28T13:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-widzew-odz/24nyww#4803623",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "minutesPlayed": 28,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.4",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8020,
+      "opponentTeamName": "Górnik Zabrze",
+      "isHomeTeam": false,
+      "id": 4803609,
+      "matchDate": {
+        "utcTime": "2026-02-21T16:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/gornik-zabrze-vs-pogon-szczecin/24mle1#4803609",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "minutesPlayed": 11,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.1",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8322,
+      "opponentTeamName": "Arka Gdynia",
+      "isHomeTeam": true,
+      "id": 4803603,
+      "matchDate": {
+        "utcTime": "2026-02-15T13:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-arka-gdynia/27jfc7#4803603",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "minutesPlayed": 14,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 5769,
+      "opponentTeamName": "Radomiak Radom",
+      "isHomeTeam": true,
+      "id": 4803577,
+      "matchDate": {
+        "utcTime": "2025-12-06T13:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/radomiak-radom-vs-pogon-szczecin/1kmukn#4803577",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 2,
+      "minutesPlayed": 90,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.2",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 38,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8024,
+      "opponentTeamName": "Widzew Łódź",
+      "isHomeTeam": true,
+      "id": 5041507,
+      "matchDate": {
+        "utcTime": "2025-12-02T19:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-widzew-odz/24nyww#5041507",
+      "leagueId": 198,
+      "leagueName": "Puchar Polski",
+      "stage": "1/8",
+      "homeScore": 0,
+      "awayScore": 1,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 4023,
+      "opponentTeamName": "GKS Katowice",
+      "isHomeTeam": false,
+      "id": 4803564,
+      "matchDate": {
+        "utcTime": "2025-11-29T19:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/gks-katowice-vs-pogon-szczecin/177d4w#4803564",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "minutesPlayed": 64,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.1",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 38,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8021,
+      "opponentTeamName": "Zagłębie Lubin",
+      "isHomeTeam": true,
+      "id": 4803559,
+      "matchDate": {
+        "utcTime": "2025-11-24T18:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#4803559",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 5,
+      "awayScore": 1,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 1957,
+      "opponentTeamName": "Jagiellonia Białystok",
+      "isHomeTeam": true,
+      "id": 4803551,
+      "matchDate": {
+        "utcTime": "2025-11-09T16:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/jagiellonia-biaystok-vs-pogon-szczecin/tno4d#4803551",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 2,
+      "minutesPlayed": 5,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8243,
+      "opponentTeamName": "Wisła Płock",
+      "isHomeTeam": false,
+      "id": 4803544,
+      "matchDate": {
+        "utcTime": "2025-11-03T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-pock/26rtbe#4803544",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    }
+  ],
+  "matchesUrl": "https://pub.fotmob.com/prod/db/api/player/280965/matches",
+  "careerHistory": {
+    "showFootnote": false,
+    "careerItems": {
+      "senior": {
+        "teamEntries": [
+          {
+            "participantId": 280965,
+            "teamId": 8023,
+            "team": "Pogoń Szczecin",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "free agent",
+              "localizationKey": "transfer_type_free_agent"
+            },
+            "startDate": "2025-09-16T00:00:00",
+            "endDate": null,
+            "active": true,
+            "role": null,
+            "appearances": "14",
+            "goals": "0",
+            "assists": "1",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 280965,
+            "teamId": 10243,
+            "team": "FC Zürich",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2025-02-11T00:00:00",
+            "endDate": "2025-07-21T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "8",
+            "goals": "0",
+            "assists": "1",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 280965,
+            "teamId": 8689,
+            "team": "Lorient",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "free transfer",
+              "localizationKey": "free_transfer"
+            },
+            "startDate": "2023-07-19T00:00:00",
+            "endDate": "2025-02-11T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "15",
+            "goals": "2",
+            "assists": "1",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 280965,
+            "teamId": 8456,
+            "team": "Manchester City",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2017-07-24T00:00:00",
+            "endDate": "2023-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "75",
+            "goals": "2",
+            "assists": "12",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 280965,
+            "teamId": 9829,
+            "team": "Monaco",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2016-07-01T00:00:00",
+            "endDate": "2017-07-24T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "39",
+            "goals": "1",
+            "assists": "8",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 280965,
+            "teamId": 8592,
+            "team": "Marseille",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2013-07-09T00:00:00",
+            "endDate": "2016-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "101",
+            "goals": "3",
+            "assists": "11",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 280965,
+            "teamId": 583382,
+            "team": "Marseille B",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2013-07-09T00:00:00",
+            "endDate": "2014-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "2",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 280965,
+            "teamId": 9746,
+            "team": "Le Havre",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2011-07-01T00:00:00",
+            "endDate": "2013-07-09T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "64",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 280965,
+            "teamId": 213345,
+            "team": "Le Havre B",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2010-07-01T00:00:00",
+            "endDate": "2013-07-09T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "2",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          }
+        ],
+        "seasonEntries": [
+          {
+            "seasonName": "2026/2027",
+            "appearances": "3",
+            "goals": "0",
+            "assists": "1",
+            "rating": {
+              "rating": "6.76"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 196,
+                "leagueName": "Ekstraklasa",
+                "seasonName": "2026/2027",
+                "tournamentId": 37304,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "3",
+                "rating": {
+                  "rating": "6.76"
+                }
+              }
+            ],
+            "teamId": 8023,
+            "team": "Pogoń Szczecin",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "free agent",
+              "localizationKey": "transfer_type_free_agent"
+            }
+          },
+          {
+            "seasonName": "2025/2026",
+            "appearances": "11",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": "6.34"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 196,
+                "leagueName": "Ekstraklasa",
+                "seasonName": "2025/2026",
+                "tournamentId": 27045,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "11",
+                "rating": {
+                  "rating": "6.34"
+                }
+              }
+            ],
+            "teamId": 8023,
+            "team": "Pogoń Szczecin",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "free agent",
+              "localizationKey": "transfer_type_free_agent"
+            }
+          },
+          {
+            "seasonName": "2024/2025",
+            "appearances": "8",
+            "goals": "0",
+            "assists": "1",
+            "rating": {
+              "rating": "6.40"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 69,
+                "leagueName": "Super League",
+                "seasonName": "2024/2025",
+                "tournamentId": 23693,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "7",
+                "rating": {
+                  "rating": "6.40"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 164,
+                "leagueName": "Cup",
+                "seasonName": "2024/2025",
+                "tournamentId": 23802,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 10243,
+            "team": "FC Zürich",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2023/2024",
+            "appearances": "15",
+            "goals": "2",
+            "assists": "1",
+            "rating": {
+              "rating": "6.54"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 53,
+                "leagueName": "Ligue 1",
+                "seasonName": "2023/2024",
+                "tournamentId": 20868,
+                "goals": "2",
+                "assists": "1",
+                "appearances": "15",
+                "rating": {
+                  "rating": "6.54"
+                }
+              }
+            ],
+            "teamId": 8689,
+            "team": "Lorient",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "free transfer",
+              "localizationKey": "free_transfer"
+            }
+          },
+          {
+            "seasonName": "2021/2022",
+            "appearances": "2",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": "7.14"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 47,
+                "leagueName": "Premier League",
+                "seasonName": "2021/2022",
+                "tournamentId": 16390,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "7.14"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 247,
+                "leagueName": "Community Shield",
+                "seasonName": "2021/2022",
+                "tournamentId": 17652,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8456,
+            "team": "Manchester City",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2020/2021",
+            "appearances": "20",
+            "goals": "2",
+            "assists": "2",
+            "rating": {
+              "rating": "6.94"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 47,
+                "leagueName": "Premier League",
+                "seasonName": "2020/2021",
+                "tournamentId": 15382,
+                "goals": "2",
+                "assists": "1",
+                "appearances": "13",
+                "rating": {
+                  "rating": "6.90"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 132,
+                "leagueName": "FA Cup",
+                "seasonName": "2020/2021",
+                "tournamentId": 15661,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "4",
+                "rating": {
+                  "rating": "6.94"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 133,
+                "leagueName": "EFL Cup",
+                "seasonName": "2020/2021",
+                "tournamentId": 15532,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 42,
+                "leagueName": "Champions League",
+                "seasonName": "2020/2021",
+                "tournamentId": 15237,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "7.55"
+                }
+              }
+            ],
+            "teamId": 8456,
+            "team": "Manchester City",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2019/2020",
+            "appearances": "30",
+            "goals": "0",
+            "assists": "4",
+            "rating": {
+              "rating": "6.98"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 47,
+                "leagueName": "Premier League",
+                "seasonName": "2019/2020",
+                "tournamentId": 14022,
+                "goals": "0",
+                "assists": "2",
+                "appearances": "19",
+                "rating": {
+                  "rating": "6.82"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 132,
+                "leagueName": "FA Cup",
+                "seasonName": "2019/2020",
+                "tournamentId": 14445,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "3",
+                "rating": {
+                  "rating": "7.46"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 133,
+                "leagueName": "EFL Cup",
+                "seasonName": "2019/2020",
+                "tournamentId": 14065,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 42,
+                "leagueName": "Champions League",
+                "seasonName": "2019/2020",
+                "tournamentId": 14006,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "6",
+                "rating": {
+                  "rating": "7.29"
+                }
+              }
+            ],
+            "teamId": 8456,
+            "team": "Manchester City",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2018/2019",
+            "appearances": "15",
+            "goals": "0",
+            "assists": "5",
+            "rating": {
+              "rating": "7.20"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 47,
+                "leagueName": "Premier League",
+                "seasonName": "2018/2019",
+                "tournamentId": 12776,
+                "goals": "0",
+                "assists": "5",
+                "appearances": "10",
+                "rating": {
+                  "rating": "7.38"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 247,
+                "leagueName": "Community Shield",
+                "seasonName": "2018/2019",
+                "tournamentId": 13900,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 132,
+                "leagueName": "FA Cup",
+                "seasonName": "2018/2019",
+                "tournamentId": 13150,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "6.71"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 133,
+                "leagueName": "EFL Cup",
+                "seasonName": "2018/2019",
+                "tournamentId": 12785,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 42,
+                "leagueName": "Champions League",
+                "seasonName": "2018/2019",
+                "tournamentId": 12764,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": "6.57"
+                }
+              }
+            ],
+            "teamId": 8456,
+            "team": "Manchester City",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2017/2018",
+            "appearances": "8",
+            "goals": "0",
+            "assists": "1",
+            "rating": {
+              "rating": "6.73"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 47,
+                "leagueName": "Premier League",
+                "seasonName": "2017/2018",
+                "tournamentId": 11522,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "7",
+                "rating": {
+                  "rating": "6.71"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 42,
+                "leagueName": "Champions League",
+                "seasonName": "2017/2018",
+                "tournamentId": 11542,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "6.92"
+                }
+              }
+            ],
+            "teamId": 8456,
+            "team": "Manchester City",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2016/2017",
+            "appearances": "39",
+            "goals": "1",
+            "assists": "8",
+            "rating": {
+              "rating": "7.25"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 53,
+                "leagueName": "Ligue 1",
+                "seasonName": "2016/2017",
+                "tournamentId": 10381,
+                "goals": "0",
+                "assists": "5",
+                "appearances": "25",
+                "rating": {
+                  "rating": "7.21"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 134,
+                "leagueName": "Coupe de France",
+                "seasonName": "2016/2017",
+                "tournamentId": 10949,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 150,
+                "leagueName": "Coupe de la Ligue",
+                "seasonName": "2016/2017",
+                "tournamentId": 10591,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 42,
+                "leagueName": "Champions League",
+                "seasonName": "2016/2017",
+                "tournamentId": 10436,
+                "goals": "0",
+                "assists": "3",
+                "appearances": "10",
+                "rating": {
+                  "rating": "7.36"
+                }
+              }
+            ],
+            "teamId": 9829,
+            "team": "Monaco",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2015/2016",
+            "appearances": "36",
+            "goals": "1",
+            "assists": "4",
+            "rating": {
+              "rating": "7.05"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 53,
+                "leagueName": "Ligue 1",
+                "seasonName": "2015/2016",
+                "tournamentId": 9507,
+                "goals": "1",
+                "assists": "1",
+                "appearances": "24",
+                "rating": {
+                  "rating": "7.05"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 134,
+                "leagueName": "Coupe de France",
+                "seasonName": "2015/2016",
+                "tournamentId": 9927,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "4",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 150,
+                "leagueName": "Coupe de la Ligue",
+                "seasonName": "2015/2016",
+                "tournamentId": 9682,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 73,
+                "leagueName": "Europa League",
+                "seasonName": "2015/2016",
+                "tournamentId": 9529,
+                "goals": "0",
+                "assists": "2",
+                "appearances": "7",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8592,
+            "team": "Marseille",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2014/2015",
+            "appearances": "35",
+            "goals": "0",
+            "assists": "4",
+            "rating": {
+              "rating": "6.87"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 53,
+                "leagueName": "Ligue 1",
+                "seasonName": "2014/2015",
+                "tournamentId": 8547,
+                "goals": "0",
+                "assists": "4",
+                "appearances": "33",
+                "rating": {
+                  "rating": "6.87"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 134,
+                "leagueName": "Coupe de France",
+                "seasonName": "2014/2015",
+                "tournamentId": 9041,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 150,
+                "leagueName": "Coupe de la Ligue",
+                "seasonName": "2014/2015",
+                "tournamentId": 8785,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8592,
+            "team": "Marseille",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2013/2014",
+            "appearances": "30",
+            "goals": "2",
+            "assists": "3",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 53,
+                "leagueName": "Ligue 1",
+                "seasonName": "2013/2014",
+                "tournamentId": 7735,
+                "goals": "1",
+                "assists": "3",
+                "appearances": "24",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 134,
+                "leagueName": "Coupe de France",
+                "seasonName": "2013/2014",
+                "tournamentId": 8172,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 150,
+                "leagueName": "Coupe de la Ligue",
+                "seasonName": "2013/2014",
+                "tournamentId": 7914,
+                "goals": "1",
+                "assists": "undefined",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 42,
+                "leagueName": "Champions League",
+                "seasonName": "2013/2014",
+                "tournamentId": 7781,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8592,
+            "team": "Marseille",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2013/2014",
+            "appearances": "2",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "National 3",
+                "seasonName": "2013/2014",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 583382,
+            "team": "Marseille B",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2012/2013",
+            "appearances": "32",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 110,
+                "leagueName": "Ligue 2",
+                "seasonName": "2012/2013",
+                "tournamentId": 6886,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "28",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 134,
+                "leagueName": "Coupe de France",
+                "seasonName": "2012/2013",
+                "tournamentId": 7335,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "3",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 150,
+                "leagueName": "Coupe de la Ligue",
+                "seasonName": "2012/2013",
+                "tournamentId": 7059,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 9746,
+            "team": "Le Havre",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2011/2012",
+            "appearances": "32",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 110,
+                "leagueName": "Ligue 2",
+                "seasonName": "2011/2012",
+                "tournamentId": 6097,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "29",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 134,
+                "leagueName": "Coupe de France",
+                "seasonName": "2011/2012",
+                "tournamentId": 6475,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 150,
+                "leagueName": "Coupe de la Ligue",
+                "seasonName": "2011/2012",
+                "tournamentId": 6162,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 9746,
+            "team": "Le Havre",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2012/2013",
+            "appearances": "2",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "National 2",
+                "seasonName": "2012/2013",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 213345,
+            "team": "Le Havre B",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          }
+        ]
+      },
+      "youth": {
+        "teamEntries": [
+          {
+            "participantId": 280965,
+            "teamId": 357215,
+            "team": "Manchester City U23",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2017-07-24T00:00:00",
+            "endDate": "2018-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          }
+        ],
+        "seasonEntries": [
+          {
+            "seasonName": "2017/2018",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 9084,
+                "leagueName": "Premier League 2",
+                "seasonName": "2017/2018",
+                "tournamentId": 11785,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 357215,
+            "team": "Manchester City U23",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          }
+        ]
+      },
+      "national team": {
+        "teamEntries": [
+          {
+            "participantId": 280965,
+            "teamId": 6723,
+            "team": "France",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2017-01-01T00:00:00",
+            "endDate": "2020-09-03T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "10",
+            "goals": "0",
+            "assists": "2",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 280965,
+            "teamId": 6653,
+            "team": "France U21",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2013-01-01T00:00:00",
+            "endDate": "2015-12-31T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "2",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 280965,
+            "teamId": 5961,
+            "team": "France U19",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2012-07-01T00:00:00",
+            "endDate": "2013-08-31T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "8",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 280965,
+            "teamId": 74659,
+            "team": "France U17",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2010-10-01T00:00:00",
+            "endDate": "2012-02-29T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "11",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          }
+        ],
+        "seasonEntries": [
+          {
+            "seasonName": "2019/2020",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 10607,
+                "leagueName": "EURO Qualification",
+                "seasonName": "2019/2020",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6723,
+            "team": "France",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2018/2019",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "1",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 9806,
+                "leagueName": "UEFA Nations League A",
+                "seasonName": "2018/2019",
+                "tournamentId": 12469,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6723,
+            "team": "France",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2018",
+            "appearances": "4",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": "6.85"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 77,
+                "leagueName": "World Cup",
+                "seasonName": "2018",
+                "tournamentId": 9731,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "6.85"
+                }
+              },
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2018",
+                "tournamentId": 11352,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "3",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6723,
+            "team": "France",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2017",
+            "appearances": "2",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2017",
+                "tournamentId": 10882,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6723,
+            "team": "France",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2016/2017",
+            "appearances": "2",
+            "goals": "0",
+            "assists": "1",
+            "rating": {
+              "rating": "7.55"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 10195,
+                "leagueName": "World Cup Qualification UEFA",
+                "seasonName": "2016/2017",
+                "tournamentId": 17271,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "2",
+                "rating": {
+                  "rating": "7.55"
+                }
+              }
+            ],
+            "teamId": 6723,
+            "team": "France",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2015/2017",
+            "appearances": "2",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 288,
+                "leagueName": "EURO U21",
+                "seasonName": "2015/2017",
+                "tournamentId": 11059,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6653,
+            "team": "France U21",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2013",
+            "appearances": "8",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 287,
+                "leagueName": "UEFA U19 Championship",
+                "seasonName": "2013",
+                "tournamentId": 7742,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "8",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 5961,
+            "team": "France U19",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2011",
+            "appearances": "11",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 301,
+                "leagueName": "UEFA U17 Championship",
+                "seasonName": "2011",
+                "tournamentId": 6026,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "8",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 306,
+                "leagueName": "World Cup U17",
+                "seasonName": "2011",
+                "tournamentId": 6053,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "3",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 74659,
+            "team": "France U17",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          }
+        ]
+      }
+    },
+    "fullCareer": true
+  },
+  "traits": {
+    "key": "stats_comparison_fullbacks",
+    "title": "Stats compared to other fullbacks",
+    "items": [
+      {
+        "key": "chances_created",
+        "title": "Chances created",
+        "value": 0.68
+      },
+      {
+        "key": "aerials_won",
+        "title": "Aerial duels",
+        "value": 0.66
+      },
+      {
+        "key": "defensive_actions",
+        "title": "Defensive actions",
+        "value": 0.82
+      },
+      {
+        "key": "goals",
+        "title": "Goals",
+        "value": 0
+      },
+      {
+        "key": "shot_attempts",
+        "title": "Shot attempts",
+        "value": 0.56
+      },
+      {
+        "key": "touches",
+        "title": "Touches",
+        "value": 0.81
+      }
+    ]
+  },
+  "meta": {
+    "seopath": "benjamin-mendy",
+    "pageurl": "/players/280965/benjamin-mendy",
+    "faqJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How old is Benjamin Mendy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Benjamin Mendy is 32 years old. Born on Sun Jul 17 1994."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How tall is Benjamin Mendy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Benjamin Mendy is 185 cm tall. Or 6 ft 1 in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When was Benjamin Mendy born?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Benjamin Mendy was born Sun Jul 17 1994 and is now 32 years old."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which is Benjamin Mendy's preferred foot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Benjamin Mendy's preferred foot is left."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is Benjamin Mendy's transfer value?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Benjamin Mendy's transfer value is estimated to be around €179k."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Benjamin Mendy from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Benjamin Mendy is from France."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many goals has Benjamin Mendy scored this season?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Benjamin Mendy has scored 0 goals in the Ekstraklasa."
+          }
+        }
+      ]
+    },
+    "personJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Benjamin Mendy",
+      "birthDate": "1994-07-17T00:00:00.000Z",
+      "url": "https://www.fotmob.com/players/280965/benjamin-mendy",
+      "nationality": {
+        "@type": "Country",
+        "name": "France"
+      },
+      "affiliation": {
+        "@type": "SportsTeam",
+        "name": "Pogoń Szczecin"
+      },
+      "gender": "https://schema.org/Male",
+      "height": {
+        "@type": "QuantitativeValue",
+        "unitText": "cm",
+        "value": "185"
+      },
+      "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "kg",
+        "value": "85"
+      }
+    },
+    "breadcrumbJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fotmob.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ekstraklasa 2026/2027",
+          "item": "https://www.fotmob.com/leagues/196/overview/ekstraklasa-20262027"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Pogoń Szczecin",
+          "item": "https://www.fotmob.com/teams/8023/overview/pogon-szczecin"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Benjamin Mendy",
+          "item": "https://www.fotmob.com/leagues/280965/overview/benjamin-mendy"
+        }
+      ]
+    }
+  },
+  "coachStats": null,
+  "statSeasons": [
+    {
+      "seasonName": "2026/2027",
+      "tournaments": [
+        {
+          "name": "Ekstraklasa",
+          "tournamentId": 196,
+          "entryId": "0-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2025/2026",
+      "tournaments": [
+        {
+          "name": "Ekstraklasa",
+          "tournamentId": 196,
+          "entryId": "1-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2024/2025",
+      "tournaments": [
+        {
+          "name": "Super League",
+          "tournamentId": 69,
+          "entryId": "2-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Ligue 2",
+          "tournamentId": 110,
+          "entryId": "2-1",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2023/2024",
+      "tournaments": [
+        {
+          "name": "Ligue 1",
+          "tournamentId": 53,
+          "entryId": "3-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2021/2022",
+      "tournaments": [
+        {
+          "name": "Premier League",
+          "tournamentId": 47,
+          "entryId": "4-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2020/2021",
+      "tournaments": [
+        {
+          "name": "Premier League",
+          "tournamentId": 47,
+          "entryId": "5-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Community Shield",
+          "tournamentId": 247,
+          "entryId": "5-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "FA Cup",
+          "tournamentId": 132,
+          "entryId": "5-2",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Champions League",
+          "tournamentId": 42,
+          "entryId": "5-3",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2019/2020",
+      "tournaments": [
+        {
+          "name": "Premier League",
+          "tournamentId": 47,
+          "entryId": "6-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "FA Cup",
+          "tournamentId": 132,
+          "entryId": "6-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Champions League",
+          "tournamentId": 42,
+          "entryId": "6-2",
+          "hasDeepStats": true
+        },
+        {
+          "name": "EURO Qualification qualification",
+          "tournamentId": 10607,
+          "entryId": "6-3",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2018/2019",
+      "tournaments": [
+        {
+          "name": "Premier League",
+          "tournamentId": 47,
+          "entryId": "7-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "FA Cup",
+          "tournamentId": 132,
+          "entryId": "7-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Champions League",
+          "tournamentId": 42,
+          "entryId": "7-2",
+          "hasDeepStats": true
+        },
+        {
+          "name": "World Cup",
+          "tournamentId": 77,
+          "entryId": "7-3",
+          "hasDeepStats": true
+        },
+        {
+          "name": "UEFA Nations League A",
+          "tournamentId": 9806,
+          "entryId": "7-4",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2017/2018",
+      "tournaments": [
+        {
+          "name": "Premier League",
+          "tournamentId": 47,
+          "entryId": "8-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Community Shield",
+          "tournamentId": 247,
+          "entryId": "8-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Champions League",
+          "tournamentId": 42,
+          "entryId": "8-2",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2016/2017",
+      "tournaments": [
+        {
+          "name": "Ligue 1",
+          "tournamentId": 53,
+          "entryId": "9-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Champions League",
+          "tournamentId": 42,
+          "entryId": "9-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "World Cup UEFA qualification",
+          "tournamentId": 10195,
+          "entryId": "9-2",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2015/2016",
+      "tournaments": [
+        {
+          "name": "Ligue 1",
+          "tournamentId": 53,
+          "entryId": "10-0",
+          "hasDeepStats": false
+        },
+        {
+          "name": "Europa League",
+          "tournamentId": 73,
+          "entryId": "10-1",
+          "hasDeepStats": false
+        }
+      ]
+    },
+    {
+      "seasonName": "2014/2015",
+      "tournaments": [
+        {
+          "name": "Ligue 1",
+          "tournamentId": 53,
+          "entryId": "11-0",
+          "hasDeepStats": false
+        }
+      ]
+    },
+    {
+      "seasonName": "2013/2014",
+      "tournaments": [
+        {
+          "name": "Ligue 1",
+          "tournamentId": 53,
+          "entryId": "12-0",
+          "hasDeepStats": false
+        },
+        {
+          "name": "Champions League",
+          "tournamentId": 42,
+          "entryId": "12-1",
+          "hasDeepStats": false
+        }
+      ]
+    }
+  ],
+  "firstSeasonStats": {
+    "sectionOrder": [
+      "top-stat-card",
+      "shotmap",
+      "stats-section"
+    ],
+    "topStatCard": {
+      "display": "stats-group",
+      "id": "top-stat-card",
+      "items": [
+        {
+          "localizedTitleId": "goals",
+          "per90": 0,
+          "percentileRank": 0,
+          "percentileRankPer90": 0,
+          "statFormat": "number",
+          "statValue": "0",
+          "title": "Goals"
+        },
+        {
+          "localizedTitleId": "assists",
+          "per90": 1.125,
+          "percentileRank": 83.46055979643766,
+          "percentileRankPer90": 98.72773536895674,
+          "statFormat": "number",
+          "statValue": "1",
+          "title": "Assists"
+        },
+        {
+          "localizedTitleId": "rating",
+          "per90": 6.76,
+          "percentileRank": 51.14503816793893,
+          "percentileRankPer90": 51.14503816793893,
+          "statFormat": "fraction",
+          "statValue": "6.76",
+          "title": "Rating"
+        },
+        {
+          "localizedTitleId": "matches_uppercase",
+          "per90": 3,
+          "percentileRank": 28.75318066157761,
+          "percentileRankPer90": 28.75318066157761,
+          "statFormat": "number",
+          "statValue": "3",
+          "title": "Matches"
+        },
+        {
+          "localizedTitleId": "player_started_matches",
+          "per90": 0,
+          "percentileRank": 0,
+          "percentileRankPer90": 0,
+          "statFormat": "number",
+          "statValue": "0",
+          "title": "Started"
+        },
+        {
+          "localizedTitleId": "minutes_played",
+          "per90": 90,
+          "percentileRank": 23.40966921119593,
+          "percentileRankPer90": 100,
+          "statFormat": "number",
+          "statValue": "80",
+          "title": "Minutes"
+        }
+      ],
+      "type": "stat-values"
+    },
+    "heatmap": {
+      "coordinates": [
+        {
+          "x": 32.76,
+          "y": 5.64
+        },
+        {
+          "x": 41.55,
+          "y": 2.89
+        },
+        {
+          "x": 91.7,
+          "y": 19.09
+        },
+        {
+          "x": 8.11,
+          "y": 25.19
+        },
+        {
+          "x": 8.11,
+          "y": 25.19
+        },
+        {
+          "x": 6.85,
+          "y": 8.07
+        },
+        {
+          "x": 5.89,
+          "y": 8
+        },
+        {
+          "x": 8.3,
+          "y": 10.36
+        },
+        {
+          "x": 5.69,
+          "y": 7.74
+        },
+        {
+          "x": 40.2,
+          "y": 0
+        },
+        {
+          "x": 42.22,
+          "y": 5.05
+        },
+        {
+          "x": 3.89,
+          "y": 33.01
+        },
+        {
+          "x": 12.2,
+          "y": 29.04
+        },
+        {
+          "x": 60.84,
+          "y": 17.83
+        },
+        {
+          "x": 31.64,
+          "y": 0
+        },
+        {
+          "x": 37.27,
+          "y": 3.08
+        },
+        {
+          "x": 49.35,
+          "y": 5.38
+        },
+        {
+          "x": 32.65,
+          "y": 3.87
+        },
+        {
+          "x": 81.92,
+          "y": 4.2
+        },
+        {
+          "x": 100.45,
+          "y": 2.43
+        },
+        {
+          "x": 2.75,
+          "y": 0
+        },
+        {
+          "x": 72.46,
+          "y": 5.58
+        },
+        {
+          "x": 28.82,
+          "y": 12.99
+        },
+        {
+          "x": 28.82,
+          "y": 12.99
+        },
+        {
+          "x": 44.47,
+          "y": 0
+        },
+        {
+          "x": 11.5,
+          "y": 2.23
+        },
+        {
+          "x": 23.98,
+          "y": 6.17
+        },
+        {
+          "x": 40.65,
+          "y": 2.3
+        },
+        {
+          "x": 44.06,
+          "y": 6.03
+        },
+        {
+          "x": 54.74,
+          "y": 11.61
+        },
+        {
+          "x": 57.68,
+          "y": 11.02
+        },
+        {
+          "x": 33.44,
+          "y": 31.26
+        },
+        {
+          "x": 35.8,
+          "y": 3.48
+        },
+        {
+          "x": 35.8,
+          "y": 3.48
+        },
+        {
+          "x": 71.34,
+          "y": 4.79
+        },
+        {
+          "x": 3.13,
+          "y": 5.25
+        },
+        {
+          "x": 22.97,
+          "y": 17.41
+        },
+        {
+          "x": 72.57,
+          "y": 13.77
+        },
+        {
+          "x": 23.75,
+          "y": 12.07
+        },
+        {
+          "x": 101.11,
+          "y": 4.59
+        },
+        {
+          "x": 91.1,
+          "y": 7.15
+        },
+        {
+          "x": 81.81,
+          "y": 17.2
+        },
+        {
+          "x": 94.68,
+          "y": 6.62
+        },
+        {
+          "x": 72.35,
+          "y": 9.05
+        },
+        {
+          "x": 78.09,
+          "y": 6.17
+        },
+        {
+          "x": 81.02,
+          "y": 6.03
+        },
+        {
+          "x": 101.4,
+          "y": 8.2
+        },
+        {
+          "x": 102.63,
+          "y": 5.18
+        },
+        {
+          "x": 104.53,
+          "y": 67.67
+        },
+        {
+          "x": 83.16,
+          "y": 13.98
+        },
+        {
+          "x": 71.67,
+          "y": 26.17
+        },
+        {
+          "x": 62.89,
+          "y": 15.03
+        },
+        {
+          "x": 41.55,
+          "y": 7.87
+        },
+        {
+          "x": 48.74,
+          "y": 9.77
+        },
+        {
+          "x": 41.44,
+          "y": 5.38
+        },
+        {
+          "x": 16.93,
+          "y": 8.13
+        },
+        {
+          "x": 19.94,
+          "y": 8
+        },
+        {
+          "x": 82.82,
+          "y": 7.67
+        },
+        {
+          "x": 9.46,
+          "y": 10.82
+        },
+        {
+          "x": 9.46,
+          "y": 10.82
+        },
+        {
+          "x": 72.91,
+          "y": 6.56
+        },
+        {
+          "x": 68.07,
+          "y": 10.04
+        },
+        {
+          "x": 68.07,
+          "y": 10.04
+        },
+        {
+          "x": 82.71,
+          "y": 12.99
+        },
+        {
+          "x": 101.87,
+          "y": 13.58
+        },
+        {
+          "x": 90.5,
+          "y": 9.64
+        }
+      ]
+    },
+    "shotmap": null,
+    "keeperShotmap": null
+  },
+  "status": "active",
+  "marketValues": {
+    "values": [
+      {
+        "date": "2014-12-31T00:00:00+00:00",
+        "value": 13310000,
+        "currency": "EUR",
+        "lowerBound": 9980000,
+        "upperBound": 16640000,
+        "source": "scisports",
+        "teamId": 8592,
+        "teamName": "Marseille",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2015-06-30T00:00:00+00:00",
+        "value": 16500000,
+        "currency": "EUR",
+        "lowerBound": 12380000,
+        "upperBound": 20630000,
+        "source": "scisports",
+        "teamId": 8592,
+        "teamName": "Marseille"
+      },
+      {
+        "date": "2015-12-31T00:00:00+00:00",
+        "value": 19690000,
+        "currency": "EUR",
+        "lowerBound": 14770000,
+        "upperBound": 24610000,
+        "source": "scisports",
+        "teamId": 8592,
+        "teamName": "Marseille"
+      },
+      {
+        "date": "2016-06-30T00:00:00+00:00",
+        "value": 25760000,
+        "currency": "EUR",
+        "lowerBound": 19320000,
+        "upperBound": 32200000,
+        "source": "scisports",
+        "teamId": 9829,
+        "teamName": "Monaco",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2016-12-31T00:00:00+00:00",
+        "value": 31830000,
+        "currency": "EUR",
+        "lowerBound": 23870000,
+        "upperBound": 39780000,
+        "source": "scisports",
+        "teamId": 9829,
+        "teamName": "Monaco"
+      },
+      {
+        "date": "2017-06-30T00:00:00+00:00",
+        "value": 26690000,
+        "currency": "EUR",
+        "lowerBound": 20020000,
+        "upperBound": 33370000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2017-12-31T00:00:00+00:00",
+        "value": 21560000,
+        "currency": "EUR",
+        "lowerBound": 16170000,
+        "upperBound": 26950000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2018-06-30T00:00:00+00:00",
+        "value": 15090000,
+        "currency": "EUR",
+        "lowerBound": 11320000,
+        "upperBound": 18860000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2018-12-31T00:00:00+00:00",
+        "value": 8610000,
+        "currency": "EUR",
+        "lowerBound": 6460000,
+        "upperBound": 10770000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2019-06-30T00:00:00+00:00",
+        "value": 8710000,
+        "currency": "EUR",
+        "lowerBound": 6530000,
+        "upperBound": 10880000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2019-12-31T00:00:00+00:00",
+        "value": 8800000,
+        "currency": "EUR",
+        "lowerBound": 6600000,
+        "upperBound": 11000000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2020-06-30T00:00:00+00:00",
+        "value": 12160000,
+        "currency": "EUR",
+        "lowerBound": 9120000,
+        "upperBound": 15200000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2020-12-31T00:00:00+00:00",
+        "value": 15530000,
+        "currency": "EUR",
+        "lowerBound": 11640000,
+        "upperBound": 19410000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2021-06-30T00:00:00+00:00",
+        "value": 17090000,
+        "currency": "EUR",
+        "lowerBound": 12820000,
+        "upperBound": 21360000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2021-10-31T00:00:00+00:00",
+        "value": 18650000,
+        "currency": "EUR",
+        "lowerBound": 13990000,
+        "upperBound": 23320000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2021-11-30T00:00:00+00:00",
+        "value": 18230000,
+        "currency": "EUR",
+        "lowerBound": 13670000,
+        "upperBound": 22790000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2021-12-31T00:00:00+00:00",
+        "value": 17710000,
+        "currency": "EUR",
+        "lowerBound": 13280000,
+        "upperBound": 22140000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2022-01-31T00:00:00+00:00",
+        "value": 17410000,
+        "currency": "EUR",
+        "lowerBound": 13060000,
+        "upperBound": 21760000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2022-02-28T00:00:00+00:00",
+        "value": 16290000,
+        "currency": "EUR",
+        "lowerBound": 12210000,
+        "upperBound": 20360000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2022-03-31T00:00:00+00:00",
+        "value": 15370000,
+        "currency": "EUR",
+        "lowerBound": 11530000,
+        "upperBound": 19210000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2022-04-30T00:00:00+00:00",
+        "value": 14810000,
+        "currency": "EUR",
+        "lowerBound": 11100000,
+        "upperBound": 18510000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2022-05-31T00:00:00+00:00",
+        "value": 13620000,
+        "currency": "EUR",
+        "lowerBound": 10220000,
+        "upperBound": 17030000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2022-06-30T00:00:00+00:00",
+        "value": 10090000,
+        "currency": "EUR",
+        "lowerBound": 7570000,
+        "upperBound": 12620000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2022-07-31T00:00:00+00:00",
+        "value": 7620000,
+        "currency": "EUR",
+        "lowerBound": 5720000,
+        "upperBound": 9530000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2022-08-31T00:00:00+00:00",
+        "value": 5890000,
+        "currency": "EUR",
+        "lowerBound": 4420000,
+        "upperBound": 7360000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2022-09-04T00:00:00+00:00",
+        "value": 4680000,
+        "currency": "EUR",
+        "lowerBound": 3510000,
+        "upperBound": 5850000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2022-09-30T00:00:00+00:00",
+        "value": 3830000,
+        "currency": "EUR",
+        "lowerBound": 2870000,
+        "upperBound": 4790000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2022-10-31T00:00:00+00:00",
+        "value": 3250000,
+        "currency": "EUR",
+        "lowerBound": 2440000,
+        "upperBound": 4070000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2022-11-30T00:00:00+00:00",
+        "value": 3200000,
+        "currency": "EUR",
+        "lowerBound": 2400000,
+        "upperBound": 4000000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2022-12-31T00:00:00+00:00",
+        "value": 3080000,
+        "currency": "EUR",
+        "lowerBound": 2310000,
+        "upperBound": 3850000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2023-01-31T00:00:00+00:00",
+        "value": 2930000,
+        "currency": "EUR",
+        "lowerBound": 2200000,
+        "upperBound": 3660000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2023-02-28T00:00:00+00:00",
+        "value": 2730000,
+        "currency": "EUR",
+        "lowerBound": 2050000,
+        "upperBound": 3410000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2023-03-31T00:00:00+00:00",
+        "value": 2540000,
+        "currency": "EUR",
+        "lowerBound": 1910000,
+        "upperBound": 3180000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2023-04-30T00:00:00+00:00",
+        "value": 2370000,
+        "currency": "EUR",
+        "lowerBound": 1780000,
+        "upperBound": 2960000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2023-05-31T00:00:00+00:00",
+        "value": 2500000,
+        "currency": "EUR",
+        "lowerBound": 1870000,
+        "upperBound": 3120000,
+        "source": "scisports",
+        "teamId": 8456,
+        "teamName": "Manchester City"
+      },
+      {
+        "date": "2023-06-30T00:00:00+00:00",
+        "value": 2410000,
+        "currency": "EUR",
+        "lowerBound": 1810000,
+        "upperBound": 3010000,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2023-07-31T00:00:00+00:00",
+        "value": 8890000,
+        "currency": "EUR",
+        "lowerBound": 6670000,
+        "upperBound": 11110000,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2023-09-01T00:00:00+00:00",
+        "value": 9470000,
+        "currency": "EUR",
+        "lowerBound": 7110000,
+        "upperBound": 11840000,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2023-09-30T00:00:00+00:00",
+        "value": 7590000,
+        "currency": "EUR",
+        "lowerBound": 5700000,
+        "upperBound": 9490000,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2023-10-31T00:00:00+00:00",
+        "value": 6280000,
+        "currency": "EUR",
+        "lowerBound": 4710000,
+        "upperBound": 7850000,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2023-11-30T00:00:00+00:00",
+        "value": 5360000,
+        "currency": "EUR",
+        "lowerBound": 4020000,
+        "upperBound": 6700000,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2023-12-31T00:00:00+00:00",
+        "value": 4640000,
+        "currency": "EUR",
+        "lowerBound": 3480000,
+        "upperBound": 5800000,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2024-01-31T00:00:00+00:00",
+        "value": 3480000,
+        "currency": "EUR",
+        "lowerBound": 2784000,
+        "upperBound": 4176000,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2024-02-29T00:00:00+00:00",
+        "value": 2784000,
+        "currency": "EUR",
+        "lowerBound": 2227200,
+        "upperBound": 3340800,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2024-03-31T00:00:00+00:00",
+        "value": 2227200,
+        "currency": "EUR",
+        "lowerBound": 1781760,
+        "upperBound": 2672640,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2024-04-30T00:00:00+00:00",
+        "value": 1781760,
+        "currency": "EUR",
+        "lowerBound": 1425408,
+        "upperBound": 2138112,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2024-05-31T00:00:00+00:00",
+        "value": 1425408,
+        "currency": "EUR",
+        "lowerBound": 1140326,
+        "upperBound": 1710489,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2024-06-30T00:00:00+00:00",
+        "value": 1140326,
+        "currency": "EUR",
+        "lowerBound": 912260,
+        "upperBound": 1368391,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2024-07-31T00:00:00+00:00",
+        "value": 912260,
+        "currency": "EUR",
+        "lowerBound": 729808,
+        "upperBound": 1094712,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2024-08-31T00:00:00+00:00",
+        "value": 729808,
+        "currency": "EUR",
+        "lowerBound": 583846,
+        "upperBound": 875769,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2024-09-30T00:00:00+00:00",
+        "value": 611175,
+        "currency": "EUR",
+        "lowerBound": 488940,
+        "upperBound": 733410,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2024-10-31T00:00:00+00:00",
+        "value": 611175,
+        "currency": "EUR",
+        "lowerBound": 488940,
+        "upperBound": 733410,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2024-11-30T00:00:00+00:00",
+        "value": 611175,
+        "currency": "EUR",
+        "lowerBound": 488940,
+        "upperBound": 733410,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2024-12-31T00:00:00+00:00",
+        "value": 561188,
+        "currency": "EUR",
+        "lowerBound": 448950,
+        "upperBound": 673426,
+        "source": "scisports",
+        "teamId": 8689,
+        "teamName": "Lorient"
+      },
+      {
+        "date": "2025-01-30T00:00:00+00:00",
+        "value": 559944,
+        "currency": "EUR",
+        "lowerBound": 447955,
+        "upperBound": 671933,
+        "source": "scisports",
+        "teamId": 10243,
+        "teamName": "FC Zürich",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2025-02-27T00:00:00+00:00",
+        "value": 764486,
+        "currency": "EUR",
+        "lowerBound": 611588,
+        "upperBound": 917383,
+        "source": "scisports",
+        "teamId": 10243,
+        "teamName": "FC Zürich"
+      },
+      {
+        "date": "2025-03-30T00:00:00+00:00",
+        "value": 765736,
+        "currency": "EUR",
+        "lowerBound": 612589,
+        "upperBound": 918884,
+        "source": "scisports",
+        "teamId": 10243,
+        "teamName": "FC Zürich"
+      },
+      {
+        "date": "2025-04-30T00:00:00+00:00",
+        "value": 767908,
+        "currency": "EUR",
+        "lowerBound": 614326,
+        "upperBound": 921489,
+        "source": "scisports",
+        "teamId": 10243,
+        "teamName": "FC Zürich"
+      },
+      {
+        "date": "2025-05-31T00:00:00+00:00",
+        "value": 767908,
+        "currency": "EUR",
+        "lowerBound": 614326,
+        "upperBound": 921489,
+        "source": "scisports",
+        "teamId": 10243,
+        "teamName": "FC Zürich"
+      },
+      {
+        "date": "2025-07-01T00:00:00+00:00",
+        "value": 523771,
+        "currency": "EUR",
+        "lowerBound": 419016,
+        "upperBound": 628525,
+        "source": "scisports",
+        "teamId": 10243,
+        "teamName": "FC Zürich"
+      },
+      {
+        "date": "2025-08-01T00:00:00+00:00",
+        "value": 523771,
+        "currency": "EUR",
+        "lowerBound": 419016,
+        "upperBound": 628525,
+        "source": "scisports",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2025-09-01T00:00:00+00:00",
+        "value": 567805,
+        "currency": "EUR",
+        "lowerBound": 454244,
+        "upperBound": 681366,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2025-10-01T00:00:00+00:00",
+        "value": 563321,
+        "currency": "EUR",
+        "lowerBound": 450657,
+        "upperBound": 675985,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2025-11-01T00:00:00+00:00",
+        "value": 563321,
+        "currency": "EUR",
+        "lowerBound": 450657,
+        "upperBound": 675985,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2025-12-01T00:00:00+00:00",
+        "value": 547379,
+        "currency": "EUR",
+        "lowerBound": 437903,
+        "upperBound": 656855,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-01-01T00:00:00+00:00",
+        "value": 547379,
+        "currency": "EUR",
+        "lowerBound": 437903,
+        "upperBound": 656855,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-02-01T00:00:00+00:00",
+        "value": 547379,
+        "currency": "EUR",
+        "lowerBound": 437903,
+        "upperBound": 656855,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-03-01T00:00:00+00:00",
+        "value": 547379,
+        "currency": "EUR",
+        "lowerBound": 437903,
+        "upperBound": 656855,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-04-01T00:00:00+00:00",
+        "value": 546135,
+        "currency": "EUR",
+        "lowerBound": 436908,
+        "upperBound": 655362,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-05-01T00:00:00+00:00",
+        "value": 436908,
+        "currency": "EUR",
+        "lowerBound": 349526,
+        "upperBound": 524289,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-06-01T00:00:00+00:00",
+        "value": 349526,
+        "currency": "EUR",
+        "lowerBound": 279620,
+        "upperBound": 419431,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-07-01T00:00:00+00:00",
+        "value": 279620,
+        "currency": "EUR",
+        "lowerBound": 223696,
+        "upperBound": 335544,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-08-01T00:00:00+00:00",
+        "value": 223696,
+        "currency": "EUR",
+        "lowerBound": 178956,
+        "upperBound": 268435,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-09-01T00:00:00+00:00",
+        "value": 178956,
+        "currency": "EUR",
+        "lowerBound": 143164,
+        "upperBound": 214747,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      }
+    ]
+  },
+  "relatedLinksData": {
+    "teammates": [
+      {
+        "id": 431948,
+        "name": "Kellyn Acosta"
+      },
+      {
+        "id": 1188767,
+        "name": "Léo Borges"
+      },
+      {
+        "id": 1117005,
+        "name": "Jan Bieganski"
+      },
+      {
+        "id": 949336,
+        "name": "Musa Juwara"
+      },
+      {
+        "id": 1050169,
+        "name": "Rajmund Molnár"
+      },
+      {
+        "id": 1439702,
+        "name": "Filip Cuic"
+      },
+      {
+        "id": 69541,
+        "name": "Kamil Grosicki"
+      },
+      {
+        "id": 1329535,
+        "name": "Dimitrios Keramitsis"
+      },
+      {
+        "id": 585352,
+        "name": "José Pozo"
+      },
+      {
+        "id": 1092563,
+        "name": "Hussein Ali"
+      },
+      {
+        "id": 558189,
+        "name": "Patryk Dziczek"
+      },
+      {
+        "id": 316558,
+        "name": "Jean Pierre Nsame"
+      },
+      {
+        "id": 1078936,
+        "name": "Paul Mukairu"
+      },
+      {
+        "id": 1080510,
+        "name": "Mor Ndiaye"
+      },
+      {
+        "id": 1662742,
+        "name": "Igor Brzyski"
+      },
+      {
+        "id": 833697,
+        "name": "Darko Churlinov"
+      },
+      {
+        "id": 406506,
+        "name": "Linus Wahlqvist Egnell"
+      },
+      {
+        "id": 1299888,
+        "name": "Lukas Willen"
+      },
+      {
+        "id": 1901066,
+        "name": "Jacek Czaplinski"
+      },
+      {
+        "id": 1410436,
+        "name": "Nikolaos Botis"
+      },
+      {
+        "id": 1797493,
+        "name": "Alex Peskovic"
+      },
+      {
+        "id": 1667987,
+        "name": "Maciej Wojciechowski"
+      },
+      {
+        "id": 749648,
+        "name": "Attila Szalai"
+      },
+      {
+        "id": 1786208,
+        "name": "Natan Lawa"
+      },
+      {
+        "id": 1596043,
+        "name": "Patryk Paryzek"
+      },
+      {
+        "id": 2090858,
+        "name": "Andrzej Ossowski"
+      },
+      {
+        "id": 289211,
+        "name": "Valentin Cojocaru"
+      },
+      {
+        "id": 2170709,
+        "name": "Antoni Fojut"
+      }
+    ],
+    "mensNationalTeam": [
+      {
+        "id": 279714,
+        "name": "Brice Samba"
+      },
+      {
+        "id": 1197250,
+        "name": "Malo Gusto"
+      },
+      {
+        "id": 210111,
+        "name": "Lucas Digne"
+      },
+      {
+        "id": 658554,
+        "name": "Dayot Upamecano"
+      },
+      {
+        "id": 705450,
+        "name": "Jules Koundé"
+      },
+      {
+        "id": 1016132,
+        "name": "Manu Koné"
+      },
+      {
+        "id": 692984,
+        "name": "Ousmane Dembélé"
+      },
+      {
+        "id": 914458,
+        "name": "Aurélien Tchouaméni"
+      },
+      {
+        "id": 621562,
+        "name": "Marcus Thuram"
+      },
+      {
+        "id": 701154,
+        "name": "Kylian Mbappé"
+      },
+      {
+        "id": 1029063,
+        "name": "Michael Olise"
+      },
+      {
+        "id": 1297165,
+        "name": "Bradley Barcola"
+      },
+      {
+        "id": 319300,
+        "name": "N'Golo Kanté"
+      },
+      {
+        "id": 352879,
+        "name": "Adrien Rabiot"
+      },
+      {
+        "id": 820140,
+        "name": "Ibrahima Konaté"
+      },
+      {
+        "id": 466439,
+        "name": "Mike Maignan"
+      },
+      {
+        "id": 955406,
+        "name": "William Saliba"
+      },
+      {
+        "id": 1367615,
+        "name": "Warren Zaïre-Emery"
+      },
+      {
+        "id": 724371,
+        "name": "Theo Hernández"
+      },
+      {
+        "id": 1339208,
+        "name": "Désiré Doué"
+      },
+      {
+        "id": 504606,
+        "name": "Lucas Hernández"
+      },
+      {
+        "id": 706297,
+        "name": "Jean-Philippe Mateta"
+      },
+      {
+        "id": 1390336,
+        "name": "Robin Risser"
+      },
+      {
+        "id": 1104053,
+        "name": "Rayan Cherki"
+      },
+      {
+        "id": 1305618,
+        "name": "Maghnes Akliouche"
+      },
+      {
+        "id": 950485,
+        "name": "Maxence Lacroix"
+      }
+    ],
+    "womensNationalTeam": []
+  },
+  "nextMatch": {
+    "matchId": 5803974,
+    "homeId": 8023,
+    "awayId": 8243,
+    "homeName": "Pogoń Szczecin",
+    "awayName": "Wisła Płock",
+    "matchDate": "2026-09-07T18:30:00Z",
+    "statusId": 1,
+    "leagueId": 196,
+    "parentLeagueId": 196,
+    "leagueName": "Ekstraklasa",
+    "status": {
+      "utcTime": "2026-09-07T18:30:00.000Z",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "stadium": {
+      "venue": "Stadion Miejski im. Floriana Krygiera",
+      "city": "Szczecin",
+      "lat": 53.43650687,
+      "long": 14.518775974
+    },
+    "matchUrl": "/matches/pogon-szczecin-vs-wisa-pock/26rtbe#5803974"
+  },
+  "dataProvider": "enet",
+  "initialMatchesPage": {
+    "matches": [
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8021,
+        "opponentTeamName": "Zagłębie Lubin",
+        "isHomeTeam": false,
+        "id": 5803967,
+        "matchDate": {
+          "utcTime": "2026-08-29T18:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#5803967",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 0,
+        "minutesPlayed": 45,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.3",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 10265,
+        "opponentTeamName": "Wisła Kraków",
+        "isHomeTeam": true,
+        "id": 5803955,
+        "matchDate": {
+          "utcTime": "2026-08-23T18:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-krakow/2rkl8v#5803955",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 2,
+        "minutesPlayed": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": true,
+        "playedInMatch": false
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 89466,
+        "opponentTeamName": "Motor Lublin",
+        "isHomeTeam": true,
+        "id": 5803936,
+        "matchDate": {
+          "utcTime": "2026-08-08T15:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-motor-lublin/26lbxv7#5803936",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 3,
+        "awayScore": 1,
+        "minutesPlayed": 24,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.7",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 2186,
+        "opponentTeamName": "Cracovia",
+        "isHomeTeam": false,
+        "id": 5803923,
+        "matchDate": {
+          "utcTime": "2026-08-03T17:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/cracovia-vs-pogon-szczecin/v17vs#5803923",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 2,
+        "minutesPlayed": 11,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.3",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8673,
+        "opponentTeamName": "Legia Warszawa",
+        "isHomeTeam": true,
+        "id": 5803899,
+        "matchDate": {
+          "utcTime": "2026-07-24T18:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-legia-warszawa/2azq1p#5803899",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 1,
+        "minutesPlayed": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": true,
+        "playedInMatch": false
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8695,
+        "opponentTeamName": "Fenerbahçe",
+        "isHomeTeam": false,
+        "id": 5904696,
+        "matchDate": {
+          "utcTime": "2026-07-11T17:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-fenerbahce/2b7log#5904696",
+        "leagueId": 489,
+        "leagueName": "Club Friendlies",
+        "stage": null,
+        "homeScore": 4,
+        "awayScore": 0,
+        "minutesPlayed": 45,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.1",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 38,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 4023,
+        "opponentTeamName": "GKS Katowice",
+        "isHomeTeam": true,
+        "id": 4803721,
+        "matchDate": {
+          "utcTime": "2026-05-23T15:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/gks-katowice-vs-pogon-szczecin/177d4w#4803721",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 1,
+        "minutesPlayed": 57,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.0",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 38,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8021,
+        "opponentTeamName": "Zagłębie Lubin",
+        "isHomeTeam": false,
+        "id": 4803715,
+        "matchDate": {
+          "utcTime": "2026-05-15T16:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#4803715",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 1,
+        "minutesPlayed": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 1957,
+        "opponentTeamName": "Jagiellonia Białystok",
+        "isHomeTeam": false,
+        "id": 4803700,
+        "matchDate": {
+          "utcTime": "2026-05-09T15:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/jagiellonia-biaystok-vs-pogon-szczecin/tno4d#4803700",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 3,
+        "awayScore": 2,
+        "minutesPlayed": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": true,
+        "playedInMatch": false
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8243,
+        "opponentTeamName": "Wisła Płock",
+        "isHomeTeam": true,
+        "id": 4803694,
+        "matchDate": {
+          "utcTime": "2026-05-03T15:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-pock/26rtbe#4803694",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 3,
+        "awayScore": 0,
+        "minutesPlayed": 8,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8673,
+        "opponentTeamName": "Legia Warszawa",
+        "isHomeTeam": true,
+        "id": 4803658,
+        "matchDate": {
+          "utcTime": "2026-04-06T15:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-legia-warszawa/2azq1p#4803658",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 2,
+        "minutesPlayed": 45,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.4",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 38,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8030,
+        "opponentTeamName": "Lechia Gdańsk",
+        "isHomeTeam": false,
+        "id": 4803646,
+        "matchDate": {
+          "utcTime": "2026-03-21T16:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-lechia-gdansk/24q185#4803646",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 1,
+        "minutesPlayed": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": true,
+        "playedInMatch": false
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 4024,
+        "opponentTeamName": "Raków Częstochowa",
+        "isHomeTeam": false,
+        "id": 4803632,
+        "matchDate": {
+          "utcTime": "2026-03-08T16:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/rakow-czestochowa-vs-pogon-szczecin/177mfj#4803632",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 0,
+        "minutesPlayed": 45,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.5",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8024,
+        "opponentTeamName": "Widzew Łódź",
+        "isHomeTeam": true,
+        "id": 4803623,
+        "matchDate": {
+          "utcTime": "2026-02-28T13:45:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-widzew-odz/24nyww#4803623",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 0,
+        "minutesPlayed": 28,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.4",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8020,
+        "opponentTeamName": "Górnik Zabrze",
+        "isHomeTeam": false,
+        "id": 4803609,
+        "matchDate": {
+          "utcTime": "2026-02-21T16:45:00.000Z"
+        },
+        "matchPageUrl": "/matches/gornik-zabrze-vs-pogon-szczecin/24mle1#4803609",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 1,
+        "minutesPlayed": 11,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.1",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8322,
+        "opponentTeamName": "Arka Gdynia",
+        "isHomeTeam": true,
+        "id": 4803603,
+        "matchDate": {
+          "utcTime": "2026-02-15T13:45:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-arka-gdynia/27jfc7#4803603",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 0,
+        "minutesPlayed": 14,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.0",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 5769,
+        "opponentTeamName": "Radomiak Radom",
+        "isHomeTeam": true,
+        "id": 4803577,
+        "matchDate": {
+          "utcTime": "2025-12-06T13:45:00.000Z"
+        },
+        "matchPageUrl": "/matches/radomiak-radom-vs-pogon-szczecin/1kmukn#4803577",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 2,
+        "minutesPlayed": 90,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.2",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 38,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8024,
+        "opponentTeamName": "Widzew Łódź",
+        "isHomeTeam": true,
+        "id": 5041507,
+        "matchDate": {
+          "utcTime": "2025-12-02T19:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-widzew-odz/24nyww#5041507",
+        "leagueId": 198,
+        "leagueName": "Puchar Polski",
+        "stage": "1/8",
+        "homeScore": 0,
+        "awayScore": 1,
+        "minutesPlayed": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": true,
+        "playedInMatch": false
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 4023,
+        "opponentTeamName": "GKS Katowice",
+        "isHomeTeam": false,
+        "id": 4803564,
+        "matchDate": {
+          "utcTime": "2025-11-29T19:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/gks-katowice-vs-pogon-szczecin/177d4w#4803564",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 0,
+        "minutesPlayed": 64,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.1",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 38,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8021,
+        "opponentTeamName": "Zagłębie Lubin",
+        "isHomeTeam": true,
+        "id": 4803559,
+        "matchDate": {
+          "utcTime": "2025-11-24T18:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#4803559",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 5,
+        "awayScore": 1,
+        "minutesPlayed": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": true,
+        "playedInMatch": false
+      }
+    ],
+    "previous": "https://pub.fotmob.com/prod/db/api/player/280965/matches?before=1764007200"
+  }
+}

@@ -1,0 +1,4439 @@
+{
+  "id": 949336,
+  "name": "Musa Juwara",
+  "birthDate": {
+    "utcTime": "2001-12-26T00:00:00.000Z",
+    "timezone": "UTC"
+  },
+  "contractEnd": {
+    "utcTime": "2028-06-30T00:00:00.000Z",
+    "timezone": "UTC"
+  },
+  "isCoach": false,
+  "isCaptain": false,
+  "gender": "male",
+  "primaryTeam": {
+    "teamId": 8023,
+    "teamName": "Pogoń Szczecin",
+    "onLoan": false,
+    "teamColors": {
+      "color": "#102457",
+      "colorAlternate": "#1753a4",
+      "colorAway": "#880E02",
+      "colorAwayAlternate": "#9f2815"
+    }
+  },
+  "positionDescription": {
+    "positions": [
+      {
+        "strPos": {
+          "label": "Right Wing-Back",
+          "key": "right_wing_back"
+        },
+        "strPosShort": {
+          "label": "RWB",
+          "key": "right_wing_back_short"
+        },
+        "occurences": 1,
+        "position": "62",
+        "isMainPosition": false,
+        "pitchPositionData": null
+      },
+      {
+        "strPos": {
+          "label": "Right Midfielder",
+          "key": "rightmidfielder"
+        },
+        "strPosShort": {
+          "label": "RM",
+          "key": "rightmidfielder_short"
+        },
+        "occurences": 2,
+        "position": "72",
+        "isMainPosition": false,
+        "pitchPositionData": {
+          "right": 0.83,
+          "top": 0.42,
+          "ratio": 0.4
+        }
+      },
+      {
+        "strPos": {
+          "label": "Right Winger",
+          "key": "rightwinger"
+        },
+        "strPosShort": {
+          "label": "RW",
+          "key": "rightwinger_short"
+        },
+        "occurences": 6,
+        "position": "82",
+        "isMainPosition": true,
+        "pitchPositionData": {
+          "right": 0.83,
+          "top": 0.26
+        }
+      },
+      {
+        "strPos": {
+          "label": "Attacking Midfielder",
+          "key": "centerattackingmidfielder"
+        },
+        "strPosShort": {
+          "label": "AM",
+          "key": "centerattackingmidfielder_short"
+        },
+        "occurences": 1,
+        "position": "85",
+        "isMainPosition": false,
+        "pitchPositionData": null
+      }
+    ],
+    "primaryPosition": {
+      "label": "Right Winger",
+      "key": "rightwinger"
+    },
+    "nonPrimaryPositions": [
+      {
+        "label": "Right Midfielder",
+        "key": "rightmidfielder"
+      }
+    ]
+  },
+  "injuryInformation": null,
+  "internationalDuty": null,
+  "playerInformation": [
+    {
+      "value": {
+        "numberValue": 170,
+        "key": null,
+        "fallback": "170 cm"
+      },
+      "title": "Height",
+      "translationKey": "height_sentencecase"
+    },
+    {
+      "value": {
+        "numberValue": 7,
+        "options": {},
+        "key": null,
+        "fallback": 7
+      },
+      "title": "Shirt",
+      "translationKey": "shirt"
+    },
+    {
+      "value": {
+        "numberValue": 24,
+        "options": {
+          "style": "unit",
+          "unit": "year",
+          "unitDisplay": "long"
+        },
+        "key": null,
+        "fallback": "24"
+      },
+      "title": "Age",
+      "translationKey": "age_sentencecase"
+    },
+    {
+      "value": {
+        "key": "left",
+        "fallback": "Left"
+      },
+      "title": "Preferred foot",
+      "translationKey": "preferred_foot"
+    },
+    {
+      "value": {
+        "key": null,
+        "fallback": "The Gambia"
+      },
+      "title": "Country",
+      "translationKey": "country_sentencecase",
+      "icon": {
+        "type": "country",
+        "id": "TMB"
+      },
+      "countryCode": "TMB"
+    },
+    {
+      "value": {
+        "numberValue": 496355,
+        "key": null,
+        "fallback": "€496.4k"
+      },
+      "title": "Market value",
+      "translationKey": "transfer_value"
+    },
+    {
+      "value": {
+        "dateValue": "2028-06-30",
+        "key": null,
+        "fallback": {
+          "utcTime": "2028-06-30T00:00:00.000Z",
+          "timezone": "UTC"
+        }
+      },
+      "title": "Contract end",
+      "translationKey": "contract_end"
+    }
+  ],
+  "mainLeague": {
+    "leagueId": 196,
+    "leagueName": "Ekstraklasa",
+    "season": "2026/2027",
+    "stats": [
+      {
+        "title": "Goals",
+        "localizedTitleId": "goals",
+        "value": 1
+      },
+      {
+        "title": "Assists",
+        "localizedTitleId": "assists",
+        "value": 0
+      },
+      {
+        "title": "Started",
+        "localizedTitleId": "started",
+        "value": 3
+      },
+      {
+        "title": "Matches",
+        "localizedTitleId": "matches_uppercase",
+        "value": 5
+      },
+      {
+        "title": "Minutes played",
+        "localizedTitleId": "minutes_played",
+        "value": 233
+      },
+      {
+        "title": "Rating",
+        "localizedTitleId": "rating",
+        "value": 6.8
+      },
+      {
+        "title": "Yellow cards",
+        "localizedTitleId": "yellow_cards",
+        "value": 0
+      },
+      {
+        "title": "Red cards",
+        "localizedTitleId": "red_cards",
+        "value": 0
+      }
+    ]
+  },
+  "trophies": null,
+  "recentMatches": [
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8021,
+      "opponentTeamName": "Zagłębie Lubin",
+      "isHomeTeam": false,
+      "id": 5803967,
+      "matchDate": {
+        "utcTime": "2026-08-29T18:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#5803967",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "minutesPlayed": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 10265,
+      "opponentTeamName": "Wisła Kraków",
+      "isHomeTeam": true,
+      "id": 5803955,
+      "matchDate": {
+        "utcTime": "2026-08-23T18:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-krakow/2rkl8v#5803955",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 2,
+      "minutesPlayed": 60,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.4",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 82,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 89466,
+      "opponentTeamName": "Motor Lublin",
+      "isHomeTeam": true,
+      "id": 5803936,
+      "matchDate": {
+        "utcTime": "2026-08-08T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-motor-lublin/26lbxv7#5803936",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 1,
+      "minutesPlayed": 80,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.8",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 85,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 2186,
+      "opponentTeamName": "Cracovia",
+      "isHomeTeam": false,
+      "id": 5803923,
+      "matchDate": {
+        "utcTime": "2026-08-03T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/cracovia-vs-pogon-szczecin/v17vs#5803923",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "minutesPlayed": 30,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.7",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8673,
+      "opponentTeamName": "Legia Warszawa",
+      "isHomeTeam": true,
+      "id": 5803899,
+      "matchDate": {
+        "utcTime": "2026-07-24T18:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-legia-warszawa/2azq1p#5803899",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "minutesPlayed": 62,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.4",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 83,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8695,
+      "opponentTeamName": "Fenerbahçe",
+      "isHomeTeam": false,
+      "id": 5904696,
+      "matchDate": {
+        "utcTime": "2026-07-11T17:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-fenerbahce/2b7log#5904696",
+      "leagueId": 489,
+      "leagueName": "Club Friendlies",
+      "stage": null,
+      "homeScore": 4,
+      "awayScore": 0,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.6",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 2182,
+      "opponentTeamName": "Lech Poznań",
+      "isHomeTeam": true,
+      "id": 4803676,
+      "matchDate": {
+        "utcTime": "2026-04-18T18:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/lech-poznan-vs-pogon-szczecin/v0cdm#4803676",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 2,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8028,
+      "opponentTeamName": "Piast Gliwice",
+      "isHomeTeam": false,
+      "id": 4803667,
+      "matchDate": {
+        "utcTime": "2026-04-13T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-piast-gliwice/24pcga#4803667",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 177361,
+      "opponentTeamName": "Termalica Nieciecza",
+      "isHomeTeam": true,
+      "id": 4803597,
+      "matchDate": {
+        "utcTime": "2026-02-08T11:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-termalica-nieciecza/7w6qmx7#4803597",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minutesPlayed": 6,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 89466,
+      "opponentTeamName": "Motor Lublin",
+      "isHomeTeam": false,
+      "id": 4803584,
+      "matchDate": {
+        "utcTime": "2026-02-01T11:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-motor-lublin/26lbxv7#4803584",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "minutesPlayed": 90,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.9",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 62,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 5769,
+      "opponentTeamName": "Radomiak Radom",
+      "isHomeTeam": true,
+      "id": 4803577,
+      "matchDate": {
+        "utcTime": "2025-12-06T13:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/radomiak-radom-vs-pogon-szczecin/1kmukn#4803577",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 2,
+      "minutesPlayed": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8024,
+      "opponentTeamName": "Widzew Łódź",
+      "isHomeTeam": true,
+      "id": 5041507,
+      "matchDate": {
+        "utcTime": "2025-12-02T19:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-widzew-odz/24nyww#5041507",
+      "leagueId": 198,
+      "leagueName": "Puchar Polski",
+      "stage": "1/8",
+      "homeScore": 0,
+      "awayScore": 1,
+      "minutesPlayed": 44,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 4023,
+      "opponentTeamName": "GKS Katowice",
+      "isHomeTeam": false,
+      "id": 4803564,
+      "matchDate": {
+        "utcTime": "2025-11-29T19:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/gks-katowice-vs-pogon-szczecin/177d4w#4803564",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.9",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8021,
+      "opponentTeamName": "Zagłębie Lubin",
+      "isHomeTeam": true,
+      "id": 4803559,
+      "matchDate": {
+        "utcTime": "2025-11-24T18:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#4803559",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 5,
+      "awayScore": 1,
+      "minutesPlayed": 14,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8243,
+      "opponentTeamName": "Wisła Płock",
+      "isHomeTeam": false,
+      "id": 4803544,
+      "matchDate": {
+        "utcTime": "2025-11-03T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-pock/26rtbe#4803544",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.4",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 72,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 2186,
+      "opponentTeamName": "Cracovia",
+      "isHomeTeam": true,
+      "id": 4803532,
+      "matchDate": {
+        "utcTime": "2025-10-25T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/cracovia-vs-pogon-szczecin/v17vs#4803532",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.1",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 2182,
+      "opponentTeamName": "Lech Poznań",
+      "isHomeTeam": false,
+      "id": 4803521,
+      "matchDate": {
+        "utcTime": "2025-10-19T12:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/lech-poznan-vs-pogon-szczecin/v0cdm#4803521",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 2,
+      "minutesPlayed": 69,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.9",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 82,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8028,
+      "opponentTeamName": "Piast Gliwice",
+      "isHomeTeam": true,
+      "id": 4803514,
+      "matchDate": {
+        "utcTime": "2025-10-03T18:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-piast-gliwice/24pcga#4803514",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "minutesPlayed": 79,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.3",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 72,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8673,
+      "opponentTeamName": "Legia Warszawa",
+      "isHomeTeam": false,
+      "id": 4803503,
+      "matchDate": {
+        "utcTime": "2025-09-28T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-legia-warszawa/2azq1p#4803503",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "minutesPlayed": 87,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.9",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 82,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8030,
+      "opponentTeamName": "Lechia Gdańsk",
+      "isHomeTeam": true,
+      "id": 4803495,
+      "matchDate": {
+        "utcTime": "2025-09-21T12:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-lechia-gdansk/24q185#4803495",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 4,
+      "minutesPlayed": 90,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "8.3",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 103,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8245,
+      "opponentTeamName": "Korona Kielce",
+      "isHomeTeam": false,
+      "id": 4803482,
+      "matchDate": {
+        "utcTime": "2025-09-13T12:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-korona-kielce/26sif7#4803482",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "minutesPlayed": 90,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "8.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 82,
+      "playedInMatch": true
+    }
+  ],
+  "matchesUrl": "https://pub.fotmob.com/prod/db/api/player/949336/matches",
+  "careerHistory": {
+    "showFootnote": false,
+    "careerItems": {
+      "senior": {
+        "teamEntries": [
+          {
+            "participantId": 949336,
+            "teamId": 8023,
+            "team": "Pogoń Szczecin",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2025-07-03T00:00:00",
+            "endDate": null,
+            "active": true,
+            "role": null,
+            "appearances": "25",
+            "goals": "2",
+            "assists": "1",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 949336,
+            "teamId": 8231,
+            "team": "Vejle Boldklub",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2023-07-03T00:00:00",
+            "endDate": "2025-07-03T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "63",
+            "goals": "8",
+            "assists": "12",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 949336,
+            "teamId": 9857,
+            "team": "Bologna",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "back from loan",
+              "localizationKey": "transfer_type_back_from_loan"
+            },
+            "startDate": "2023-06-08T00:00:00",
+            "endDate": "2023-07-03T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": null,
+            "goals": null,
+            "assists": null,
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 949336,
+            "teamId": 8414,
+            "team": "OB",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            },
+            "startDate": "2023-01-19T00:00:00",
+            "endDate": "2023-06-08T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": null,
+            "goals": null,
+            "assists": null,
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 949336,
+            "teamId": 9857,
+            "team": "Bologna",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "back from loan",
+              "localizationKey": "transfer_type_back_from_loan"
+            },
+            "startDate": "2022-02-01T00:00:00",
+            "endDate": "2022-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": null,
+            "goals": null,
+            "assists": null,
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 949336,
+            "teamId": 9884,
+            "team": "Crotone",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            },
+            "startDate": "2021-07-13T00:00:00",
+            "endDate": "2022-01-31T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "4",
+            "goals": "0",
+            "assists": "1",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 949336,
+            "teamId": 9857,
+            "team": "Bologna",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "back from loan",
+              "localizationKey": "transfer_type_back_from_loan"
+            },
+            "startDate": "2021-01-12T00:00:00",
+            "endDate": "2021-07-13T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "5",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 949336,
+            "teamId": 8613,
+            "team": "Boavista",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            },
+            "startDate": "2020-10-06T00:00:00",
+            "endDate": "2021-01-12T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "3",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 949336,
+            "teamId": 9857,
+            "team": "Bologna",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2019-07-06T00:00:00",
+            "endDate": "2020-10-06T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "8",
+            "goals": "1",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 949336,
+            "teamId": 8533,
+            "team": "Chievo Verona",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2018-07-01T00:00:00",
+            "endDate": "2019-07-06T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          }
+        ],
+        "seasonEntries": [
+          {
+            "seasonName": "2026/2027",
+            "appearances": "5",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": "6.80"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 196,
+                "leagueName": "Ekstraklasa",
+                "seasonName": "2026/2027",
+                "tournamentId": 37304,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "5",
+                "rating": {
+                  "rating": "6.80"
+                }
+              }
+            ],
+            "teamId": 8023,
+            "team": "Pogoń Szczecin",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2025/2026",
+            "appearances": "20",
+            "goals": "1",
+            "assists": "1",
+            "rating": {
+              "rating": "6.98"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 196,
+                "leagueName": "Ekstraklasa",
+                "seasonName": "2025/2026",
+                "tournamentId": 27045,
+                "goals": "1",
+                "assists": "1",
+                "appearances": "18",
+                "rating": {
+                  "rating": "6.98"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueName": "Cup",
+                "seasonName": "2025/2026",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8023,
+            "team": "Pogoń Szczecin",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2024/2025",
+            "appearances": "29",
+            "goals": "4",
+            "assists": "3",
+            "rating": {
+              "rating": "6.84"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 46,
+                "leagueName": "Superligaen",
+                "seasonName": "2024/2025",
+                "tournamentId": 23624,
+                "goals": "4",
+                "assists": "3",
+                "appearances": "29",
+                "rating": {
+                  "rating": "6.84"
+                }
+              }
+            ],
+            "teamId": 8231,
+            "team": "Vejle Boldklub",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2023/2024",
+            "appearances": "34",
+            "goals": "4",
+            "assists": "9",
+            "rating": {
+              "rating": "6.82"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 46,
+                "leagueName": "Superligaen",
+                "seasonName": "2023/2024",
+                "tournamentId": 20962,
+                "goals": "3",
+                "assists": "6",
+                "appearances": "31",
+                "rating": {
+                  "rating": "6.82"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 242,
+                "leagueName": "DBU Pokalen",
+                "seasonName": "2023/2024",
+                "tournamentId": 21258,
+                "goals": "1",
+                "assists": "3",
+                "appearances": "3",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8231,
+            "team": "Vejle Boldklub",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2021/2022",
+            "appearances": "4",
+            "goals": "0",
+            "assists": "1",
+            "rating": {
+              "rating": "6.46"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 86,
+                "leagueName": "Serie B",
+                "seasonName": "2021/2022",
+                "tournamentId": 16685,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "3",
+                "rating": {
+                  "rating": "6.59"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 141,
+                "leagueName": "Coppa Italia",
+                "seasonName": "2021/2022",
+                "tournamentId": 16633,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "6.08"
+                }
+              }
+            ],
+            "teamId": 9884,
+            "team": "Crotone",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            }
+          },
+          {
+            "seasonName": "2020/2021",
+            "appearances": "5",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": "6.14"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 55,
+                "leagueName": "Serie A",
+                "seasonName": "2020/2021",
+                "tournamentId": 15604,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "5",
+                "rating": {
+                  "rating": "6.14"
+                }
+              }
+            ],
+            "teamId": 9857,
+            "team": "Bologna",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "back from loan",
+              "localizationKey": "transfer_type_back_from_loan"
+            }
+          },
+          {
+            "seasonName": "2020/2021",
+            "appearances": "3",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": "6.15"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 61,
+                "leagueName": "Liga Portugal",
+                "seasonName": "2020/2021",
+                "tournamentId": 15577,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "3",
+                "rating": {
+                  "rating": "6.15"
+                }
+              }
+            ],
+            "teamId": 8613,
+            "team": "Boavista",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            }
+          },
+          {
+            "seasonName": "2019/2020",
+            "appearances": "8",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": "6.45"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 55,
+                "leagueName": "Serie A",
+                "seasonName": "2019/2020",
+                "tournamentId": 14290,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "7",
+                "rating": {
+                  "rating": "6.45"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 141,
+                "leagueName": "Coppa Italia",
+                "seasonName": "2019/2020",
+                "tournamentId": 14287,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 9857,
+            "team": "Bologna",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2018/2019",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": "5.87"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 55,
+                "leagueName": "Serie A",
+                "seasonName": "2018/2019",
+                "tournamentId": 13037,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "5.87"
+                }
+              }
+            ],
+            "teamId": 8533,
+            "team": "Chievo Verona",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          }
+        ]
+      },
+      "national team": {
+        "teamEntries": [
+          {
+            "participantId": 949336,
+            "teamId": 5979,
+            "team": "Gambia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2019-10-24T00:00:00",
+            "endDate": "2024-09-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "2",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 949336,
+            "teamId": -1,
+            "team": "Gambia Under 20",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2021-02-01T00:00:00",
+            "endDate": "2023-02-01T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": null,
+            "goals": null,
+            "assists": null,
+            "hasUncertainData": false
+          }
+        ],
+        "seasonEntries": [
+          {
+            "seasonName": "2023/2025",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 10196,
+                "leagueName": "World Cup Qualification CAF",
+                "seasonName": "2023/2025",
+                "tournamentId": 21577,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 5979,
+            "team": "Gambia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2021",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2021",
+                "tournamentId": 15943,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 5979,
+            "team": "Gambia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          }
+        ]
+      }
+    },
+    "fullCareer": true
+  },
+  "traits": {
+    "key": "stats_comparison_att_mid_wingers",
+    "title": "Stats compared to other attacking midfielders/wingers",
+    "items": [
+      {
+        "key": "chances_created",
+        "title": "Chances created",
+        "value": 0.76
+      },
+      {
+        "key": "aerials_won",
+        "title": "Aerial duels",
+        "value": 0.81
+      },
+      {
+        "key": "defensive_actions",
+        "title": "Defensive actions",
+        "value": 0.82
+      },
+      {
+        "key": "goals",
+        "title": "Goals",
+        "value": 0.42
+      },
+      {
+        "key": "shot_attempts",
+        "title": "Shot attempts",
+        "value": 0.91
+      },
+      {
+        "key": "touches",
+        "title": "Touches",
+        "value": 0.79
+      }
+    ]
+  },
+  "meta": {
+    "seopath": "musa-juwara",
+    "pageurl": "/players/949336/musa-juwara",
+    "faqJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How old is Musa Juwara?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Musa Juwara is 24 years old. Born on Wed Dec 26 2001."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How tall is Musa Juwara?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Musa Juwara is 170 cm tall. Or 5 ft 7 in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When was Musa Juwara born?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Musa Juwara was born Wed Dec 26 2001 and is now 24 years old."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which is Musa Juwara's preferred foot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Musa Juwara's preferred foot is left."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is Musa Juwara's transfer value?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Musa Juwara's transfer value is estimated to be around €496.4k."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Musa Juwara from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Musa Juwara is from The Gambia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many goals has Musa Juwara scored this season?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Musa Juwara has scored 1 goals in the Ekstraklasa."
+          }
+        }
+      ]
+    },
+    "personJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Musa Juwara",
+      "birthDate": "2001-12-26T00:00:00.000Z",
+      "url": "https://www.fotmob.com/players/949336/musa-juwara",
+      "nationality": {
+        "@type": "Country",
+        "name": "The Gambia"
+      },
+      "affiliation": {
+        "@type": "SportsTeam",
+        "name": "Pogoń Szczecin"
+      },
+      "gender": "https://schema.org/Male",
+      "height": {
+        "@type": "QuantitativeValue",
+        "unitText": "cm",
+        "value": "170"
+      },
+      "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "kg",
+        "value": "63"
+      }
+    },
+    "breadcrumbJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fotmob.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ekstraklasa 2026/2027",
+          "item": "https://www.fotmob.com/leagues/196/overview/ekstraklasa-20262027"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Pogoń Szczecin",
+          "item": "https://www.fotmob.com/teams/8023/overview/pogon-szczecin"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Musa Juwara",
+          "item": "https://www.fotmob.com/leagues/949336/overview/musa-juwara"
+        }
+      ]
+    }
+  },
+  "coachStats": null,
+  "statSeasons": [
+    {
+      "seasonName": "2026/2027",
+      "tournaments": [
+        {
+          "name": "Ekstraklasa",
+          "tournamentId": 196,
+          "entryId": "0-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2025/2026",
+      "tournaments": [
+        {
+          "name": "Ekstraklasa",
+          "tournamentId": 196,
+          "entryId": "1-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2024/2025",
+      "tournaments": [
+        {
+          "name": "Superligaen",
+          "tournamentId": 46,
+          "entryId": "2-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2023/2024",
+      "tournaments": [
+        {
+          "name": "Superligaen",
+          "tournamentId": 46,
+          "entryId": "3-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "World Cup CAF qualification",
+          "tournamentId": 10196,
+          "entryId": "3-1",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2021/2022",
+      "tournaments": [
+        {
+          "name": "Serie B",
+          "tournamentId": 86,
+          "entryId": "4-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Coppa Italia",
+          "tournamentId": 141,
+          "entryId": "4-1",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2020/2021",
+      "tournaments": [
+        {
+          "name": "Primeira Liga",
+          "tournamentId": 61,
+          "entryId": "5-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Serie A",
+          "tournamentId": 55,
+          "entryId": "5-1",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2019/2020",
+      "tournaments": [
+        {
+          "name": "Serie A",
+          "tournamentId": 55,
+          "entryId": "6-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2018/2019",
+      "tournaments": [
+        {
+          "name": "Serie A",
+          "tournamentId": 55,
+          "entryId": "7-0",
+          "hasDeepStats": true
+        }
+      ]
+    }
+  ],
+  "firstSeasonStats": {
+    "sectionOrder": [
+      "top-stat-card",
+      "shotmap",
+      "stats-section"
+    ],
+    "shotmap": [
+      {
+        "id": 2948632027,
+        "playerName": "Musa Juwara",
+        "eventType": "Miss",
+        "shotType": "LeftFoot",
+        "situation": "RegularPlay",
+        "teamId": 8023,
+        "playerId": 949336,
+        "x": 94.0964912264,
+        "y": 35.75375,
+        "min": 20,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 40.46952381,
+        "goalCrossedZ": 0.4430526294,
+        "expectedGoals": 0.104439496994019,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 1.110223024625e-16,
+          "y": 0.06848303560073,
+          "zoomRatio": 0.584277933123489
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8023,
+        "awayTeamId": 8673,
+        "homeTeamName": "Pogoń Szczecin",
+        "awayTeamName": "Legia Warszawa",
+        "homeScore": 0,
+        "awayScore": 1,
+        "matchId": 5803899,
+        "matchDate": "2026-07-24T18:30:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      },
+      {
+        "id": 2951524823,
+        "playerName": "Musa Juwara",
+        "eventType": "Miss",
+        "shotType": "LeftFoot",
+        "situation": "FreeKick",
+        "teamId": 8023,
+        "playerId": 949336,
+        "x": 80.7956310688,
+        "y": 2.1645497643,
+        "min": 88,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": false,
+        "goalCrossedY": 35.3725,
+        "goalCrossedZ": 6.513793116,
+        "expectedGoals": 0.0434498004615307,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 0.857299150745117,
+          "y": 0.677248677248677,
+          "zoomRatio": 0.393012174997054
+        },
+        "box": "OutsideBox",
+        "homeTeamId": 2186,
+        "awayTeamId": 8023,
+        "homeTeamName": "Cracovia",
+        "awayTeamName": "Pogoń Szczecin",
+        "homeScore": 0,
+        "awayScore": 2,
+        "matchId": 5803923,
+        "matchDate": "2026-08-03T17:00:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      },
+      {
+        "id": 2952690515,
+        "playerName": "Musa Juwara",
+        "eventType": "AttemptSaved",
+        "shotType": "LeftFoot",
+        "situation": "IndividualPlay",
+        "teamId": 8023,
+        "playerId": 949336,
+        "x": 83.160679612,
+        "y": 20.9864968186,
+        "min": 49,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": true,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": false,
+        "blockedX": 87.426470588,
+        "blockedY": 23.7189808963,
+        "goalCrossedY": 36.36375,
+        "goalCrossedZ": 1.219999994,
+        "expectedGoals": 0.0304126888513565,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 0.374669312169311,
+          "y": 0.322751321164021,
+          "zoomRatio": 1
+        },
+        "box": "OutsideBox",
+        "homeTeamId": 8023,
+        "awayTeamId": 89466,
+        "homeTeamName": "Pogoń Szczecin",
+        "awayTeamName": "Motor Lublin",
+        "homeScore": 3,
+        "awayScore": 1,
+        "matchId": 5803936,
+        "matchDate": "2026-08-08T15:30:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      },
+      {
+        "id": 2959045309,
+        "playerName": "Musa Juwara",
+        "eventType": "Goal",
+        "shotType": "LeftFoot",
+        "situation": "FastBreak",
+        "teamId": 8023,
+        "playerId": 949336,
+        "x": 94.7719298231,
+        "y": 28.623095237,
+        "min": 3,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 36.745,
+        "goalCrossedZ": 0.3274736826,
+        "expectedGoals": 0.239627689123154,
+        "expectedGoalsOnTarget": 0.755560636520386,
+        "onGoalShot": {
+          "x": 0.273809523809523,
+          "y": 0.0866332493650794,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8023,
+        "awayTeamId": 10265,
+        "homeTeamName": "Pogoń Szczecin",
+        "awayTeamName": "Wisła Kraków",
+        "homeScore": 2,
+        "awayScore": 2,
+        "matchId": 5803955,
+        "matchDate": "2026-08-23T18:15:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      },
+      {
+        "id": 2961568569,
+        "playerName": "Musa Juwara",
+        "eventType": "Miss",
+        "shotType": "Header",
+        "situation": "ThrowInSetPiece",
+        "teamId": 8023,
+        "playerId": 949336,
+        "x": 97.3771929818,
+        "y": 26.774047619,
+        "min": 90,
+        "minAdded": 3,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 26.111875,
+        "goalCrossedZ": 1.0723157842,
+        "expectedGoals": 0.0328757464885712,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 2,
+          "y": 0.135940516180968,
+          "zoomRatio": 0.479201331114809
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8021,
+        "awayTeamId": 8023,
+        "homeTeamName": "Zagłębie Lubin",
+        "awayTeamName": "Pogoń Szczecin",
+        "homeScore": 0,
+        "awayScore": 0,
+        "matchId": 5803967,
+        "matchDate": "2026-08-29T18:15:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      }
+    ],
+    "statsSection": {
+      "id": "stats-section",
+      "items": [
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "goals",
+              "per90": 0.38626609442060084,
+              "percentileRank": 52.38095238095239,
+              "percentileRankPer90": 73.01587301587301,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Goals"
+            },
+            {
+              "localizedTitleId": "expected_goals",
+              "per90": 0.1696094410102255,
+              "percentileRank": 39.682539682539684,
+              "percentileRankPer90": 39.682539682539684,
+              "statFormat": "fraction",
+              "statValue": "0.44",
+              "title": "xG"
+            },
+            {
+              "localizedTitleId": "expected_goals_on_target",
+              "per90": 0.2918626515138814,
+              "percentileRank": 60.317460317460316,
+              "percentileRankPer90": 65.07936507936508,
+              "statFormat": "fraction",
+              "statValue": "0.76",
+              "title": "xGOT"
+            },
+            {
+              "localizedTitleId": "non_penalty_xg",
+              "per90": 0.1696094410102255,
+              "percentileRank": 42.857142857142854,
+              "percentileRankPer90": 42.857142857142854,
+              "statFormat": "fraction",
+              "statValue": "0.44",
+              "title": "xG excl. penalty"
+            },
+            {
+              "localizedTitleId": "shots",
+              "per90": 1.9313304721030042,
+              "percentileRank": 42.857142857142854,
+              "percentileRankPer90": 47.61904761904761,
+              "statFormat": "number",
+              "statValue": "5",
+              "title": "Shots"
+            },
+            {
+              "localizedTitleId": "ShotsOnTarget",
+              "per90": 0.38626609442060084,
+              "percentileRank": 20.634920634920633,
+              "percentileRankPer90": 26.984126984126984,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Shots on target"
+            },
+            {
+              "localizedTitleId": "headed_shots",
+              "per90": 0.38626609442060084,
+              "percentileRank": 63.49206349206349,
+              "percentileRankPer90": 74.60317460317461,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Headed shots"
+            }
+          ],
+          "localizedTitleId": "shooting",
+          "title": "Shooting",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "assists",
+              "per90": 0,
+              "percentileRank": 0,
+              "percentileRankPer90": 0,
+              "statFormat": "number",
+              "statValue": "0",
+              "title": "Assists"
+            },
+            {
+              "localizedTitleId": "expected_assists",
+              "per90": 0.1574820344028555,
+              "percentileRank": 50.79365079365079,
+              "percentileRankPer90": 61.904761904761905,
+              "statFormat": "fraction",
+              "statValue": "0.41",
+              "title": "xA"
+            },
+            {
+              "localizedTitleId": "successful_passes",
+              "per90": 19.699570815450645,
+              "percentileRank": 39.682539682539684,
+              "percentileRankPer90": 41.269841269841265,
+              "statFormat": "number",
+              "statValue": "51",
+              "title": "Accurate passes"
+            },
+            {
+              "localizedTitleId": "successful_passes_accuracy",
+              "per90": 75,
+              "percentileRank": 26.984126984126984,
+              "percentileRankPer90": 26.984126984126984,
+              "statFormat": "percent",
+              "statValue": "75.0",
+              "title": "Pass accuracy"
+            },
+            {
+              "localizedTitleId": "long_balls_accurate",
+              "per90": 1.1587982832618027,
+              "percentileRank": 60.317460317460316,
+              "percentileRankPer90": 71.42857142857143,
+              "statFormat": "number",
+              "statValue": "3",
+              "title": "Accurate long balls"
+            },
+            {
+              "localizedTitleId": "long_ball_succeeeded_accuracy",
+              "per90": 27.272727272727273,
+              "percentileRank": 33.33333333333333,
+              "percentileRankPer90": 33.33333333333333,
+              "statFormat": "percent",
+              "statValue": "27.3",
+              "title": "Long ball accuracy"
+            },
+            {
+              "localizedTitleId": "chances_created",
+              "per90": 1.5450643776824033,
+              "percentileRank": 58.730158730158735,
+              "percentileRankPer90": 69.84126984126983,
+              "statFormat": "number",
+              "statValue": "4",
+              "title": "Chances created"
+            },
+            {
+              "localizedTitleId": "big_chance_created_team_title",
+              "per90": 0.7725321888412017,
+              "percentileRank": 76.19047619047619,
+              "percentileRankPer90": 88.88888888888889,
+              "statFormat": "number",
+              "statValue": "2",
+              "title": "Big chances created"
+            },
+            {
+              "localizedTitleId": "crosses_succeeeded",
+              "per90": 0.7725321888412017,
+              "percentileRank": 55.55555555555556,
+              "percentileRankPer90": 63.49206349206349,
+              "statFormat": "number",
+              "statValue": "2",
+              "title": "Successful crosses"
+            },
+            {
+              "localizedTitleId": "crosses_succeeeded_accuracy",
+              "per90": 14.285714285714286,
+              "percentileRank": 42.857142857142854,
+              "percentileRankPer90": 42.857142857142854,
+              "statFormat": "percent",
+              "statValue": "14.3",
+              "title": "Cross accuracy"
+            }
+          ],
+          "localizedTitleId": "passing",
+          "title": "Passing",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "dribbles_succeeded",
+              "per90": 1.5450643776824033,
+              "percentileRank": 65.07936507936508,
+              "percentileRankPer90": 74.60317460317461,
+              "statFormat": "number",
+              "statValue": "4",
+              "title": "Dribbles"
+            },
+            {
+              "localizedTitleId": "won_contest_subtitle",
+              "per90": 66.66666666666667,
+              "percentileRank": 76.19047619047619,
+              "percentileRankPer90": 76.19047619047619,
+              "statFormat": "percent",
+              "statValue": "66.7",
+              "title": "Dribbles success rate"
+            },
+            {
+              "localizedTitleId": "duel_won",
+              "per90": 6.5665236051502145,
+              "percentileRank": 60.317460317460316,
+              "percentileRankPer90": 82.53968253968253,
+              "statFormat": "number",
+              "statValue": "17",
+              "title": "Duels won"
+            },
+            {
+              "localizedTitleId": "duel_won_percent",
+              "per90": 45.945945945945944,
+              "percentileRank": 55.55555555555556,
+              "percentileRankPer90": 55.55555555555556,
+              "statFormat": "percent",
+              "statValue": "45.9",
+              "title": "Duels won %"
+            },
+            {
+              "localizedTitleId": "aerials_won",
+              "per90": 1.5450643776824033,
+              "percentileRank": 76.19047619047619,
+              "percentileRankPer90": 82.53968253968253,
+              "statFormat": "number",
+              "statValue": "4",
+              "title": "Aerials won"
+            },
+            {
+              "localizedTitleId": "aerials_won_percent",
+              "per90": 40,
+              "percentileRank": 38.095238095238095,
+              "percentileRankPer90": 38.095238095238095,
+              "statFormat": "percent",
+              "statValue": "40.0",
+              "title": "Aerials won %"
+            },
+            {
+              "localizedTitleId": "touches",
+              "per90": 49.44206008583691,
+              "percentileRank": 44.44444444444444,
+              "percentileRankPer90": 57.14285714285714,
+              "statFormat": "number",
+              "statValue": "128",
+              "title": "Touches"
+            },
+            {
+              "localizedTitleId": "touches_opp_box",
+              "per90": 3.0901287553648067,
+              "percentileRank": 41.269841269841265,
+              "percentileRankPer90": 39.682539682539684,
+              "statFormat": "number",
+              "statValue": "8",
+              "title": "Touches in opposition box"
+            },
+            {
+              "localizedTitleId": "dispossessed",
+              "per90": 1.1587982832618027,
+              "percentileRank": 46.03174603174603,
+              "percentileRankPer90": 55.55555555555556,
+              "statFormat": "number",
+              "statValue": "3",
+              "title": "Dispossessed"
+            },
+            {
+              "localizedTitleId": "fouls_won",
+              "per90": 1.1587982832618027,
+              "percentileRank": 26.984126984126984,
+              "percentileRankPer90": 36.507936507936506,
+              "statFormat": "number",
+              "statValue": "3",
+              "title": "Fouls won"
+            }
+          ],
+          "localizedTitleId": "possession",
+          "title": "Possession",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "defensive_actions",
+              "per90": 4.635193133047211,
+              "percentileRank": 71.42857142857143,
+              "percentileRankPer90": 82.53968253968253,
+              "statFormat": "number",
+              "statValue": "12",
+              "title": "Defensive actions"
+            },
+            {
+              "localizedTitleId": "matchstats.headers.tackles",
+              "per90": 2.3175965665236054,
+              "percentileRank": 68.25396825396825,
+              "percentileRankPer90": 77.77777777777779,
+              "statFormat": "number",
+              "statValue": "6",
+              "title": "Tackles"
+            },
+            {
+              "localizedTitleId": "blocked_shots",
+              "per90": 0.38626609442060084,
+              "percentileRank": 68.25396825396825,
+              "percentileRankPer90": 84.12698412698413,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Blocked scoring attempt"
+            },
+            {
+              "localizedTitleId": "fouls",
+              "per90": 1.9313304721030042,
+              "percentileRank": 25.396825396825395,
+              "percentileRankPer90": 22.22222222222222,
+              "statFormat": "number",
+              "statValue": "5",
+              "title": "Fouls committed"
+            },
+            {
+              "localizedTitleId": "recoveries",
+              "per90": 5.021459227467812,
+              "percentileRank": 60.317460317460316,
+              "percentileRankPer90": 76.19047619047619,
+              "statFormat": "number",
+              "statValue": "13",
+              "title": "Recoveries"
+            },
+            {
+              "localizedTitleId": "poss_won_att_3rd_team_title",
+              "per90": 0.38626609442060084,
+              "percentileRank": 19.047619047619047,
+              "percentileRankPer90": 30.158730158730158,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Possession won final 3rd"
+            },
+            {
+              "localizedTitleId": "dribbled_past",
+              "per90": 1.5450643776824033,
+              "percentileRank": 7.936507936507936,
+              "percentileRankPer90": 6.349206349206349,
+              "statFormat": "number",
+              "statValue": "4",
+              "title": "Dribbled past"
+            },
+            {
+              "localizedTitleId": "clearances",
+              "per90": 1.9313304721030042,
+              "percentileRank": 80.95238095238095,
+              "percentileRankPer90": 87.3015873015873,
+              "statFormat": "number",
+              "statValue": "5",
+              "title": "Clearances"
+            },
+            {
+              "localizedTitleId": "clean_sheet_team_title",
+              "per90": 0,
+              "percentileRank": 0,
+              "percentileRankPer90": 0,
+              "statFormat": "number",
+              "statValue": "0",
+              "title": "Clean sheets"
+            },
+            {
+              "localizedTitleId": "goals_conceded_while_on_pitch",
+              "per90": 0.7725321888412017,
+              "percentileRank": 60.317460317460316,
+              "percentileRankPer90": 66.66666666666666,
+              "statFormat": "number",
+              "statValue": "2",
+              "title": "Goals conceded while on pitch"
+            },
+            {
+              "localizedTitleId": "expected_goals_against_while_on_pitch",
+              "per90": 1.2872704313548338,
+              "percentileRank": 58.730158730158735,
+              "percentileRankPer90": 58.730158730158735,
+              "statFormat": "fraction",
+              "statValue": "3.33",
+              "title": "xG against while on pitch"
+            }
+          ],
+          "localizedTitleId": "defending",
+          "title": "Defending",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "yellow_cards",
+              "per90": 0,
+              "percentileRank": 100,
+              "percentileRankPer90": 100,
+              "statFormat": "number",
+              "statValue": "0",
+              "title": "Yellow cards"
+            },
+            {
+              "localizedTitleId": "red_cards",
+              "per90": 0,
+              "percentileRank": 0,
+              "percentileRankPer90": 0,
+              "statFormat": "number",
+              "statValue": "0",
+              "title": "Red cards"
+            }
+          ],
+          "localizedTitleId": "discipline",
+          "title": "Discipline",
+          "type": "stat-values"
+        }
+      ],
+      "localizedTitleId": "season_performance",
+      "title": "Season performance",
+      "type": "grouped-stat-values"
+    },
+    "topStatCard": {
+      "display": "stats-group",
+      "id": "top-stat-card",
+      "items": [
+        {
+          "localizedTitleId": "goals",
+          "per90": 0.38626609442060084,
+          "percentileRank": 52.38095238095239,
+          "percentileRankPer90": 73.01587301587301,
+          "statFormat": "number",
+          "statValue": "1",
+          "title": "Goals"
+        },
+        {
+          "localizedTitleId": "assists",
+          "per90": 0,
+          "percentileRank": 0,
+          "percentileRankPer90": 0,
+          "statFormat": "number",
+          "statValue": "0",
+          "title": "Assists"
+        },
+        {
+          "localizedTitleId": "rating",
+          "per90": 6.795,
+          "percentileRank": 46.03174603174603,
+          "percentileRankPer90": 46.03174603174603,
+          "statFormat": "fraction",
+          "statValue": "6.80",
+          "title": "Rating"
+        },
+        {
+          "localizedTitleId": "matches_uppercase",
+          "per90": 5,
+          "percentileRank": 53.96825396825397,
+          "percentileRankPer90": 53.96825396825397,
+          "statFormat": "number",
+          "statValue": "5",
+          "title": "Matches"
+        },
+        {
+          "localizedTitleId": "player_started_matches",
+          "per90": 3,
+          "percentileRank": 39.682539682539684,
+          "percentileRankPer90": 66.66666666666666,
+          "statFormat": "number",
+          "statValue": "3",
+          "title": "Started"
+        },
+        {
+          "localizedTitleId": "minutes_played",
+          "per90": 90,
+          "percentileRank": 46.03174603174603,
+          "percentileRankPer90": 100,
+          "statFormat": "number",
+          "statValue": "233",
+          "title": "Minutes"
+        }
+      ],
+      "type": "stat-values"
+    },
+    "heatmap": {
+      "coordinates": [
+        {
+          "x": 62.55,
+          "y": 52.97
+        },
+        {
+          "x": 71.79,
+          "y": 49.19
+        },
+        {
+          "x": 7.04,
+          "y": 62.62
+        },
+        {
+          "x": 0,
+          "y": 61.97
+        },
+        {
+          "x": 48.13,
+          "y": 48.34
+        },
+        {
+          "x": 40.2,
+          "y": 54.42
+        },
+        {
+          "x": 7.53,
+          "y": 40.55
+        },
+        {
+          "x": 42,
+          "y": 46.38
+        },
+        {
+          "x": 62.89,
+          "y": 22.88
+        },
+        {
+          "x": 58.7,
+          "y": 56.39
+        },
+        {
+          "x": 59.01,
+          "y": 64.13
+        },
+        {
+          "x": 94.1,
+          "y": 32.25
+        },
+        {
+          "x": 61.04,
+          "y": 68
+        },
+        {
+          "x": 63.23,
+          "y": 64.59
+        },
+        {
+          "x": 35.13,
+          "y": 56.59
+        },
+        {
+          "x": 35.13,
+          "y": 56.59
+        },
+        {
+          "x": 36.82,
+          "y": 42.7
+        },
+        {
+          "x": 74.26,
+          "y": 64.2
+        },
+        {
+          "x": 104.53,
+          "y": 67.67
+        },
+        {
+          "x": 35.47,
+          "y": 61.97
+        },
+        {
+          "x": 67.28,
+          "y": 57.44
+        },
+        {
+          "x": 73.93,
+          "y": 63.34
+        },
+        {
+          "x": 28.71,
+          "y": 51.71
+        },
+        {
+          "x": 78.88,
+          "y": 65.77
+        },
+        {
+          "x": 74.6,
+          "y": 61.77
+        },
+        {
+          "x": 94.96,
+          "y": 59.47
+        },
+        {
+          "x": 40.2,
+          "y": 59.34
+        },
+        {
+          "x": 40.2,
+          "y": 59.34
+        },
+        {
+          "x": 49.76,
+          "y": 58.16
+        },
+        {
+          "x": 54.94,
+          "y": 49.61
+        },
+        {
+          "x": 58.7,
+          "y": 60.33
+        },
+        {
+          "x": 58.09,
+          "y": 59.41
+        },
+        {
+          "x": 42.79,
+          "y": 54.95
+        },
+        {
+          "x": 32.31,
+          "y": 58.42
+        },
+        {
+          "x": 32.31,
+          "y": 58.42
+        },
+        {
+          "x": 28.93,
+          "y": 52.41
+        },
+        {
+          "x": 29.27,
+          "y": 52.13
+        },
+        {
+          "x": 94.19,
+          "y": 56.46
+        },
+        {
+          "x": 96.03,
+          "y": 53.04
+        },
+        {
+          "x": 75.84,
+          "y": 60.39
+        },
+        {
+          "x": 80.57,
+          "y": 64
+        },
+        {
+          "x": 46.5,
+          "y": 61.24
+        },
+        {
+          "x": 68.63,
+          "y": 59.34
+        },
+        {
+          "x": 36.71,
+          "y": 53.6
+        },
+        {
+          "x": 40.08,
+          "y": 60.33
+        },
+        {
+          "x": 43.66,
+          "y": 65.31
+        },
+        {
+          "x": 85.39,
+          "y": 64.79
+        },
+        {
+          "x": 91.7,
+          "y": 63.93
+        },
+        {
+          "x": 36.25,
+          "y": 63.74
+        },
+        {
+          "x": 36.25,
+          "y": 63.67
+        },
+        {
+          "x": 68.75,
+          "y": 64.98
+        },
+        {
+          "x": 90.8,
+          "y": 63.67
+        },
+        {
+          "x": 102.91,
+          "y": 51.5
+        },
+        {
+          "x": 18,
+          "y": 45.75
+        },
+        {
+          "x": 35.47,
+          "y": 43.65
+        },
+        {
+          "x": 34.23,
+          "y": 60.98
+        },
+        {
+          "x": 34.23,
+          "y": 60.98
+        },
+        {
+          "x": 75.62,
+          "y": 63.34
+        },
+        {
+          "x": 80.8,
+          "y": 65.84
+        },
+        {
+          "x": 96.7,
+          "y": 50.59
+        },
+        {
+          "x": 31.98,
+          "y": 27.87
+        },
+        {
+          "x": 52.91,
+          "y": 49.19
+        },
+        {
+          "x": 12,
+          "y": 55.08
+        },
+        {
+          "x": 0.66,
+          "y": 58.36
+        },
+        {
+          "x": 45.89,
+          "y": 63.01
+        },
+        {
+          "x": 57.28,
+          "y": 48.27
+        },
+        {
+          "x": 47.52,
+          "y": 64.72
+        },
+        {
+          "x": 79.22,
+          "y": 61.97
+        },
+        {
+          "x": 31.19,
+          "y": 62.42
+        },
+        {
+          "x": 44.57,
+          "y": 64.59
+        },
+        {
+          "x": 8.11,
+          "y": 51.71
+        },
+        {
+          "x": 7.53,
+          "y": 55.21
+        },
+        {
+          "x": 67.73,
+          "y": 55.6
+        },
+        {
+          "x": 66.61,
+          "y": 63.34
+        },
+        {
+          "x": 39.41,
+          "y": 64.98
+        },
+        {
+          "x": 87.86,
+          "y": 61.38
+        },
+        {
+          "x": 100.73,
+          "y": 65.9
+        },
+        {
+          "x": 56.97,
+          "y": 54.62
+        },
+        {
+          "x": 8.11,
+          "y": 32.55
+        },
+        {
+          "x": 8.11,
+          "y": 32.55
+        },
+        {
+          "x": 39.41,
+          "y": 47.43
+        },
+        {
+          "x": 8.68,
+          "y": 29.46
+        },
+        {
+          "x": 63.11,
+          "y": 54.42
+        },
+        {
+          "x": 5.31,
+          "y": 18.46
+        },
+        {
+          "x": 93.1,
+          "y": 50.87
+        },
+        {
+          "x": 27.92,
+          "y": 61.05
+        },
+        {
+          "x": 29.95,
+          "y": 65.11
+        },
+        {
+          "x": 24.43,
+          "y": 43.86
+        },
+        {
+          "x": 92.9,
+          "y": 57.83
+        },
+        {
+          "x": 93.2,
+          "y": 2.89
+        },
+        {
+          "x": 38.39,
+          "y": 51.29
+        },
+        {
+          "x": 38.96,
+          "y": 47.43
+        },
+        {
+          "x": 71.11,
+          "y": 57.57
+        },
+        {
+          "x": 65.7,
+          "y": 46.24
+        },
+        {
+          "x": 61.34,
+          "y": 40.05
+        },
+        {
+          "x": 28.6,
+          "y": 63.93
+        },
+        {
+          "x": 37.38,
+          "y": 59.34
+        },
+        {
+          "x": 29.05,
+          "y": 57.7
+        },
+        {
+          "x": 83.16,
+          "y": 47.01
+        },
+        {
+          "x": 102.53,
+          "y": 59.87
+        },
+        {
+          "x": 66.94,
+          "y": 51.22
+        },
+        {
+          "x": 66.15,
+          "y": 60.92
+        },
+        {
+          "x": 65.93,
+          "y": 62.42
+        },
+        {
+          "x": 65.93,
+          "y": 62.42
+        },
+        {
+          "x": 59.11,
+          "y": 64.33
+        },
+        {
+          "x": 66.38,
+          "y": 65.11
+        },
+        {
+          "x": 101.11,
+          "y": 59.93
+        },
+        {
+          "x": 104.24,
+          "y": 44.98
+        },
+        {
+          "x": 104.53,
+          "y": 67.67
+        },
+        {
+          "x": 93.3,
+          "y": 64.2
+        },
+        {
+          "x": 66.83,
+          "y": 53.46
+        },
+        {
+          "x": 67.73,
+          "y": 24.42
+        },
+        {
+          "x": 68.07,
+          "y": 16.57
+        },
+        {
+          "x": 37.94,
+          "y": 46.38
+        },
+        {
+          "x": 90.6,
+          "y": 64.79
+        },
+        {
+          "x": 69.65,
+          "y": 60.98
+        },
+        {
+          "x": 59.01,
+          "y": 53.88
+        },
+        {
+          "x": 79.56,
+          "y": 65.11
+        },
+        {
+          "x": 71.45,
+          "y": 63.21
+        },
+        {
+          "x": 26.79,
+          "y": 62.29
+        },
+        {
+          "x": 64.24,
+          "y": 53.6
+        },
+        {
+          "x": 94.77,
+          "y": 39.38
+        },
+        {
+          "x": 32.31,
+          "y": 46.87
+        },
+        {
+          "x": 18,
+          "y": 31.94
+        },
+        {
+          "x": 6.75,
+          "y": 8.59
+        },
+        {
+          "x": 12.1,
+          "y": 9.45
+        },
+        {
+          "x": 17.57,
+          "y": 10.23
+        },
+        {
+          "x": 20.15,
+          "y": 45.4
+        },
+        {
+          "x": 44.37,
+          "y": 65.25
+        },
+        {
+          "x": 47.21,
+          "y": 59.15
+        },
+        {
+          "x": 69.53,
+          "y": 54.68
+        },
+        {
+          "x": 40.65,
+          "y": 53.46
+        },
+        {
+          "x": 63.9,
+          "y": 57.18
+        },
+        {
+          "x": 66.04,
+          "y": 60.78
+        },
+        {
+          "x": 83.61,
+          "y": 53.67
+        },
+        {
+          "x": 57.79,
+          "y": 65.51
+        },
+        {
+          "x": 35.92,
+          "y": 47.22
+        },
+        {
+          "x": 60.43,
+          "y": 47.36
+        },
+        {
+          "x": 68.29,
+          "y": 54.02
+        },
+        {
+          "x": 67.84,
+          "y": 62.49
+        },
+        {
+          "x": 74.83,
+          "y": 41.06
+        },
+        {
+          "x": 94.58,
+          "y": 49.61
+        },
+        {
+          "x": 85.39,
+          "y": 60.78
+        },
+        {
+          "x": 74.04,
+          "y": 63.61
+        },
+        {
+          "x": 104.53,
+          "y": 67.67
+        },
+        {
+          "x": 82.03,
+          "y": 56.46
+        },
+        {
+          "x": 83.39,
+          "y": 49.4
+        },
+        {
+          "x": 49.45,
+          "y": 60
+        },
+        {
+          "x": 56.87,
+          "y": 61.44
+        },
+        {
+          "x": 49.45,
+          "y": 60
+        },
+        {
+          "x": 74.49,
+          "y": 62.75
+        },
+        {
+          "x": 73.36,
+          "y": 62.03
+        },
+        {
+          "x": 79.22,
+          "y": 63.01
+        },
+        {
+          "x": 81.36,
+          "y": 59.74
+        },
+        {
+          "x": 64.92,
+          "y": 54.09
+        },
+        {
+          "x": 95.45,
+          "y": 65.57
+        },
+        {
+          "x": 87.64,
+          "y": 59.34
+        },
+        {
+          "x": 94.1,
+          "y": 58.75
+        },
+        {
+          "x": 30.85,
+          "y": 55.21
+        },
+        {
+          "x": 45.18,
+          "y": 60.52
+        },
+        {
+          "x": 15.2,
+          "y": 58.23
+        },
+        {
+          "x": 15.2,
+          "y": 58.23
+        },
+        {
+          "x": 97.38,
+          "y": 41.23
+        },
+        {
+          "x": 97.38,
+          "y": 41.23
+        }
+      ]
+    },
+    "keeperShotmap": null
+  },
+  "status": "active",
+  "marketValues": {
+    "values": [
+      {
+        "date": "2019-12-31T00:00:00+00:00",
+        "value": 550000,
+        "currency": "EUR",
+        "lowerBound": 410000,
+        "upperBound": 690000,
+        "source": "scisports",
+        "teamId": 9857,
+        "teamName": "Bologna",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2020-06-30T00:00:00+00:00",
+        "value": 1610000,
+        "currency": "EUR",
+        "lowerBound": 1200000,
+        "upperBound": 2010000,
+        "source": "scisports",
+        "teamId": 8613,
+        "teamName": "Boavista",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2020-12-31T00:00:00+00:00",
+        "value": 2660000,
+        "currency": "EUR",
+        "lowerBound": 1990000,
+        "upperBound": 3320000,
+        "source": "scisports",
+        "teamId": 9857,
+        "teamName": "Bologna",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2021-06-30T00:00:00+00:00",
+        "value": 2330000,
+        "currency": "EUR",
+        "lowerBound": 1750000,
+        "upperBound": 2920000,
+        "source": "scisports",
+        "teamId": 9884,
+        "teamName": "Crotone",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2021-10-31T00:00:00+00:00",
+        "value": 2010000,
+        "currency": "EUR",
+        "lowerBound": 1510000,
+        "upperBound": 2510000,
+        "source": "scisports",
+        "teamId": 9884,
+        "teamName": "Crotone"
+      },
+      {
+        "date": "2021-11-30T00:00:00+00:00",
+        "value": 1570000,
+        "currency": "EUR",
+        "lowerBound": 1180000,
+        "upperBound": 1960000,
+        "source": "scisports",
+        "teamId": 9884,
+        "teamName": "Crotone"
+      },
+      {
+        "date": "2021-12-31T00:00:00+00:00",
+        "value": 1230000,
+        "currency": "EUR",
+        "lowerBound": 930000,
+        "upperBound": 1540000,
+        "source": "scisports",
+        "teamId": 9884,
+        "teamName": "Crotone"
+      },
+      {
+        "date": "2022-01-31T00:00:00+00:00",
+        "value": 1000000,
+        "currency": "EUR",
+        "lowerBound": 750000,
+        "upperBound": 1250000,
+        "source": "scisports",
+        "teamId": 9857,
+        "teamName": "Bologna",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2022-02-28T00:00:00+00:00",
+        "value": 950000,
+        "currency": "EUR",
+        "lowerBound": 720000,
+        "upperBound": 1190000,
+        "source": "scisports",
+        "teamId": 9857,
+        "teamName": "Bologna"
+      },
+      {
+        "date": "2022-03-31T00:00:00+00:00",
+        "value": 920000,
+        "currency": "EUR",
+        "lowerBound": 690000,
+        "upperBound": 1150000,
+        "source": "scisports",
+        "teamId": 9857,
+        "teamName": "Bologna"
+      },
+      {
+        "date": "2022-04-30T00:00:00+00:00",
+        "value": 610000,
+        "currency": "EUR",
+        "lowerBound": 450000,
+        "upperBound": 760000,
+        "source": "scisports",
+        "teamId": 9857,
+        "teamName": "Bologna"
+      },
+      {
+        "date": "2022-05-31T00:00:00+00:00",
+        "value": 610000,
+        "currency": "EUR",
+        "lowerBound": 450000,
+        "upperBound": 760000,
+        "source": "scisports",
+        "teamId": 9857,
+        "teamName": "Bologna"
+      },
+      {
+        "date": "2022-06-30T00:00:00+00:00",
+        "value": 610000,
+        "currency": "EUR",
+        "lowerBound": 450000,
+        "upperBound": 760000,
+        "source": "scisports",
+        "teamId": 9857,
+        "teamName": "Bologna"
+      },
+      {
+        "date": "2022-07-31T00:00:00+00:00",
+        "value": 610000,
+        "currency": "EUR",
+        "lowerBound": 450000,
+        "upperBound": 760000,
+        "source": "scisports",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2022-08-31T00:00:00+00:00",
+        "value": 310000,
+        "currency": "EUR",
+        "lowerBound": 230000,
+        "upperBound": 380000,
+        "source": "scisports"
+      },
+      {
+        "date": "2022-09-04T00:00:00+00:00",
+        "value": 310000,
+        "currency": "EUR",
+        "lowerBound": 230000,
+        "upperBound": 380000,
+        "source": "scisports"
+      },
+      {
+        "date": "2022-09-30T00:00:00+00:00",
+        "value": 310000,
+        "currency": "EUR",
+        "lowerBound": 230000,
+        "upperBound": 380000,
+        "source": "scisports"
+      },
+      {
+        "date": "2022-10-31T00:00:00+00:00",
+        "value": 310000,
+        "currency": "EUR",
+        "lowerBound": 230000,
+        "upperBound": 380000,
+        "source": "scisports"
+      },
+      {
+        "date": "2022-11-30T00:00:00+00:00",
+        "value": 300000,
+        "currency": "EUR",
+        "lowerBound": 220000,
+        "upperBound": 370000,
+        "source": "scisports"
+      },
+      {
+        "date": "2022-12-31T00:00:00+00:00",
+        "value": 270000,
+        "currency": "EUR",
+        "lowerBound": 200000,
+        "upperBound": 340000,
+        "source": "scisports",
+        "teamId": 8414,
+        "teamName": "OB",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2023-01-31T00:00:00+00:00",
+        "value": 240000,
+        "currency": "EUR",
+        "lowerBound": 180000,
+        "upperBound": 300000,
+        "source": "scisports",
+        "teamId": 8414,
+        "teamName": "OB"
+      },
+      {
+        "date": "2023-02-28T00:00:00+00:00",
+        "value": 200000,
+        "currency": "EUR",
+        "lowerBound": 150000,
+        "upperBound": 250000,
+        "source": "scisports",
+        "teamId": 8414,
+        "teamName": "OB"
+      },
+      {
+        "date": "2023-03-31T00:00:00+00:00",
+        "value": 180000,
+        "currency": "EUR",
+        "lowerBound": 130000,
+        "upperBound": 220000,
+        "source": "scisports",
+        "teamId": 8414,
+        "teamName": "OB"
+      },
+      {
+        "date": "2023-04-30T00:00:00+00:00",
+        "value": 160000,
+        "currency": "EUR",
+        "lowerBound": 120000,
+        "upperBound": 200000,
+        "source": "scisports",
+        "teamId": 8414,
+        "teamName": "OB"
+      },
+      {
+        "date": "2023-05-31T00:00:00+00:00",
+        "value": 180000,
+        "currency": "EUR",
+        "lowerBound": 130000,
+        "upperBound": 220000,
+        "source": "scisports",
+        "teamId": 9857,
+        "teamName": "Bologna",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2023-06-30T00:00:00+00:00",
+        "value": 250000,
+        "currency": "EUR",
+        "lowerBound": 190000,
+        "upperBound": 310000,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2023-07-31T00:00:00+00:00",
+        "value": 270000,
+        "currency": "EUR",
+        "lowerBound": 200000,
+        "upperBound": 330000,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2023-09-01T00:00:00+00:00",
+        "value": 240000,
+        "currency": "EUR",
+        "lowerBound": 180000,
+        "upperBound": 300000,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2023-09-30T00:00:00+00:00",
+        "value": 310000,
+        "currency": "EUR",
+        "lowerBound": 230000,
+        "upperBound": 380000,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2023-10-31T00:00:00+00:00",
+        "value": 280000,
+        "currency": "EUR",
+        "lowerBound": 210000,
+        "upperBound": 350000,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2023-11-30T00:00:00+00:00",
+        "value": 260000,
+        "currency": "EUR",
+        "lowerBound": 200000,
+        "upperBound": 330000,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2023-12-31T00:00:00+00:00",
+        "value": 250000,
+        "currency": "EUR",
+        "lowerBound": 190000,
+        "upperBound": 310000,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2024-01-31T00:00:00+00:00",
+        "value": 310000,
+        "currency": "EUR",
+        "lowerBound": 248000,
+        "upperBound": 372000,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2024-02-29T00:00:00+00:00",
+        "value": 372000,
+        "currency": "EUR",
+        "lowerBound": 297600,
+        "upperBound": 446400,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2024-03-31T00:00:00+00:00",
+        "value": 446400,
+        "currency": "EUR",
+        "lowerBound": 357120,
+        "upperBound": 535680,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2024-04-30T00:00:00+00:00",
+        "value": 535680,
+        "currency": "EUR",
+        "lowerBound": 428544,
+        "upperBound": 642816,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2024-05-31T00:00:00+00:00",
+        "value": 642816,
+        "currency": "EUR",
+        "lowerBound": 514252,
+        "upperBound": 771379,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2024-06-30T00:00:00+00:00",
+        "value": 771379,
+        "currency": "EUR",
+        "lowerBound": 617103,
+        "upperBound": 925654,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2024-07-31T00:00:00+00:00",
+        "value": 925654,
+        "currency": "EUR",
+        "lowerBound": 740523,
+        "upperBound": 1110784,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2024-08-31T00:00:00+00:00",
+        "value": 1110784,
+        "currency": "EUR",
+        "lowerBound": 888627,
+        "upperBound": 1332940,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2024-09-30T00:00:00+00:00",
+        "value": 1305488,
+        "currency": "EUR",
+        "lowerBound": 1044391,
+        "upperBound": 1566586,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2024-10-31T00:00:00+00:00",
+        "value": 1191953,
+        "currency": "EUR",
+        "lowerBound": 953562,
+        "upperBound": 1430344,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2024-11-30T00:00:00+00:00",
+        "value": 1191953,
+        "currency": "EUR",
+        "lowerBound": 953562,
+        "upperBound": 1430344,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2024-12-31T00:00:00+00:00",
+        "value": 1191953,
+        "currency": "EUR",
+        "lowerBound": 953562,
+        "upperBound": 1430344,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2025-01-30T00:00:00+00:00",
+        "value": 1160622,
+        "currency": "EUR",
+        "lowerBound": 928497,
+        "upperBound": 1392746,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2025-02-27T00:00:00+00:00",
+        "value": 1180064,
+        "currency": "EUR",
+        "lowerBound": 944051,
+        "upperBound": 1416077,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2025-03-30T00:00:00+00:00",
+        "value": 1195510,
+        "currency": "EUR",
+        "lowerBound": 956408,
+        "upperBound": 1434612,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2025-04-30T00:00:00+00:00",
+        "value": 1168974,
+        "currency": "EUR",
+        "lowerBound": 935179,
+        "upperBound": 1402769,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2025-05-31T00:00:00+00:00",
+        "value": 1154898,
+        "currency": "EUR",
+        "lowerBound": 923918,
+        "upperBound": 1385877,
+        "source": "scisports",
+        "teamId": 8231,
+        "teamName": "Vejle Boldklub"
+      },
+      {
+        "date": "2025-07-01T00:00:00+00:00",
+        "value": 729919,
+        "currency": "EUR",
+        "lowerBound": 583935,
+        "upperBound": 875903,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2025-08-01T00:00:00+00:00",
+        "value": 901537,
+        "currency": "EUR",
+        "lowerBound": 721230,
+        "upperBound": 1081845,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2025-09-01T00:00:00+00:00",
+        "value": 885647,
+        "currency": "EUR",
+        "lowerBound": 708517,
+        "upperBound": 1062776,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2025-10-01T00:00:00+00:00",
+        "value": 1049291,
+        "currency": "EUR",
+        "lowerBound": 839433,
+        "upperBound": 1259150,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2025-11-01T00:00:00+00:00",
+        "value": 1049291,
+        "currency": "EUR",
+        "lowerBound": 839433,
+        "upperBound": 1259150,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2025-12-01T00:00:00+00:00",
+        "value": 1049291,
+        "currency": "EUR",
+        "lowerBound": 839433,
+        "upperBound": 1259150,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-01-01T00:00:00+00:00",
+        "value": 1049291,
+        "currency": "EUR",
+        "lowerBound": 839433,
+        "upperBound": 1259150,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-02-01T00:00:00+00:00",
+        "value": 1049291,
+        "currency": "EUR",
+        "lowerBound": 839433,
+        "upperBound": 1259150,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-03-01T00:00:00+00:00",
+        "value": 1060074,
+        "currency": "EUR",
+        "lowerBound": 848059,
+        "upperBound": 1272089,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-04-01T00:00:00+00:00",
+        "value": 1015787,
+        "currency": "EUR",
+        "lowerBound": 812629,
+        "upperBound": 1218944,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-05-01T00:00:00+00:00",
+        "value": 812629,
+        "currency": "EUR",
+        "lowerBound": 650103,
+        "upperBound": 975154,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-06-01T00:00:00+00:00",
+        "value": 736312,
+        "currency": "EUR",
+        "lowerBound": 589049,
+        "upperBound": 883574,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-07-01T00:00:00+00:00",
+        "value": 736312,
+        "currency": "EUR",
+        "lowerBound": 589049,
+        "upperBound": 883574,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-08-01T00:00:00+00:00",
+        "value": 589049,
+        "currency": "EUR",
+        "lowerBound": 471239,
+        "upperBound": 706858,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-09-01T00:00:00+00:00",
+        "value": 496355,
+        "currency": "EUR",
+        "lowerBound": 397084,
+        "upperBound": 595626,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      }
+    ]
+  },
+  "relatedLinksData": {
+    "teammates": [
+      {
+        "id": 431948,
+        "name": "Kellyn Acosta"
+      },
+      {
+        "id": 1188767,
+        "name": "Léo Borges"
+      },
+      {
+        "id": 1117005,
+        "name": "Jan Bieganski"
+      },
+      {
+        "id": 1050169,
+        "name": "Rajmund Molnár"
+      },
+      {
+        "id": 1439702,
+        "name": "Filip Cuic"
+      },
+      {
+        "id": 69541,
+        "name": "Kamil Grosicki"
+      },
+      {
+        "id": 1329535,
+        "name": "Dimitrios Keramitsis"
+      },
+      {
+        "id": 585352,
+        "name": "José Pozo"
+      },
+      {
+        "id": 1092563,
+        "name": "Hussein Ali"
+      },
+      {
+        "id": 558189,
+        "name": "Patryk Dziczek"
+      },
+      {
+        "id": 316558,
+        "name": "Jean Pierre Nsame"
+      },
+      {
+        "id": 1078936,
+        "name": "Paul Mukairu"
+      },
+      {
+        "id": 1080510,
+        "name": "Mor Ndiaye"
+      },
+      {
+        "id": 1662742,
+        "name": "Igor Brzyski"
+      },
+      {
+        "id": 833697,
+        "name": "Darko Churlinov"
+      },
+      {
+        "id": 280965,
+        "name": "Benjamin Mendy"
+      },
+      {
+        "id": 406506,
+        "name": "Linus Wahlqvist Egnell"
+      },
+      {
+        "id": 1299888,
+        "name": "Lukas Willen"
+      },
+      {
+        "id": 1901066,
+        "name": "Jacek Czaplinski"
+      },
+      {
+        "id": 1410436,
+        "name": "Nikolaos Botis"
+      },
+      {
+        "id": 1797493,
+        "name": "Alex Peskovic"
+      },
+      {
+        "id": 1667987,
+        "name": "Maciej Wojciechowski"
+      },
+      {
+        "id": 749648,
+        "name": "Attila Szalai"
+      },
+      {
+        "id": 1786208,
+        "name": "Natan Lawa"
+      },
+      {
+        "id": 1596043,
+        "name": "Patryk Paryzek"
+      },
+      {
+        "id": 2090858,
+        "name": "Andrzej Ossowski"
+      },
+      {
+        "id": 289211,
+        "name": "Valentin Cojocaru"
+      },
+      {
+        "id": 2170709,
+        "name": "Antoni Fojut"
+      }
+    ],
+    "mensNationalTeam": [],
+    "womensNationalTeam": []
+  },
+  "nextMatch": {
+    "matchId": 5803974,
+    "homeId": 8023,
+    "awayId": 8243,
+    "homeName": "Pogoń Szczecin",
+    "awayName": "Wisła Płock",
+    "matchDate": "2026-09-07T18:30:00Z",
+    "statusId": 1,
+    "leagueId": 196,
+    "parentLeagueId": 196,
+    "leagueName": "Ekstraklasa",
+    "status": {
+      "utcTime": "2026-09-07T18:30:00.000Z",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "stadium": {
+      "venue": "Stadion Miejski im. Floriana Krygiera",
+      "city": "Szczecin",
+      "lat": 53.43650687,
+      "long": 14.518775974
+    },
+    "matchUrl": "/matches/pogon-szczecin-vs-wisa-pock/26rtbe#5803974"
+  },
+  "dataProvider": "enet",
+  "initialMatchesPage": {
+    "matches": [
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8021,
+        "opponentTeamName": "Zagłębie Lubin",
+        "isHomeTeam": false,
+        "id": 5803967,
+        "matchDate": {
+          "utcTime": "2026-08-29T18:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#5803967",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 0,
+        "minutesPlayed": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 10265,
+        "opponentTeamName": "Wisła Kraków",
+        "isHomeTeam": true,
+        "id": 5803955,
+        "matchDate": {
+          "utcTime": "2026-08-23T18:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-krakow/2rkl8v#5803955",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 2,
+        "minutesPlayed": 60,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.4",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 82,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 89466,
+        "opponentTeamName": "Motor Lublin",
+        "isHomeTeam": true,
+        "id": 5803936,
+        "matchDate": {
+          "utcTime": "2026-08-08T15:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-motor-lublin/26lbxv7#5803936",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 3,
+        "awayScore": 1,
+        "minutesPlayed": 80,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.8",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 85,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 2186,
+        "opponentTeamName": "Cracovia",
+        "isHomeTeam": false,
+        "id": 5803923,
+        "matchDate": {
+          "utcTime": "2026-08-03T17:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/cracovia-vs-pogon-szczecin/v17vs#5803923",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 2,
+        "minutesPlayed": 30,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.7",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8673,
+        "opponentTeamName": "Legia Warszawa",
+        "isHomeTeam": true,
+        "id": 5803899,
+        "matchDate": {
+          "utcTime": "2026-07-24T18:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-legia-warszawa/2azq1p#5803899",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 1,
+        "minutesPlayed": 62,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.4",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 83,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8695,
+        "opponentTeamName": "Fenerbahçe",
+        "isHomeTeam": false,
+        "id": 5904696,
+        "matchDate": {
+          "utcTime": "2026-07-11T17:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-fenerbahce/2b7log#5904696",
+        "leagueId": 489,
+        "leagueName": "Club Friendlies",
+        "stage": null,
+        "homeScore": 4,
+        "awayScore": 0,
+        "minutesPlayed": 45,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.6",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 2182,
+        "opponentTeamName": "Lech Poznań",
+        "isHomeTeam": true,
+        "id": 4803676,
+        "matchDate": {
+          "utcTime": "2026-04-18T18:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/lech-poznan-vs-pogon-szczecin/v0cdm#4803676",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 2,
+        "minutesPlayed": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": true,
+        "playedInMatch": false
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8028,
+        "opponentTeamName": "Piast Gliwice",
+        "isHomeTeam": false,
+        "id": 4803667,
+        "matchDate": {
+          "utcTime": "2026-04-13T17:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-piast-gliwice/24pcga#4803667",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 2,
+        "minutesPlayed": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": true,
+        "playedInMatch": false
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 177361,
+        "opponentTeamName": "Termalica Nieciecza",
+        "isHomeTeam": true,
+        "id": 4803597,
+        "matchDate": {
+          "utcTime": "2026-02-08T11:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-termalica-nieciecza/7w6qmx7#4803597",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 1,
+        "minutesPlayed": 6,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 89466,
+        "opponentTeamName": "Motor Lublin",
+        "isHomeTeam": false,
+        "id": 4803584,
+        "matchDate": {
+          "utcTime": "2026-02-01T11:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-motor-lublin/26lbxv7#4803584",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 1,
+        "minutesPlayed": 90,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.9",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 62,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 5769,
+        "opponentTeamName": "Radomiak Radom",
+        "isHomeTeam": true,
+        "id": 4803577,
+        "matchDate": {
+          "utcTime": "2025-12-06T13:45:00.000Z"
+        },
+        "matchPageUrl": "/matches/radomiak-radom-vs-pogon-szczecin/1kmukn#4803577",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 2,
+        "minutesPlayed": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8024,
+        "opponentTeamName": "Widzew Łódź",
+        "isHomeTeam": true,
+        "id": 5041507,
+        "matchDate": {
+          "utcTime": "2025-12-02T19:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-widzew-odz/24nyww#5041507",
+        "leagueId": 198,
+        "leagueName": "Puchar Polski",
+        "stage": "1/8",
+        "homeScore": 0,
+        "awayScore": 1,
+        "minutesPlayed": 44,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 4023,
+        "opponentTeamName": "GKS Katowice",
+        "isHomeTeam": false,
+        "id": 4803564,
+        "matchDate": {
+          "utcTime": "2025-11-29T19:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/gks-katowice-vs-pogon-szczecin/177d4w#4803564",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 0,
+        "minutesPlayed": 45,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.9",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8021,
+        "opponentTeamName": "Zagłębie Lubin",
+        "isHomeTeam": true,
+        "id": 4803559,
+        "matchDate": {
+          "utcTime": "2025-11-24T18:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#4803559",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 5,
+        "awayScore": 1,
+        "minutesPlayed": 14,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.0",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8243,
+        "opponentTeamName": "Wisła Płock",
+        "isHomeTeam": false,
+        "id": 4803544,
+        "matchDate": {
+          "utcTime": "2025-11-03T17:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-pock/26rtbe#4803544",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 0,
+        "minutesPlayed": 45,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.4",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 72,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 2186,
+        "opponentTeamName": "Cracovia",
+        "isHomeTeam": true,
+        "id": 4803532,
+        "matchDate": {
+          "utcTime": "2025-10-25T15:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/cracovia-vs-pogon-szczecin/v17vs#4803532",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 1,
+        "minutesPlayed": 45,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.1",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 2182,
+        "opponentTeamName": "Lech Poznań",
+        "isHomeTeam": false,
+        "id": 4803521,
+        "matchDate": {
+          "utcTime": "2025-10-19T12:45:00.000Z"
+        },
+        "matchPageUrl": "/matches/lech-poznan-vs-pogon-szczecin/v0cdm#4803521",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 2,
+        "minutesPlayed": 69,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.9",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 82,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8028,
+        "opponentTeamName": "Piast Gliwice",
+        "isHomeTeam": true,
+        "id": 4803514,
+        "matchDate": {
+          "utcTime": "2025-10-03T18:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-piast-gliwice/24pcga#4803514",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 1,
+        "minutesPlayed": 79,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.3",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 72,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8673,
+        "opponentTeamName": "Legia Warszawa",
+        "isHomeTeam": false,
+        "id": 4803503,
+        "matchDate": {
+          "utcTime": "2025-09-28T15:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-legia-warszawa/2azq1p#4803503",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 0,
+        "minutesPlayed": 87,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.9",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 82,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8030,
+        "opponentTeamName": "Lechia Gdańsk",
+        "isHomeTeam": true,
+        "id": 4803495,
+        "matchDate": {
+          "utcTime": "2025-09-21T12:45:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-lechia-gdansk/24q185#4803495",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 3,
+        "awayScore": 4,
+        "minutesPlayed": 90,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "8.3",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 103,
+        "playedInMatch": true
+      }
+    ],
+    "previous": "https://pub.fotmob.com/prod/db/api/player/949336/matches?before=1758458700"
+  }
+}

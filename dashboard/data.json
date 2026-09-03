@@ -1,6 +1,6 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-09-03T14:24:31.362712+00:00",
+  "generated_at": "2026-09-03T14:25:53.413289+00:00",
   "status": "verified_partial",
   "team": {
     "id": "pogon-szczecin",
@@ -18,13 +18,13 @@
     "xga": 15.65,
     "xgot": 18.25,
     "xgot_against": 12.08,
-    "xg_per_match": 2.34,
-    "xga_per_match": 2.61,
+    "xg_per_match": 2.01,
+    "xga_per_match": 2.24,
     "shots_count": 300,
     "shots_with_xg": 298,
     "shots_for": 118,
     "shots_against": 182,
-    "matches_sample": 6,
+    "matches_sample": 7,
     "players_count": 15,
     "events_count": 144,
     "spatial_actions_count": null,
@@ -52,8 +52,8 @@
     "goals_for": {
       "value": 7.0,
       "observed": 6,
-      "total": 6,
-      "coverage": 1.0,
+      "total": 7,
+      "coverage": 0.857,
       "unit": "goals",
       "status": "observed",
       "source": null
@@ -61,16 +61,16 @@
     "goals_against": {
       "value": 8.0,
       "observed": 6,
-      "total": 6,
-      "coverage": 1.0,
+      "total": 7,
+      "coverage": 0.857,
       "unit": "goals",
       "status": "observed",
       "source": null
     },
     "goals_for_per_match": {
       "value": 1.17,
-      "observed": 6,
-      "total": 6,
+      "observed": 7,
+      "total": 7,
       "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
@@ -78,8 +78,8 @@
     },
     "goals_against_per_match": {
       "value": 1.33,
-      "observed": 6,
-      "total": 6,
+      "observed": 7,
+      "total": 7,
       "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
@@ -122,18 +122,18 @@
       "source": null
     },
     "xg_per_match": {
-      "value": 2.34,
-      "observed": 6,
-      "total": 6,
+      "value": 2.01,
+      "observed": 7,
+      "total": 7,
       "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
       "source": null
     },
     "xga_per_match": {
-      "value": 2.61,
-      "observed": 6,
-      "total": 6,
+      "value": 2.24,
+      "observed": 7,
+      "total": 7,
       "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
@@ -160,8 +160,8 @@
     "shots_for": {
       "value": 118,
       "observed": 5,
-      "total": 6,
-      "coverage": 0.833,
+      "total": 7,
+      "coverage": 0.714,
       "unit": "shots",
       "status": "observed",
       "source": null
@@ -169,16 +169,16 @@
     "shots_against": {
       "value": 182,
       "observed": 5,
-      "total": 6,
-      "coverage": 0.833,
+      "total": 7,
+      "coverage": 0.714,
       "unit": "shots",
       "status": "observed",
       "source": null
     },
     "matches_sample": {
-      "value": 6,
-      "observed": 6,
-      "total": 6,
+      "value": 7,
+      "observed": 7,
+      "total": 7,
       "coverage": 1.0,
       "unit": "matches",
       "status": "observed",
@@ -327,7 +327,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "5803899",
-        "retrieved_at": "2026-09-03T14:24:29.760174+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.338421+00:00"
       }
     },
     {
@@ -354,7 +354,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "5803923",
-        "retrieved_at": "2026-09-03T14:24:29.776676+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.355351+00:00"
       }
     },
     {
@@ -381,7 +381,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "5803936",
-        "retrieved_at": "2026-09-03T14:24:29.791933+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.370592+00:00"
       }
     },
     {
@@ -408,7 +408,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "5803955",
-        "retrieved_at": "2026-09-03T14:24:29.807517+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.385740+00:00"
       }
     },
     {
@@ -435,7 +435,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "5803967",
-        "retrieved_at": "2026-09-03T14:24:29.822697+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.400070+00:00"
       }
     },
     {
@@ -462,7 +462,34 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": "5904696",
-        "retrieved_at": "2026-09-03T14:24:29.836202+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.412573+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5803974",
+      "provider": "fotmob",
+      "provider_id": "5803974",
+      "date": null,
+      "competition": "Ekstraklasa",
+      "round": null,
+      "home_team": {
+        "id": null,
+        "name": null
+      },
+      "away_team": {
+        "id": null,
+        "name": null
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "result_for_home": null,
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/players/280965.json",
+        "provider_id": "5803974",
+        "retrieved_at": "2026-09-03T14:25:51.525752+00:00"
       }
     }
   ],
@@ -491,7 +518,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "5803899",
-        "retrieved_at": "2026-09-03T14:24:29.760174+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.338421+00:00"
       }
     },
     {
@@ -518,7 +545,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "5803923",
-        "retrieved_at": "2026-09-03T14:24:29.776676+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.355351+00:00"
       }
     },
     {
@@ -545,7 +572,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "5803936",
-        "retrieved_at": "2026-09-03T14:24:29.791933+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.370592+00:00"
       }
     },
     {
@@ -572,7 +599,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "5803955",
-        "retrieved_at": "2026-09-03T14:24:29.807517+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.385740+00:00"
       }
     },
     {
@@ -599,7 +626,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "5803967",
-        "retrieved_at": "2026-09-03T14:24:29.822697+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.400070+00:00"
       }
     },
     {
@@ -626,7 +653,34 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": "5904696",
-        "retrieved_at": "2026-09-03T14:24:29.836202+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.412573+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5803974",
+      "provider": "fotmob",
+      "provider_id": "5803974",
+      "date": null,
+      "competition": "Ekstraklasa",
+      "round": null,
+      "home_team": {
+        "id": null,
+        "name": null
+      },
+      "away_team": {
+        "id": null,
+        "name": null
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "result_for_home": null,
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/players/280965.json",
+        "provider_id": "5803974",
+        "retrieved_at": "2026-09-03T14:25:51.525752+00:00"
       }
     }
   ],
@@ -780,6 +834,26 @@
       "result": "L",
       "goals_for": 0.0,
       "goals_against": 4.0
+    },
+    {
+      "match_id": "5803974",
+      "date": null,
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": null,
+        "name": null
+      },
+      "away_team": {
+        "id": null,
+        "name": null
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "result": null,
+      "goals_for": null,
+      "goals_against": null
     }
   ],
   "xg_by_match": {
@@ -844,7 +918,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "289211",
-        "retrieved_at": "2026-09-03T14:24:29.764824+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.342912+00:00"
       }
     },
     {
@@ -859,7 +933,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "749648",
-        "retrieved_at": "2026-09-03T14:24:29.764983+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.343072+00:00"
       }
     },
     {
@@ -874,7 +948,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "1329535",
-        "retrieved_at": "2026-09-03T14:24:29.765132+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.343229+00:00"
       }
     },
     {
@@ -889,7 +963,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "1188767",
-        "retrieved_at": "2026-09-03T14:24:29.765278+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.343379+00:00"
       }
     },
     {
@@ -904,7 +978,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "558189",
-        "retrieved_at": "2026-09-03T14:24:29.765423+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.343540+00:00"
       }
     },
     {
@@ -919,7 +993,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "1078936",
-        "retrieved_at": "2026-09-03T14:24:29.781005+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.359631+00:00"
       }
     },
     {
@@ -934,7 +1008,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "431948",
-        "retrieved_at": "2026-09-03T14:24:29.781605+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.360231+00:00"
       }
     },
     {
@@ -949,7 +1023,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "949336",
-        "retrieved_at": "2026-09-03T14:24:29.796382+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.375018+00:00"
       }
     },
     {
@@ -964,7 +1038,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "833697",
-        "retrieved_at": "2026-09-03T14:24:29.796530+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.375165+00:00"
       }
     },
     {
@@ -979,7 +1053,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "180283",
-        "retrieved_at": "2026-09-03T14:24:29.796815+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.375453+00:00"
       }
     },
     {
@@ -994,7 +1068,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "1667987",
-        "retrieved_at": "2026-09-03T14:24:29.812042+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.390122+00:00"
       }
     },
     {
@@ -1009,7 +1083,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "406506",
-        "retrieved_at": "2026-09-03T14:24:29.812345+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.390435+00:00"
       }
     },
     {
@@ -1024,7 +1098,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "1092563",
-        "retrieved_at": "2026-09-03T14:24:29.827233+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.404369+00:00"
       }
     },
     {
@@ -1039,7 +1113,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": "1117005",
-        "retrieved_at": "2026-09-03T14:24:29.839399+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.415629+00:00"
       }
     },
     {
@@ -1054,7 +1128,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": "69541",
-        "retrieved_at": "2026-09-03T14:24:29.839548+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.415778+00:00"
       }
     }
   ],
@@ -1274,7 +1348,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "14245517",
-        "retrieved_at": "2026-09-03T14:24:29.770298+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348769+00:00"
       }
     },
     {
@@ -1299,7 +1373,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.770302+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348773+00:00"
       }
     },
     {
@@ -1338,7 +1412,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.770308+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348779+00:00"
       }
     },
     {
@@ -1377,7 +1451,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.770311+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348782+00:00"
       }
     },
     {
@@ -1416,7 +1490,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.770313+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348785+00:00"
       }
     },
     {
@@ -1452,7 +1526,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "14245680",
-        "retrieved_at": "2026-09-03T14:24:29.770321+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348788+00:00"
       }
     },
     {
@@ -1491,7 +1565,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.770326+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348791+00:00"
       }
     },
     {
@@ -1530,7 +1604,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.770329+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348794+00:00"
       }
     },
     {
@@ -1569,7 +1643,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.770331+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348797+00:00"
       }
     },
     {
@@ -1608,7 +1682,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.770334+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348801+00:00"
       }
     },
     {
@@ -1647,7 +1721,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.770337+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348804+00:00"
       }
     },
     {
@@ -1686,7 +1760,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.770339+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348807+00:00"
       }
     },
     {
@@ -1725,7 +1799,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.770342+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348810+00:00"
       }
     },
     {
@@ -1809,7 +1883,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "14245820",
-        "retrieved_at": "2026-09-03T14:24:29.770346+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348813+00:00"
       }
     },
     {
@@ -1834,7 +1908,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.770356+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348819+00:00"
       }
     },
     {
@@ -1847,7 +1921,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.770359+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348822+00:00"
       }
     },
     {
@@ -1860,7 +1934,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.770362+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348825+00:00"
       }
     },
     {
@@ -1873,7 +1947,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.770365+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348830+00:00"
       }
     },
     {
@@ -1886,7 +1960,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.770368+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348833+00:00"
       }
     },
     {
@@ -1922,7 +1996,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "14274836",
-        "retrieved_at": "2026-09-03T14:24:29.786280+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364911+00:00"
       }
     },
     {
@@ -1958,7 +2032,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "14274898",
-        "retrieved_at": "2026-09-03T14:24:29.786284+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364915+00:00"
       }
     },
     {
@@ -1983,7 +2057,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786288+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364919+00:00"
       }
     },
     {
@@ -2067,7 +2141,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "14274933",
-        "retrieved_at": "2026-09-03T14:24:29.786292+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364923+00:00"
       }
     },
     {
@@ -2103,7 +2177,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "14274965",
-        "retrieved_at": "2026-09-03T14:24:29.786295+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364926+00:00"
       }
     },
     {
@@ -2142,7 +2216,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786298+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364929+00:00"
       }
     },
     {
@@ -2181,7 +2255,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786301+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364932+00:00"
       }
     },
     {
@@ -2220,7 +2294,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786304+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364935+00:00"
       }
     },
     {
@@ -2259,7 +2333,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786307+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364938+00:00"
       }
     },
     {
@@ -2298,7 +2372,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786309+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364941+00:00"
       }
     },
     {
@@ -2337,7 +2411,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786312+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364943+00:00"
       }
     },
     {
@@ -2376,7 +2450,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786315+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364946+00:00"
       }
     },
     {
@@ -2415,7 +2489,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786317+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364949+00:00"
       }
     },
     {
@@ -2454,7 +2528,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786320+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364952+00:00"
       }
     },
     {
@@ -2493,7 +2567,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786322+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364955+00:00"
       }
     },
     {
@@ -2577,7 +2651,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "14275128",
-        "retrieved_at": "2026-09-03T14:24:29.786325+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364958+00:00"
       }
     },
     {
@@ -2602,7 +2676,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786328+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364962+00:00"
       }
     },
     {
@@ -2615,7 +2689,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786332+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364965+00:00"
       }
     },
     {
@@ -2628,7 +2702,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786334+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364968+00:00"
       }
     },
     {
@@ -2641,7 +2715,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786337+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364971+00:00"
       }
     },
     {
@@ -2654,7 +2728,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786340+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364973+00:00"
       }
     },
     {
@@ -2667,7 +2741,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786342+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364976+00:00"
       }
     },
     {
@@ -2680,7 +2754,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786346+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364979+00:00"
       }
     },
     {
@@ -2693,7 +2767,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.786348+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364981+00:00"
       }
     },
     {
@@ -2774,7 +2848,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "14286382",
-        "retrieved_at": "2026-09-03T14:24:29.801454+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380218+00:00"
       }
     },
     {
@@ -2858,7 +2932,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "14286943",
-        "retrieved_at": "2026-09-03T14:24:29.801457+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380221+00:00"
       }
     },
     {
@@ -2883,7 +2957,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801461+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380225+00:00"
       }
     },
     {
@@ -2922,7 +2996,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801465+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380229+00:00"
       }
     },
     {
@@ -2961,7 +3035,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801468+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380232+00:00"
       }
     },
     {
@@ -2997,7 +3071,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "14287304",
-        "retrieved_at": "2026-09-03T14:24:29.801472+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380236+00:00"
       }
     },
     {
@@ -3036,7 +3110,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801475+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380239+00:00"
       }
     },
     {
@@ -3075,7 +3149,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801477+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380242+00:00"
       }
     },
     {
@@ -3111,7 +3185,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "14287368",
-        "retrieved_at": "2026-09-03T14:24:29.801480+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380245+00:00"
       }
     },
     {
@@ -3150,7 +3224,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801483+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380248+00:00"
       }
     },
     {
@@ -3189,7 +3263,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801486+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380251+00:00"
       }
     },
     {
@@ -3228,7 +3302,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801489+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380253+00:00"
       }
     },
     {
@@ -3267,7 +3341,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801492+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380256+00:00"
       }
     },
     {
@@ -3306,7 +3380,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801495+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380259+00:00"
       }
     },
     {
@@ -3342,7 +3416,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "14287500",
-        "retrieved_at": "2026-09-03T14:24:29.801498+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380262+00:00"
       }
     },
     {
@@ -3426,7 +3500,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "14287547",
-        "retrieved_at": "2026-09-03T14:24:29.801501+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380265+00:00"
       }
     },
     {
@@ -3510,7 +3584,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "14287558",
-        "retrieved_at": "2026-09-03T14:24:29.801505+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380269+00:00"
       }
     },
     {
@@ -3535,7 +3609,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801508+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380272+00:00"
       }
     },
     {
@@ -3548,7 +3622,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801511+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380275+00:00"
       }
     },
     {
@@ -3561,7 +3635,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801514+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380279+00:00"
       }
     },
     {
@@ -3574,7 +3648,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801517+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380282+00:00"
       }
     },
     {
@@ -3587,7 +3661,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801520+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380284+00:00"
       }
     },
     {
@@ -3600,7 +3674,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801523+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380287+00:00"
       }
     },
     {
@@ -3613,7 +3687,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801525+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380290+00:00"
       }
     },
     {
@@ -3626,7 +3700,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801528+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380293+00:00"
       }
     },
     {
@@ -3639,7 +3713,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801531+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380296+00:00"
       }
     },
     {
@@ -3652,7 +3726,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801534+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380299+00:00"
       }
     },
     {
@@ -3665,7 +3739,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.801537+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380302+00:00"
       }
     },
     {
@@ -3749,7 +3823,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "14341144",
-        "retrieved_at": "2026-09-03T14:24:29.817243+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395229+00:00"
       }
     },
     {
@@ -3785,7 +3859,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "14341351",
-        "retrieved_at": "2026-09-03T14:24:29.817247+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395233+00:00"
       }
     },
     {
@@ -3821,7 +3895,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "14341353",
-        "retrieved_at": "2026-09-03T14:24:29.817251+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395236+00:00"
       }
     },
     {
@@ -3902,7 +3976,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "14341289",
-        "retrieved_at": "2026-09-03T14:24:29.817255+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395240+00:00"
       }
     },
     {
@@ -3983,7 +4057,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "14341313",
-        "retrieved_at": "2026-09-03T14:24:29.817258+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395243+00:00"
       }
     },
     {
@@ -4064,7 +4138,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "14341397",
-        "retrieved_at": "2026-09-03T14:24:29.817261+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395247+00:00"
       }
     },
     {
@@ -4089,7 +4163,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817265+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395250+00:00"
       }
     },
     {
@@ -4128,7 +4202,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817269+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395254+00:00"
       }
     },
     {
@@ -4167,7 +4241,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817271+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395257+00:00"
       }
     },
     {
@@ -4206,7 +4280,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817274+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395260+00:00"
       }
     },
     {
@@ -4245,7 +4319,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817277+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395263+00:00"
       }
     },
     {
@@ -4284,7 +4358,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817280+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395266+00:00"
       }
     },
     {
@@ -4323,7 +4397,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817283+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395269+00:00"
       }
     },
     {
@@ -4359,7 +4433,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "14342425",
-        "retrieved_at": "2026-09-03T14:24:29.817287+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395272+00:00"
       }
     },
     {
@@ -4398,7 +4472,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817290+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395275+00:00"
       }
     },
     {
@@ -4437,7 +4511,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817293+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395278+00:00"
       }
     },
     {
@@ -4476,7 +4550,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817296+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395280+00:00"
       }
     },
     {
@@ -4512,7 +4586,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "14341920",
-        "retrieved_at": "2026-09-03T14:24:29.817299+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395284+00:00"
       }
     },
     {
@@ -4548,7 +4622,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "14341942",
-        "retrieved_at": "2026-09-03T14:24:29.817303+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395287+00:00"
       }
     },
     {
@@ -4573,7 +4647,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817306+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395290+00:00"
       }
     },
     {
@@ -4586,7 +4660,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817309+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395293+00:00"
       }
     },
     {
@@ -4599,7 +4673,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817312+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395296+00:00"
       }
     },
     {
@@ -4612,7 +4686,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817315+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395299+00:00"
       }
     },
     {
@@ -4625,7 +4699,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817318+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395302+00:00"
       }
     },
     {
@@ -4638,7 +4712,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817321+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395305+00:00"
       }
     },
     {
@@ -4651,7 +4725,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817324+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395308+00:00"
       }
     },
     {
@@ -4664,7 +4738,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817327+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395311+00:00"
       }
     },
     {
@@ -4677,7 +4751,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817330+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395313+00:00"
       }
     },
     {
@@ -4690,7 +4764,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817333+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395316+00:00"
       }
     },
     {
@@ -4703,7 +4777,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.817335+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395319+00:00"
       }
     },
     {
@@ -4739,7 +4813,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "14362011",
-        "retrieved_at": "2026-09-03T14:24:29.832155+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409050+00:00"
       }
     },
     {
@@ -4775,7 +4849,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "14362158",
-        "retrieved_at": "2026-09-03T14:24:29.832159+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409053+00:00"
       }
     },
     {
@@ -4811,7 +4885,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "14362162",
-        "retrieved_at": "2026-09-03T14:24:29.832162+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409056+00:00"
       }
     },
     {
@@ -4847,7 +4921,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "14362165",
-        "retrieved_at": "2026-09-03T14:24:29.832166+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409060+00:00"
       }
     },
     {
@@ -4883,7 +4957,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "14362167",
-        "retrieved_at": "2026-09-03T14:24:29.832170+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409063+00:00"
       }
     },
     {
@@ -4919,7 +4993,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "14362172",
-        "retrieved_at": "2026-09-03T14:24:29.832173+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409066+00:00"
       }
     },
     {
@@ -4955,7 +5029,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "14362261",
-        "retrieved_at": "2026-09-03T14:24:29.832176+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409069+00:00"
       }
     },
     {
@@ -4980,7 +5054,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832180+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409072+00:00"
       }
     },
     {
@@ -5019,7 +5093,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832183+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409076+00:00"
       }
     },
     {
@@ -5058,7 +5132,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832186+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409078+00:00"
       }
     },
     {
@@ -5094,7 +5168,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "14362434",
-        "retrieved_at": "2026-09-03T14:24:29.832190+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409082+00:00"
       }
     },
     {
@@ -5133,7 +5207,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832193+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409085+00:00"
       }
     },
     {
@@ -5172,7 +5246,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832196+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409088+00:00"
       }
     },
     {
@@ -5211,7 +5285,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832199+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409090+00:00"
       }
     },
     {
@@ -5250,7 +5324,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832202+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409093+00:00"
       }
     },
     {
@@ -5289,7 +5363,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832205+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409096+00:00"
       }
     },
     {
@@ -5328,7 +5402,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832208+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409099+00:00"
       }
     },
     {
@@ -5353,7 +5427,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832211+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409102+00:00"
       }
     },
     {
@@ -5366,7 +5440,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832214+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409105+00:00"
       }
     },
     {
@@ -5379,7 +5453,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832218+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409108+00:00"
       }
     },
     {
@@ -5392,7 +5466,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832221+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409111+00:00"
       }
     },
     {
@@ -5405,7 +5479,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832223+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409114+00:00"
       }
     },
     {
@@ -5418,7 +5492,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832226+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409116+00:00"
       }
     },
     {
@@ -5431,7 +5505,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832229+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409119+00:00"
       }
     },
     {
@@ -5444,7 +5518,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832232+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409122+00:00"
       }
     },
     {
@@ -5457,7 +5531,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.832235+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409125+00:00"
       }
     },
     {
@@ -5504,7 +5578,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": "14228837",
-        "retrieved_at": "2026-09-03T14:24:29.842887+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.419017+00:00"
       }
     },
     {
@@ -5551,7 +5625,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": "14228851",
-        "retrieved_at": "2026-09-03T14:24:29.842896+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.419023+00:00"
       }
     },
     {
@@ -5576,7 +5650,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.842901+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.419027+00:00"
       }
     },
     {
@@ -5623,7 +5697,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": "14228914",
-        "retrieved_at": "2026-09-03T14:24:29.842905+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.419030+00:00"
       }
     },
     {
@@ -5670,7 +5744,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": "14228931",
-        "retrieved_at": "2026-09-03T14:24:29.842908+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.419034+00:00"
       }
     },
     {
@@ -5695,7 +5769,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.842912+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.419037+00:00"
       }
     },
     {
@@ -5708,7 +5782,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.842915+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.419040+00:00"
       }
     },
     {
@@ -5721,7 +5795,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.842919+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.419043+00:00"
       }
     },
     {
@@ -5734,7 +5808,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.842922+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.419045+00:00"
       }
     },
     {
@@ -5747,7 +5821,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.842925+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.419048+00:00"
       }
     },
     {
@@ -5760,7 +5834,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.842927+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.419051+00:00"
       }
     },
     {
@@ -5773,7 +5847,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.842930+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.419054+00:00"
       }
     },
     {
@@ -5786,7 +5860,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.842933+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.419056+00:00"
       }
     },
     {
@@ -5799,7 +5873,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/team.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.904826+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.736074+00:00"
       }
     },
     {
@@ -5812,7 +5886,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/team.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.904854+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.736084+00:00"
       }
     },
     {
@@ -5825,7 +5899,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/team.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.904859+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.736089+00:00"
       }
     },
     {
@@ -5838,7 +5912,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/team.json",
         "provider_id": null,
-        "retrieved_at": "2026-09-03T14:24:29.904862+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.736092+00:00"
       }
     }
   ],
@@ -5882,7 +5956,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948650415",
-        "retrieved_at": "2026-09-03T14:24:29.770165+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348622+00:00"
       }
     },
     {
@@ -5924,7 +5998,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948650669",
-        "retrieved_at": "2026-09-03T14:24:29.770174+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348638+00:00"
       }
     },
     {
@@ -5966,7 +6040,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948640917",
-        "retrieved_at": "2026-09-03T14:24:29.770179+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348643+00:00"
       }
     },
     {
@@ -6008,7 +6082,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948658601",
-        "retrieved_at": "2026-09-03T14:24:29.770186+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348647+00:00"
       }
     },
     {
@@ -6050,7 +6124,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948635317",
-        "retrieved_at": "2026-09-03T14:24:29.770190+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348650+00:00"
       }
     },
     {
@@ -6092,7 +6166,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948646905",
-        "retrieved_at": "2026-09-03T14:24:29.770193+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348654+00:00"
       }
     },
     {
@@ -6134,7 +6208,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948654255",
-        "retrieved_at": "2026-09-03T14:24:29.770196+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348657+00:00"
       }
     },
     {
@@ -6176,7 +6250,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948647455",
-        "retrieved_at": "2026-09-03T14:24:29.770199+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348660+00:00"
       }
     },
     {
@@ -6218,7 +6292,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948649385",
-        "retrieved_at": "2026-09-03T14:24:29.770201+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348663+00:00"
       }
     },
     {
@@ -6260,7 +6334,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948627223",
-        "retrieved_at": "2026-09-03T14:24:29.770204+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348670+00:00"
       }
     },
     {
@@ -6302,7 +6376,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948630807",
-        "retrieved_at": "2026-09-03T14:24:29.770207+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348673+00:00"
       }
     },
     {
@@ -6344,7 +6418,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948647707",
-        "retrieved_at": "2026-09-03T14:24:29.770210+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348683+00:00"
       }
     },
     {
@@ -6386,7 +6460,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948637255",
-        "retrieved_at": "2026-09-03T14:24:29.770215+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348686+00:00"
       }
     },
     {
@@ -6428,7 +6502,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948658699",
-        "retrieved_at": "2026-09-03T14:24:29.770218+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348689+00:00"
       }
     },
     {
@@ -6470,7 +6544,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948655927",
-        "retrieved_at": "2026-09-03T14:24:29.770221+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348692+00:00"
       }
     },
     {
@@ -6512,7 +6586,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948656233",
-        "retrieved_at": "2026-09-03T14:24:29.770224+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348695+00:00"
       }
     },
     {
@@ -6554,7 +6628,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948648321",
-        "retrieved_at": "2026-09-03T14:24:29.770229+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348699+00:00"
       }
     },
     {
@@ -6596,7 +6670,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948651887",
-        "retrieved_at": "2026-09-03T14:24:29.770232+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348702+00:00"
       }
     },
     {
@@ -6638,7 +6712,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948632027",
-        "retrieved_at": "2026-09-03T14:24:29.770235+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348707+00:00"
       }
     },
     {
@@ -6680,7 +6754,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948626577",
-        "retrieved_at": "2026-09-03T14:24:29.770238+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348710+00:00"
       }
     },
     {
@@ -6722,7 +6796,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948632897",
-        "retrieved_at": "2026-09-03T14:24:29.770243+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348713+00:00"
       }
     },
     {
@@ -6764,7 +6838,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948634083",
-        "retrieved_at": "2026-09-03T14:24:29.770246+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348716+00:00"
       }
     },
     {
@@ -6806,7 +6880,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948652125",
-        "retrieved_at": "2026-09-03T14:24:29.770249+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348720+00:00"
       }
     },
     {
@@ -6848,7 +6922,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948657353",
-        "retrieved_at": "2026-09-03T14:24:29.770252+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348723+00:00"
       }
     },
     {
@@ -6890,7 +6964,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948658107",
-        "retrieved_at": "2026-09-03T14:24:29.770255+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348728+00:00"
       }
     },
     {
@@ -6932,7 +7006,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948654343",
-        "retrieved_at": "2026-09-03T14:24:29.770258+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348731+00:00"
       }
     },
     {
@@ -6974,7 +7048,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948648461",
-        "retrieved_at": "2026-09-03T14:24:29.770263+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348734+00:00"
       }
     },
     {
@@ -7016,7 +7090,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948650323",
-        "retrieved_at": "2026-09-03T14:24:29.770266+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348739+00:00"
       }
     },
     {
@@ -7058,7 +7132,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948652039",
-        "retrieved_at": "2026-09-03T14:24:29.770271+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348742+00:00"
       }
     },
     {
@@ -7100,7 +7174,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948652121",
-        "retrieved_at": "2026-09-03T14:24:29.770274+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348746+00:00"
       }
     },
     {
@@ -7142,7 +7216,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948652867",
-        "retrieved_at": "2026-09-03T14:24:29.770277+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348749+00:00"
       }
     },
     {
@@ -7184,7 +7258,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948650213",
-        "retrieved_at": "2026-09-03T14:24:29.770285+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348752+00:00"
       }
     },
     {
@@ -7226,7 +7300,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948632563",
-        "retrieved_at": "2026-09-03T14:24:29.770288+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348755+00:00"
       }
     },
     {
@@ -7268,7 +7342,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948658201",
-        "retrieved_at": "2026-09-03T14:24:29.770291+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348758+00:00"
       }
     },
     {
@@ -7310,7 +7384,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948635497",
-        "retrieved_at": "2026-09-03T14:24:29.770294+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348762+00:00"
       }
     },
     {
@@ -7355,7 +7429,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948626577",
-        "retrieved_at": "2026-09-03T14:24:29.770372+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348837+00:00"
       }
     },
     {
@@ -7400,7 +7474,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948627223",
-        "retrieved_at": "2026-09-03T14:24:29.770375+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348842+00:00"
       }
     },
     {
@@ -7445,7 +7519,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948630807",
-        "retrieved_at": "2026-09-03T14:24:29.770378+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348845+00:00"
       }
     },
     {
@@ -7490,7 +7564,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948632027",
-        "retrieved_at": "2026-09-03T14:24:29.770383+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348848+00:00"
       }
     },
     {
@@ -7535,7 +7609,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948632563",
-        "retrieved_at": "2026-09-03T14:24:29.770388+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348851+00:00"
       }
     },
     {
@@ -7580,7 +7654,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948632897",
-        "retrieved_at": "2026-09-03T14:24:29.770391+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348854+00:00"
       }
     },
     {
@@ -7625,7 +7699,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948634083",
-        "retrieved_at": "2026-09-03T14:24:29.770394+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348859+00:00"
       }
     },
     {
@@ -7670,7 +7744,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948635317",
-        "retrieved_at": "2026-09-03T14:24:29.770397+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348861+00:00"
       }
     },
     {
@@ -7715,7 +7789,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948635497",
-        "retrieved_at": "2026-09-03T14:24:29.770400+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348864+00:00"
       }
     },
     {
@@ -7760,7 +7834,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948637255",
-        "retrieved_at": "2026-09-03T14:24:29.770406+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348869+00:00"
       }
     },
     {
@@ -7805,7 +7879,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948640917",
-        "retrieved_at": "2026-09-03T14:24:29.770409+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348874+00:00"
       }
     },
     {
@@ -7850,7 +7924,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948646905",
-        "retrieved_at": "2026-09-03T14:24:29.770412+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348877+00:00"
       }
     },
     {
@@ -7895,7 +7969,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948647455",
-        "retrieved_at": "2026-09-03T14:24:29.770415+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348881+00:00"
       }
     },
     {
@@ -7940,7 +8014,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948647707",
-        "retrieved_at": "2026-09-03T14:24:29.770417+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348884+00:00"
       }
     },
     {
@@ -7985,7 +8059,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948648321",
-        "retrieved_at": "2026-09-03T14:24:29.770422+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348887+00:00"
       }
     },
     {
@@ -8030,7 +8104,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948648461",
-        "retrieved_at": "2026-09-03T14:24:29.770425+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348890+00:00"
       }
     },
     {
@@ -8075,7 +8149,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948649385",
-        "retrieved_at": "2026-09-03T14:24:29.770430+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348893+00:00"
       }
     },
     {
@@ -8120,7 +8194,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948650213",
-        "retrieved_at": "2026-09-03T14:24:29.770432+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348898+00:00"
       }
     },
     {
@@ -8165,7 +8239,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948650323",
-        "retrieved_at": "2026-09-03T14:24:29.770435+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348901+00:00"
       }
     },
     {
@@ -8210,7 +8284,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948650415",
-        "retrieved_at": "2026-09-03T14:24:29.770440+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348904+00:00"
       }
     },
     {
@@ -8255,7 +8329,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948650669",
-        "retrieved_at": "2026-09-03T14:24:29.770443+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348909+00:00"
       }
     },
     {
@@ -8300,7 +8374,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948651887",
-        "retrieved_at": "2026-09-03T14:24:29.770446+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348912+00:00"
       }
     },
     {
@@ -8345,7 +8419,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948652039",
-        "retrieved_at": "2026-09-03T14:24:29.770448+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348918+00:00"
       }
     },
     {
@@ -8390,7 +8464,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948652121",
-        "retrieved_at": "2026-09-03T14:24:29.770451+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348921+00:00"
       }
     },
     {
@@ -8435,7 +8509,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948652125",
-        "retrieved_at": "2026-09-03T14:24:29.770456+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348924+00:00"
       }
     },
     {
@@ -8480,7 +8554,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948652867",
-        "retrieved_at": "2026-09-03T14:24:29.770458+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348927+00:00"
       }
     },
     {
@@ -8525,7 +8599,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948654343",
-        "retrieved_at": "2026-09-03T14:24:29.770461+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348929+00:00"
       }
     },
     {
@@ -8570,7 +8644,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948654255",
-        "retrieved_at": "2026-09-03T14:24:29.770464+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348934+00:00"
       }
     },
     {
@@ -8615,7 +8689,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948655927",
-        "retrieved_at": "2026-09-03T14:24:29.770469+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348937+00:00"
       }
     },
     {
@@ -8660,7 +8734,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948656233",
-        "retrieved_at": "2026-09-03T14:24:29.770473+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348940+00:00"
       }
     },
     {
@@ -8705,7 +8779,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948657353",
-        "retrieved_at": "2026-09-03T14:24:29.770479+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348945+00:00"
       }
     },
     {
@@ -8750,7 +8824,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948658107",
-        "retrieved_at": "2026-09-03T14:24:29.770482+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348948+00:00"
       }
     },
     {
@@ -8795,7 +8869,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948658201",
-        "retrieved_at": "2026-09-03T14:24:29.770485+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348951+00:00"
       }
     },
     {
@@ -8840,7 +8914,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948658601",
-        "retrieved_at": "2026-09-03T14:24:29.770487+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348955+00:00"
       }
     },
     {
@@ -8885,7 +8959,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "2948658699",
-        "retrieved_at": "2026-09-03T14:24:29.770490+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.348958+00:00"
       }
     },
     {
@@ -8927,7 +9001,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951501493",
-        "retrieved_at": "2026-09-03T14:24:29.786168+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364799+00:00"
       }
     },
     {
@@ -8969,7 +9043,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951504743",
-        "retrieved_at": "2026-09-03T14:24:29.786177+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364808+00:00"
       }
     },
     {
@@ -9011,7 +9085,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951516283",
-        "retrieved_at": "2026-09-03T14:24:29.786181+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364811+00:00"
       }
     },
     {
@@ -9053,7 +9127,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951526579",
-        "retrieved_at": "2026-09-03T14:24:29.786184+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364814+00:00"
       }
     },
     {
@@ -9095,7 +9169,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951518263",
-        "retrieved_at": "2026-09-03T14:24:29.786188+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364818+00:00"
       }
     },
     {
@@ -9137,7 +9211,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951520751",
-        "retrieved_at": "2026-09-03T14:24:29.786191+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364821+00:00"
       }
     },
     {
@@ -9179,7 +9253,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951496461",
-        "retrieved_at": "2026-09-03T14:24:29.786194+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364824+00:00"
       }
     },
     {
@@ -9221,7 +9295,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951501429",
-        "retrieved_at": "2026-09-03T14:24:29.786197+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364827+00:00"
       }
     },
     {
@@ -9263,7 +9337,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951503337",
-        "retrieved_at": "2026-09-03T14:24:29.786200+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364831+00:00"
       }
     },
     {
@@ -9305,7 +9379,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951524823",
-        "retrieved_at": "2026-09-03T14:24:29.786203+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364834+00:00"
       }
     },
     {
@@ -9347,7 +9421,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951496833",
-        "retrieved_at": "2026-09-03T14:24:29.786218+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364849+00:00"
       }
     },
     {
@@ -9389,7 +9463,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951509001",
-        "retrieved_at": "2026-09-03T14:24:29.786221+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364852+00:00"
       }
     },
     {
@@ -9431,7 +9505,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951519491",
-        "retrieved_at": "2026-09-03T14:24:29.786224+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364855+00:00"
       }
     },
     {
@@ -9473,7 +9547,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951526461",
-        "retrieved_at": "2026-09-03T14:24:29.786227+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364858+00:00"
       }
     },
     {
@@ -9515,7 +9589,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951512321",
-        "retrieved_at": "2026-09-03T14:24:29.786230+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364861+00:00"
       }
     },
     {
@@ -9557,7 +9631,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951507617",
-        "retrieved_at": "2026-09-03T14:24:29.786233+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364864+00:00"
       }
     },
     {
@@ -9599,7 +9673,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951515591",
-        "retrieved_at": "2026-09-03T14:24:29.786236+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364867+00:00"
       }
     },
     {
@@ -9641,7 +9715,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951496997",
-        "retrieved_at": "2026-09-03T14:24:29.786239+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364870+00:00"
       }
     },
     {
@@ -9683,7 +9757,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951509277",
-        "retrieved_at": "2026-09-03T14:24:29.786242+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364874+00:00"
       }
     },
     {
@@ -9725,7 +9799,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951514037",
-        "retrieved_at": "2026-09-03T14:24:29.786245+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364877+00:00"
       }
     },
     {
@@ -9767,7 +9841,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951505539",
-        "retrieved_at": "2026-09-03T14:24:29.786248+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364880+00:00"
       }
     },
     {
@@ -9809,7 +9883,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951507055",
-        "retrieved_at": "2026-09-03T14:24:29.786251+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364882+00:00"
       }
     },
     {
@@ -9851,7 +9925,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951507091",
-        "retrieved_at": "2026-09-03T14:24:29.786254+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364886+00:00"
       }
     },
     {
@@ -9893,7 +9967,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951509407",
-        "retrieved_at": "2026-09-03T14:24:29.786257+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364889+00:00"
       }
     },
     {
@@ -9935,7 +10009,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951515151",
-        "retrieved_at": "2026-09-03T14:24:29.786260+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364892+00:00"
       }
     },
     {
@@ -9977,7 +10051,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951516235",
-        "retrieved_at": "2026-09-03T14:24:29.786263+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364895+00:00"
       }
     },
     {
@@ -10019,7 +10093,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951508933",
-        "retrieved_at": "2026-09-03T14:24:29.786266+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364898+00:00"
       }
     },
     {
@@ -10061,7 +10135,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951521555",
-        "retrieved_at": "2026-09-03T14:24:29.786269+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364901+00:00"
       }
     },
     {
@@ -10103,7 +10177,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951526231",
-        "retrieved_at": "2026-09-03T14:24:29.786272+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364903+00:00"
       }
     },
     {
@@ -10145,7 +10219,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951508469",
-        "retrieved_at": "2026-09-03T14:24:29.786275+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364907+00:00"
       }
     },
     {
@@ -10190,7 +10264,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951496461",
-        "retrieved_at": "2026-09-03T14:24:29.786352+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364985+00:00"
       }
     },
     {
@@ -10235,7 +10309,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951496833",
-        "retrieved_at": "2026-09-03T14:24:29.786355+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364988+00:00"
       }
     },
     {
@@ -10280,7 +10354,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951496997",
-        "retrieved_at": "2026-09-03T14:24:29.786358+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364991+00:00"
       }
     },
     {
@@ -10325,7 +10399,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951501429",
-        "retrieved_at": "2026-09-03T14:24:29.786361+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364995+00:00"
       }
     },
     {
@@ -10370,7 +10444,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951501493",
-        "retrieved_at": "2026-09-03T14:24:29.786364+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.364998+00:00"
       }
     },
     {
@@ -10415,7 +10489,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951503337",
-        "retrieved_at": "2026-09-03T14:24:29.786367+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365000+00:00"
       }
     },
     {
@@ -10460,7 +10534,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951504743",
-        "retrieved_at": "2026-09-03T14:24:29.786370+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365003+00:00"
       }
     },
     {
@@ -10505,7 +10579,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951505539",
-        "retrieved_at": "2026-09-03T14:24:29.786373+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365007+00:00"
       }
     },
     {
@@ -10550,7 +10624,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951507055",
-        "retrieved_at": "2026-09-03T14:24:29.786376+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365010+00:00"
       }
     },
     {
@@ -10595,7 +10669,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951507091",
-        "retrieved_at": "2026-09-03T14:24:29.786378+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365013+00:00"
       }
     },
     {
@@ -10640,7 +10714,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951507617",
-        "retrieved_at": "2026-09-03T14:24:29.786381+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365015+00:00"
       }
     },
     {
@@ -10685,7 +10759,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951508469",
-        "retrieved_at": "2026-09-03T14:24:29.786384+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365018+00:00"
       }
     },
     {
@@ -10730,7 +10804,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951508933",
-        "retrieved_at": "2026-09-03T14:24:29.786387+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365021+00:00"
       }
     },
     {
@@ -10775,7 +10849,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951509001",
-        "retrieved_at": "2026-09-03T14:24:29.786390+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365024+00:00"
       }
     },
     {
@@ -10820,7 +10894,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951509277",
-        "retrieved_at": "2026-09-03T14:24:29.786393+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365027+00:00"
       }
     },
     {
@@ -10865,7 +10939,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951509407",
-        "retrieved_at": "2026-09-03T14:24:29.786396+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365030+00:00"
       }
     },
     {
@@ -10910,7 +10984,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951512321",
-        "retrieved_at": "2026-09-03T14:24:29.786399+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365033+00:00"
       }
     },
     {
@@ -10955,7 +11029,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951514037",
-        "retrieved_at": "2026-09-03T14:24:29.786402+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365037+00:00"
       }
     },
     {
@@ -11000,7 +11074,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951515151",
-        "retrieved_at": "2026-09-03T14:24:29.786405+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365040+00:00"
       }
     },
     {
@@ -11045,7 +11119,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951515591",
-        "retrieved_at": "2026-09-03T14:24:29.786409+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365043+00:00"
       }
     },
     {
@@ -11090,7 +11164,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951516235",
-        "retrieved_at": "2026-09-03T14:24:29.786412+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365046+00:00"
       }
     },
     {
@@ -11135,7 +11209,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951516283",
-        "retrieved_at": "2026-09-03T14:24:29.786414+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365049+00:00"
       }
     },
     {
@@ -11180,7 +11254,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951518263",
-        "retrieved_at": "2026-09-03T14:24:29.786417+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365052+00:00"
       }
     },
     {
@@ -11225,7 +11299,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951519491",
-        "retrieved_at": "2026-09-03T14:24:29.786420+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365054+00:00"
       }
     },
     {
@@ -11270,7 +11344,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951520751",
-        "retrieved_at": "2026-09-03T14:24:29.786423+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365057+00:00"
       }
     },
     {
@@ -11315,7 +11389,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951521555",
-        "retrieved_at": "2026-09-03T14:24:29.786426+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365061+00:00"
       }
     },
     {
@@ -11360,7 +11434,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951524823",
-        "retrieved_at": "2026-09-03T14:24:29.786429+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365064+00:00"
       }
     },
     {
@@ -11405,7 +11479,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951526231",
-        "retrieved_at": "2026-09-03T14:24:29.786432+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365068+00:00"
       }
     },
     {
@@ -11450,7 +11524,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951526461",
-        "retrieved_at": "2026-09-03T14:24:29.786434+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365070+00:00"
       }
     },
     {
@@ -11495,7 +11569,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "2951526579",
-        "retrieved_at": "2026-09-03T14:24:29.786437+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.365073+00:00"
       }
     },
     {
@@ -11537,7 +11611,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952669167",
-        "retrieved_at": "2026-09-03T14:24:29.801340+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380108+00:00"
       }
     },
     {
@@ -11579,7 +11653,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952671001",
-        "retrieved_at": "2026-09-03T14:24:29.801347+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380116+00:00"
       }
     },
     {
@@ -11621,7 +11695,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952654525",
-        "retrieved_at": "2026-09-03T14:24:29.801351+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380120+00:00"
       }
     },
     {
@@ -11663,7 +11737,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952708335",
-        "retrieved_at": "2026-09-03T14:24:29.801354+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380123+00:00"
       }
     },
     {
@@ -11705,7 +11779,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952668653",
-        "retrieved_at": "2026-09-03T14:24:29.801357+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380126+00:00"
       }
     },
     {
@@ -11747,7 +11821,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952719379",
-        "retrieved_at": "2026-09-03T14:24:29.801361+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380129+00:00"
       }
     },
     {
@@ -11789,7 +11863,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952643543",
-        "retrieved_at": "2026-09-03T14:24:29.801370+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380139+00:00"
       }
     },
     {
@@ -11831,7 +11905,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952663429",
-        "retrieved_at": "2026-09-03T14:24:29.801373+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380142+00:00"
       }
     },
     {
@@ -11873,7 +11947,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952659317",
-        "retrieved_at": "2026-09-03T14:24:29.801376+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380145+00:00"
       }
     },
     {
@@ -11915,7 +11989,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952690515",
-        "retrieved_at": "2026-09-03T14:24:29.801379+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380148+00:00"
       }
     },
     {
@@ -11957,7 +12031,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952664275",
-        "retrieved_at": "2026-09-03T14:24:29.801382+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380151+00:00"
       }
     },
     {
@@ -11999,7 +12073,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952701017",
-        "retrieved_at": "2026-09-03T14:24:29.801386+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380154+00:00"
       }
     },
     {
@@ -12041,7 +12115,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952705203",
-        "retrieved_at": "2026-09-03T14:24:29.801390+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380157+00:00"
       }
     },
     {
@@ -12083,7 +12157,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952721067",
-        "retrieved_at": "2026-09-03T14:24:29.801393+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380160+00:00"
       }
     },
     {
@@ -12125,7 +12199,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952695613",
-        "retrieved_at": "2026-09-03T14:24:29.801396+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380163+00:00"
       }
     },
     {
@@ -12167,7 +12241,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952721955",
-        "retrieved_at": "2026-09-03T14:24:29.801400+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380165+00:00"
       }
     },
     {
@@ -12209,7 +12283,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952716691",
-        "retrieved_at": "2026-09-03T14:24:29.801404+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380168+00:00"
       }
     },
     {
@@ -12251,7 +12325,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952718967",
-        "retrieved_at": "2026-09-03T14:24:29.801408+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380171+00:00"
       }
     },
     {
@@ -12293,7 +12367,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952696445",
-        "retrieved_at": "2026-09-03T14:24:29.801411+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380174+00:00"
       }
     },
     {
@@ -12335,7 +12409,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952705271",
-        "retrieved_at": "2026-09-03T14:24:29.801414+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380177+00:00"
       }
     },
     {
@@ -12377,7 +12451,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952642977",
-        "retrieved_at": "2026-09-03T14:24:29.801417+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380180+00:00"
       }
     },
     {
@@ -12419,7 +12493,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952691181",
-        "retrieved_at": "2026-09-03T14:24:29.801420+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380183+00:00"
       }
     },
     {
@@ -12461,7 +12535,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952705051",
-        "retrieved_at": "2026-09-03T14:24:29.801423+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380186+00:00"
       }
     },
     {
@@ -12503,7 +12577,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952710289",
-        "retrieved_at": "2026-09-03T14:24:29.801426+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380189+00:00"
       }
     },
     {
@@ -12545,7 +12619,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952713867",
-        "retrieved_at": "2026-09-03T14:24:29.801429+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380192+00:00"
       }
     },
     {
@@ -12587,7 +12661,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952717335",
-        "retrieved_at": "2026-09-03T14:24:29.801432+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380195+00:00"
       }
     },
     {
@@ -12629,7 +12703,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952654487",
-        "retrieved_at": "2026-09-03T14:24:29.801435+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380198+00:00"
       }
     },
     {
@@ -12671,7 +12745,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952655911",
-        "retrieved_at": "2026-09-03T14:24:29.801438+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380201+00:00"
       }
     },
     {
@@ -12713,7 +12787,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952653271",
-        "retrieved_at": "2026-09-03T14:24:29.801441+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380204+00:00"
       }
     },
     {
@@ -12755,7 +12829,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952660453",
-        "retrieved_at": "2026-09-03T14:24:29.801444+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380207+00:00"
       }
     },
     {
@@ -12797,7 +12871,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952690445",
-        "retrieved_at": "2026-09-03T14:24:29.801447+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380210+00:00"
       }
     },
     {
@@ -12839,7 +12913,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952690449",
-        "retrieved_at": "2026-09-03T14:24:29.801450+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380214+00:00"
       }
     },
     {
@@ -12884,7 +12958,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952642977",
-        "retrieved_at": "2026-09-03T14:24:29.801540+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380306+00:00"
       }
     },
     {
@@ -12929,7 +13003,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952643543",
-        "retrieved_at": "2026-09-03T14:24:29.801544+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380309+00:00"
       }
     },
     {
@@ -12974,7 +13048,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952653271",
-        "retrieved_at": "2026-09-03T14:24:29.801547+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380313+00:00"
       }
     },
     {
@@ -13019,7 +13093,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952654487",
-        "retrieved_at": "2026-09-03T14:24:29.801550+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380316+00:00"
       }
     },
     {
@@ -13064,7 +13138,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952654525",
-        "retrieved_at": "2026-09-03T14:24:29.801553+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380319+00:00"
       }
     },
     {
@@ -13109,7 +13183,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952655911",
-        "retrieved_at": "2026-09-03T14:24:29.801556+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380322+00:00"
       }
     },
     {
@@ -13154,7 +13228,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952659317",
-        "retrieved_at": "2026-09-03T14:24:29.801559+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380325+00:00"
       }
     },
     {
@@ -13199,7 +13273,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952660453",
-        "retrieved_at": "2026-09-03T14:24:29.801562+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380328+00:00"
       }
     },
     {
@@ -13244,7 +13318,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952663429",
-        "retrieved_at": "2026-09-03T14:24:29.801565+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380331+00:00"
       }
     },
     {
@@ -13289,7 +13363,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952664275",
-        "retrieved_at": "2026-09-03T14:24:29.801568+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380334+00:00"
       }
     },
     {
@@ -13334,7 +13408,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952668653",
-        "retrieved_at": "2026-09-03T14:24:29.801571+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380338+00:00"
       }
     },
     {
@@ -13379,7 +13453,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952669167",
-        "retrieved_at": "2026-09-03T14:24:29.801574+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380341+00:00"
       }
     },
     {
@@ -13424,7 +13498,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952671001",
-        "retrieved_at": "2026-09-03T14:24:29.801577+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380344+00:00"
       }
     },
     {
@@ -13469,7 +13543,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952690445",
-        "retrieved_at": "2026-09-03T14:24:29.801580+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380347+00:00"
       }
     },
     {
@@ -13514,7 +13588,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952690449",
-        "retrieved_at": "2026-09-03T14:24:29.801583+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380350+00:00"
       }
     },
     {
@@ -13559,7 +13633,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952690515",
-        "retrieved_at": "2026-09-03T14:24:29.801586+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380353+00:00"
       }
     },
     {
@@ -13604,7 +13678,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952691181",
-        "retrieved_at": "2026-09-03T14:24:29.801589+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380356+00:00"
       }
     },
     {
@@ -13649,7 +13723,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952695613",
-        "retrieved_at": "2026-09-03T14:24:29.801593+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380360+00:00"
       }
     },
     {
@@ -13694,7 +13768,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952696445",
-        "retrieved_at": "2026-09-03T14:24:29.801596+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380363+00:00"
       }
     },
     {
@@ -13739,7 +13813,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952701017",
-        "retrieved_at": "2026-09-03T14:24:29.801599+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380366+00:00"
       }
     },
     {
@@ -13784,7 +13858,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952705051",
-        "retrieved_at": "2026-09-03T14:24:29.801602+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380369+00:00"
       }
     },
     {
@@ -13829,7 +13903,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952705203",
-        "retrieved_at": "2026-09-03T14:24:29.801605+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380372+00:00"
       }
     },
     {
@@ -13874,7 +13948,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952705271",
-        "retrieved_at": "2026-09-03T14:24:29.801608+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380375+00:00"
       }
     },
     {
@@ -13919,7 +13993,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952708335",
-        "retrieved_at": "2026-09-03T14:24:29.801611+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380378+00:00"
       }
     },
     {
@@ -13964,7 +14038,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952710289",
-        "retrieved_at": "2026-09-03T14:24:29.801614+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380381+00:00"
       }
     },
     {
@@ -14009,7 +14083,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952713867",
-        "retrieved_at": "2026-09-03T14:24:29.801617+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380385+00:00"
       }
     },
     {
@@ -14054,7 +14128,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952716691",
-        "retrieved_at": "2026-09-03T14:24:29.801620+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380388+00:00"
       }
     },
     {
@@ -14099,7 +14173,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952717335",
-        "retrieved_at": "2026-09-03T14:24:29.801623+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380391+00:00"
       }
     },
     {
@@ -14144,7 +14218,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952718967",
-        "retrieved_at": "2026-09-03T14:24:29.801626+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380394+00:00"
       }
     },
     {
@@ -14189,7 +14263,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952719379",
-        "retrieved_at": "2026-09-03T14:24:29.801629+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380411+00:00"
       }
     },
     {
@@ -14234,7 +14308,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952721067",
-        "retrieved_at": "2026-09-03T14:24:29.801632+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380415+00:00"
       }
     },
     {
@@ -14279,7 +14353,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "2952721955",
-        "retrieved_at": "2026-09-03T14:24:29.801635+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.380418+00:00"
       }
     },
     {
@@ -14321,7 +14395,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959078047",
-        "retrieved_at": "2026-09-03T14:24:29.817131+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395132+00:00"
       }
     },
     {
@@ -14363,7 +14437,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959151337",
-        "retrieved_at": "2026-09-03T14:24:29.817145+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395139+00:00"
       }
     },
     {
@@ -14405,7 +14479,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959058123",
-        "retrieved_at": "2026-09-03T14:24:29.817148+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395142+00:00"
       }
     },
     {
@@ -14447,7 +14521,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959079051",
-        "retrieved_at": "2026-09-03T14:24:29.817152+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395146+00:00"
       }
     },
     {
@@ -14489,7 +14563,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959085357",
-        "retrieved_at": "2026-09-03T14:24:29.817155+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395149+00:00"
       }
     },
     {
@@ -14531,7 +14605,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959092907",
-        "retrieved_at": "2026-09-03T14:24:29.817159+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395152+00:00"
       }
     },
     {
@@ -14573,7 +14647,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959122903",
-        "retrieved_at": "2026-09-03T14:24:29.817162+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395156+00:00"
       }
     },
     {
@@ -14615,7 +14689,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959067715",
-        "retrieved_at": "2026-09-03T14:24:29.817166+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395159+00:00"
       }
     },
     {
@@ -14657,7 +14731,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959060847",
-        "retrieved_at": "2026-09-03T14:24:29.817169+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395162+00:00"
       }
     },
     {
@@ -14699,7 +14773,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959081965",
-        "retrieved_at": "2026-09-03T14:24:29.817172+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395165+00:00"
       }
     },
     {
@@ -14741,7 +14815,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959162359",
-        "retrieved_at": "2026-09-03T14:24:29.817176+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395168+00:00"
       }
     },
     {
@@ -14783,7 +14857,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959154701",
-        "retrieved_at": "2026-09-03T14:24:29.817180+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395172+00:00"
       }
     },
     {
@@ -14825,7 +14899,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959138191",
-        "retrieved_at": "2026-09-03T14:24:29.817184+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395175+00:00"
       }
     },
     {
@@ -14867,7 +14941,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959139603",
-        "retrieved_at": "2026-09-03T14:24:29.817187+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395179+00:00"
       }
     },
     {
@@ -14909,7 +14983,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959157165",
-        "retrieved_at": "2026-09-03T14:24:29.817191+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395182+00:00"
       }
     },
     {
@@ -14951,7 +15025,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959124249",
-        "retrieved_at": "2026-09-03T14:24:29.817194+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395185+00:00"
       }
     },
     {
@@ -14993,7 +15067,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959154215",
-        "retrieved_at": "2026-09-03T14:24:29.817198+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395188+00:00"
       }
     },
     {
@@ -15035,7 +15109,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959045309",
-        "retrieved_at": "2026-09-03T14:24:29.817201+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395191+00:00"
       }
     },
     {
@@ -15077,7 +15151,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959063003",
-        "retrieved_at": "2026-09-03T14:24:29.817205+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395194+00:00"
       }
     },
     {
@@ -15119,7 +15193,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959152861",
-        "retrieved_at": "2026-09-03T14:24:29.817212+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395200+00:00"
       }
     },
     {
@@ -15161,7 +15235,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959073037",
-        "retrieved_at": "2026-09-03T14:24:29.817215+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395203+00:00"
       }
     },
     {
@@ -15203,7 +15277,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959070781",
-        "retrieved_at": "2026-09-03T14:24:29.817219+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395207+00:00"
       }
     },
     {
@@ -15245,7 +15319,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959141999",
-        "retrieved_at": "2026-09-03T14:24:29.817222+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395210+00:00"
       }
     },
     {
@@ -15287,7 +15361,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959164649",
-        "retrieved_at": "2026-09-03T14:24:29.817226+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395213+00:00"
       }
     },
     {
@@ -15329,7 +15403,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959166727",
-        "retrieved_at": "2026-09-03T14:24:29.817229+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395216+00:00"
       }
     },
     {
@@ -15371,7 +15445,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959131993",
-        "retrieved_at": "2026-09-03T14:24:29.817232+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395219+00:00"
       }
     },
     {
@@ -15413,7 +15487,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959149107",
-        "retrieved_at": "2026-09-03T14:24:29.817235+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395222+00:00"
       }
     },
     {
@@ -15455,7 +15529,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959079747",
-        "retrieved_at": "2026-09-03T14:24:29.817239+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395225+00:00"
       }
     },
     {
@@ -15500,7 +15574,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959045309",
-        "retrieved_at": "2026-09-03T14:24:29.817339+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395323+00:00"
       }
     },
     {
@@ -15545,7 +15619,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959058123",
-        "retrieved_at": "2026-09-03T14:24:29.817343+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395326+00:00"
       }
     },
     {
@@ -15590,7 +15664,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959060847",
-        "retrieved_at": "2026-09-03T14:24:29.817346+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395329+00:00"
       }
     },
     {
@@ -15635,7 +15709,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959063003",
-        "retrieved_at": "2026-09-03T14:24:29.817349+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395332+00:00"
       }
     },
     {
@@ -15680,7 +15754,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959073037",
-        "retrieved_at": "2026-09-03T14:24:29.817352+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395335+00:00"
       }
     },
     {
@@ -15725,7 +15799,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959067715",
-        "retrieved_at": "2026-09-03T14:24:29.817355+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395338+00:00"
       }
     },
     {
@@ -15770,7 +15844,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959070781",
-        "retrieved_at": "2026-09-03T14:24:29.817358+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395341+00:00"
       }
     },
     {
@@ -15815,7 +15889,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959081965",
-        "retrieved_at": "2026-09-03T14:24:29.817361+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395344+00:00"
       }
     },
     {
@@ -15860,7 +15934,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959078047",
-        "retrieved_at": "2026-09-03T14:24:29.817364+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395347+00:00"
       }
     },
     {
@@ -15905,7 +15979,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959079051",
-        "retrieved_at": "2026-09-03T14:24:29.817367+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395349+00:00"
       }
     },
     {
@@ -15950,7 +16024,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959079747",
-        "retrieved_at": "2026-09-03T14:24:29.817371+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395352+00:00"
       }
     },
     {
@@ -15995,7 +16069,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959085357",
-        "retrieved_at": "2026-09-03T14:24:29.817374+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395355+00:00"
       }
     },
     {
@@ -16040,7 +16114,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959092907",
-        "retrieved_at": "2026-09-03T14:24:29.817377+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395358+00:00"
       }
     },
     {
@@ -16085,7 +16159,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959122903",
-        "retrieved_at": "2026-09-03T14:24:29.817380+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395361+00:00"
       }
     },
     {
@@ -16130,7 +16204,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959124249",
-        "retrieved_at": "2026-09-03T14:24:29.817383+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395364+00:00"
       }
     },
     {
@@ -16175,7 +16249,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959131993",
-        "retrieved_at": "2026-09-03T14:24:29.817386+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395367+00:00"
       }
     },
     {
@@ -16220,7 +16294,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959138191",
-        "retrieved_at": "2026-09-03T14:24:29.817389+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395370+00:00"
       }
     },
     {
@@ -16265,7 +16339,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959139603",
-        "retrieved_at": "2026-09-03T14:24:29.817392+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395373+00:00"
       }
     },
     {
@@ -16310,7 +16384,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959141999",
-        "retrieved_at": "2026-09-03T14:24:29.817395+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395376+00:00"
       }
     },
     {
@@ -16355,7 +16429,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959149107",
-        "retrieved_at": "2026-09-03T14:24:29.817398+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395379+00:00"
       }
     },
     {
@@ -16400,7 +16474,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959151337",
-        "retrieved_at": "2026-09-03T14:24:29.817402+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395382+00:00"
       }
     },
     {
@@ -16445,7 +16519,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959152861",
-        "retrieved_at": "2026-09-03T14:24:29.817404+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395385+00:00"
       }
     },
     {
@@ -16490,7 +16564,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959154215",
-        "retrieved_at": "2026-09-03T14:24:29.817407+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395388+00:00"
       }
     },
     {
@@ -16535,7 +16609,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959154701",
-        "retrieved_at": "2026-09-03T14:24:29.817410+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395392+00:00"
       }
     },
     {
@@ -16580,7 +16654,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959157165",
-        "retrieved_at": "2026-09-03T14:24:29.817413+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395395+00:00"
       }
     },
     {
@@ -16625,7 +16699,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959162359",
-        "retrieved_at": "2026-09-03T14:24:29.817416+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395413+00:00"
       }
     },
     {
@@ -16670,7 +16744,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959164649",
-        "retrieved_at": "2026-09-03T14:24:29.817419+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395416+00:00"
       }
     },
     {
@@ -16715,7 +16789,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "2959166727",
-        "retrieved_at": "2026-09-03T14:24:29.817422+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.395419+00:00"
       }
     },
     {
@@ -16757,7 +16831,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961441873",
-        "retrieved_at": "2026-09-03T14:24:29.832062+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.408968+00:00"
       }
     },
     {
@@ -16799,7 +16873,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961513025",
-        "retrieved_at": "2026-09-03T14:24:29.832073+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.408974+00:00"
       }
     },
     {
@@ -16841,7 +16915,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961550217",
-        "retrieved_at": "2026-09-03T14:24:29.832077+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.408978+00:00"
       }
     },
     {
@@ -16883,7 +16957,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961533367",
-        "retrieved_at": "2026-09-03T14:24:29.832081+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.408982+00:00"
       }
     },
     {
@@ -16925,7 +16999,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961568569",
-        "retrieved_at": "2026-09-03T14:24:29.832084+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.408985+00:00"
       }
     },
     {
@@ -16967,7 +17041,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961478591",
-        "retrieved_at": "2026-09-03T14:24:29.832087+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.408988+00:00"
       }
     },
     {
@@ -17009,7 +17083,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961552921",
-        "retrieved_at": "2026-09-03T14:24:29.832091+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.408991+00:00"
       }
     },
     {
@@ -17051,7 +17125,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961553725",
-        "retrieved_at": "2026-09-03T14:24:29.832094+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.408994+00:00"
       }
     },
     {
@@ -17093,7 +17167,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961533373",
-        "retrieved_at": "2026-09-03T14:24:29.832098+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.408997+00:00"
       }
     },
     {
@@ -17135,7 +17209,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961437405",
-        "retrieved_at": "2026-09-03T14:24:29.832101+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409000+00:00"
       }
     },
     {
@@ -17177,7 +17251,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961522445",
-        "retrieved_at": "2026-09-03T14:24:29.832105+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409003+00:00"
       }
     },
     {
@@ -17219,7 +17293,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961556747",
-        "retrieved_at": "2026-09-03T14:24:29.832108+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409007+00:00"
       }
     },
     {
@@ -17261,7 +17335,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961545991",
-        "retrieved_at": "2026-09-03T14:24:29.832112+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409010+00:00"
       }
     },
     {
@@ -17303,7 +17377,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961429361",
-        "retrieved_at": "2026-09-03T14:24:29.832114+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409013+00:00"
       }
     },
     {
@@ -17345,7 +17419,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961454713",
-        "retrieved_at": "2026-09-03T14:24:29.832117+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409016+00:00"
       }
     },
     {
@@ -17387,7 +17461,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961561991",
-        "retrieved_at": "2026-09-03T14:24:29.832121+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409019+00:00"
       }
     },
     {
@@ -17429,7 +17503,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961481539",
-        "retrieved_at": "2026-09-03T14:24:29.832124+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409022+00:00"
       }
     },
     {
@@ -17471,7 +17545,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961417361",
-        "retrieved_at": "2026-09-03T14:24:29.832127+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409024+00:00"
       }
     },
     {
@@ -17513,7 +17587,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961519101",
-        "retrieved_at": "2026-09-03T14:24:29.832131+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409028+00:00"
       }
     },
     {
@@ -17555,7 +17629,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961464171",
-        "retrieved_at": "2026-09-03T14:24:29.832134+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409031+00:00"
       }
     },
     {
@@ -17597,7 +17671,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961518437",
-        "retrieved_at": "2026-09-03T14:24:29.832138+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409033+00:00"
       }
     },
     {
@@ -17639,7 +17713,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961527807",
-        "retrieved_at": "2026-09-03T14:24:29.832141+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409036+00:00"
       }
     },
     {
@@ -17681,7 +17755,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961552411",
-        "retrieved_at": "2026-09-03T14:24:29.832144+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409039+00:00"
       }
     },
     {
@@ -17723,7 +17797,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961569891",
-        "retrieved_at": "2026-09-03T14:24:29.832147+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409042+00:00"
       }
     },
     {
@@ -17765,7 +17839,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961533277",
-        "retrieved_at": "2026-09-03T14:24:29.832150+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409045+00:00"
       }
     },
     {
@@ -17810,7 +17884,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961417361",
-        "retrieved_at": "2026-09-03T14:24:29.832239+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409129+00:00"
       }
     },
     {
@@ -17855,7 +17929,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961429361",
-        "retrieved_at": "2026-09-03T14:24:29.832242+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409132+00:00"
       }
     },
     {
@@ -17900,7 +17974,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961437405",
-        "retrieved_at": "2026-09-03T14:24:29.832245+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409135+00:00"
       }
     },
     {
@@ -17945,7 +18019,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961441873",
-        "retrieved_at": "2026-09-03T14:24:29.832248+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409138+00:00"
       }
     },
     {
@@ -17990,7 +18064,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961454713",
-        "retrieved_at": "2026-09-03T14:24:29.832251+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409141+00:00"
       }
     },
     {
@@ -18035,7 +18109,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961464171",
-        "retrieved_at": "2026-09-03T14:24:29.832254+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409144+00:00"
       }
     },
     {
@@ -18080,7 +18154,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961478591",
-        "retrieved_at": "2026-09-03T14:24:29.832257+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409147+00:00"
       }
     },
     {
@@ -18125,7 +18199,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961481539",
-        "retrieved_at": "2026-09-03T14:24:29.832261+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409150+00:00"
       }
     },
     {
@@ -18170,7 +18244,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961513025",
-        "retrieved_at": "2026-09-03T14:24:29.832264+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409153+00:00"
       }
     },
     {
@@ -18215,7 +18289,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961518437",
-        "retrieved_at": "2026-09-03T14:24:29.832268+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409156+00:00"
       }
     },
     {
@@ -18260,7 +18334,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961519101",
-        "retrieved_at": "2026-09-03T14:24:29.832271+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409160+00:00"
       }
     },
     {
@@ -18305,7 +18379,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961522445",
-        "retrieved_at": "2026-09-03T14:24:29.832274+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409163+00:00"
       }
     },
     {
@@ -18350,7 +18424,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961527807",
-        "retrieved_at": "2026-09-03T14:24:29.832277+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409166+00:00"
       }
     },
     {
@@ -18395,7 +18469,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961533277",
-        "retrieved_at": "2026-09-03T14:24:29.832280+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409169+00:00"
       }
     },
     {
@@ -18440,7 +18514,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961533367",
-        "retrieved_at": "2026-09-03T14:24:29.832283+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409172+00:00"
       }
     },
     {
@@ -18485,7 +18559,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961533373",
-        "retrieved_at": "2026-09-03T14:24:29.832287+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409175+00:00"
       }
     },
     {
@@ -18530,7 +18604,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961545991",
-        "retrieved_at": "2026-09-03T14:24:29.832290+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409178+00:00"
       }
     },
     {
@@ -18575,7 +18649,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961550217",
-        "retrieved_at": "2026-09-03T14:24:29.832293+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409181+00:00"
       }
     },
     {
@@ -18620,7 +18694,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961552411",
-        "retrieved_at": "2026-09-03T14:24:29.832296+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409184+00:00"
       }
     },
     {
@@ -18665,7 +18739,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961552921",
-        "retrieved_at": "2026-09-03T14:24:29.832299+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409187+00:00"
       }
     },
     {
@@ -18710,7 +18784,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961553725",
-        "retrieved_at": "2026-09-03T14:24:29.832303+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409190+00:00"
       }
     },
     {
@@ -18755,7 +18829,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961556747",
-        "retrieved_at": "2026-09-03T14:24:29.832306+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409193+00:00"
       }
     },
     {
@@ -18800,7 +18874,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961561991",
-        "retrieved_at": "2026-09-03T14:24:29.832309+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409196+00:00"
       }
     },
     {
@@ -18845,7 +18919,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961568569",
-        "retrieved_at": "2026-09-03T14:24:29.832313+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409199+00:00"
       }
     },
     {
@@ -18890,13 +18964,13 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "2961569891",
-        "retrieved_at": "2026-09-03T14:24:29.832316+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.409202+00:00"
       }
     }
   ],
   "spatial_actions": [],
   "counts": {
-    "matches": 6,
+    "matches": 7,
     "players": 15,
     "events": 144,
     "shots": 300,
@@ -18908,14 +18982,14 @@
       "kind": "weakness",
       "title": "Balance negativo de ocasiones",
       "evidence": "xGA 15.65 > xG 14.06; cobertura 98%",
-      "confidence": 82,
+      "confidence": 84,
       "status": "pattern"
     },
     {
       "kind": "weakness",
       "title": "Exposición a volumen de tiros rival",
-      "evidence": "182 tiros recibidos frente a 118 realizados; cobertura 83%",
-      "confidence": 74,
+      "evidence": "182 tiros recibidos frente a 118 realizados; cobertura 71%",
+      "confidence": 75,
       "status": "pattern"
     },
     {
@@ -18940,7 +19014,7 @@
     "sources": [
       {
         "source": "understat",
-        "retrieved_at": "2026-09-03T14:24:27.758630+00:00",
+        "retrieved_at": "2026-09-03T14:25:49.398559+00:00",
         "layers": {},
         "records": {},
         "errors": [],
@@ -18950,12 +19024,12 @@
       {
         "source": "official-sites",
         "status": "partial",
-        "retrieved_at": "2026-09-03T14:24:27.819419+00:00",
+        "retrieved_at": "2026-09-03T14:25:49.457240+00:00",
         "layers": {
           "news": "available"
         },
         "records": {
-          "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215555
+          "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 216142
         },
         "errors": [
           {
@@ -18967,7 +19041,7 @@
       {
         "source": "fotmob",
         "status": "partial",
-        "retrieved_at": "2026-09-03T14:24:26.110951+00:00",
+        "retrieved_at": "2026-09-03T14:25:40.862462+00:00",
         "layers": {
           "team": "available",
           "players": "available",
@@ -18978,8 +19052,11 @@
         },
         "records": {
           "team": 1,
+          "player_profiles": 19,
+          "transfers": 1,
           "matches": 6,
-          "match_details": 6,
+          "match_details": 0,
+          "match_details_skipped_existing": 6,
           "heatmaps": 0
         },
         "errors": [
@@ -19009,7 +19086,7 @@
       {
         "source": "sofascore",
         "status": "error",
-        "retrieved_at": "2026-09-03T14:24:27.650871+00:00",
+        "retrieved_at": "2026-09-03T14:25:49.222018+00:00",
         "team": "Pogoń Szczecin",
         "layers": {},
         "records": {},
@@ -19020,12 +19097,12 @@
         ]
       }
     ],
-    "sample_matches": 6
+    "sample_matches": 7
   },
   "sources": [
     {
       "source": "understat",
-      "retrieved_at": "2026-09-03T14:24:27.758630+00:00",
+      "retrieved_at": "2026-09-03T14:25:49.398559+00:00",
       "layers": {},
       "records": {},
       "errors": [],
@@ -19035,12 +19112,12 @@
     {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-03T14:24:27.819419+00:00",
+      "retrieved_at": "2026-09-03T14:25:49.457240+00:00",
       "layers": {
         "news": "available"
       },
       "records": {
-        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215555
+        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 216142
       },
       "errors": [
         {
@@ -19052,7 +19129,7 @@
     {
       "source": "fotmob",
       "status": "partial",
-      "retrieved_at": "2026-09-03T14:24:26.110951+00:00",
+      "retrieved_at": "2026-09-03T14:25:40.862462+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -19063,8 +19140,11 @@
       },
       "records": {
         "team": 1,
+        "player_profiles": 19,
+        "transfers": 1,
         "matches": 6,
-        "match_details": 6,
+        "match_details": 0,
+        "match_details_skipped_existing": 6,
         "heatmaps": 0
       },
       "errors": [
@@ -19094,7 +19174,7 @@
     {
       "source": "sofascore",
       "status": "error",
-      "retrieved_at": "2026-09-03T14:24:27.650871+00:00",
+      "retrieved_at": "2026-09-03T14:25:49.222018+00:00",
       "team": "Pogoń Szczecin",
       "layers": {},
       "records": {},

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4",
   "model": "FOSI metrics",
-  "generated_at": "2026-09-03T14:24:30.478870+00:00",
+  "generated_at": "2026-09-03T14:25:52.282979+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -23,8 +23,8 @@
     "goals_for": {
       "value": 7.0,
       "observed": 6,
-      "total": 6,
-      "coverage": 1.0,
+      "total": 7,
+      "coverage": 0.857,
       "unit": "goals",
       "status": "observed",
       "source": null
@@ -32,16 +32,16 @@
     "goals_against": {
       "value": 8.0,
       "observed": 6,
-      "total": 6,
-      "coverage": 1.0,
+      "total": 7,
+      "coverage": 0.857,
       "unit": "goals",
       "status": "observed",
       "source": null
     },
     "goals_for_per_match": {
       "value": 1.17,
-      "observed": 6,
-      "total": 6,
+      "observed": 7,
+      "total": 7,
       "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
@@ -49,8 +49,8 @@
     },
     "goals_against_per_match": {
       "value": 1.33,
-      "observed": 6,
-      "total": 6,
+      "observed": 7,
+      "total": 7,
       "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
@@ -93,18 +93,18 @@
       "source": null
     },
     "xg_per_match": {
-      "value": 2.34,
-      "observed": 6,
-      "total": 6,
+      "value": 2.01,
+      "observed": 7,
+      "total": 7,
       "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
       "source": null
     },
     "xga_per_match": {
-      "value": 2.61,
-      "observed": 6,
-      "total": 6,
+      "value": 2.24,
+      "observed": 7,
+      "total": 7,
       "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
@@ -131,8 +131,8 @@
     "shots_for": {
       "value": 118,
       "observed": 5,
-      "total": 6,
-      "coverage": 0.833,
+      "total": 7,
+      "coverage": 0.714,
       "unit": "shots",
       "status": "observed",
       "source": null
@@ -140,16 +140,16 @@
     "shots_against": {
       "value": 182,
       "observed": 5,
-      "total": 6,
-      "coverage": 0.833,
+      "total": 7,
+      "coverage": 0.714,
       "unit": "shots",
       "status": "observed",
       "source": null
     },
     "matches_sample": {
-      "value": 6,
-      "observed": 6,
-      "total": 6,
+      "value": 7,
+      "observed": 7,
+      "total": 7,
       "coverage": 1.0,
       "unit": "matches",
       "status": "observed",
@@ -465,6 +465,26 @@
       "result": "L",
       "goals_for": 0.0,
       "goals_against": 4.0
+    },
+    {
+      "match_id": "5803974",
+      "date": null,
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": null,
+        "name": null
+      },
+      "away_team": {
+        "id": null,
+        "name": null
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "result": null,
+      "goals_for": null,
+      "goals_against": null
     }
   ],
   "shot_zones_for": {
@@ -499,7 +519,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "5803967",
-        "retrieved_at": "2026-09-03T14:24:29.822697+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.400070+00:00"
       }
     },
     {
@@ -526,7 +546,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "5803955",
-        "retrieved_at": "2026-09-03T14:24:29.807517+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.385740+00:00"
       }
     },
     {
@@ -553,7 +573,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "5803936",
-        "retrieved_at": "2026-09-03T14:24:29.791933+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.370592+00:00"
       }
     },
     {
@@ -580,7 +600,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "5803923",
-        "retrieved_at": "2026-09-03T14:24:29.776676+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.355351+00:00"
       }
     },
     {
@@ -607,7 +627,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "5803899",
-        "retrieved_at": "2026-09-03T14:24:29.760174+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.338421+00:00"
       }
     },
     {
@@ -634,7 +654,34 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": "5904696",
-        "retrieved_at": "2026-09-03T14:24:29.836202+00:00"
+        "retrieved_at": "2026-09-03T14:25:51.412573+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5803974",
+      "provider": "fotmob",
+      "provider_id": "5803974",
+      "date": null,
+      "competition": "Ekstraklasa",
+      "round": null,
+      "home_team": {
+        "id": null,
+        "name": null
+      },
+      "away_team": {
+        "id": null,
+        "name": null
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "result_for_home": null,
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/players/280965.json",
+        "provider_id": "5803974",
+        "retrieved_at": "2026-09-03T14:25:51.525752+00:00"
       }
     }
   ],
@@ -821,7 +868,7 @@
     }
   ],
   "coverage": {
-    "normalized_records": 465,
+    "normalized_records": 466,
     "attributed_shots": 300
   }
 }

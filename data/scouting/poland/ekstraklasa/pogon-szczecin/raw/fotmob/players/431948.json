@@ -1,0 +1,5773 @@
+{
+  "id": 431948,
+  "name": "Kellyn Acosta",
+  "birthDate": {
+    "utcTime": "1995-07-24T00:00:00.000Z",
+    "timezone": "UTC"
+  },
+  "contractEnd": {
+    "utcTime": "2027-06-30T00:00:00.000Z",
+    "timezone": "UTC"
+  },
+  "isCoach": false,
+  "isCaptain": false,
+  "gender": "male",
+  "primaryTeam": {
+    "teamId": 8023,
+    "teamName": "Pogoń Szczecin",
+    "onLoan": false,
+    "teamColors": {
+      "color": "#102457",
+      "colorAlternate": "#1753a4",
+      "colorAway": "#880E02",
+      "colorAwayAlternate": "#9f2815"
+    }
+  },
+  "positionDescription": {
+    "positions": [
+      {
+        "strPos": {
+          "label": "Right Back",
+          "key": "rightback"
+        },
+        "strPosShort": {
+          "label": "RB",
+          "key": "rightback_short"
+        },
+        "occurences": 1,
+        "position": "32",
+        "isMainPosition": false,
+        "pitchPositionData": null
+      },
+      {
+        "strPos": {
+          "label": "Defensive Midfielder",
+          "key": "centerdefensivemidfielder"
+        },
+        "strPosShort": {
+          "label": "DM",
+          "key": "centerdefensivemidfielder_short"
+        },
+        "occurences": 6,
+        "position": "64",
+        "isMainPosition": true,
+        "pitchPositionData": {
+          "right": 0.5,
+          "top": 0.58
+        }
+      },
+      {
+        "strPos": {
+          "label": "Central Midfielder",
+          "key": "centermidfielder"
+        },
+        "strPosShort": {
+          "label": "CM",
+          "key": "centermidfielder_short"
+        },
+        "occurences": 5,
+        "position": "74",
+        "isMainPosition": false,
+        "pitchPositionData": {
+          "right": 0.5,
+          "top": 0.42,
+          "ratio": 0.5846153846153846
+        }
+      },
+      {
+        "strPos": {
+          "label": "Attacking Midfielder",
+          "key": "centerattackingmidfielder"
+        },
+        "strPosShort": {
+          "label": "AM",
+          "key": "centerattackingmidfielder_short"
+        },
+        "occurences": 1,
+        "position": "84",
+        "isMainPosition": false,
+        "pitchPositionData": null
+      }
+    ],
+    "primaryPosition": {
+      "label": "Defensive Midfielder",
+      "key": "centerdefensivemidfielder"
+    },
+    "nonPrimaryPositions": [
+      {
+        "label": "Central Midfielder",
+        "key": "centermidfielder"
+      }
+    ]
+  },
+  "injuryInformation": null,
+  "internationalDuty": null,
+  "playerInformation": [
+    {
+      "value": {
+        "numberValue": 177,
+        "key": null,
+        "fallback": "177 cm"
+      },
+      "title": "Height",
+      "translationKey": "height_sentencecase"
+    },
+    {
+      "value": {
+        "numberValue": 3,
+        "options": {},
+        "key": null,
+        "fallback": 3
+      },
+      "title": "Shirt",
+      "translationKey": "shirt"
+    },
+    {
+      "value": {
+        "numberValue": 31,
+        "options": {
+          "style": "unit",
+          "unit": "year",
+          "unitDisplay": "long"
+        },
+        "key": null,
+        "fallback": "31"
+      },
+      "title": "Age",
+      "translationKey": "age_sentencecase"
+    },
+    {
+      "value": {
+        "key": "right",
+        "fallback": "Right"
+      },
+      "title": "Preferred foot",
+      "translationKey": "preferred_foot"
+    },
+    {
+      "value": {
+        "key": null,
+        "fallback": "USA"
+      },
+      "title": "Country",
+      "translationKey": "country_sentencecase",
+      "icon": {
+        "type": "country",
+        "id": "USA"
+      },
+      "countryCode": "USA"
+    },
+    {
+      "value": {
+        "numberValue": 547379,
+        "key": null,
+        "fallback": "€547.4k"
+      },
+      "title": "Market value",
+      "translationKey": "transfer_value"
+    },
+    {
+      "value": {
+        "dateValue": "2027-06-30",
+        "key": null,
+        "fallback": {
+          "utcTime": "2027-06-30T00:00:00.000Z",
+          "timezone": "UTC"
+        }
+      },
+      "title": "Contract end",
+      "translationKey": "contract_end"
+    }
+  ],
+  "mainLeague": {
+    "leagueId": 196,
+    "leagueName": "Ekstraklasa",
+    "season": "2026/2027",
+    "stats": [
+      {
+        "title": "Goals",
+        "localizedTitleId": "goals",
+        "value": 1
+      },
+      {
+        "title": "Assists",
+        "localizedTitleId": "assists",
+        "value": 0
+      },
+      {
+        "title": "Started",
+        "localizedTitleId": "started",
+        "value": 3
+      },
+      {
+        "title": "Matches",
+        "localizedTitleId": "matches_uppercase",
+        "value": 5
+      },
+      {
+        "title": "Minutes played",
+        "localizedTitleId": "minutes_played",
+        "value": 282
+      },
+      {
+        "title": "Rating",
+        "localizedTitleId": "rating",
+        "value": 7.02
+      },
+      {
+        "title": "Yellow cards",
+        "localizedTitleId": "yellow_cards",
+        "value": 1
+      },
+      {
+        "title": "Red cards",
+        "localizedTitleId": "red_cards",
+        "value": 0
+      }
+    ]
+  },
+  "trophies": {
+    "playerTrophies": [
+      {
+        "ccode": "USA",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC",
+        "tournaments": [
+          {
+            "ccode": "USA",
+            "leagueId": 130,
+            "leagueName": "MLS",
+            "seasonsWon": [
+              "2022"
+            ],
+            "seasonsRunnerUp": []
+          }
+        ]
+      },
+      {
+        "ccode": "INT",
+        "teamId": 6713,
+        "teamName": "USA",
+        "tournaments": [
+          {
+            "ccode": "USA",
+            "leagueId": 9821,
+            "leagueName": "Concacaf Nations League",
+            "seasonsWon": [
+              "2019/2020"
+            ],
+            "seasonsRunnerUp": []
+          },
+          {
+            "ccode": "USA",
+            "leagueId": 298,
+            "leagueName": "CONCACAF Gold Cup",
+            "seasonsWon": [
+              "2021",
+              "2017 USA"
+            ],
+            "seasonsRunnerUp": []
+          }
+        ]
+      },
+      {
+        "ccode": "USA",
+        "teamId": 6399,
+        "teamName": "FC Dallas",
+        "tournaments": [
+          {
+            "ccode": "USA",
+            "leagueId": 9441,
+            "leagueName": "Open Cup",
+            "seasonsWon": [
+              "2016"
+            ],
+            "seasonsRunnerUp": []
+          }
+        ]
+      }
+    ],
+    "coachTrophies": []
+  },
+  "recentMatches": [
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8021,
+      "opponentTeamName": "Zagłębie Lubin",
+      "isHomeTeam": false,
+      "id": 5803967,
+      "matchDate": {
+        "utcTime": "2026-08-29T18:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#5803967",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "minutesPlayed": 63,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.6",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 84,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 10265,
+      "opponentTeamName": "Wisła Kraków",
+      "isHomeTeam": true,
+      "id": 5803955,
+      "matchDate": {
+        "utcTime": "2026-08-23T18:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-krakow/2rkl8v#5803955",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 2,
+      "minutesPlayed": 7,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 89466,
+      "opponentTeamName": "Motor Lublin",
+      "isHomeTeam": true,
+      "id": 5803936,
+      "matchDate": {
+        "utcTime": "2026-08-08T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-motor-lublin/26lbxv7#5803936",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 1,
+      "minutesPlayed": 33,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.6",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 2186,
+      "opponentTeamName": "Cracovia",
+      "isHomeTeam": false,
+      "id": 5803923,
+      "matchDate": {
+        "utcTime": "2026-08-03T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/cracovia-vs-pogon-szczecin/v17vs#5803923",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "minutesPlayed": 90,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.4",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 66,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8673,
+      "opponentTeamName": "Legia Warszawa",
+      "isHomeTeam": true,
+      "id": 5803899,
+      "matchDate": {
+        "utcTime": "2026-07-24T18:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-legia-warszawa/2azq1p#5803899",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "minutesPlayed": 89,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.6",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 66,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8695,
+      "opponentTeamName": "Fenerbahçe",
+      "isHomeTeam": false,
+      "id": 5904696,
+      "matchDate": {
+        "utcTime": "2026-07-11T17:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-fenerbahce/2b7log#5904696",
+      "leagueId": 489,
+      "leagueName": "Club Friendlies",
+      "stage": null,
+      "homeScore": 4,
+      "awayScore": 0,
+      "minutesPlayed": 32,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.2",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 4023,
+      "opponentTeamName": "GKS Katowice",
+      "isHomeTeam": true,
+      "id": 4803721,
+      "matchDate": {
+        "utcTime": "2026-05-23T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/gks-katowice-vs-pogon-szczecin/177d4w#4803721",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minutesPlayed": 32,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8021,
+      "opponentTeamName": "Zagłębie Lubin",
+      "isHomeTeam": false,
+      "id": 4803715,
+      "matchDate": {
+        "utcTime": "2026-05-15T16:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#4803715",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 1957,
+      "opponentTeamName": "Jagiellonia Białystok",
+      "isHomeTeam": false,
+      "id": 4803700,
+      "matchDate": {
+        "utcTime": "2026-05-09T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/jagiellonia-biaystok-vs-pogon-szczecin/tno4d#4803700",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 2,
+      "minutesPlayed": 65,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.3",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 76,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8243,
+      "opponentTeamName": "Wisła Płock",
+      "isHomeTeam": true,
+      "id": 4803694,
+      "matchDate": {
+        "utcTime": "2026-05-03T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-pock/26rtbe#4803694",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 0,
+      "minutesPlayed": 90,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.6",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 76,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 2186,
+      "opponentTeamName": "Cracovia",
+      "isHomeTeam": false,
+      "id": 4803680,
+      "matchDate": {
+        "utcTime": "2026-04-25T18:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/cracovia-vs-pogon-szczecin/v17vs#4803680",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minutesPlayed": 45,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.6",
+        "isTopRating": true
+      },
+      "playerOfTheMatch": true,
+      "onBench": false,
+      "lineupPositionId": 76,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 2182,
+      "opponentTeamName": "Lech Poznań",
+      "isHomeTeam": true,
+      "id": 4803676,
+      "matchDate": {
+        "utcTime": "2026-04-18T18:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/lech-poznan-vs-pogon-szczecin/v0cdm#4803676",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 2,
+      "minutesPlayed": 90,
+      "goals": 0,
+      "assists": 1,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.2",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 72,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8028,
+      "opponentTeamName": "Piast Gliwice",
+      "isHomeTeam": false,
+      "id": 4803667,
+      "matchDate": {
+        "utcTime": "2026-04-13T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-piast-gliwice/24pcga#4803667",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "minutesPlayed": 90,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.4",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 32,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8673,
+      "opponentTeamName": "Legia Warszawa",
+      "isHomeTeam": true,
+      "id": 4803658,
+      "matchDate": {
+        "utcTime": "2026-04-06T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-legia-warszawa/2azq1p#4803658",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "minutesPlayed": 58,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.2",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 66,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8030,
+      "opponentTeamName": "Lechia Gdańsk",
+      "isHomeTeam": false,
+      "id": 4803646,
+      "matchDate": {
+        "utcTime": "2026-03-21T16:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-lechia-gdansk/24q185#4803646",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "minutesPlayed": 62,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.6",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 66,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8024,
+      "opponentTeamName": "Widzew Łódź",
+      "isHomeTeam": true,
+      "id": 4803623,
+      "matchDate": {
+        "utcTime": "2026-02-28T13:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-widzew-odz/24nyww#4803623",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "minutesPlayed": 90,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 1,
+      "ratingProps": {
+        "rating": "5.6",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 66,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8020,
+      "opponentTeamName": "Górnik Zabrze",
+      "isHomeTeam": false,
+      "id": 4803609,
+      "matchDate": {
+        "utcTime": "2026-02-21T16:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/gornik-zabrze-vs-pogon-szczecin/24mle1#4803609",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "minutesPlayed": 90,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.6",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 66,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 8322,
+      "opponentTeamName": "Arka Gdynia",
+      "isHomeTeam": true,
+      "id": 4803603,
+      "matchDate": {
+        "utcTime": "2026-02-15T13:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-arka-gdynia/27jfc7#4803603",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "minutesPlayed": 77,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.1",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 66,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 6397,
+      "teamName": "Chicago Fire FC",
+      "opponentTeamId": 191716,
+      "opponentTeamName": "Philadelphia Union",
+      "isHomeTeam": true,
+      "id": 5020537,
+      "matchDate": {
+        "utcTime": "2025-11-01T21:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/chicago-fire-fc-vs-philadelphia-union/90jwu6m#5020537",
+      "leagueId": 130,
+      "leagueName": "MLS",
+      "stage": "1/8",
+      "homeScore": 0,
+      "awayScore": 3,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 6397,
+      "teamName": "Chicago Fire FC",
+      "opponentTeamId": 191716,
+      "opponentTeamName": "Philadelphia Union",
+      "isHomeTeam": false,
+      "id": 5020536,
+      "matchDate": {
+        "utcTime": "2025-10-26T21:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/chicago-fire-fc-vs-philadelphia-union/90jwu6m#5020536",
+      "leagueId": 130,
+      "leagueName": "MLS",
+      "stage": "1/8",
+      "homeScore": 2,
+      "awayScore": 2,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 6397,
+      "teamName": "Chicago Fire FC",
+      "opponentTeamId": 267810,
+      "opponentTeamName": "Orlando City",
+      "isHomeTeam": true,
+      "id": 5018702,
+      "matchDate": {
+        "utcTime": "2025-10-23T00:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/chicago-fire-fc-vs-orlando-city/h9r0tbh#5018702",
+      "leagueId": 130,
+      "leagueName": "MLS",
+      "stage": "1/16",
+      "homeScore": 3,
+      "awayScore": 1,
+      "minutesPlayed": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 6397,
+      "teamName": "Chicago Fire FC",
+      "opponentTeamId": 6580,
+      "opponentTeamName": "New England Revolution",
+      "isHomeTeam": false,
+      "id": 4694745,
+      "matchDate": {
+        "utcTime": "2025-10-18T22:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/chicago-fire-fc-vs-new-england-revolution/1e5071#4694745",
+      "leagueId": 130,
+      "leagueName": "MLS",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 2,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 6397,
+      "teamName": "Chicago Fire FC",
+      "opponentTeamId": 56453,
+      "opponentTeamName": "Toronto FC",
+      "isHomeTeam": true,
+      "id": 4694733,
+      "matchDate": {
+        "utcTime": "2025-10-05T00:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/chicago-fire-fc-vs-toronto-fc/wnx874#4694733",
+      "leagueId": 130,
+      "leagueName": "MLS",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 2,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 6397,
+      "teamName": "Chicago Fire FC",
+      "opponentTeamId": 960720,
+      "opponentTeamName": "Inter Miami CF",
+      "isHomeTeam": false,
+      "id": 4694661,
+      "matchDate": {
+        "utcTime": "2025-09-30T23:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/chicago-fire-fc-vs-inter-miami-cf/5yu85bd7#4694661",
+      "leagueId": 130,
+      "leagueName": "MLS",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 5,
+      "minutesPlayed": 19,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.1",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 6397,
+      "teamName": "Chicago Fire FC",
+      "opponentTeamId": 6001,
+      "opponentTeamName": "Columbus Crew",
+      "isHomeTeam": true,
+      "id": 4694716,
+      "matchDate": {
+        "utcTime": "2025-09-28T00:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/columbus-crew-vs-chicago-fire-fc/19rjkm#4694716",
+      "leagueId": 130,
+      "leagueName": "MLS",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "minutesPlayed": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 6397,
+      "teamName": "Chicago Fire FC",
+      "opponentTeamId": 207242,
+      "opponentTeamName": "Minnesota United",
+      "isHomeTeam": false,
+      "id": 4694705,
+      "matchDate": {
+        "utcTime": "2025-09-21T00:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/chicago-fire-fc-vs-minnesota-united/ahezly1#4694705",
+      "leagueId": 130,
+      "leagueName": "MLS",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 3,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 6397,
+      "teamName": "Chicago Fire FC",
+      "opponentTeamId": 546238,
+      "opponentTeamName": "New York City FC",
+      "isHomeTeam": true,
+      "id": 4694685,
+      "matchDate": {
+        "utcTime": "2025-09-14T00:40:00.000Z"
+      },
+      "matchPageUrl": "/matches/chicago-fire-fc-vs-new-york-city-fc/1y5ffc87#4694685",
+      "leagueId": 130,
+      "leagueName": "MLS",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 3,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true,
+      "playedInMatch": false
+    },
+    {
+      "teamId": 6397,
+      "teamName": "Chicago Fire FC",
+      "opponentTeamId": 6580,
+      "opponentTeamName": "New England Revolution",
+      "isHomeTeam": true,
+      "id": 4694675,
+      "matchDate": {
+        "utcTime": "2025-09-07T00:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/chicago-fire-fc-vs-new-england-revolution/1e5071#4694675",
+      "leagueId": 130,
+      "leagueName": "MLS",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 2,
+      "minutesPlayed": 6,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "playedInMatch": true
+    }
+  ],
+  "matchesUrl": "https://pub.fotmob.com/prod/db/api/player/431948/matches",
+  "careerHistory": {
+    "showFootnote": false,
+    "careerItems": {
+      "senior": {
+        "teamEntries": [
+          {
+            "participantId": 431948,
+            "teamId": 8023,
+            "team": "Pogoń Szczecin",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "free transfer",
+              "localizationKey": "free_transfer"
+            },
+            "startDate": "2026-01-26T00:00:00",
+            "endDate": null,
+            "active": true,
+            "role": null,
+            "appearances": "16",
+            "goals": "2",
+            "assists": "1",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 431948,
+            "teamId": 6397,
+            "team": "Chicago Fire FC",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "free transfer",
+              "localizationKey": "free_transfer"
+            },
+            "startDate": "2024-02-13T00:00:00",
+            "endDate": "2026-01-14T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "58",
+            "goals": "3",
+            "assists": "2",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 431948,
+            "teamId": 867280,
+            "team": "Los Angeles FC",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2022-01-14T00:00:00",
+            "endDate": "2023-12-31T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "78",
+            "goals": "4",
+            "assists": "5",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 431948,
+            "teamId": 8314,
+            "team": "Colorado Rapids",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2018-07-23T00:00:00",
+            "endDate": "2022-01-14T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "82",
+            "goals": "7",
+            "assists": "6",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 431948,
+            "teamId": 6399,
+            "team": "FC Dallas",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2013-01-01T00:00:00",
+            "endDate": "2018-07-23T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "139",
+            "goals": "13",
+            "assists": "8",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 431948,
+            "teamId": 207967,
+            "team": "MLS All-Stars",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2017-07-24T00:00:00",
+            "endDate": "2017-08-04T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": null,
+            "goals": null,
+            "assists": null,
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 431948,
+            "teamId": 207967,
+            "team": "MLS All-Stars",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2016-07-01T00:00:00",
+            "endDate": "2016-07-31T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": null,
+            "goals": null,
+            "assists": null,
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 431948,
+            "teamId": 521055,
+            "team": "FC Dallas Reserves",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2013-03-01T00:00:00",
+            "endDate": "2014-12-31T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "7",
+            "goals": "1",
+            "assists": "0",
+            "hasUncertainData": false
+          }
+        ],
+        "seasonEntries": [
+          {
+            "seasonName": "2026/2027",
+            "appearances": "5",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": "7.02"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 196,
+                "leagueName": "Ekstraklasa",
+                "seasonName": "2026/2027",
+                "tournamentId": 37304,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "5",
+                "rating": {
+                  "rating": "7.02"
+                }
+              }
+            ],
+            "teamId": 8023,
+            "team": "Pogoń Szczecin",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "free transfer",
+              "localizationKey": "free_transfer"
+            }
+          },
+          {
+            "seasonName": "2025/2026",
+            "appearances": "11",
+            "goals": "1",
+            "assists": "1",
+            "rating": {
+              "rating": "6.74"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 196,
+                "leagueName": "Ekstraklasa",
+                "seasonName": "2025/2026",
+                "tournamentId": 27045,
+                "goals": "1",
+                "assists": "1",
+                "appearances": "11",
+                "rating": {
+                  "rating": "6.74"
+                }
+              }
+            ],
+            "teamId": 8023,
+            "team": "Pogoń Szczecin",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "free transfer",
+              "localizationKey": "free_transfer"
+            }
+          },
+          {
+            "seasonName": "2025",
+            "appearances": "22",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": "6.17"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 130,
+                "leagueName": "MLS",
+                "seasonName": "2025",
+                "tournamentId": 24524,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "20",
+                "rating": {
+                  "rating": "6.08"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 9441,
+                "leagueName": "Open Cup",
+                "seasonName": "2025",
+                "tournamentId": 25053,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": "7.07"
+                }
+              }
+            ],
+            "teamId": 6397,
+            "team": "Chicago Fire FC",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "free transfer",
+              "localizationKey": "free_transfer"
+            }
+          },
+          {
+            "seasonName": "2024",
+            "appearances": "36",
+            "goals": "3",
+            "assists": "2",
+            "rating": {
+              "rating": "6.73"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 130,
+                "leagueName": "MLS",
+                "seasonName": "2024",
+                "tournamentId": 22602,
+                "goals": "3",
+                "assists": "2",
+                "appearances": "34",
+                "rating": {
+                  "rating": "6.77"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 10043,
+                "leagueName": "Leagues Cup",
+                "seasonName": "2024",
+                "tournamentId": 22942,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": "6.22"
+                }
+              }
+            ],
+            "teamId": 6397,
+            "team": "Chicago Fire FC",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "free transfer",
+              "localizationKey": "free_transfer"
+            }
+          },
+          {
+            "seasonName": "2023",
+            "appearances": "40",
+            "goals": "1",
+            "assists": "1",
+            "rating": {
+              "rating": "6.90"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 130,
+                "leagueName": "MLS",
+                "seasonName": "2023",
+                "tournamentId": 18572,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "29",
+                "rating": {
+                  "rating": "6.80"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 10043,
+                "leagueName": "Leagues Cup",
+                "seasonName": "2023",
+                "tournamentId": 19154,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "3",
+                "rating": {
+                  "rating": "6.76"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 297,
+                "leagueName": "CONCACAF Champions Cup",
+                "seasonName": "2023",
+                "tournamentId": 18440,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "7",
+                "rating": {
+                  "rating": "7.39"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 9875,
+                "leagueName": "Campeones Cup",
+                "seasonName": "2023",
+                "tournamentId": 21552,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 867280,
+            "team": "Los Angeles FC",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2022",
+            "appearances": "38",
+            "goals": "3",
+            "assists": "4",
+            "rating": {
+              "rating": "7.05"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 130,
+                "leagueName": "MLS",
+                "seasonName": "2022",
+                "tournamentId": 17185,
+                "goals": "3",
+                "assists": "4",
+                "appearances": "35",
+                "rating": {
+                  "rating": "7.09"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 9441,
+                "leagueName": "Open Cup",
+                "seasonName": "2022",
+                "tournamentId": 17404,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "3",
+                "rating": {
+                  "rating": "6.65"
+                }
+              }
+            ],
+            "teamId": 867280,
+            "team": "Los Angeles FC",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2021",
+            "appearances": "22",
+            "goals": "1",
+            "assists": "2",
+            "rating": {
+              "rating": "7.20"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 130,
+                "leagueName": "MLS",
+                "seasonName": "2021",
+                "tournamentId": 16168,
+                "goals": "1",
+                "assists": "2",
+                "appearances": "22",
+                "rating": {
+                  "rating": "7.20"
+                }
+              }
+            ],
+            "teamId": 8314,
+            "team": "Colorado Rapids",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2020",
+            "appearances": "16",
+            "goals": "2",
+            "assists": "1",
+            "rating": {
+              "rating": "6.50"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 130,
+                "leagueName": "MLS",
+                "seasonName": "2020",
+                "tournamentId": 14818,
+                "goals": "2",
+                "assists": "1",
+                "appearances": "16",
+                "rating": {
+                  "rating": "6.50"
+                }
+              }
+            ],
+            "teamId": 8314,
+            "team": "Colorado Rapids",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2019",
+            "appearances": "32",
+            "goals": "2",
+            "assists": "1",
+            "rating": {
+              "rating": "6.30"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 130,
+                "leagueName": "MLS",
+                "seasonName": "2019",
+                "tournamentId": 13473,
+                "goals": "2",
+                "assists": "1",
+                "appearances": "31",
+                "rating": {
+                  "rating": "6.33"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 9441,
+                "leagueName": "Open Cup",
+                "seasonName": "2019",
+                "tournamentId": 13792,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "5.65"
+                }
+              }
+            ],
+            "teamId": 8314,
+            "team": "Colorado Rapids",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2018",
+            "appearances": "12",
+            "goals": "2",
+            "assists": "2",
+            "rating": {
+              "rating": "6.58"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 130,
+                "leagueName": "MLS",
+                "seasonName": "2018",
+                "tournamentId": 12376,
+                "goals": "2",
+                "assists": "2",
+                "appearances": "12",
+                "rating": {
+                  "rating": "6.58"
+                }
+              }
+            ],
+            "teamId": 8314,
+            "team": "Colorado Rapids",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2018",
+            "appearances": "15",
+            "goals": "1",
+            "assists": "1",
+            "rating": {
+              "rating": "6.58"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 130,
+                "leagueName": "MLS",
+                "seasonName": "2018",
+                "tournamentId": 12376,
+                "goals": "1",
+                "assists": "1",
+                "appearances": "13",
+                "rating": {
+                  "rating": "6.58"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 9441,
+                "leagueName": "Open Cup",
+                "seasonName": "2018",
+                "tournamentId": 12584,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6399,
+            "team": "FC Dallas",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2017",
+            "appearances": "23",
+            "goals": "3",
+            "assists": "2",
+            "rating": {
+              "rating": "6.87"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 130,
+                "leagueName": "MLS",
+                "seasonName": "2017",
+                "tournamentId": 11140,
+                "goals": "3",
+                "assists": "2",
+                "appearances": "23",
+                "rating": {
+                  "rating": "6.87"
+                }
+              }
+            ],
+            "teamId": 6399,
+            "team": "FC Dallas",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2016",
+            "appearances": "46",
+            "goals": "5",
+            "assists": "3",
+            "rating": {
+              "rating": "6.87"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 130,
+                "leagueName": "MLS",
+                "seasonName": "2016",
+                "tournamentId": 10095,
+                "goals": "2",
+                "assists": "3",
+                "appearances": "34",
+                "rating": {
+                  "rating": "6.87"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 9441,
+                "leagueName": "Open Cup",
+                "seasonName": "2016",
+                "tournamentId": 10293,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "5",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 297,
+                "leagueName": "CONCACAF Champions Cup",
+                "seasonName": "2016/2017",
+                "tournamentId": 10557,
+                "goals": "3",
+                "assists": "0",
+                "appearances": "7",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6399,
+            "team": "FC Dallas",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2015",
+            "appearances": "26",
+            "goals": "4",
+            "assists": "1",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 130,
+                "leagueName": "MLS",
+                "seasonName": "2015",
+                "tournamentId": 9168,
+                "goals": "3",
+                "assists": "1",
+                "appearances": "24",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 9441,
+                "leagueName": "Open Cup",
+                "seasonName": "2015",
+                "tournamentId": 9401,
+                "goals": "1",
+                "assists": "undefined",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6399,
+            "team": "FC Dallas",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2014",
+            "appearances": "16",
+            "goals": "0",
+            "assists": "1",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 130,
+                "leagueName": "MLS",
+                "seasonName": "2014",
+                "tournamentId": 8219,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "16",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6399,
+            "team": "FC Dallas",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2013",
+            "appearances": "13",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 130,
+                "leagueName": "MLS",
+                "seasonName": "2013",
+                "tournamentId": 7451,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "13",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6399,
+            "team": "FC Dallas",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2014",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 8972,
+                "leagueName": "USL Championship",
+                "seasonName": "2014",
+                "tournamentId": 8257,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 521055,
+            "team": "FC Dallas Reserves",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2013",
+            "appearances": "6",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 8972,
+                "leagueName": "USL Championship",
+                "seasonName": "2013",
+                "tournamentId": 7502,
+                "goals": "1",
+                "assists": "undefined",
+                "appearances": "6",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 521055,
+            "team": "FC Dallas Reserves",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          }
+        ]
+      },
+      "national team": {
+        "teamEntries": [
+          {
+            "participantId": 431948,
+            "teamId": 6713,
+            "team": "USA",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2016-01-01T00:00:00",
+            "endDate": "2023-06-01T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "58",
+            "goals": "2",
+            "assists": "5",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 431948,
+            "teamId": 127864,
+            "team": "USA U21",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2013-01-01T00:00:00",
+            "endDate": "2025-11-08T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "3",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 431948,
+            "teamId": 317238,
+            "team": "USA U23",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2016-01-01T00:00:00",
+            "endDate": "2019-11-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "2",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 431948,
+            "teamId": 5876,
+            "team": "USA U20",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2013-01-01T00:00:00",
+            "endDate": "2016-12-31T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "6",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 431948,
+            "teamId": 5975,
+            "team": "USA U17",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2011-01-01T00:00:00",
+            "endDate": "2011-12-31T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "7",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          }
+        ],
+        "seasonEntries": [
+          {
+            "seasonName": "2023",
+            "appearances": "3",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": "6.89"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2023",
+                "tournamentId": 18498,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "3",
+                "rating": {
+                  "rating": "6.89"
+                }
+              }
+            ],
+            "teamId": 6713,
+            "team": "USA",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2022/2023",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "1",
+            "rating": {
+              "rating": "8.82"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 9821,
+                "leagueName": "CONCACAF Nations League",
+                "seasonName": "2022/2023",
+                "tournamentId": 17526,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "1",
+                "rating": {
+                  "rating": "8.82"
+                }
+              }
+            ],
+            "teamId": 6713,
+            "team": "USA",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2022",
+            "appearances": "3",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": "6.33"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 77,
+                "leagueName": "World Cup",
+                "seasonName": "2022",
+                "tournamentId": 15338,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": "6.34"
+                }
+              },
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2022",
+                "tournamentId": 17169,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "6.33"
+                }
+              }
+            ],
+            "teamId": 6713,
+            "team": "USA",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2021/2022",
+            "appearances": "13",
+            "goals": "0",
+            "assists": "1",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "Concacaf World Cup Qualifiers",
+                "seasonName": "2021/2022",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "13",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6713,
+            "team": "USA",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2021",
+            "appearances": "12",
+            "goals": "0",
+            "assists": "2",
+            "rating": {
+              "rating": "6.98"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 298,
+                "leagueName": "CONCACAF Gold Cup",
+                "seasonName": "2021",
+                "tournamentId": 15706,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "6",
+                "rating": {
+                  "rating": "7.17"
+                }
+              },
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2021",
+                "tournamentId": 15943,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "6",
+                "rating": {
+                  "rating": "6.80"
+                }
+              }
+            ],
+            "teamId": 6713,
+            "team": "USA",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2020",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": "6.41"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2020",
+                "tournamentId": 14773,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "6.41"
+                }
+              }
+            ],
+            "teamId": 6713,
+            "team": "USA",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2019/2021",
+            "appearances": "2",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 9821,
+                "leagueName": "CONCACAF Nations League",
+                "seasonName": "2019/2021",
+                "tournamentId": 13761,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6713,
+            "team": "USA",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2018",
+            "appearances": "6",
+            "goals": "1",
+            "assists": "1",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2018",
+                "tournamentId": 11352,
+                "goals": "1",
+                "assists": "1",
+                "appearances": "6",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6713,
+            "team": "USA",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2017",
+            "appearances": "8",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 298,
+                "leagueName": "CONCACAF Gold Cup",
+                "seasonName": "2017",
+                "tournamentId": 11308,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "5",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2017",
+                "tournamentId": 10882,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "3",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6713,
+            "team": "USA",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2016",
+            "appearances": "3",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2016",
+                "tournamentId": 10041,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "3",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6713,
+            "team": "USA",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2015/2017",
+            "appearances": "6",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "Concacaf World Cup Qualifiers",
+                "seasonName": "2015/2017",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "6",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6713,
+            "team": "USA",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2013",
+            "appearances": "3",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "Tournoi Maurice Revello",
+                "seasonName": "2013",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "3",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 127864,
+            "team": "USA U21",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2016",
+            "appearances": "2",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "Olympics Intercontinental Play-o",
+                "seasonName": "2016",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 317238,
+            "team": "USA U23",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2015",
+            "appearances": "6",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 9656,
+                "leagueName": "CONCACAF Championship U20",
+                "seasonName": "2015",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueName": "FIFA U20 World Cup",
+                "seasonName": "2015",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "4",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 5876,
+            "team": "USA U20",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2011",
+            "appearances": "7",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 306,
+                "leagueName": "World Cup U17",
+                "seasonName": "2011",
+                "tournamentId": 6053,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "4",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueName": "Concacaf U17",
+                "seasonName": "2011",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "3",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 5975,
+            "team": "USA U17",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          }
+        ]
+      }
+    },
+    "fullCareer": true
+  },
+  "traits": {
+    "key": "stats_comparison_midfielders",
+    "title": "Stats compared to other midfielders",
+    "items": [
+      {
+        "key": "chances_created",
+        "title": "Chances created",
+        "value": 0.25
+      },
+      {
+        "key": "aerials_won",
+        "title": "Aerial duels",
+        "value": 0.7
+      },
+      {
+        "key": "defensive_actions",
+        "title": "Defensive actions",
+        "value": 0.53
+      },
+      {
+        "key": "goals",
+        "title": "Goals",
+        "value": 0.79
+      },
+      {
+        "key": "shot_attempts",
+        "title": "Shot attempts",
+        "value": 0.46
+      },
+      {
+        "key": "touches",
+        "title": "Touches",
+        "value": 0.38
+      }
+    ]
+  },
+  "meta": {
+    "seopath": "kellyn-acosta",
+    "pageurl": "/players/431948/kellyn-acosta",
+    "faqJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How old is Kellyn Acosta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kellyn Acosta is 31 years old. Born on Mon Jul 24 1995."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How tall is Kellyn Acosta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kellyn Acosta is 177 cm tall. Or 5 ft 10 in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When was Kellyn Acosta born?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kellyn Acosta was born Mon Jul 24 1995 and is now 31 years old."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which is Kellyn Acosta's preferred foot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kellyn Acosta's preferred foot is right."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is Kellyn Acosta's transfer value?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kellyn Acosta's transfer value is estimated to be around €547.4k."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Kellyn Acosta from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kellyn Acosta is from USA."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many goals has Kellyn Acosta scored this season?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kellyn Acosta has scored 1 goals in the Ekstraklasa."
+          }
+        }
+      ]
+    },
+    "personJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Kellyn Acosta",
+      "birthDate": "1995-07-24T00:00:00.000Z",
+      "url": "https://www.fotmob.com/players/431948/kellyn-acosta",
+      "nationality": {
+        "@type": "Country",
+        "name": "USA"
+      },
+      "affiliation": {
+        "@type": "SportsTeam",
+        "name": "Pogoń Szczecin"
+      },
+      "gender": "https://schema.org/Male",
+      "height": {
+        "@type": "QuantitativeValue",
+        "unitText": "cm",
+        "value": "177"
+      },
+      "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "kg",
+        "value": "68"
+      }
+    },
+    "breadcrumbJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fotmob.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ekstraklasa 2026/2027",
+          "item": "https://www.fotmob.com/leagues/196/overview/ekstraklasa-20262027"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Pogoń Szczecin",
+          "item": "https://www.fotmob.com/teams/8023/overview/pogon-szczecin"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Kellyn Acosta",
+          "item": "https://www.fotmob.com/leagues/431948/overview/kellyn-acosta"
+        }
+      ]
+    }
+  },
+  "coachStats": null,
+  "statSeasons": [
+    {
+      "seasonName": "2026/2027",
+      "tournaments": [
+        {
+          "name": "Ekstraklasa",
+          "tournamentId": 196,
+          "entryId": "0-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2025/2026",
+      "tournaments": [
+        {
+          "name": "Ekstraklasa",
+          "tournamentId": 196,
+          "entryId": "1-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2025",
+      "tournaments": [
+        {
+          "name": "Major League Soccer",
+          "tournamentId": 130,
+          "entryId": "2-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "US Open Cup",
+          "tournamentId": 9441,
+          "entryId": "2-1",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2024",
+      "tournaments": [
+        {
+          "name": "Major League Soccer",
+          "tournamentId": 130,
+          "entryId": "3-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Leagues Cup",
+          "tournamentId": 10043,
+          "entryId": "3-1",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2023",
+      "tournaments": [
+        {
+          "name": "Major League Soccer",
+          "tournamentId": 130,
+          "entryId": "4-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "CONCACAF Champions Cup",
+          "tournamentId": 297,
+          "entryId": "4-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Leagues Cup",
+          "tournamentId": 10043,
+          "entryId": "4-2",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2022",
+      "tournaments": [
+        {
+          "name": "Major League Soccer",
+          "tournamentId": 130,
+          "entryId": "5-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "US Open Cup",
+          "tournamentId": 9441,
+          "entryId": "5-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "CONCACAF Nations League",
+          "tournamentId": 9821,
+          "entryId": "5-2",
+          "hasDeepStats": true
+        },
+        {
+          "name": "World Cup",
+          "tournamentId": 77,
+          "entryId": "5-3",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2021",
+      "tournaments": [
+        {
+          "name": "Major League Soccer",
+          "tournamentId": 130,
+          "entryId": "6-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "CONCACAF Gold Cup",
+          "tournamentId": 298,
+          "entryId": "6-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "World Cup CONCACAF qualification",
+          "tournamentId": 10198,
+          "entryId": "6-2",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2020",
+      "tournaments": [
+        {
+          "name": "Major League Soccer",
+          "tournamentId": 130,
+          "entryId": "7-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2019",
+      "tournaments": [
+        {
+          "name": "Major League Soccer",
+          "tournamentId": 130,
+          "entryId": "8-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "US Open Cup",
+          "tournamentId": 9441,
+          "entryId": "8-1",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2018",
+      "tournaments": [
+        {
+          "name": "Major League Soccer",
+          "tournamentId": 130,
+          "entryId": "9-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2017",
+      "tournaments": [
+        {
+          "name": "Major League Soccer",
+          "tournamentId": 130,
+          "entryId": "10-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "CONCACAF Gold Cup",
+          "tournamentId": 298,
+          "entryId": "10-1",
+          "hasDeepStats": false
+        }
+      ]
+    },
+    {
+      "seasonName": "2016",
+      "tournaments": [
+        {
+          "name": "Major League Soccer",
+          "tournamentId": 130,
+          "entryId": "11-0",
+          "hasDeepStats": true
+        }
+      ]
+    }
+  ],
+  "firstSeasonStats": {
+    "sectionOrder": [
+      "top-stat-card",
+      "shotmap",
+      "stats-section"
+    ],
+    "shotmap": [
+      {
+        "id": 2948654255,
+        "playerName": "Kellyn Acosta",
+        "eventType": "Miss",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 8023,
+        "playerId": 431948,
+        "x": 101.3017241382,
+        "y": 25.4759375,
+        "min": 80,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 29.21142857,
+        "goalCrossedZ": 2.1382105158,
+        "expectedGoals": 0.0630571991205216,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 2,
+          "y": 0.446523675600679,
+          "zoomRatio": 0.78937947470484
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8023,
+        "awayTeamId": 8673,
+        "homeTeamName": "Pogoń Szczecin",
+        "awayTeamName": "Legia Warszawa",
+        "homeScore": 0,
+        "awayScore": 1,
+        "matchId": 5803899,
+        "matchDate": "2026-07-24T18:30:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      },
+      {
+        "id": 2952719379,
+        "playerName": "Kellyn Acosta",
+        "eventType": "Goal",
+        "shotType": "LeftFoot",
+        "situation": "RegularPlay",
+        "teamId": 8023,
+        "playerId": 431948,
+        "x": 92.5,
+        "y": 30.316,
+        "min": 90,
+        "minAdded": 0,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 36.745,
+        "goalCrossedZ": 0.1219999994,
+        "expectedGoals": 0.16911906003952,
+        "expectedGoalsOnTarget": 0.771861970424652,
+        "onGoalShot": {
+          "x": 0.273809523809523,
+          "y": 0.0322751321164021,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8023,
+        "awayTeamId": 89466,
+        "homeTeamName": "Pogoń Szczecin",
+        "awayTeamName": "Motor Lublin",
+        "homeScore": 3,
+        "awayScore": 1,
+        "matchId": 5803936,
+        "matchDate": "2026-08-08T15:30:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      },
+      {
+        "id": 2961441873,
+        "playerName": "Kellyn Acosta",
+        "eventType": "Miss",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 8023,
+        "playerId": 431948,
+        "x": 91.1,
+        "y": 18.1138853523,
+        "min": 21,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 44.351082798,
+        "goalCrossedZ": 0.0898947364,
+        "expectedGoals": 0.0315024144947529,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 0,
+          "y": 0.00868457321367085,
+          "zoomRatio": 0.365179186928188
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8021,
+        "awayTeamId": 8023,
+        "homeTeamName": "Zagłębie Lubin",
+        "awayTeamName": "Pogoń Szczecin",
+        "homeScore": 0,
+        "awayScore": 0,
+        "matchId": 5803967,
+        "matchDate": "2026-08-29T18:15:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      }
+    ],
+    "statsSection": {
+      "id": "stats-section",
+      "items": [
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "goals",
+              "per90": 0.3191489361702128,
+              "percentileRank": 80.51948051948052,
+              "percentileRankPer90": 88.31168831168831,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Goals"
+            },
+            {
+              "localizedTitleId": "expected_goals",
+              "per90": 0.08415957714648957,
+              "percentileRank": 68.83116883116884,
+              "percentileRankPer90": 64.93506493506493,
+              "statFormat": "fraction",
+              "statValue": "0.26",
+              "title": "xG"
+            },
+            {
+              "localizedTitleId": "expected_goals_on_target",
+              "per90": 0.24635106325149536,
+              "percentileRank": 83.11688311688312,
+              "percentileRankPer90": 87.01298701298701,
+              "statFormat": "fraction",
+              "statValue": "0.77",
+              "title": "xGOT"
+            },
+            {
+              "localizedTitleId": "non_penalty_xg",
+              "per90": 0.08415957714648957,
+              "percentileRank": 68.83116883116884,
+              "percentileRankPer90": 66.23376623376623,
+              "statFormat": "fraction",
+              "statValue": "0.26",
+              "title": "xG excl. penalty"
+            },
+            {
+              "localizedTitleId": "shots",
+              "per90": 0.9574468085106382,
+              "percentileRank": 40.25974025974026,
+              "percentileRankPer90": 38.961038961038966,
+              "statFormat": "number",
+              "statValue": "3",
+              "title": "Shots"
+            },
+            {
+              "localizedTitleId": "ShotsOnTarget",
+              "per90": 0.3191489361702128,
+              "percentileRank": 45.45454545454545,
+              "percentileRankPer90": 58.44155844155844,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Shots on target"
+            }
+          ],
+          "localizedTitleId": "shooting",
+          "title": "Shooting",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "assists",
+              "per90": 0,
+              "percentileRank": 0,
+              "percentileRankPer90": 0,
+              "statFormat": "number",
+              "statValue": "0",
+              "title": "Assists"
+            },
+            {
+              "localizedTitleId": "expected_assists",
+              "per90": 0.0345965657145419,
+              "percentileRank": 19.480519480519483,
+              "percentileRankPer90": 14.285714285714285,
+              "statFormat": "fraction",
+              "statValue": "0.11",
+              "title": "xA"
+            },
+            {
+              "localizedTitleId": "successful_passes",
+              "per90": 25.531914893617024,
+              "percentileRank": 41.55844155844156,
+              "percentileRankPer90": 23.376623376623375,
+              "statFormat": "number",
+              "statValue": "80",
+              "title": "Accurate passes"
+            },
+            {
+              "localizedTitleId": "successful_passes_accuracy",
+              "per90": 76.19047619047619,
+              "percentileRank": 10.38961038961039,
+              "percentileRankPer90": 10.38961038961039,
+              "statFormat": "percent",
+              "statValue": "76.2",
+              "title": "Pass accuracy"
+            },
+            {
+              "localizedTitleId": "long_balls_accurate",
+              "per90": 0.3191489361702128,
+              "percentileRank": 14.285714285714285,
+              "percentileRankPer90": 19.480519480519483,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Accurate long balls"
+            },
+            {
+              "localizedTitleId": "long_ball_succeeeded_accuracy",
+              "per90": 12.5,
+              "percentileRank": 14.285714285714285,
+              "percentileRankPer90": 14.285714285714285,
+              "statFormat": "percent",
+              "statValue": "12.5",
+              "title": "Long ball accuracy"
+            },
+            {
+              "localizedTitleId": "crosses_succeeeded",
+              "per90": 0.6382978723404256,
+              "percentileRank": 59.74025974025974,
+              "percentileRankPer90": 67.53246753246754,
+              "statFormat": "number",
+              "statValue": "2",
+              "title": "Successful crosses"
+            },
+            {
+              "localizedTitleId": "crosses_succeeeded_accuracy",
+              "per90": 40,
+              "percentileRank": 75.32467532467533,
+              "percentileRankPer90": 75.32467532467533,
+              "statFormat": "percent",
+              "statValue": "40.0",
+              "title": "Cross accuracy"
+            }
+          ],
+          "localizedTitleId": "passing",
+          "title": "Passing",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "duel_won",
+              "per90": 5.1063829787234045,
+              "percentileRank": 58.44155844155844,
+              "percentileRankPer90": 66.23376623376623,
+              "statFormat": "number",
+              "statValue": "16",
+              "title": "Duels won"
+            },
+            {
+              "localizedTitleId": "duel_won_percent",
+              "per90": 57.142857142857146,
+              "percentileRank": 77.92207792207793,
+              "percentileRankPer90": 77.92207792207793,
+              "statFormat": "percent",
+              "statValue": "57.1",
+              "title": "Duels won %"
+            },
+            {
+              "localizedTitleId": "aerials_won",
+              "per90": 1.9148936170212765,
+              "percentileRank": 77.92207792207793,
+              "percentileRankPer90": 81.81818181818183,
+              "statFormat": "number",
+              "statValue": "6",
+              "title": "Aerials won"
+            },
+            {
+              "localizedTitleId": "aerials_won_percent",
+              "per90": 66.66666666666667,
+              "percentileRank": 70.12987012987013,
+              "percentileRankPer90": 70.12987012987013,
+              "statFormat": "percent",
+              "statValue": "66.7",
+              "title": "Aerials won %"
+            },
+            {
+              "localizedTitleId": "touches",
+              "per90": 48.82978723404255,
+              "percentileRank": 45.45454545454545,
+              "percentileRankPer90": 19.480519480519483,
+              "statFormat": "number",
+              "statValue": "153",
+              "title": "Touches"
+            },
+            {
+              "localizedTitleId": "touches_opp_box",
+              "per90": 1.2765957446808511,
+              "percentileRank": 38.961038961038966,
+              "percentileRankPer90": 40.25974025974026,
+              "statFormat": "number",
+              "statValue": "4",
+              "title": "Touches in opposition box"
+            },
+            {
+              "localizedTitleId": "dispossessed",
+              "per90": 0.3191489361702128,
+              "percentileRank": 59.74025974025974,
+              "percentileRankPer90": 75.32467532467533,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Dispossessed"
+            },
+            {
+              "localizedTitleId": "fouls_won",
+              "per90": 1.9148936170212765,
+              "percentileRank": 71.42857142857143,
+              "percentileRankPer90": 74.02597402597402,
+              "statFormat": "number",
+              "statValue": "6",
+              "title": "Fouls won"
+            }
+          ],
+          "localizedTitleId": "possession",
+          "title": "Possession",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "defensive_actions",
+              "per90": 4.468085106382979,
+              "percentileRank": 53.246753246753244,
+              "percentileRankPer90": 44.15584415584416,
+              "statFormat": "number",
+              "statValue": "14",
+              "title": "Defensive actions"
+            },
+            {
+              "localizedTitleId": "matchstats.headers.tackles",
+              "per90": 1.2765957446808511,
+              "percentileRank": 38.961038961038966,
+              "percentileRankPer90": 37.66233766233766,
+              "statFormat": "number",
+              "statValue": "4",
+              "title": "Tackles"
+            },
+            {
+              "localizedTitleId": "interceptions",
+              "per90": 1.2765957446808511,
+              "percentileRank": 63.63636363636363,
+              "percentileRankPer90": 72.72727272727273,
+              "statFormat": "number",
+              "statValue": "4",
+              "title": "Interceptions"
+            },
+            {
+              "localizedTitleId": "blocked_shots",
+              "per90": 0.6382978723404256,
+              "percentileRank": 64.93506493506493,
+              "percentileRankPer90": 77.92207792207793,
+              "statFormat": "number",
+              "statValue": "2",
+              "title": "Blocked scoring attempt"
+            },
+            {
+              "localizedTitleId": "fouls",
+              "per90": 1.9148936170212765,
+              "percentileRank": 18.181818181818183,
+              "percentileRankPer90": 23.376623376623375,
+              "statFormat": "number",
+              "statValue": "6",
+              "title": "Fouls committed"
+            },
+            {
+              "localizedTitleId": "recoveries",
+              "per90": 3.829787234042553,
+              "percentileRank": 49.35064935064935,
+              "percentileRankPer90": 42.857142857142854,
+              "statFormat": "number",
+              "statValue": "12",
+              "title": "Recoveries"
+            },
+            {
+              "localizedTitleId": "poss_won_att_3rd_team_title",
+              "per90": 0.3191489361702128,
+              "percentileRank": 37.66233766233766,
+              "percentileRankPer90": 48.05194805194805,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Possession won final 3rd"
+            },
+            {
+              "localizedTitleId": "dribbled_past",
+              "per90": 0.6382978723404256,
+              "percentileRank": 42.857142857142854,
+              "percentileRankPer90": 55.84415584415584,
+              "statFormat": "number",
+              "statValue": "2",
+              "title": "Dribbled past"
+            },
+            {
+              "localizedTitleId": "clearances",
+              "per90": 1.2765957446808511,
+              "percentileRank": 36.36363636363637,
+              "percentileRankPer90": 36.36363636363637,
+              "statFormat": "number",
+              "statValue": "4",
+              "title": "Clearances"
+            },
+            {
+              "localizedTitleId": "clean_sheet_team_title",
+              "per90": 0.3191489361702128,
+              "percentileRank": 71.42857142857143,
+              "percentileRankPer90": 87.01298701298701,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Clean sheets"
+            },
+            {
+              "localizedTitleId": "goals_conceded_while_on_pitch",
+              "per90": 0.3191489361702128,
+              "percentileRank": 84.4155844155844,
+              "percentileRankPer90": 90.9090909090909,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Goals conceded while on pitch"
+            },
+            {
+              "localizedTitleId": "expected_goals_against_while_on_pitch",
+              "per90": 1.7608722727349462,
+              "percentileRank": 40.25974025974026,
+              "percentileRankPer90": 44.15584415584416,
+              "statFormat": "fraction",
+              "statValue": "5.52",
+              "title": "xG against while on pitch"
+            }
+          ],
+          "localizedTitleId": "defending",
+          "title": "Defending",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "yellow_cards",
+              "per90": 0.3191489361702128,
+              "percentileRank": 12.987012987012985,
+              "percentileRankPer90": 27.27272727272727,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Yellow cards"
+            },
+            {
+              "localizedTitleId": "red_cards",
+              "per90": 0,
+              "percentileRank": 100,
+              "percentileRankPer90": 100,
+              "statFormat": "number",
+              "statValue": "0",
+              "title": "Red cards"
+            }
+          ],
+          "localizedTitleId": "discipline",
+          "title": "Discipline",
+          "type": "stat-values"
+        }
+      ],
+      "localizedTitleId": "season_performance",
+      "title": "Season performance",
+      "type": "grouped-stat-values"
+    },
+    "topStatCard": {
+      "display": "stats-group",
+      "id": "top-stat-card",
+      "items": [
+        {
+          "localizedTitleId": "goals",
+          "per90": 0.3191489361702128,
+          "percentileRank": 80.51948051948052,
+          "percentileRankPer90": 88.31168831168831,
+          "statFormat": "number",
+          "statValue": "1",
+          "title": "Goals"
+        },
+        {
+          "localizedTitleId": "assists",
+          "per90": 0,
+          "percentileRank": 0,
+          "percentileRankPer90": 0,
+          "statFormat": "number",
+          "statValue": "0",
+          "title": "Assists"
+        },
+        {
+          "localizedTitleId": "rating",
+          "per90": 7.025,
+          "percentileRank": 63.63636363636363,
+          "percentileRankPer90": 63.63636363636363,
+          "statFormat": "fraction",
+          "statValue": "7.02",
+          "title": "Rating"
+        },
+        {
+          "localizedTitleId": "matches_uppercase",
+          "per90": 5,
+          "percentileRank": 50.649350649350644,
+          "percentileRankPer90": 50.649350649350644,
+          "statFormat": "number",
+          "statValue": "5",
+          "title": "Matches"
+        },
+        {
+          "localizedTitleId": "player_started_matches",
+          "per90": 3,
+          "percentileRank": 44.15584415584416,
+          "percentileRankPer90": 28.57142857142857,
+          "statFormat": "number",
+          "statValue": "3",
+          "title": "Started"
+        },
+        {
+          "localizedTitleId": "minutes_played",
+          "per90": 90,
+          "percentileRank": 55.84415584415584,
+          "percentileRankPer90": 100,
+          "statFormat": "number",
+          "statValue": "282",
+          "title": "Minutes"
+        }
+      ],
+      "type": "stat-values"
+    },
+    "heatmap": {
+      "coordinates": [
+        {
+          "x": 40.98,
+          "y": 20.71
+        },
+        {
+          "x": 57.79,
+          "y": 52.13
+        },
+        {
+          "x": 68.29,
+          "y": 39.8
+        },
+        {
+          "x": 62.55,
+          "y": 34.76
+        },
+        {
+          "x": 49.96,
+          "y": 15.17
+        },
+        {
+          "x": 72.8,
+          "y": 10.49
+        },
+        {
+          "x": 64.02,
+          "y": 32.86
+        },
+        {
+          "x": 64.02,
+          "y": 32.86
+        },
+        {
+          "x": 70.21,
+          "y": 18.81
+        },
+        {
+          "x": 38.39,
+          "y": 22.18
+        },
+        {
+          "x": 39.97,
+          "y": 7.02
+        },
+        {
+          "x": 10.9,
+          "y": 13.58
+        },
+        {
+          "x": 93.7,
+          "y": 18.39
+        },
+        {
+          "x": 43.12,
+          "y": 19.23
+        },
+        {
+          "x": 50.67,
+          "y": 44.56
+        },
+        {
+          "x": 74.49,
+          "y": 24.49
+        },
+        {
+          "x": 63,
+          "y": 20.99
+        },
+        {
+          "x": 43.35,
+          "y": 19.87
+        },
+        {
+          "x": 57.07,
+          "y": 19.45
+        },
+        {
+          "x": 51.79,
+          "y": 19.87
+        },
+        {
+          "x": 25.78,
+          "y": 52.13
+        },
+        {
+          "x": 25.78,
+          "y": 52.13
+        },
+        {
+          "x": 69.42,
+          "y": 52.13
+        },
+        {
+          "x": 63.56,
+          "y": 26.05
+        },
+        {
+          "x": 81.7,
+          "y": 63.01
+        },
+        {
+          "x": 46.3,
+          "y": 11.54
+        },
+        {
+          "x": 49.76,
+          "y": 10.36
+        },
+        {
+          "x": 16.82,
+          "y": 23.51
+        },
+        {
+          "x": 21.05,
+          "y": 10.63
+        },
+        {
+          "x": 18.86,
+          "y": 19.87
+        },
+        {
+          "x": 20.15,
+          "y": 21.62
+        },
+        {
+          "x": 60.33,
+          "y": 18.46
+        },
+        {
+          "x": 65.82,
+          "y": 21.62
+        },
+        {
+          "x": 58.4,
+          "y": 5.84
+        },
+        {
+          "x": 66.38,
+          "y": 23.65
+        },
+        {
+          "x": 74.15,
+          "y": 10.95
+        },
+        {
+          "x": 70.32,
+          "y": 11.61
+        },
+        {
+          "x": 66.27,
+          "y": 26.34
+        },
+        {
+          "x": 70.77,
+          "y": 19.45
+        },
+        {
+          "x": 58.7,
+          "y": 19.59
+        },
+        {
+          "x": 48.33,
+          "y": 23.65
+        },
+        {
+          "x": 66.49,
+          "y": 19.09
+        },
+        {
+          "x": 77.3,
+          "y": 0
+        },
+        {
+          "x": 56.46,
+          "y": 4.85
+        },
+        {
+          "x": 56.06,
+          "y": 28.29
+        },
+        {
+          "x": 36.93,
+          "y": 14.12
+        },
+        {
+          "x": 46.81,
+          "y": 27.95
+        },
+        {
+          "x": 0.76,
+          "y": 37.28
+        },
+        {
+          "x": 64.24,
+          "y": 14.4
+        },
+        {
+          "x": 53.52,
+          "y": 21.2
+        },
+        {
+          "x": 66.38,
+          "y": 18.6
+        },
+        {
+          "x": 73.7,
+          "y": 33.24
+        },
+        {
+          "x": 16.71,
+          "y": 21.55
+        },
+        {
+          "x": 60.84,
+          "y": 49.75
+        },
+        {
+          "x": 42,
+          "y": 39.04
+        },
+        {
+          "x": 101.3,
+          "y": 42.52
+        },
+        {
+          "x": 33.33,
+          "y": 39.71
+        },
+        {
+          "x": 44.88,
+          "y": 50.03
+        },
+        {
+          "x": 38.51,
+          "y": 17.41
+        },
+        {
+          "x": 32.43,
+          "y": 22.39
+        },
+        {
+          "x": 46.4,
+          "y": 37.05
+        },
+        {
+          "x": 48.33,
+          "y": 34
+        },
+        {
+          "x": 48.33,
+          "y": 34
+        },
+        {
+          "x": 89.5,
+          "y": 9.12
+        },
+        {
+          "x": 15.8,
+          "y": 5.64
+        },
+        {
+          "x": 62.1,
+          "y": 14.33
+        },
+        {
+          "x": 38.28,
+          "y": 15.8
+        },
+        {
+          "x": 19.4,
+          "y": 21.2
+        },
+        {
+          "x": 18.86,
+          "y": 6.62
+        },
+        {
+          "x": 28.71,
+          "y": 14.75
+        },
+        {
+          "x": 72.8,
+          "y": 14.4
+        },
+        {
+          "x": 47.82,
+          "y": 27.03
+        },
+        {
+          "x": 45.38,
+          "y": 23.93
+        },
+        {
+          "x": 74.38,
+          "y": 12.72
+        },
+        {
+          "x": 23.75,
+          "y": 15.94
+        },
+        {
+          "x": 42.34,
+          "y": 14.19
+        },
+        {
+          "x": 84.62,
+          "y": 16.57
+        },
+        {
+          "x": 57.07,
+          "y": 21.83
+        },
+        {
+          "x": 74.26,
+          "y": 13.32
+        },
+        {
+          "x": 73.81,
+          "y": 28.71
+        },
+        {
+          "x": 54.23,
+          "y": 21.76
+        },
+        {
+          "x": 49.55,
+          "y": 18.25
+        },
+        {
+          "x": 75.05,
+          "y": 68
+        },
+        {
+          "x": 57.18,
+          "y": 40.55
+        },
+        {
+          "x": 34.68,
+          "y": 20.99
+        },
+        {
+          "x": 46.3,
+          "y": 29.55
+        },
+        {
+          "x": 38.06,
+          "y": 16.01
+        },
+        {
+          "x": 32.09,
+          "y": 31.94
+        },
+        {
+          "x": 58.29,
+          "y": 30.22
+        },
+        {
+          "x": 34.23,
+          "y": 42.7
+        },
+        {
+          "x": 27.02,
+          "y": 16.99
+        },
+        {
+          "x": 6.08,
+          "y": 22.25
+        },
+        {
+          "x": 62.55,
+          "y": 17.62
+        },
+        {
+          "x": 70.66,
+          "y": 14.75
+        },
+        {
+          "x": 85.06,
+          "y": 59.8
+        },
+        {
+          "x": 33.78,
+          "y": 11.74
+        },
+        {
+          "x": 70.21,
+          "y": 17.06
+        },
+        {
+          "x": 74.26,
+          "y": 5.64
+        },
+        {
+          "x": 74.26,
+          "y": 5.64
+        },
+        {
+          "x": 61.65,
+          "y": 26.94
+        },
+        {
+          "x": 71.9,
+          "y": 52.34
+        },
+        {
+          "x": 76.63,
+          "y": 45.96
+        },
+        {
+          "x": 65.03,
+          "y": 6.43
+        },
+        {
+          "x": 43.24,
+          "y": 50.03
+        },
+        {
+          "x": 76.4,
+          "y": 55.41
+        },
+        {
+          "x": 71.34,
+          "y": 62.82
+        },
+        {
+          "x": 5.22,
+          "y": 38.54
+        },
+        {
+          "x": 54.02,
+          "y": 12.92
+        },
+        {
+          "x": 54.02,
+          "y": 12.92
+        },
+        {
+          "x": 70.21,
+          "y": 7.67
+        },
+        {
+          "x": 75.28,
+          "y": 14.19
+        },
+        {
+          "x": 49.55,
+          "y": 18.25
+        },
+        {
+          "x": 24.99,
+          "y": 35.37
+        },
+        {
+          "x": 27.13,
+          "y": 40.22
+        },
+        {
+          "x": 27.13,
+          "y": 40.22
+        },
+        {
+          "x": 54.53,
+          "y": 33.54
+        },
+        {
+          "x": 61.55,
+          "y": 6.62
+        },
+        {
+          "x": 43.96,
+          "y": 21.55
+        },
+        {
+          "x": 73.02,
+          "y": 0.85
+        },
+        {
+          "x": 47.42,
+          "y": 40.47
+        },
+        {
+          "x": 55.55,
+          "y": 33.54
+        },
+        {
+          "x": 76.63,
+          "y": 28.29
+        },
+        {
+          "x": 75.39,
+          "y": 14.4
+        },
+        {
+          "x": 57.58,
+          "y": 8.66
+        },
+        {
+          "x": 66.15,
+          "y": 19.02
+        },
+        {
+          "x": 44.98,
+          "y": 23.93
+        },
+        {
+          "x": 85.92,
+          "y": 59.01
+        },
+        {
+          "x": 50.87,
+          "y": 36.14
+        },
+        {
+          "x": 94.39,
+          "y": 62.23
+        },
+        {
+          "x": 70.32,
+          "y": 22.81
+        },
+        {
+          "x": 60.94,
+          "y": 19.09
+        },
+        {
+          "x": 78.54,
+          "y": 45.96
+        },
+        {
+          "x": 72.8,
+          "y": 32.55
+        },
+        {
+          "x": 64.35,
+          "y": 5.38
+        },
+        {
+          "x": 77.53,
+          "y": 26
+        },
+        {
+          "x": 84.06,
+          "y": 34.08
+        },
+        {
+          "x": 13.3,
+          "y": 42.52
+        },
+        {
+          "x": 70.66,
+          "y": 52.83
+        },
+        {
+          "x": 70.66,
+          "y": 52.83
+        },
+        {
+          "x": 58.9,
+          "y": 55.21
+        },
+        {
+          "x": 68.63,
+          "y": 27.03
+        },
+        {
+          "x": 68.97,
+          "y": 35.91
+        },
+        {
+          "x": 92.5,
+          "y": 37.68
+        },
+        {
+          "x": 48.33,
+          "y": 46.59
+        },
+        {
+          "x": 48.33,
+          "y": 46.59
+        },
+        {
+          "x": 64.24,
+          "y": 44.84
+        },
+        {
+          "x": 58.8,
+          "y": 18.67
+        },
+        {
+          "x": 26.46,
+          "y": 16.29
+        },
+        {
+          "x": 65.7,
+          "y": 15.17
+        },
+        {
+          "x": 63.56,
+          "y": 15.24
+        },
+        {
+          "x": 71.67,
+          "y": 12.59
+        },
+        {
+          "x": 54.94,
+          "y": 21.97
+        },
+        {
+          "x": 58.8,
+          "y": 24.14
+        },
+        {
+          "x": 62.21,
+          "y": 21.55
+        },
+        {
+          "x": 55.96,
+          "y": 21.2
+        },
+        {
+          "x": 64.47,
+          "y": 54.88
+        },
+        {
+          "x": 63.68,
+          "y": 56.26
+        },
+        {
+          "x": 38.39,
+          "y": 58.16
+        },
+        {
+          "x": 33.21,
+          "y": 64.92
+        },
+        {
+          "x": 33.21,
+          "y": 39.29
+        },
+        {
+          "x": 24.09,
+          "y": 59.74
+        },
+        {
+          "x": 37.49,
+          "y": 19.23
+        },
+        {
+          "x": 31.3,
+          "y": 44.49
+        },
+        {
+          "x": 91.1,
+          "y": 49.89
+        },
+        {
+          "x": 44.67,
+          "y": 36.36
+        },
+        {
+          "x": 46.2,
+          "y": 35.68
+        },
+        {
+          "x": 46.3,
+          "y": 39.55
+        },
+        {
+          "x": 24.32,
+          "y": 51.64
+        },
+        {
+          "x": 56.77,
+          "y": 23.72
+        },
+        {
+          "x": 15,
+          "y": 43.44
+        },
+        {
+          "x": 23.53,
+          "y": 47.36
+        },
+        {
+          "x": 61.65,
+          "y": 12.2
+        },
+        {
+          "x": 64.69,
+          "y": 13.58
+        },
+        {
+          "x": 58.5,
+          "y": 12.2
+        },
+        {
+          "x": 66.49,
+          "y": 15.03
+        },
+        {
+          "x": 12.7,
+          "y": 33.77
+        },
+        {
+          "x": 3.22,
+          "y": 58.16
+        },
+        {
+          "x": 64.35,
+          "y": 21.41
+        },
+        {
+          "x": 75.84,
+          "y": 16.15
+        },
+        {
+          "x": 57.99,
+          "y": 37.74
+        },
+        {
+          "x": 82.37,
+          "y": 19.87
+        },
+        {
+          "x": 69.31,
+          "y": 31.64
+        },
+        {
+          "x": 63.9,
+          "y": 16.15
+        }
+      ]
+    },
+    "keeperShotmap": null
+  },
+  "status": "active",
+  "marketValues": {
+    "values": [
+      {
+        "date": "2014-12-31T00:00:00+00:00",
+        "value": 220000,
+        "currency": "EUR",
+        "lowerBound": 160000,
+        "upperBound": 270000,
+        "source": "scisports",
+        "teamId": 6399,
+        "teamName": "FC Dallas",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2015-06-30T00:00:00+00:00",
+        "value": 590000,
+        "currency": "EUR",
+        "lowerBound": 440000,
+        "upperBound": 730000,
+        "source": "scisports",
+        "teamId": 6399,
+        "teamName": "FC Dallas"
+      },
+      {
+        "date": "2015-12-31T00:00:00+00:00",
+        "value": 950000,
+        "currency": "EUR",
+        "lowerBound": 710000,
+        "upperBound": 1190000,
+        "source": "scisports",
+        "teamId": 6399,
+        "teamName": "FC Dallas"
+      },
+      {
+        "date": "2016-06-30T00:00:00+00:00",
+        "value": 1890000,
+        "currency": "EUR",
+        "lowerBound": 1420000,
+        "upperBound": 2360000,
+        "source": "scisports",
+        "teamId": 6399,
+        "teamName": "FC Dallas"
+      },
+      {
+        "date": "2016-12-31T00:00:00+00:00",
+        "value": 2830000,
+        "currency": "EUR",
+        "lowerBound": 2120000,
+        "upperBound": 3530000,
+        "source": "scisports",
+        "teamId": 6399,
+        "teamName": "FC Dallas"
+      },
+      {
+        "date": "2017-06-30T00:00:00+00:00",
+        "value": 2560000,
+        "currency": "EUR",
+        "lowerBound": 1920000,
+        "upperBound": 3200000,
+        "source": "scisports",
+        "teamId": 6399,
+        "teamName": "FC Dallas"
+      },
+      {
+        "date": "2017-12-31T00:00:00+00:00",
+        "value": 2300000,
+        "currency": "EUR",
+        "lowerBound": 1720000,
+        "upperBound": 2870000,
+        "source": "scisports",
+        "teamId": 6399,
+        "teamName": "FC Dallas"
+      },
+      {
+        "date": "2018-06-30T00:00:00+00:00",
+        "value": 1450000,
+        "currency": "EUR",
+        "lowerBound": 1090000,
+        "upperBound": 1810000,
+        "source": "scisports",
+        "teamId": 8314,
+        "teamName": "Colorado Rapids",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2018-12-31T00:00:00+00:00",
+        "value": 600000,
+        "currency": "EUR",
+        "lowerBound": 450000,
+        "upperBound": 750000,
+        "source": "scisports",
+        "teamId": 8314,
+        "teamName": "Colorado Rapids"
+      },
+      {
+        "date": "2019-06-30T00:00:00+00:00",
+        "value": 530000,
+        "currency": "EUR",
+        "lowerBound": 390000,
+        "upperBound": 660000,
+        "source": "scisports",
+        "teamId": 8314,
+        "teamName": "Colorado Rapids"
+      },
+      {
+        "date": "2019-12-31T00:00:00+00:00",
+        "value": 450000,
+        "currency": "EUR",
+        "lowerBound": 340000,
+        "upperBound": 560000,
+        "source": "scisports",
+        "teamId": 8314,
+        "teamName": "Colorado Rapids"
+      },
+      {
+        "date": "2020-06-30T00:00:00+00:00",
+        "value": 390000,
+        "currency": "EUR",
+        "lowerBound": 290000,
+        "upperBound": 480000,
+        "source": "scisports",
+        "teamId": 8314,
+        "teamName": "Colorado Rapids"
+      },
+      {
+        "date": "2020-12-31T00:00:00+00:00",
+        "value": 320000,
+        "currency": "EUR",
+        "lowerBound": 240000,
+        "upperBound": 410000,
+        "source": "scisports",
+        "teamId": 8314,
+        "teamName": "Colorado Rapids"
+      },
+      {
+        "date": "2021-06-30T00:00:00+00:00",
+        "value": 340000,
+        "currency": "EUR",
+        "lowerBound": 250000,
+        "upperBound": 420000,
+        "source": "scisports",
+        "teamId": 8314,
+        "teamName": "Colorado Rapids"
+      },
+      {
+        "date": "2021-10-31T00:00:00+00:00",
+        "value": 350000,
+        "currency": "EUR",
+        "lowerBound": 260000,
+        "upperBound": 430000,
+        "source": "scisports",
+        "teamId": 8314,
+        "teamName": "Colorado Rapids"
+      },
+      {
+        "date": "2021-11-30T00:00:00+00:00",
+        "value": 340000,
+        "currency": "EUR",
+        "lowerBound": 250000,
+        "upperBound": 420000,
+        "source": "scisports",
+        "teamId": 8314,
+        "teamName": "Colorado Rapids"
+      },
+      {
+        "date": "2021-12-31T00:00:00+00:00",
+        "value": 360000,
+        "currency": "EUR",
+        "lowerBound": 270000,
+        "upperBound": 450000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2022-01-31T00:00:00+00:00",
+        "value": 350000,
+        "currency": "EUR",
+        "lowerBound": 260000,
+        "upperBound": 440000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2022-02-28T00:00:00+00:00",
+        "value": 810000,
+        "currency": "EUR",
+        "lowerBound": 610000,
+        "upperBound": 1010000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2022-03-31T00:00:00+00:00",
+        "value": 980000,
+        "currency": "EUR",
+        "lowerBound": 740000,
+        "upperBound": 1230000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2022-04-30T00:00:00+00:00",
+        "value": 900000,
+        "currency": "EUR",
+        "lowerBound": 680000,
+        "upperBound": 1130000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2022-05-31T00:00:00+00:00",
+        "value": 890000,
+        "currency": "EUR",
+        "lowerBound": 670000,
+        "upperBound": 1110000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2022-06-30T00:00:00+00:00",
+        "value": 780000,
+        "currency": "EUR",
+        "lowerBound": 590000,
+        "upperBound": 980000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2022-07-31T00:00:00+00:00",
+        "value": 670000,
+        "currency": "EUR",
+        "lowerBound": 510000,
+        "upperBound": 840000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2022-08-31T00:00:00+00:00",
+        "value": 590000,
+        "currency": "EUR",
+        "lowerBound": 440000,
+        "upperBound": 740000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2022-09-04T00:00:00+00:00",
+        "value": 530000,
+        "currency": "EUR",
+        "lowerBound": 400000,
+        "upperBound": 660000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2022-09-30T00:00:00+00:00",
+        "value": 470000,
+        "currency": "EUR",
+        "lowerBound": 350000,
+        "upperBound": 590000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2022-10-31T00:00:00+00:00",
+        "value": 410000,
+        "currency": "EUR",
+        "lowerBound": 310000,
+        "upperBound": 520000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2022-11-30T00:00:00+00:00",
+        "value": 550000,
+        "currency": "EUR",
+        "lowerBound": 410000,
+        "upperBound": 680000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2022-12-31T00:00:00+00:00",
+        "value": 550000,
+        "currency": "EUR",
+        "lowerBound": 410000,
+        "upperBound": 690000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2023-01-31T00:00:00+00:00",
+        "value": 550000,
+        "currency": "EUR",
+        "lowerBound": 410000,
+        "upperBound": 690000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2023-02-28T00:00:00+00:00",
+        "value": 550000,
+        "currency": "EUR",
+        "lowerBound": 410000,
+        "upperBound": 680000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2023-03-31T00:00:00+00:00",
+        "value": 540000,
+        "currency": "EUR",
+        "lowerBound": 410000,
+        "upperBound": 680000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2023-04-30T00:00:00+00:00",
+        "value": 560000,
+        "currency": "EUR",
+        "lowerBound": 420000,
+        "upperBound": 690000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2023-05-31T00:00:00+00:00",
+        "value": 560000,
+        "currency": "EUR",
+        "lowerBound": 420000,
+        "upperBound": 710000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2023-06-30T00:00:00+00:00",
+        "value": 550000,
+        "currency": "EUR",
+        "lowerBound": 410000,
+        "upperBound": 690000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2023-07-31T00:00:00+00:00",
+        "value": 490000,
+        "currency": "EUR",
+        "lowerBound": 370000,
+        "upperBound": 620000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2023-09-01T00:00:00+00:00",
+        "value": 460000,
+        "currency": "EUR",
+        "lowerBound": 340000,
+        "upperBound": 570000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2023-09-30T00:00:00+00:00",
+        "value": 440000,
+        "currency": "EUR",
+        "lowerBound": 330000,
+        "upperBound": 550000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2023-10-31T00:00:00+00:00",
+        "value": 420000,
+        "currency": "EUR",
+        "lowerBound": 310000,
+        "upperBound": 520000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2023-11-30T00:00:00+00:00",
+        "value": 430000,
+        "currency": "EUR",
+        "lowerBound": 320000,
+        "upperBound": 540000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2023-12-31T00:00:00+00:00",
+        "value": 380000,
+        "currency": "EUR",
+        "lowerBound": 290000,
+        "upperBound": 480000,
+        "source": "scisports",
+        "teamId": 867280,
+        "teamName": "Los Angeles FC"
+      },
+      {
+        "date": "2024-01-31T00:00:00+00:00",
+        "value": 480000,
+        "currency": "EUR",
+        "lowerBound": 384000,
+        "upperBound": 576000,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2024-02-29T00:00:00+00:00",
+        "value": 576000,
+        "currency": "EUR",
+        "lowerBound": 460800,
+        "upperBound": 691200,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2024-03-31T00:00:00+00:00",
+        "value": 691200,
+        "currency": "EUR",
+        "lowerBound": 552960,
+        "upperBound": 829440,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2024-04-30T00:00:00+00:00",
+        "value": 829440,
+        "currency": "EUR",
+        "lowerBound": 663552,
+        "upperBound": 995328,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2024-05-31T00:00:00+00:00",
+        "value": 995328,
+        "currency": "EUR",
+        "lowerBound": 796262,
+        "upperBound": 1194393,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2024-06-30T00:00:00+00:00",
+        "value": 1194393,
+        "currency": "EUR",
+        "lowerBound": 955514,
+        "upperBound": 1433271,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2024-07-31T00:00:00+00:00",
+        "value": 1352311,
+        "currency": "EUR",
+        "lowerBound": 1081849,
+        "upperBound": 1622773,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2024-08-31T00:00:00+00:00",
+        "value": 1352311,
+        "currency": "EUR",
+        "lowerBound": 1081849,
+        "upperBound": 1622773,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2024-09-30T00:00:00+00:00",
+        "value": 1341527,
+        "currency": "EUR",
+        "lowerBound": 1073221,
+        "upperBound": 1609832,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2024-10-31T00:00:00+00:00",
+        "value": 1341527,
+        "currency": "EUR",
+        "lowerBound": 1073221,
+        "upperBound": 1609832,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2024-11-30T00:00:00+00:00",
+        "value": 1341288,
+        "currency": "EUR",
+        "lowerBound": 1073031,
+        "upperBound": 1609546,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2024-12-31T00:00:00+00:00",
+        "value": 1339409,
+        "currency": "EUR",
+        "lowerBound": 1071527,
+        "upperBound": 1607291,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2025-01-30T00:00:00+00:00",
+        "value": 1337012,
+        "currency": "EUR",
+        "lowerBound": 1069610,
+        "upperBound": 1604415,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2025-02-27T00:00:00+00:00",
+        "value": 1338891,
+        "currency": "EUR",
+        "lowerBound": 1071113,
+        "upperBound": 1606670,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2025-03-30T00:00:00+00:00",
+        "value": 1269677,
+        "currency": "EUR",
+        "lowerBound": 1015742,
+        "upperBound": 1523613,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2025-04-30T00:00:00+00:00",
+        "value": 1274290,
+        "currency": "EUR",
+        "lowerBound": 1019432,
+        "upperBound": 1529148,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2025-05-31T00:00:00+00:00",
+        "value": 1256757,
+        "currency": "EUR",
+        "lowerBound": 1005406,
+        "upperBound": 1508109,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2025-07-01T00:00:00+00:00",
+        "value": 943245,
+        "currency": "EUR",
+        "lowerBound": 754596,
+        "upperBound": 1131894,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2025-08-01T00:00:00+00:00",
+        "value": 940975,
+        "currency": "EUR",
+        "lowerBound": 752780,
+        "upperBound": 1129170,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2025-09-01T00:00:00+00:00",
+        "value": 937559,
+        "currency": "EUR",
+        "lowerBound": 750047,
+        "upperBound": 1125071,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2025-10-01T00:00:00+00:00",
+        "value": 937559,
+        "currency": "EUR",
+        "lowerBound": 750047,
+        "upperBound": 1125071,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2025-11-01T00:00:00+00:00",
+        "value": 937559,
+        "currency": "EUR",
+        "lowerBound": 750047,
+        "upperBound": 1125071,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2025-12-01T00:00:00+00:00",
+        "value": 937559,
+        "currency": "EUR",
+        "lowerBound": 750047,
+        "upperBound": 1125071,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2026-01-01T00:00:00+00:00",
+        "value": 750047,
+        "currency": "EUR",
+        "lowerBound": 600037,
+        "upperBound": 900056,
+        "source": "scisports",
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC"
+      },
+      {
+        "date": "2026-02-01T00:00:00+00:00",
+        "value": 600037,
+        "currency": "EUR",
+        "lowerBound": 480029,
+        "upperBound": 720044,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2026-03-01T00:00:00+00:00",
+        "value": 480029,
+        "currency": "EUR",
+        "lowerBound": 384023,
+        "upperBound": 576034,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-04-01T00:00:00+00:00",
+        "value": 447670,
+        "currency": "EUR",
+        "lowerBound": 358136,
+        "upperBound": 537204,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-05-01T00:00:00+00:00",
+        "value": 537204,
+        "currency": "EUR",
+        "lowerBound": 429763,
+        "upperBound": 644644,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-06-01T00:00:00+00:00",
+        "value": 563321,
+        "currency": "EUR",
+        "lowerBound": 450657,
+        "upperBound": 675985,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-07-01T00:00:00+00:00",
+        "value": 563321,
+        "currency": "EUR",
+        "lowerBound": 450657,
+        "upperBound": 675985,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-08-01T00:00:00+00:00",
+        "value": 563321,
+        "currency": "EUR",
+        "lowerBound": 450657,
+        "upperBound": 675985,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      },
+      {
+        "date": "2026-09-01T00:00:00+00:00",
+        "value": 547379,
+        "currency": "EUR",
+        "lowerBound": 437903,
+        "upperBound": 656855,
+        "source": "scisports",
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin"
+      }
+    ]
+  },
+  "relatedLinksData": {
+    "teammates": [
+      {
+        "id": 1188767,
+        "name": "Léo Borges"
+      },
+      {
+        "id": 1117005,
+        "name": "Jan Bieganski"
+      },
+      {
+        "id": 949336,
+        "name": "Musa Juwara"
+      },
+      {
+        "id": 1050169,
+        "name": "Rajmund Molnár"
+      },
+      {
+        "id": 1439702,
+        "name": "Filip Cuic"
+      },
+      {
+        "id": 69541,
+        "name": "Kamil Grosicki"
+      },
+      {
+        "id": 1329535,
+        "name": "Dimitrios Keramitsis"
+      },
+      {
+        "id": 585352,
+        "name": "José Pozo"
+      },
+      {
+        "id": 1092563,
+        "name": "Hussein Ali"
+      },
+      {
+        "id": 558189,
+        "name": "Patryk Dziczek"
+      },
+      {
+        "id": 316558,
+        "name": "Jean Pierre Nsame"
+      },
+      {
+        "id": 1078936,
+        "name": "Paul Mukairu"
+      },
+      {
+        "id": 1080510,
+        "name": "Mor Ndiaye"
+      },
+      {
+        "id": 1662742,
+        "name": "Igor Brzyski"
+      },
+      {
+        "id": 833697,
+        "name": "Darko Churlinov"
+      },
+      {
+        "id": 280965,
+        "name": "Benjamin Mendy"
+      },
+      {
+        "id": 406506,
+        "name": "Linus Wahlqvist Egnell"
+      },
+      {
+        "id": 1299888,
+        "name": "Lukas Willen"
+      },
+      {
+        "id": 1901066,
+        "name": "Jacek Czaplinski"
+      },
+      {
+        "id": 1410436,
+        "name": "Nikolaos Botis"
+      },
+      {
+        "id": 1797493,
+        "name": "Alex Peskovic"
+      },
+      {
+        "id": 1667987,
+        "name": "Maciej Wojciechowski"
+      },
+      {
+        "id": 749648,
+        "name": "Attila Szalai"
+      },
+      {
+        "id": 1786208,
+        "name": "Natan Lawa"
+      },
+      {
+        "id": 1596043,
+        "name": "Patryk Paryzek"
+      },
+      {
+        "id": 2090858,
+        "name": "Andrzej Ossowski"
+      },
+      {
+        "id": 289211,
+        "name": "Valentin Cojocaru"
+      },
+      {
+        "id": 2170709,
+        "name": "Antoni Fojut"
+      }
+    ],
+    "mensNationalTeam": [
+      {
+        "id": 729988,
+        "name": "Matt Turner"
+      },
+      {
+        "id": 892816,
+        "name": "Sergiño Dest"
+      },
+      {
+        "id": 950829,
+        "name": "Chris Richards"
+      },
+      {
+        "id": 729769,
+        "name": "Tyler Adams"
+      },
+      {
+        "id": 662428,
+        "name": "Antonee Robinson"
+      },
+      {
+        "id": 688271,
+        "name": "Auston Trusty"
+      },
+      {
+        "id": 1071179,
+        "name": "Giovanni Reyna"
+      },
+      {
+        "id": 848266,
+        "name": "Weston McKennie"
+      },
+      {
+        "id": 1036401,
+        "name": "Ricardo Pepi"
+      },
+      {
+        "id": 688295,
+        "name": "Christian Pulisic"
+      },
+      {
+        "id": 952322,
+        "name": "Brenden Aaronson"
+      },
+      {
+        "id": 825623,
+        "name": "Miles Robinson"
+      },
+      {
+        "id": 198444,
+        "name": "Tim Ream"
+      },
+      {
+        "id": 1136096,
+        "name": "Sebastian Berhalter"
+      },
+      {
+        "id": 621946,
+        "name": "Cristian Roldan"
+      },
+      {
+        "id": 1338696,
+        "name": "Alex Freeman"
+      },
+      {
+        "id": 1126058,
+        "name": "Malik Tillman"
+      },
+      {
+        "id": 1348329,
+        "name": "Max Arfsten"
+      },
+      {
+        "id": 848268,
+        "name": "Haji Wright"
+      },
+      {
+        "id": 982677,
+        "name": "Folarin Balogun"
+      },
+      {
+        "id": 889536,
+        "name": "Timothy Weah"
+      },
+      {
+        "id": 924485,
+        "name": "Mark McKenzie"
+      },
+      {
+        "id": 959696,
+        "name": "Joseph Scally"
+      },
+      {
+        "id": 1026065,
+        "name": "Matt Freese"
+      },
+      {
+        "id": 1245998,
+        "name": "Chris Brady"
+      },
+      {
+        "id": 621882,
+        "name": "Alex Zendejas"
+      }
+    ],
+    "womensNationalTeam": []
+  },
+  "nextMatch": {
+    "matchId": 5803974,
+    "homeId": 8023,
+    "awayId": 8243,
+    "homeName": "Pogoń Szczecin",
+    "awayName": "Wisła Płock",
+    "matchDate": "2026-09-07T18:30:00Z",
+    "statusId": 1,
+    "leagueId": 196,
+    "parentLeagueId": 196,
+    "leagueName": "Ekstraklasa",
+    "status": {
+      "utcTime": "2026-09-07T18:30:00.000Z",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "stadium": {
+      "venue": "Stadion Miejski im. Floriana Krygiera",
+      "city": "Szczecin",
+      "lat": 53.43650687,
+      "long": 14.518775974
+    },
+    "matchUrl": "/matches/pogon-szczecin-vs-wisa-pock/26rtbe#5803974"
+  },
+  "dataProvider": "enet",
+  "initialMatchesPage": {
+    "matches": [
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8021,
+        "opponentTeamName": "Zagłębie Lubin",
+        "isHomeTeam": false,
+        "id": 5803967,
+        "matchDate": {
+          "utcTime": "2026-08-29T18:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#5803967",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 0,
+        "minutesPlayed": 63,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.6",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 84,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 10265,
+        "opponentTeamName": "Wisła Kraków",
+        "isHomeTeam": true,
+        "id": 5803955,
+        "matchDate": {
+          "utcTime": "2026-08-23T18:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-krakow/2rkl8v#5803955",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 2,
+        "minutesPlayed": 7,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 89466,
+        "opponentTeamName": "Motor Lublin",
+        "isHomeTeam": true,
+        "id": 5803936,
+        "matchDate": {
+          "utcTime": "2026-08-08T15:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-motor-lublin/26lbxv7#5803936",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 3,
+        "awayScore": 1,
+        "minutesPlayed": 33,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.6",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 2186,
+        "opponentTeamName": "Cracovia",
+        "isHomeTeam": false,
+        "id": 5803923,
+        "matchDate": {
+          "utcTime": "2026-08-03T17:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/cracovia-vs-pogon-szczecin/v17vs#5803923",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 2,
+        "minutesPlayed": 90,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.4",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 66,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8673,
+        "opponentTeamName": "Legia Warszawa",
+        "isHomeTeam": true,
+        "id": 5803899,
+        "matchDate": {
+          "utcTime": "2026-07-24T18:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-legia-warszawa/2azq1p#5803899",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 1,
+        "minutesPlayed": 89,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.6",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 66,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8695,
+        "opponentTeamName": "Fenerbahçe",
+        "isHomeTeam": false,
+        "id": 5904696,
+        "matchDate": {
+          "utcTime": "2026-07-11T17:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-fenerbahce/2b7log#5904696",
+        "leagueId": 489,
+        "leagueName": "Club Friendlies",
+        "stage": null,
+        "homeScore": 4,
+        "awayScore": 0,
+        "minutesPlayed": 32,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.2",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 4023,
+        "opponentTeamName": "GKS Katowice",
+        "isHomeTeam": true,
+        "id": 4803721,
+        "matchDate": {
+          "utcTime": "2026-05-23T15:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/gks-katowice-vs-pogon-szczecin/177d4w#4803721",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 1,
+        "minutesPlayed": 32,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.0",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8021,
+        "opponentTeamName": "Zagłębie Lubin",
+        "isHomeTeam": false,
+        "id": 4803715,
+        "matchDate": {
+          "utcTime": "2026-05-15T16:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#4803715",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 1,
+        "minutesPlayed": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": true,
+        "playedInMatch": false
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 1957,
+        "opponentTeamName": "Jagiellonia Białystok",
+        "isHomeTeam": false,
+        "id": 4803700,
+        "matchDate": {
+          "utcTime": "2026-05-09T15:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/jagiellonia-biaystok-vs-pogon-szczecin/tno4d#4803700",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 3,
+        "awayScore": 2,
+        "minutesPlayed": 65,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.3",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 76,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8243,
+        "opponentTeamName": "Wisła Płock",
+        "isHomeTeam": true,
+        "id": 4803694,
+        "matchDate": {
+          "utcTime": "2026-05-03T15:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-pock/26rtbe#4803694",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 3,
+        "awayScore": 0,
+        "minutesPlayed": 90,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.6",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 76,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 2186,
+        "opponentTeamName": "Cracovia",
+        "isHomeTeam": false,
+        "id": 4803680,
+        "matchDate": {
+          "utcTime": "2026-04-25T18:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/cracovia-vs-pogon-szczecin/v17vs#4803680",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 1,
+        "minutesPlayed": 45,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.6",
+          "isTopRating": true
+        },
+        "playerOfTheMatch": true,
+        "onBench": false,
+        "lineupPositionId": 76,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 2182,
+        "opponentTeamName": "Lech Poznań",
+        "isHomeTeam": true,
+        "id": 4803676,
+        "matchDate": {
+          "utcTime": "2026-04-18T18:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/lech-poznan-vs-pogon-szczecin/v0cdm#4803676",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 2,
+        "minutesPlayed": 90,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.2",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 72,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8028,
+        "opponentTeamName": "Piast Gliwice",
+        "isHomeTeam": false,
+        "id": 4803667,
+        "matchDate": {
+          "utcTime": "2026-04-13T17:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-piast-gliwice/24pcga#4803667",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 2,
+        "minutesPlayed": 90,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.4",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 32,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8673,
+        "opponentTeamName": "Legia Warszawa",
+        "isHomeTeam": true,
+        "id": 4803658,
+        "matchDate": {
+          "utcTime": "2026-04-06T15:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-legia-warszawa/2azq1p#4803658",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 2,
+        "minutesPlayed": 58,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.2",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 66,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8030,
+        "opponentTeamName": "Lechia Gdańsk",
+        "isHomeTeam": false,
+        "id": 4803646,
+        "matchDate": {
+          "utcTime": "2026-03-21T16:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-lechia-gdansk/24q185#4803646",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 1,
+        "minutesPlayed": 62,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.6",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 66,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8024,
+        "opponentTeamName": "Widzew Łódź",
+        "isHomeTeam": true,
+        "id": 4803623,
+        "matchDate": {
+          "utcTime": "2026-02-28T13:45:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-widzew-odz/24nyww#4803623",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 0,
+        "minutesPlayed": 90,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 1,
+        "ratingProps": {
+          "rating": "5.6",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 66,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8020,
+        "opponentTeamName": "Górnik Zabrze",
+        "isHomeTeam": false,
+        "id": 4803609,
+        "matchDate": {
+          "utcTime": "2026-02-21T16:45:00.000Z"
+        },
+        "matchPageUrl": "/matches/gornik-zabrze-vs-pogon-szczecin/24mle1#4803609",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 1,
+        "minutesPlayed": 90,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.6",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 66,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 8322,
+        "opponentTeamName": "Arka Gdynia",
+        "isHomeTeam": true,
+        "id": 4803603,
+        "matchDate": {
+          "utcTime": "2026-02-15T13:45:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-arka-gdynia/27jfc7#4803603",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 0,
+        "minutesPlayed": 77,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.1",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 66,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC",
+        "opponentTeamId": 191716,
+        "opponentTeamName": "Philadelphia Union",
+        "isHomeTeam": true,
+        "id": 5020537,
+        "matchDate": {
+          "utcTime": "2025-11-01T21:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/chicago-fire-fc-vs-philadelphia-union/90jwu6m#5020537",
+        "leagueId": 130,
+        "leagueName": "MLS",
+        "stage": "1/8",
+        "homeScore": 0,
+        "awayScore": 3,
+        "minutesPlayed": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": true,
+        "playedInMatch": false
+      },
+      {
+        "teamId": 6397,
+        "teamName": "Chicago Fire FC",
+        "opponentTeamId": 191716,
+        "opponentTeamName": "Philadelphia Union",
+        "isHomeTeam": false,
+        "id": 5020536,
+        "matchDate": {
+          "utcTime": "2025-10-26T21:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/chicago-fire-fc-vs-philadelphia-union/90jwu6m#5020536",
+        "leagueId": 130,
+        "leagueName": "MLS",
+        "stage": "1/8",
+        "homeScore": 2,
+        "awayScore": 2,
+        "minutesPlayed": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": true,
+        "playedInMatch": false
+      }
+    ],
+    "previous": "https://pub.fotmob.com/prod/db/api/player/431948/matches?before=1761514200"
+  }
+}
