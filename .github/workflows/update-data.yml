@@ -11,9 +11,13 @@ on:
     - cron: '15 3 * * *'
 permissions:
   contents: write
+  pages: write
+  id-token: write
 jobs:
   update:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -62,3 +66,12 @@ jobs:
           git add data/scouting/ data/fosi-data-dictionary.json dashboard/data.json
           git diff --cached --quiet || git commit -m 'data: update active scouting dataset'
           git push
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload refreshed dashboard
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dashboard
+      - name: Deploy refreshed dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4
