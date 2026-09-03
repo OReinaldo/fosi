@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4",
   "model": "FOSI metrics",
-  "generated_at": "2026-09-03T14:25:52.282979+00:00",
+  "generated_at": "2026-09-03T14:34:13.546677+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -156,9 +156,9 @@
       "source": null
     },
     "players_count": {
-      "value": 15,
-      "observed": 15,
-      "total": 15,
+      "value": 18,
+      "observed": 18,
+      "total": 18,
       "coverage": 1.0,
       "unit": "players",
       "status": "observed",
@@ -519,7 +519,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "5803967",
-        "retrieved_at": "2026-09-03T14:25:51.400070+00:00"
+        "retrieved_at": "2026-09-03T14:34:12.671508+00:00"
       }
     },
     {
@@ -546,7 +546,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "5803955",
-        "retrieved_at": "2026-09-03T14:25:51.385740+00:00"
+        "retrieved_at": "2026-09-03T14:34:12.657410+00:00"
       }
     },
     {
@@ -573,7 +573,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "5803936",
-        "retrieved_at": "2026-09-03T14:25:51.370592+00:00"
+        "retrieved_at": "2026-09-03T14:34:12.642768+00:00"
       }
     },
     {
@@ -600,7 +600,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "5803923",
-        "retrieved_at": "2026-09-03T14:25:51.355351+00:00"
+        "retrieved_at": "2026-09-03T14:34:12.627743+00:00"
       }
     },
     {
@@ -627,7 +627,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "5803899",
-        "retrieved_at": "2026-09-03T14:25:51.338421+00:00"
+        "retrieved_at": "2026-09-03T14:34:12.612154+00:00"
       }
     },
     {
@@ -654,7 +654,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": "5904696",
-        "retrieved_at": "2026-09-03T14:25:51.412573+00:00"
+        "retrieved_at": "2026-09-03T14:34:12.684084+00:00"
       }
     },
     {
@@ -681,19 +681,41 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/players/280965.json",
         "provider_id": "5803974",
-        "retrieved_at": "2026-09-03T14:25:51.525752+00:00"
+        "retrieved_at": "2026-09-03T14:34:12.798115+00:00"
       }
     }
   ],
   "player_metrics": [
     {
+      "fosi_id": "player:fotmob:8023",
+      "player_id": "8023",
+      "name": "Pogoń Szczecin",
+      "position": 10,
+      "stats": {
+        "xg": 13.502200245857239
+      },
+      "per90": {}
+    },
+    {
       "fosi_id": "player:fotmob:289211",
       "player_id": "289211",
-      "name": {
-        "firstName": "Valentin",
-        "lastName": "Cojocaru",
-        "fullName": "Valentin Cojocaru"
-      },
+      "name": "Valentin Cojocaru",
+      "position": null,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1439702",
+      "player_id": "1439702",
+      "name": "Filip Cuic",
+      "position": null,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:0",
+      "player_id": "0",
+      "name": "Pogoń Szczecin",
       "position": null,
       "stats": {},
       "per90": {}
@@ -868,7 +890,7 @@
     }
   ],
   "coverage": {
-    "normalized_records": 466,
+    "normalized_records": 469,
     "attributed_shots": 300
   }
 }

@@ -1,10 +1,11 @@
 {
   "source": "fotmob",
   "status": "partial",
-  "retrieved_at": "2026-09-03T14:25:40.862462+00:00",
+  "retrieved_at": "2026-09-03T14:34:00.601663+00:00",
   "layers": {
     "team": "available",
     "players": "available",
+    "competition": "available",
     "matches": "available",
     "stats": "available",
     "events": "available",
@@ -12,33 +13,112 @@
   },
   "records": {
     "team": 1,
+    "league": 1,
     "player_profiles": 19,
+    "player_matches": 0,
     "transfers": 1,
     "matches": 6,
     "match_details": 0,
     "match_details_skipped_existing": 6,
-    "heatmaps": 0
+    "heatmaps": 0,
+    "livetickers": 1
   },
   "errors": [
     {
+      "player_id": "0",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "1078936",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "1092563",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "1188767",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "1329535",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "1439702",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "1667987",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "180283",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "280965",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "289211",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "316558",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "406506",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "431948",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "558189",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "69541",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "749648",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "8023",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "833697",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "player_id": "949336",
+      "player_matches_error": "HTTP Error 400: Bad Request"
+    },
+    {
       "match_id": "5803967",
-      "heatmap_error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "match_id": "5803955",
-      "heatmap_error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "match_id": "5803936",
-      "heatmap_error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "match_id": "5803923",
-      "heatmap_error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "match_id": "5803899",
-      "heatmap_error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 404: Not Found"
     }
   ],
   "team_id": "8023"
