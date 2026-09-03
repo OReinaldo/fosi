@@ -75,3 +75,4 @@ jobs:
       - name: Deploy refreshed dashboard
         id: deployment
         uses: actions/deploy-pages@v4
+# FOSI pipeline: acquisition -> normalization -> metrics -> publication -> validation -> Pages
