@@ -120,7 +120,6 @@ def player_candidate(p, target_team_id):
     if not isinstance(p, dict): return False
     pid, name = first(p, "id", "playerId", "player_id"), first(p, "name", "playerName", "fullName")
     if pid is None or not name: return False
-    # Exclude match event and shotmap objects that carry playerId/teamId.
     if any(k in p for k in ("reactKey", "eventId", "timeStr", "overloadTime", "newScore", "shotType", "eventType")): return False
     if "x" in p and "y" in p and ("isOnTarget" in p or "expectedGoals" in p): return False
     tid = first(p, "teamId", "team_id")
@@ -147,14 +146,12 @@ def normalize_players(payload, raw_path, source, target_team_id):
     return list(rows.values())
 
 def normalize_event_like(payload, raw_path, source):
-    out = {"shots": [], "events": [], "spatial_actions": []}; lists = find_lists(payload, {"shotmap", "shots", "incidents", "events", "passes"}); mid = deep_first(payload, ("matchId", "match_id"))
+    out = {"shots": [], "events": [], "spatial_actions": []}; lists = find_lists(payload, {"shotmap", "shots", "incidents", "events", "passes", "heatmaps"}); mid = deep_first(payload, ("matchId", "match_id"))
     for key, values in lists.items():
         for item in values:
             if not isinstance(item, dict): continue
-            iid = first(item, "id", "eventId", "shotId"); target = key if key in out else "events"; index = len(out[target]); record = dict(item); record["fosi_id"] = f"{key}:{source}:{iid}" if iid is not None else f"{key}:{source}:{mid}:{index}"; record["provider"] = source; record["provider_id"] = str(iid) if iid is not None else None; record["match_id"] = str(mid) if mid is not None else None; record["source_meta"] = source_meta(source, raw_path, iid)
-            if key in {"shotmap", "shots"}: out["shots"].append(record)
-            elif key == "passes": out["spatial_actions"].append(record)
-            else: out["events"].append(record)
+            iid = first(item, "id", "eventId", "shotId", "playerId"); target = "shots" if key in {"shotmap", "shots"} else "spatial_actions" if key in {"passes", "heatmaps"} else "events"; index = len(out[target]); record = dict(item); record["fosi_id"] = f"{key}:{source}:{iid}" if iid is not None else f"{key}:{source}:{mid}:{index}"; record["provider"] = source; record["provider_id"] = str(iid) if iid is not None else None; record["match_id"] = str(mid) if mid is not None else None; record["source_meta"] = source_meta(source, raw_path, iid)
+            out[target].append(record)
     return out
 
 def normalize_file(payload, raw_path, source, target_team_id): return normalize_match(payload, raw_path, source), normalize_players(payload, raw_path, source, target_team_id), normalize_event_like(payload, raw_path, source)
