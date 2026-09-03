@@ -44,12 +44,12 @@ def find_first(node,keys):
 def collect_team_player_ids(node,team_id,out=None):
     out=out if out is not None else set()
     if isinstance(node,dict):
-        tid=node.get("teamId",node.get("team_id")); pid=node.get("playerId",node.get("player_id"))
-        if pid is None and "id" in node and any(k in node for k in ("name","fullName","playerName")): pid=node.get("id")
-        if pid is not None and tid is not None and str(tid)==str(team_id): out.add(str(pid))
-        for v in node.values(): collect_team_player_ids(v,team_id,out)
+        tid=node.get("teamId",node.get("team_id"));pid=node.get("playerId",node.get("player_id"))
+        if pid is None and "id" in node and any(k in node for k in ("name","fullName","playerName")):pid=node.get("id")
+        if pid is not None and tid is not None and str(tid)==str(team_id):out.add(str(pid))
+        for v in node.values():collect_team_player_ids(v,team_id,out)
     elif isinstance(node,list):
-        for v in node: collect_team_player_ids(v,team_id,out)
+        for v in node:collect_team_player_ids(v,team_id,out)
     return out
 def main():
     cfg=json.loads(CONFIG.read_text(encoding="utf-8"));st={"source":"fotmob","status":"collecting","retrieved_at":datetime.now(timezone.utc).isoformat(),"layers":{},"records":{},"errors":[]}
@@ -61,33 +61,41 @@ def main():
             tid,search=resolve_team(cfg["team"]);save(raw/"search.json",search)
         if not tid:raise RuntimeError("FotMob team id could not be resolved")
         team=get_json(f"/teams?id={tid}&ccode3=POL");save(raw/"team.json",team);st["layers"].update({"team":"available","players":"available"});st["records"]["team"]=1;st["team_id"]=tid
-        player_ids=sorted(collect_team_player_ids(team,tid));profile_count=0
+        league_id=str((cfg.get("provider_competition_ids") or {}).get("fotmob") or ("196" if cfg.get("competition")=="Ekstraklasa" else ""));season=str(cfg.get("season") or "2026/2027")
+        if league_id:
+            try: save(raw/"league.json",get_json(f"/leagues?id={league_id}&season={urllib.parse.quote(season)}&ccode3=POL"));st["layers"]["competition"]="available";st["records"]["league"]=1
+            except Exception as le:st["errors"].append({"league_error":str(le)})
+        player_ids=sorted(collect_team_player_ids(team,tid));profile_count=0;history_count=0
         for pid in player_ids[:40]:
-            try: save(raw/"players"/(pid+".json"),get_json(f"/playerData?id={pid}&includeMarketValues=true"));profile_count+=1
-            except Exception as pe: st["errors"].append({"player_id":pid,"player_error":str(pe)})
-        st["records"]["player_profiles"]=profile_count
-        try:
-            save(raw/"transfers.json",get_json(f"/transfers?teamId={tid}"));st["records"]["transfers"]=1
-        except Exception as te: st["errors"].append({"transfers_error":str(te)})
+            try:
+                pp=raw/"players"/(pid+".json")
+                if not pp.exists():save(pp,get_json(f"/playerData?id={pid}&includeMarketValues=true"))
+                profile_count+=1
+            except Exception as pe:st["errors"].append({"player_id":pid,"player_error":str(pe)})
+            try:
+                ph=raw/"player-matches"/(pid+".json")
+                if not ph.exists():save(ph,get_json(f"/playerMatches?playerId={pid}&parentLeagueId={league_id}"));history_count+=1
+            except Exception as phe:st["errors"].append({"player_id":pid,"player_matches_error":str(phe)})
+        st["records"]["player_profiles"]=profile_count;st["records"]["player_matches"]=history_count
+        try:save(raw/"transfers.json",get_json(f"/transfers?teamId={tid}"));st["records"]["transfers"]=1
+        except Exception as te:st["errors"].append({"transfers_error":str(te)})
         matches={str(m["id"]):m for m in walk_matches(team) if team_match(m,cfg["team"]) and finished(m)};matches=sorted(matches.values(),key=lambda m:str((m.get("status") or {}).get("utcTime") or m.get("timeTS") or ""),reverse=True)
-        st["layers"]["matches"]="available" if matches else "pending";st["records"]["matches"]=len(matches);detail=0;skipped=0;heatmaps=0;errors=[]
+        st["layers"]["matches"]="available" if matches else "pending";st["records"]["matches"]=len(matches);detail=0;skipped=0;heatmaps=0;tickers=0;errors=[]
         for m in matches:
             mid=str(m["id"]);detail_path=raw/"matches"/(mid+".json")
             try:
-                if detail_path.exists():
-                    detail_payload=json.loads(detail_path.read_text(encoding="utf-8"));skipped+=1
-                else:
-                    detail_payload=get_json(f"/matchDetails?matchId={mid}");save(detail_path,detail_payload);detail+=1
+                if detail_path.exists():detail_payload=json.loads(detail_path.read_text(encoding="utf-8"));skipped+=1
+                else:detail_payload=get_json(f"/matchDetails?matchId={mid}");save(detail_path,detail_payload);detail+=1
                 heatmap_url=find_first(detail_payload,("heatmapUrl","heatmapURL"))
                 if heatmap_url:
                     heatmap_path=raw/"heatmaps"/(mid+".json")
-                    if heatmap_path.exists(): continue
-                    q=urllib.parse.urlencode({"heatmapUrl":heatmap_url})
-                    try:
-                        save(heatmap_path,get_json(f"/heatmap/match/{mid}/heatmaps?{q}"));heatmaps+=1
-                    except Exception as he: errors.append({"match_id":mid,"heatmap_error":str(he)})
+                    if not heatmap_path.exists():
+                        q=urllib.parse.urlencode({"heatmapUrl":heatmap_url});save(heatmap_path,get_json(f"/heatmap/match/{mid}/heatmaps?{q}"));heatmaps+=1
+                ticker_url=f"https://data.fotmob.com/webcl/ltc/gsm/{mid}_en.json.gz";teams=[(m.get("home") or {}).get("name"),(m.get("away") or {}).get("name")];ticker_path=raw/"liveticker"/(mid+".json")
+                if not ticker_path.exists() and all(teams):
+                    q=urllib.parse.urlencode({"ltcUrl":ticker_url,"teams":json.dumps(teams,separators=(",",":"))});save(ticker_path,get_json(f"/ltc?{q}"));tickers+=1
             except Exception as e:errors.append({"match_id":mid,"error":str(e)})
-        st["records"]["match_details"]=detail;st["records"]["match_details_skipped_existing"]=skipped;st["records"]["heatmaps"]=heatmaps;st["layers"].update({"stats":"available" if detail or skipped else "pending","events":"available" if detail or skipped else "pending","spatial":"available" if heatmaps else ("available" if detail or skipped else "pending")});st["errors"].extend(errors);st["status"]="success" if not st["errors"] else "partial"
+        st["records"]["match_details"]=detail;st["records"]["match_details_skipped_existing"]=skipped;st["records"]["heatmaps"]=heatmaps;st["records"]["livetickers"]=tickers;st["layers"].update({"stats":"available" if detail or skipped else "pending","events":"available" if detail or skipped else "pending","spatial":"available" if heatmaps else ("available" if detail or skipped else "pending")});st["errors"].extend(errors);st["status"]="success" if not st["errors"] else "partial"
     except Exception as e:st["status"]="error";st["errors"].append({"fatal":str(e)})
     save(root/"source-status-fotmob.json",st);save(root/"status-fotmob.json",st)
 if __name__=="__main__":main()
