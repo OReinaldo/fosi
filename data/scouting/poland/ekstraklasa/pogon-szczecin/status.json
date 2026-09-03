@@ -1,14 +1,23 @@
 {
   "sources": [
     {
+      "source": "understat",
+      "retrieved_at": "2026-09-03T13:21:36.594740+00:00",
+      "layers": {},
+      "records": {},
+      "errors": [],
+      "status": "not_applicable",
+      "reason": "competition is outside Understat supported league set"
+    },
+    {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-03T13:20:15.946561+00:00",
+      "retrieved_at": "2026-09-03T13:21:36.654156+00:00",
       "layers": {
         "news": "available"
       },
       "records": {
-        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215602
+        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215645
       },
       "errors": [
         {
@@ -18,22 +27,9 @@
       ]
     },
     {
-      "source": "sofascore",
-      "status": "error",
-      "retrieved_at": "2026-09-03T13:20:15.718769+00:00",
-      "team": "Pogoń Szczecin",
-      "layers": {},
-      "records": {},
-      "errors": [
-        {
-          "fatal": "HTTP Error 403: Forbidden"
-        }
-      ]
-    },
-    {
       "source": "fotmob",
       "status": "success",
-      "retrieved_at": "2026-09-03T13:20:10.459407+00:00",
+      "retrieved_at": "2026-09-03T13:21:32.521818+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -51,13 +47,17 @@
       "team_id": "8023"
     },
     {
-      "source": "understat",
-      "retrieved_at": "2026-09-03T13:20:15.882824+00:00",
+      "source": "sofascore",
+      "status": "error",
+      "retrieved_at": "2026-09-03T13:21:36.354170+00:00",
+      "team": "Pogoń Szczecin",
       "layers": {},
       "records": {},
-      "errors": [],
-      "status": "not_applicable",
-      "reason": "competition is outside Understat supported league set"
+      "errors": [
+        {
+          "fatal": "HTTP Error 403: Forbidden"
+        }
+      ]
     }
   ],
   "layers": {
@@ -85,7 +85,7 @@
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-03T13:20:17.443385+00:00",
+  "updated_at": "2026-09-03T13:21:38.479848+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
