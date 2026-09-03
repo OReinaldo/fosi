@@ -26,7 +26,6 @@ def deep_value(item,keys):
     for obj in walk(item):
         for k,v in obj.items():
             if k.lower() in wanted and v is not None: return v
-    return None
 def deep_values(item,keys):
     wanted={k.lower() for k in keys}; out=[]
     for obj in walk(item):
@@ -59,6 +58,8 @@ def has_other_team(item,cfg):
                 found=True
                 if n==name or i in ids: return False
     return found
+# Backward-compatible name used by the unit tests and downstream adapters.
+has_explicit_other_team=has_other_team
 def match_id(item):
     v=deep_value(item,("matchId","match_id","eventId","event_id","gameId")); return str(v) if v is not None else None
 def xg(item): return num(deep_value(item,("xg","expectedGoals","expected_goals","expectedGoal")))
@@ -116,11 +117,9 @@ def main():
     for name,vals in event_counts.items(): metrics[name]=metric(round(sum(vals),2) if vals else None,len(vals),len(events),"provider-unit","observed" if vals else None)
     for mid,row in xb.items():
         if mid in match_metrics: match_metrics[mid].update({"xg":round(row["for"],3),"xga":round(row["against"],3),"xgot":round(row["for_xgot"],3),"xgot_against":round(row["against_xgot"],3),"shots_for":row["for_shots"],"shots_against":row["against_shots"]})
-    # Player totals and per-90 are derived only when minutes are explicitly available.
     player_metrics=[]
     for p in players:
-        s=p.get("stats") or {}; row={"fosi_id":p.get("fosi_id"),"player_id":p.get("provider_id"),"name":p.get("name"),"position":p.get("position"),"stats":s.copy(),"per90":{}}
-        mins=num(s.get("minutes"));
+        s=p.get("stats") or {}; row={"fosi_id":p.get("fosi_id"),"player_id":p.get("provider_id"),"name":p.get("name"),"position":p.get("position"),"stats":s.copy(),"per90":{}}; mins=num(s.get("minutes"))
         if mins and mins>0:
             for key in ("goals","assists","shots","shots_on_target","xg","xgot","key_passes","passes","accurate_passes","tackles","interceptions","duels","recoveries","turnovers","fouls","touches","touches_opp_box","final_third_entries"):
                 v=num(s.get(key))
