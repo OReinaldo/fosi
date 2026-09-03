@@ -71,8 +71,6 @@ def parse_match_name(value):
     pair, *rest = value.split("_", 1); home, away = pair.split("-vs-", 1); return home.strip(), away.strip(), rest[0] if rest else None
 
 def score_from_header(payload, side):
-    # Search the explicit header.teams array first. Do not use event homeScore/awayScore,
-    # which are snapshots and commonly start at 0.
     for obj in walk(payload):
         teams = obj.get("teams") if isinstance(obj, dict) else None
         if isinstance(teams, list) and len(teams) >= 2 and all(isinstance(x, dict) for x in teams[:2]):
@@ -83,7 +81,6 @@ def score_from_header(payload, side):
 def numeric_score(payload, side):
     v = score_from_header(payload, side)
     if v is not None: return v
-    # Fallback only to explicit final-score containers / strings, never event snapshots.
     value = deep_first(payload, ("scoreStr", "score_string", "finalScore"))
     if isinstance(value, str):
         m = re.search(r"(\d+)\s*[-:]\s*(\d+)", value)
@@ -122,7 +119,10 @@ def player_stats(p):
 def player_candidate(p, target_team_id):
     if not isinstance(p, dict): return False
     pid, name = first(p, "id", "playerId", "player_id"), first(p, "name", "playerName", "fullName")
-    if pid is None or not name or any(k in p for k in ("reactKey", "eventId", "timeStr", "overloadTime", "newScore")): return False
+    if pid is None or not name: return False
+    # Exclude match event and shotmap objects that carry playerId/teamId.
+    if any(k in p for k in ("reactKey", "eventId", "timeStr", "overloadTime", "newScore", "shotType", "eventType")): return False
+    if "x" in p and "y" in p and ("isOnTarget" in p or "expectedGoals" in p): return False
     tid = first(p, "teamId", "team_id")
     return tid is not None and str(tid) == str(target_team_id)
 
@@ -175,7 +175,7 @@ def main():
             key = row.get("fosi_id") or json.dumps(row, sort_keys=True, ensure_ascii=False)
             if key not in seen: seen.add(key); out.append(row)
         return out
-    bundle = {"schema_version": "1.8", "model": "FOSI normalized", "generated_at": datetime.now(timezone.utc).isoformat(), "scope": {"country": cfg["country"], "competition": cfg["competition"], "team": cfg["team"], "team_id": cfg["team_id"]}, "method": "normalized-from-raw", "counts": {}, "matches": dedupe(matches), "players": dedupe(players), "events": dedupe(events), "shots": dedupe(shots), "spatial_actions": dedupe(spatial)}
+    bundle = {"schema_version": "1.9", "model": "FOSI normalized", "generated_at": datetime.now(timezone.utc).isoformat(), "scope": {"country": cfg["country"], "competition": cfg["competition"], "team": cfg["team"], "team_id": cfg["team_id"]}, "method": "normalized-from-raw", "counts": {}, "matches": dedupe(matches), "players": dedupe(players), "events": dedupe(events), "shots": dedupe(shots), "spatial_actions": dedupe(spatial)}
     bundle["counts"] = {k: len(bundle[k]) for k in ("matches", "players", "events", "shots", "spatial_actions")}; (out_root / "fosi.json").write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8"); print(f"FOSI normalized: {records} RAW files -> {bundle['counts']}")
 
 if __name__ == "__main__": main()
