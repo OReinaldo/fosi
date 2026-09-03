@@ -1,10 +1,10 @@
 """FOSI FotMob collector with dynamic team resolution and raw preservation."""
-import json, urllib.parse, urllib.request
+import json, urllib.parse, urllib.request, time
 from datetime import datetime, timezone
 from pathlib import Path
 BASE="https://www.fotmob.com/api/data";CONFIG=Path("config/selected-scout.json");ROOT_BASE=Path("data/scouting")
 def get_json(path):
-    req=urllib.request.Request(BASE+path,headers={"User-Agent":"Mozilla/5.0 FOSI/1.0","Accept":"application/json"})
+    req=urllib.request.Request(BASE+path,headers={"User-Agent":"Mozilla/5.0 FOSI/1.0","Accept":"application/json","Referer":"https://www.fotmob.com/"})
     with urllib.request.urlopen(req,timeout=45) as r:return json.load(r)
 def save(path,payload):
     path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
@@ -51,6 +51,16 @@ def collect_team_player_ids(node,team_id,out=None):
     elif isinstance(node,list):
         for v in node:collect_team_player_ids(v,team_id,out)
     return out
+def try_player_matches(pid,league_id):
+    attempts=[f"/playerMatches?playerId={urllib.parse.quote(str(pid))}"]
+    if league_id:
+        attempts.append(f"/playerMatches?playerId={urllib.parse.quote(str(pid))}&parentLeagueId={urllib.parse.quote(str(league_id))}")
+    attempts.append(f"/playerMatches?playerId={urllib.parse.quote(str(pid))}&before={int(time.time())}&parentLeagueId={urllib.parse.quote(str(league_id))}")
+    last=None
+    for path in attempts:
+        try:return get_json(path),path
+        except Exception as e:last=e
+    raise last
 def main():
     cfg=json.loads(CONFIG.read_text(encoding="utf-8"));st={"source":"fotmob","status":"collecting","retrieved_at":datetime.now(timezone.utc).isoformat(),"layers":{},"records":{},"errors":[]}
     if not cfg.get("enabled") or not cfg.get("team"):return
@@ -63,9 +73,11 @@ def main():
         team=get_json(f"/teams?id={tid}&ccode3=POL");save(raw/"team.json",team);st["layers"].update({"team":"available","players":"available"});st["records"]["team"]=1;st["team_id"]=tid
         league_id=str((cfg.get("provider_competition_ids") or {}).get("fotmob") or ("196" if cfg.get("competition")=="Ekstraklasa" else ""));season=str(cfg.get("season") or "2026/2027")
         if league_id:
-            try: save(raw/"league.json",get_json(f"/leagues?id={league_id}&season={urllib.parse.quote(season)}&ccode3=POL"));st["layers"]["competition"]="available";st["records"]["league"]=1
+            try:
+                league=get_json(f"/leagues?id={league_id}&season={urllib.parse.quote(season)}&ccode3=POL")
+                save(raw/"league.json",league);st["layers"]["competition"]="available";st["records"]["league"]=1
             except Exception as le:st["errors"].append({"league_error":str(le)})
-        player_ids=sorted(collect_team_player_ids(team,tid));profile_count=0;history_count=0
+        player_ids=sorted(collect_team_player_ids(team,tid));profile_count=0;history_count=0;history_existing=0
         for pid in player_ids[:40]:
             try:
                 pp=raw/"players"/(pid+".json")
@@ -74,9 +86,11 @@ def main():
             except Exception as pe:st["errors"].append({"player_id":pid,"player_error":str(pe)})
             try:
                 ph=raw/"player-matches"/(pid+".json")
-                if not ph.exists():save(ph,get_json(f"/playerMatches?playerId={pid}&parentLeagueId={league_id}"));history_count+=1
+                if ph.exists():history_existing+=1
+                else:
+                    data,used=try_player_matches(pid,league_id);save(ph,data);history_count+=1
             except Exception as phe:st["errors"].append({"player_id":pid,"player_matches_error":str(phe)})
-        st["records"]["player_profiles"]=profile_count;st["records"]["player_matches"]=history_count
+        st["records"]["player_profiles"]=profile_count;st["records"]["player_matches"]=history_count;st["records"]["player_matches_skipped_existing"]=history_existing
         try:save(raw/"transfers.json",get_json(f"/transfers?teamId={tid}"));st["records"]["transfers"]=1
         except Exception as te:st["errors"].append({"transfers_error":str(te)})
         matches={str(m["id"]):m for m in walk_matches(team) if team_match(m,cfg["team"]) and finished(m)};matches=sorted(matches.values(),key=lambda m:str((m.get("status") or {}).get("utcTime") or m.get("timeTS") or ""),reverse=True)
@@ -91,9 +105,10 @@ def main():
                     heatmap_path=raw/"heatmaps"/(mid+".json")
                     if not heatmap_path.exists():
                         q=urllib.parse.urlencode({"heatmapUrl":heatmap_url});save(heatmap_path,get_json(f"/heatmap/match/{mid}/heatmaps?{q}"));heatmaps+=1
-                ticker_url=f"https://data.fotmob.com/webcl/ltc/gsm/{mid}_en.json.gz";teams=[(m.get("home") or {}).get("name"),(m.get("away") or {}).get("name")];ticker_path=raw/"liveticker"/(mid+".json")
+                ltc_url=find_first(detail_payload,("ltcUrl","ltcURL","liveTickerUrl","liveTickerURL")) or f"https://data.fotmob.com/webcl/ltc/gsm/{mid}_en.json.gz"
+                ticker_path=raw/"liveticker"/(mid+".json");teams=[(m.get("home") or {}).get("name"),(m.get("away") or {}).get("name")]
                 if not ticker_path.exists() and all(teams):
-                    q=urllib.parse.urlencode({"ltcUrl":ticker_url,"teams":json.dumps(teams,separators=(",",":"))});save(ticker_path,get_json(f"/ltc?{q}"));tickers+=1
+                    q=urllib.parse.urlencode({"ltcUrl":ltc_url,"teams":json.dumps(teams,separators=(",",":"))});save(ticker_path,get_json(f"/ltc?{q}"));tickers+=1
             except Exception as e:errors.append({"match_id":mid,"error":str(e)})
         st["records"]["match_details"]=detail;st["records"]["match_details_skipped_existing"]=skipped;st["records"]["heatmaps"]=heatmaps;st["records"]["livetickers"]=tickers;st["layers"].update({"stats":"available" if detail or skipped else "pending","events":"available" if detail or skipped else "pending","spatial":"available" if heatmaps else ("available" if detail or skipped else "pending")});st["errors"].extend(errors);st["status"]="success" if not st["errors"] else "partial"
     except Exception as e:st["status"]="error";st["errors"].append({"fatal":str(e)})
