@@ -88,6 +88,7 @@ def numeric_score(payload, side):
     return None
 
 def normalize_match(payload, raw_path, source):
+    if not isinstance(payload, dict): return None
     general = payload.get("general") or {}; mid = first(general, "matchId", "id") or deep_first(payload, ("matchId", "match_id"))
     if mid is None: return None
     home, away = team_from_payload(payload, "home"), team_from_payload(payload, "away"); match_name = first(general, "matchName", "name") or deep_first(payload, ("matchName",)); parsed_home, parsed_away, parsed_date = parse_match_name(match_name)
@@ -126,6 +127,7 @@ def player_candidate(p, target_team_id):
     return tid is not None and str(tid) == str(target_team_id)
 
 def normalize_players(payload, raw_path, source, target_team_id):
+    if not isinstance(payload, dict): return []
     candidates = []
     if raw_path.endswith("/team.json"):
         squad = ((payload.get("squad") or {}).get("squad") if isinstance(payload.get("squad"), dict) else None)
@@ -154,7 +156,9 @@ def normalize_event_like(payload, raw_path, source):
             out[target].append(record)
     return out
 
-def normalize_file(payload, raw_path, source, target_team_id): return normalize_match(payload, raw_path, source), normalize_players(payload, raw_path, source, target_team_id), normalize_event_like(payload, raw_path, source)
+def normalize_file(payload, raw_path, source, target_team_id):
+    if not isinstance(payload, dict): return None, [], {"shots": [], "events": [], "spatial_actions": []}
+    return normalize_match(payload, raw_path, source), normalize_players(payload, raw_path, source, target_team_id), normalize_event_like(payload, raw_path, source)
 
 def main():
     cfg = load(CONFIG); root = ROOT / cfg["country"].lower().replace(" ", "-") / cfg["competition"].lower().replace(" ", "-") / cfg["team_id"]; raw_root, out_root = root / "raw", root / "normalized"; out_root.mkdir(parents=True, exist_ok=True)
