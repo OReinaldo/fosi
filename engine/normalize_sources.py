@@ -1,9 +1,4 @@
-"""Normalize FOSI RAW provider data into a stable, evidence-first model.
-
-The normalizer is intentionally conservative: it maps only fields that are
-actually present in RAW, preserves provider identifiers, records provenance,
-and uses null for missing values. Provider-native payloads remain untouched.
-"""
+"""Normalize FOSI RAW provider data into a stable, evidence-first model."""
 import json
 from datetime import datetime, timezone
 from pathlib import Path
@@ -18,16 +13,12 @@ def load(path: Path) -> Any:
 
 
 def first(d: dict, *keys, default=None):
+    if not isinstance(d, dict):
+        return default
     for key in keys:
         if key in d and d[key] is not None:
             return d[key]
     return default
-
-
-def as_list(value):
-    if isinstance(value, list):
-        return value
-    return []
 
 
 def find_lists(node: Any, wanted: set[str], found=None):
@@ -36,10 +27,10 @@ def find_lists(node: Any, wanted: set[str], found=None):
     if isinstance(node, dict):
         for k, v in node.items():
             if k.lower() in wanted and isinstance(v, list):
-                found.setdefault(k.lower(), v)
+                found.setdefault(k.lower(), []).extend(v)
             find_lists(v, wanted, found)
     elif isinstance(node, list):
-        for v in node[:3]:
+        for v in node:
             find_lists(v, wanted, found)
     return found
 
@@ -54,30 +45,27 @@ def source_meta(source: str, raw_path: str, provider_id: Any = None):
 
 
 def normalize_match(payload: dict, raw_path: str, source: str):
+    if not isinstance(payload, dict):
+        return None
     general = payload.get("general") or {}
     header = payload.get("header") or {}
-    home = header.get("teams", {}).get("home") or header.get("homeTeam") or {}
-    away = header.get("teams", {}).get("away") or header.get("awayTeam") or {}
+    if not isinstance(general, dict) or not isinstance(header, dict):
+        return None
+    teams = header.get("teams") if isinstance(header.get("teams"), dict) else {}
+    home = teams.get("home") if isinstance(teams.get("home"), dict) else {}
+    away = teams.get("away") if isinstance(teams.get("away"), dict) else {}
     if not home and isinstance(header.get("homeTeam"), dict):
         home = header["homeTeam"]
     if not away and isinstance(header.get("awayTeam"), dict):
         away = header["awayTeam"]
-
     match_id = first(general, "matchId", "id")
     if match_id is None:
         return None
     home_score = first(home, "score", "goals")
     away_score = first(away, "score", "goals")
-    teams = header.get("teams") if isinstance(header.get("teams"), dict) else {}
-    if not home and teams:
-        home = teams.get("home") or {}
-    if not away and teams:
-        away = teams.get("away") or {}
-
     result = None
     if isinstance(home_score, (int, float)) and isinstance(away_score, (int, float)):
         result = "D" if home_score == away_score else "W" if home_score > away_score else "L"
-
     return {
         "fosi_id": f"match:{source}:{match_id}",
         "provider": source,
@@ -122,7 +110,6 @@ def normalize_players(payload: dict, raw_path: str, source: str):
 
 
 def normalize_event_like(payload: dict, raw_path: str, source: str):
-    """Conservative extraction of shots/incidents/events when provider exposes them."""
     out = {"shots": [], "events": [], "spatial_actions": []}
     lists = find_lists(payload, {"shotmap", "shots", "incidents", "events", "passes"})
     for key, values in lists.items():
@@ -157,7 +144,6 @@ def main():
     raw_root = root / "raw"
     out_root = root / "normalized"
     out_root.mkdir(parents=True, exist_ok=True)
-
     matches, players, events, shots, spatial = [], [], [], [], []
     records = 0
     for path in sorted(raw_root.rglob("*.json")) if raw_root.exists() else []:
@@ -178,7 +164,6 @@ def main():
         spatial.extend(ev["spatial_actions"])
         records += 1
 
-    # Stable de-duplication across team and match responses.
     def dedupe(rows):
         seen = set(); out = []
         for row in rows:
