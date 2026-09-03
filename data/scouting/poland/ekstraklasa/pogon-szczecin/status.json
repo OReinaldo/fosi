@@ -1,35 +1,39 @@
 {
   "sources": [
     {
-      "source": "understat",
-      "retrieved_at": "2026-09-03T05:55:48.903536+00:00",
-      "layers": {},
-      "records": {},
-      "errors": [],
-      "status": "not_applicable",
-      "reason": "competition is outside Understat supported league set"
-    },
-    {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-03T05:55:48.960406+00:00",
+      "retrieved_at": "2026-09-03T13:20:15.946561+00:00",
       "layers": {
         "news": "available"
       },
       "records": {
-        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215645
+        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215602
       },
       "errors": [
         {
           "url": "https://www.pogonszczecin.pl/",
-          "error": "HTTP Error 403: Forbidden"
+          "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+        }
+      ]
+    },
+    {
+      "source": "sofascore",
+      "status": "error",
+      "retrieved_at": "2026-09-03T13:20:15.718769+00:00",
+      "team": "Pogoń Szczecin",
+      "layers": {},
+      "records": {},
+      "errors": [
+        {
+          "fatal": "HTTP Error 403: Forbidden"
         }
       ]
     },
     {
       "source": "fotmob",
       "status": "success",
-      "retrieved_at": "2026-09-03T05:55:42.624376+00:00",
+      "retrieved_at": "2026-09-03T13:20:10.459407+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -47,17 +51,13 @@
       "team_id": "8023"
     },
     {
-      "source": "sofascore",
-      "status": "error",
-      "retrieved_at": "2026-09-03T05:55:48.733625+00:00",
-      "team": "Pogoń Szczecin",
+      "source": "understat",
+      "retrieved_at": "2026-09-03T13:20:15.882824+00:00",
       "layers": {},
       "records": {},
-      "errors": [
-        {
-          "fatal": "HTTP Error 403: Forbidden"
-        }
-      ]
+      "errors": [],
+      "status": "not_applicable",
+      "reason": "competition is outside Understat supported league set"
     }
   ],
   "layers": {
@@ -85,7 +85,7 @@
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-03T05:55:50.549959+00:00",
+  "updated_at": "2026-09-03T13:20:17.443385+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
