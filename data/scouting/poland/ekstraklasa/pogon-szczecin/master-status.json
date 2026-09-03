@@ -1,17 +1,26 @@
 {
   "sources": [
     {
+      "source": "understat",
+      "retrieved_at": "2026-09-03T20:04:50.573649+00:00",
+      "layers": {},
+      "records": {},
+      "errors": [],
+      "status": "not_applicable",
+      "reason": "competition is outside Understat supported league set"
+    },
+    {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-03T17:44:49.121126+00:00",
+      "retrieved_at": "2026-09-03T20:04:50.618834+00:00",
       "layers": {
         "news": "available"
       },
       "records": {
-        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 216185,
-        "https://ekstraklasa.org/terminarz/2026-2027/kolejka-1/": 329347,
-        "https://ekstraklasa.org/terminarz/2026-2027/3-kolejka/": 342582,
-        "https://ekstraklasa.org/terminarz/2026-2027/4-kolejka/": 344281
+        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215645,
+        "https://ekstraklasa.org/terminarz/2026-2027/kolejka-1/": 329340,
+        "https://ekstraklasa.org/terminarz/2026-2027/3-kolejka/": 342575,
+        "https://ekstraklasa.org/terminarz/2026-2027/4-kolejka/": 344317
       },
       "errors": [
         {
@@ -21,22 +30,9 @@
       ]
     },
     {
-      "source": "sofascore",
-      "status": "error",
-      "retrieved_at": "2026-09-03T17:44:48.897340+00:00",
-      "team": "Pogoń Szczecin",
-      "layers": {},
-      "records": {},
-      "errors": [
-        {
-          "fatal": "HTTP Error 403: Forbidden"
-        }
-      ]
-    },
-    {
       "source": "fotmob",
       "status": "partial",
-      "retrieved_at": "2026-09-03T17:44:43.869864+00:00",
+      "retrieved_at": "2026-09-03T20:04:46.501987+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -160,13 +156,17 @@
       "team_id": "8023"
     },
     {
-      "source": "understat",
-      "retrieved_at": "2026-09-03T17:44:49.066409+00:00",
+      "source": "sofascore",
+      "status": "error",
+      "retrieved_at": "2026-09-03T20:04:50.394588+00:00",
+      "team": "Pogoń Szczecin",
       "layers": {},
       "records": {},
-      "errors": [],
-      "status": "not_applicable",
-      "reason": "competition is outside Understat supported league set"
+      "errors": [
+        {
+          "fatal": "HTTP Error 403: Forbidden"
+        }
+      ]
     }
   ],
   "layers": {
@@ -198,7 +198,7 @@
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-03T17:44:52.215486+00:00",
+  "updated_at": "2026-09-03T20:04:52.632619+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
