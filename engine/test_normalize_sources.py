@@ -1,5 +1,5 @@
 import unittest
-from normalize_sources import normalize_match, normalize_players
+from normalize_sources import normalize_match, normalize_players, normalize_event_like
 
 
 class NormalizeSourcesTests(unittest.TestCase):
@@ -35,6 +35,13 @@ class NormalizeSourcesTests(unittest.TestCase):
         self.assertEqual([r["provider_id"] for r in rows], ["10"])
         self.assertEqual(rows[0]["stats"]["goals"], 1)
         self.assertEqual(rows[0]["stats"]["minutes"], 90)
+
+    def test_heatmaps_are_spatial_evidence(self):
+        payload = {"matchId": "1", "heatmaps": [{"playerId": 10, "heatmap": [{"x": 25, "y": 40}]}]}
+        rows = normalize_event_like(payload, "heatmaps/1.json", "fotmob")
+        self.assertEqual(len(rows["spatial_actions"]), 1)
+        self.assertEqual(rows["spatial_actions"][0]["playerId"], 10)
+        self.assertEqual(rows["spatial_actions"][0]["match_id"], "1")
 
 
 if __name__ == "__main__":
