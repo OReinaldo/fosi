@@ -63,8 +63,7 @@ def team_from_payload(payload, side):
     for obj in walk(payload):
         for k, v in obj.items():
             if k.lower() in wanted and isinstance(v, dict): return v
-            if k.lower() == "teams" and isinstance(v, list) and len(v) >= 2 and all(isinstance(x, dict) for x in v[:2]):
-                return v[0 if side == "home" else 1]
+            if k.lower() == "teams" and isinstance(v, list) and len(v) >= 2 and all(isinstance(x, dict) for x in v[:2]): return v[0 if side == "home" else 1]
     return {}
 
 def parse_match_name(value):
@@ -72,21 +71,24 @@ def parse_match_name(value):
     pair, *rest = value.split("_", 1); home, away = pair.split("-vs-", 1); return home.strip(), away.strip(), rest[0] if rest else None
 
 def score_from_header(payload, side):
-    team = team_from_payload(payload, side); value = first(team, "score", "goals")
-    return value if isinstance(value, (int, float)) and not isinstance(value, bool) else None
+    # Search the explicit header.teams array first. Do not use event homeScore/awayScore,
+    # which are snapshots and commonly start at 0.
+    for obj in walk(payload):
+        teams = obj.get("teams") if isinstance(obj, dict) else None
+        if isinstance(teams, list) and len(teams) >= 2 and all(isinstance(x, dict) for x in teams[:2]):
+            idx = 0 if side == "home" else 1; v = first(teams[idx], "score", "goals")
+            if isinstance(v, (int, float)) and not isinstance(v, bool): return v
+    return None
 
 def numeric_score(payload, side):
     v = score_from_header(payload, side)
     if v is not None: return v
-    keys = ("homeScore", "scoreHome", "homeGoals", "home_score", "goalsHome") if side == "home" else ("awayScore", "scoreAway", "awayGoals", "away_score", "goalsAway")
-    value = deep_first(payload, keys)
-    if isinstance(value, dict): value = first(value, "display", "value", "score", "goals", "current")
+    # Fallback only to explicit final-score containers / strings, never event snapshots.
+    value = deep_first(payload, ("scoreStr", "score_string", "finalScore"))
     if isinstance(value, str):
-        m = re.search(r"-?\d+(?:\.\d+)?", value)
-        if m:
-            try: return int(float(m.group(0)))
-            except ValueError: pass
-    return value if isinstance(value, (int, float)) and not isinstance(value, bool) else None
+        m = re.search(r"(\d+)\s*[-:]\s*(\d+)", value)
+        if m: return int(m.group(1 if side == "home" else 2))
+    return None
 
 def normalize_match(payload, raw_path, source):
     general = payload.get("general") or {}; mid = first(general, "matchId", "id") or deep_first(payload, ("matchId", "match_id"))
@@ -173,7 +175,7 @@ def main():
             key = row.get("fosi_id") or json.dumps(row, sort_keys=True, ensure_ascii=False)
             if key not in seen: seen.add(key); out.append(row)
         return out
-    bundle = {"schema_version": "1.7", "model": "FOSI normalized", "generated_at": datetime.now(timezone.utc).isoformat(), "scope": {"country": cfg["country"], "competition": cfg["competition"], "team": cfg["team"], "team_id": cfg["team_id"]}, "method": "normalized-from-raw", "counts": {}, "matches": dedupe(matches), "players": dedupe(players), "events": dedupe(events), "shots": dedupe(shots), "spatial_actions": dedupe(spatial)}
+    bundle = {"schema_version": "1.8", "model": "FOSI normalized", "generated_at": datetime.now(timezone.utc).isoformat(), "scope": {"country": cfg["country"], "competition": cfg["competition"], "team": cfg["team"], "team_id": cfg["team_id"]}, "method": "normalized-from-raw", "counts": {}, "matches": dedupe(matches), "players": dedupe(players), "events": dedupe(events), "shots": dedupe(shots), "spatial_actions": dedupe(spatial)}
     bundle["counts"] = {k: len(bundle[k]) for k in ("matches", "players", "events", "shots", "spatial_actions")}; (out_root / "fosi.json").write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8"); print(f"FOSI normalized: {records} RAW files -> {bundle['counts']}")
 
 if __name__ == "__main__": main()
