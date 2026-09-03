@@ -1,7 +1,7 @@
 {
   "source": "fotmob",
-  "status": "success",
-  "retrieved_at": "2026-09-03T14:17:57.242459+00:00",
+  "status": "partial",
+  "retrieved_at": "2026-09-03T14:24:26.110951+00:00",
   "layers": {
     "team": "available",
     "players": "available",
@@ -13,8 +13,30 @@
   "records": {
     "team": 1,
     "matches": 6,
-    "match_details": 6
+    "match_details": 6,
+    "heatmaps": 0
   },
-  "errors": [],
+  "errors": [
+    {
+      "match_id": "5803967",
+      "heatmap_error": "HTTP Error 404: Not Found"
+    },
+    {
+      "match_id": "5803955",
+      "heatmap_error": "HTTP Error 404: Not Found"
+    },
+    {
+      "match_id": "5803936",
+      "heatmap_error": "HTTP Error 404: Not Found"
+    },
+    {
+      "match_id": "5803923",
+      "heatmap_error": "HTTP Error 404: Not Found"
+    },
+    {
+      "match_id": "5803899",
+      "heatmap_error": "HTTP Error 404: Not Found"
+    }
+  ],
   "team_id": "8023"
 }
