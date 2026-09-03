@@ -41,6 +41,16 @@ def find_first(node,keys):
             found=find_first(v,keys)
             if found:return found
     return None
+def collect_team_player_ids(node,team_id,out=None):
+    out=out if out is not None else set()
+    if isinstance(node,dict):
+        tid=node.get("teamId",node.get("team_id")); pid=node.get("playerId",node.get("player_id"))
+        if pid is None and "id" in node and any(k in node for k in ("name","fullName","playerName")): pid=node.get("id")
+        if pid is not None and tid is not None and str(tid)==str(team_id): out.add(str(pid))
+        for v in node.values(): collect_team_player_ids(v,team_id,out)
+    elif isinstance(node,list):
+        for v in node: collect_team_player_ids(v,team_id,out)
+    return out
 def main():
     cfg=json.loads(CONFIG.read_text(encoding="utf-8"));st={"source":"fotmob","status":"collecting","retrieved_at":datetime.now(timezone.utc).isoformat(),"layers":{},"records":{},"errors":[]}
     if not cfg.get("enabled") or not cfg.get("team"):return
@@ -51,6 +61,16 @@ def main():
             tid,search=resolve_team(cfg["team"]);save(raw/"search.json",search)
         if not tid:raise RuntimeError("FotMob team id could not be resolved")
         team=get_json(f"/teams?id={tid}&ccode3=POL");save(raw/"team.json",team);st["layers"].update({"team":"available","players":"available"});st["records"]["team"]=1;st["team_id"]=tid
+        player_ids=sorted(collect_team_player_ids(team,tid))
+        profile_count=0
+        for pid in player_ids[:40]:
+            try: save(raw/"players"/(pid+".json"),get_json(f"/playerData?id={pid}&includeMarketValues=true")); profile_count+=1
+            except Exception as pe: st["errors"].append({"player_id":pid,"player_error":str(pe)})
+        st["records"]["player_profiles"]=profile_count
+        try:
+            save(raw/"transfers.json",get_json(f"/transfers?teamId={tid}"));st["records"]["transfers"]=1
+        except Exception as te:
+            st["errors"].append({"transfers_error":str(te)})
         matches={str(m["id"]):m for m in walk_matches(team) if team_match(m,cfg["team"]) and finished(m)};matches=sorted(matches.values(),key=lambda m:str((m.get("status") or {}).get("utcTime") or m.get("timeTS") or ""),reverse=True)
         st["layers"]["matches"]="available" if matches else "pending";st["records"]["matches"]=len(matches);detail=0;heatmaps=0;errors=[]
         for m in matches:
@@ -64,7 +84,7 @@ def main():
                         save(raw/"heatmaps"/(mid+".json"),get_json(f"/heatmap/match/{mid}/heatmaps?{q}"));heatmaps+=1
                     except Exception as he: errors.append({"match_id":mid,"heatmap_error":str(he)})
             except Exception as e:errors.append({"match_id":mid,"error":str(e)})
-        st["records"]["match_details"]=detail;st["records"]["heatmaps"]=heatmaps;st["layers"].update({"stats":"available" if detail else "pending","events":"available" if detail else "pending","spatial":"available" if heatmaps else ("available" if detail else "pending")});st["errors"].extend(errors);st["status"]="success" if not errors else "partial"
+        st["records"]["match_details"]=detail;st["records"]["heatmaps"]=heatmaps;st["layers"].update({"stats":"available" if detail else "pending","events":"available" if detail else "pending","spatial":"available" if heatmaps else ("available" if detail else "pending")});st["errors"].extend(errors);st["status"]="success" if not st["errors"] else "partial"
     except Exception as e:st["status"]="error";st["errors"].append({"fatal":str(e)})
     save(root/"source-status-fotmob.json",st);save(root/"status-fotmob.json",st)
 if __name__=="__main__":main()
