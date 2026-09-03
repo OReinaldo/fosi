@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "understat",
-      "retrieved_at": "2026-09-03T14:34:09.958509+00:00",
+      "retrieved_at": "2026-09-03T17:43:28.332256+00:00",
       "layers": {},
       "records": {},
       "errors": [],
@@ -12,12 +12,15 @@
     {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-03T14:34:10.023567+00:00",
+      "retrieved_at": "2026-09-03T17:43:28.391007+00:00",
       "layers": {
         "news": "available"
       },
       "records": {
-        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 216142
+        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215602,
+        "https://ekstraklasa.org/terminarz/2026-2027/kolejka-1/": 329347,
+        "https://ekstraklasa.org/terminarz/2026-2027/3-kolejka/": 342582,
+        "https://ekstraklasa.org/terminarz/2026-2027/4-kolejka/": 344281
       },
       "errors": [
         {
@@ -29,7 +32,7 @@
     {
       "source": "fotmob",
       "status": "partial",
-      "retrieved_at": "2026-09-03T14:34:00.601663+00:00",
+      "retrieved_at": "2026-09-03T17:43:24.673676+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -49,7 +52,7 @@
         "match_details": 0,
         "match_details_skipped_existing": 6,
         "heatmaps": 0,
-        "livetickers": 1
+        "livetickers": 0
       },
       "errors": [
         {
@@ -154,7 +157,7 @@
     {
       "source": "sofascore",
       "status": "error",
-      "retrieved_at": "2026-09-03T14:34:09.794421+00:00",
+      "retrieved_at": "2026-09-03T17:43:28.212991+00:00",
       "team": "Pogoń Szczecin",
       "layers": {},
       "records": {},
@@ -187,11 +190,14 @@
     },
     "public_site_urls": [
       "https://www.pogonszczecin.pl/",
-      "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/"
+      "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/",
+      "https://ekstraklasa.org/terminarz/2026-2027/kolejka-1/",
+      "https://ekstraklasa.org/terminarz/2026-2027/3-kolejka/",
+      "https://ekstraklasa.org/terminarz/2026-2027/4-kolejka/"
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-03T14:34:12.024206+00:00",
+  "updated_at": "2026-09-03T17:43:33.099034+00:00",
   "update_mode": "incremental",
   "collectors": [
     {

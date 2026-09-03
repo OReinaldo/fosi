@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-03T14:34:12.283106+00:00",
+  "generated_at": "2026-09-03T17:43:33.355166+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -186636,7 +186636,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7056"
+      "example": "7064"
     },
     {
       "path": "$.id",
@@ -191092,7 +191092,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-105"
+      "example": "-111"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
@@ -191104,7 +191104,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.95"
+      "example": "1.90"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
@@ -191116,7 +191116,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "20/21"
+      "example": "9/10"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
@@ -191320,7 +191320,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-105"
+      "example": "-111"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
@@ -191332,7 +191332,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.95"
+      "example": "1.90"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
@@ -191344,7 +191344,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "20/21"
+      "example": "9/10"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
@@ -192967,6 +192967,186 @@
       "example": null
     },
     {
+      "path": "$.overview.table[].data.ongoing[]",
+      "types": {
+        "object": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": null
+    },
+    {
+      "path": "$.overview.table[].data.ongoing[].aId",
+      "types": {
+        "integer": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "8020"
+    },
+    {
+      "path": "$.overview.table[].data.ongoing[].aScore",
+      "types": {
+        "integer": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "2"
+    },
+    {
+      "path": "$.overview.table[].data.ongoing[].aTeam",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "Górnik Zabrze"
+    },
+    {
+      "path": "$.overview.table[].data.ongoing[].extId",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "ls_0"
+    },
+    {
+      "path": "$.overview.table[].data.ongoing[].gs",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "03.09.2026 18:00:55"
+    },
+    {
+      "path": "$.overview.table[].data.ongoing[].hId",
+      "types": {
+        "integer": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "4024"
+    },
+    {
+      "path": "$.overview.table[].data.ongoing[].hScore",
+      "types": {
+        "integer": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "1"
+    },
+    {
+      "path": "$.overview.table[].data.ongoing[].hTeam",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "Raków Częstochowa"
+    },
+    {
+      "path": "$.overview.table[].data.ongoing[].id",
+      "types": {
+        "integer": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "5803957"
+    },
+    {
+      "path": "$.overview.table[].data.ongoing[].sId",
+      "types": {
+        "integer": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "3"
+    },
+    {
+      "path": "$.overview.table[].data.ongoing[].shs",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "03.09.2026 19:03:32"
+    },
+    {
+      "path": "$.overview.table[].data.ongoing[].stage",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "5"
+    },
+    {
+      "path": "$.overview.table[].data.ongoing[].status",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "S"
+    },
+    {
+      "path": "$.overview.table[].data.ongoing[].time",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "03.09.2026 18:00"
+    },
+    {
       "path": "$.overview.table[].data.pageUrl",
       "types": {
         "string": 2
@@ -193121,18 +193301,6 @@
       ],
       "file_count": 2,
       "example": "Legia Warszawa"
-    },
-    {
-      "path": "$.overview.table[].data.table.all[].ongoing",
-      "types": {
-        "null": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "None"
     },
     {
       "path": "$.overview.table[].data.table.all[].pageUrl",
@@ -193351,18 +193519,6 @@
       "example": "Jagiellonia Białystok"
     },
     {
-      "path": "$.overview.table[].data.table.away[].ongoing",
-      "types": {
-        "null": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "None"
-    },
-    {
       "path": "$.overview.table[].data.table.away[].pageUrl",
       "types": {
         "string": 2
@@ -193565,18 +193721,6 @@
       ],
       "file_count": 2,
       "example": "Lech Poznań"
-    },
-    {
-      "path": "$.overview.table[].data.table.form[].ongoing",
-      "types": {
-        "null": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "None"
     },
     {
       "path": "$.overview.table[].data.table.form[].pageUrl",
@@ -193795,18 +193939,6 @@
       "example": "Wisła Kraków"
     },
     {
-      "path": "$.overview.table[].data.table.home[].ongoing",
-      "types": {
-        "null": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "None"
-    },
-    {
       "path": "$.overview.table[].data.table.home[].pageUrl",
       "types": {
         "string": 2
@@ -193997,18 +194129,6 @@
       ],
       "file_count": 2,
       "example": "Legia Warszawa"
-    },
-    {
-      "path": "$.overview.table[].data.table.xg[].ongoing",
-      "types": {
-        "null": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "None"
     },
     {
       "path": "$.overview.table[].data.table.xg[].pageUrl",
@@ -194428,7 +194548,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8020"
+      "example": "2182"
     },
     {
       "path": "$.overview.table[].nextOpponent.5769",
@@ -194476,7 +194596,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "4024"
+      "example": "2186"
     },
     {
       "path": "$.overview.table[].nextOpponent.8021",
@@ -201112,7 +201232,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "42"
+      "example": "45"
     },
     {
       "path": "$.overview.topPlayers.byAssists.players[].stat",
@@ -207166,6 +207286,186 @@
       "example": null
     },
     {
+      "path": "$.table[].data.ongoing[]",
+      "types": {
+        "object": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": null
+    },
+    {
+      "path": "$.table[].data.ongoing[].aId",
+      "types": {
+        "integer": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "8020"
+    },
+    {
+      "path": "$.table[].data.ongoing[].aScore",
+      "types": {
+        "integer": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "2"
+    },
+    {
+      "path": "$.table[].data.ongoing[].aTeam",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "Górnik Zabrze"
+    },
+    {
+      "path": "$.table[].data.ongoing[].extId",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "ls_0"
+    },
+    {
+      "path": "$.table[].data.ongoing[].gs",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "03.09.2026 18:00:55"
+    },
+    {
+      "path": "$.table[].data.ongoing[].hId",
+      "types": {
+        "integer": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "4024"
+    },
+    {
+      "path": "$.table[].data.ongoing[].hScore",
+      "types": {
+        "integer": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "1"
+    },
+    {
+      "path": "$.table[].data.ongoing[].hTeam",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "Raków Częstochowa"
+    },
+    {
+      "path": "$.table[].data.ongoing[].id",
+      "types": {
+        "integer": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "5803957"
+    },
+    {
+      "path": "$.table[].data.ongoing[].sId",
+      "types": {
+        "integer": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "3"
+    },
+    {
+      "path": "$.table[].data.ongoing[].shs",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "03.09.2026 19:03:32"
+    },
+    {
+      "path": "$.table[].data.ongoing[].stage",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "5"
+    },
+    {
+      "path": "$.table[].data.ongoing[].status",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "S"
+    },
+    {
+      "path": "$.table[].data.ongoing[].time",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "03.09.2026 18:00"
+    },
+    {
       "path": "$.table[].data.pageUrl",
       "types": {
         "string": 2
@@ -207320,18 +207620,6 @@
       ],
       "file_count": 2,
       "example": "Legia Warszawa"
-    },
-    {
-      "path": "$.table[].data.table.all[].ongoing",
-      "types": {
-        "null": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "None"
     },
     {
       "path": "$.table[].data.table.all[].pageUrl",
@@ -207550,18 +207838,6 @@
       "example": "Jagiellonia Białystok"
     },
     {
-      "path": "$.table[].data.table.away[].ongoing",
-      "types": {
-        "null": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "None"
-    },
-    {
       "path": "$.table[].data.table.away[].pageUrl",
       "types": {
         "string": 2
@@ -207764,18 +208040,6 @@
       ],
       "file_count": 2,
       "example": "Lech Poznań"
-    },
-    {
-      "path": "$.table[].data.table.form[].ongoing",
-      "types": {
-        "null": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "None"
     },
     {
       "path": "$.table[].data.table.form[].pageUrl",
@@ -207994,18 +208258,6 @@
       "example": "Wisła Kraków"
     },
     {
-      "path": "$.table[].data.table.home[].ongoing",
-      "types": {
-        "null": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "None"
-    },
-    {
       "path": "$.table[].data.table.home[].pageUrl",
       "types": {
         "string": 2
@@ -208196,18 +208448,6 @@
       ],
       "file_count": 2,
       "example": "Legia Warszawa"
-    },
-    {
-      "path": "$.table[].data.table.xg[].ongoing",
-      "types": {
-        "null": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "None"
     },
     {
       "path": "$.table[].data.table.xg[].pageUrl",
@@ -208627,7 +208867,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8020"
+      "example": "2182"
     },
     {
       "path": "$.table[].nextOpponent.5769",
@@ -208675,7 +208915,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "4024"
+      "example": "2186"
     },
     {
       "path": "$.table[].nextOpponent.8021",
@@ -216951,38 +217191,14 @@
     {
       "path": "$.transfers[].fee",
       "types": {
-        "object": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.transfers[].fee.feeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "free transfer"
-    },
-    {
-      "path": "$.transfers[].fee.localizedFeeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "transfer_type_free_transfer"
+      "example": "None"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -216994,7 +217210,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Juve Stabia"
+      "example": "Trabzonspor"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -217006,7 +217222,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Juve Stabia"
+      "example": "Trabzonspor"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -217018,7 +217234,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6106"
+      "example": "9752"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -217030,7 +217246,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-01T00:00:00Z"
+      "example": "2026-09-03T00:00:00Z"
     },
     {
       "path": "$.transfers[].marketValue",
@@ -217042,7 +217258,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "249496"
+      "example": "1514765"
     },
     {
       "path": "$.transfers[].name",
@@ -217054,7 +217270,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Alessandro Louati"
+      "example": "Denis Dragus"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -217078,19 +217294,43 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1463637"
+      "example": "875305"
     },
     {
       "path": "$.transfers[].position",
       "types": {
-        "null": 1
+        "object": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": null
+    },
+    {
+      "path": "$.transfers[].position.key",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "striker_short"
+    },
+    {
+      "path": "$.transfers[].position.label",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "ST"
     },
     {
       "path": "$.transfers[].toClub",
@@ -217150,7 +217390,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-03T16:14:40Z"
+      "example": "2026-09-03T19:25:02Z"
     },
     {
       "path": "$.transfers[].transferText",
