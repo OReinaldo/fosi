@@ -98,6 +98,34 @@ def normalize_match(payload, raw_path, source):
     date = first(general, "matchTimeUTCDate", "matchTime", "utcTime", "date", "startTime") or parsed_date; competition = first(general, "leagueName", "competitionName") or deep_first(payload, ("leagueName", "competitionName"))
     return {"fosi_id": f"match:{source}:{mid}", "provider": source, "provider_id": str(mid), "date": date, "competition": competition, "round": first(general, "matchRound", "round", "leagueRoundName"), "home_team": {"id": first(home, "id", "teamId"), "name": home_name}, "away_team": {"id": first(away, "id", "teamId"), "name": away_name}, "score": {"home": hs, "away": ass}, "result_for_home": result, "source_meta": source_meta(source, raw_path, mid)}
 
+def normalize_competition(payload, raw_path, source):
+    if not isinstance(payload, dict): return None
+    lid = first(payload, "id", "leagueId", "competitionId") or deep_first(payload, ("leagueId", "competitionId"))
+    name = first(payload, "name", "leagueName", "competitionName") or deep_first(payload, ("leagueName", "competitionName"))
+    if lid is None and not name: return None
+    season = first(payload, "season", "seasonName", "currentSeason") or deep_first(payload, ("seasonName", "season"))
+    return {"fosi_id": f"competition:{source}:{lid or re.sub(r'[^a-z0-9]+','-',str(name).lower()).strip('-')}", "provider": source, "provider_id": str(lid) if lid is not None else None, "name": name, "season": season, "source_meta": source_meta(source, raw_path, lid)}
+
+def normalize_lineups(payload, raw_path, source, match_id):
+    out=[]
+    for key, values in find_lists(payload, {"lineups", "starters", "substitutes", "bench"}).items():
+        for item in values:
+            if not isinstance(item, dict): continue
+            pid=first(item,"playerId","player_id","id"); tid=first(item,"teamId","team_id");
+            if pid is None: continue
+            iid=f"{match_id}:{tid}:{pid}:{key}"; out.append({"fosi_id":f"lineup:{source}:{iid}","provider":source,"provider_id":str(pid),"match_id":str(match_id) if match_id is not None else None,"team_id":str(tid) if tid is not None else None,"player_id":str(pid),"lineup_group":key,"starter":key in {"starters","startingxi"},"source_meta":source_meta(source,raw_path,pid)})
+    return out
+
+def normalize_player_match(payload, raw_path, source, fallback_player_id=None):
+    out=[]
+    for item in all_list_items(payload):
+        mid=first(item,"matchId","match_id","eventId"); pid=first(item,"playerId","player_id") or fallback_player_id
+        if mid is None or pid is None: continue
+        stats=player_stats(item)
+        if not stats and not any(k in item for k in ("date","matchDate","minutes","minsPlayed","rating","teamId")): continue
+        out.append({"fosi_id":f"player_match:{source}:{pid}:{mid}","provider":source,"provider_id":str(pid),"player_id":str(pid),"match_id":str(mid),"team_id":first(item,"teamId","team_id"),"stats":stats,"source_meta":source_meta(source,raw_path,pid)})
+    return out
+
 def player_stats(p):
     stats = {}
     for canonical, aliases in PLAYER_FIELDS.items():
@@ -148,35 +176,44 @@ def normalize_players(payload, raw_path, source, target_team_id):
     return list(rows.values())
 
 def normalize_event_like(payload, raw_path, source):
-    out = {"shots": [], "events": [], "spatial_actions": []}; lists = find_lists(payload, {"shotmap", "shots", "incidents", "events", "passes", "heatmaps"}); mid = deep_first(payload, ("matchId", "match_id"))
+    out = {"shots": [], "events": [], "spatial_actions": [], "lineups": [], "player_matches": []}; lists = find_lists(payload, {"shotmap", "shots", "incidents", "events", "passes", "heatmaps"}); mid = deep_first(payload, ("matchId", "match_id"))
     for key, values in lists.items():
         for item in values:
             if not isinstance(item, dict): continue
             iid = first(item, "id", "eventId", "shotId", "playerId"); target = "shots" if key in {"shotmap", "shots"} else "spatial_actions" if key in {"passes", "heatmaps"} else "events"; index = len(out[target]); record = dict(item); record["fosi_id"] = f"{key}:{source}:{iid}" if iid is not None else f"{key}:{source}:{mid}:{index}"; record["provider"] = source; record["provider_id"] = str(iid) if iid is not None else None; record["match_id"] = str(mid) if mid is not None else None; record["source_meta"] = source_meta(source, raw_path, iid)
+            if target == "spatial_actions":
+                record["x"] = first(item,"x","posX","xPos","normalizedX"); record["y"] = first(item,"y","posY","yPos","normalizedY"); record["action_type"] = key
             out[target].append(record)
     return out
 
 def normalize_file(payload, raw_path, source, target_team_id):
-    if not isinstance(payload, dict): return None, [], {"shots": [], "events": [], "spatial_actions": []}
-    return normalize_match(payload, raw_path, source), normalize_players(payload, raw_path, source, target_team_id), normalize_event_like(payload, raw_path, source)
+    if not isinstance(payload, dict): return None, [], {"shots": [], "events": [], "spatial_actions": [], "lineups": [], "player_matches": []}, None
+    match = normalize_match(payload, raw_path, source)
+    match_id = match.get("provider_id") if match else deep_first(payload,("matchId","match_id"))
+    competition = normalize_competition(payload, raw_path, source) if raw_path.endswith("/league.json") else None
+    return match, normalize_players(payload, raw_path, source, target_team_id), normalize_event_like(payload, raw_path, source), competition
 
 def main():
     cfg = load(CONFIG); root = ROOT / cfg["country"].lower().replace(" ", "-") / cfg["competition"].lower().replace(" ", "-") / cfg["team_id"]; raw_root, out_root = root / "raw", root / "normalized"; out_root.mkdir(parents=True, exist_ok=True)
-    matches, players, events, shots, spatial = [], [], [], [], []; records = 0; provider_ids = cfg.get("provider_ids") or {}
+    matches, players, events, shots, spatial, competitions, lineups, player_matches = [], [], [], [], [], [], [], []; records = 0; provider_ids = cfg.get("provider_ids") or {}
     for path in sorted(raw_root.rglob("*.json")) if raw_root.exists() else []:
         if "source-status" in path.name or path.name.startswith("status-"): continue
         try: payload = load(path)
         except Exception: continue
-        source = path.relative_to(raw_root).parts[0]; target_team_id = provider_ids.get(source) or cfg.get("team_id"); rel = str(path.relative_to(ROOT)).replace("\\", "/"); match, ps, ev = normalize_file(payload, rel, source, target_team_id)
+        source = path.relative_to(raw_root).parts[0]; target_team_id = provider_ids.get(source) or cfg.get("team_id"); rel = str(path.relative_to(ROOT)).replace("\\", "/"); match, ps, ev, competition = normalize_file(payload, rel, source, target_team_id)
         if match: matches.append(match)
-        players.extend(ps); events.extend(ev["events"]); shots.extend(ev["shots"]); spatial.extend(ev["spatial_actions"]); records += 1
+        players.extend(ps); events.extend(ev["events"]); shots.extend(ev["shots"]); spatial.extend(ev["spatial_actions"]); competitions.extend([competition] if competition else []); records += 1
+        if path.name.endswith(".json") and "player-matches" in path.parts:
+            pid = path.stem; player_matches.extend(normalize_player_match(payload, rel, source, pid))
+        if match:
+            lineups.extend(normalize_lineups(payload, rel, source, match.get("provider_id")))
     def dedupe(rows):
         seen, out = set(), []
         for row in rows:
             key = row.get("fosi_id") or json.dumps(row, sort_keys=True, ensure_ascii=False)
             if key not in seen: seen.add(key); out.append(row)
         return out
-    bundle = {"schema_version": "1.9", "model": "FOSI normalized", "generated_at": datetime.now(timezone.utc).isoformat(), "scope": {"country": cfg["country"], "competition": cfg["competition"], "team": cfg["team"], "team_id": cfg["team_id"]}, "method": "normalized-from-raw", "counts": {}, "matches": dedupe(matches), "players": dedupe(players), "events": dedupe(events), "shots": dedupe(shots), "spatial_actions": dedupe(spatial)}
-    bundle["counts"] = {k: len(bundle[k]) for k in ("matches", "players", "events", "shots", "spatial_actions")}; (out_root / "fosi.json").write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8"); print(f"FOSI normalized: {records} RAW files -> {bundle['counts']}")
+    bundle = {"schema_version": "2.0", "model": "FOSI normalized", "generated_at": datetime.now(timezone.utc).isoformat(), "scope": {"country": cfg["country"], "competition": cfg["competition"], "team": cfg["team"], "team_id": cfg["team_id"]}, "method": "normalized-from-raw", "counts": {}, "competitions": dedupe(competitions), "matches": dedupe(matches), "lineups": dedupe(lineups), "players": dedupe(players), "player_matches": dedupe(player_matches), "events": dedupe(events), "shots": dedupe(shots), "spatial_actions": dedupe(spatial)}
+    bundle["counts"] = {k: len(bundle[k]) for k in ("competitions", "matches", "lineups", "players", "player_matches", "events", "shots", "spatial_actions")}; (out_root / "fosi.json").write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8"); print(f"FOSI normalized: {records} RAW files -> {bundle['counts']}")
 
 if __name__ == "__main__": main()
