@@ -1,116 +1,194 @@
-"""FOSI FotMob collector with dynamic team resolution and raw preservation."""
-import json, urllib.parse, urllib.request, time
-from datetime import datetime, timezone
+"""FOSI FotMob collector with all-competition match backfill and raw preservation."""
+import json
+import urllib.parse
+import urllib.request
+import time
+from datetime import datetime, timezone, date, timedelta
 from pathlib import Path
-BASE="https://www.fotmob.com/api/data";CONFIG=Path("config/selected-scout.json");ROOT_BASE=Path("data/scouting")
+
+BASE = "https://www.fotmob.com/api/data"
+CONFIG = Path("config/selected-scout.json")
+ROOT_BASE = Path("data/scouting")
+
+
 def get_json(path):
-    req=urllib.request.Request(BASE+path,headers={"User-Agent":"Mozilla/5.0 FOSI/1.0","Accept":"application/json","Referer":"https://www.fotmob.com/"})
-    with urllib.request.urlopen(req,timeout=45) as r:return json.load(r)
-def save(path,payload):
-    path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
+    req = urllib.request.Request(BASE + path, headers={"User-Agent": "Mozilla/5.0 FOSI/1.1", "Accept": "application/json", "Referer": "https://www.fotmob.com/"})
+    with urllib.request.urlopen(req, timeout=45) as response:
+        return json.load(response)
+
+
+def save(path, payload):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def resolve_team(name):
-    data=get_json("/search/suggest?term="+urllib.parse.quote(name)+"&hits=50&lang=en");exact=None;fallback=None
-    for item in data.get("suggestions",data.get("results",[])):
-        typ=item.get("type") or item.get("entityType");ent=item.get("entity") or item
-        if typ in {"team","teams"}:
-            n=ent.get("name") or ent.get("title") or "";tid=ent.get("id")
-            if n.lower()==name.lower():exact=str(tid);break
-            if name.lower() in n.lower():fallback=str(tid)
-    return exact or fallback,data
+    data = get_json("/search/suggest?term=" + urllib.parse.quote(name) + "&hits=50&lang=en")
+    exact = fallback = None
+    for item in data.get("suggestions", data.get("results", [])):
+        typ = item.get("type") or item.get("entityType")
+        ent = item.get("entity") or item
+        if typ in {"team", "teams"}:
+            n = ent.get("name") or ent.get("title") or ""
+            tid = ent.get("id")
+            if n.lower() == name.lower(): exact = str(tid); break
+            if name.lower() in n.lower(): fallback = str(tid)
+    return exact or fallback, data
+
+
 def walk_matches(node):
-    out=[]
-    if isinstance(node,dict):
-        if {"id","home","away"}.issubset(node) and isinstance(node["home"],dict) and isinstance(node["away"],dict):out.append(node)
-        for v in node.values():out+=walk_matches(v)
-    elif isinstance(node,list):
-        for v in node:out+=walk_matches(v)
+    out = []
+    if isinstance(node, dict):
+        if {"id", "home", "away"}.issubset(node) and isinstance(node["home"], dict) and isinstance(node["away"], dict): out.append(node)
+        for value in node.values(): out.extend(walk_matches(value))
+    elif isinstance(node, list):
+        for value in node: out.extend(walk_matches(value))
     return out
-def finished(m):
-    s=m.get("status") or {};return bool(s.get("finished") or (s.get("reason") or {}).get("short") in {"FT","AET","PEN"})
-def team_match(m,name):
-    ns=[(m.get("home") or {}).get("name"),(m.get("home") or {}).get("longName"),(m.get("away") or {}).get("name"),(m.get("away") or {}).get("longName")];return any(name.lower() in str(x).lower() for x in ns if x)
-def find_first(node,keys):
-    wanted={k.lower() for k in keys}
-    if isinstance(node,dict):
-        for k,v in node.items():
-            if k.lower() in wanted and isinstance(v,str) and v.strip(): return v
-            found=find_first(v,keys)
-            if found:return found
-    elif isinstance(node,list):
-        for v in node:
-            found=find_first(v,keys)
-            if found:return found
+
+
+def finished(match):
+    status = match.get("status") or {}
+    return bool(status.get("finished") or (status.get("reason") or {}).get("short") in {"FT", "AET", "PEN"})
+
+
+def team_match(match, name, team_id):
+    homes = match.get("home") or {}
+    aways = match.get("away") or {}
+    if str(homes.get("id")) == str(team_id) or str(aways.get("id")) == str(team_id): return True
+    names = [homes.get("name"), homes.get("longName"), aways.get("name"), aways.get("longName")]
+    return any(name.lower() in str(x).lower() for x in names if x)
+
+
+def find_first(node, keys):
+    wanted = {k.lower() for k in keys}
+    if isinstance(node, dict):
+        for key, value in node.items():
+            if key.lower() in wanted and isinstance(value, str) and value.strip(): return value
+            found = find_first(value, keys)
+            if found: return found
+    elif isinstance(node, list):
+        for value in node:
+            found = find_first(value, keys)
+            if found: return found
     return None
-def collect_team_player_ids(node,team_id,out=None):
-    out=out if out is not None else set()
-    if isinstance(node,dict):
-        tid=node.get("teamId",node.get("team_id"));pid=node.get("playerId",node.get("player_id"))
-        if pid is None and "id" in node and any(k in node for k in ("name","fullName","playerName")):pid=node.get("id")
-        if pid is not None and tid is not None and str(tid)==str(team_id):out.add(str(pid))
-        for v in node.values():collect_team_player_ids(v,team_id,out)
-    elif isinstance(node,list):
-        for v in node:collect_team_player_ids(v,team_id,out)
+
+
+def collect_team_player_ids(node, team_id, out=None):
+    out = out if out is not None else set()
+    if isinstance(node, dict):
+        tid = node.get("teamId", node.get("team_id")); pid = node.get("playerId", node.get("player_id"))
+        if pid is None and "id" in node and any(k in node for k in ("name", "fullName", "playerName")): pid = node.get("id")
+        if pid is not None and tid is not None and str(tid) == str(team_id): out.add(str(pid))
+        for value in node.values(): collect_team_player_ids(value, team_id, out)
+    elif isinstance(node, list):
+        for value in node: collect_team_player_ids(value, team_id, out)
     return out
-def try_player_matches(pid,league_id):
-    attempts=[f"/playerMatches?playerId={urllib.parse.quote(str(pid))}"]
-    if league_id:
-        attempts.append(f"/playerMatches?playerId={urllib.parse.quote(str(pid))}&parentLeagueId={urllib.parse.quote(str(league_id))}")
-    attempts.append(f"/playerMatches?playerId={urllib.parse.quote(str(pid))}&before={int(time.time())}&parentLeagueId={urllib.parse.quote(str(league_id))}")
-    last=None
+
+
+def try_player_matches(pid, league_id):
+    attempts = [f"/playerMatches?playerId={urllib.parse.quote(str(pid))}"]
+    if league_id: attempts.append(f"/playerMatches?playerId={urllib.parse.quote(str(pid))}&parentLeagueId={urllib.parse.quote(str(league_id))}")
+    last = None
     for path in attempts:
-        try:return get_json(path),path
-        except Exception as e:last=e
+        try: return get_json(path), path
+        except Exception as exc: last = exc
     raise last
+
+
+def date_scan_matches(team_name, team_id, start_day, end_day):
+    found = {}
+    day = start_day
+    while day <= end_day:
+        try:
+            payload = get_json(f"/matches?date={day.strftime('%Y%m%d')}&ccode3=POL")
+            for match in walk_matches(payload):
+                if team_match(match, team_name, team_id): found[str(match["id"])] = match
+        except Exception:
+            pass
+        day += timedelta(days=1)
+        time.sleep(.05)
+    return found
+
+
 def main():
-    cfg=json.loads(CONFIG.read_text(encoding="utf-8"));st={"source":"fotmob","status":"collecting","retrieved_at":datetime.now(timezone.utc).isoformat(),"layers":{},"records":{},"errors":[]}
-    if not cfg.get("enabled") or not cfg.get("team"):return
-    root=ROOT_BASE/cfg["country"].lower().replace(" ","-")/cfg["competition"].lower().replace(" ","-")/cfg["team_id"];raw=root/"raw"/"fotmob";raw.mkdir(parents=True,exist_ok=True)
+    cfg = json.loads(CONFIG.read_text(encoding="utf-8"))
+    status = {"source": "fotmob", "status": "collecting", "retrieved_at": datetime.now(timezone.utc).isoformat(), "layers": {}, "records": {}, "errors": []}
+    if not cfg.get("enabled") or not cfg.get("team"): return
+    root = ROOT_BASE / cfg["country"].lower().replace(" ", "-") / cfg["competition"].lower().replace(" ", "-") / cfg["team_id"]
+    raw = root / "raw" / "fotmob"
+    raw.mkdir(parents=True, exist_ok=True)
     try:
-        tid=str((cfg.get("provider_ids") or {}).get("fotmob") or "")
+        tid = str((cfg.get("provider_ids") or {}).get("fotmob") or "")
         if not tid:
-            tid,search=resolve_team(cfg["team"]);save(raw/"search.json",search)
-        if not tid:raise RuntimeError("FotMob team id could not be resolved")
-        team=get_json(f"/teams?id={tid}&ccode3=POL");save(raw/"team.json",team);st["layers"].update({"team":"available","players":"available"});st["records"]["team"]=1;st["team_id"]=tid
-        league_id=str((cfg.get("provider_competition_ids") or {}).get("fotmob") or ("196" if cfg.get("competition")=="Ekstraklasa" else ""));season=str(cfg.get("season") or "2026/2027")
+            tid, search = resolve_team(cfg["team"]); save(raw / "search.json", search)
+        if not tid: raise RuntimeError("FotMob team id could not be resolved")
+        team = get_json(f"/teams?id={tid}&ccode3=POL"); save(raw / "team.json", team)
+        status["layers"].update({"team": "available", "players": "available"}); status["records"]["team"] = 1; status["team_id"] = tid
+        league_id = str((cfg.get("provider_competition_ids") or {}).get("fotmob") or ("196" if cfg.get("competition") == "Ekstraklasa" else ""))
+        season = str(cfg.get("season") or "2026/2027")
         if league_id:
             try:
-                league=get_json(f"/leagues?id={league_id}&season={urllib.parse.quote(season)}&ccode3=POL")
-                save(raw/"league.json",league);st["layers"]["competition"]="available";st["records"]["league"]=1
-            except Exception as le:st["errors"].append({"league_error":str(le)})
-        player_ids=sorted(collect_team_player_ids(team,tid));profile_count=0;history_count=0;history_existing=0
+                league = get_json(f"/leagues?id={league_id}&season={urllib.parse.quote(season)}&ccode3=POL")
+                save(raw / "league.json", league); status["layers"]["competition"] = "available"; status["records"]["league"] = 1
+            except Exception as exc: status["errors"].append({"league_error": str(exc)})
+
+        player_ids = sorted(collect_team_player_ids(team, tid)); profile_count = history_count = history_existing = 0
         for pid in player_ids[:40]:
             try:
-                pp=raw/"players"/(pid+".json")
-                if not pp.exists():save(pp,get_json(f"/playerData?id={pid}&includeMarketValues=true"))
-                profile_count+=1
-            except Exception as pe:st["errors"].append({"player_id":pid,"player_error":str(pe)})
+                pp = raw / "players" / (pid + ".json")
+                if not pp.exists(): save(pp, get_json(f"/playerData?id={pid}&includeMarketValues=true"))
+                profile_count += 1
+            except Exception as exc: status["errors"].append({"player_id": pid, "player_error": str(exc)})
             try:
-                ph=raw/"player-matches"/(pid+".json")
-                if ph.exists():history_existing+=1
+                ph = raw / "player-matches" / (pid + ".json")
+                if ph.exists(): history_existing += 1
                 else:
-                    data,used=try_player_matches(pid,league_id);save(ph,data);history_count+=1
-            except Exception as phe:st["errors"].append({"player_id":pid,"player_matches_error":str(phe)})
-        st["records"]["player_profiles"]=profile_count;st["records"]["player_matches"]=history_count;st["records"]["player_matches_skipped_existing"]=history_existing
-        try:save(raw/"transfers.json",get_json(f"/transfers?teamId={tid}"));st["records"]["transfers"]=1
-        except Exception as te:st["errors"].append({"transfers_error":str(te)})
-        matches={str(m["id"]):m for m in walk_matches(team) if team_match(m,cfg["team"]) and finished(m)};matches=sorted(matches.values(),key=lambda m:str((m.get("status") or {}).get("utcTime") or m.get("timeTS") or ""),reverse=True)
-        st["layers"]["matches"]="available" if matches else "pending";st["records"]["matches"]=len(matches);detail=0;skipped=0;heatmaps=0;tickers=0;errors=[]
-        for m in matches:
-            mid=str(m["id"]);detail_path=raw/"matches"/(mid+".json")
+                    data, _ = try_player_matches(pid, league_id); save(ph, data); history_count += 1
+            except Exception as exc: status["errors"].append({"player_id": pid, "player_matches_error": str(exc)})
+        status["records"].update({"player_profiles": profile_count, "player_matches": history_count, "player_matches_skipped_existing": history_existing})
+        try: save(raw / "transfers.json", get_json(f"/transfers?teamId={tid}")); status["records"]["transfers"] = 1
+        except Exception as exc: status["errors"].append({"transfers_error": str(exc)})
+
+        matches = {str(m["id"]): m for m in walk_matches(team) if team_match(m, cfg["team"], tid)}
+        calendar_file = raw / "all-competition-calendar.json"
+        try:
+            season_start = date(int(season[:4]), 7, 1)
+            today = datetime.now(timezone.utc).date()
+            initial = not calendar_file.exists()
+            scan_start = season_start if initial else today - timedelta(days=7)
+            scan_end = today + timedelta(days=30)
+            scanned = date_scan_matches(cfg["team"], tid, scan_start, scan_end)
+            matches.update(scanned)
+            save(calendar_file, {"team_id": tid, "from": scan_start.isoformat(), "to": scan_end.isoformat(), "matches": sorted(matches.values(), key=lambda x: str((x.get("status") or {}).get("utcTime") or ""))})
+            status["records"]["date_scanned_matches"] = len(scanned)
+            status["records"]["date_scan_from"] = scan_start.isoformat()
+            status["records"]["date_scan_to"] = scan_end.isoformat()
+        except Exception as exc: status["errors"].append({"calendar_scan_error": str(exc)})
+
+        matches = sorted(matches.values(), key=lambda m: str((m.get("status") or {}).get("utcTime") or m.get("timeTS") or ""), reverse=True)
+        status["layers"]["matches"] = "available" if matches else "pending"; status["records"]["matches"] = len(matches)
+        detail = skipped = heatmaps = tickers = 0; errors = []
+        for match in matches:
+            mid = str(match["id"]); detail_path = raw / "matches" / (mid + ".json")
             try:
-                if detail_path.exists():detail_payload=json.loads(detail_path.read_text(encoding="utf-8"));skipped+=1
-                else:detail_payload=get_json(f"/matchDetails?matchId={mid}");save(detail_path,detail_payload);detail+=1
-                heatmap_url=find_first(detail_payload,("heatmapUrl","heatmapURL"))
+                if detail_path.exists(): detail_payload = json.loads(detail_path.read_text(encoding="utf-8")); skipped += 1
+                else: detail_payload = get_json(f"/matchDetails?matchId={mid}"); save(detail_path, detail); detail += 1
+                heatmap_url = find_first(detail_payload, ("heatmapUrl", "heatmapURL"))
                 if heatmap_url:
-                    heatmap_path=raw/"heatmaps"/(mid+".json")
-                    if not heatmap_path.exists():
-                        q=urllib.parse.urlencode({"heatmapUrl":heatmap_url});save(heatmap_path,get_json(f"/heatmap/match/{mid}/heatmaps?{q}"));heatmaps+=1
-                ltc_url=find_first(detail_payload,("ltcUrl","ltcURL","liveTickerUrl","liveTickerURL")) or f"https://data.fotmob.com/webcl/ltc/gsm/{mid}_en.json.gz"
-                ticker_path=raw/"liveticker"/(mid+".json");teams=[(m.get("home") or {}).get("name"),(m.get("away") or {}).get("name")]
-                if not ticker_path.exists() and all(teams):
-                    q=urllib.parse.urlencode({"ltcUrl":ltc_url,"teams":json.dumps(teams,separators=(",",":"))});save(ticker_path,get_json(f"/ltc?{q}"));tickers+=1
-            except Exception as e:errors.append({"match_id":mid,"error":str(e)})
-        st["records"]["match_details"]=detail;st["records"]["match_details_skipped_existing"]=skipped;st["records"]["heatmaps"]=heatmaps;st["records"]["livetickers"]=tickers;st["layers"].update({"stats":"available" if detail or skipped else "pending","events":"available" if detail or skipped else "pending","spatial":"available" if heatmaps else ("available" if detail or skipped else "pending")});st["errors"].extend(errors);st["status"]="success" if not st["errors"] else "partial"
-    except Exception as e:st["status"]="error";st["errors"].append({"fatal":str(e)})
-    save(root/"source-status-fotmob.json",st);save(root/"status-fotmob.json",st)
-if __name__=="__main__":main()
+                    hp = raw / "heatmaps" / (mid + ".json")
+                    if not hp.exists(): save(hp, get_json(f"/heatmap/match/{mid}/heatmaps?" + urllib.parse.urlencode({"heatmapUrl": heatmap_url}))); heatmaps += 1
+                ltc_url = find_first(detail_payload, ("ltcUrl", "ltcURL", "liveTickerUrl", "liveTickerURL")) or f"https://data.fotmob.com/webcl/ltc/gsm/{mid}_en.json.gz"
+                tp = raw / "liveticker" / (mid + ".json")
+                teams = [(match.get("home") or {}).get("name"), (match.get("away") or {}).get("name")]
+                if not tp.exists() and all(teams):
+                    q = urllib.parse.urlencode({"ltcUrl": ltc_url, "teams": json.dumps(teams, separators=(",", ":"))}); save(tp, get_json(f"/ltc?{q}")); tickers += 1
+            except Exception as exc: errors.append({"match_id": mid, "error": str(exc)})
+        status["records"].update({"match_details": detail, "match_details_skipped_existing": skipped, "heatmaps": heatmaps, "livetickers": tickers})
+        status["layers"].update({"stats": "available" if detail or skipped else "pending", "events": "available" if detail or skipped else "pending", "spatial": "available" if heatmaps else ("available" if detail or skipped else "pending")})
+        status["errors"].extend(errors); status["status"] = "success" if not status["errors"] else "partial"
+    except Exception as exc:
+        status["status"] = "error"; status["errors"].append({"fatal": str(exc)})
+    save(root / "source-status-fotmob.json", status); save(root / "status-fotmob.json", status)
+
+
+if __name__ == "__main__": main()
