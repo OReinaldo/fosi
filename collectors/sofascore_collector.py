@@ -10,11 +10,10 @@ from pathlib import Path
 
 CONFIG=Path("config/selected-scout.json");ROOT_BASE=Path("data/scouting")
 BASES=["https://api.sofascore.com/api/v1","https://www.sofascore.app/api/v1","https://www.sofascore.com/api/v1"]
-DETAILS=("event","statistics","incidents","lineups","graph","shotmap")
+DETAILS=("event","statistics","incidents","lineups","graph","shotmap","media")
 
 def save(path,payload):
-    path.parent.mkdir(parents=True,exist_ok=True)
-    path.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
+    path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
 
 def get_json(path):
     """Try a Chrome-like TLS client first, then standard urllib against public routes."""
@@ -36,112 +35,67 @@ def get_json(path):
     raise last
 
 def slugify(value):
-    value=str(value or "").lower().replace("&","and")
-    value=re.sub(r"[^a-z0-9]+","-",value).strip("-")
-    return value
+    value=str(value or "").lower().replace("&","and");value=re.sub(r"[^a-z0-9]+","-",value).strip("-");return value
 
 def event_page_url(event):
-    eid=str(event.get("id") or "")
-    slug=event.get("slug") or ""
-    custom=event.get("customId") or ""
-    if slug and custom:
-        return f"https://www.sofascore.com/football/match/{slug}/{custom}"
-    home=(event.get("homeTeam") or {}).get("slug") or (event.get("homeTeam") or {}).get("name")
-    away=(event.get("awayTeam") or {}).get("slug") or (event.get("awayTeam") or {}).get("name")
-    if home and away and custom:
-        return f"https://www.sofascore.com/football/match/{slugify(away)}-{slugify(home)}/{custom}"
+    eid=str(event.get("id") or "");slug=event.get("slug") or "";custom=event.get("customId") or ""
+    if slug and custom:return f"https://www.sofascore.com/football/match/{slug}/{custom}"
+    home=(event.get("homeTeam") or {}).get("slug") or (event.get("homeTeam") or {}).get("name");away=(event.get("awayTeam") or {}).get("slug") or (event.get("awayTeam") or {}).get("name")
+    if home and away and custom:return f"https://www.sofascore.com/football/match/{slugify(away)}-{slugify(home)}/{custom}"
     return f"https://www.sofascore.com/football/match/{custom or eid}/{custom or eid}"
 
 def browser_capture(tid,team_name,events,raw,st):
-    """Drive the public SPA and capture per-match API JSON.
-
-    Important: capture keys include the event id. A global endpoint-name dedupe would
-    accidentally keep only the first match's statistics/lineups/shotmap.
-    """
-    try:
-        from playwright.sync_api import sync_playwright
-    except Exception as e:
-        st["errors"].append({"layer":"browser","error":f"Playwright unavailable: {e}"});return {}
-    captured={};visited=0
-    team_slug=slugify(team_name) or "pogon-szczecin"
-    team_url=f"https://www.sofascore.com/football/team/{team_slug}/{tid}"
-    wanted=set(DETAILS)
+    """Drive the public SPA and capture per-match API JSON."""
+    try:from playwright.sync_api import sync_playwright
+    except Exception as e:st["errors"].append({"layer":"browser","error":f"Playwright unavailable: {e}"});return {}
+    captured={};visited=0;team_slug=slugify(team_name) or "pogon-szczecin";team_url=f"https://www.sofascore.com/football/team/{team_slug}/{tid}";wanted=set(DETAILS)
     with sync_playwright() as p:
-        browser=p.chromium.launch(headless=True,args=["--disable-blink-features=AutomationControlled","--no-sandbox"])
-        context=browser.new_context(user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140 Safari/537.36",locale="en-US",viewport={"width":1440,"height":1100})
-        page=context.new_page()
-        current_event=[None]
+        browser=p.chromium.launch(headless=True,args=["--disable-blink-features=AutomationControlled","--no-sandbox"]);context=browser.new_context(user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140 Safari/537.36",locale="en-US",viewport={"width":1440,"height":1100});page=context.new_page();current_event=[None]
         def on_response(resp):
             url=resp.url
-            if "api.sofascore.com/api/v1/" not in url:return
-            if resp.request.resource_type not in {"xhr","fetch"}:return
+            if "api.sofascore.com/api/v1/" not in url or resp.request.resource_type not in {"xhr","fetch"}:return
             try:
-                key=url.split("/api/v1/",1)[-1].split("?",1)[0].strip("/")
-                parts=key.split("/")
-                if len(parts)<2 or parts[0]!="event" or parts[2:] and parts[2] not in wanted:return
+                key=url.split("/api/v1/",1)[-1].split("?",1)[0].strip("/");parts=key.split("/")
+                if len(parts)<2 or parts[0]!="event":return
                 eid=parts[1];rest=parts[2] if len(parts)>=3 else "event"
                 if rest not in wanted:return
-                payload=resp.json()
-                captured[(eid,rest)]=payload
+                captured[(eid,rest)]=resp.json()
             except BaseException:pass
         page.on("response",on_response)
-        try:
-            page.goto(team_url,wait_until="domcontentloaded",timeout=60000);page.wait_for_timeout(5000)
-            page.evaluate("window.scrollTo(0, document.body.scrollHeight)");page.wait_for_timeout(2500)
+        try:page.goto(team_url,wait_until="domcontentloaded",timeout=60000);page.wait_for_timeout(5000);page.evaluate("window.scrollTo(0, document.body.scrollHeight)");page.wait_for_timeout(2500)
         except BaseException as e:st["errors"].append({"layer":"browser_team_page","error":str(e)})
         hrefs=[]
         try:hrefs=page.locator('a[href*="/football/match/"]').evaluate_all("els => els.map(e => e.href)")
         except BaseException:pass
-        candidates=[]
-        for e in events:
-            u=event_page_url(e)
-            if "/football/match/" in u:candidates.append(u)
-        # SPA-discovered links are valuable for older/current events; event-derived URLs
-        # ensure the browser is not limited to the small subset initially rendered.
-        candidates=list(dict.fromkeys(list(hrefs)+candidates))
-        target_ids={str(e.get("id")):e for e in events if e.get("id")}
+        candidates=list(dict.fromkeys(list(hrefs)+[event_page_url(e) for e in events if "/football/match/" in event_page_url(e)]));target_ids={str(e.get("id")):e for e in events if e.get("id")}
         for href in candidates:
-            eid_hint=None
-            for eid,e in target_ids.items():
-                if event_page_url(e)==href:eid_hint=eid;break
             try:
-                page.goto(href,wait_until="domcontentloaded",timeout=50000)
-                page.wait_for_timeout(1800)
-                # Force lazy-loaded match widgets. The exact visible labels vary by locale,
-                # so try text selectors without failing if a tab is absent.
-                for label in ("Statistics","Lineups","Stats","Alineaciones","Estadísticas"):
+                page.goto(href,wait_until="domcontentloaded",timeout=50000);page.wait_for_timeout(1800)
+                for label in ("Statistics","Lineups","Stats","Alineaciones","Estadísticas","Media","Videos","Vídeos"):
                     try:
                         loc=page.get_by_text(label,exact=True)
                         if loc.count():loc.first.click(timeout=2500);page.wait_for_timeout(1000)
                     except BaseException:pass
-                for _ in range(4):
-                    page.evaluate("window.scrollBy(0, Math.max(500, window.innerHeight*0.9))");page.wait_for_timeout(500)
+                for _ in range(4):page.evaluate("window.scrollBy(0, Math.max(500, window.innerHeight*0.9))");page.wait_for_timeout(500)
                 visited+=1
             except BaseException:continue
-            # Periodically recreate the browser session. This follows the proven pattern
-            # for long SofaScore runs where a session can become challenged after many calls.
             if visited and visited%45==0:
                 try:context.close()
                 except BaseException:pass
-                context=browser.new_context(user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140 Safari/537.36",locale="en-US",viewport={"width":1440,"height":1100})
-                page=context.new_page();page.on("response",on_response)
+                context=browser.new_context(user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140 Safari/537.36",locale="en-US",viewport={"width":1440,"height":1100});page=context.new_page();page.on("response",on_response)
                 try:page.goto(team_url,wait_until="domcontentloaded",timeout=50000);page.wait_for_timeout(3000)
                 except BaseException:pass
         browser.close()
     for (eid,kind),payload in captured.items():save(raw/"matches"/eid/(kind+".json"),payload)
-    st["browser_capture"]={"captured_match_layers":len(captured),"unique_matches":len({k[0] for k in captured}),"pages_visited":visited,"candidate_pages":len(candidates)}
-    return captured
+    st["browser_capture"]={"captured_match_layers":len(captured),"unique_matches":len({k[0] for k in captured}),"pages_visited":visited,"candidate_pages":len(candidates)};return captured
 
 def main():
-    cfg=json.loads(CONFIG.read_text(encoding="utf-8"));root=ROOT_BASE/cfg["country"].lower().replace(" ","-")/cfg["competition"].lower().replace(" ","-")/cfg["team_id"];raw=root/"raw"/"sofascore"
-    st={"source":"sofascore","status":"collecting","retrieved_at":datetime.now(timezone.utc).isoformat(),"layers":{},"records":{},"errors":[],"attempted_bases":BASES}
+    cfg=json.loads(CONFIG.read_text(encoding="utf-8"));root=ROOT_BASE/cfg["country"].lower().replace(" ","-")/cfg["competition"].lower().replace(" ","-")/cfg["team_id"];raw=root/"raw"/"sofascore";st={"source":"sofascore","status":"collecting","retrieved_at":datetime.now(timezone.utc).isoformat(),"layers":{},"records":{},"errors":[],"attempted_bases":BASES}
     try:
-        tid=str((cfg.get("provider_ids") or {}).get("sofascore") or "");team_name=cfg.get("team") or ""
+        tid=str((cfg.get("provider_ids") or {}).get("sofascore") or "");team_name=cfg.get("team") or "";events=[]
         if not tid:raise RuntimeError("SofaScore team id not configured")
-        events=[]
         try:
-            data,base=get_json(f"/team/{tid}");save(raw/"team.json",data);st["base_used"]=base;st["layers"]["team"]="available";st["records"]["team"]=1
-            squad,_=get_json(f"/team/{tid}/players");save(raw/"squad.json",squad);st["layers"]["players"]="available";st["records"]["players"]=len(squad.get("players",[]))
+            data,base=get_json(f"/team/{tid}");save(raw/"team.json",data);st["base_used"]=base;st["layers"]["team"]="available";st["records"]["team"]=1;squad,_=get_json(f"/team/{tid}/players");save(raw/"squad.json",squad);st["layers"]["players"]="available";st["records"]["players"]=len(squad.get("players",[]))
         except Exception as e:st["errors"].append({"layer":"direct_team_api","error":str(e)})
         try:
             for page_no in range(40):
@@ -158,18 +112,10 @@ def main():
                 try:payload,_=get_json(f"/event/{eid}" if kind=="event" else f"/event/{eid}/{kind}");save(dest,payload);counts[kind]+=1
                 except Exception:pass
                 time.sleep(.04)
-        missing=not events or any(counts[k]<len(events) for k in ("event","statistics","incidents","lineups","shotmap"))
+        missing=not events or any(counts[k]<len(events) for k in ("event","statistics","incidents","lineups","shotmap","media"))
         if missing:browser_capture(tid,team_name,events,raw,st)
-        # Recount from disk so browser-captured layers and direct layers are both reflected.
-        for k in counts:
-            counts[k]=sum(1 for e in events if (raw/"matches"/str(e["id"])/(k+".json")).exists())
-        st["records"].update(counts)
-        st["layers"]["matches"]="available" if events else "partial"
-        st["layers"]["stats"]="available" if counts["statistics"] else "partial"
-        st["layers"]["events"]="available" if counts["incidents"] else "partial"
-        st["layers"]["spatial"]="available" if counts["shotmap"] else "partial"
-        st["layers"]["lineups"]="available" if counts["lineups"] else "partial"
-        st["status"]="success" if not st["errors"] else "partial"
+        for k in counts:counts[k]=sum(1 for e in events if (raw/"matches"/str(e["id"])/(k+".json")).exists())
+        st["records"].update(counts);st["layers"]["matches"]="available" if events else "partial";st["layers"]["stats"]="available" if counts["statistics"] else "partial";st["layers"]["events"]="available" if counts["incidents"] else "partial";st["layers"]["spatial"]="available" if counts["shotmap"] else "partial";st["layers"]["lineups"]="available" if counts["lineups"] else "partial";st["layers"]["video"]="available" if counts["media"] else "unavailable";st["status"]="success" if not st["errors"] else "partial"
     except Exception as exc:st["status"]="error";st["errors"].append({"fatal":str(exc)})
     save(root/"source-status-sofascore.json",st)
 if __name__=="__main__":main()
