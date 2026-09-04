@@ -59,6 +59,9 @@ jobs:
       - name: Test FOSI normalization
         working-directory: engine
         run: python -m unittest test_normalize_sources.py -v
+      - name: Test RAW enrichment
+        working-directory: engine
+        run: python -m unittest test_enrich_normalized.py -v
       - name: Test FOSI metrics engine
         working-directory: engine
         run: python -m unittest test_metrics_engine.py -v
