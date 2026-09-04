@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-04T09:46:50.323217+00:00",
+  "generated_at": "2026-09-04T11:37:35.365686+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -8,12 +8,22 @@
     "team_id": "pogon-szczecin"
   },
   "method": "observed-from-raw",
-  "files_seen": 94,
+  "files_seen": 104,
   "source_files": [
     "espn/events.json",
     "espn/injuries.json",
     "espn/matches/401886525/summary.json",
     "espn/record.json",
+    "espn/schedule/page-0.json",
+    "espn/schedule/page-1.json",
+    "espn/schedule/page-2.json",
+    "espn/schedule/page-3.json",
+    "espn/schedule/page-4.json",
+    "espn/schedule/page-5.json",
+    "espn/schedule/page-6.json",
+    "espn/schedule/page-7.json",
+    "espn/schedule/page-8.json",
+    "espn/schedule/page-9.json",
     "espn/schedule.json",
     "espn/team.json",
     "fotmob/all-competition-calendar.json",
@@ -109,15 +119,15 @@
     {
       "path": "$",
       "types": {
-        "object": 62,
+        "object": 72,
         "null": 32
       },
-      "occurrences": 94,
+      "occurrences": 104,
       "sources": [
         "espn",
         "fotmob"
       ],
-      "file_count": 94,
+      "file_count": 104,
       "example": "None"
     },
     {
@@ -171614,1141 +171624,1141 @@
     {
       "path": "$.events",
       "types": {
-        "array": 2
+        "array": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[]",
       "types": {
-        "object": 2
+        "object": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions",
       "types": {
-        "array": 2
+        "array": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[]",
       "types": {
-        "object": 2
+        "object": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].attendance",
       "types": {
-        "integer": 2
+        "integer": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "0"
     },
     {
       "path": "$.events[].competitions[].boxscoreAvailable",
       "types": {
-        "boolean": 2
+        "boolean": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "True"
     },
     {
       "path": "$.events[].competitions[].broadcasts",
       "types": {
-        "array": 2
+        "array": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].competitors",
       "types": {
-        "array": 2
+        "array": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].competitors[]",
       "types": {
-        "object": 2
+        "object": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].competitors[].homeAway",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "home"
     },
     {
       "path": "$.events[].competitions[].competitors[].id",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "436"
     },
     {
       "path": "$.events[].competitions[].competitors[].order",
       "types": {
-        "integer": 2
+        "integer": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "0"
     },
     {
       "path": "$.events[].competitions[].competitors[].record",
       "types": {
-        "array": 2
+        "array": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].competitors[].score",
       "types": {
-        "object": 2
+        "object": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].competitors[].score.$ref",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/club.friendly/events/401886525/competitions/401886525/competitors/436/scores/38?lang=en&region=us"
     },
     {
       "path": "$.events[].competitions[].competitors[].score.displayValue",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "4"
     },
     {
       "path": "$.events[].competitions[].competitors[].score.source",
       "types": {
-        "object": 2
+        "object": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].competitors[].score.source.description",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "SA.ENVOY"
     },
     {
       "path": "$.events[].competitions[].competitors[].score.source.id",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "38"
     },
     {
       "path": "$.events[].competitions[].competitors[].score.value",
       "types": {
-        "number": 2
+        "number": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "4.0"
     },
     {
       "path": "$.events[].competitions[].competitors[].score.winner",
       "types": {
-        "boolean": 2
+        "boolean": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "True"
     },
     {
       "path": "$.events[].competitions[].competitors[].team",
       "types": {
-        "object": 2
+        "object": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].competitors[].team.abbreviation",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "FEN"
     },
     {
       "path": "$.events[].competitions[].competitors[].team.displayName",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "Fenerbahce"
     },
     {
       "path": "$.events[].competitions[].competitors[].team.id",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "436"
     },
     {
       "path": "$.events[].competitions[].competitors[].team.links",
       "types": {
-        "array": 2
+        "array": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].competitors[].team.links[]",
       "types": {
-        "object": 2
+        "object": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].competitors[].team.links[].href",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "https://www.espn.com/soccer/club/_/id/436/fenerbahce"
     },
     {
       "path": "$.events[].competitions[].competitors[].team.links[].rel",
       "types": {
-        "array": 2
+        "array": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].competitors[].team.links[].rel[]",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "clubhouse"
     },
     {
       "path": "$.events[].competitions[].competitors[].team.links[].text",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "Clubhouse"
     },
     {
       "path": "$.events[].competitions[].competitors[].team.location",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "Fenerbahce"
     },
     {
       "path": "$.events[].competitions[].competitors[].team.logos",
       "types": {
-        "array": 2
+        "array": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].competitors[].team.logos[]",
       "types": {
-        "object": 2
+        "object": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].competitors[].team.logos[].alt",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": ""
     },
     {
       "path": "$.events[].competitions[].competitors[].team.logos[].height",
       "types": {
-        "integer": 2
+        "integer": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "500"
     },
     {
       "path": "$.events[].competitions[].competitors[].team.logos[].href",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
     },
     {
       "path": "$.events[].competitions[].competitors[].team.logos[].lastUpdated",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "2018-06-05T12:14Z"
     },
     {
       "path": "$.events[].competitions[].competitors[].team.logos[].rel",
       "types": {
-        "array": 2
+        "array": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].competitors[].team.logos[].rel[]",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "full"
     },
     {
       "path": "$.events[].competitions[].competitors[].team.logos[].width",
       "types": {
-        "integer": 2
+        "integer": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "500"
     },
     {
       "path": "$.events[].competitions[].competitors[].team.shortDisplayName",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "Fenerbahce"
     },
     {
       "path": "$.events[].competitions[].competitors[].type",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "team"
     },
     {
       "path": "$.events[].competitions[].competitors[].winner",
       "types": {
-        "boolean": 2
+        "boolean": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "True"
     },
     {
       "path": "$.events[].competitions[].date",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "2026-07-11T17:30Z"
     },
     {
       "path": "$.events[].competitions[].id",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "401886525"
     },
     {
       "path": "$.events[].competitions[].neutralSite",
       "types": {
-        "boolean": 2
+        "boolean": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "False"
     },
     {
       "path": "$.events[].competitions[].notes",
       "types": {
-        "array": 2
+        "array": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].status",
       "types": {
-        "object": 2
+        "object": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].status.addedClock",
       "types": {
-        "number": 2
+        "number": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "120.0"
     },
     {
       "path": "$.events[].competitions[].status.clock",
       "types": {
-        "number": 2
+        "number": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "5400.0"
     },
     {
       "path": "$.events[].competitions[].status.displayClock",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "90'+2'"
     },
     {
       "path": "$.events[].competitions[].status.period",
       "types": {
-        "integer": 2
+        "integer": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "2"
     },
     {
       "path": "$.events[].competitions[].status.type",
       "types": {
-        "object": 2
+        "object": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].competitions[].status.type.completed",
       "types": {
-        "boolean": 2
+        "boolean": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "True"
     },
     {
       "path": "$.events[].competitions[].status.type.description",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "Full Time"
     },
     {
       "path": "$.events[].competitions[].status.type.detail",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "FT"
     },
     {
       "path": "$.events[].competitions[].status.type.id",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "28"
     },
     {
       "path": "$.events[].competitions[].status.type.name",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "STATUS_FULL_TIME"
     },
     {
       "path": "$.events[].competitions[].status.type.shortDetail",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "FT"
     },
     {
       "path": "$.events[].competitions[].status.type.state",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "post"
     },
     {
       "path": "$.events[].competitions[].ticketsAvailable",
       "types": {
-        "boolean": 2
+        "boolean": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "False"
     },
     {
       "path": "$.events[].competitions[].timeValid",
       "types": {
-        "boolean": 2
+        "boolean": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "True"
     },
     {
       "path": "$.events[].date",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "2026-07-11T17:30Z"
     },
     {
       "path": "$.events[].id",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "401886525"
     },
     {
       "path": "$.events[].league",
       "types": {
-        "object": 2
+        "object": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].league.abbreviation",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "Club Friendly"
     },
     {
       "path": "$.events[].league.alternateId",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "68"
     },
     {
       "path": "$.events[].league.id",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "19834"
     },
     {
       "path": "$.events[].league.isTournament",
       "types": {
-        "boolean": 2
+        "boolean": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "False"
     },
     {
       "path": "$.events[].league.midsizeName",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "CLUB.FRIENDLY"
     },
     {
       "path": "$.events[].league.name",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "Club Friendly"
     },
     {
       "path": "$.events[].league.shortName",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "Club Friendly"
     },
     {
       "path": "$.events[].league.slug",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "club.friendly"
     },
     {
       "path": "$.events[].links",
       "types": {
-        "array": 2
+        "array": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].links[]",
       "types": {
-        "object": 2
+        "object": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].links[].href",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "https://www.espn.com/soccer/match/_/gameId/401886525/pogon-szczecin-fenerbahce"
     },
     {
       "path": "$.events[].links[].isExternal",
       "types": {
-        "boolean": 2
+        "boolean": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "False"
     },
     {
       "path": "$.events[].links[].isPremium",
       "types": {
-        "boolean": 2
+        "boolean": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "False"
     },
     {
       "path": "$.events[].links[].language",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "en-US"
     },
     {
       "path": "$.events[].links[].rel",
       "types": {
-        "array": 2
+        "array": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].links[].rel[]",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "summary"
     },
     {
       "path": "$.events[].links[].shortText",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "Summary"
     },
     {
       "path": "$.events[].links[].text",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "Summary"
     },
     {
       "path": "$.events[].name",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "Pogon Szczecin at Fenerbahce"
     },
     {
       "path": "$.events[].season",
       "types": {
-        "object": 2
+        "object": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].season.displayName",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "2026 Club Friendly"
     },
     {
       "path": "$.events[].season.year",
       "types": {
-        "integer": 2
+        "integer": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "2026"
     },
     {
       "path": "$.events[].seasonType",
       "types": {
-        "object": 2
+        "object": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.events[].seasonType.abbreviation",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "2026 Club Friendly"
     },
     {
       "path": "$.events[].seasonType.id",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "1"
     },
     {
       "path": "$.events[].seasonType.name",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "2026 Club Friendly"
     },
     {
       "path": "$.events[].seasonType.type",
       "types": {
-        "integer": 2
+        "integer": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "13818"
     },
     {
       "path": "$.events[].shortName",
       "types": {
-        "string": 2
+        "string": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "POG @ FEN"
     },
     {
       "path": "$.events[].timeValid",
       "types": {
-        "boolean": 2
+        "boolean": 12
       },
-      "occurrences": 2,
+      "occurrences": 12,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 12,
       "example": "True"
     },
     {
@@ -190550,7 +190560,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7122"
+      "example": "7136"
     },
     {
       "path": "$.id",
@@ -199519,7 +199529,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-111"
+      "example": "-118"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
@@ -199531,7 +199541,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.90"
+      "example": "1.85"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
@@ -199543,7 +199553,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "9/10"
+      "example": "17/20"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
@@ -199747,7 +199757,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-111"
+      "example": "-118"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
@@ -199759,7 +199769,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.90"
+      "example": "1.85"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
@@ -199771,7 +199781,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "9/10"
+      "example": "17/20"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
@@ -214107,61 +214117,61 @@
     {
       "path": "$.requestedSeason",
       "types": {
-        "object": 1
+        "object": 10
       },
-      "occurrences": 1,
+      "occurrences": 10,
       "sources": [
         "espn"
       ],
-      "file_count": 1,
+      "file_count": 10,
       "example": null
     },
     {
       "path": "$.requestedSeason.displayName",
       "types": {
-        "string": 1
+        "string": 10
       },
-      "occurrences": 1,
+      "occurrences": 10,
       "sources": [
         "espn"
       ],
-      "file_count": 1,
+      "file_count": 10,
       "example": "2026 Club Friendly"
     },
     {
       "path": "$.requestedSeason.name",
       "types": {
-        "string": 1
+        "string": 10
       },
-      "occurrences": 1,
+      "occurrences": 10,
       "sources": [
         "espn"
       ],
-      "file_count": 1,
+      "file_count": 10,
       "example": "2026 Club Friendly"
     },
     {
       "path": "$.requestedSeason.type",
       "types": {
-        "integer": 1
+        "integer": 10
       },
-      "occurrences": 1,
+      "occurrences": 10,
       "sources": [
         "espn"
       ],
-      "file_count": 1,
+      "file_count": 10,
       "example": "13818"
     },
     {
       "path": "$.requestedSeason.year",
       "types": {
-        "integer": 1
+        "integer": 10
       },
-      "occurrences": 1,
+      "occurrences": 10,
       "sources": [
         "espn"
       ],
-      "file_count": 1,
+      "file_count": 10,
       "example": "2026"
     },
     {
@@ -215319,73 +215329,73 @@
     {
       "path": "$.season",
       "types": {
-        "object": 1
+        "object": 10
       },
-      "occurrences": 1,
+      "occurrences": 10,
       "sources": [
         "espn"
       ],
-      "file_count": 1,
+      "file_count": 10,
       "example": null
     },
     {
       "path": "$.season.displayName",
       "types": {
-        "string": 1
+        "string": 10
       },
-      "occurrences": 1,
+      "occurrences": 10,
       "sources": [
         "espn"
       ],
-      "file_count": 1,
+      "file_count": 10,
       "example": "2026 Club Friendly"
     },
     {
       "path": "$.season.half",
       "types": {
-        "integer": 1
+        "integer": 10
       },
-      "occurrences": 1,
+      "occurrences": 10,
       "sources": [
         "espn"
       ],
-      "file_count": 1,
+      "file_count": 10,
       "example": "1"
     },
     {
       "path": "$.season.name",
       "types": {
-        "string": 1
+        "string": 10
       },
-      "occurrences": 1,
+      "occurrences": 10,
       "sources": [
         "espn"
       ],
-      "file_count": 1,
+      "file_count": 10,
       "example": "2026 Club Friendly"
     },
     {
       "path": "$.season.type",
       "types": {
-        "integer": 1
+        "integer": 10
       },
-      "occurrences": 1,
+      "occurrences": 10,
       "sources": [
         "espn"
       ],
-      "file_count": 1,
+      "file_count": 10,
       "example": "13818"
     },
     {
       "path": "$.season.year",
       "types": {
-        "integer": 1
+        "integer": 10
       },
-      "occurrences": 1,
+      "occurrences": 10,
       "sources": [
         "espn"
       ],
-      "file_count": 1,
+      "file_count": 10,
       "example": "2026"
     },
     {
@@ -218080,14 +218090,14 @@
     {
       "path": "$.status",
       "types": {
-        "string": 18
+        "string": 27
       },
-      "occurrences": 18,
+      "occurrences": 27,
       "sources": [
         "espn",
         "fotmob"
       ],
-      "file_count": 18,
+      "file_count": 27,
       "example": "success"
     },
     {
@@ -225965,25 +225975,25 @@
     {
       "path": "$.team",
       "types": {
-        "object": 2
+        "object": 11
       },
-      "occurrences": 2,
+      "occurrences": 11,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 11,
       "example": null
     },
     {
       "path": "$.team.abbreviation",
       "types": {
-        "string": 2
+        "string": 11
       },
-      "occurrences": 2,
+      "occurrences": 11,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 11,
       "example": "POG"
     },
     {
@@ -226001,25 +226011,25 @@
     {
       "path": "$.team.clubhouse",
       "types": {
-        "string": 1
+        "string": 10
       },
-      "occurrences": 1,
+      "occurrences": 10,
       "sources": [
         "espn"
       ],
-      "file_count": 1,
+      "file_count": 10,
       "example": "https://www.espn.com/soccer/club/_/id/511/pogon-szczecin"
     },
     {
       "path": "$.team.color",
       "types": {
-        "string": 2
+        "string": 11
       },
-      "occurrences": 2,
+      "occurrences": 11,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 11,
       "example": "000000"
     },
     {
@@ -226289,25 +226299,25 @@
     {
       "path": "$.team.displayName",
       "types": {
-        "string": 2
+        "string": 11
       },
-      "occurrences": 2,
+      "occurrences": 11,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 11,
       "example": "Pogon Szczecin"
     },
     {
       "path": "$.team.id",
       "types": {
-        "string": 2
+        "string": 11
       },
-      "occurrences": 2,
+      "occurrences": 11,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 11,
       "example": "511"
     },
     {
@@ -226325,13 +226335,13 @@
     {
       "path": "$.team.isNational",
       "types": {
-        "boolean": 1
+        "boolean": 10
       },
-      "occurrences": 1,
+      "occurrences": 10,
       "sources": [
         "espn"
       ],
-      "file_count": 1,
+      "file_count": 10,
       "example": "False"
     },
     {
@@ -226469,25 +226479,25 @@
     {
       "path": "$.team.location",
       "types": {
-        "string": 2
+        "string": 11
       },
-      "occurrences": 2,
+      "occurrences": 11,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 11,
       "example": "Pogon Szczecin"
     },
     {
       "path": "$.team.name",
       "types": {
-        "string": 2
+        "string": 11
       },
-      "occurrences": 2,
+      "occurrences": 11,
       "sources": [
         "espn"
       ],
-      "file_count": 2,
+      "file_count": 11,
       "example": "Pogon Szczecin"
     },
     {
@@ -226517,13 +226527,13 @@
     {
       "path": "$.team.seasonSummary",
       "types": {
-        "string": 1
+        "string": 10
       },
-      "occurrences": 1,
+      "occurrences": 10,
       "sources": [
         "espn"
       ],
-      "file_count": 1,
+      "file_count": 10,
       "example": "2026"
     },
     {
@@ -226577,14 +226587,14 @@
     {
       "path": "$.timestamp",
       "types": {
-        "string": 1
+        "string": 10
       },
-      "occurrences": 1,
+      "occurrences": 10,
       "sources": [
         "espn"
       ],
-      "file_count": 1,
-      "example": "2026-09-04T09:46:44Z"
+      "file_count": 10,
+      "example": "2026-09-04T11:37:24Z"
     },
     {
       "path": "$.to",
@@ -228704,14 +228714,38 @@
     {
       "path": "$.transfers[].fee",
       "types": {
-        "null": 1
+        "object": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": null
+    },
+    {
+      "path": "$.transfers[].fee.feeText",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "free transfer"
+    },
+    {
+      "path": "$.transfers[].fee.localizedFeeText",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "transfer_type_free_transfer"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -228723,7 +228757,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Westerlo"
+      "example": "Free agent"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -228735,7 +228769,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Westerlo"
+      "example": "Free agent"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -228747,7 +228781,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "10001"
+      "example": "2"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -228771,7 +228805,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1960256"
+      "example": "454440"
     },
     {
       "path": "$.transfers[].name",
@@ -228783,7 +228817,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Afonso Patrão"
+      "example": "Nick Shinton"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -228807,7 +228841,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1647190"
+      "example": "1073462"
     },
     {
       "path": "$.transfers[].position",
@@ -228831,7 +228865,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "striker_short"
+      "example": "keeper"
     },
     {
       "path": "$.transfers[].position.label",
@@ -228843,7 +228877,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "ST"
+      "example": "GK"
     },
     {
       "path": "$.transfers[].toClub",
@@ -228855,7 +228889,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Pafos FC"
+      "example": "Sønderjyske"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -228867,7 +228901,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Pafos FC"
+      "example": "Sønderjyske"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -228879,7 +228913,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2137"
+      "example": "8487"
     },
     {
       "path": "$.transfers[].toDate",
@@ -228891,7 +228925,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2030-06-30T00:00:00Z"
+      "example": "2029-06-30T00:00:00Z"
     },
     {
       "path": "$.transfers[].transferDate",
@@ -228903,7 +228937,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-04T11:31:47Z"
+      "example": "2026-09-04T13:24:37Z"
     },
     {
       "path": "$.transfers[].transferText",

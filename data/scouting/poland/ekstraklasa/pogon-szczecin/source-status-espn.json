@@ -1,7 +1,7 @@
 {
   "source": "espn",
   "status": "partial",
-  "retrieved_at": "2026-09-04T09:46:43.910234+00:00",
+  "retrieved_at": "2026-09-04T11:37:24.191282+00:00",
   "layers": {
     "matches": "available",
     "team": "available",
@@ -37,7 +37,52 @@
   ],
   "routes_attempted": [
     {
-      "path": "/all/teams/511/schedule",
+      "path": "/all/teams/511/schedule?limit=100&offset=0",
+      "status": "success",
+      "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+    },
+    {
+      "path": "/all/teams/511/schedule?limit=100&offset=100",
+      "status": "success",
+      "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+    },
+    {
+      "path": "/all/teams/511/schedule?limit=100&offset=200",
+      "status": "success",
+      "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+    },
+    {
+      "path": "/all/teams/511/schedule?limit=100&offset=300",
+      "status": "success",
+      "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+    },
+    {
+      "path": "/all/teams/511/schedule?limit=100&offset=400",
+      "status": "success",
+      "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+    },
+    {
+      "path": "/all/teams/511/schedule?limit=100&offset=500",
+      "status": "success",
+      "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+    },
+    {
+      "path": "/all/teams/511/schedule?limit=100&offset=600",
+      "status": "success",
+      "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+    },
+    {
+      "path": "/all/teams/511/schedule?limit=100&offset=700",
+      "status": "success",
+      "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+    },
+    {
+      "path": "/all/teams/511/schedule?limit=100&offset=800",
+      "status": "success",
+      "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+    },
+    {
+      "path": "/all/teams/511/schedule?limit=100&offset=900",
       "status": "success",
       "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
     }
