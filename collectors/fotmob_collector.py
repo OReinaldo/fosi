@@ -89,6 +89,41 @@ def date_scan_matches(team_name, team_id, start_day, end_day):
         day += timedelta(days=1); time.sleep(.05)
     return found
 
+def extract_video_assets(payload, match_id):
+    """Return source-provided video/highlight links without inventing timestamps."""
+    found = []
+    seen = set()
+    def walk(node, path=""):
+        if isinstance(node, dict):
+            url = node.get("url") or node.get("videoUrl") or node.get("videoURL") or node.get("embedUrl") or node.get("embedURL")
+            source = node.get("source") or node.get("provider") or node.get("site")
+            image = node.get("image") or node.get("thumbnail") or node.get("thumbnailUrl")
+            if isinstance(url, str) and url.startswith(("http://", "https://")):
+                low = (url + " " + str(source or "") + " " + path).lower()
+                if any(x in low for x in ("youtube", "youtu.be", "vimeo", "video", "highlight", "stream")):
+                    key = url
+                    if key not in seen:
+                        seen.add(key); found.append({"match_id": str(match_id), "url": url, "source": source, "thumbnail": image, "asset_type": "highlight" if "highlight" in low else "video", "raw_path": path})
+            for k, v in node.items(): walk(v, f"{path}.{k}" if path else k)
+        elif isinstance(node, list):
+            for i, v in enumerate(node): walk(v, f"{path}[{i}]")
+    walk(payload)
+    return found
+
+def event_video_refs(events, videos):
+    """Link match-level video assets to known event times when no provider timestamp exists.
+
+    We deliberately keep the relation as match_highlight rather than pretending the video
+    starts at a particular event. Future provider-specific timestamp metadata can refine it.
+    """
+    refs=[]
+    for video in videos:
+        for event in events:
+            eid = event.get("id") or event.get("eventId")
+            if eid is not None:
+                refs.append({"event_id": str(eid), "match_id": str(event.get("matchId") or video.get("match_id")), "video_url": video["url"], "relation": "match_highlight", "source": video.get("source")})
+    return refs
+
 def main():
     cfg = json.loads(CONFIG.read_text(encoding="utf-8")); status = {"source": "fotmob", "status": "collecting", "retrieved_at": datetime.now(timezone.utc).isoformat(), "layers": {}, "records": {}, "errors": []}
     if not cfg.get("enabled") or not cfg.get("team"): return
@@ -126,12 +161,22 @@ def main():
             status["records"].update({"date_scanned_matches": len(scanned), "date_scan_from": scan_start.isoformat(), "date_scan_to": scan_end.isoformat()})
         except Exception as exc: status["errors"].append({"calendar_scan_error": str(exc)})
         matches = sorted(matches.values(), key=lambda m: str((m.get("status") or {}).get("utcTime") or m.get("timeTS") or ""), reverse=True); status["layers"]["matches"] = "available" if matches else "pending"; status["records"]["matches"] = len(matches)
-        detail = skipped = heatmaps = tickers = 0; errors = []
+        detail = skipped = heatmaps = tickers = videos_count = event_video_refs_count = 0; errors = []
         for match in matches:
             mid = str(match["id"]); detail_path = raw / "matches" / (mid + ".json")
             try:
                 if detail_path.exists(): detail_payload = json.loads(detail_path.read_text(encoding="utf-8")); skipped += 1
                 else: detail_payload = get_json(f"/matchDetails?matchId={mid}"); save(detail_path, detail_payload); detail += 1
+                videos = extract_video_assets(detail_payload, mid)
+                vp = raw / "videos" / (mid + ".json")
+                if videos and not vp.exists(): save(vp, {"match_id": mid, "videos": videos}); videos_count += len(videos)
+                elif vp.exists():
+                    try: videos_count += len((json.loads(vp.read_text(encoding="utf-8")) or {}).get("videos", []))
+                    except Exception: pass
+                if videos:
+                    events = ((detail_payload.get("content") or {}).get("matchFacts") or {}).get("events") or []
+                    refs = event_video_refs(events if isinstance(events, list) else [], videos)
+                    if refs: save(raw / "videos" / (mid + "-event-refs.json"), {"match_id": mid, "refs": refs}); event_video_refs_count += len(refs)
                 heatmap_url = find_first(detail_payload, ("heatmapUrl", "heatmapURL"))
                 if heatmap_url:
                     hp = raw / "heatmaps" / (mid + ".json")
@@ -140,7 +185,7 @@ def main():
                 if not tp.exists() and all(teams):
                     q = urllib.parse.urlencode({"ltcUrl": ltc_url, "teams": json.dumps(teams, separators=(",", ":"))}); save(tp, get_json(f"/ltc?{q}")); tickers += 1
             except Exception as exc: errors.append({"match_id": mid, "error": str(exc)})
-        status["records"].update({"match_details": detail, "match_details_skipped_existing": skipped, "heatmaps": heatmaps, "livetickers": tickers}); status["layers"].update({"stats": "available" if detail or skipped else "pending", "events": "available" if detail or skipped else "pending", "spatial": "available" if heatmaps else ("available" if detail or skipped else "pending")}); status["errors"].extend(errors); status["status"] = "success" if not status["errors"] else "partial"
+        status["records"].update({"match_details": detail, "match_details_skipped_existing": skipped, "heatmaps": heatmaps, "livetickers": tickers, "videos": videos_count, "event_video_refs": event_video_refs_count}); status["layers"].update({"stats": "available" if detail or skipped else "pending", "events": "available" if detail or skipped else "pending", "spatial": "available" if heatmaps else ("available" if detail or skipped else "pending"), "video": "available" if videos_count else "unavailable"}); status["errors"].extend(errors); status["status"] = "success" if not status["errors"] else "partial"
     except Exception as exc: status["status"] = "error"; status["errors"].append({"fatal": str(exc)})
     save(root / "source-status-fotmob.json", status); save(root / "status-fotmob.json", status)
 
