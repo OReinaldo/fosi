@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-03T21:14:32.534157+00:00",
+  "generated_at": "2026-09-04T03:25:51.512057+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -191092,7 +191092,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-111"
+      "example": "-105"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
@@ -191104,7 +191104,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.90"
+      "example": "1.95"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
@@ -191116,7 +191116,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "9/10"
+      "example": "20/21"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
@@ -191320,7 +191320,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-111"
+      "example": "-105"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
@@ -191332,7 +191332,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.90"
+      "example": "1.95"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
@@ -191344,7 +191344,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "9/10"
+      "example": "20/21"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
@@ -216951,38 +216951,14 @@
     {
       "path": "$.transfers[].fee",
       "types": {
-        "object": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.transfers[].fee.feeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "on loan"
-    },
-    {
-      "path": "$.transfers[].fee.localizedFeeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "on_loan"
+      "example": "None"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -216994,7 +216970,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Hibernian"
+      "example": "Lincoln"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -217006,7 +216982,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Hibernian"
+      "example": "Lincoln City"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -217018,7 +216994,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "10251"
+      "example": "8430"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -217042,7 +217018,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "709207"
+      "example": "235254"
     },
     {
       "path": "$.transfers[].name",
@@ -217054,7 +217030,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Josh Campbell"
+      "example": "Adam Jackson"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -217066,7 +217042,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.transfers[].playerId",
@@ -217078,7 +217054,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1007733"
+      "example": "529887"
     },
     {
       "path": "$.transfers[].position",
@@ -217102,7 +217078,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "centerattackingmidfielder_short"
+      "example": "centerback_short"
     },
     {
       "path": "$.transfers[].position.label",
@@ -217114,7 +217090,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "AM"
+      "example": "CB"
     },
     {
       "path": "$.transfers[].toClub",
@@ -217126,7 +217102,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "St. Johnstone"
+      "example": "Free agent"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -217138,7 +217114,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "St. Johnstone"
+      "example": "Free agent"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -217150,19 +217126,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8467"
+      "example": "2"
     },
     {
       "path": "$.transfers[].toDate",
       "types": {
-        "string": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2027-05-31T00:00:00Z"
+      "example": "None"
     },
     {
       "path": "$.transfers[].transferDate",
@@ -217174,7 +217150,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-03T21:31:08Z"
+      "example": "2026-09-04T00:31:11Z"
     },
     {
       "path": "$.transfers[].transferText",
@@ -217222,7 +217198,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on_loan"
+      "example": "contract"
     },
     {
       "path": "$.transfers[].transferType.text",
@@ -217234,7 +217210,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on loan"
+      "example": "contract"
     },
     {
       "path": "$.trophies",
