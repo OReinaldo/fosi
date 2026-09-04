@@ -46,6 +46,8 @@ jobs:
           PY
       - name: Run selected-target acquisition
         run: python engine/run_scout.py
+      - name: Harden secondary evidence acquisition
+        run: python engine/acquisition_hardening.py
       - name: Build RAW field dictionary
         run: python engine/build_data_dictionary.py
       - name: Build source coverage matrix
@@ -88,4 +90,4 @@ jobs:
       - name: Deploy refreshed dashboard
         id: deployment
         uses: actions/deploy-pages@v4
-# FOSI pipeline: acquisition -> source coverage -> normalization -> tests -> scouting intelligence -> metrics -> publication -> validation -> Pages
+# FOSI pipeline: acquisition -> hardening -> source coverage -> normalization -> tests -> scouting intelligence -> metrics -> publication -> validation -> Pages
