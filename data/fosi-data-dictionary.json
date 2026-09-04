@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-04T03:25:51.512057+00:00",
+  "generated_at": "2026-09-04T07:30:59.439086+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -8,15 +8,79 @@
     "team_id": "pogon-szczecin"
   },
   "method": "observed-from-raw",
-  "files_seen": 29,
+  "files_seen": 93,
   "source_files": [
+    "espn/events.json",
+    "espn/injuries.json",
+    "espn/record.json",
+    "espn/schedule.json",
+    "espn/team.json",
+    "fotmob/all-competition-calendar.json",
     "fotmob/league.json",
+    "fotmob/liveticker/5803943.json",
+    "fotmob/liveticker/5803974.json",
+    "fotmob/liveticker/5803979.json",
+    "fotmob/liveticker/5803991.json",
+    "fotmob/liveticker/5803999.json",
+    "fotmob/liveticker/5804005.json",
+    "fotmob/liveticker/5804018.json",
+    "fotmob/liveticker/5804027.json",
+    "fotmob/liveticker/5804038.json",
+    "fotmob/liveticker/5804043.json",
+    "fotmob/liveticker/5804052.json",
+    "fotmob/liveticker/5804062.json",
+    "fotmob/liveticker/5804070.json",
+    "fotmob/liveticker/5804079.json",
+    "fotmob/liveticker/5804088.json",
+    "fotmob/liveticker/5804097.json",
+    "fotmob/liveticker/5804109.json",
+    "fotmob/liveticker/5804118.json",
+    "fotmob/liveticker/5804128.json",
+    "fotmob/liveticker/5804138.json",
+    "fotmob/liveticker/5804142.json",
+    "fotmob/liveticker/5804150.json",
+    "fotmob/liveticker/5804161.json",
+    "fotmob/liveticker/5804170.json",
+    "fotmob/liveticker/5804180.json",
+    "fotmob/liveticker/5804187.json",
+    "fotmob/liveticker/5804199.json",
+    "fotmob/liveticker/5804206.json",
+    "fotmob/liveticker/5804211.json",
     "fotmob/liveticker/5904696.json",
     "fotmob/matches/5803899.json",
     "fotmob/matches/5803923.json",
     "fotmob/matches/5803936.json",
+    "fotmob/matches/5803943.json",
     "fotmob/matches/5803955.json",
     "fotmob/matches/5803967.json",
+    "fotmob/matches/5803974.json",
+    "fotmob/matches/5803979.json",
+    "fotmob/matches/5803991.json",
+    "fotmob/matches/5803999.json",
+    "fotmob/matches/5804005.json",
+    "fotmob/matches/5804018.json",
+    "fotmob/matches/5804027.json",
+    "fotmob/matches/5804038.json",
+    "fotmob/matches/5804043.json",
+    "fotmob/matches/5804052.json",
+    "fotmob/matches/5804062.json",
+    "fotmob/matches/5804070.json",
+    "fotmob/matches/5804079.json",
+    "fotmob/matches/5804088.json",
+    "fotmob/matches/5804097.json",
+    "fotmob/matches/5804109.json",
+    "fotmob/matches/5804118.json",
+    "fotmob/matches/5804128.json",
+    "fotmob/matches/5804138.json",
+    "fotmob/matches/5804142.json",
+    "fotmob/matches/5804150.json",
+    "fotmob/matches/5804161.json",
+    "fotmob/matches/5804170.json",
+    "fotmob/matches/5804180.json",
+    "fotmob/matches/5804187.json",
+    "fotmob/matches/5804199.json",
+    "fotmob/matches/5804206.json",
+    "fotmob/matches/5804211.json",
     "fotmob/matches/5904696.json",
     "fotmob/players/0.json",
     "fotmob/players/1078936.json",
@@ -44,14 +108,15 @@
     {
       "path": "$",
       "types": {
-        "object": 26,
-        "null": 3
+        "object": 61,
+        "null": 32
       },
-      "occurrences": 29,
+      "occurrences": 93,
       "sources": [
+        "espn",
         "fotmob"
       ],
-      "file_count": 29,
+      "file_count": 93,
       "example": "None"
     },
     {
@@ -1798,13 +1863,13 @@
     {
       "path": "$.content",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
@@ -2134,314 +2199,314 @@
     {
       "path": "$.content.buzz",
       "types": {
-        "null": 6
+        "null": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "None"
     },
     {
       "path": "$.content.h2h",
       "types": {
-        "object": 5,
-        "boolean": 1
+        "object": 12,
+        "boolean": 23
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "False"
     },
     {
       "path": "$.content.h2h.matches",
       "types": {
-        "array": 5
+        "array": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.content.h2h.matches[]",
       "types": {
-        "object": 5
+        "object": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.content.h2h.matches[].away",
       "types": {
-        "object": 5
+        "object": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.content.h2h.matches[].away.id",
       "types": {
-        "string": 5
+        "string": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": "8023"
     },
     {
       "path": "$.content.h2h.matches[].away.name",
       "types": {
-        "string": 5
+        "string": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": "Pogoń Szczecin"
     },
     {
       "path": "$.content.h2h.matches[].finished",
       "types": {
-        "boolean": 5
+        "boolean": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": "False"
     },
     {
       "path": "$.content.h2h.matches[].home",
       "types": {
-        "object": 5
+        "object": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.content.h2h.matches[].home.id",
       "types": {
-        "string": 5
+        "string": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": "8673"
     },
     {
       "path": "$.content.h2h.matches[].home.name",
       "types": {
-        "string": 5
+        "string": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": "Legia Warszawa"
     },
     {
       "path": "$.content.h2h.matches[].league",
       "types": {
-        "object": 5
+        "object": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.content.h2h.matches[].league.id",
       "types": {
-        "string": 5
+        "string": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": "196"
     },
     {
       "path": "$.content.h2h.matches[].league.name",
       "types": {
-        "string": 5
+        "string": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": "Ekstraklasa"
     },
     {
       "path": "$.content.h2h.matches[].league.pageUrl",
       "types": {
-        "string": 5
+        "string": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": "/leagues/196/overview/ekstraklasa"
     },
     {
       "path": "$.content.h2h.matches[].matchUrl",
       "types": {
-        "string": 5
+        "string": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": "/matches/pogon-szczecin-vs-legia-warszawa/2azq1p#5804070"
     },
     {
       "path": "$.content.h2h.matches[].status",
       "types": {
-        "object": 5
+        "object": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.content.h2h.matches[].status.cancelled",
       "types": {
-        "boolean": 5
+        "boolean": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": "False"
     },
     {
       "path": "$.content.h2h.matches[].status.finished",
       "types": {
-        "boolean": 5
+        "boolean": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": "False"
     },
     {
       "path": "$.content.h2h.matches[].status.started",
       "types": {
-        "boolean": 5
+        "boolean": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": "False"
     },
     {
       "path": "$.content.h2h.matches[].status.utcTime",
       "types": {
-        "string": 5
+        "string": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": "2026-12-12T17:00:00.000Z"
     },
     {
       "path": "$.content.h2h.matches[].time",
       "types": {
-        "object": 5
+        "object": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.content.h2h.matches[].time.utcTime",
       "types": {
-        "string": 5
+        "string": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": "2026-12-12T17:00:00.000Z"
     },
     {
       "path": "$.content.h2h.summary",
       "types": {
-        "array": 5
+        "array": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.content.h2h.summary[]",
       "types": {
-        "integer": 5
+        "integer": 12
       },
-      "occurrences": 5,
+      "occurrences": 12,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 12,
       "example": "11"
     },
     {
       "path": "$.content.hasPlayoff",
       "types": {
-        "boolean": 6
+        "boolean": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "False"
     },
     {
@@ -2459,41 +2524,66 @@
     {
       "path": "$.content.lineup",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.content.lineup.availableFilters",
       "types": {
-        "array": 6
+        "array": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.content.lineup.availableFilters[]",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "marketValue"
     },
     {
       "path": "$.content.lineup.awayTeam",
+      "types": {
+        "object": 35
+      },
+      "occurrences": 35,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 35,
+      "example": null
+    },
+    {
+      "path": "$.content.lineup.awayTeam.averageStarterAge",
+      "types": {
+        "number": 6,
+        "integer": 1
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "27.2"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.coach",
       "types": {
         "object": 6
       },
@@ -2505,164 +2595,19 @@
       "example": null
     },
     {
-      "path": "$.content.lineup.awayTeam.averageStarterAge",
+      "path": "$.content.lineup.awayTeam.coach.age",
       "types": {
-        "number": 5,
-        "integer": 1
+        "integer": 6
       },
       "occurrences": 6,
       "sources": [
         "fotmob"
       ],
       "file_count": 6,
-      "example": "27.2"
-    },
-    {
-      "path": "$.content.lineup.awayTeam.coach",
-      "types": {
-        "object": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": null
-    },
-    {
-      "path": "$.content.lineup.awayTeam.coach.age",
-      "types": {
-        "integer": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
       "example": "51"
     },
     {
       "path": "$.content.lineup.awayTeam.coach.countryCode",
-      "types": {
-        "string": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "POL"
-    },
-    {
-      "path": "$.content.lineup.awayTeam.coach.countryName",
-      "types": {
-        "string": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "Poland"
-    },
-    {
-      "path": "$.content.lineup.awayTeam.coach.firstName",
-      "types": {
-        "string": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "Marek"
-    },
-    {
-      "path": "$.content.lineup.awayTeam.coach.id",
-      "types": {
-        "integer": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "1070818"
-    },
-    {
-      "path": "$.content.lineup.awayTeam.coach.isCoach",
-      "types": {
-        "boolean": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "True"
-    },
-    {
-      "path": "$.content.lineup.awayTeam.coach.lastName",
-      "types": {
-        "string": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "Papszun"
-    },
-    {
-      "path": "$.content.lineup.awayTeam.coach.name",
-      "types": {
-        "string": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "Marek Papszun"
-    },
-    {
-      "path": "$.content.lineup.awayTeam.coach.primaryTeamId",
-      "types": {
-        "integer": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "8673"
-    },
-    {
-      "path": "$.content.lineup.awayTeam.coach.primaryTeamName",
-      "types": {
-        "string": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "Legia Warszawa"
-    },
-    {
-      "path": "$.content.lineup.awayTeam.coach.usualPlayingPositionId",
-      "types": {
-        "null": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "None"
-    },
-    {
-      "path": "$.content.lineup.awayTeam.formation",
       "types": {
         "string": 6
       },
@@ -2671,10 +2616,82 @@
         "fotmob"
       ],
       "file_count": 6,
-      "example": "3-5-2"
+      "example": "POL"
     },
     {
-      "path": "$.content.lineup.awayTeam.id",
+      "path": "$.content.lineup.awayTeam.coach.countryName",
+      "types": {
+        "string": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "Poland"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.coach.firstName",
+      "types": {
+        "string": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "Marek"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.coach.id",
+      "types": {
+        "integer": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "1070818"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.coach.isCoach",
+      "types": {
+        "boolean": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "True"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.coach.lastName",
+      "types": {
+        "string": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "Papszun"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.coach.name",
+      "types": {
+        "string": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "Marek Papszun"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.coach.primaryTeamId",
       "types": {
         "integer": 6
       },
@@ -2686,7 +2703,7 @@
       "example": "8673"
     },
     {
-      "path": "$.content.lineup.awayTeam.name",
+      "path": "$.content.lineup.awayTeam.coach.primaryTeamName",
       "types": {
         "string": 6
       },
@@ -2695,6 +2712,162 @@
         "fotmob"
       ],
       "file_count": 6,
+      "example": "Legia Warszawa"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.coach.usualPlayingPositionId",
+      "types": {
+        "null": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "None"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.formation",
+      "types": {
+        "string": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "3-5-2"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.id",
+      "types": {
+        "integer": 35
+      },
+      "occurrences": 35,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 35,
+      "example": "8673"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.lastMatch",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.content.lineup.awayTeam.lastMatch.awayScore",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "2"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.lastMatch.awayTeamId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "8245"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.lastMatch.awayTeamName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Korona Kielce"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.lastMatch.homeScore",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "0"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.lastMatch.homeTeamId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "8243"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.lastMatch.homeTeamName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Wisła Płock"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.lastMatch.matchDate",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "2026-08-28T18:00:00"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.lastMatch.matchId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "5803966"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.name",
+      "types": {
+        "string": 35
+      },
+      "occurrences": 35,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 35,
       "example": "Legia Warszawa"
     },
     {
@@ -2712,181 +2885,181 @@
     {
       "path": "$.content.lineup.awayTeam.starters",
       "types": {
-        "array": 6
+        "array": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": null
     },
     {
       "path": "$.content.lineup.awayTeam.starters[]",
       "types": {
-        "object": 6
+        "object": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": null
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].age",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "23"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].countryCode",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "ROU"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].countryName",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "Romania"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].firstName",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "Ottó"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].horizontalLayout",
       "types": {
-        "object": 6
+        "object": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": null
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].horizontalLayout.height",
       "types": {
-        "number": 6
+        "number": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "0.195"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].horizontalLayout.width",
       "types": {
-        "number": 6
+        "number": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "0.2"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].horizontalLayout.x",
       "types": {
-        "number": 6
+        "number": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "0.1"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].horizontalLayout.y",
       "types": {
-        "number": 6
+        "number": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "0.5"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].id",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "1159532"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].lastName",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "Hindrich"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].marketValue",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "1051172"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].name",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "Ottó Hindrich"
     },
     {
@@ -2976,185 +3149,209 @@
     {
       "path": "$.content.lineup.awayTeam.starters[].positionId",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "11"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].rankings",
       "types": {
-        "null": 6
+        "null": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "None"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].shirtNumber",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "89"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].usualPlayingPositionId",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "0"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].verticalLayout",
       "types": {
-        "object": 6
+        "object": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": null
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].verticalLayout.height",
       "types": {
-        "number": 6
+        "number": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "0.2"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].verticalLayout.width",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "1"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].verticalLayout.x",
       "types": {
-        "number": 6
+        "number": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "0.5"
     },
     {
       "path": "$.content.lineup.awayTeam.starters[].verticalLayout.y",
       "types": {
-        "number": 6
+        "number": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "0.1"
     },
     {
       "path": "$.content.lineup.awayTeam.subs",
       "types": {
-        "array": 6
+        "array": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": null
     },
     {
       "path": "$.content.lineup.awayTeam.subs[]",
       "types": {
-        "object": 6
+        "object": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": null
     },
     {
       "path": "$.content.lineup.awayTeam.subs[].age",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "19"
     },
     {
       "path": "$.content.lineup.awayTeam.subs[].countryCode",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "POL"
     },
     {
       "path": "$.content.lineup.awayTeam.subs[].countryName",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "Poland"
     },
     {
       "path": "$.content.lineup.awayTeam.subs[].firstName",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "Jakub"
     },
     {
       "path": "$.content.lineup.awayTeam.subs[].id",
+      "types": {
+        "integer": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "1660227"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.subs[].lastName",
+      "types": {
+        "string": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "Zewlakow"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.subs[].marketValue",
       "types": {
         "integer": 6
       },
@@ -3163,42 +3360,18 @@
         "fotmob"
       ],
       "file_count": 6,
-      "example": "1660227"
-    },
-    {
-      "path": "$.content.lineup.awayTeam.subs[].lastName",
-      "types": {
-        "string": 6
-      },
-      "occurrences": 6,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 6,
-      "example": "Zewlakow"
-    },
-    {
-      "path": "$.content.lineup.awayTeam.subs[].marketValue",
-      "types": {
-        "integer": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
       "example": "710588"
     },
     {
       "path": "$.content.lineup.awayTeam.subs[].name",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "Jakub Zewlakow"
     },
     {
@@ -3324,221 +3497,258 @@
     {
       "path": "$.content.lineup.awayTeam.subs[].rankings",
       "types": {
-        "null": 6
+        "null": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "None"
     },
     {
       "path": "$.content.lineup.awayTeam.subs[].shirtNumber",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "20"
     },
     {
       "path": "$.content.lineup.awayTeam.subs[].usualPlayingPositionId",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "3"
     },
     {
       "path": "$.content.lineup.awayTeam.totalStarterMarketValue",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "8079928"
     },
     {
       "path": "$.content.lineup.awayTeam.unavailable",
       "types": {
-        "array": 1
+        "array": 30
       },
-      "occurrences": 1,
+      "occurrences": 30,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
+      "file_count": 30,
       "example": null
     },
     {
       "path": "$.content.lineup.awayTeam.unavailable[]",
       "types": {
-        "object": 1
+        "object": 29
       },
-      "occurrences": 1,
+      "occurrences": 29,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
+      "file_count": 29,
       "example": null
     },
     {
       "path": "$.content.lineup.awayTeam.unavailable[].age",
       "types": {
-        "integer": 1
+        "integer": 2
       },
-      "occurrences": 1,
+      "occurrences": 2,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
-      "example": "23"
+      "file_count": 2,
+      "example": "35"
     },
     {
       "path": "$.content.lineup.awayTeam.unavailable[].countryCode",
       "types": {
-        "string": 1
+        "string": 2
       },
-      "occurrences": 1,
+      "occurrences": 2,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
-      "example": "HUN"
+      "file_count": 2,
+      "example": "ESP"
     },
     {
       "path": "$.content.lineup.awayTeam.unavailable[].countryName",
       "types": {
-        "string": 1
+        "string": 2
       },
-      "occurrences": 1,
+      "occurrences": 2,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
-      "example": "Hungary"
+      "file_count": 2,
+      "example": "Spain"
     },
     {
       "path": "$.content.lineup.awayTeam.unavailable[].firstName",
       "types": {
-        "string": 1
+        "string": 29
       },
-      "occurrences": 1,
+      "occurrences": 29,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
-      "example": "Rajmund"
+      "file_count": 29,
+      "example": "Nikolaos"
     },
     {
       "path": "$.content.lineup.awayTeam.unavailable[].id",
       "types": {
-        "integer": 1
+        "integer": 29
       },
-      "occurrences": 1,
+      "occurrences": 29,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
-      "example": "1050169"
+      "file_count": 29,
+      "example": "1410436"
     },
     {
       "path": "$.content.lineup.awayTeam.unavailable[].lastName",
       "types": {
-        "string": 1
+        "string": 29
       },
-      "occurrences": 1,
+      "occurrences": 29,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
-      "example": "Molnár"
+      "file_count": 29,
+      "example": "Botis"
     },
     {
       "path": "$.content.lineup.awayTeam.unavailable[].marketValue",
       "types": {
-        "integer": 1
+        "integer": 2
       },
-      "occurrences": 1,
+      "occurrences": 2,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
-      "example": "1107810"
+      "file_count": 2,
+      "example": "139464"
     },
     {
       "path": "$.content.lineup.awayTeam.unavailable[].name",
       "types": {
-        "string": 1
+        "string": 29
       },
-      "occurrences": 1,
+      "occurrences": 29,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
-      "example": "Rajmund Molnár"
+      "file_count": 29,
+      "example": "Nikolaos Botis"
     },
     {
       "path": "$.content.lineup.awayTeam.unavailable[].unavailability",
       "types": {
-        "object": 1
+        "object": 29
       },
-      "occurrences": 1,
+      "occurrences": 29,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
+      "file_count": 29,
       "example": null
     },
     {
       "path": "$.content.lineup.awayTeam.unavailable[].unavailability.expectedReturn",
       "types": {
-        "string": 1
+        "string": 29
       },
-      "occurrences": 1,
+      "occurrences": 29,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
-      "example": "Late September 2026"
+      "file_count": 29,
+      "example": "Doubtful"
     },
     {
       "path": "$.content.lineup.awayTeam.unavailable[].unavailability.injuryId",
       "types": {
-        "integer": 1
+        "integer": 29
       },
-      "occurrences": 1,
+      "occurrences": 29,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
-      "example": "76"
+      "file_count": 29,
+      "example": "87"
+    },
+    {
+      "path": "$.content.lineup.awayTeam.unavailable[].unavailability.lastUpdated",
+      "types": {
+        "string": 27
+      },
+      "occurrences": 27,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 27,
+      "example": "2026-08-31T22:14:31Z"
     },
     {
       "path": "$.content.lineup.awayTeam.unavailable[].unavailability.type",
       "types": {
-        "string": 1
+        "string": 29
       },
-      "occurrences": 1,
+      "occurrences": 29,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
+      "file_count": 29,
       "example": "injury"
     },
     {
       "path": "$.content.lineup.homeTeam",
+      "types": {
+        "object": 35
+      },
+      "occurrences": 35,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 35,
+      "example": null
+    },
+    {
+      "path": "$.content.lineup.homeTeam.averageStarterAge",
+      "types": {
+        "integer": 1,
+        "number": 6
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "27"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.coach",
       "types": {
         "object": 6
       },
@@ -3550,164 +3760,19 @@
       "example": null
     },
     {
-      "path": "$.content.lineup.homeTeam.averageStarterAge",
+      "path": "$.content.lineup.homeTeam.coach.age",
       "types": {
-        "integer": 1,
-        "number": 5
+        "integer": 6
       },
       "occurrences": 6,
       "sources": [
         "fotmob"
       ],
       "file_count": 6,
-      "example": "27"
-    },
-    {
-      "path": "$.content.lineup.homeTeam.coach",
-      "types": {
-        "object": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": null
-    },
-    {
-      "path": "$.content.lineup.homeTeam.coach.age",
-      "types": {
-        "integer": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
       "example": "53"
     },
     {
       "path": "$.content.lineup.homeTeam.coach.countryCode",
-      "types": {
-        "string": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "ESP"
-    },
-    {
-      "path": "$.content.lineup.homeTeam.coach.countryName",
-      "types": {
-        "string": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "Spain"
-    },
-    {
-      "path": "$.content.lineup.homeTeam.coach.firstName",
-      "types": {
-        "string": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "Óscar"
-    },
-    {
-      "path": "$.content.lineup.homeTeam.coach.id",
-      "types": {
-        "integer": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "2744"
-    },
-    {
-      "path": "$.content.lineup.homeTeam.coach.isCoach",
-      "types": {
-        "boolean": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "True"
-    },
-    {
-      "path": "$.content.lineup.homeTeam.coach.lastName",
-      "types": {
-        "string": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "García"
-    },
-    {
-      "path": "$.content.lineup.homeTeam.coach.name",
-      "types": {
-        "string": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "Óscar García"
-    },
-    {
-      "path": "$.content.lineup.homeTeam.coach.primaryTeamId",
-      "types": {
-        "integer": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "8023"
-    },
-    {
-      "path": "$.content.lineup.homeTeam.coach.primaryTeamName",
-      "types": {
-        "string": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "Pogoń Szczecin"
-    },
-    {
-      "path": "$.content.lineup.homeTeam.coach.usualPlayingPositionId",
-      "types": {
-        "null": 5
-      },
-      "occurrences": 5,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 5,
-      "example": "None"
-    },
-    {
-      "path": "$.content.lineup.homeTeam.formation",
       "types": {
         "string": 6
       },
@@ -3716,10 +3781,82 @@
         "fotmob"
       ],
       "file_count": 6,
-      "example": "4-3-3"
+      "example": "ESP"
     },
     {
-      "path": "$.content.lineup.homeTeam.id",
+      "path": "$.content.lineup.homeTeam.coach.countryName",
+      "types": {
+        "string": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "Spain"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.coach.firstName",
+      "types": {
+        "string": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "Óscar"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.coach.id",
+      "types": {
+        "integer": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "2744"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.coach.isCoach",
+      "types": {
+        "boolean": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "True"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.coach.lastName",
+      "types": {
+        "string": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "García"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.coach.name",
+      "types": {
+        "string": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "Óscar García"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.coach.primaryTeamId",
       "types": {
         "integer": 6
       },
@@ -3731,7 +3868,7 @@
       "example": "8023"
     },
     {
-      "path": "$.content.lineup.homeTeam.name",
+      "path": "$.content.lineup.homeTeam.coach.primaryTeamName",
       "types": {
         "string": 6
       },
@@ -3740,6 +3877,162 @@
         "fotmob"
       ],
       "file_count": 6,
+      "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.coach.usualPlayingPositionId",
+      "types": {
+        "null": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "None"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.formation",
+      "types": {
+        "string": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 7,
+      "example": "4-3-3"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.id",
+      "types": {
+        "integer": 35
+      },
+      "occurrences": 35,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 35,
+      "example": "8023"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.lastMatch",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.content.lineup.homeTeam.lastMatch.awayScore",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "0"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.lastMatch.awayTeamId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "8023"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.lastMatch.awayTeamName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.lastMatch.homeScore",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "0"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.lastMatch.homeTeamId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "8021"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.lastMatch.homeTeamName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Zagłębie Lubin"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.lastMatch.matchDate",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "2026-08-29T20:15:00"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.lastMatch.matchId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "5803967"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.name",
+      "types": {
+        "string": 35
+      },
+      "occurrences": 35,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 35,
       "example": "Pogoń Szczecin"
     },
     {
@@ -3758,181 +4051,181 @@
     {
       "path": "$.content.lineup.homeTeam.starters",
       "types": {
-        "array": 6
+        "array": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": null
     },
     {
       "path": "$.content.lineup.homeTeam.starters[]",
       "types": {
-        "object": 6
+        "object": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": null
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].age",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "30"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].countryCode",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "ROU"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].countryName",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "Romania"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].firstName",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "Valentin"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].horizontalLayout",
       "types": {
-        "object": 6
+        "object": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": null
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].horizontalLayout.height",
       "types": {
-        "number": 6
+        "number": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "0.25"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].horizontalLayout.width",
       "types": {
-        "number": 6
+        "number": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "0.2"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].horizontalLayout.x",
       "types": {
-        "number": 6
+        "number": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "0.1"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].horizontalLayout.y",
       "types": {
-        "number": 6
+        "number": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "0.5"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].id",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "289211"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].lastName",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "Cojocaru"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].marketValue",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "407134"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].name",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "Valentin Cojocaru"
     },
     {
@@ -3974,205 +4267,205 @@
     {
       "path": "$.content.lineup.homeTeam.starters[].positionId",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "11"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].rankings",
       "types": {
-        "null": 6
+        "null": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "None"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].shirtNumber",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "77"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].usualPlayingPositionId",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "0"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].verticalLayout",
       "types": {
-        "object": 6
+        "object": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": null
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].verticalLayout.height",
       "types": {
-        "number": 6
+        "number": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "0.2"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].verticalLayout.width",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "1"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].verticalLayout.x",
       "types": {
-        "number": 6
+        "number": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "0.5"
     },
     {
       "path": "$.content.lineup.homeTeam.starters[].verticalLayout.y",
       "types": {
-        "number": 6
+        "number": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "0.1"
     },
     {
       "path": "$.content.lineup.homeTeam.subs",
       "types": {
-        "array": 6
+        "array": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": null
     },
     {
       "path": "$.content.lineup.homeTeam.subs[]",
       "types": {
-        "object": 6
+        "object": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": null
     },
     {
       "path": "$.content.lineup.homeTeam.subs[].age",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "34"
     },
     {
       "path": "$.content.lineup.homeTeam.subs[].countryCode",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "NOR"
     },
     {
       "path": "$.content.lineup.homeTeam.subs[].countryName",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "Norway"
     },
     {
       "path": "$.content.lineup.homeTeam.subs[].firstName",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "Fredrik"
     },
     {
       "path": "$.content.lineup.homeTeam.subs[].id",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "180283"
     },
     {
       "path": "$.content.lineup.homeTeam.subs[].lastName",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "Ulvestad"
     },
     {
@@ -4190,13 +4483,13 @@
     {
       "path": "$.content.lineup.homeTeam.subs[].name",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "Fredrik Ulvestad"
     },
     {
@@ -4323,222 +4616,198 @@
     {
       "path": "$.content.lineup.homeTeam.subs[].rankings",
       "types": {
-        "null": 6
+        "null": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "None"
     },
     {
       "path": "$.content.lineup.homeTeam.subs[].shirtNumber",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "8"
     },
     {
       "path": "$.content.lineup.homeTeam.subs[].usualPlayingPositionId",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "2"
     },
     {
       "path": "$.content.lineup.homeTeam.totalStarterMarketValue",
       "types": {
-        "integer": 6
+        "integer": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "7069174"
     },
     {
       "path": "$.content.lineup.homeTeam.unavailable",
       "types": {
-        "array": 2
+        "array": 31
       },
-      "occurrences": 2,
+      "occurrences": 31,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 31,
       "example": null
     },
     {
       "path": "$.content.lineup.homeTeam.unavailable[]",
       "types": {
-        "object": 2
+        "object": 30
       },
-      "occurrences": 2,
+      "occurrences": 30,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 30,
       "example": null
     },
     {
       "path": "$.content.lineup.homeTeam.unavailable[].age",
       "types": {
-        "integer": 2
+        "integer": 3
       },
-      "occurrences": 2,
+      "occurrences": 3,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 3,
       "example": "24"
     },
     {
       "path": "$.content.lineup.homeTeam.unavailable[].countryCode",
       "types": {
-        "string": 2
+        "string": 3
       },
-      "occurrences": 2,
+      "occurrences": 3,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 3,
       "example": "POL"
     },
     {
       "path": "$.content.lineup.homeTeam.unavailable[].countryName",
       "types": {
-        "string": 2
+        "string": 3
       },
-      "occurrences": 2,
+      "occurrences": 3,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 3,
       "example": "Poland"
     },
     {
       "path": "$.content.lineup.homeTeam.unavailable[].firstName",
       "types": {
-        "string": 2
+        "string": 30
       },
-      "occurrences": 2,
+      "occurrences": 30,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 30,
       "example": "Filip"
     },
     {
       "path": "$.content.lineup.homeTeam.unavailable[].id",
       "types": {
-        "integer": 2
+        "integer": 30
       },
-      "occurrences": 2,
+      "occurrences": 30,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 30,
       "example": "1003329"
     },
     {
       "path": "$.content.lineup.homeTeam.unavailable[].lastName",
       "types": {
-        "string": 2
+        "string": 30
       },
-      "occurrences": 2,
+      "occurrences": 30,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 30,
       "example": "Marchwinski"
     },
     {
       "path": "$.content.lineup.homeTeam.unavailable[].marketValue",
       "types": {
-        "integer": 2
+        "integer": 3
       },
-      "occurrences": 2,
+      "occurrences": 3,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 3,
       "example": "1627300"
     },
     {
       "path": "$.content.lineup.homeTeam.unavailable[].name",
       "types": {
-        "string": 2
+        "string": 30
       },
-      "occurrences": 2,
+      "occurrences": 30,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 30,
       "example": "Filip Marchwinski"
     },
     {
       "path": "$.content.lineup.homeTeam.unavailable[].unavailability",
       "types": {
-        "object": 2
+        "object": 30
       },
-      "occurrences": 2,
+      "occurrences": 30,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 30,
       "example": null
     },
     {
       "path": "$.content.lineup.homeTeam.unavailable[].unavailability.expectedReturn",
       "types": {
-        "string": 2
+        "string": 30
       },
-      "occurrences": 2,
+      "occurrences": 30,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 30,
       "example": "Out for season"
     },
     {
       "path": "$.content.lineup.homeTeam.unavailable[].unavailability.expectedReturnDate",
       "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "2027-05-01T00:00:00Z"
-    },
-    {
-      "path": "$.content.lineup.homeTeam.unavailable[].unavailability.injuryId",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "76"
-    },
-    {
-      "path": "$.content.lineup.homeTeam.unavailable[].unavailability.type",
-      "types": {
         "string": 2
       },
       "occurrences": 2,
@@ -4546,55 +4815,92 @@
         "fotmob"
       ],
       "file_count": 2,
+      "example": "2026-09-07T20:30:00Z"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.unavailable[].unavailability.injuryId",
+      "types": {
+        "integer": 28
+      },
+      "occurrences": 28,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 28,
+      "example": "76"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.unavailable[].unavailability.lastUpdated",
+      "types": {
+        "string": 27
+      },
+      "occurrences": 27,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 27,
+      "example": "2026-09-02T17:57:41Z"
+    },
+    {
+      "path": "$.content.lineup.homeTeam.unavailable[].unavailability.type",
+      "types": {
+        "string": 30
+      },
+      "occurrences": 30,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 30,
       "example": "injury"
     },
     {
       "path": "$.content.lineup.lineupType",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "standard"
     },
     {
       "path": "$.content.lineup.matchId",
       "types": {
-        "integer": 6
+        "integer": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "5803899"
     },
     {
       "path": "$.content.lineup.source",
       "types": {
-        "string": 6
+        "string": 7
       },
-      "occurrences": 6,
+      "occurrences": 7,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 7,
       "example": "enetpulse"
     },
     {
       "path": "$.content.liveticker",
       "types": {
-        "object": 6
+        "object": 6,
+        "boolean": 29
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
-      "example": null
+      "file_count": 35,
+      "example": "False"
     },
     {
       "path": "$.content.liveticker.langs",
@@ -4635,25 +4941,25 @@
     {
       "path": "$.content.matchFacts",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.content.matchFacts.QAData",
       "types": {
-        "array": 6
+        "array": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
@@ -4695,61 +5001,61 @@
     {
       "path": "$.content.matchFacts.countryCode",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "POL"
     },
     {
       "path": "$.content.matchFacts.events",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.content.matchFacts.events.eventTypes",
       "types": {
-        "array": 6
+        "array": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.content.matchFacts.events.eventTypes[]",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Card"
     },
     {
       "path": "$.content.matchFacts.events.events",
       "types": {
-        "array": 6
+        "array": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
@@ -5610,38 +5916,39 @@
     {
       "path": "$.content.matchFacts.events.ongoing",
       "types": {
-        "boolean": 6
+        "boolean": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "False"
     },
     {
       "path": "$.content.matchFacts.events.penaltyShootoutEvents",
       "types": {
-        "null": 6
+        "null": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "None"
     },
     {
       "path": "$.content.matchFacts.highlights",
       "types": {
-        "object": 6
+        "object": 6,
+        "null": 29
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
-      "example": null
+      "file_count": 35,
+      "example": "None"
     },
     {
       "path": "$.content.matchFacts.highlights.image",
@@ -5682,604 +5989,616 @@
     {
       "path": "$.content.matchFacts.infoBox",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.content.matchFacts.infoBox.Attendance",
       "types": {
         "integer": 5,
-        "null": 1
+        "null": 30
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "20757"
     },
     {
       "path": "$.content.matchFacts.infoBox.Match Date",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.content.matchFacts.infoBox.Match Date.isDateCorrect",
       "types": {
-        "boolean": 6
+        "boolean": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
+      "example": "True"
+    },
+    {
+      "path": "$.content.matchFacts.infoBox.Match Date.matchDateTbd",
+      "types": {
+        "boolean": 24
+      },
+      "occurrences": 24,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 24,
       "example": "True"
     },
     {
       "path": "$.content.matchFacts.infoBox.Match Date.utcTime",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "2026-07-24T18:30:00.000Z"
     },
     {
       "path": "$.content.matchFacts.infoBox.Referee",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.content.matchFacts.infoBox.Referee.country",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Poland"
     },
     {
       "path": "$.content.matchFacts.infoBox.Referee.countryCode",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "POL"
     },
     {
       "path": "$.content.matchFacts.infoBox.Referee.id",
       "types": {
-        "integer": 2
+        "integer": 3
       },
-      "occurrences": 2,
+      "occurrences": 3,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 3,
       "example": "1001070538"
     },
     {
       "path": "$.content.matchFacts.infoBox.Referee.imgUrl",
       "types": {
-        "string": 5
+        "string": 6
       },
-      "occurrences": 5,
+      "occurrences": 6,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 6,
       "example": "https://images.fotmob.com/image_resources/logo/teamlogo/pol.png"
     },
     {
       "path": "$.content.matchFacts.infoBox.Referee.leagueId",
       "types": {
-        "integer": 2
+        "integer": 3
       },
-      "occurrences": 2,
+      "occurrences": 3,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 3,
       "example": "196"
     },
     {
       "path": "$.content.matchFacts.infoBox.Referee.leagueName",
       "types": {
-        "string": 2
+        "string": 3
       },
-      "occurrences": 2,
+      "occurrences": 3,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 3,
       "example": "Ekstraklasa"
     },
     {
       "path": "$.content.matchFacts.infoBox.Referee.stats",
       "types": {
-        "array": 2
+        "array": 3
       },
-      "occurrences": 2,
+      "occurrences": 3,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 3,
       "example": null
     },
     {
       "path": "$.content.matchFacts.infoBox.Referee.stats[]",
       "types": {
-        "object": 2
+        "object": 3
       },
-      "occurrences": 2,
+      "occurrences": 3,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 3,
       "example": null
     },
     {
       "path": "$.content.matchFacts.infoBox.Referee.stats[].type",
       "types": {
-        "string": 2
+        "string": 3
       },
-      "occurrences": 2,
+      "occurrences": 3,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 3,
       "example": "matches"
     },
     {
       "path": "$.content.matchFacts.infoBox.Referee.stats[].value",
       "types": {
-        "integer": 2
+        "integer": 3
       },
-      "occurrences": 2,
+      "occurrences": 3,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 3,
       "example": "31"
     },
     {
       "path": "$.content.matchFacts.infoBox.Referee.stats[].valueType",
       "types": {
-        "string": 2
+        "string": 3
       },
-      "occurrences": 2,
+      "occurrences": 3,
       "sources": [
         "fotmob"
       ],
-      "file_count": 2,
+      "file_count": 3,
       "example": "total"
     },
     {
       "path": "$.content.matchFacts.infoBox.Referee.text",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Bartosz Frankowski"
     },
     {
       "path": "$.content.matchFacts.infoBox.Stadium",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.content.matchFacts.infoBox.Stadium.capacity",
       "types": {
-        "integer": 6
+        "integer": 11
       },
-      "occurrences": 6,
+      "occurrences": 11,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 11,
       "example": "21163"
     },
     {
       "path": "$.content.matchFacts.infoBox.Stadium.city",
       "types": {
-        "string": 6
+        "string": 11
       },
-      "occurrences": 6,
+      "occurrences": 11,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 11,
       "example": "Szczecin"
     },
     {
       "path": "$.content.matchFacts.infoBox.Stadium.country",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Poland"
     },
     {
       "path": "$.content.matchFacts.infoBox.Stadium.lat",
       "types": {
-        "number": 6
+        "number": 11
       },
-      "occurrences": 6,
+      "occurrences": 11,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 11,
       "example": "53.43650687"
     },
     {
       "path": "$.content.matchFacts.infoBox.Stadium.long",
       "types": {
-        "number": 6
+        "number": 11
       },
-      "occurrences": 6,
+      "occurrences": 11,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 11,
       "example": "14.518775974"
     },
     {
       "path": "$.content.matchFacts.infoBox.Stadium.name",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Stadion Miejski im. Floriana Krygiera"
     },
     {
       "path": "$.content.matchFacts.infoBox.Stadium.surface",
       "types": {
-        "string": 6
+        "string": 11
       },
-      "occurrences": 6,
+      "occurrences": 11,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 11,
       "example": "grass"
     },
     {
       "path": "$.content.matchFacts.infoBox.Tournament",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.content.matchFacts.infoBox.Tournament.id",
       "types": {
-        "integer": 6
+        "integer": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "937879"
     },
     {
       "path": "$.content.matchFacts.infoBox.Tournament.leagueName",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Ekstraklasa"
     },
     {
       "path": "$.content.matchFacts.infoBox.Tournament.link",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "/leagues/196/overview/ekstraklasa"
     },
     {
       "path": "$.content.matchFacts.infoBox.Tournament.parentLeagueId",
       "types": {
-        "integer": 6
+        "integer": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "196"
     },
     {
       "path": "$.content.matchFacts.infoBox.Tournament.round",
       "types": {
-        "string": 5,
+        "string": 34,
         "null": 1
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "1"
     },
     {
       "path": "$.content.matchFacts.infoBox.Tournament.roundName",
       "types": {
-        "string": 5,
+        "string": 34,
         "null": 1
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "1"
     },
     {
       "path": "$.content.matchFacts.infoBox.legInfo",
       "types": {
-        "null": 6
+        "null": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "None"
     },
     {
       "path": "$.content.matchFacts.insights",
       "types": {
-        "array": 5
+        "array": 8
       },
-      "occurrences": 5,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 8,
       "example": null
     },
     {
       "path": "$.content.matchFacts.insights[]",
       "types": {
-        "object": 5
+        "object": 8
       },
-      "occurrences": 5,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 8,
       "example": null
     },
     {
       "path": "$.content.matchFacts.insights[].color",
       "types": {
-        "string": 5
+        "string": 8
       },
-      "occurrences": 5,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 8,
       "example": "#102457"
     },
     {
       "path": "$.content.matchFacts.insights[].defaultText",
       "types": {
-        "string": 5
+        "string": 8
       },
-      "occurrences": 5,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 8,
       "example": "Have scored {0} goals in their last {1} matches"
     },
     {
       "path": "$.content.matchFacts.insights[].localizedTextId",
       "types": {
-        "string": 5
+        "string": 8
       },
-      "occurrences": 5,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 8,
       "example": "insights_goals_team"
     },
     {
       "path": "$.content.matchFacts.insights[].playerId",
       "types": {
-        "null": 5
+        "null": 8
       },
-      "occurrences": 5,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 8,
       "example": "None"
     },
     {
       "path": "$.content.matchFacts.insights[].priority",
       "types": {
-        "integer": 5
+        "integer": 8
       },
-      "occurrences": 5,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 8,
       "example": "1338"
     },
     {
       "path": "$.content.matchFacts.insights[].statValues",
       "types": {
-        "array": 5
+        "array": 8
       },
-      "occurrences": 5,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 8,
       "example": null
     },
     {
       "path": "$.content.matchFacts.insights[].statValues[]",
       "types": {
-        "object": 5
+        "object": 8
       },
-      "occurrences": 5,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 8,
       "example": null
     },
     {
       "path": "$.content.matchFacts.insights[].statValues[].name",
       "types": {
-        "null": 5
+        "null": 8
       },
-      "occurrences": 5,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 8,
       "example": "None"
     },
     {
       "path": "$.content.matchFacts.insights[].statValues[].type",
       "types": {
-        "string": 5
+        "string": 8
       },
-      "occurrences": 5,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 8,
       "example": "integer"
     },
     {
       "path": "$.content.matchFacts.insights[].statValues[].value",
       "types": {
-        "integer": 5
+        "integer": 8
       },
-      "occurrences": 5,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 8,
       "example": "7"
     },
     {
       "path": "$.content.matchFacts.insights[].teamId",
       "types": {
-        "integer": 5
+        "integer": 8
       },
-      "occurrences": 5,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 8,
       "example": "8023"
     },
     {
       "path": "$.content.matchFacts.insights[].text",
       "types": {
-        "string": 5
+        "string": 8
       },
-      "occurrences": 5,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 8,
       "example": "Have scored 7 goals in their last 5 matches"
     },
     {
       "path": "$.content.matchFacts.insights[].type",
       "types": {
-        "string": 5
+        "string": 8
       },
-      "occurrences": 5,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 8,
       "example": "team"
     },
     {
       "path": "$.content.matchFacts.matchId",
       "types": {
-        "integer": 6
+        "integer": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "5803899"
     },
     {
@@ -6381,13 +6700,13 @@
     {
       "path": "$.content.matchFacts.playerOfTheMatch",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
@@ -8101,637 +8420,638 @@
     {
       "path": "$.content.matchFacts.poll",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll",
       "types": {
-        "object": 6
+        "object": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": null
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.AwayTeam",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "Legia Warszawa"
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.AwayTeamId",
       "types": {
-        "integer": 6
+        "integer": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "8673"
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.Facts",
       "types": {
-        "array": 6
+        "array": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": null
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.Facts[]",
       "types": {
-        "object": 6
+        "object": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": null
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.Facts[].DefaultLabel",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "Who will win?"
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.Facts[].DefaultLabels",
       "types": {
-        "array": 6
+        "array": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": null
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.Facts[].DefaultLabels[]",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "1"
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.Facts[].DefaultTemplate",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "{0} have won their last {1} matches."
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.Facts[].Icon",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "poll_stat_up"
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.Facts[].LabelTemplates",
       "types": {
-        "array": 6
+        "array": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": null
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.Facts[].LabelTemplates[]",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "label_1"
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.Facts[].OddsType",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "1x2"
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.Facts[].StatValues",
       "types": {
-        "array": 6
+        "array": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": null
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.Facts[].StatValues[]",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "away_team"
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.Facts[].TextLabelId",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "who_will_win"
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.Facts[].TextTemplateId",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "good_form_team"
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.Facts[].defaultText",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "Legia Warszawa have won their last 4 matches."
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.HomeTeam",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "Pogoń Szczecin"
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.HomeTeamId",
       "types": {
-        "integer": 6
+        "integer": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "8023"
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.MatchId",
       "types": {
-        "integer": 6
+        "integer": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "5803899"
     },
     {
       "path": "$.content.matchFacts.poll.oddspoll.PollName",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "oddspoll-match-5803899"
     },
     {
       "path": "$.content.matchFacts.poll.renderToTop",
       "types": {
-        "boolean": 6
+        "boolean": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "False"
     },
     {
       "path": "$.content.matchFacts.teamForm",
       "types": {
-        "array": 6
+        "array": 8,
+        "null": 27
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
-      "example": null
+      "file_count": 35,
+      "example": "None"
     },
     {
       "path": "$.content.matchFacts.teamForm[]",
       "types": {
-        "array": 6
+        "array": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": null
     },
     {
       "path": "$.content.matchFacts.teamForm[][]",
       "types": {
-        "object": 6
+        "object": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": null
     },
     {
       "path": "$.content.matchFacts.teamForm[][].away",
       "types": {
-        "object": 6
+        "object": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": null
     },
     {
       "path": "$.content.matchFacts.teamForm[][].away.id",
       "types": {
-        "string": 6
+        "string": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "8243"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].away.isOurTeam",
       "types": {
-        "boolean": 6
+        "boolean": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "False"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].away.name",
       "types": {
-        "string": 6
+        "string": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "Wisła Płock"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].date",
       "types": {
-        "object": 6
+        "object": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": null
     },
     {
       "path": "$.content.matchFacts.teamForm[][].date.utcTime",
       "types": {
-        "string": 6
+        "string": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "2026-05-03T15:30:00.000Z"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].home",
       "types": {
-        "object": 6
+        "object": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": null
     },
     {
       "path": "$.content.matchFacts.teamForm[][].home.id",
       "types": {
-        "string": 6
+        "string": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "8023"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].home.isOurTeam",
       "types": {
-        "boolean": 6
+        "boolean": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "True"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].home.name",
       "types": {
-        "string": 6
+        "string": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "Pogoń Szczecin"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].imageUrl",
       "types": {
-        "string": 6
+        "string": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "https://images.fotmob.com/image_resources/logo/teamlogo/8243_xsmall.png"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].linkToMatch",
       "types": {
-        "string": 6
+        "string": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "/matches/pogon-szczecin-vs-wisa-pock/26rtbe#4803694"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].result",
       "types": {
-        "integer": 6
+        "integer": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "1"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].resultString",
       "types": {
-        "string": 6
+        "string": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "W"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].score",
       "types": {
-        "string": 6
+        "string": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "3 - 0"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].teamPageUrl",
       "types": {
-        "string": 6
+        "string": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "/teams/8243/overview/wisa-pock"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].tooltipText",
       "types": {
-        "object": 6
+        "object": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": null
     },
     {
       "path": "$.content.matchFacts.teamForm[][].tooltipText.awayScore",
       "types": {
-        "string": 6
+        "string": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "0"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].tooltipText.awayTeam",
       "types": {
-        "string": 6
+        "string": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "Wisła Płock"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].tooltipText.awayTeamId",
       "types": {
-        "integer": 6
+        "integer": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "8243"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].tooltipText.homeScore",
       "types": {
-        "string": 6
+        "string": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "3"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].tooltipText.homeTeam",
       "types": {
-        "string": 6
+        "string": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "Pogoń Szczecin"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].tooltipText.homeTeamId",
       "types": {
-        "integer": 6
+        "integer": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "8023"
     },
     {
       "path": "$.content.matchFacts.teamForm[][].tooltipText.utcTime",
       "types": {
-        "string": 6
+        "string": 8
       },
-      "occurrences": 6,
+      "occurrences": 8,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 8,
       "example": "2026-05-03T15:30:00.000Z"
     },
     {
       "path": "$.content.matchFacts.topPlayers",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.content.matchFacts.topPlayers.awayTopPlayers",
       "types": {
-        "array": 6
+        "array": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
@@ -8906,13 +9226,13 @@
     {
       "path": "$.content.matchFacts.topPlayers.homeTopPlayers",
       "types": {
-        "array": 6
+        "array": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
@@ -9087,460 +9407,460 @@
     {
       "path": "$.content.matchFacts.topScorers",
       "types": {
-        "object": 3
+        "object": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": null
     },
     {
       "path": "$.content.matchFacts.topScorers.awayPlayer",
       "types": {
-        "object": 3
+        "object": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": null
     },
     {
       "path": "$.content.matchFacts.topScorers.awayPlayer.fullName",
       "types": {
-        "string": 3
+        "string": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "Mbaye Ndiaye"
     },
     {
       "path": "$.content.matchFacts.topScorers.awayPlayer.lastName",
       "types": {
-        "string": 3
+        "string": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "Ndiaye"
     },
     {
       "path": "$.content.matchFacts.topScorers.awayPlayer.matchesWithRating",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "2"
     },
     {
       "path": "$.content.matchFacts.topScorers.awayPlayer.playerId",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "1643834"
     },
     {
       "path": "$.content.matchFacts.topScorers.awayPlayer.position",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "3"
     },
     {
       "path": "$.content.matchFacts.topScorers.awayPlayer.stats",
       "types": {
-        "object": 3
+        "object": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": null
     },
     {
       "path": "$.content.matchFacts.topScorers.awayPlayer.stats.expectedGoals",
       "types": {
-        "number": 3
+        "number": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "1.554800033569336"
     },
     {
       "path": "$.content.matchFacts.topScorers.awayPlayer.stats.gamesPlayed",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "2"
     },
     {
       "path": "$.content.matchFacts.topScorers.awayPlayer.stats.goalAssist",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "1"
     },
     {
       "path": "$.content.matchFacts.topScorers.awayPlayer.stats.goals",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "1"
     },
     {
       "path": "$.content.matchFacts.topScorers.awayPlayer.stats.minsPlayed",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "173"
     },
     {
       "path": "$.content.matchFacts.topScorers.awayPlayer.stats.minsPlayedGoal",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "173"
     },
     {
       "path": "$.content.matchFacts.topScorers.awayPlayer.stats.motm",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "0"
     },
     {
       "path": "$.content.matchFacts.topScorers.awayPlayer.stats.ontargetScoringAtt",
       "types": {
-        "integer": 2,
-        "number": 1
+        "integer": 3,
+        "number": 2
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "2"
     },
     {
       "path": "$.content.matchFacts.topScorers.awayPlayer.stats.playerRating",
       "types": {
-        "number": 3
+        "number": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "7.64"
     },
     {
       "path": "$.content.matchFacts.topScorers.homePlayer",
       "types": {
-        "object": 3
+        "object": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": null
     },
     {
       "path": "$.content.matchFacts.topScorers.homePlayer.fullName",
       "types": {
-        "string": 3
+        "string": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "Paul Mukairu"
     },
     {
       "path": "$.content.matchFacts.topScorers.homePlayer.lastName",
       "types": {
-        "string": 3
+        "string": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "Mukairu"
     },
     {
       "path": "$.content.matchFacts.topScorers.homePlayer.matchesWithRating",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "2"
     },
     {
       "path": "$.content.matchFacts.topScorers.homePlayer.playerId",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "1078936"
     },
     {
       "path": "$.content.matchFacts.topScorers.homePlayer.position",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "3"
     },
     {
       "path": "$.content.matchFacts.topScorers.homePlayer.stats",
       "types": {
-        "object": 3
+        "object": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": null
     },
     {
       "path": "$.content.matchFacts.topScorers.homePlayer.stats.expectedGoals",
       "types": {
-        "number": 3
+        "number": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "0.9247999787330627"
     },
     {
       "path": "$.content.matchFacts.topScorers.homePlayer.stats.gamesPlayed",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "2"
     },
     {
       "path": "$.content.matchFacts.topScorers.homePlayer.stats.goalAssist",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "1"
     },
     {
       "path": "$.content.matchFacts.topScorers.homePlayer.stats.goals",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "1"
     },
     {
       "path": "$.content.matchFacts.topScorers.homePlayer.stats.minsPlayed",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "179"
     },
     {
       "path": "$.content.matchFacts.topScorers.homePlayer.stats.minsPlayedGoal",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "179"
     },
     {
       "path": "$.content.matchFacts.topScorers.homePlayer.stats.motm",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "1"
     },
     {
       "path": "$.content.matchFacts.topScorers.homePlayer.stats.ontargetScoringAtt",
       "types": {
         "number": 2,
-        "integer": 1
+        "integer": 3
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "1.5"
     },
     {
       "path": "$.content.matchFacts.topScorers.homePlayer.stats.playerRating",
       "types": {
-        "number": 3
+        "number": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "7.76"
     },
     {
       "path": "$.content.matchFacts.topScorers.section",
       "types": {
-        "string": 3
+        "string": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "Top scorers"
     },
     {
       "path": "$.content.matchFacts.topScorers.sectionId",
       "types": {
-        "integer": 3
+        "integer": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "6"
     },
     {
       "path": "$.content.matchFacts.topScorers.statsOrder",
       "types": {
-        "array": 3
+        "array": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": null
     },
     {
       "path": "$.content.matchFacts.topScorers.statsOrder[]",
       "types": {
-        "string": 3
+        "string": 5
       },
-      "occurrences": 3,
+      "occurrences": 5,
       "sources": [
         "fotmob"
       ],
-      "file_count": 3,
+      "file_count": 5,
       "example": "playerRating"
     },
     {
       "path": "$.content.momentum",
       "types": {
         "object": 5,
-        "boolean": 1
+        "boolean": 30
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "False"
     },
     {
@@ -9630,14 +9950,15 @@
     {
       "path": "$.content.playerStats",
       "types": {
-        "object": 6
+        "object": 6,
+        "null": 29
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
-      "example": null
+      "file_count": 35,
+      "example": "None"
     },
     {
       "path": "$.content.playerStats.1026255",
@@ -167150,37 +167471,37 @@
     {
       "path": "$.content.shotmap",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.content.shotmap.Periods",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.content.shotmap.Periods.All",
       "types": {
-        "array": 6
+        "array": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
@@ -168414,13 +168735,13 @@
     {
       "path": "$.content.shotmap.shots",
       "types": {
-        "array": 6
+        "array": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
@@ -168828,14 +169149,15 @@
     {
       "path": "$.content.stats",
       "types": {
-        "object": 6
+        "object": 6,
+        "null": 29
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
-      "example": null
+      "file_count": 35,
+      "example": "None"
     },
     {
       "path": "$.content.stats.Periods",
@@ -169824,302 +170146,315 @@
     {
       "path": "$.content.superlive",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.content.superlive.showSuperLive",
       "types": {
-        "boolean": 6
+        "boolean": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "False"
     },
     {
       "path": "$.content.superlive.superLiveUrl",
       "types": {
-        "string": 6
+        "string": 6,
+        "null": 29
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://pub.fotmob.com/prod/news/api/law?matchid=44jdvrxjv1yszoq399jdd9lhw&competition=7hl0svs2hg225i2zud0g3xzp2&season=1objvzhwen02wc4i4a1nnux3o&version=v4w"
     },
     {
       "path": "$.content.table",
       "types": {
-        "object": 5,
+        "object": 34,
         "boolean": 1
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "False"
     },
     {
       "path": "$.content.table.countryCode",
       "types": {
-        "string": 5
+        "string": 34
       },
-      "occurrences": 5,
+      "occurrences": 34,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 34,
       "example": "POL"
     },
     {
       "path": "$.content.table.leagueId",
       "types": {
-        "string": 5
+        "string": 34
       },
-      "occurrences": 5,
+      "occurrences": 34,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 34,
       "example": "937879"
     },
     {
       "path": "$.content.table.parentLeagueId",
       "types": {
-        "integer": 5
+        "integer": 34
       },
-      "occurrences": 5,
+      "occurrences": 34,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 34,
       "example": "196"
     },
     {
       "path": "$.content.table.teams",
       "types": {
-        "array": 5
+        "array": 34
       },
-      "occurrences": 5,
+      "occurrences": 34,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 34,
       "example": null
     },
     {
       "path": "$.content.table.teams[]",
       "types": {
-        "integer": 5
+        "integer": 34
       },
-      "occurrences": 5,
+      "occurrences": 34,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 34,
       "example": "8023"
     },
     {
       "path": "$.content.table.tournamentNameForUrl",
       "types": {
-        "string": 5
+        "string": 34
       },
-      "occurrences": 5,
+      "occurrences": 34,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 34,
       "example": "Ekstraklasa"
     },
     {
       "path": "$.content.table.url",
       "types": {
-        "string": 5
+        "string": 34
       },
-      "occurrences": 5,
+      "occurrences": 34,
       "sources": [
         "fotmob"
       ],
-      "file_count": 5,
+      "file_count": 34,
       "example": "https://data.fotmob.com/tables.ext.937879.fot.gz"
     },
     {
       "path": "$.content.weather",
       "types": {
-        "object": 6
+        "object": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": null
     },
     {
       "path": "$.content.weather.apiUsed",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "current"
     },
     {
       "path": "$.content.weather.cloudCover",
       "types": {
-        "integer": 6
+        "integer": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "30"
     },
     {
       "path": "$.content.weather.defaultTitle",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "Partly Cloudy"
     },
     {
       "path": "$.content.weather.description",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "Partly Cloudy"
     },
     {
       "path": "$.content.weather.iconCode",
       "types": {
-        "integer": 6
+        "integer": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "29"
     },
     {
       "path": "$.content.weather.lastUpdated",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "2026-07-24T20:15:00Z"
     },
     {
       "path": "$.content.weather.localizedKey",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "weather_condition_partly_cloudy"
+    },
+    {
+      "path": "$.content.weather.precipChance",
+      "types": {
+        "integer": 3
+      },
+      "occurrences": 3,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 3,
+      "example": "0"
     },
     {
       "path": "$.content.weather.precipitation",
       "types": {
-        "integer": 6
+        "integer": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "0"
     },
     {
       "path": "$.content.weather.relativeHumidity",
       "types": {
-        "integer": 6
+        "integer": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "71"
     },
     {
       "path": "$.content.weather.snow",
       "types": {
-        "integer": 6
+        "integer": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "0"
     },
     {
       "path": "$.content.weather.temperature",
       "types": {
-        "integer": 6
+        "integer": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "17"
     },
     {
       "path": "$.content.weather.windDirectionCardinal",
       "types": {
-        "string": 6
+        "string": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "S"
     },
     {
       "path": "$.content.weather.windSpeed",
       "types": {
-        "integer": 6
+        "integer": 9
       },
-      "occurrences": 6,
+      "occurrences": 9,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 9,
       "example": "2"
     },
     {
@@ -170866,6 +171201,18 @@
       ],
       "file_count": 2,
       "example": "league"
+    },
+    {
+      "path": "$.events",
+      "types": {
+        "array": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 2,
+      "example": null
     },
     {
       "path": "$.firstSeasonStats",
@@ -174025,6 +174372,18 @@
       "example": "196"
     },
     {
+      "path": "$.from",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "2026-07-01"
+    },
+    {
       "path": "$.gender",
       "types": {
         "string": 17
@@ -174039,448 +174398,449 @@
     {
       "path": "$.general",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.general.awayTeam",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.general.awayTeam.id",
       "types": {
-        "integer": 6
+        "integer": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "8673"
     },
     {
       "path": "$.general.awayTeam.name",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Legia Warszawa"
     },
     {
       "path": "$.general.countryCode",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "POL"
     },
     {
       "path": "$.general.coverageLevel",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "xG"
     },
     {
       "path": "$.general.finished",
       "types": {
-        "boolean": 6
+        "boolean": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "True"
     },
     {
       "path": "$.general.gender",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "male"
     },
     {
       "path": "$.general.homeTeam",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.general.homeTeam.id",
       "types": {
-        "integer": 6
+        "integer": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "8023"
     },
     {
       "path": "$.general.homeTeam.name",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Pogoń Szczecin"
     },
     {
       "path": "$.general.leagueId",
       "types": {
-        "integer": 6
+        "integer": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "937879"
     },
     {
       "path": "$.general.leagueName",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Ekstraklasa"
     },
     {
       "path": "$.general.leagueRoundName",
       "types": {
-        "string": 5,
+        "string": 34,
         "null": 1
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "1"
     },
     {
       "path": "$.general.matchId",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "5803899"
     },
     {
       "path": "$.general.matchName",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Pogoń Szczecin-vs-Legia Warszawa_Fri, Jul 24, 2026, 18:30 UTC"
     },
     {
       "path": "$.general.matchRound",
       "types": {
-        "string": 5,
+        "string": 34,
         "null": 1
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "1"
     },
     {
       "path": "$.general.matchTimeUTC",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Fri, Jul 24, 2026, 18:30 UTC"
     },
     {
       "path": "$.general.matchTimeUTCDate",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "2026-07-24T18:30:00.000Z"
     },
     {
       "path": "$.general.parentLeagueId",
       "types": {
-        "integer": 6
+        "integer": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "196"
     },
     {
       "path": "$.general.started",
       "types": {
-        "boolean": 6
+        "boolean": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "True"
     },
     {
       "path": "$.general.teamColors",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.general.teamColors.darkMode",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.general.teamColors.darkMode.away",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "#ffffff"
     },
     {
       "path": "$.general.teamColors.darkMode.home",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "#1753a4"
     },
     {
       "path": "$.general.teamColors.fontDarkMode",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.general.teamColors.fontDarkMode.away",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "rgba(29, 29, 29, 1.0)"
     },
     {
       "path": "$.general.teamColors.fontDarkMode.home",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "rgba(255, 255, 255, 1.0)"
     },
     {
       "path": "$.general.teamColors.fontLightMode",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.general.teamColors.fontLightMode.away",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "rgba(255, 255, 255, 1.0)"
     },
     {
       "path": "$.general.teamColors.fontLightMode.home",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "rgba(255, 255, 255, 1.0)"
     },
     {
       "path": "$.general.teamColors.lightMode",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.general.teamColors.lightMode.away",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "#009445"
     },
     {
       "path": "$.general.teamColors.lightMode.home",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "#102457"
     },
     {
       "path": "$.hasPendingVAR",
       "types": {
-        "boolean": 6
+        "boolean": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "False"
     },
     {
       "path": "$.header",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.header.events",
       "types": {
-        "object": 6
+        "object": 6,
+        "null": 29
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
-      "example": null
+      "file_count": 35,
+      "example": "None"
     },
     {
       "path": "$.header.events.awayTeamGoals",
@@ -185021,13 +185381,13 @@
     {
       "path": "$.header.status",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
@@ -185045,37 +185405,37 @@
     {
       "path": "$.header.status.cancelled",
       "types": {
-        "boolean": 6
+        "boolean": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "False"
     },
     {
       "path": "$.header.status.finished",
       "types": {
-        "boolean": 6
+        "boolean": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "True"
     },
     {
       "path": "$.header.status.halfs",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
@@ -185163,27 +185523,39 @@
       "example": "24.07.2026 21:40:38"
     },
     {
-      "path": "$.header.status.numberOfAwayRedCards",
+      "path": "$.header.status.matchDateTbd",
       "types": {
-        "integer": 6
+        "boolean": 24
       },
-      "occurrences": 6,
+      "occurrences": 24,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 24,
+      "example": "True"
+    },
+    {
+      "path": "$.header.status.numberOfAwayRedCards",
+      "types": {
+        "integer": 35
+      },
+      "occurrences": 35,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 35,
       "example": "0"
     },
     {
       "path": "$.header.status.numberOfHomeRedCards",
       "types": {
-        "integer": 6
+        "integer": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "0"
     },
     {
@@ -185261,25 +185633,25 @@
     {
       "path": "$.header.status.started",
       "types": {
-        "boolean": 6
+        "boolean": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "True"
     },
     {
       "path": "$.header.status.utcTime",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "2026-07-24T18:30:00.000Z"
     },
     {
@@ -185309,85 +185681,85 @@
     {
       "path": "$.header.teams",
       "types": {
-        "array": 6
+        "array": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.header.teams[]",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.header.teams[].id",
       "types": {
-        "integer": 6
+        "integer": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "8023"
     },
     {
       "path": "$.header.teams[].imageUrl",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://images.fotmob.com/image_resources/logo/teamlogo/8023_small.png"
     },
     {
       "path": "$.header.teams[].name",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Pogoń Szczecin"
     },
     {
       "path": "$.header.teams[].pageUrl",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "/teams/8023/overview/pogon-szczecin"
     },
     {
       "path": "$.header.teams[].score",
       "types": {
-        "integer": 6
+        "integer": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "0"
     },
     {
@@ -186636,7 +187008,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7078"
+      "example": "7100"
     },
     {
       "path": "$.id",
@@ -187313,6 +187685,18 @@
       "example": "320000"
     },
     {
+      "path": "$.matches",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
       "path": "$.matchesUrl",
       "types": {
         "string": 17
@@ -187323,6 +187707,414 @@
       ],
       "file_count": 17,
       "example": "https://pub.fotmob.com/prod/db/api/player/1078936/matches"
+    },
+    {
+      "path": "$.matches[]",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.matches[].away",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.matches[].away.id",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "8023"
+    },
+    {
+      "path": "$.matches[].away.longName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.matches[].away.name",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.matches[].away.score",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "0"
+    },
+    {
+      "path": "$.matches[].eliminatedTeamId",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.matches[].home",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.matches[].home.id",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "8695"
+    },
+    {
+      "path": "$.matches[].home.longName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Fenerbahçe"
+    },
+    {
+      "path": "$.matches[].home.name",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Fenerbahçe"
+    },
+    {
+      "path": "$.matches[].home.score",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "4"
+    },
+    {
+      "path": "$.matches[].id",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "5904696"
+    },
+    {
+      "path": "$.matches[].leagueId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "915708"
+    },
+    {
+      "path": "$.matches[].status",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.matches[].status.awarded",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.matches[].status.cancelled",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.matches[].status.finished",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "True"
+    },
+    {
+      "path": "$.matches[].status.halfs",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.matches[].status.halfs.firstHalfStarted",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "11.07.2026 19:32:25"
+    },
+    {
+      "path": "$.matches[].status.halfs.secondHalfStarted",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "11.07.2026 20:35:13"
+    },
+    {
+      "path": "$.matches[].status.periodLength",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "45"
+    },
+    {
+      "path": "$.matches[].status.reason",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.matches[].status.reason.long",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Full-Time"
+    },
+    {
+      "path": "$.matches[].status.reason.longKey",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "finished"
+    },
+    {
+      "path": "$.matches[].status.reason.short",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "FT"
+    },
+    {
+      "path": "$.matches[].status.reason.shortKey",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "fulltime_short"
+    },
+    {
+      "path": "$.matches[].status.scoreStr",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "4 - 0"
+    },
+    {
+      "path": "$.matches[].status.started",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "True"
+    },
+    {
+      "path": "$.matches[].status.utcTime",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "2026-07-11T17:30:00.000Z"
+    },
+    {
+      "path": "$.matches[].statusId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "6"
+    },
+    {
+      "path": "$.matches[].time",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "11.07.2026 19:30"
+    },
+    {
+      "path": "$.matches[].timeTS",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "1783791000000"
+    },
+    {
+      "path": "$.matches[].tournamentStage",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "1"
     },
     {
       "path": "$.maxFee",
@@ -187869,25 +188661,25 @@
     {
       "path": "$.nav",
       "types": {
-        "array": 6
+        "array": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.nav[]",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "matchfacts"
     },
     {
@@ -188157,13 +188949,13 @@
     {
       "path": "$.ongoing",
       "types": {
-        "boolean": 6
+        "boolean": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "False"
     },
     {
@@ -204298,6 +205090,78 @@
       "example": "Omorinsola Babajide"
     },
     {
+      "path": "$.season",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.season.displayName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "2026 Club Friendly"
+    },
+    {
+      "path": "$.season.half",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "1"
+    },
+    {
+      "path": "$.season.name",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "2026 Club Friendly"
+    },
+    {
+      "path": "$.season.type",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "13818"
+    },
+    {
+      "path": "$.season.year",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "2026"
+    },
+    {
       "path": "$.seasons",
       "types": {
         "array": 1
@@ -204456,830 +205320,831 @@
     {
       "path": "$.seo",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.seo.breadcrumbJSONLD",
       "types": {
-        "array": 6
+        "array": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.seo.breadcrumbJSONLD[]",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.seo.breadcrumbJSONLD[].@context",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://schema.org"
     },
     {
       "path": "$.seo.breadcrumbJSONLD[].@type",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "BreadcrumbList"
     },
     {
       "path": "$.seo.breadcrumbJSONLD[].itemListElement",
       "types": {
-        "array": 6
+        "array": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.seo.breadcrumbJSONLD[].itemListElement[]",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.seo.breadcrumbJSONLD[].itemListElement[].@type",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "ListItem"
     },
     {
       "path": "$.seo.breadcrumbJSONLD[].itemListElement[].item",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://www.fotmob.com"
     },
     {
       "path": "$.seo.breadcrumbJSONLD[].itemListElement[].name",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Home"
     },
     {
       "path": "$.seo.breadcrumbJSONLD[].itemListElement[].position",
       "types": {
-        "integer": 6
+        "integer": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "1"
     },
     {
       "path": "$.seo.eventJSONLD",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.seo.eventJSONLD.@context",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://schema.org"
     },
     {
       "path": "$.seo.eventJSONLD.@id",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://www.fotmob.com/match/5803899"
     },
     {
       "path": "$.seo.eventJSONLD.@type",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "SportsEvent"
     },
     {
       "path": "$.seo.eventJSONLD.awayTeam",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.seo.eventJSONLD.awayTeam.@context",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://schema.org"
     },
     {
       "path": "$.seo.eventJSONLD.awayTeam.@type",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "SportsTeam"
     },
     {
       "path": "$.seo.eventJSONLD.awayTeam.location",
       "types": {
-        "null": 6
+        "null": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "None"
     },
     {
       "path": "$.seo.eventJSONLD.awayTeam.logo",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://images.fotmob.com/image_resources/logo/teamlogo/8673.png"
     },
     {
       "path": "$.seo.eventJSONLD.awayTeam.memberOf",
       "types": {
-        "null": 6
+        "null": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "None"
     },
     {
       "path": "$.seo.eventJSONLD.awayTeam.name",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Legia Warszawa"
     },
     {
       "path": "$.seo.eventJSONLD.awayTeam.sport",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Football/Soccer"
     },
     {
       "path": "$.seo.eventJSONLD.awayTeam.url",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://www.fotmob.com/teams/8673/overview/legia-warszawa"
     },
     {
       "path": "$.seo.eventJSONLD.description",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Follow Pogoń Szczecin vs Legia Warszawa live on fotmob.com"
     },
     {
       "path": "$.seo.eventJSONLD.endDate",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "2026-07-24T20:30:00.000Z"
     },
     {
       "path": "$.seo.eventJSONLD.eventAttendanceMode",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://schema.org/OfflineEventAttendanceMode"
     },
     {
       "path": "$.seo.eventJSONLD.eventStatus",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://schema.org/EventScheduled"
     },
     {
       "path": "$.seo.eventJSONLD.homeTeam",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.seo.eventJSONLD.homeTeam.@context",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://schema.org"
     },
     {
       "path": "$.seo.eventJSONLD.homeTeam.@type",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "SportsTeam"
     },
     {
       "path": "$.seo.eventJSONLD.homeTeam.location",
       "types": {
-        "null": 6
+        "null": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "None"
     },
     {
       "path": "$.seo.eventJSONLD.homeTeam.logo",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://images.fotmob.com/image_resources/logo/teamlogo/8023.png"
     },
     {
       "path": "$.seo.eventJSONLD.homeTeam.memberOf",
       "types": {
-        "null": 6
+        "null": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "None"
     },
     {
       "path": "$.seo.eventJSONLD.homeTeam.name",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Pogoń Szczecin"
     },
     {
       "path": "$.seo.eventJSONLD.homeTeam.sport",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Football/Soccer"
     },
     {
       "path": "$.seo.eventJSONLD.homeTeam.url",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://www.fotmob.com/teams/8023/overview/pogon-szczecin"
     },
     {
       "path": "$.seo.eventJSONLD.image",
       "types": {
-        "array": 6
+        "array": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.seo.eventJSONLD.image[]",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://images.fotmob.com/image_resources/logo/teamlogo/8023.png"
     },
     {
       "path": "$.seo.eventJSONLD.location",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.seo.eventJSONLD.location.@type",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Place"
     },
     {
       "path": "$.seo.eventJSONLD.location.address",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.seo.eventJSONLD.location.address.@type",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "PostalAddress"
     },
     {
       "path": "$.seo.eventJSONLD.location.address.addressCountry",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Poland"
     },
     {
       "path": "$.seo.eventJSONLD.location.address.addressLocality",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Szczecin"
     },
     {
       "path": "$.seo.eventJSONLD.location.latitude",
       "types": {
-        "number": 6
+        "number": 11
       },
-      "occurrences": 6,
+      "occurrences": 11,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 11,
       "example": "53.43650687"
     },
     {
       "path": "$.seo.eventJSONLD.location.longitude",
       "types": {
-        "number": 6
+        "number": 11
       },
-      "occurrences": 6,
+      "occurrences": 11,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 11,
       "example": "14.518775974"
     },
     {
       "path": "$.seo.eventJSONLD.location.name",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Stadion Miejski im. Floriana Krygiera"
     },
     {
       "path": "$.seo.eventJSONLD.name",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Pogoń Szczecin vs Legia Warszawa"
     },
     {
       "path": "$.seo.eventJSONLD.offers",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.seo.eventJSONLD.offers.@type",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Offer"
     },
     {
       "path": "$.seo.eventJSONLD.offers.availability",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://schema.org/InStock"
     },
     {
       "path": "$.seo.eventJSONLD.offers.price",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "0"
     },
     {
       "path": "$.seo.eventJSONLD.offers.priceCurrency",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "USD"
     },
     {
       "path": "$.seo.eventJSONLD.offers.url",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://www.fotmob.com/match/5803899"
     },
     {
       "path": "$.seo.eventJSONLD.offers.validFrom",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "2026-07-24T18:30:00.000Z"
     },
     {
       "path": "$.seo.eventJSONLD.organizer",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.seo.eventJSONLD.organizer.@type",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Organization"
     },
     {
       "path": "$.seo.eventJSONLD.organizer.logo",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://www.fotmob.com/img/fotmob_icon_2017.png"
     },
     {
       "path": "$.seo.eventJSONLD.organizer.name",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "FotMob"
     },
     {
       "path": "$.seo.eventJSONLD.organizer.url",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://www.fotmob.com"
     },
     {
       "path": "$.seo.eventJSONLD.performer",
       "types": {
-        "array": 6
+        "array": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.seo.eventJSONLD.performer[]",
       "types": {
-        "object": 6
+        "object": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": null
     },
     {
       "path": "$.seo.eventJSONLD.performer[].@type",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "SportsTeam"
     },
     {
       "path": "$.seo.eventJSONLD.performer[].name",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Pogoń Szczecin"
     },
     {
       "path": "$.seo.eventJSONLD.performer[].url",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "https://www.fotmob.com/teams/8023/overview/pogon-szczecin"
     },
     {
       "path": "$.seo.eventJSONLD.sport",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "Football/Soccer"
     },
     {
       "path": "$.seo.eventJSONLD.startDate",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "2026-07-24T18:30:00.000Z"
     },
     {
       "path": "$.seo.faqJSONLD",
       "types": {
-        "object": 6
+        "object": 6,
+        "null": 29
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
-      "example": null
+      "file_count": 35,
+      "example": "None"
     },
     {
       "path": "$.seo.faqJSONLD.@context",
@@ -205392,13 +206257,13 @@
     {
       "path": "$.seo.path",
       "types": {
-        "string": 6
+        "string": 35
       },
-      "occurrences": 6,
+      "occurrences": 35,
       "sources": [
         "fotmob"
       ],
-      "file_count": 6,
+      "file_count": 35,
       "example": "pogon-szczecin-vs-legia-warszawa"
     },
     {
@@ -206964,14 +207829,15 @@
     {
       "path": "$.status",
       "types": {
-        "string": 17
+        "string": 18
       },
-      "occurrences": 17,
+      "occurrences": 18,
       "sources": [
+        "espn",
         "fotmob"
       ],
-      "file_count": 17,
-      "example": "active"
+      "file_count": 18,
+      "example": "success"
     },
     {
       "path": "$.table",
@@ -214846,6 +215712,642 @@
       "example": "overview"
     },
     {
+      "path": "$.team",
+      "types": {
+        "object": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 2,
+      "example": null
+    },
+    {
+      "path": "$.team.abbreviation",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 2,
+      "example": "POG"
+    },
+    {
+      "path": "$.team.alternateColor",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "000000"
+    },
+    {
+      "path": "$.team.clubhouse",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "https://www.espn.com/soccer/club/_/id/511/pogon-szczecin"
+    },
+    {
+      "path": "$.team.color",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 2,
+      "example": "000000"
+    },
+    {
+      "path": "$.team.defaultLeague",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.defaultLeague.abbreviation",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Club Friendly"
+    },
+    {
+      "path": "$.team.defaultLeague.alternateId",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "68"
+    },
+    {
+      "path": "$.team.defaultLeague.id",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "19834"
+    },
+    {
+      "path": "$.team.defaultLeague.links",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.defaultLeague.links[]",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.defaultLeague.links[].href",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "https://www.espn.com/soccer/league/_/name/club.friendly"
+    },
+    {
+      "path": "$.team.defaultLeague.links[].isExternal",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.team.defaultLeague.links[].isPremium",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.team.defaultLeague.links[].language",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "en-US"
+    },
+    {
+      "path": "$.team.defaultLeague.links[].rel",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.defaultLeague.links[].rel[]",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "index"
+    },
+    {
+      "path": "$.team.defaultLeague.links[].shortText",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Index"
+    },
+    {
+      "path": "$.team.defaultLeague.links[].text",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Index"
+    },
+    {
+      "path": "$.team.defaultLeague.logos",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.defaultLeague.midsizeName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "CLUB.FRIENDLY"
+    },
+    {
+      "path": "$.team.defaultLeague.name",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Club Friendly"
+    },
+    {
+      "path": "$.team.defaultLeague.season",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.defaultLeague.season.type",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.defaultLeague.season.type.hasStandings",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.team.defaultLeague.shortName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Club Friendly"
+    },
+    {
+      "path": "$.team.defaultLeague.slug",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "club.friendly"
+    },
+    {
+      "path": "$.team.displayName",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 2,
+      "example": "Pogon Szczecin"
+    },
+    {
+      "path": "$.team.id",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 2,
+      "example": "511"
+    },
+    {
+      "path": "$.team.isActive",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "True"
+    },
+    {
+      "path": "$.team.isNational",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.team.leagueAbbrev",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "club.friendly"
+    },
+    {
+      "path": "$.team.links",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.links[]",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.links[].href",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "https://www.espn.com/soccer/club/_/id/511/pogon-szczecin"
+    },
+    {
+      "path": "$.team.links[].isExternal",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.team.links[].isPremium",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.team.links[].language",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "en-US"
+    },
+    {
+      "path": "$.team.links[].rel",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.links[].rel[]",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "clubhouse"
+    },
+    {
+      "path": "$.team.links[].shortText",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Clubhouse"
+    },
+    {
+      "path": "$.team.links[].text",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Clubhouse"
+    },
+    {
+      "path": "$.team.location",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 2,
+      "example": "Pogon Szczecin"
+    },
+    {
+      "path": "$.team.name",
+      "types": {
+        "string": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 2,
+      "example": "Pogon Szczecin"
+    },
+    {
+      "path": "$.team.nextEvent",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.record",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.seasonSummary",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "2026"
+    },
+    {
+      "path": "$.team.shortDisplayName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Pogon Szczecin"
+    },
+    {
+      "path": "$.team.slug",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "team.pogon_szczecin"
+    },
+    {
+      "path": "$.team.uid",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "s:600~t:511"
+    },
+    {
+      "path": "$.team_id",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "8023"
+    },
+    {
+      "path": "$.timestamp",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "2026-09-04T07:29:35Z"
+    },
+    {
+      "path": "$.to",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "2026-10-04"
+    },
+    {
       "path": "$.topCompletedTransfer",
       "types": {
         "object": 1
@@ -216970,7 +218472,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Lincoln"
+      "example": "NK Istra 1961"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -216982,7 +218484,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Lincoln City"
+      "example": "NK Istra 1961"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -216994,7 +218496,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8430"
+      "example": "6038"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -217018,7 +218520,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "235254"
+      "example": "771929"
     },
     {
       "path": "$.transfers[].name",
@@ -217030,7 +218532,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Adam Jackson"
+      "example": "Filip Taraba"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -217054,7 +218556,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "529887"
+      "example": "1631612"
     },
     {
       "path": "$.transfers[].position",
@@ -217102,7 +218604,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "Rudeš"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -217114,7 +218616,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "Rudeš"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -217126,7 +218628,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2"
+      "example": "187866"
     },
     {
       "path": "$.transfers[].toDate",
@@ -217150,7 +218652,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-04T00:31:11Z"
+      "example": "2026-09-04T08:57:30Z"
     },
     {
       "path": "$.transfers[].transferText",

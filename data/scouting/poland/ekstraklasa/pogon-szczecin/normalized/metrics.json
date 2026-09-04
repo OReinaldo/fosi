@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4",
   "model": "FOSI metrics",
-  "generated_at": "2026-09-04T03:25:52.519563+00:00",
+  "generated_at": "2026-09-04T07:31:00.924028+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -12,7 +12,7 @@
   "source_normalized": "data/scouting/poland/ekstraklasa/pogon-szczecin/normalized/fosi.json",
   "metrics": {
     "form": {
-      "value": "DDWWL",
+      "value": "DDDDD",
       "observed": 5,
       "total": 5,
       "coverage": 1.0,
@@ -22,35 +22,35 @@
     },
     "goals_for": {
       "value": 7.0,
-      "observed": 6,
-      "total": 7,
-      "coverage": 0.857,
+      "observed": 35,
+      "total": 35,
+      "coverage": 1.0,
       "unit": "goals",
       "status": "observed",
       "source": null
     },
     "goals_against": {
       "value": 8.0,
-      "observed": 6,
-      "total": 7,
-      "coverage": 0.857,
+      "observed": 35,
+      "total": 35,
+      "coverage": 1.0,
       "unit": "goals",
       "status": "observed",
       "source": null
     },
     "goals_for_per_match": {
-      "value": 1.17,
-      "observed": 7,
-      "total": 7,
+      "value": 0.2,
+      "observed": 35,
+      "total": 35,
       "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
       "source": null
     },
     "goals_against_per_match": {
-      "value": 1.33,
-      "observed": 7,
-      "total": 7,
+      "value": 0.23,
+      "observed": 35,
+      "total": 35,
       "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
@@ -93,18 +93,18 @@
       "source": null
     },
     "xg_per_match": {
-      "value": 2.01,
-      "observed": 7,
-      "total": 7,
+      "value": 0.4,
+      "observed": 35,
+      "total": 35,
       "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
       "source": null
     },
     "xga_per_match": {
-      "value": 2.24,
-      "observed": 7,
-      "total": 7,
+      "value": 0.45,
+      "observed": 35,
+      "total": 35,
       "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
@@ -131,8 +131,8 @@
     "shots_for": {
       "value": 118,
       "observed": 5,
-      "total": 7,
-      "coverage": 0.714,
+      "total": 35,
+      "coverage": 0.143,
       "unit": "shots",
       "status": "observed",
       "source": null
@@ -140,16 +140,16 @@
     "shots_against": {
       "value": 182,
       "observed": 5,
-      "total": 7,
-      "coverage": 0.714,
+      "total": 35,
+      "coverage": 0.143,
       "unit": "shots",
       "status": "observed",
       "source": null
     },
     "matches_sample": {
-      "value": 7,
-      "observed": 7,
-      "total": 7,
+      "value": 35,
+      "observed": 35,
+      "total": 35,
       "coverage": 1.0,
       "unit": "matches",
       "status": "observed",
@@ -317,6 +317,586 @@
   },
   "match_metrics": [
     {
+      "match_id": "5804211",
+      "date": "2027-05-22T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8020,
+        "name": "Górnik Zabrze"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804206",
+      "date": "2027-05-15T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 2182,
+        "name": "Lech Poznań"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804199",
+      "date": "2027-05-08T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8025,
+        "name": "Śląsk Wrocław"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804187",
+      "date": "2027-05-01T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 8024,
+        "name": "Widzew Łódź"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804180",
+      "date": "2027-04-23T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 4024,
+        "name": "Raków Częstochowa"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804170",
+      "date": "2027-04-17T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 5769,
+        "name": "Radomiak Radom"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804161",
+      "date": "2027-04-10T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 4023,
+        "name": "GKS Katowice"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804150",
+      "date": "2027-04-03T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8245,
+        "name": "Korona Kielce"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804142",
+      "date": "2027-03-20T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 8028,
+        "name": "Piast Gliwice"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804138",
+      "date": "2027-03-13T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 1286895,
+        "name": "Wieczysta Kraków"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804128",
+      "date": "2027-03-06T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8243,
+        "name": "Wisła Płock"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804118",
+      "date": "2027-02-27T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 8021,
+        "name": "Zagłębie Lubin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804109",
+      "date": "2027-02-20T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 10265,
+        "name": "Wisła Kraków"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804097",
+      "date": "2027-02-13T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 1957,
+        "name": "Jagiellonia Białystok"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804088",
+      "date": "2027-02-06T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 89466,
+        "name": "Motor Lublin"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804079",
+      "date": "2027-01-30T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 2186,
+        "name": "Cracovia"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5803943",
+      "date": "2026-12-16T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 1957,
+        "name": "Jagiellonia Białystok"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804070",
+      "date": "2026-12-12T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8673,
+        "name": "Legia Warszawa"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804062",
+      "date": "2026-12-05T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 8020,
+        "name": "Górnik Zabrze"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804052",
+      "date": "2026-11-28T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 2182,
+        "name": "Lech Poznań"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804043",
+      "date": "2026-11-21T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 8025,
+        "name": "Śląsk Wrocław"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804038",
+      "date": "2026-11-07T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8024,
+        "name": "Widzew Łódź"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804027",
+      "date": "2026-10-31T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 4024,
+        "name": "Raków Częstochowa"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804018",
+      "date": "2026-10-24T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 5769,
+        "name": "Radomiak Radom"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5804005",
+      "date": "2026-10-17T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 4023,
+        "name": "GKS Katowice"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5803999",
+      "date": "2026-10-11T15:30:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 8245,
+        "name": "Korona Kielce"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5803991",
+      "date": "2026-09-20T10:15:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8028,
+        "name": "Piast Gliwice"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5803979",
+      "date": "2026-09-13T12:45:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 1286895,
+        "name": "Wieczysta Kraków"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
+      "match_id": "5803974",
+      "date": "2026-09-07T18:30:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 8243,
+        "name": "Wisła Płock"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0
+    },
+    {
       "match_id": "5803967",
       "date": "2026-08-29T18:15:00.000Z",
       "competition": "Ekstraklasa",
@@ -465,26 +1045,6 @@
       "result": "L",
       "goals_for": 0.0,
       "goals_against": 4.0
-    },
-    {
-      "match_id": "5803974",
-      "date": null,
-      "competition": "Ekstraklasa",
-      "home_team": {
-        "id": null,
-        "name": null
-      },
-      "away_team": {
-        "id": null,
-        "name": null
-      },
-      "score": {
-        "home": null,
-        "away": null
-      },
-      "result": null,
-      "goals_for": null,
-      "goals_against": null
     }
   ],
   "shot_zones_for": {
@@ -496,20 +1056,317 @@
   },
   "recent_matches": [
     {
-      "fosi_id": "match:fotmob:5803967",
+      "fosi_id": "match:fotmob:5804211",
       "provider": "fotmob",
-      "provider_id": "5803967",
-      "date": "2026-08-29T18:15:00.000Z",
+      "provider_id": "5804211",
+      "date": "2027-05-22T16:00:00.000Z",
       "competition": "Ekstraklasa",
-      "round": "6",
+      "round": "34",
       "home_team": {
+        "id": 8020,
+        "name": "Górnik Zabrze"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804211.json",
+        "provider_id": "5804211",
+        "retrieved_at": "2026-09-04T07:30:59.962134+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5804206",
+      "provider": "fotmob",
+      "provider_id": "5804206",
+      "date": "2027-05-15T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "33",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 2182,
+        "name": "Lech Poznań"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804206.json",
+        "provider_id": "5804206",
+        "retrieved_at": "2026-09-04T07:30:59.961560+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5804199",
+      "provider": "fotmob",
+      "provider_id": "5804199",
+      "date": "2027-05-08T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "32",
+      "home_team": {
+        "id": 8025,
+        "name": "Śląsk Wrocław"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804199.json",
+        "provider_id": "5804199",
+        "retrieved_at": "2026-09-04T07:30:59.961009+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5804187",
+      "provider": "fotmob",
+      "provider_id": "5804187",
+      "date": "2027-05-01T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "31",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 8024,
+        "name": "Widzew Łódź"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804187.json",
+        "provider_id": "5804187",
+        "retrieved_at": "2026-09-04T07:30:59.960405+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5804180",
+      "provider": "fotmob",
+      "provider_id": "5804180",
+      "date": "2027-04-23T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "30",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 4024,
+        "name": "Raków Częstochowa"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804180.json",
+        "provider_id": "5804180",
+        "retrieved_at": "2026-09-04T07:30:59.959839+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5804170",
+      "provider": "fotmob",
+      "provider_id": "5804170",
+      "date": "2027-04-17T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "29",
+      "home_team": {
+        "id": 5769,
+        "name": "Radomiak Radom"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804170.json",
+        "provider_id": "5804170",
+        "retrieved_at": "2026-09-04T07:30:59.959276+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5804161",
+      "provider": "fotmob",
+      "provider_id": "5804161",
+      "date": "2027-04-10T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "28",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 4023,
+        "name": "GKS Katowice"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804161.json",
+        "provider_id": "5804161",
+        "retrieved_at": "2026-09-04T07:30:59.958685+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5804150",
+      "provider": "fotmob",
+      "provider_id": "5804150",
+      "date": "2027-04-03T16:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "27",
+      "home_team": {
+        "id": 8245,
+        "name": "Korona Kielce"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804150.json",
+        "provider_id": "5804150",
+        "retrieved_at": "2026-09-04T07:30:59.958116+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5804142",
+      "provider": "fotmob",
+      "provider_id": "5804142",
+      "date": "2027-03-20T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "26",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 8028,
+        "name": "Piast Gliwice"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804142.json",
+        "provider_id": "5804142",
+        "retrieved_at": "2026-09-04T07:30:59.957523+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5804138",
+      "provider": "fotmob",
+      "provider_id": "5804138",
+      "date": "2027-03-13T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "25",
+      "home_team": {
+        "id": 1286895,
+        "name": "Wieczysta Kraków"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804138.json",
+        "provider_id": "5804138",
+        "retrieved_at": "2026-09-04T07:30:59.956980+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5804128",
+      "provider": "fotmob",
+      "provider_id": "5804128",
+      "date": "2027-03-06T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "24",
+      "home_team": {
+        "id": 8243,
+        "name": "Wisła Płock"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804128.json",
+        "provider_id": "5804128",
+        "retrieved_at": "2026-09-04T07:30:59.956416+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5804118",
+      "provider": "fotmob",
+      "provider_id": "5804118",
+      "date": "2027-02-27T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "23",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
         "id": 8021,
         "name": "Zagłębie Lubin"
       },
-      "away_team": {
-        "id": 8023,
-        "name": "Pogoń Szczecin"
-      },
       "score": {
         "home": 0,
         "away": 0
@@ -517,171 +1374,225 @@
       "result_for_home": "D",
       "source_meta": {
         "source": "fotmob",
-        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
-        "provider_id": "5803967",
-        "retrieved_at": "2026-09-04T03:25:51.798909+00:00"
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804118.json",
+        "provider_id": "5804118",
+        "retrieved_at": "2026-09-04T07:30:59.955837+00:00"
       }
     },
     {
-      "fosi_id": "match:fotmob:5803955",
+      "fosi_id": "match:fotmob:5804109",
       "provider": "fotmob",
-      "provider_id": "5803955",
-      "date": "2026-08-23T18:15:00.000Z",
+      "provider_id": "5804109",
+      "date": "2027-02-20T17:00:00.000Z",
       "competition": "Ekstraklasa",
-      "round": "5",
+      "round": "22",
       "home_team": {
-        "id": 8023,
-        "name": "Pogoń Szczecin"
-      },
-      "away_team": {
         "id": 10265,
         "name": "Wisła Kraków"
       },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
       "score": {
-        "home": 2,
-        "away": 2
+        "home": 0,
+        "away": 0
       },
       "result_for_home": "D",
       "source_meta": {
         "source": "fotmob",
-        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
-        "provider_id": "5803955",
-        "retrieved_at": "2026-09-04T03:25:51.787837+00:00"
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804109.json",
+        "provider_id": "5804109",
+        "retrieved_at": "2026-09-04T07:30:59.955280+00:00"
       }
     },
     {
-      "fosi_id": "match:fotmob:5803936",
+      "fosi_id": "match:fotmob:5804097",
       "provider": "fotmob",
-      "provider_id": "5803936",
-      "date": "2026-08-08T15:30:00.000Z",
+      "provider_id": "5804097",
+      "date": "2027-02-13T17:00:00.000Z",
       "competition": "Ekstraklasa",
-      "round": "3",
+      "round": "21",
       "home_team": {
         "id": 8023,
         "name": "Pogoń Szczecin"
       },
       "away_team": {
+        "id": 1957,
+        "name": "Jagiellonia Białystok"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804097.json",
+        "provider_id": "5804097",
+        "retrieved_at": "2026-09-04T07:30:59.954708+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5804088",
+      "provider": "fotmob",
+      "provider_id": "5804088",
+      "date": "2027-02-06T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "20",
+      "home_team": {
         "id": 89466,
         "name": "Motor Lublin"
       },
-      "score": {
-        "home": 3,
-        "away": 1
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
       },
-      "result_for_home": "W",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
       "source_meta": {
         "source": "fotmob",
-        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
-        "provider_id": "5803936",
-        "retrieved_at": "2026-09-04T03:25:51.776511+00:00"
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804088.json",
+        "provider_id": "5804088",
+        "retrieved_at": "2026-09-04T07:30:59.954152+00:00"
       }
     },
     {
-      "fosi_id": "match:fotmob:5803923",
+      "fosi_id": "match:fotmob:5804079",
       "provider": "fotmob",
-      "provider_id": "5803923",
-      "date": "2026-08-03T17:00:00.000Z",
+      "provider_id": "5804079",
+      "date": "2027-01-30T17:00:00.000Z",
       "competition": "Ekstraklasa",
-      "round": "2",
+      "round": "19",
       "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
         "id": 2186,
         "name": "Cracovia"
       },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804079.json",
+        "provider_id": "5804079",
+        "retrieved_at": "2026-09-04T07:30:59.953558+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5803943",
+      "provider": "fotmob",
+      "provider_id": "5803943",
+      "date": "2026-12-16T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "4",
+      "home_team": {
+        "id": 1957,
+        "name": "Jagiellonia Białystok"
+      },
       "away_team": {
         "id": 8023,
         "name": "Pogoń Szczecin"
       },
       "score": {
         "home": 0,
-        "away": 2
+        "away": 0
       },
-      "result_for_home": "L",
+      "result_for_home": "D",
       "source_meta": {
         "source": "fotmob",
-        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
-        "provider_id": "5803923",
-        "retrieved_at": "2026-09-04T03:25:51.765037+00:00"
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803943.json",
+        "provider_id": "5803943",
+        "retrieved_at": "2026-09-04T07:30:59.902608+00:00"
       }
     },
     {
-      "fosi_id": "match:fotmob:5803899",
+      "fosi_id": "match:fotmob:5804070",
       "provider": "fotmob",
-      "provider_id": "5803899",
-      "date": "2026-07-24T18:30:00.000Z",
+      "provider_id": "5804070",
+      "date": "2026-12-12T17:00:00.000Z",
       "competition": "Ekstraklasa",
-      "round": "1",
+      "round": "18",
       "home_team": {
-        "id": 8023,
-        "name": "Pogoń Szczecin"
-      },
-      "away_team": {
         "id": 8673,
         "name": "Legia Warszawa"
       },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
       "score": {
         "home": 0,
-        "away": 1
+        "away": 0
       },
-      "result_for_home": "L",
+      "result_for_home": "D",
       "source_meta": {
         "source": "fotmob",
-        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
-        "provider_id": "5803899",
-        "retrieved_at": "2026-09-04T03:25:51.752555+00:00"
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804070.json",
+        "provider_id": "5804070",
+        "retrieved_at": "2026-09-04T07:30:59.952890+00:00"
       }
     },
     {
-      "fosi_id": "match:fotmob:5904696",
+      "fosi_id": "match:fotmob:5804062",
       "provider": "fotmob",
-      "provider_id": "5904696",
-      "date": "2026-07-11T17:30:00.000Z",
-      "competition": "Club Friendlies",
-      "round": null,
+      "provider_id": "5804062",
+      "date": "2026-12-05T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "17",
       "home_team": {
-        "id": 8695,
-        "name": "Fenerbahçe"
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 8020,
+        "name": "Górnik Zabrze"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804062.json",
+        "provider_id": "5804062",
+        "retrieved_at": "2026-09-04T07:30:59.952351+00:00"
+      }
+    },
+    {
+      "fosi_id": "match:fotmob:5804052",
+      "provider": "fotmob",
+      "provider_id": "5804052",
+      "date": "2026-11-28T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "16",
+      "home_team": {
+        "id": 2182,
+        "name": "Lech Poznań"
       },
       "away_team": {
         "id": 8023,
         "name": "Pogoń Szczecin"
       },
       "score": {
-        "home": 4,
+        "home": 0,
         "away": 0
       },
-      "result_for_home": "W",
+      "result_for_home": "D",
       "source_meta": {
         "source": "fotmob",
-        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
-        "provider_id": "5904696",
-        "retrieved_at": "2026-09-04T03:25:51.808764+00:00"
-      }
-    },
-    {
-      "fosi_id": "match:fotmob:5803974",
-      "provider": "fotmob",
-      "provider_id": "5803974",
-      "date": null,
-      "competition": "Ekstraklasa",
-      "round": null,
-      "home_team": {
-        "id": null,
-        "name": null
-      },
-      "away_team": {
-        "id": null,
-        "name": null
-      },
-      "score": {
-        "home": null,
-        "away": null
-      },
-      "result_for_home": null,
-      "source_meta": {
-        "source": "fotmob",
-        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/players/280965.json",
-        "provider_id": "5803974",
-        "retrieved_at": "2026-09-04T03:25:51.901732+00:00"
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5804052.json",
+        "provider_id": "5804052",
+        "retrieved_at": "2026-09-04T07:30:59.951724+00:00"
       }
     }
   ],
@@ -890,7 +1801,7 @@
     }
   ],
   "coverage": {
-    "normalized_records": 469,
+    "normalized_records": 497,
     "attributed_shots": 300
   }
 }

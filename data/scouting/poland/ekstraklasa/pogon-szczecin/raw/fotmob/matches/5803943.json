@@ -1,0 +1,730 @@
+{
+  "general": {
+    "matchId": "5803943",
+    "matchName": "Jagiellonia Białystok-vs-Pogoń Szczecin_Wed, Dec 16, 2026, 17:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D81921",
+        "away": "#1753a4"
+      },
+      "lightMode": {
+        "home": "#D81921",
+        "away": "#102457"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "4",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Jagiellonia Białystok",
+      "id": 1957
+    },
+    "awayTeam": {
+      "name": "Pogoń Szczecin",
+      "id": 8023
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Wed, Dec 16, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-12-16T17:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "Jagiellonia Białystok",
+        "id": 1957,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/1957_small.png",
+        "pageUrl": "/teams/1957/overview/jagiellonia-biaystok"
+      },
+      {
+        "name": "Pogoń Szczecin",
+        "id": 8023,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8023_small.png",
+        "pageUrl": "/teams/8023/overview/pogon-szczecin"
+      }
+    ],
+    "status": {
+      "utcTime": "2026-12-16T17:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "table",
+    "injured"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 5803943,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [
+          "Injuries"
+        ],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-12-16T17:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 937879,
+          "parentLeagueId": 196,
+          "link": "/leagues/196/overview/ekstraklasa",
+          "leagueName": "Ekstraklasa",
+          "roundName": "4",
+          "round": "4"
+        },
+        "Stadium": {
+          "name": "Chorten Arena",
+          "city": "Białystok",
+          "country": "Poland",
+          "lat": 53.106005818,
+          "long": 23.149094582,
+          "capacity": 22372,
+          "surface": "grass"
+        },
+        "Referee": {
+          "text": "",
+          "countryCode": "",
+          "country": ""
+        },
+        "Attendance": null
+      },
+      "teamForm": null,
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-5803943",
+          "MatchId": 5803943,
+          "HomeTeamId": 1957,
+          "AwayTeamId": 8023,
+          "HomeTeam": "Jagiellonia Białystok",
+          "AwayTeam": "Pogoń Szczecin",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} haven't lost to {1} in their last {2} meetings ({3}W, {4}D).",
+              "TextTemplateId": "h2h_undefeated",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "5",
+                "2",
+                "3"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Jagiellonia Białystok haven't lost to Pogoń Szczecin in their last 5 meetings (2W, 3D)."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have scored {3} goals in their last {2} matches, while {1} have scored {4}.",
+              "TextTemplateId": "goals_total_last_3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "3",
+                "3",
+                "5"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Jagiellonia Białystok have scored 3 goals in their last 3 matches, while Pogoń Szczecin have scored 5."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have scored {3} goals in their last {2} matches, while {1} have scored {4}.",
+              "TextTemplateId": "goals_total_last_3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "3",
+                "3",
+                "5"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Jagiellonia Białystok have scored 3 goals in their last 3 matches, while Pogoń Szczecin have scored 5."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} haven't drawn in their last {1} matches.",
+              "TextTemplateId": "draw_streak_team",
+              "StatValues": [
+                "away_team",
+                "4"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Pogoń Szczecin haven't drawn in their last 4 matches."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "insights": [
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 1957,
+          "priority": 1338,
+          "defaultText": "Have scored {0} goals in their last {1} matches",
+          "localizedTextId": "insights_goals_team",
+          "statValues": [
+            {
+              "value": 6,
+              "name": null,
+              "type": "integer"
+            },
+            {
+              "value": 5,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Have scored 6 goals in their last 5 matches",
+          "color": "#D81921"
+        },
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 1957,
+          "priority": 9,
+          "defaultText": "{0} haven't lost to {1} in their last {2} meetings ({3}W, {4}D).",
+          "localizedTextId": "h2h_undefeated",
+          "statValues": [
+            {
+              "value": 1957,
+              "name": "Jagiellonia Białystok",
+              "type": "team"
+            },
+            {
+              "value": 8023,
+              "name": "Pogoń Szczecin",
+              "type": "team"
+            },
+            {
+              "value": 5,
+              "name": null,
+              "type": "integer"
+            },
+            {
+              "value": 2,
+              "name": null,
+              "type": "integer"
+            },
+            {
+              "value": 3,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Jagiellonia Białystok haven't lost to Pogoń Szczecin in their last 5 meetings (2W, 3D).",
+          "color": "#D81921"
+        },
+        {
+          "type": "player",
+          "playerId": 906919,
+          "teamId": 1957,
+          "priority": 1,
+          "defaultText": "{0} has the most shots on target per match for {1} ({2})",
+          "localizedTextId": "insights_player_most_shots_on_target_for_team",
+          "statValues": [
+            {
+              "value": 906919,
+              "name": "Sergio Lozano",
+              "type": "player"
+            },
+            {
+              "value": 1957,
+              "name": "Jagiellonia Białystok",
+              "type": "team"
+            },
+            {
+              "value": 2.8,
+              "name": null,
+              "type": "double"
+            }
+          ],
+          "text": "Sergio Lozano has the most shots on target per match for Jagiellonia Białystok (2.8)",
+          "color": "#D81921"
+        },
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 8023,
+          "priority": 1338,
+          "defaultText": "Have scored {0} goals in their last {1} matches",
+          "localizedTextId": "insights_goals_team",
+          "statValues": [
+            {
+              "value": 6,
+              "name": null,
+              "type": "integer"
+            },
+            {
+              "value": 5,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Have scored 6 goals in their last 5 matches",
+          "color": "#102457"
+        },
+        {
+          "type": "player",
+          "playerId": 289211,
+          "teamId": 8023,
+          "priority": 4,
+          "defaultText": "{0} is ranked {1} in saves per match in the competition ({2})",
+          "localizedTextId": "insights_player_saves_per_match_rank_in_competition",
+          "statValues": [
+            {
+              "value": 289211,
+              "name": "Valentin Cojocaru",
+              "type": "player"
+            },
+            {
+              "value": 1,
+              "name": null,
+              "type": "ordinal"
+            },
+            {
+              "value": 5,
+              "name": null,
+              "type": "double"
+            }
+          ],
+          "text": "Valentin Cojocaru is ranked 1 in saves per match in the competition (5)",
+          "color": "#102457"
+        },
+        {
+          "type": "player",
+          "playerId": 1078936,
+          "teamId": 8023,
+          "priority": 1,
+          "defaultText": "{0} has the most shots on target per match for {1} ({2})",
+          "localizedTextId": "insights_player_most_shots_on_target_for_team",
+          "statValues": [
+            {
+              "value": 1078936,
+              "name": "Paul Mukairu",
+              "type": "player"
+            },
+            {
+              "value": 8023,
+              "name": "Pogoń Szczecin",
+              "type": "team"
+            },
+            {
+              "value": 1.4,
+              "name": null,
+              "type": "double"
+            }
+          ],
+          "text": "Paul Mukairu has the most shots on target per match for Pogoń Szczecin (1.4)",
+          "color": "#102457"
+        }
+      ],
+      "topScorers": {
+        "section": "Top scorers",
+        "sectionId": 6,
+        "homePlayer": {
+          "playerId": 1186446,
+          "position": 3,
+          "matchesWithRating": 3,
+          "lastName": "Prelec",
+          "fullName": "Nik Prelec",
+          "stats": {
+            "goals": 2,
+            "goalAssist": 0,
+            "ontargetScoringAtt": 1,
+            "motm": 0,
+            "gamesPlayed": 3,
+            "minsPlayed": 129,
+            "minsPlayedGoal": 65,
+            "expectedGoals": 1.1187000274658203,
+            "playerRating": 7.32
+          }
+        },
+        "awayPlayer": {
+          "playerId": 1078936,
+          "position": 3,
+          "matchesWithRating": 3,
+          "lastName": "Mukairu",
+          "fullName": "Paul Mukairu",
+          "stats": {
+            "goals": 1,
+            "goalAssist": 1,
+            "ontargetScoringAtt": 1.33,
+            "motm": 1,
+            "gamesPlayed": 3,
+            "minsPlayed": 259,
+            "minsPlayedGoal": 259,
+            "expectedGoals": 0.9599999785423279,
+            "playerRating": 7.48
+          }
+        },
+        "statsOrder": [
+          "playerRating",
+          "goals",
+          "expectedGoals",
+          "goalAssist",
+          "minsPlayedGoal",
+          "ontargetScoringAtt",
+          "motm",
+          "gamesPlayed",
+          "minsPlayed"
+        ]
+      },
+      "countryCode": "POL",
+      "QAData": []
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": null,
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 30,
+      "windSpeed": 3,
+      "windDirectionCardinal": "WSW",
+      "iconCode": 32,
+      "relativeHumidity": 32,
+      "precipChance": 0,
+      "precipitation": 0,
+      "snow": 0,
+      "cloudCover": 18,
+      "description": "Sunny",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-08-12T06:00:20Z",
+      "localizedKey": "weather_condition_sunny",
+      "defaultTitle": "Sunny"
+    },
+    "lineup": {
+      "matchId": 5803943,
+      "lineupType": "standard",
+      "availableFilters": [
+        "match"
+      ],
+      "homeTeam": {
+        "id": 1957,
+        "name": "Jagiellonia Białystok",
+        "unavailable": [
+          {
+            "id": 924935,
+            "name": "Dušan Stojinović",
+            "unavailability": {
+              "injuryId": 87,
+              "lastUpdated": "2026-09-02T17:57:41Z",
+              "type": "injury",
+              "expectedReturn": "Mid September 2026"
+            },
+            "firstName": "Dušan",
+            "lastName": "Stojinović"
+          }
+        ]
+      },
+      "awayTeam": {
+        "id": 8023,
+        "name": "Pogoń Szczecin",
+        "unavailable": [
+          {
+            "id": 1410436,
+            "name": "Nikolaos Botis",
+            "unavailability": {
+              "injuryId": 87,
+              "lastUpdated": "2026-08-31T22:14:31Z",
+              "type": "injury",
+              "expectedReturn": "Doubtful"
+            },
+            "firstName": "Nikolaos",
+            "lastName": "Botis"
+          },
+          {
+            "id": 585352,
+            "name": "José Pozo",
+            "unavailability": {
+              "injuryId": 73,
+              "lastUpdated": "2026-08-31T22:14:39Z",
+              "type": "injury",
+              "expectedReturn": "Unknown"
+            },
+            "firstName": "José",
+            "lastName": "Pozo"
+          },
+          {
+            "id": 1050169,
+            "name": "Rajmund Molnár",
+            "unavailability": {
+              "injuryId": 76,
+              "lastUpdated": "2026-08-07T10:25:47Z",
+              "type": "injury",
+              "expectedReturn": "Late September 2026"
+            },
+            "firstName": "Rajmund",
+            "lastName": "Molnár"
+          }
+        ]
+      }
+    },
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "937879",
+      "url": "https://data.fotmob.com/tables.ext.937879.fot.gz",
+      "teams": [
+        1957,
+        8023
+      ],
+      "tournamentNameForUrl": "Ekstraklasa",
+      "parentLeagueId": 196,
+      "countryCode": "POL"
+    },
+    "h2h": false,
+    "momentum": false
+  },
+  "seo": {
+    "path": "jagiellonia-biaystok-vs-pogon-szczecin",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/5803943",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Jagiellonia Białystok",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1957.png",
+        "url": "https://www.fotmob.com/teams/1957/overview/jagiellonia-biaystok",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Pogoń Szczecin",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8023.png",
+        "url": "https://www.fotmob.com/teams/8023/overview/pogon-szczecin",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "Jagiellonia Białystok vs Pogoń Szczecin",
+      "description": "Follow Jagiellonia Białystok vs Pogoń Szczecin live on fotmob.com",
+      "startDate": "2026-12-16T17:00:00.000Z",
+      "endDate": "2026-12-16T19:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Chorten Arena",
+        "latitude": 53.106005818,
+        "longitude": 23.149094582,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Poland",
+          "addressLocality": "Białystok"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/1957.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/8023.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/5803943",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-12-16T17:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "Jagiellonia Białystok",
+          "url": "https://www.fotmob.com/teams/1957/overview/jagiellonia-biaystok"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "Pogoń Szczecin",
+          "url": "https://www.fotmob.com/teams/8023/overview/pogon-szczecin"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Ekstraklasa",
+            "item": "https://www.fotmob.com/leagues/196/overview/ekstraklasa"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Jagiellonia Białystok - Pogoń Szczecin",
+            "item": "https://www.fotmob.com/match/5803943"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Ekstraklasa",
+            "item": "https://www.fotmob.com/leagues/196/overview/ekstraklasa"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Pogoń Szczecin",
+            "item": "https://www.fotmob.com/teams/8023/overview/pogon-szczecin"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Jagiellonia Białystok - Pogoń Szczecin",
+            "item": "https://www.fotmob.com/match/5803943"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Ekstraklasa",
+            "item": "https://www.fotmob.com/leagues/196/overview/ekstraklasa"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Jagiellonia Białystok",
+            "item": "https://www.fotmob.com/teams/1957/overview/jagiellonia-biaystok"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Jagiellonia Białystok - Pogoń Szczecin",
+            "item": "https://www.fotmob.com/match/5803943"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

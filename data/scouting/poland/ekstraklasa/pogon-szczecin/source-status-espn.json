@@ -1,21 +1,46 @@
 {
   "source": "espn",
-  "status": "error",
-  "retrieved_at": "2026-09-04T03:25:44.861242+00:00",
-  "layers": {},
-  "records": {},
+  "status": "partial",
+  "retrieved_at": "2026-09-04T07:30:52.900387+00:00",
+  "layers": {
+    "matches": "available",
+    "team": "available",
+    "injuries": "available",
+    "record": "available",
+    "events": "available",
+    "stats": "pending"
+  },
+  "records": {
+    "schedule_events": 0,
+    "team": 1,
+    "injuries": 1,
+    "record": 1,
+    "match_summaries": 0
+  },
   "errors": [
+    {
+      "layer": "roster",
+      "error": "HTTP Error 400: Bad Request"
+    },
     {
       "layer": "competition",
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "layer": "team/matches",
+      "layer": "standings",
       "error": "HTTP Error 400: Bad Request"
     },
     {
       "layer": "news",
       "error": "HTTP Error 400: Bad Request"
     }
-  ]
+  ],
+  "routes_attempted": [
+    {
+      "path": "/all/teams/511/schedule?fixture=true",
+      "status": "success",
+      "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+    }
+  ],
+  "base_used": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
 }
