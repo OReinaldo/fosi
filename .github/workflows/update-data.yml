@@ -43,6 +43,8 @@ jobs:
         run: python engine/run_scout.py
       - name: Build RAW field dictionary
         run: python engine/build_data_dictionary.py
+      - name: Build source coverage matrix
+        run: python engine/build_source_coverage.py
       - name: Build normalized FOSI data layer
         run: python engine/normalize_sources.py
       - name: Test FOSI normalization
@@ -69,7 +71,7 @@ jobs:
         run: |
           git config user.name 'fosi-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/scouting/ data/fosi-data-dictionary.json dashboard/data.json
+          git add data/scouting/ data/fosi-data-dictionary.json data/source-coverage.json dashboard/data.json
           git diff --cached --quiet || git commit -m 'data: update active scouting dataset'
           git push
       - name: Configure Pages
@@ -81,4 +83,4 @@ jobs:
       - name: Deploy refreshed dashboard
         id: deployment
         uses: actions/deploy-pages@v4
-# FOSI pipeline: acquisition -> normalization -> tests -> scouting intelligence -> metrics -> publication -> validation -> Pages
+# FOSI pipeline: acquisition -> source coverage -> normalization -> tests -> scouting intelligence -> metrics -> publication -> validation -> Pages
