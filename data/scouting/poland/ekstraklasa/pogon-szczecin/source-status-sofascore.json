@@ -1,12 +1,13 @@
 {
   "source": "sofascore",
   "status": "partial",
-  "retrieved_at": "2026-09-04T11:37:16.060604+00:00",
+  "retrieved_at": "2026-09-04T14:13:07.058670+00:00",
   "layers": {
     "matches": "partial",
     "stats": "partial",
     "events": "partial",
-    "spatial": "partial"
+    "spatial": "partial",
+    "lineups": "partial"
   },
   "records": {
     "event": 0,
@@ -18,7 +19,7 @@
   },
   "errors": [
     {
-      "layer": "direct_api",
+      "layer": "direct_team_api",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -32,7 +33,9 @@
     "https://www.sofascore.com/api/v1"
   ],
   "browser_capture": {
-    "captured_endpoints": 0,
-    "match_links_visited": 0
+    "captured_match_layers": 0,
+    "unique_matches": 0,
+    "pages_visited": 0,
+    "candidate_pages": 0
   }
 }

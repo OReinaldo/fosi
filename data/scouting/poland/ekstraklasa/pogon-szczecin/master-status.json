@@ -1,18 +1,49 @@
 {
   "sources": [
     {
-      "source": "understat",
-      "retrieved_at": "2026-09-04T11:37:25.523176+00:00",
-      "layers": {},
-      "records": {},
+      "source": "espn",
+      "status": "success",
+      "retrieved_at": "2026-09-04T14:13:17.432595+00:00",
+      "layers": {
+        "matches": "available",
+        "team": "available",
+        "injuries": "available",
+        "record": "available",
+        "events": "available",
+        "stats": "available",
+        "play_by_play": "partial",
+        "probabilities": "partial",
+        "cdn": "partial"
+      },
+      "records": {
+        "schedule_events": 1,
+        "team": 1,
+        "injuries": 1,
+        "record": 1,
+        "match_summaries": 1,
+        "event": 0,
+        "competition": 0,
+        "plays": 0,
+        "situation": 0,
+        "probabilities": 0,
+        "predictor": 0,
+        "competitor_stats": 0,
+        "competitor_roster": 0,
+        "cdn_game": 0
+      },
       "errors": [],
-      "status": "not_applicable",
-      "reason": "competition is outside Understat supported league set"
+      "routes_attempted": [
+        {
+          "path": "/all/teams/511/schedule?limit=100&offset=0",
+          "status": "success",
+          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+        }
+      ]
     },
     {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-04T11:37:25.580280+00:00",
+      "retrieved_at": "2026-09-04T14:13:19.932869+00:00",
       "layers": {
         "news": "available",
         "standings": "available",
@@ -22,31 +53,45 @@
       "records": {
         "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": {
           "bytes": 215645,
-          "layer": "news"
+          "layer": "news",
+          "embedded_json_records": 0,
+          "links": 34
         },
         "https://ekstraklasa.org/en/tabela/": {
           "bytes": 336685,
-          "layer": "standings"
+          "layer": "standings",
+          "embedded_json_records": 0,
+          "links": 43
         },
         "https://ekstraklasa.org/statystyki/": {
-          "bytes": 1809281,
-          "layer": "stats"
+          "bytes": 1809238,
+          "layer": "stats",
+          "embedded_json_records": 0,
+          "links": 69
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/1-kolejka/": {
           "bytes": 312785,
-          "layer": "fixtures"
+          "layer": "fixtures",
+          "embedded_json_records": 0,
+          "links": 36
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/2-kolejka/": {
           "bytes": 316694,
-          "layer": "fixtures"
+          "layer": "fixtures",
+          "embedded_json_records": 0,
+          "links": 38
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/3-kolejka/": {
           "bytes": 323991,
-          "layer": "fixtures"
+          "layer": "fixtures",
+          "embedded_json_records": 0,
+          "links": 39
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/4-kolejka/": {
           "bytes": 325839,
-          "layer": "fixtures"
+          "layer": "fixtures",
+          "embedded_json_records": 0,
+          "links": 39
         }
       },
       "errors": [
@@ -55,12 +100,55 @@
           "layer": "context",
           "error": "HTTP Error 403: Forbidden"
         }
-      ]
+      ],
+      "structured_records": 0,
+      "links": 298
+    },
+    {
+      "source": "sofascore",
+      "status": "partial",
+      "retrieved_at": "2026-09-04T14:13:07.058670+00:00",
+      "layers": {
+        "matches": "partial",
+        "stats": "partial",
+        "events": "partial",
+        "spatial": "partial",
+        "lineups": "partial"
+      },
+      "records": {
+        "event": 0,
+        "statistics": 0,
+        "incidents": 0,
+        "lineups": 0,
+        "graph": 0,
+        "shotmap": 0
+      },
+      "errors": [
+        {
+          "layer": "direct_team_api",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "layer": "matches",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "attempted_bases": [
+        "https://api.sofascore.com/api/v1",
+        "https://www.sofascore.app/api/v1",
+        "https://www.sofascore.com/api/v1"
+      ],
+      "browser_capture": {
+        "captured_match_layers": 0,
+        "unique_matches": 0,
+        "pages_visited": 0,
+        "candidate_pages": 0
+      }
     },
     {
       "source": "fotmob",
       "status": "partial",
-      "retrieved_at": "2026-09-04T11:37:03.389644+00:00",
+      "retrieved_at": "2026-09-04T14:12:52.195529+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -187,147 +275,32 @@
       "team_id": "8023"
     },
     {
-      "source": "sofascore",
-      "status": "partial",
-      "retrieved_at": "2026-09-04T11:37:16.060604+00:00",
-      "layers": {
-        "matches": "partial",
-        "stats": "partial",
-        "events": "partial",
-        "spatial": "partial"
-      },
-      "records": {
-        "event": 0,
-        "statistics": 0,
-        "incidents": 0,
-        "lineups": 0,
-        "graph": 0,
-        "shotmap": 0
-      },
-      "errors": [
-        {
-          "layer": "direct_api",
-          "error": "HTTP Error 403: Forbidden"
-        },
-        {
-          "layer": "matches",
-          "error": "HTTP Error 403: Forbidden"
-        }
-      ],
-      "attempted_bases": [
-        "https://api.sofascore.com/api/v1",
-        "https://www.sofascore.app/api/v1",
-        "https://www.sofascore.com/api/v1"
-      ],
-      "browser_capture": {
-        "captured_endpoints": 0,
-        "match_links_visited": 0
-      }
-    },
-    {
-      "source": "espn",
-      "status": "partial",
-      "retrieved_at": "2026-09-04T11:37:24.191282+00:00",
-      "layers": {
-        "matches": "available",
-        "team": "available",
-        "injuries": "available",
-        "record": "available",
-        "events": "available",
-        "stats": "available"
-      },
-      "records": {
-        "schedule_events": 1,
-        "team": 1,
-        "injuries": 1,
-        "record": 1,
-        "match_summaries": 1
-      },
-      "errors": [
-        {
-          "layer": "roster",
-          "error": "HTTP Error 400: Bad Request"
-        },
-        {
-          "layer": "teams",
-          "error": "HTTP Error 404: Not Found"
-        },
-        {
-          "layer": "standings",
-          "error": "HTTP Error 400: Bad Request"
-        },
-        {
-          "layer": "news",
-          "error": "HTTP Error 400: Bad Request"
-        }
-      ],
-      "routes_attempted": [
-        {
-          "path": "/all/teams/511/schedule?limit=100&offset=0",
-          "status": "success",
-          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
-        },
-        {
-          "path": "/all/teams/511/schedule?limit=100&offset=100",
-          "status": "success",
-          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
-        },
-        {
-          "path": "/all/teams/511/schedule?limit=100&offset=200",
-          "status": "success",
-          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
-        },
-        {
-          "path": "/all/teams/511/schedule?limit=100&offset=300",
-          "status": "success",
-          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
-        },
-        {
-          "path": "/all/teams/511/schedule?limit=100&offset=400",
-          "status": "success",
-          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
-        },
-        {
-          "path": "/all/teams/511/schedule?limit=100&offset=500",
-          "status": "success",
-          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
-        },
-        {
-          "path": "/all/teams/511/schedule?limit=100&offset=600",
-          "status": "success",
-          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
-        },
-        {
-          "path": "/all/teams/511/schedule?limit=100&offset=700",
-          "status": "success",
-          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
-        },
-        {
-          "path": "/all/teams/511/schedule?limit=100&offset=800",
-          "status": "success",
-          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
-        },
-        {
-          "path": "/all/teams/511/schedule?limit=100&offset=900",
-          "status": "success",
-          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
-        }
-      ]
+      "source": "understat",
+      "retrieved_at": "2026-09-04T14:13:19.869970+00:00",
+      "layers": {},
+      "records": {},
+      "errors": [],
+      "status": "not_applicable",
+      "reason": "competition is outside Understat supported league set"
     }
   ],
   "layers": {
+    "matches": "available",
+    "team": "available",
+    "injuries": "available",
+    "record": "available",
+    "events": "available",
+    "stats": "available",
+    "play_by_play": "partial",
+    "probabilities": "partial",
+    "cdn": "partial",
     "news": "available",
     "standings": "available",
-    "stats": "available",
     "fixtures": "available",
-    "team": "available",
-    "players": "available",
-    "competition": "available",
-    "matches": "available",
-    "events": "available",
     "spatial": "available",
-    "injuries": "available",
-    "record": "available"
+    "lineups": "partial",
+    "players": "available",
+    "competition": "available"
   },
   "target": {
     "enabled": true,
@@ -358,7 +331,7 @@
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-04T11:37:35.074826+00:00",
+  "updated_at": "2026-09-04T14:13:23.709097+00:00",
   "update_mode": "incremental",
   "collectors": [
     {

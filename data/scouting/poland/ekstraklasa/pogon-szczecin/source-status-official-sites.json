@@ -1,7 +1,7 @@
 {
   "source": "official-sites",
   "status": "partial",
-  "retrieved_at": "2026-09-04T11:37:25.580280+00:00",
+  "retrieved_at": "2026-09-04T14:13:19.932869+00:00",
   "layers": {
     "news": "available",
     "standings": "available",
@@ -11,31 +11,45 @@
   "records": {
     "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": {
       "bytes": 215645,
-      "layer": "news"
+      "layer": "news",
+      "embedded_json_records": 0,
+      "links": 34
     },
     "https://ekstraklasa.org/en/tabela/": {
       "bytes": 336685,
-      "layer": "standings"
+      "layer": "standings",
+      "embedded_json_records": 0,
+      "links": 43
     },
     "https://ekstraklasa.org/statystyki/": {
-      "bytes": 1809281,
-      "layer": "stats"
+      "bytes": 1809238,
+      "layer": "stats",
+      "embedded_json_records": 0,
+      "links": 69
     },
     "https://ekstraklasa.org/en/schedule/2026-2027/1-kolejka/": {
       "bytes": 312785,
-      "layer": "fixtures"
+      "layer": "fixtures",
+      "embedded_json_records": 0,
+      "links": 36
     },
     "https://ekstraklasa.org/en/schedule/2026-2027/2-kolejka/": {
       "bytes": 316694,
-      "layer": "fixtures"
+      "layer": "fixtures",
+      "embedded_json_records": 0,
+      "links": 38
     },
     "https://ekstraklasa.org/en/schedule/2026-2027/3-kolejka/": {
       "bytes": 323991,
-      "layer": "fixtures"
+      "layer": "fixtures",
+      "embedded_json_records": 0,
+      "links": 39
     },
     "https://ekstraklasa.org/en/schedule/2026-2027/4-kolejka/": {
       "bytes": 325839,
-      "layer": "fixtures"
+      "layer": "fixtures",
+      "embedded_json_records": 0,
+      "links": 39
     }
   },
   "errors": [
@@ -44,5 +58,7 @@
       "layer": "context",
       "error": "HTTP Error 403: Forbidden"
     }
-  ]
+  ],
+  "structured_records": 0,
+  "links": 298
 }

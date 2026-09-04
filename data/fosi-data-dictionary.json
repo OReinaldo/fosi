@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-04T11:37:35.365686+00:00",
+  "generated_at": "2026-09-04T14:13:24.004748+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -8,7 +8,7 @@
     "team_id": "pogon-szczecin"
   },
   "method": "observed-from-raw",
-  "files_seen": 104,
+  "files_seen": 111,
   "source_files": [
     "espn/events.json",
     "espn/injuries.json",
@@ -113,21 +113,29 @@
     "fotmob/players/833697.json",
     "fotmob/players/949336.json",
     "fotmob/team.json",
-    "fotmob/transfers.json"
+    "fotmob/transfers.json",
+    "sites/site-1.links.json",
+    "sites/site-2.links.json",
+    "sites/site-3.links.json",
+    "sites/site-4.links.json",
+    "sites/site-5.links.json",
+    "sites/site-6.links.json",
+    "sites/site-7.links.json"
   ],
   "fields": [
     {
       "path": "$",
       "types": {
-        "object": 72,
+        "object": 79,
         "null": 32
       },
-      "occurrences": 104,
+      "occurrences": 111,
       "sources": [
         "espn",
-        "fotmob"
+        "fotmob",
+        "sites"
       ],
-      "file_count": 104,
+      "file_count": 111,
       "example": "None"
     },
     {
@@ -190560,7 +190568,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7136"
+      "example": "7156"
     },
     {
       "path": "$.id",
@@ -192818,6 +192826,30 @@
       ],
       "file_count": 1,
       "example": "s:600~t:436"
+    },
+    {
+      "path": "$.links",
+      "types": {
+        "array": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "sites"
+      ],
+      "file_count": 7,
+      "example": null
+    },
+    {
+      "path": "$.links[]",
+      "types": {
+        "string": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "sites"
+      ],
+      "file_count": 7,
+      "example": "https://ekstraklasa.org/en/"
     },
     {
       "path": "$.mainLeague",
@@ -199529,7 +199561,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-118"
+      "example": "-105"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
@@ -199541,7 +199573,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.85"
+      "example": "1.95"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
@@ -199553,7 +199585,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "17/20"
+      "example": "20/21"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
@@ -199757,7 +199789,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-118"
+      "example": "-105"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
@@ -199769,7 +199801,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.85"
+      "example": "1.95"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
@@ -199781,7 +199813,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "17/20"
+      "example": "20/21"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
@@ -216516,6 +216548,18 @@
       "example": "ekstraklasa"
     },
     {
+      "path": "$.source_url",
+      "types": {
+        "string": 7
+      },
+      "occurrences": 7,
+      "sources": [
+        "sites"
+      ],
+      "file_count": 7,
+      "example": "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/"
+    },
+    {
       "path": "$.squad",
       "types": {
         "object": 1
@@ -226594,7 +226638,7 @@
         "espn"
       ],
       "file_count": 10,
-      "example": "2026-09-04T11:37:24Z"
+      "example": "2026-09-04T14:12:44Z"
     },
     {
       "path": "$.to",
@@ -228397,7 +228441,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Braga"
+      "example": "Lechia Gdańsk"
     },
     {
       "path": "$.transfers.data[].fromClubFullName",
@@ -228409,7 +228453,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Braga"
+      "example": "Lechia Gdańsk"
     },
     {
       "path": "$.transfers.data[].fromClubId",
@@ -228421,7 +228465,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "10264"
+      "example": "8030"
     },
     {
       "path": "$.transfers.data[].fromDate",
@@ -228433,7 +228477,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-03T00:00:00Z"
+      "example": "2026-09-04T00:00:00Z"
     },
     {
       "path": "$.transfers.data[].marketValue",
@@ -228445,7 +228489,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1244516"
+      "example": "525736"
     },
     {
       "path": "$.transfers.data[].name",
@@ -228457,7 +228501,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Bartlomiej Wdowik"
+      "example": "Bogdan Vyunnyk"
     },
     {
       "path": "$.transfers.data[].onLoan",
@@ -228481,7 +228525,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1132121"
+      "example": "1198355"
     },
     {
       "path": "$.transfers.data[].position",
@@ -228505,7 +228549,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "leftback_short"
+      "example": "striker_short"
     },
     {
       "path": "$.transfers.data[].position.label",
@@ -228517,7 +228561,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "LB"
+      "example": "ST"
     },
     {
       "path": "$.transfers.data[].toClub",
@@ -228529,7 +228573,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Jagiellonia Białystok"
+      "example": "Legia Warszawa"
     },
     {
       "path": "$.transfers.data[].toClubFullName",
@@ -228541,7 +228585,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Jagiellonia Białystok"
+      "example": "Legia Warszawa"
     },
     {
       "path": "$.transfers.data[].toClubId",
@@ -228553,7 +228597,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1957"
+      "example": "8673"
     },
     {
       "path": "$.transfers.data[].toDate",
@@ -228577,7 +228621,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-03T11:31:42Z"
+      "example": "2026-09-04T13:38:38Z"
     },
     {
       "path": "$.transfers.data[].transferText",
@@ -228733,7 +228777,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "free transfer"
+      "example": "fee"
     },
     {
       "path": "$.transfers[].fee.localizedFeeText",
@@ -228745,7 +228789,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "transfer_type_free_transfer"
+      "example": "transfer_fee"
+    },
+    {
+      "path": "$.transfers[].fee.value",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "5000000"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -228757,7 +228813,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "Saint-Étienne"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -228769,7 +228825,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "Saint-Étienne"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -228781,7 +228837,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2"
+      "example": "9853"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -228793,7 +228849,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-04T00:00:00Z"
+      "example": "2027-01-01T00:00:00Z"
     },
     {
       "path": "$.transfers[].marketValue",
@@ -228805,7 +228861,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "454440"
+      "example": "2690248"
     },
     {
       "path": "$.transfers[].name",
@@ -228817,7 +228873,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Nick Shinton"
+      "example": "Djylian N'Guessan"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -228841,7 +228897,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1073462"
+      "example": "1703371"
     },
     {
       "path": "$.transfers[].position",
@@ -228865,7 +228921,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "keeper"
+      "example": "striker_short"
     },
     {
       "path": "$.transfers[].position.label",
@@ -228877,7 +228933,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "GK"
+      "example": "ST"
     },
     {
       "path": "$.transfers[].toClub",
@@ -228889,7 +228945,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Sønderjyske"
+      "example": "Liverpool"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -228901,7 +228957,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Sønderjyske"
+      "example": "Liverpool"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -228913,19 +228969,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8487"
+      "example": "8650"
     },
     {
       "path": "$.transfers[].toDate",
       "types": {
-        "string": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2029-06-30T00:00:00Z"
+      "example": "None"
     },
     {
       "path": "$.transfers[].transferDate",
@@ -228937,7 +228993,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-04T13:24:37Z"
+      "example": "2026-09-04T15:59:21Z"
     },
     {
       "path": "$.transfers[].transferText",
