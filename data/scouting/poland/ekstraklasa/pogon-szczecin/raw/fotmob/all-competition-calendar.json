@@ -1,34 +1,36 @@
 {
   "team_id": "8023",
-  "from": "2026-07-01",
+  "from": "2026-08-28",
   "to": "2026-10-04",
   "matches": [
     {
       "id": 5904696,
-      "leagueId": 915708,
-      "time": "11.07.2026 19:30",
+      "pageUrl": "/matches/pogon-szczecin-vs-fenerbahce/2b7log#5904696",
+      "opponent": {
+        "id": 8695,
+        "name": "Fenerbahçe",
+        "score": 4
+      },
       "home": {
         "id": 8695,
-        "score": 4,
         "name": "Fenerbahçe",
-        "longName": "Fenerbahçe"
+        "score": 4
       },
       "away": {
         "id": 8023,
-        "score": 0,
         "name": "Pogoń Szczecin",
-        "longName": "Pogoń Szczecin"
+        "score": 0
       },
-      "eliminatedTeamId": null,
-      "statusId": 6,
-      "tournamentStage": "1",
+      "displayTournament": true,
+      "result": -1,
+      "notStarted": false,
+      "tournament": {
+        "name": "Club Friendlies",
+        "stage": "",
+        "leagueId": 489
+      },
       "status": {
         "utcTime": "2026-07-11T17:30:00.000Z",
-        "halfs": {
-          "firstHalfStarted": "11.07.2026 19:32:25",
-          "secondHalfStarted": "11.07.2026 20:35:13"
-        },
-        "periodLength": 45,
         "finished": true,
         "started": true,
         "cancelled": false,
@@ -40,35 +42,36 @@
           "long": "Full-Time",
           "longKey": "finished"
         }
-      },
-      "timeTS": 1783791000000
+      }
     },
     {
       "id": 5803899,
-      "leagueId": 937879,
-      "time": "24.07.2026 20:30",
+      "pageUrl": "/matches/pogon-szczecin-vs-legia-warszawa/2azq1p#5803899",
+      "opponent": {
+        "id": 8673,
+        "name": "Legia Warszawa",
+        "score": 1
+      },
       "home": {
         "id": 8023,
-        "score": 0,
         "name": "Pogoń Szczecin",
-        "longName": "Pogoń Szczecin"
+        "score": 0
       },
       "away": {
         "id": 8673,
-        "score": 1,
         "name": "Legia Warszawa",
-        "longName": "Legia Warszawa"
+        "score": 1
       },
-      "eliminatedTeamId": null,
-      "statusId": 6,
-      "tournamentStage": "1",
+      "displayTournament": false,
+      "result": -1,
+      "notStarted": false,
+      "tournament": {
+        "name": "Ekstraklasa",
+        "stage": "",
+        "leagueId": 196
+      },
       "status": {
         "utcTime": "2026-07-24T18:30:00.000Z",
-        "halfs": {
-          "firstHalfStarted": "24.07.2026 20:33:56",
-          "secondHalfStarted": "24.07.2026 21:40:38"
-        },
-        "periodLength": 45,
         "finished": true,
         "started": true,
         "cancelled": false,
@@ -80,35 +83,36 @@
           "long": "Full-Time",
           "longKey": "finished"
         }
-      },
-      "timeTS": 1784917800000
+      }
     },
     {
       "id": 5803923,
-      "leagueId": 937879,
-      "time": "03.08.2026 19:00",
+      "pageUrl": "/matches/cracovia-vs-pogon-szczecin/v17vs#5803923",
+      "opponent": {
+        "id": 2186,
+        "name": "Cracovia",
+        "score": 0
+      },
       "home": {
         "id": 2186,
-        "score": 0,
         "name": "Cracovia",
-        "longName": "Cracovia"
+        "score": 0
       },
       "away": {
         "id": 8023,
-        "score": 2,
         "name": "Pogoń Szczecin",
-        "longName": "Pogoń Szczecin"
+        "score": 2
       },
-      "eliminatedTeamId": null,
-      "statusId": 6,
-      "tournamentStage": "2",
+      "displayTournament": false,
+      "result": 1,
+      "notStarted": false,
+      "tournament": {
+        "name": "Ekstraklasa",
+        "stage": "",
+        "leagueId": 196
+      },
       "status": {
         "utcTime": "2026-08-03T17:00:00.000Z",
-        "halfs": {
-          "firstHalfStarted": "03.08.2026 19:05:22",
-          "secondHalfStarted": "03.08.2026 20:09:29"
-        },
-        "periodLength": 45,
         "finished": true,
         "started": true,
         "cancelled": false,
@@ -120,35 +124,36 @@
           "long": "Full-Time",
           "longKey": "finished"
         }
-      },
-      "timeTS": 1785776400000
+      }
     },
     {
       "id": 5803936,
-      "leagueId": 937879,
-      "time": "08.08.2026 17:30",
+      "pageUrl": "/matches/pogon-szczecin-vs-motor-lublin/26lbxv7#5803936",
+      "opponent": {
+        "id": 89466,
+        "name": "Motor Lublin",
+        "score": 1
+      },
       "home": {
         "id": 8023,
-        "score": 3,
         "name": "Pogoń Szczecin",
-        "longName": "Pogoń Szczecin"
+        "score": 3
       },
       "away": {
         "id": 89466,
-        "score": 1,
         "name": "Motor Lublin",
-        "longName": "Motor Lublin"
+        "score": 1
       },
-      "eliminatedTeamId": null,
-      "statusId": 6,
-      "tournamentStage": "3",
+      "displayTournament": false,
+      "result": 1,
+      "notStarted": false,
+      "tournament": {
+        "name": "Ekstraklasa",
+        "stage": "",
+        "leagueId": 196
+      },
       "status": {
         "utcTime": "2026-08-08T15:30:00.000Z",
-        "halfs": {
-          "firstHalfStarted": "08.08.2026 17:30:41",
-          "secondHalfStarted": "08.08.2026 18:37:32"
-        },
-        "periodLength": 45,
         "finished": true,
         "started": true,
         "cancelled": false,
@@ -160,72 +165,36 @@
           "long": "Full-Time",
           "longKey": "finished"
         }
-      },
-      "timeTS": 1786203000000
-    },
-    {
-      "id": 5803943,
-      "leagueId": 937879,
-      "time": "16.08.2026 17:30",
-      "home": {
-        "id": 1957,
-        "score": 0,
-        "name": "Jagiellonia Białystok",
-        "longName": "Jagiellonia Białystok"
-      },
-      "away": {
-        "id": 8023,
-        "score": 0,
-        "name": "Pogoń Szczecin",
-        "longName": "Pogoń Szczecin"
-      },
-      "eliminatedTeamId": null,
-      "statusId": 5,
-      "tournamentStage": "4",
-      "status": {
-        "utcTime": "2026-08-16T15:30:00.000Z",
-        "halfs": {
-          "firstHalfStarted": "16.08.2026 17:30:00"
-        },
-        "periodLength": 45,
-        "cancelled": true,
-        "started": false,
-        "finished": false,
-        "reason": {
-          "short": "PP",
-          "shortKey": "postponed_short",
-          "long": "Postponed",
-          "longKey": "postponed"
-        }
-      },
-      "timeTS": 1786894200000
+      }
     },
     {
       "id": 5803955,
-      "leagueId": 937879,
-      "time": "23.08.2026 20:15",
+      "pageUrl": "/matches/pogon-szczecin-vs-wisa-krakow/2rkl8v#5803955",
+      "opponent": {
+        "id": 10265,
+        "name": "Wisła Kraków",
+        "score": 2
+      },
       "home": {
         "id": 8023,
-        "score": 2,
         "name": "Pogoń Szczecin",
-        "longName": "Pogoń Szczecin"
+        "score": 2
       },
       "away": {
         "id": 10265,
-        "score": 2,
         "name": "Wisła Kraków",
-        "longName": "Wisła Kraków"
+        "score": 2
       },
-      "eliminatedTeamId": null,
-      "statusId": 6,
-      "tournamentStage": "5",
+      "displayTournament": false,
+      "result": 0,
+      "notStarted": false,
+      "tournament": {
+        "name": "Ekstraklasa",
+        "stage": "",
+        "leagueId": 196
+      },
       "status": {
         "utcTime": "2026-08-23T18:15:00.000Z",
-        "halfs": {
-          "firstHalfStarted": "23.08.2026 20:18:57",
-          "secondHalfStarted": "23.08.2026 21:27:33"
-        },
-        "periodLength": 45,
         "finished": true,
         "started": true,
         "cancelled": false,
@@ -237,8 +206,7 @@
           "long": "Full-Time",
           "longKey": "finished"
         }
-      },
-      "timeTS": 1787508900000
+      }
     },
     {
       "id": 5803967,
@@ -674,6 +642,38 @@
         "utcTime": "2026-12-12T17:00:00.000Z",
         "matchDateTbd": true,
         "matchTimeTbd": false,
+        "started": false,
+        "cancelled": false,
+        "finished": false
+      }
+    },
+    {
+      "id": 5803943,
+      "pageUrl": "/matches/jagiellonia-biaystok-vs-pogon-szczecin/tno4d#5803943",
+      "opponent": {
+        "id": 1957,
+        "name": "Jagiellonia Białystok",
+        "score": 0
+      },
+      "home": {
+        "id": 1957,
+        "name": "Jagiellonia Białystok",
+        "score": 0
+      },
+      "away": {
+        "id": 8023,
+        "name": "Pogoń Szczecin",
+        "score": 0
+      },
+      "displayTournament": false,
+      "notStarted": true,
+      "tournament": {
+        "name": "Ekstraklasa",
+        "stage": "",
+        "leagueId": 196
+      },
+      "status": {
+        "utcTime": "2026-12-16T17:00:00.000Z",
         "started": false,
         "cancelled": false,
         "finished": false

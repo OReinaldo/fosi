@@ -3,21 +3,21 @@
     {
       "source": "espn",
       "status": "partial",
-      "retrieved_at": "2026-09-04T07:30:52.900387+00:00",
+      "retrieved_at": "2026-09-04T09:46:43.910234+00:00",
       "layers": {
         "matches": "available",
         "team": "available",
         "injuries": "available",
         "record": "available",
         "events": "available",
-        "stats": "pending"
+        "stats": "available"
       },
       "records": {
-        "schedule_events": 0,
+        "schedule_events": 1,
         "team": 1,
         "injuries": 1,
         "record": 1,
-        "match_summaries": 0
+        "match_summaries": 1
       },
       "errors": [
         {
@@ -25,7 +25,7 @@
           "error": "HTTP Error 400: Bad Request"
         },
         {
-          "layer": "competition",
+          "layer": "teams",
           "error": "HTTP Error 404: Not Found"
         },
         {
@@ -39,17 +39,16 @@
       ],
       "routes_attempted": [
         {
-          "path": "/all/teams/511/schedule?fixture=true",
+          "path": "/all/teams/511/schedule",
           "status": "success",
           "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
         }
-      ],
-      "base_used": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+      ]
     },
     {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-04T07:30:54.336281+00:00",
+      "retrieved_at": "2026-09-04T09:46:45.214872+00:00",
       "layers": {
         "news": "available",
         "standings": "available",
@@ -58,7 +57,7 @@
       },
       "records": {
         "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": {
-          "bytes": 215229,
+          "bytes": 215555,
           "layer": "news"
         },
         "https://ekstraklasa.org/en/tabela/": {
@@ -70,7 +69,7 @@
           "layer": "stats"
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/1-kolejka/": {
-          "bytes": 312785,
+          "bytes": 312742,
           "layer": "fixtures"
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/2-kolejka/": {
@@ -78,11 +77,11 @@
           "layer": "fixtures"
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/3-kolejka/": {
-          "bytes": 323948,
+          "bytes": 323991,
           "layer": "fixtures"
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/4-kolejka/": {
-          "bytes": 325839,
+          "bytes": 325796,
           "layer": "fixtures"
         }
       },
@@ -97,7 +96,7 @@
     {
       "source": "sofascore",
       "status": "error",
-      "retrieved_at": "2026-09-04T07:30:52.512143+00:00",
+      "retrieved_at": "2026-09-04T09:46:43.633999+00:00",
       "team": "Pogoń Szczecin",
       "layers": {},
       "records": {},
@@ -115,7 +114,7 @@
     {
       "source": "fotmob",
       "status": "partial",
-      "retrieved_at": "2026-09-04T07:30:16.302116+00:00",
+      "retrieved_at": "2026-09-04T09:46:30.835701+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -132,14 +131,14 @@
         "player_matches": 0,
         "player_matches_skipped_existing": 0,
         "transfers": 1,
-        "date_scanned_matches": 10,
-        "date_scan_from": "2026-07-01",
+        "date_scanned_matches": 4,
+        "date_scan_from": "2026-08-28",
         "date_scan_to": "2026-10-04",
         "matches": 35,
-        "match_details": 29,
-        "match_details_skipped_existing": 6,
+        "match_details": 0,
+        "match_details_skipped_existing": 35,
         "heatmaps": 0,
-        "livetickers": 29
+        "livetickers": 0
       },
       "errors": [
         {
@@ -243,7 +242,7 @@
     },
     {
       "source": "understat",
-      "retrieved_at": "2026-09-04T07:30:54.275730+00:00",
+      "retrieved_at": "2026-09-04T09:46:45.158766+00:00",
       "layers": {},
       "records": {},
       "errors": [],
@@ -294,7 +293,7 @@
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-04T07:30:59.156001+00:00",
+  "updated_at": "2026-09-04T09:46:50.039234+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
