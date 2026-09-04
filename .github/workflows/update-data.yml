@@ -13,6 +13,9 @@ permissions:
   contents: write
   pages: write
   id-token: write
+concurrency:
+  group: fosi-scouting-update
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
