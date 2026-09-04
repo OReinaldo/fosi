@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-04T14:13:24.004748+00:00",
+  "generated_at": "2026-09-04T14:50:47.405285+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -8,7 +8,7 @@
     "team_id": "pogon-szczecin"
   },
   "method": "observed-from-raw",
-  "files_seen": 111,
+  "files_seen": 117,
   "source_files": [
     "espn/events.json",
     "espn/injuries.json",
@@ -114,6 +114,12 @@
     "fotmob/players/949336.json",
     "fotmob/team.json",
     "fotmob/transfers.json",
+    "fotmob/videos/5803899.json",
+    "fotmob/videos/5803923.json",
+    "fotmob/videos/5803936.json",
+    "fotmob/videos/5803955.json",
+    "fotmob/videos/5803967.json",
+    "fotmob/videos/5904696.json",
     "sites/site-1.links.json",
     "sites/site-2.links.json",
     "sites/site-3.links.json",
@@ -126,16 +132,16 @@
     {
       "path": "$",
       "types": {
-        "object": 79,
+        "object": 85,
         "null": 32
       },
-      "occurrences": 111,
+      "occurrences": 117,
       "sources": [
         "espn",
         "fotmob",
         "sites"
       ],
-      "file_count": 111,
+      "file_count": 117,
       "example": "None"
     },
     {
@@ -193105,6 +193111,18 @@
       "example": "320000"
     },
     {
+      "path": "$.match_id",
+      "types": {
+        "string": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "5803899"
+    },
+    {
       "path": "$.matches",
       "types": {
         "array": 1
@@ -199561,7 +199579,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-105"
+      "example": "-111"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
@@ -199573,7 +199591,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.95"
+      "example": "1.90"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
@@ -199585,7 +199603,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "20/21"
+      "example": "9/10"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
@@ -199789,7 +199807,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-105"
+      "example": "-111"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
@@ -199801,7 +199819,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.95"
+      "example": "1.90"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
@@ -199813,7 +199831,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "20/21"
+      "example": "9/10"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
@@ -226638,7 +226656,7 @@
         "espn"
       ],
       "file_count": 10,
-      "example": "2026-09-04T14:12:44Z"
+      "example": "2026-09-04T14:50:16Z"
     },
     {
       "path": "$.to",
@@ -229251,14 +229269,99 @@
     {
       "path": "$.videos",
       "types": {
-        "array": 1
+        "array": 7
       },
-      "occurrences": 1,
+      "occurrences": 7,
       "sources": [
-        "espn"
+        "espn",
+        "fotmob"
       ],
-      "file_count": 1,
+      "file_count": 7,
       "example": null
+    },
+    {
+      "path": "$.videos[]",
+      "types": {
+        "object": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": null
+    },
+    {
+      "path": "$.videos[].asset_type",
+      "types": {
+        "string": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "highlight"
+    },
+    {
+      "path": "$.videos[].match_id",
+      "types": {
+        "string": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "5803899"
+    },
+    {
+      "path": "$.videos[].raw_path",
+      "types": {
+        "string": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "content.matchFacts.highlights"
+    },
+    {
+      "path": "$.videos[].source",
+      "types": {
+        "string": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "www.youtube.com"
+    },
+    {
+      "path": "$.videos[].thumbnail",
+      "types": {
+        "string": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "https://i.ytimg.com/vi/HxAxyfLfwPg/maxresdefault.jpg"
+    },
+    {
+      "path": "$.videos[].url",
+      "types": {
+        "string": 6
+      },
+      "occurrences": 6,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 6,
+      "example": "https://www.youtube.com/watch?v=HxAxyfLfwPg"
     },
     {
       "path": "$.wallclockAvailable",

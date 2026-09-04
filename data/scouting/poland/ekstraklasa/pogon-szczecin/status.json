@@ -3,7 +3,7 @@
     {
       "source": "espn",
       "status": "success",
-      "retrieved_at": "2026-09-04T14:13:17.432595+00:00",
+      "retrieved_at": "2026-09-04T14:50:40.661782+00:00",
       "layers": {
         "matches": "available",
         "team": "available",
@@ -43,7 +43,7 @@
     {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-04T14:13:19.932869+00:00",
+      "retrieved_at": "2026-09-04T14:50:41.969962+00:00",
       "layers": {
         "news": "available",
         "standings": "available",
@@ -52,7 +52,7 @@
       },
       "records": {
         "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": {
-          "bytes": 215645,
+          "bytes": 215229,
           "layer": "news",
           "embedded_json_records": 0,
           "links": 34
@@ -64,7 +64,7 @@
           "links": 43
         },
         "https://ekstraklasa.org/statystyki/": {
-          "bytes": 1809238,
+          "bytes": 1809281,
           "layer": "stats",
           "embedded_json_records": 0,
           "links": 69
@@ -76,7 +76,7 @@
           "links": 36
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/2-kolejka/": {
-          "bytes": 316694,
+          "bytes": 316651,
           "layer": "fixtures",
           "embedded_json_records": 0,
           "links": 38
@@ -107,13 +107,14 @@
     {
       "source": "sofascore",
       "status": "partial",
-      "retrieved_at": "2026-09-04T14:13:07.058670+00:00",
+      "retrieved_at": "2026-09-04T14:50:30.402398+00:00",
       "layers": {
         "matches": "partial",
         "stats": "partial",
         "events": "partial",
         "spatial": "partial",
-        "lineups": "partial"
+        "lineups": "partial",
+        "video": "unavailable"
       },
       "records": {
         "event": 0,
@@ -121,7 +122,8 @@
         "incidents": 0,
         "lineups": 0,
         "graph": 0,
-        "shotmap": 0
+        "shotmap": 0,
+        "media": 0
       },
       "errors": [
         {
@@ -148,7 +150,7 @@
     {
       "source": "fotmob",
       "status": "partial",
-      "retrieved_at": "2026-09-04T14:12:52.195529+00:00",
+      "retrieved_at": "2026-09-04T14:50:16.433113+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -156,7 +158,8 @@
         "matches": "available",
         "stats": "available",
         "events": "available",
-        "spatial": "available"
+        "spatial": "available",
+        "video": "available"
       },
       "records": {
         "team": 1,
@@ -172,7 +175,9 @@
         "match_details": 0,
         "match_details_skipped_existing": 35,
         "heatmaps": 0,
-        "livetickers": 0
+        "livetickers": 0,
+        "videos": 6,
+        "event_video_refs": 0
       },
       "errors": [
         {
@@ -276,7 +281,7 @@
     },
     {
       "source": "understat",
-      "retrieved_at": "2026-09-04T14:13:19.869970+00:00",
+      "retrieved_at": "2026-09-04T14:50:41.905285+00:00",
       "layers": {},
       "records": {},
       "errors": [],
@@ -299,6 +304,7 @@
     "fixtures": "available",
     "spatial": "available",
     "lineups": "partial",
+    "video": "available",
     "players": "available",
     "competition": "available"
   },
@@ -331,7 +337,7 @@
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-04T14:13:23.709097+00:00",
+  "updated_at": "2026-09-04T14:50:47.112076+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
@@ -365,5 +371,5 @@
       "stderr": ""
     }
   ],
-  "data_score": 90
+  "data_score": 100
 }
