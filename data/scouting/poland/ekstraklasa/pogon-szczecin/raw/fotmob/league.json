@@ -1409,13 +1409,13 @@
               "pts": 15,
               "teamId": 8673,
               "teamName": "Legia Warszawa",
-              "xg": 13.648499965667725,
+              "xg": 13.502099990844727,
               "xgConceded": 8.11699989438057,
-              "xPoints": 13.572228714450738,
+              "xPoints": 13.476652499488573,
               "position": 1,
-              "xgDiff": 1.3515000343322754,
+              "xgDiff": 1.4979000091552734,
               "xgConcededDiff": -2.1169998943805695,
-              "xPointsDiff": 1.4277712855492624,
+              "xPointsDiff": 1.5233475005114272,
               "xPosition": 1,
               "idx": 1,
               "xPositionDiff": 0,
@@ -1545,12 +1545,12 @@
               "teamId": 89466,
               "teamName": "Motor Lublin",
               "xg": 10.823100090026855,
-              "xgConceded": 12.46019995212555,
-              "xPoints": 8.69195485782884,
+              "xgConceded": 12.313799977302551,
+              "xPoints": 8.775444775359203,
               "position": 6,
               "xgDiff": -2.8231000900268555,
-              "xgConcededDiff": 0.5398000478744507,
-              "xPointsDiff": -3.69195485782884,
+              "xgConcededDiff": 0.6862000226974487,
+              "xPointsDiff": -3.775444775359203,
               "xPosition": 6,
               "idx": 6,
               "xPositionDiff": 9,
@@ -9612,13 +9612,13 @@
                 "pts": 15,
                 "teamId": 8673,
                 "teamName": "Legia Warszawa",
-                "xg": 13.648499965667725,
+                "xg": 13.502099990844727,
                 "xgConceded": 8.11699989438057,
-                "xPoints": 13.572228714450738,
+                "xPoints": 13.476652499488573,
                 "position": 1,
-                "xgDiff": 1.3515000343322754,
+                "xgDiff": 1.4979000091552734,
                 "xgConcededDiff": -2.1169998943805695,
-                "xPointsDiff": 1.4277712855492624,
+                "xPointsDiff": 1.5233475005114272,
                 "xPosition": 1,
                 "idx": 1,
                 "xPositionDiff": 0,
@@ -9748,12 +9748,12 @@
                 "teamId": 89466,
                 "teamName": "Motor Lublin",
                 "xg": 10.823100090026855,
-                "xgConceded": 12.46019995212555,
-                "xPoints": 8.69195485782884,
+                "xgConceded": 12.313799977302551,
+                "xPoints": 8.775444775359203,
                 "position": 6,
                 "xgDiff": -2.8231000900268555,
-                "xgConcededDiff": 0.5398000478744507,
-                "xPointsDiff": -3.69195485782884,
+                "xgConcededDiff": 0.6862000226974487,
+                "xPointsDiff": -3.775444775359203,
                 "xPosition": 6,
                 "idx": 6,
                 "xPositionDiff": 9,
@@ -31296,12 +31296,12 @@
       {
         "header": "Expected goals (xG) per 90",
         "participant": {
-          "id": 1660227,
-          "name": "Jakub Zewlakow",
+          "id": 200601,
+          "name": "Mikael Ishak",
           "rank": 1,
-          "ccode": "POL",
-          "teamId": 8673,
-          "teamName": "Legia Warsaw",
+          "ccode": "SWE",
+          "teamId": 2182,
+          "teamName": "Lech Poznań",
           "value": 0.89,
           "stat": {
             "name": "expected_goals_per_90",
@@ -31313,30 +31313,9 @@
         "fetchAllUrl": "https://data.fotmob.com/stats/196/season/37304/expected_goals_per_90.json",
         "topThree": [
           {
-            "id": 1660227,
-            "name": "Jakub Zewlakow",
-            "rank": 1,
-            "ccode": "POL",
-            "teamId": 8673,
-            "teamName": "Legia Warsaw",
-            "value": 0.89,
-            "stat": {
-              "name": "expected_goals_per_90",
-              "value": 0.89,
-              "format": "fraction",
-              "fractions": 2
-            },
-            "teamColors": {
-              "darkMode": "#ffffff",
-              "lightMode": "#009445",
-              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
             "id": 200601,
             "name": "Mikael Ishak",
-            "rank": 2,
+            "rank": 1,
             "ccode": "SWE",
             "teamId": 2182,
             "teamName": "Lech Poznań",
@@ -31351,6 +31330,27 @@
               "darkMode": "#004898",
               "lightMode": "#004898",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 1660227,
+            "name": "Jakub Zewlakow",
+            "rank": 2,
+            "ccode": "POL",
+            "teamId": 8673,
+            "teamName": "Legia Warsaw",
+            "value": 0.79,
+            "stat": {
+              "name": "expected_goals_per_90",
+              "value": 0.79,
+              "format": "fraction",
+              "fractions": 2
+            },
+            "teamColors": {
+              "darkMode": "#ffffff",
+              "lightMode": "#009445",
+              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           },
@@ -32147,23 +32147,23 @@
             }
           },
           {
-            "id": 974202,
-            "name": "Piotr Samiec-Talar",
+            "id": 1169071,
+            "name": "Kamil Lukoszek",
             "rank": 3,
             "ccode": "POL",
-            "teamId": 8025,
-            "teamName": "Śląsk Wrocław",
-            "value": 0.43,
+            "teamId": 89466,
+            "teamName": "Motor Lublin",
+            "value": 0.44,
             "stat": {
               "name": "expected_assists_per_90",
-              "value": 0.43,
+              "value": 0.44,
               "format": "fraction",
               "fractions": 2
             },
             "teamColors": {
-              "darkMode": "#138445",
-              "lightMode": "#006643",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "darkMode": "#FFFF00",
+              "lightMode": "#d7a000",
+              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           }
@@ -32214,30 +32214,9 @@
             }
           },
           {
-            "id": 1660227,
-            "name": "Jakub Zewlakow",
-            "rank": 2,
-            "ccode": "POL",
-            "teamId": 8673,
-            "teamName": "Legia Warsaw",
-            "value": 0.95,
-            "stat": {
-              "name": "_expected_goals_and_expected_assists_per_90",
-              "value": 0.95,
-              "format": "fraction",
-              "fractions": 2
-            },
-            "teamColors": {
-              "darkMode": "#ffffff",
-              "lightMode": "#009445",
-              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
             "id": 906919,
             "name": "Sergio Lozano",
-            "rank": 3,
+            "rank": 2,
             "ccode": "ESP",
             "teamId": 1957,
             "teamName": "Jagiellonia Białystok",
@@ -32251,6 +32230,27 @@
             "teamColors": {
               "darkMode": "#D81921",
               "lightMode": "#D81921",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 792640,
+            "name": "Ángel Rodado",
+            "rank": 3,
+            "ccode": "ESP",
+            "teamId": 10265,
+            "teamName": "Wisła Kraków",
+            "value": 0.93,
+            "stat": {
+              "name": "_expected_goals_and_expected_assists_per_90",
+              "value": 0.93,
+              "format": "fraction",
+              "fractions": 2
+            },
+            "teamColors": {
+              "darkMode": "#DA241C",
+              "lightMode": "#DA241C",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -34483,10 +34483,10 @@
             "rank": 2,
             "ccode": "POL",
             "teamId": 8673,
-            "value": 13.6,
+            "value": 13.5,
             "stat": {
               "name": "expected_goals_team",
-              "value": 13.6,
+              "value": 13.5,
               "format": "fraction",
               "fractions": 1
             },
@@ -34531,10 +34531,10 @@
           "rank": 1,
           "ccode": "POL",
           "teamId": 8673,
-          "value": 5.5,
+          "value": 5.4,
           "stat": {
             "name": "_xg_diff_team",
-            "value": 5.5,
+            "value": 5.4,
             "format": "fraction",
             "fractions": 1
           }
@@ -34547,10 +34547,10 @@
             "rank": 1,
             "ccode": "POL",
             "teamId": 8673,
-            "value": 5.5,
+            "value": 5.4,
             "stat": {
               "name": "_xg_diff_team",
-              "value": 5.5,
+              "value": 5.4,
               "format": "fraction",
               "fractions": 1
             },
