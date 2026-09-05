@@ -111,17 +111,21 @@ def extract_video_assets(payload, match_id):
     return found
 
 def event_video_refs(events, videos):
-    """Link match-level video assets to known event times when no provider timestamp exists.
+    """Return only explicit provider event/video associations.
 
-    We deliberately keep the relation as match_highlight rather than pretending the video
-    starts at a particular event. Future provider-specific timestamp metadata can refine it.
+    Match-level highlights do not establish a timestamp or event association. The
+    collector therefore creates no synthetic event references. A future provider
+    payload containing an explicit event id/timestamp can be handled here without
+    changing the RAW evidence model.
     """
-    refs=[]
+    refs = []
     for video in videos:
-        for event in events:
-            eid = event.get("id") or event.get("eventId")
-            if eid is not None:
-                refs.append({"event_id": str(eid), "match_id": str(event.get("matchId") or video.get("match_id")), "video_url": video["url"], "relation": "match_highlight", "source": video.get("source")})
+        if not isinstance(video, dict):
+            continue
+        explicit = video.get("event_id") or video.get("eventId")
+        timestamp = video.get("timestamp") or video.get("startTime") or video.get("start_time")
+        if explicit is not None and timestamp is not None:
+            refs.append({"event_id": str(explicit), "match_id": str(video.get("match_id")), "video_url": video.get("url"), "timestamp": timestamp, "relation": "explicit_provider_association", "source": video.get("source")})
     return refs
 
 def main():
