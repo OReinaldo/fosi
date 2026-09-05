@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-04T18:56:27.089586+00:00",
+  "generated_at": "2026-09-05T06:46:19.052991+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -175731,7 +175731,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "5803973"
+      "example": "5803975"
     },
     {
       "path": "$.fixtures.firstUnplayedMatch.firstUnplayedMatchIndex",
@@ -175743,7 +175743,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "49"
+      "example": "51"
     },
     {
       "path": "$.fixtures.fixtureInfo",
@@ -176019,7 +176019,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-08-28"
+      "example": "2026-08-29"
     },
     {
       "path": "$.gameInfo",
@@ -190579,7 +190579,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7164"
+      "example": "7201"
     },
     {
       "path": "$.id",
@@ -198972,7 +198972,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "5803973"
+      "example": "5803975"
     },
     {
       "path": "$.overview.matches.firstUnplayedMatch.firstUnplayedMatchIndex",
@@ -198984,7 +198984,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "49"
+      "example": "51"
     },
     {
       "path": "$.overview.matches.fixtureInfo",
@@ -199584,7 +199584,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-118"
+      "example": "-111"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
@@ -199596,7 +199596,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.85"
+      "example": "1.90"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
@@ -199608,7 +199608,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "17/20"
+      "example": "9/10"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
@@ -199812,7 +199812,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-118"
+      "example": "-111"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
@@ -199824,7 +199824,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.85"
+      "example": "1.90"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
@@ -199836,7 +199836,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "17/20"
+      "example": "9/10"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
@@ -201459,174 +201459,6 @@
       "example": null
     },
     {
-      "path": "$.overview.table[].data.ongoing[]",
-      "types": {
-        "object": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": null
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].aId",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "4023"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].aScore",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "0"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].aTeam",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "GKS Katowice"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].extId",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "ls_0"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].gs",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "04.09.2026 20:31:09"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].hId",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "8028"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].hScore",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "1"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].hTeam",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "Piast Gliwice"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].id",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "5803973"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].sId",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "2"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].stage",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "7"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].status",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "S"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].time",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "04.09.2026 20:30"
-    },
-    {
       "path": "$.overview.table[].data.pageUrl",
       "types": {
         "string": 2
@@ -201781,6 +201613,18 @@
       ],
       "file_count": 2,
       "example": "Lech Poznań"
+    },
+    {
+      "path": "$.overview.table[].data.table.all[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
     },
     {
       "path": "$.overview.table[].data.table.all[].pageUrl",
@@ -201999,6 +201843,18 @@
       "example": "Jagiellonia Białystok"
     },
     {
+      "path": "$.overview.table[].data.table.away[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
+    },
+    {
       "path": "$.overview.table[].data.table.away[].pageUrl",
       "types": {
         "string": 2
@@ -202201,6 +202057,18 @@
       ],
       "file_count": 2,
       "example": "Lech Poznań"
+    },
+    {
+      "path": "$.overview.table[].data.table.form[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
     },
     {
       "path": "$.overview.table[].data.table.form[].pageUrl",
@@ -202419,6 +202287,18 @@
       "example": "Wisła Kraków"
     },
     {
+      "path": "$.overview.table[].data.table.home[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
+    },
+    {
       "path": "$.overview.table[].data.table.home[].pageUrl",
       "types": {
         "string": 2
@@ -202609,6 +202489,18 @@
       ],
       "file_count": 2,
       "example": "Legia Warszawa"
+    },
+    {
+      "path": "$.overview.table[].data.table.xg[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
     },
     {
       "path": "$.overview.table[].data.table.xg[].pageUrl",
@@ -205056,7 +204948,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "4023"
+      "example": "5769"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].away.isOurTeam",
@@ -205068,7 +204960,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].away.name",
@@ -205080,7 +204972,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "GKS Katowice"
+      "example": "Radomiak Radom"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].away.shortName",
@@ -205092,7 +204984,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "GKS Katowice"
+      "example": "Radomiak Radom"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].date",
@@ -205128,7 +205020,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "10265"
+      "example": "4023"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].home.isOurTeam",
@@ -205140,7 +205032,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].home.name",
@@ -205152,7 +205044,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wisła Kraków"
+      "example": "GKS Katowice"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].home.shortName",
@@ -205164,7 +205056,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wisła Kraków"
+      "example": "GKS Katowice"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].imageUrl",
@@ -205176,7 +205068,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/10265_xsmall.png"
+      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/5769_xsmall.png"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].linkToMatch",
@@ -205188,7 +205080,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/matches/gks-katowice-vs-wisa-krakow/1os10f#5803905"
+      "example": "/matches/gks-katowice-vs-radomiak-radom/sjs89#5803924"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].result",
@@ -205200,7 +205092,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "-1"
+      "example": "1"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].resultString",
@@ -205212,7 +205104,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "L"
+      "example": "W"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].score",
@@ -205224,7 +205116,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2 - 1"
+      "example": "3 - 1"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].teamPageUrl",
@@ -205236,7 +205128,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/teams/10265/overview/wisa-krakow"
+      "example": "/teams/5769/overview/radomiak-radom"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].tooltipText",
@@ -205272,7 +205164,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "GKS Katowice"
+      "example": "Radomiak Radom"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].tooltipText.awayTeamId",
@@ -205284,7 +205176,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "4023"
+      "example": "5769"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].tooltipText.homeScore",
@@ -205296,7 +205188,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2"
+      "example": "3"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].tooltipText.homeTeam",
@@ -205308,7 +205200,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wisła Kraków"
+      "example": "GKS Katowice"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].tooltipText.homeTeamId",
@@ -205320,7 +205212,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "10265"
+      "example": "4023"
     },
     {
       "path": "$.overview.table[].teamForm.4023[].tooltipText.utcTime",
@@ -205332,7 +205224,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2026-07-26T18:15:00Z"
+      "example": "2026-08-02T18:15:00Z"
     },
     {
       "path": "$.overview.table[].teamForm.4024",
@@ -207648,7 +207540,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "10265"
+      "example": "8028"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].away.isOurTeam",
@@ -207660,7 +207552,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].away.name",
@@ -207672,7 +207564,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wisła Kraków"
+      "example": "Piast Gliwice"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].away.shortName",
@@ -207684,7 +207576,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wisła Kraków"
+      "example": "Piast Gliwice"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].date",
@@ -207720,7 +207612,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8028"
+      "example": "2182"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].home.isOurTeam",
@@ -207732,7 +207624,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].home.name",
@@ -207744,7 +207636,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Piast Gliwice"
+      "example": "Lech Poznań"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].home.shortName",
@@ -207756,7 +207648,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Piast Gliwice"
+      "example": "Lech Poznań"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].imageUrl",
@@ -207768,7 +207660,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/10265_xsmall.png"
+      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/2182_xsmall.png"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].linkToMatch",
@@ -207780,7 +207672,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/matches/piast-gliwice-vs-wisa-krakow/2rmjtf#5803928"
+      "example": "/matches/lech-poznan-vs-piast-gliwice/v1frj#5803935"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].result",
@@ -207792,7 +207684,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1"
+      "example": "-1"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].resultString",
@@ -207804,7 +207696,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "W"
+      "example": "L"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].score",
@@ -207816,7 +207708,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "4 - 3"
+      "example": "3 - 0"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].teamPageUrl",
@@ -207828,7 +207720,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/teams/10265/overview/wisa-krakow"
+      "example": "/teams/2182/overview/lech-poznan"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].tooltipText",
@@ -207852,7 +207744,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "3"
+      "example": "0"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].tooltipText.awayTeam",
@@ -207864,7 +207756,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wisła Kraków"
+      "example": "Piast Gliwice"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].tooltipText.awayTeamId",
@@ -207876,7 +207768,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "10265"
+      "example": "8028"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].tooltipText.homeScore",
@@ -207888,7 +207780,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "4"
+      "example": "3"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].tooltipText.homeTeam",
@@ -207900,7 +207792,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Piast Gliwice"
+      "example": "Lech Poznań"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].tooltipText.homeTeamId",
@@ -207912,7 +207804,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8028"
+      "example": "2182"
     },
     {
       "path": "$.overview.table[].teamForm.8028[].tooltipText.utcTime",
@@ -207924,7 +207816,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2026-08-01T12:45:00Z"
+      "example": "2026-08-09T15:30:00Z"
     },
     {
       "path": "$.overview.table[].teamForm.8243",
@@ -209712,7 +209604,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "48"
+      "example": "50"
     },
     {
       "path": "$.overview.topPlayers.byAssists.players[].stat",
@@ -209976,7 +209868,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "25"
+      "example": "27"
     },
     {
       "path": "$.overview.topPlayers.byGoals.players[].stat",
@@ -210204,7 +210096,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1121295"
+      "example": "433535"
     },
     {
       "path": "$.overview.topPlayers.byRating.players[].name",
@@ -210216,7 +210108,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Kacper Urbanski"
+      "example": "Bartosz Nowak"
     },
     {
       "path": "$.overview.topPlayers.byRating.players[].rank",
@@ -210228,7 +210120,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "5"
+      "example": "6"
     },
     {
       "path": "$.overview.topPlayers.byRating.players[].rating",
@@ -210240,7 +210132,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7.98"
+      "example": "8.03"
     },
     {
       "path": "$.overview.topPlayers.byRating.players[].stat",
@@ -210300,7 +210192,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "7.98"
+      "example": "8.03"
     },
     {
       "path": "$.overview.topPlayers.byRating.players[].teamColors",
@@ -210324,7 +210216,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "#ffffff"
+      "example": "#FEE200"
     },
     {
       "path": "$.overview.topPlayers.byRating.players[].teamColors.fontDarkMode",
@@ -210360,7 +210252,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "#26419A"
+      "example": "#dd9e00"
     },
     {
       "path": "$.overview.topPlayers.byRating.players[].teamId",
@@ -210372,7 +210264,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8020"
+      "example": "4023"
     },
     {
       "path": "$.overview.topPlayers.byRating.players[].teamName",
@@ -210384,7 +210276,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Górnik Zabrze"
+      "example": "GKS Katowice"
     },
     {
       "path": "$.overview.topPlayers.byRating.players[].value",
@@ -210396,7 +210288,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "7.98"
+      "example": "8.03"
     },
     {
       "path": "$.overview.topPlayers.byRating.seeAllLink",
@@ -218468,174 +218360,6 @@
       "example": null
     },
     {
-      "path": "$.table[].data.ongoing[]",
-      "types": {
-        "object": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": null
-    },
-    {
-      "path": "$.table[].data.ongoing[].aId",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "4023"
-    },
-    {
-      "path": "$.table[].data.ongoing[].aScore",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "0"
-    },
-    {
-      "path": "$.table[].data.ongoing[].aTeam",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "GKS Katowice"
-    },
-    {
-      "path": "$.table[].data.ongoing[].extId",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "ls_0"
-    },
-    {
-      "path": "$.table[].data.ongoing[].gs",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "04.09.2026 20:31:09"
-    },
-    {
-      "path": "$.table[].data.ongoing[].hId",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "8028"
-    },
-    {
-      "path": "$.table[].data.ongoing[].hScore",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "1"
-    },
-    {
-      "path": "$.table[].data.ongoing[].hTeam",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "Piast Gliwice"
-    },
-    {
-      "path": "$.table[].data.ongoing[].id",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "5803973"
-    },
-    {
-      "path": "$.table[].data.ongoing[].sId",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "2"
-    },
-    {
-      "path": "$.table[].data.ongoing[].stage",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "7"
-    },
-    {
-      "path": "$.table[].data.ongoing[].status",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "S"
-    },
-    {
-      "path": "$.table[].data.ongoing[].time",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "04.09.2026 20:30"
-    },
-    {
       "path": "$.table[].data.pageUrl",
       "types": {
         "string": 2
@@ -218790,6 +218514,18 @@
       ],
       "file_count": 2,
       "example": "Lech Poznań"
+    },
+    {
+      "path": "$.table[].data.table.all[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
     },
     {
       "path": "$.table[].data.table.all[].pageUrl",
@@ -219008,6 +218744,18 @@
       "example": "Jagiellonia Białystok"
     },
     {
+      "path": "$.table[].data.table.away[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
+    },
+    {
       "path": "$.table[].data.table.away[].pageUrl",
       "types": {
         "string": 2
@@ -219210,6 +218958,18 @@
       ],
       "file_count": 2,
       "example": "Lech Poznań"
+    },
+    {
+      "path": "$.table[].data.table.form[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
     },
     {
       "path": "$.table[].data.table.form[].pageUrl",
@@ -219428,6 +219188,18 @@
       "example": "Wisła Kraków"
     },
     {
+      "path": "$.table[].data.table.home[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
+    },
+    {
       "path": "$.table[].data.table.home[].pageUrl",
       "types": {
         "string": 2
@@ -219618,6 +219390,18 @@
       ],
       "file_count": 2,
       "example": "Legia Warszawa"
+    },
+    {
+      "path": "$.table[].data.table.xg[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
     },
     {
       "path": "$.table[].data.table.xg[].pageUrl",
@@ -222065,7 +221849,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "4023"
+      "example": "5769"
     },
     {
       "path": "$.table[].teamForm.4023[].away.isOurTeam",
@@ -222077,7 +221861,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.table[].teamForm.4023[].away.name",
@@ -222089,7 +221873,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "GKS Katowice"
+      "example": "Radomiak Radom"
     },
     {
       "path": "$.table[].teamForm.4023[].away.shortName",
@@ -222101,7 +221885,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "GKS Katowice"
+      "example": "Radomiak Radom"
     },
     {
       "path": "$.table[].teamForm.4023[].date",
@@ -222137,7 +221921,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "10265"
+      "example": "4023"
     },
     {
       "path": "$.table[].teamForm.4023[].home.isOurTeam",
@@ -222149,7 +221933,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.table[].teamForm.4023[].home.name",
@@ -222161,7 +221945,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wisła Kraków"
+      "example": "GKS Katowice"
     },
     {
       "path": "$.table[].teamForm.4023[].home.shortName",
@@ -222173,7 +221957,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wisła Kraków"
+      "example": "GKS Katowice"
     },
     {
       "path": "$.table[].teamForm.4023[].imageUrl",
@@ -222185,7 +221969,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/10265_xsmall.png"
+      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/5769_xsmall.png"
     },
     {
       "path": "$.table[].teamForm.4023[].linkToMatch",
@@ -222197,7 +221981,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/matches/gks-katowice-vs-wisa-krakow/1os10f#5803905"
+      "example": "/matches/gks-katowice-vs-radomiak-radom/sjs89#5803924"
     },
     {
       "path": "$.table[].teamForm.4023[].result",
@@ -222209,7 +221993,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "-1"
+      "example": "1"
     },
     {
       "path": "$.table[].teamForm.4023[].resultString",
@@ -222221,7 +222005,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "L"
+      "example": "W"
     },
     {
       "path": "$.table[].teamForm.4023[].score",
@@ -222233,7 +222017,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2 - 1"
+      "example": "3 - 1"
     },
     {
       "path": "$.table[].teamForm.4023[].teamPageUrl",
@@ -222245,7 +222029,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/teams/10265/overview/wisa-krakow"
+      "example": "/teams/5769/overview/radomiak-radom"
     },
     {
       "path": "$.table[].teamForm.4023[].tooltipText",
@@ -222281,7 +222065,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "GKS Katowice"
+      "example": "Radomiak Radom"
     },
     {
       "path": "$.table[].teamForm.4023[].tooltipText.awayTeamId",
@@ -222293,7 +222077,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "4023"
+      "example": "5769"
     },
     {
       "path": "$.table[].teamForm.4023[].tooltipText.homeScore",
@@ -222305,7 +222089,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2"
+      "example": "3"
     },
     {
       "path": "$.table[].teamForm.4023[].tooltipText.homeTeam",
@@ -222317,7 +222101,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wisła Kraków"
+      "example": "GKS Katowice"
     },
     {
       "path": "$.table[].teamForm.4023[].tooltipText.homeTeamId",
@@ -222329,7 +222113,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "10265"
+      "example": "4023"
     },
     {
       "path": "$.table[].teamForm.4023[].tooltipText.utcTime",
@@ -222341,7 +222125,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2026-07-26T18:15:00Z"
+      "example": "2026-08-02T18:15:00Z"
     },
     {
       "path": "$.table[].teamForm.4024",
@@ -224657,7 +224441,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "10265"
+      "example": "8028"
     },
     {
       "path": "$.table[].teamForm.8028[].away.isOurTeam",
@@ -224669,7 +224453,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.table[].teamForm.8028[].away.name",
@@ -224681,7 +224465,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wisła Kraków"
+      "example": "Piast Gliwice"
     },
     {
       "path": "$.table[].teamForm.8028[].away.shortName",
@@ -224693,7 +224477,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wisła Kraków"
+      "example": "Piast Gliwice"
     },
     {
       "path": "$.table[].teamForm.8028[].date",
@@ -224729,7 +224513,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8028"
+      "example": "2182"
     },
     {
       "path": "$.table[].teamForm.8028[].home.isOurTeam",
@@ -224741,7 +224525,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.table[].teamForm.8028[].home.name",
@@ -224753,7 +224537,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Piast Gliwice"
+      "example": "Lech Poznań"
     },
     {
       "path": "$.table[].teamForm.8028[].home.shortName",
@@ -224765,7 +224549,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Piast Gliwice"
+      "example": "Lech Poznań"
     },
     {
       "path": "$.table[].teamForm.8028[].imageUrl",
@@ -224777,7 +224561,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/10265_xsmall.png"
+      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/2182_xsmall.png"
     },
     {
       "path": "$.table[].teamForm.8028[].linkToMatch",
@@ -224789,7 +224573,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/matches/piast-gliwice-vs-wisa-krakow/2rmjtf#5803928"
+      "example": "/matches/lech-poznan-vs-piast-gliwice/v1frj#5803935"
     },
     {
       "path": "$.table[].teamForm.8028[].result",
@@ -224801,7 +224585,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1"
+      "example": "-1"
     },
     {
       "path": "$.table[].teamForm.8028[].resultString",
@@ -224813,7 +224597,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "W"
+      "example": "L"
     },
     {
       "path": "$.table[].teamForm.8028[].score",
@@ -224825,7 +224609,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "4 - 3"
+      "example": "3 - 0"
     },
     {
       "path": "$.table[].teamForm.8028[].teamPageUrl",
@@ -224837,7 +224621,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/teams/10265/overview/wisa-krakow"
+      "example": "/teams/2182/overview/lech-poznan"
     },
     {
       "path": "$.table[].teamForm.8028[].tooltipText",
@@ -224861,7 +224645,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "3"
+      "example": "0"
     },
     {
       "path": "$.table[].teamForm.8028[].tooltipText.awayTeam",
@@ -224873,7 +224657,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wisła Kraków"
+      "example": "Piast Gliwice"
     },
     {
       "path": "$.table[].teamForm.8028[].tooltipText.awayTeamId",
@@ -224885,7 +224669,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "10265"
+      "example": "8028"
     },
     {
       "path": "$.table[].teamForm.8028[].tooltipText.homeScore",
@@ -224897,7 +224681,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "4"
+      "example": "3"
     },
     {
       "path": "$.table[].teamForm.8028[].tooltipText.homeTeam",
@@ -224909,7 +224693,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Piast Gliwice"
+      "example": "Lech Poznań"
     },
     {
       "path": "$.table[].teamForm.8028[].tooltipText.homeTeamId",
@@ -224921,7 +224705,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8028"
+      "example": "2182"
     },
     {
       "path": "$.table[].teamForm.8028[].tooltipText.utcTime",
@@ -224933,7 +224717,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2026-08-01T12:45:00Z"
+      "example": "2026-08-09T15:30:00Z"
     },
     {
       "path": "$.table[].teamForm.8243",
@@ -226877,7 +226661,7 @@
         "espn"
       ],
       "file_count": 10,
-      "example": "2026-09-04T18:56:12Z"
+      "example": "2026-09-05T06:46:06Z"
     },
     {
       "path": "$.to",
@@ -226889,7 +226673,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-04"
+      "example": "2026-10-05"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -228637,38 +228421,14 @@
     {
       "path": "$.transfers.data[].fee",
       "types": {
-        "object": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.transfers.data[].fee.feeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "on loan"
-    },
-    {
-      "path": "$.transfers.data[].fee.localizedFeeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "on_loan"
+      "example": "None"
     },
     {
       "path": "$.transfers.data[].fromClub",
@@ -228680,7 +228440,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Tromsø"
+      "example": "Raków Częstochowa"
     },
     {
       "path": "$.transfers.data[].fromClubFullName",
@@ -228692,7 +228452,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Tromsø"
+      "example": "Raków Częstochowa"
     },
     {
       "path": "$.transfers.data[].fromClubId",
@@ -228704,7 +228464,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8608"
+      "example": "4024"
     },
     {
       "path": "$.transfers.data[].fromDate",
@@ -228728,7 +228488,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "717034"
+      "example": "1167054"
     },
     {
       "path": "$.transfers.data[].name",
@@ -228740,7 +228500,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Ieltsin Camões"
+      "example": "Michael Ameyaw"
     },
     {
       "path": "$.transfers.data[].onLoan",
@@ -228752,7 +228512,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.transfers.data[].playerId",
@@ -228764,7 +228524,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1448017"
+      "example": "1160496"
     },
     {
       "path": "$.transfers.data[].position",
@@ -228788,7 +228548,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "striker_short"
+      "example": "rightmidfielder_short"
     },
     {
       "path": "$.transfers.data[].position.label",
@@ -228800,7 +228560,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "ST"
+      "example": "RM"
     },
     {
       "path": "$.transfers.data[].toClub",
@@ -228812,7 +228572,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Śląsk Wrocław"
+      "example": "Korona Kielce"
     },
     {
       "path": "$.transfers.data[].toClubFullName",
@@ -228824,7 +228584,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Śląsk Wrocław"
+      "example": "Korona Kielce"
     },
     {
       "path": "$.transfers.data[].toClubId",
@@ -228836,7 +228596,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8025"
+      "example": "8245"
     },
     {
       "path": "$.transfers.data[].toDate",
@@ -228848,7 +228608,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2027-06-30T00:00:00Z"
+      "example": "2029-06-30T00:00:00Z"
     },
     {
       "path": "$.transfers.data[].transferDate",
@@ -228860,7 +228620,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-04T19:18:27Z"
+      "example": "2026-09-04T21:52:01Z"
     },
     {
       "path": "$.transfers.data[].transferText",
@@ -228908,7 +228668,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on_loan"
+      "example": "contract"
     },
     {
       "path": "$.transfers.data[].transferType.text",
@@ -228920,7 +228680,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on loan"
+      "example": "contract"
     },
     {
       "path": "$.transfers.maxFee",
@@ -229040,7 +228800,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "560000"
+      "example": "650000"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -229052,7 +228812,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Racing de Córdoba"
+      "example": "NK Istra 1961"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -229064,7 +228824,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Racing de Córdoba"
+      "example": "NK Istra 1961"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -229076,7 +228836,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "213592"
+      "example": "6038"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -229088,19 +228848,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-03T00:00:00Z"
+      "example": "2026-09-04T00:00:00Z"
     },
     {
       "path": "$.transfers[].marketValue",
       "types": {
-        "null": 1
+        "integer": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": "158415"
     },
     {
       "path": "$.transfers[].name",
@@ -229112,7 +228872,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Leandro Córdoba"
+      "example": "Ivan Saranic"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -229136,7 +228896,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1905220"
+      "example": "1337704"
     },
     {
       "path": "$.transfers[].position",
@@ -229160,7 +228920,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "striker_short"
+      "example": "centerattackingmidfielder_short"
     },
     {
       "path": "$.transfers[].position.label",
@@ -229172,7 +228932,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "ST"
+      "example": "AM"
     },
     {
       "path": "$.transfers[].toClub",
@@ -229184,7 +228944,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Racing Club"
+      "example": "Bursaspor"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -229196,7 +228956,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Racing Club"
+      "example": "Bursaspor"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -229208,7 +228968,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "10080"
+      "example": "10270"
     },
     {
       "path": "$.transfers[].toDate",
@@ -229220,7 +228980,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2030-12-31T00:00:00Z"
+      "example": "2029-06-30T00:00:00Z"
     },
     {
       "path": "$.transfers[].transferDate",
@@ -229232,7 +228992,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-04T20:46:55Z"
+      "example": "2026-09-05T06:52:38Z"
     },
     {
       "path": "$.transfers[].transferText",
