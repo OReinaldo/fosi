@@ -1,6 +1,75 @@
 {
   "transfers": [
     {
+      "name": "Richard",
+      "playerId": 882625,
+      "position": {
+        "label": "DM",
+        "key": "centerdefensivemidfielder_short"
+      },
+      "transferDate": "2026-09-05T08:59:30Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Internacional",
+      "fromClubFullName": "Internacional",
+      "fromClubId": 8702,
+      "toClub": "Coritiba",
+      "toClubFullName": "Coritiba",
+      "toClubId": 9767,
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-04T00:00:00Z",
+      "toDate": "2026-12-31T00:00:00Z",
+      "marketValue": 279908
+    },
+    {
+      "name": "Yann Gboho",
+      "playerId": 955411,
+      "position": {
+        "label": "AM",
+        "key": "centerattackingmidfielder_short"
+      },
+      "transferDate": "2026-09-05T08:57:30Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Toulouse",
+      "fromClubFullName": "Toulouse",
+      "fromClubId": 9941,
+      "toClub": "Coventry",
+      "toClubFullName": "Coventry City",
+      "toClubId": 8669,
+      "fee": {
+        "feeText": "fee",
+        "localizedFeeText": "transfer_fee",
+        "value": 12000000
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-04T00:00:00Z",
+      "toDate": null,
+      "marketValue": 11124395
+    },
+    {
       "name": "Ivan Saranic",
       "playerId": 1337704,
       "position": {
@@ -1594,76 +1663,8 @@
       "fromDate": "2026-09-04T00:00:00Z",
       "toDate": "2028-05-31T00:00:00Z",
       "marketValue": 357697
-    },
-    {
-      "name": "Ieltsin Camões",
-      "playerId": 1448017,
-      "position": {
-        "label": "ST",
-        "key": "striker_short"
-      },
-      "transferDate": "2026-09-04T19:18:27Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Tromsø",
-      "fromClubFullName": "Tromsø",
-      "fromClubId": 8608,
-      "toClub": "Śląsk Wrocław",
-      "toClubFullName": "Śląsk Wrocław",
-      "toClubId": 8025,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-04T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 717034
-    },
-    {
-      "name": "Kenan Bilalovic",
-      "playerId": 1416594,
-      "position": {
-        "label": "RW",
-        "key": "rightwinger_short"
-      },
-      "transferDate": "2026-09-04T18:05:38Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Aberdeen",
-      "fromClubFullName": "Aberdeen",
-      "fromClubId": 8485,
-      "toClub": "Žilina",
-      "toClubFullName": "Žilina",
-      "toClubId": 6022,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-04T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 846798
     }
   ],
-  "hits": 7201,
+  "hits": 7203,
   "maxFee": 145000000
 }

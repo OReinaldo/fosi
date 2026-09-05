@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-05T06:46:19.052991+00:00",
+  "generated_at": "2026-09-05T07:25:44.777611+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -8,7 +8,7 @@
     "team_id": "pogon-szczecin"
   },
   "method": "observed-from-raw",
-  "files_seen": 122,
+  "files_seen": 203,
   "source_files": [
     "espn/events.json",
     "espn/injuries.json",
@@ -27,6 +27,86 @@
     "espn/schedule.json",
     "espn/team.json",
     "fotmob/all-competition-calendar.json",
+    "fotmob/deepstats/2026/2027/players/accurate_passes.json",
+    "fotmob/deepstats/2026/2027/players/assists.json",
+    "fotmob/deepstats/2026/2027/players/big_chances_created.json",
+    "fotmob/deepstats/2026/2027/players/duels.json",
+    "fotmob/deepstats/2026/2027/players/duels_won.json",
+    "fotmob/deepstats/2026/2027/players/expected_assists.json",
+    "fotmob/deepstats/2026/2027/players/expected_goals.json",
+    "fotmob/deepstats/2026/2027/players/final_third_entries.json",
+    "fotmob/deepstats/2026/2027/players/fouls.json",
+    "fotmob/deepstats/2026/2027/players/goals.json",
+    "fotmob/deepstats/2026/2027/players/interceptions.json",
+    "fotmob/deepstats/2026/2027/players/key_passes.json",
+    "fotmob/deepstats/2026/2027/players/minutes_played.json",
+    "fotmob/deepstats/2026/2027/players/passes.json",
+    "fotmob/deepstats/2026/2027/players/possession_lost.json",
+    "fotmob/deepstats/2026/2027/players/rating.json",
+    "fotmob/deepstats/2026/2027/players/recoveries.json",
+    "fotmob/deepstats/2026/2027/players/shots.json",
+    "fotmob/deepstats/2026/2027/players/shots_on_target.json",
+    "fotmob/deepstats/2026/2027/players/successful_dribbles.json",
+    "fotmob/deepstats/2026/2027/players/tackles.json",
+    "fotmob/deepstats/2026/2027/players/touches.json",
+    "fotmob/deepstats/2026/2027/teams/accurate_passes.json",
+    "fotmob/deepstats/2026/2027/teams/clean_sheets.json",
+    "fotmob/deepstats/2026/2027/teams/corners.json",
+    "fotmob/deepstats/2026/2027/teams/duels.json",
+    "fotmob/deepstats/2026/2027/teams/duels_won.json",
+    "fotmob/deepstats/2026/2027/teams/expected_goals.json",
+    "fotmob/deepstats/2026/2027/teams/fouls.json",
+    "fotmob/deepstats/2026/2027/teams/free_kicks.json",
+    "fotmob/deepstats/2026/2027/teams/goals.json",
+    "fotmob/deepstats/2026/2027/teams/interceptions.json",
+    "fotmob/deepstats/2026/2027/teams/key_passes.json",
+    "fotmob/deepstats/2026/2027/teams/passes.json",
+    "fotmob/deepstats/2026/2027/teams/possession.json",
+    "fotmob/deepstats/2026/2027/teams/possession_lost.json",
+    "fotmob/deepstats/2026/2027/teams/recoveries.json",
+    "fotmob/deepstats/2026/2027/teams/shots.json",
+    "fotmob/deepstats/2026/2027/teams/shots_on_target.json",
+    "fotmob/deepstats/2026/2027/teams/tackles.json",
+    "fotmob/deepstats/2026/players/accurate_passes.json",
+    "fotmob/deepstats/2026/players/assists.json",
+    "fotmob/deepstats/2026/players/big_chances_created.json",
+    "fotmob/deepstats/2026/players/duels.json",
+    "fotmob/deepstats/2026/players/duels_won.json",
+    "fotmob/deepstats/2026/players/expected_assists.json",
+    "fotmob/deepstats/2026/players/expected_goals.json",
+    "fotmob/deepstats/2026/players/final_third_entries.json",
+    "fotmob/deepstats/2026/players/fouls.json",
+    "fotmob/deepstats/2026/players/goals.json",
+    "fotmob/deepstats/2026/players/interceptions.json",
+    "fotmob/deepstats/2026/players/key_passes.json",
+    "fotmob/deepstats/2026/players/minutes_played.json",
+    "fotmob/deepstats/2026/players/passes.json",
+    "fotmob/deepstats/2026/players/possession_lost.json",
+    "fotmob/deepstats/2026/players/rating.json",
+    "fotmob/deepstats/2026/players/recoveries.json",
+    "fotmob/deepstats/2026/players/shots.json",
+    "fotmob/deepstats/2026/players/shots_on_target.json",
+    "fotmob/deepstats/2026/players/successful_dribbles.json",
+    "fotmob/deepstats/2026/players/tackles.json",
+    "fotmob/deepstats/2026/players/touches.json",
+    "fotmob/deepstats/2026/teams/accurate_passes.json",
+    "fotmob/deepstats/2026/teams/clean_sheets.json",
+    "fotmob/deepstats/2026/teams/corners.json",
+    "fotmob/deepstats/2026/teams/duels.json",
+    "fotmob/deepstats/2026/teams/duels_won.json",
+    "fotmob/deepstats/2026/teams/expected_goals.json",
+    "fotmob/deepstats/2026/teams/fouls.json",
+    "fotmob/deepstats/2026/teams/free_kicks.json",
+    "fotmob/deepstats/2026/teams/goals.json",
+    "fotmob/deepstats/2026/teams/interceptions.json",
+    "fotmob/deepstats/2026/teams/key_passes.json",
+    "fotmob/deepstats/2026/teams/passes.json",
+    "fotmob/deepstats/2026/teams/possession.json",
+    "fotmob/deepstats/2026/teams/possession_lost.json",
+    "fotmob/deepstats/2026/teams/recoveries.json",
+    "fotmob/deepstats/2026/teams/shots.json",
+    "fotmob/deepstats/2026/teams/shots_on_target.json",
+    "fotmob/deepstats/2026/teams/tackles.json",
     "fotmob/league.json",
     "fotmob/liveticker/5803899.json",
     "fotmob/liveticker/5803923.json",
@@ -117,6 +197,7 @@
     "fotmob/players/8023.json",
     "fotmob/players/833697.json",
     "fotmob/players/949336.json",
+    "fotmob/source-status-fotmob-deepstats.json",
     "fotmob/team.json",
     "fotmob/transfers.json",
     "fotmob/videos/5803899.json",
@@ -137,16 +218,16 @@
     {
       "path": "$",
       "types": {
-        "object": 85,
+        "object": 166,
         "null": 37
       },
-      "occurrences": 122,
+      "occurrences": 203,
       "sources": [
         "espn",
         "fotmob",
         "sites"
       ],
-      "file_count": 122,
+      "file_count": 203,
       "example": "None"
     },
     {
@@ -170932,6 +171013,30 @@
       "example": "2027-06-30T00:00:00.000Z"
     },
     {
+      "path": "$.currentSeasonId",
+      "types": {
+        "string": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "2026/2027"
+    },
+    {
+      "path": "$.currentStatName",
+      "types": {
+        "string": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "accurate_passes"
+    },
+    {
       "path": "$.dataProvider",
       "types": {
         "string": 17
@@ -171639,6 +171744,18 @@
       ],
       "file_count": 2,
       "example": "league"
+    },
+    {
+      "path": "$.errors",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
     },
     {
       "path": "$.events",
@@ -190579,7 +190696,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7201"
+      "example": "7203"
     },
     {
       "path": "$.id",
@@ -192837,6 +192954,138 @@
       ],
       "file_count": 1,
       "example": "s:600~t:436"
+    },
+    {
+      "path": "$.leagueDetails",
+      "types": {
+        "object": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": null
+    },
+    {
+      "path": "$.leagueDetails.country",
+      "types": {
+        "string": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "Poland"
+    },
+    {
+      "path": "$.leagueDetails.countryCode",
+      "types": {
+        "string": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "POL"
+    },
+    {
+      "path": "$.leagueDetails.id",
+      "types": {
+        "integer": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "196"
+    },
+    {
+      "path": "$.leagueDetails.name",
+      "types": {
+        "string": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "Ekstraklasa"
+    },
+    {
+      "path": "$.leagueDetails.seasons",
+      "types": {
+        "array": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": null
+    },
+    {
+      "path": "$.leagueDetails.seasons[]",
+      "types": {
+        "object": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": null
+    },
+    {
+      "path": "$.leagueDetails.seasons[].id",
+      "types": {
+        "integer": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "37304"
+    },
+    {
+      "path": "$.leagueDetails.seasons[].leagueId",
+      "types": {
+        "integer": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "196"
+    },
+    {
+      "path": "$.leagueDetails.seasons[].leagueName",
+      "types": {
+        "string": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "Ekstraklasa"
+    },
+    {
+      "path": "$.leagueDetails.seasons[].name",
+      "types": {
+        "string": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "2026/2027"
     },
     {
       "path": "$.links",
@@ -214014,6 +214263,54 @@
       "example": "0"
     },
     {
+      "path": "$.records",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.records.player_tables",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "44"
+    },
+    {
+      "path": "$.records.rows",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "0"
+    },
+    {
+      "path": "$.records.team_tables",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "36"
+    },
+    {
       "path": "$.relatedLinksData",
       "types": {
         "object": 17
@@ -214228,6 +214525,18 @@
       ],
       "file_count": 10,
       "example": "2026"
+    },
+    {
+      "path": "$.retrieved_at",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "2026-09-05T07:25:07.393942+00:00"
     },
     {
       "path": "$.rosters",
@@ -215382,6 +215691,18 @@
       "example": "True"
     },
     {
+      "path": "$.route",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "/leagueseasondeepstats"
+    },
+    {
       "path": "$.season",
       "types": {
         "object": 10
@@ -215454,7 +215775,7 @@
       "example": "2026"
     },
     {
-      "path": "$.seasons",
+      "path": "$.season_candidates",
       "types": {
         "array": 1
       },
@@ -215466,16 +215787,64 @@
       "example": null
     },
     {
-      "path": "$.seasons[]",
+      "path": "$.seasons",
       "types": {
-        "object": 1
+        "array": 81
       },
-      "occurrences": 1,
+      "occurrences": 81,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
+      "file_count": 81,
       "example": null
+    },
+    {
+      "path": "$.seasons[]",
+      "types": {
+        "object": 81
+      },
+      "occurrences": 81,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 81,
+      "example": null
+    },
+    {
+      "path": "$.seasons[].id",
+      "types": {
+        "integer": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "37304"
+    },
+    {
+      "path": "$.seasons[].leagueId",
+      "types": {
+        "integer": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "196"
+    },
+    {
+      "path": "$.seasons[].leagueName",
+      "types": {
+        "string": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "Ekstraklasa"
     },
     {
       "path": "$.seasons[].loser",
@@ -215536,6 +215905,18 @@
       ],
       "file_count": 1,
       "example": "False"
+    },
+    {
+      "path": "$.seasons[].name",
+      "types": {
+        "string": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "2026/2027"
     },
     {
       "path": "$.seasons[].seasonName",
@@ -216569,6 +216950,18 @@
       ],
       "file_count": 2,
       "example": "ekstraklasa"
+    },
+    {
+      "path": "$.source",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "fotmob"
     },
     {
       "path": "$.source_url",
@@ -218155,16 +218548,88 @@
       "example": "37304"
     },
     {
+      "path": "$.statsData",
+      "types": {
+        "array": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": null
+    },
+    {
+      "path": "$.statsList",
+      "types": {
+        "array": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": null
+    },
+    {
+      "path": "$.statsList[]",
+      "types": {
+        "object": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": null
+    },
+    {
+      "path": "$.statsList[].localizedTitleId",
+      "types": {
+        "string": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "goal_assist_title"
+    },
+    {
+      "path": "$.statsList[].name",
+      "types": {
+        "string": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "goal_assist"
+    },
+    {
+      "path": "$.statsList[].title",
+      "types": {
+        "string": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "Assists"
+    },
+    {
       "path": "$.status",
       "types": {
-        "string": 27
+        "string": 28
       },
-      "occurrences": 27,
+      "occurrences": 28,
       "sources": [
         "espn",
         "fotmob"
       ],
-      "file_count": 27,
+      "file_count": 28,
       "example": "success"
     },
     {
@@ -226640,6 +227105,18 @@
       "example": "s:600~t:511"
     },
     {
+      "path": "$.teamName",
+      "types": {
+        "string": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": ""
+    },
+    {
       "path": "$.team_id",
       "types": {
         "string": 1
@@ -228776,7 +229253,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "fee"
+      "example": "free transfer"
     },
     {
       "path": "$.transfers[].fee.localizedFeeText",
@@ -228788,19 +229265,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "transfer_fee"
-    },
-    {
-      "path": "$.transfers[].fee.value",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "650000"
+      "example": "transfer_type_free_transfer"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -228812,7 +229277,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "NK Istra 1961"
+      "example": "Internacional"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -228824,7 +229289,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "NK Istra 1961"
+      "example": "Internacional"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -228836,7 +229301,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6038"
+      "example": "8702"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -228860,7 +229325,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "158415"
+      "example": "279908"
     },
     {
       "path": "$.transfers[].name",
@@ -228872,7 +229337,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Ivan Saranic"
+      "example": "Richard"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -228896,7 +229361,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1337704"
+      "example": "882625"
     },
     {
       "path": "$.transfers[].position",
@@ -228920,7 +229385,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "centerattackingmidfielder_short"
+      "example": "centerdefensivemidfielder_short"
     },
     {
       "path": "$.transfers[].position.label",
@@ -228932,7 +229397,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "AM"
+      "example": "DM"
     },
     {
       "path": "$.transfers[].toClub",
@@ -228944,7 +229409,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Bursaspor"
+      "example": "Coritiba"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -228956,7 +229421,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Bursaspor"
+      "example": "Coritiba"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -228968,7 +229433,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "10270"
+      "example": "9767"
     },
     {
       "path": "$.transfers[].toDate",
@@ -228980,7 +229445,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2029-06-30T00:00:00Z"
+      "example": "2026-12-31T00:00:00Z"
     },
     {
       "path": "$.transfers[].transferDate",
@@ -228992,7 +229457,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-05T06:52:38Z"
+      "example": "2026-09-05T08:59:30Z"
     },
     {
       "path": "$.transfers[].transferText",
@@ -229246,6 +229711,18 @@
       ],
       "file_count": 14,
       "example": "2022/2023"
+    },
+    {
+      "path": "$.type",
+      "types": {
+        "string": 80
+      },
+      "occurrences": 80,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 80,
+      "example": "players"
     },
     {
       "path": "$.videos",
