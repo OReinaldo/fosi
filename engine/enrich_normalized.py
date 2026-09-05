@@ -5,7 +5,6 @@ when the provider does not expose it. It recovers nested player-match records,
 coordinate-bearing actions and source spatial assets that the first normalizer can miss.
 """
 import json
-import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -80,9 +79,21 @@ def player_stats(item):
 def nested_id(item, keys):
     v = val(item, keys)
     if v is not None: return str(v)
+    wanted = {str(k).lower() for k in keys}
     for obj in walk(item):
         v = val(obj, keys)
         if v is not None: return str(v)
+        # Provider payloads commonly nest player identity as {"player": {"id": ...}}
+        # rather than exposing playerId at the same level.
+        if "playerid" in wanted or "player_id" in wanted:
+            player = obj.get("player")
+            if isinstance(player, dict) and player.get("id") is not None:
+                return str(player["id"])
+        if "matchid" in wanted or "match_id" in wanted or "eventid" in wanted or "event_id" in wanted:
+            match = obj.get("match")
+            if isinstance(match, dict):
+                mv = val(match, ("matchId", "match_id", "eventId", "event_id"))
+                if mv is not None: return str(mv)
     return None
 
 def spatial_type(item, path):
@@ -141,7 +152,6 @@ def main():
                     "action_type": spatial_type(obj, rel), "data": obj,
                     "source_meta": {"source": source, "raw_path": rel, "provider_id": aid,
                                     "retrieved_at": datetime.now(timezone.utc).isoformat()}})
-        # Preserve provider-created spatial graphics/SVGs as first-class evidence.
         if "heatmaps" in path.parts or "maps" in path.parts:
             key = (source, rel)
             if key not in asset_seen:
