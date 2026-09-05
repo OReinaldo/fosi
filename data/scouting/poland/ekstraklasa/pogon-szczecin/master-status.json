@@ -3,7 +3,7 @@
     {
       "source": "espn",
       "status": "success",
-      "retrieved_at": "2026-09-05T19:42:19.563718+00:00",
+      "retrieved_at": "2026-09-05T20:22:09.834270+00:00",
       "layers": {
         "matches": "available",
         "team": "available",
@@ -43,7 +43,7 @@
     {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-05T19:42:23.926646+00:00",
+      "retrieved_at": "2026-09-05T20:22:13.546294+00:00",
       "layers": {
         "news": "available",
         "standings": "available",
@@ -52,19 +52,19 @@
       },
       "records": {
         "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": {
-          "bytes": 215688,
+          "bytes": 215602,
           "layer": "news",
           "embedded_json_records": 0,
           "links": 34
         },
         "https://ekstraklasa.org/en/tabela/": {
-          "bytes": 337581,
+          "bytes": 336681,
           "layer": "standings",
           "embedded_json_records": 0,
           "links": 43
         },
         "https://ekstraklasa.org/statystyki/": {
-          "bytes": 1830618,
+          "bytes": 1830575,
           "layer": "stats",
           "embedded_json_records": 0,
           "links": 70
@@ -82,7 +82,7 @@
           "links": 38
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/3-kolejka/": {
-          "bytes": 323948,
+          "bytes": 323991,
           "layer": "fixtures",
           "embedded_json_records": 0,
           "links": 39
@@ -107,7 +107,7 @@
     {
       "source": "sofascore",
       "status": "partial",
-      "retrieved_at": "2026-09-05T19:42:10.659967+00:00",
+      "retrieved_at": "2026-09-05T20:21:58.056234+00:00",
       "layers": {
         "matches": "partial",
         "stats": "partial",
@@ -150,7 +150,7 @@
     {
       "source": "fotmob",
       "status": "partial",
-      "retrieved_at": "2026-09-05T19:41:44.816280+00:00",
+      "retrieved_at": "2026-09-05T20:21:31.563265+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -281,7 +281,7 @@
     },
     {
       "source": "understat",
-      "retrieved_at": "2026-09-05T19:42:23.875136+00:00",
+      "retrieved_at": "2026-09-05T20:22:13.494262+00:00",
       "layers": {},
       "records": {},
       "errors": [],
@@ -337,7 +337,7 @@
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-05T19:42:35.658924+00:00",
+  "updated_at": "2026-09-05T20:22:19.712764+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
