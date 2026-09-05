@@ -61,6 +61,8 @@ jobs:
         run: python engine/normalize_sources.py
       - name: Enrich normalized data from preserved RAW
         run: python engine/enrich_normalized.py
+      - name: Enrich normalized players from FotMob deep stats
+        run: python engine/enrich_deepstats.py
       - name: Classify finished versus scheduled fixtures
         run: python engine/classify_match_status.py
       - name: Test FOSI normalization
@@ -102,4 +104,4 @@ jobs:
       - name: Deploy refreshed dashboard
         id: deployment
         uses: actions/deploy-pages@v4
-# FOSI pipeline: acquisition -> FotMob deep stats -> hardening -> source coverage -> normalization -> RAW enrichment -> match status -> tests -> metrics -> publication -> validation -> Pages
+# FOSI pipeline: acquisition -> FotMob deep stats -> hardening -> source coverage -> normalization -> RAW enrichment -> deep stats enrichment -> match status -> tests -> metrics -> publication -> validation -> Pages
