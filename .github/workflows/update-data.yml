@@ -49,6 +49,8 @@ jobs:
           PY
       - name: Run selected-target acquisition
         run: python engine/run_scout.py
+      - name: Acquire FotMob deep season statistics
+        run: python collectors/fotmob_deepstats_collector.py
       - name: Harden secondary evidence acquisition
         run: python engine/acquisition_hardening.py
       - name: Build RAW field dictionary
@@ -100,4 +102,4 @@ jobs:
       - name: Deploy refreshed dashboard
         id: deployment
         uses: actions/deploy-pages@v4
-# FOSI pipeline: acquisition -> hardening -> source coverage -> normalization -> RAW enrichment -> match status -> tests -> metrics -> publication -> validation -> Pages
+# FOSI pipeline: acquisition -> FotMob deep stats -> hardening -> source coverage -> normalization -> RAW enrichment -> match status -> tests -> metrics -> publication -> validation -> Pages
