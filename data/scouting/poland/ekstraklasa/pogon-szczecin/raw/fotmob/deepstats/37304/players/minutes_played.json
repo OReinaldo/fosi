@@ -1,0 +1,338 @@
+{
+  "statsData": [],
+  "seasons": [
+    {
+      "id": 37304,
+      "name": "2026/2027",
+      "leagueName": "Ekstraklasa",
+      "leagueId": 196
+    },
+    {
+      "id": 27045,
+      "name": "2025/2026",
+      "leagueName": "Ekstraklasa",
+      "leagueId": 196
+    },
+    {
+      "id": 23622,
+      "name": "2024/2025",
+      "leagueName": "Ekstraklasa",
+      "leagueId": 196
+    },
+    {
+      "id": 20954,
+      "name": "2023/2024",
+      "leagueName": "Ekstraklasa",
+      "leagueId": 196
+    },
+    {
+      "id": 17716,
+      "name": "2022/2023",
+      "leagueName": "Ekstraklasa",
+      "leagueId": 196
+    }
+  ],
+  "statsList": [
+    {
+      "name": "goals",
+      "localizedTitleId": "goals_title",
+      "title": "Top scorer",
+      "category": "Top Stat",
+      "localizedCategoryId": "top_stats"
+    },
+    {
+      "name": "goal_assist",
+      "localizedTitleId": "goal_assist_title",
+      "title": "Assists",
+      "category": "Top Stat",
+      "localizedCategoryId": "top_stats"
+    },
+    {
+      "name": "_goals_and_goal_assist",
+      "localizedTitleId": "goals_and_assists",
+      "title": "Goals + Assists",
+      "category": "Top Stat",
+      "localizedCategoryId": "top_stats"
+    },
+    {
+      "name": "rating",
+      "localizedTitleId": "rating_title",
+      "title": "FotMob rating",
+      "category": "Top Stat",
+      "localizedCategoryId": "top_stats"
+    },
+    {
+      "name": "mins_played",
+      "localizedTitleId": "minutes_played",
+      "title": "Minutes played",
+      "category": "Top Stat",
+      "localizedCategoryId": "top_stats"
+    },
+    {
+      "name": "goals_per_90",
+      "localizedTitleId": "goals_per_90_title",
+      "title": "Goals per 90",
+      "category": "Attacking",
+      "localizedCategoryId": "attack"
+    },
+    {
+      "name": "expected_goals",
+      "localizedTitleId": "expected_goals",
+      "title": "Expected goals (xG)",
+      "category": "Attacking",
+      "localizedCategoryId": "attack"
+    },
+    {
+      "name": "expected_goals_per_90",
+      "localizedTitleId": "expected_goals_per_90",
+      "title": "Expected goals (xG) per 90",
+      "category": "Attacking",
+      "localizedCategoryId": "attack"
+    },
+    {
+      "name": "expected_goalsontarget",
+      "localizedTitleId": "expected_goals_on_target_variant",
+      "title": "Expected goals on target (xGOT)",
+      "category": "Attacking",
+      "localizedCategoryId": "attack"
+    },
+    {
+      "name": "ontarget_scoring_att",
+      "localizedTitleId": "shots_on_target_per_90",
+      "title": "Shots on target per 90",
+      "category": "Attacking",
+      "localizedCategoryId": "attack"
+    },
+    {
+      "name": "total_scoring_att",
+      "localizedTitleId": "shots_per_90",
+      "title": "Shots per 90",
+      "category": "Attacking",
+      "localizedCategoryId": "attack"
+    },
+    {
+      "name": "accurate_pass",
+      "localizedTitleId": "accurate_pass_per_90",
+      "title": "Accurate passes per 90",
+      "category": "Attacking",
+      "localizedCategoryId": "attack"
+    },
+    {
+      "name": "big_chance_created",
+      "localizedTitleId": "big_chance_created_team_title",
+      "title": "Big chances created",
+      "category": "Attacking",
+      "localizedCategoryId": "attack"
+    },
+    {
+      "name": "total_att_assist",
+      "localizedTitleId": "chances_created",
+      "title": "Chances created",
+      "category": "Attacking",
+      "localizedCategoryId": "attack"
+    },
+    {
+      "name": "accurate_long_balls",
+      "localizedTitleId": "accurate_long_balls_title",
+      "title": "Accurate long balls per 90",
+      "category": "Attacking",
+      "localizedCategoryId": "attack"
+    },
+    {
+      "name": "expected_assists",
+      "localizedTitleId": "expected_assists",
+      "title": "Expected assist (xA)",
+      "category": "Attacking",
+      "localizedCategoryId": "attack"
+    },
+    {
+      "name": "expected_assists_per_90",
+      "localizedTitleId": "expected_assists_per_90",
+      "title": "Expected assist (xA) per 90",
+      "category": "Attacking",
+      "localizedCategoryId": "attack"
+    },
+    {
+      "name": "_expected_goals_and_expected_assists_per_90",
+      "localizedTitleId": "xg_and_xa_per_90",
+      "title": "xG + xA per 90",
+      "category": "Attacking",
+      "localizedCategoryId": "attack"
+    },
+    {
+      "name": "won_contest",
+      "localizedTitleId": "won_contest_per_90",
+      "title": "Successful dribbles per 90",
+      "category": "Attacking",
+      "localizedCategoryId": "attack"
+    },
+    {
+      "name": "big_chance_missed",
+      "localizedTitleId": "big_chance_missed_title",
+      "title": "Big chances missed",
+      "category": "Attacking",
+      "localizedCategoryId": "attack"
+    },
+    {
+      "name": "penalty_won",
+      "localizedTitleId": "penalty_won_title",
+      "title": "Penalties won",
+      "category": "Attacking",
+      "localizedCategoryId": "attack"
+    },
+    {
+      "name": "defensive_contributions",
+      "localizedTitleId": "defensive_actions_per_90",
+      "title": "Defensive actions per 90",
+      "category": "Defending",
+      "localizedCategoryId": "defense"
+    },
+    {
+      "name": "total_tackle",
+      "localizedTitleId": "tackle_per_90",
+      "title": "Tackles per 90",
+      "category": "Defending",
+      "localizedCategoryId": "defense"
+    },
+    {
+      "name": "interception",
+      "localizedTitleId": "interception_title",
+      "title": "Interceptions per 90",
+      "category": "Defending",
+      "localizedCategoryId": "defense"
+    },
+    {
+      "name": "effective_clearance",
+      "localizedTitleId": "effective_clearance_per_90",
+      "title": "Clearances per 90",
+      "category": "Defending",
+      "localizedCategoryId": "defense"
+    },
+    {
+      "name": "outfielder_block",
+      "localizedTitleId": "outfielder_block_title",
+      "title": "Blocks per 90",
+      "category": "Defending",
+      "localizedCategoryId": "defense"
+    },
+    {
+      "name": "ball_recovery",
+      "localizedTitleId": "recoveries_per_90",
+      "title": "Recoveries per 90",
+      "category": "Defending",
+      "localizedCategoryId": "defense"
+    },
+    {
+      "name": "penalty_conceded",
+      "localizedTitleId": "penalty_conceded_title",
+      "title": "Penalties conceded",
+      "category": "Defending",
+      "localizedCategoryId": "defense"
+    },
+    {
+      "name": "poss_won_att_3rd",
+      "localizedTitleId": "poss_won_att_3rd_per_90",
+      "title": "Possession won final 3rd per 90",
+      "category": "Defending",
+      "localizedCategoryId": "defense"
+    },
+    {
+      "name": "clean_sheet",
+      "localizedTitleId": "clean_sheet_title",
+      "title": "Clean sheets",
+      "category": "Goalkeeping",
+      "localizedCategoryId": "goalkeeping"
+    },
+    {
+      "name": "_save_percentage",
+      "localizedTitleId": "save_percentage",
+      "title": "Save percentage",
+      "category": "Goalkeeping",
+      "localizedCategoryId": "goalkeeping"
+    },
+    {
+      "name": "saves",
+      "localizedTitleId": "saves_per_90",
+      "title": "Saves per 90",
+      "category": "Goalkeeping",
+      "localizedCategoryId": "goalkeeping"
+    },
+    {
+      "name": "_goals_prevented",
+      "localizedTitleId": "goals_prevented",
+      "title": "Goals prevented",
+      "category": "Goalkeeping",
+      "localizedCategoryId": "goalkeeping"
+    },
+    {
+      "name": "goals_conceded",
+      "localizedTitleId": "goals_conceded_per_90",
+      "title": "Goals conceded per 90",
+      "category": "Goalkeeping",
+      "localizedCategoryId": "goalkeeping"
+    },
+    {
+      "name": "fouls",
+      "localizedTitleId": "fouls_committed_per_90",
+      "title": "Fouls committed per 90",
+      "category": "Discipline",
+      "localizedCategoryId": "discipline"
+    },
+    {
+      "name": "yellow_card",
+      "localizedTitleId": "yellow_cards",
+      "title": "Yellow cards",
+      "category": "Discipline",
+      "localizedCategoryId": "discipline"
+    },
+    {
+      "name": "red_card",
+      "localizedTitleId": "red_cards",
+      "title": "Red cards",
+      "category": "Discipline",
+      "localizedCategoryId": "discipline"
+    }
+  ],
+  "leagueDetails": {
+    "id": 196,
+    "name": "Ekstraklasa",
+    "countryCode": "POL",
+    "country": "Poland",
+    "seasons": [
+      {
+        "id": 37304,
+        "name": "2026/2027",
+        "leagueName": "Ekstraklasa",
+        "leagueId": 196
+      },
+      {
+        "id": 27045,
+        "name": "2025/2026",
+        "leagueName": "Ekstraklasa",
+        "leagueId": 196
+      },
+      {
+        "id": 23622,
+        "name": "2024/2025",
+        "leagueName": "Ekstraklasa",
+        "leagueId": 196
+      },
+      {
+        "id": 20954,
+        "name": "2023/2024",
+        "leagueName": "Ekstraklasa",
+        "leagueId": 196
+      },
+      {
+        "id": 17716,
+        "name": "2022/2023",
+        "leagueName": "Ekstraklasa",
+        "leagueId": 196
+      }
+    ]
+  },
+  "type": "players",
+  "teamName": "",
+  "currentSeasonId": "37304",
+  "currentStatName": "minutes_played"
+}
