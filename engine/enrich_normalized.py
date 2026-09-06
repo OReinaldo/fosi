@@ -85,9 +85,10 @@ STAT_ALIASES={
 }
 
 def canonical_stat(key,title):
-    k=str(key or title or "").strip().lower().replace(" ","_")
+    raw=str(key or title or "").strip().lower().replace(" ","_")
+    candidates={raw, raw.rsplit(".",1)[-1]}
     for canonical,aliases in STAT_ALIASES.items():
-        if k in aliases: return canonical
+        if candidates & {str(a).lower() for a in aliases}: return canonical
     return None
 
 def structured_player_stats(item):
@@ -109,8 +110,7 @@ def structured_player_stats(item):
             out[canonical]=value
             if st.get("total") is not None:
                 total=number(st.get("total"))
-                if total is not None:
-                    out[f"{canonical}_total"]=total
+                if total is not None: out[f"{canonical}_total"]=total
     return out
 
 def player_stats(item):
