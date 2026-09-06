@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-05T20:35:19.198526+00:00",
+  "generated_at": "2026-09-06T03:27:34.465110+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -176176,7 +176176,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-08-29"
+      "example": "2026-08-30"
     },
     {
       "path": "$.gameInfo",
@@ -190736,7 +190736,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7237"
+      "example": "7225"
     },
     {
       "path": "$.id",
@@ -200466,14 +200466,14 @@
     {
       "path": "$.overview.nextMatch.startDay",
       "types": {
-        "null": 1
+        "string": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": "Tomorrow"
     },
     {
       "path": "$.overview.nextMatch.stats",
@@ -214588,7 +214588,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-05T20:34:39.977640+00:00"
+      "example": "2026-09-06T03:26:39.744060+00:00"
     },
     {
       "path": "$.rosters",
@@ -227443,7 +227443,7 @@
         "espn"
       ],
       "file_count": 10,
-      "example": "2026-09-05T20:32:24Z"
+      "example": "2026-09-06T03:26:25Z"
     },
     {
       "path": "$.to",
@@ -227455,7 +227455,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-05"
+      "example": "2026-10-06"
     },
     {
       "path": "$.topCompletedTransfer",
