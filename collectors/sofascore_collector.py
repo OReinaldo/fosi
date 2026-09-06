@@ -1,7 +1,7 @@
 """FOSI SofaScore acquisition: direct API + resilient real-browser SPA capture, raw-first.
 
 SofaScore may challenge direct API traffic. When that happens FOSI uses the public
-SofaScore web application itself and records the JSON responses emitted by the SPA.
+SofaScore web application itself and records JSON responses emitted by the SPA.
 Nothing is fabricated and raw payloads remain the source of truth.
 """
 import json,re,time,urllib.parse
@@ -12,8 +12,10 @@ CONFIG=Path("config/selected-scout.json");ROOT_BASE=Path("data/scouting")
 BASES=["https://api.sofascore.com/api/v1","https://www.sofascore.app/api/v1","https://www.sofascore.com/api/v1"]
 DETAILS=("event","statistics","incidents","lineups","graph","shotmap","media")
 
+
 def save(path,payload):
     path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
+
 
 def get_json(path):
     """Try a Chrome-like TLS client first, then standard urllib against public routes."""
@@ -34,8 +36,10 @@ def get_json(path):
         except Exception as e:last=e
     raise last
 
+
 def slugify(value):
     value=str(value or "").lower().replace("&","and");value=re.sub(r"[^a-z0-9]+","-",value).strip("-");return value
+
 
 def event_page_url(event):
     eid=str(event.get("id") or "");slug=event.get("slug") or "";custom=event.get("customId") or ""
@@ -44,50 +48,83 @@ def event_page_url(event):
     if home and away and custom:return f"https://www.sofascore.com/football/match/{slugify(away)}-{slugify(home)}/{custom}"
     return f"https://www.sofascore.com/football/match/{custom or eid}/{custom or eid}"
 
+
 def browser_capture(tid,team_name,events,raw,st):
-    """Drive the public SPA and capture per-match API JSON."""
+    """Drive the public SPA, trigger lazy widgets and capture per-match API JSON."""
     try:from playwright.sync_api import sync_playwright
     except Exception as e:st["errors"].append({"layer":"browser","error":f"Playwright unavailable: {e}"});return {}
     captured={};visited=0;team_slug=slugify(team_name) or "pogon-szczecin";team_url=f"https://www.sofascore.com/football/team/{team_slug}/{tid}";wanted=set(DETAILS)
+    ua="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140 Safari/537.36"
     with sync_playwright() as p:
-        browser=p.chromium.launch(headless=True,args=["--disable-blink-features=AutomationControlled","--no-sandbox"]);context=browser.new_context(user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140 Safari/537.36",locale="en-US",viewport={"width":1440,"height":1100});page=context.new_page();current_event=[None]
+        browser=p.chromium.launch(headless=True,args=["--disable-blink-features=AutomationControlled","--no-sandbox"])
+        context=browser.new_context(user_agent=ua,locale="en-US",viewport={"width":1440,"height":1100})
+        page=context.new_page();current_event=[None]
         def on_response(resp):
             url=resp.url
             if "api.sofascore.com/api/v1/" not in url or resp.request.resource_type not in {"xhr","fetch"}:return
             try:
                 key=url.split("/api/v1/",1)[-1].split("?",1)[0].strip("/");parts=key.split("/")
                 if len(parts)<2 or parts[0]!="event":return
-                eid=parts[1];rest=parts[2] if len(parts)>=3 else "event"
-                if rest not in wanted:return
+                eid=parts[1]
+                if len(parts)==2: rest="event"
+                elif len(parts)>=4 and parts[2]=="player": rest="player/"+parts[3]+("/"+parts[4] if len(parts)>4 else "")
+                else: rest=parts[2]
+                if rest not in wanted and not rest.startswith("player/"):return
                 captured[(eid,rest)]=resp.json()
             except BaseException:pass
         page.on("response",on_response)
-        try:page.goto(team_url,wait_until="domcontentloaded",timeout=60000);page.wait_for_timeout(5000);page.evaluate("window.scrollTo(0, document.body.scrollHeight)");page.wait_for_timeout(2500)
-        except BaseException as e:st["errors"].append({"layer":"browser_team_page","error":str(e)})
+
+        def prime_team_page():
+            try:
+                page.goto(team_url,wait_until="domcontentloaded",timeout=60000);page.wait_for_timeout(5000)
+                # Trigger lazy-loaded match widgets and force the Matches view when present.
+                for label in ("Matches","Resultados","Partidos"):
+                    try:
+                        loc=page.get_by_text(label,exact=True)
+                        if loc.count():loc.first.click(timeout=2500);page.wait_for_timeout(1500);break
+                    except BaseException:pass
+                for _ in range(8):
+                    page.evaluate("window.scrollBy(0, Math.max(700, window.innerHeight*0.9))");page.wait_for_timeout(400)
+            except BaseException as e:st["errors"].append({"layer":"browser_team_page","error":str(e)})
+
+        prime_team_page()
         hrefs=[]
         try:hrefs=page.locator('a[href*="/football/match/"]').evaluate_all("els => els.map(e => e.href)")
         except BaseException:pass
-        candidates=list(dict.fromkeys(list(hrefs)+[event_page_url(e) for e in events if "/football/match/" in event_page_url(e)]));target_ids={str(e.get("id")):e for e in events if e.get("id")}
+        # The SPA sometimes renders match links without normal anchors. Search the
+        # hydrated HTML as a second discovery route rather than relying on DOM anchors.
+        try:
+            html=page.content()
+            hrefs += re.findall(r'https?://www\.sofascore\.com/football/match/[^\"\'<>\\s]+',html)
+            hrefs += ["https://www.sofascore.com"+x for x in re.findall(r'href=[\"\'](/football/match/[^\"\']+)',html)]
+        except BaseException:pass
+        hrefs=[h.split('\\u0026')[0] for h in hrefs]
+        candidates=list(dict.fromkeys(list(hrefs)+[event_page_url(e) for e in events if "/football/match/" in event_page_url(e)]))
         for href in candidates:
             try:
-                page.goto(href,wait_until="domcontentloaded",timeout=50000);page.wait_for_timeout(1800)
+                page.goto(href,wait_until="domcontentloaded",timeout=50000);page.wait_for_timeout(2200)
                 for label in ("Statistics","Lineups","Stats","Alineaciones","Estadísticas","Media","Videos","Vídeos"):
                     try:
                         loc=page.get_by_text(label,exact=True)
-                        if loc.count():loc.first.click(timeout=2500);page.wait_for_timeout(1000)
+                        if loc.count():loc.first.click(timeout=2500);page.wait_for_timeout(900)
                     except BaseException:pass
-                for _ in range(4):page.evaluate("window.scrollBy(0, Math.max(500, window.innerHeight*0.9))");page.wait_for_timeout(500)
+                for _ in range(8):
+                    page.evaluate("window.scrollBy(0, Math.max(600, window.innerHeight*0.85))");page.wait_for_timeout(350)
                 visited+=1
             except BaseException:continue
-            if visited and visited%45==0:
+            if visited and visited%40==0:
                 try:context.close()
                 except BaseException:pass
-                context=browser.new_context(user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140 Safari/537.36",locale="en-US",viewport={"width":1440,"height":1100});page=context.new_page();page.on("response",on_response)
-                try:page.goto(team_url,wait_until="domcontentloaded",timeout=50000);page.wait_for_timeout(3000)
-                except BaseException:pass
+                context=browser.new_context(user_agent=ua,locale="en-US",viewport={"width":1440,"height":1100});page=context.new_page();page.on("response",on_response);prime_team_page()
         browser.close()
-    for (eid,kind),payload in captured.items():save(raw/"matches"/eid/(kind+".json"),payload)
-    st["browser_capture"]={"captured_match_layers":len(captured),"unique_matches":len({k[0] for k in captured}),"pages_visited":visited,"candidate_pages":len(candidates)};return captured
+    for (eid,kind),payload in captured.items():
+        if kind.startswith("player/"):
+            parts=kind.split("/"); player_id=parts[1]; asset=parts[2] if len(parts)>2 else "data"
+            save(raw/"matches"/eid/"players"/player_id/(asset+".json"),payload)
+        else:save(raw/"matches"/eid/(kind+".json"),payload)
+    st["browser_capture"]={"captured_match_layers":len(captured),"unique_matches":len({k[0] for k in captured}),"pages_visited":visited,"candidate_pages":len(candidates)}
+    return captured
+
 
 def main():
     cfg=json.loads(CONFIG.read_text(encoding="utf-8"));root=ROOT_BASE/cfg["country"].lower().replace(" ","-")/cfg["competition"].lower().replace(" ","-")/cfg["team_id"];raw=root/"raw"/"sofascore";st={"source":"sofascore","status":"collecting","retrieved_at":datetime.now(timezone.utc).isoformat(),"layers":{},"records":{},"errors":[],"attempted_bases":BASES}
