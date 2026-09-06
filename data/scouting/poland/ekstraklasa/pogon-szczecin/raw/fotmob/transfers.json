@@ -1,6 +1,40 @@
 {
   "transfers": [
     {
+      "name": "Jamie Vardy",
+      "playerId": 286119,
+      "position": {
+        "label": "ST",
+        "key": "striker_short"
+      },
+      "transferDate": "2026-09-06T17:02:13Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Free agent",
+      "fromClubFullName": "Free agent",
+      "fromClubId": 2,
+      "toClub": "Burnley",
+      "toClubFullName": "Burnley",
+      "toClubId": 8191,
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-06T00:00:00Z",
+      "toDate": "2027-06-30T00:00:00Z",
+      "marketValue": 770659
+    },
+    {
       "name": "Serginho",
       "playerId": 891748,
       "position": {
@@ -1618,43 +1652,8 @@
       "fromDate": "2026-09-04T00:00:00Z",
       "toDate": "2029-06-30T00:00:00Z",
       "marketValue": 158415
-    },
-    {
-      "name": "Gabriel Carvalho",
-      "playerId": 1637478,
-      "position": {
-        "label": "RM",
-        "key": "rightmidfielder_short"
-      },
-      "transferDate": "2026-09-05T04:15:42Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Al Qadsiah",
-      "fromClubFullName": "Al Qadsiah",
-      "fromClubId": 101919,
-      "toClub": "Shakhtar Donetsk",
-      "toClubFullName": "Shakhtar Donetsk",
-      "toClubId": 9728,
-      "fee": {
-        "feeText": "fee",
-        "localizedFeeText": "transfer_fee",
-        "value": 1000000
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-08-20T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": null
     }
   ],
-  "hits": 7237,
+  "hits": 7238,
   "maxFee": 145000000
 }
