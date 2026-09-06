@@ -1,6 +1,40 @@
 {
   "transfers": [
     {
+      "name": "Tornike Morchiladze",
+      "playerId": 1177441,
+      "position": {
+        "label": "LW",
+        "key": "leftwinger_short"
+      },
+      "transferDate": "2026-09-06T09:53:57Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Rijeka",
+      "fromClubFullName": "Rijeka",
+      "fromClubId": 10162,
+      "toClub": "Lugo",
+      "toClubFullName": "Lugo",
+      "toClubId": 8206,
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-08-31T00:00:00Z",
+      "toDate": "2028-06-30T00:00:00Z",
+      "marketValue": 269872
+    },
+    {
       "name": "Szymon Karasinski",
       "playerId": 1416638,
       "position": {
@@ -1612,42 +1646,8 @@
       "fromDate": "2026-09-04T00:00:00Z",
       "toDate": null,
       "marketValue": null
-    },
-    {
-      "name": "Shinnosuke Fukuda",
-      "playerId": 1437159,
-      "position": {
-        "label": "RB",
-        "key": "rightback_short"
-      },
-      "transferDate": "2026-09-04T21:47:33Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Kyoto Sanga FC",
-      "fromClubFullName": "Kyoto Sanga FC",
-      "fromClubId": 8542,
-      "toClub": "Legia Warszawa",
-      "toClubFullName": "Legia Warszawa",
-      "toClubId": 8673,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-04T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 493168
     }
   ],
-  "hits": 7225,
+  "hits": 7226,
   "maxFee": 145000000
 }

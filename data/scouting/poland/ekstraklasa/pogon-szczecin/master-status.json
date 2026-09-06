@@ -3,7 +3,7 @@
     {
       "source": "espn",
       "status": "success",
-      "retrieved_at": "2026-09-06T07:26:09.652776+00:00",
+      "retrieved_at": "2026-09-06T09:14:39.577731+00:00",
       "layers": {
         "matches": "available",
         "team": "available",
@@ -43,7 +43,7 @@
     {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-06T07:26:11.927791+00:00",
+      "retrieved_at": "2026-09-06T09:14:44.023415+00:00",
       "layers": {
         "news": "available",
         "standings": "available",
@@ -52,7 +52,7 @@
       },
       "records": {
         "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": {
-          "bytes": 215645,
+          "bytes": 215602,
           "layer": "news",
           "embedded_json_records": 0,
           "links": 34
@@ -70,7 +70,7 @@
           "links": 68
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/1-kolejka/": {
-          "bytes": 312785,
+          "bytes": 312742,
           "layer": "fixtures",
           "embedded_json_records": 0,
           "links": 36
@@ -82,7 +82,7 @@
           "links": 38
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/3-kolejka/": {
-          "bytes": 323948,
+          "bytes": 323991,
           "layer": "fixtures",
           "embedded_json_records": 0,
           "links": 39
@@ -107,7 +107,7 @@
     {
       "source": "sofascore",
       "status": "partial",
-      "retrieved_at": "2026-09-06T07:25:58.817187+00:00",
+      "retrieved_at": "2026-09-06T09:14:13.342761+00:00",
       "layers": {
         "matches": "partial",
         "stats": "partial",
@@ -140,6 +140,11 @@
         "https://www.sofascore.app/api/v1",
         "https://www.sofascore.com/api/v1"
       ],
+      "browser_discovery": {
+        "team_url": "https://www.sofascore.com/football/team/pogo-szczecin/3117",
+        "dom_match_links": 0,
+        "candidate_pages": 0
+      },
       "browser_capture": {
         "captured_match_layers": 0,
         "unique_matches": 0,
@@ -150,7 +155,7 @@
     {
       "source": "fotmob",
       "status": "partial",
-      "retrieved_at": "2026-09-06T07:25:28.730103+00:00",
+      "retrieved_at": "2026-09-06T09:13:53.557815+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -281,7 +286,7 @@
     },
     {
       "source": "understat",
-      "retrieved_at": "2026-09-06T07:26:11.869392+00:00",
+      "retrieved_at": "2026-09-06T09:14:43.958388+00:00",
       "layers": {},
       "records": {},
       "errors": [],
@@ -337,7 +342,7 @@
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-06T07:26:17.321212+00:00",
+  "updated_at": "2026-09-06T09:14:49.118521+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
