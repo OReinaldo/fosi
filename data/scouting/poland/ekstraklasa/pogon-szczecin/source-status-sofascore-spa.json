@@ -1,17 +1,51 @@
 {
   "source": "sofascore-spa",
   "status": "partial",
-  "retrieved_at": "2026-09-07T06:39:48.473904+00:00",
+  "retrieved_at": "2026-09-07T07:09:53.748727+00:00",
   "records": {
-    "shotmap": 0,
-    "lineups": 0,
-    "media": 0,
-    "graph": 0,
+    "statistics": 0,
     "event": 0,
+    "graph": 0,
     "incidents": 0,
-    "statistics": 0
+    "media": 0,
+    "shotmap": 0,
+    "lineups": 0
   },
   "errors": [],
+  "official_host_probe": {
+    "hosts": [
+      {
+        "url": "https://www.sofascore.com/",
+        "status_code": 403,
+        "bytes": 48
+      },
+      {
+        "url": "https://www.sofascore.com/en",
+        "status_code": 403,
+        "bytes": 48
+      },
+      {
+        "url": "https://api.sofascore.com/api/v1/team/3117/events/last/0",
+        "status_code": 403,
+        "bytes": 48
+      },
+      {
+        "url": "https://www.sofascore.com/api/v1/team/3117/events/last/0",
+        "status_code": 403,
+        "bytes": 48
+      },
+      {
+        "url": "https://www.sofascore.app/api/v1/team/3117/events/last/0",
+        "status_code": 403,
+        "bytes": 48
+      }
+    ],
+    "usable_api_base": null
+  },
+  "direct_api_discovery": {
+    "unique_matches": 0,
+    "usable_api_base": null
+  },
   "ssr_discovery": {
     "team_url": "https://www.sofascore.com/football/team/pogon-szczecin/3117",
     "candidate_pages": 0,
