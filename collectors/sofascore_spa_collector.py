@@ -1,11 +1,9 @@
 """Dedicated SofaScore web-app capture fallback.
 
-Used when the public API returns 403. It first discovers match URLs from the
-public server-rendered team page using curl_cffi, then uses real Chrome to
-visit those match pages and capture the site's own JSON. RAW payloads are
-preserved; no values are invented.
+Uses SSR HTML for match discovery, then Playwright/Chrome to capture the
+public site's event JSON. RAW payloads are preserved; no values are invented.
 """
-import json,re,unicodedata,time
+import json,re,unicodedata
 from datetime import datetime,timezone
 from pathlib import Path
 
@@ -24,35 +22,32 @@ def save(path,payload):
 
 def slugify(value):
     s=unicodedata.normalize("NFKD",str(value or "")).encode("ascii","ignore").decode().lower()
-    s=s.replace("&","and")
     return re.sub(r"[^a-z0-9]+","-",s).strip("-")
 
 
 def extract_match_urls(text):
-    """Extract absolute/relative SofaScore football match URLs from SSR HTML/JSON."""
+    """Extract SofaScore football match URLs from SSR HTML/JSON."""
     if not text:
         return []
-    patterns=(
-        r'https?://www\\.sofascore\\.com/(?:[a-z]{2}/)?football/match/[^"\\'<>\\s\\\\]+' ,
-        r'/(?:[a-z]{2}/)?football/match/[^"\\'<>\\s\\\\]+'
-    )
+    text=text.replace('\\\\/','/')
+    patterns=[
+        r"https?://www\.sofascore\.com/(?:[a-z]{2}/)?football/match/[^\"'<>\s\\]+",
+        r"/(?:[a-z]{2}/)?football/match/[^\"'<>\s\\]+",
+    ]
     found=[]
     for pattern in patterns:
         found.extend(re.findall(pattern,text,flags=re.I))
-    # HTML/JSON may contain escaped slashes or unicode escapes.
     normalized=[]
     for value in found:
-        value=value.replace('\\\\/','/')
         if value.startswith('/'):
             value='https://www.sofascore.com'+value
-        value=value.rstrip('\\.,);]')
+        value=value.rstrip('.,);]')
         if '/football/match/' in value:
             normalized.append(value)
     return list(dict.fromkeys(normalized))
 
 
 def discover_ssr(team_url):
-    """Use a browser-like HTTP client before Playwright; the team page is SSR accessible."""
     try:
         from curl_cffi import requests
         session=requests.Session(impersonate="chrome")
@@ -61,15 +56,16 @@ def discover_ssr(team_url):
             headers={
                 "Accept":"text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
                 "Accept-Language":"en-US,en;q=0.9",
-                "Referer":"https://www.google.com/"
+                "Referer":"https://www.google.com/",
             },
             timeout=30,
         )
-        if response.status_code >= 400:
-            return [], {"status_code":response.status_code,"bytes":len(response.content)}
-        return extract_match_urls(response.text), {"status_code":response.status_code,"bytes":len(response.content)}
+        meta={"status_code":response.status_code,"bytes":len(response.content)}
+        if response.status_code>=400:
+            return [],meta
+        return extract_match_urls(response.text),meta
     except Exception as exc:
-        return [], {"error":str(exc)}
+        return [],{"error":str(exc)}
 
 
 def main():
@@ -83,11 +79,8 @@ def main():
     tid=str((cfg.get("provider_ids") or {}).get("sofascore") or "")
     if not tid:
         status["status"]="error";status["errors"].append({"error":"missing SofaScore team id"});save(root/"source-status-sofascore-spa.json",status);return
-    team_url=f"https://www.sofascore.com/football/team/{slugify(cfg.get('team'))}/{tid}"
 
-    # First route: public SSR HTML. This avoids relying on the SPA DOM, which
-    # can be empty in GitHub-hosted Chromium even though the public page is
-    # available to normal HTTP clients and search crawlers.
+    team_url=f"https://www.sofascore.com/football/team/{slugify(cfg.get('team'))}/{tid}"
     ssr_candidates,ssr_meta=discover_ssr(team_url)
     status["ssr_discovery"]={"team_url":team_url,"candidate_pages":len(ssr_candidates),**ssr_meta}
 
@@ -123,35 +116,19 @@ def main():
                 captured[(eid,asset)]=resp.json()
             except Exception:
                 pass
-        page.on("response",on_response)
 
+        page.on("response",on_response)
         try:
-            # Only use SPA discovery as a secondary route. The SSR route above
-            # is authoritative for candidate URL discovery when available.
             candidates=list(ssr_candidates)
             if not candidates:
                 try:
                     page.goto(team_url,wait_until="domcontentloaded",timeout=60000)
                     page.wait_for_timeout(7000)
-                    for label in ("Matches","Partidos","Resultados"):
-                        try:
-                            loc=page.get_by_text(label,exact=True)
-                            if loc.count():
-                                loc.first.click(timeout=3000);page.wait_for_timeout(1500);break
-                        except Exception:
-                            pass
                     for _ in range(16):
                         page.evaluate("window.scrollBy(0, Math.max(900, window.innerHeight))")
                         page.wait_for_timeout(450)
-                    hrefs=[]
-                    try:
-                        hrefs=page.locator('a[href*="/football/match/"]').evaluate_all("els => els.map(e => e.href)")
-                    except Exception:
-                        pass
-                    try:
-                        hrefs += extract_match_urls(page.content())
-                    except Exception:
-                        pass
+                    hrefs=page.locator('a[href*="/football/match/"]').evaluate_all("els => els.map(e => e.href)")
+                    hrefs += extract_match_urls(page.content())
                     candidates=list(dict.fromkeys(hrefs))
                 except Exception as exc:
                     status["errors"].append({"layer":"spa_discovery","error":str(exc)})
@@ -160,7 +137,7 @@ def main():
             for href in candidates:
                 try:
                     page.goto(href,wait_until="domcontentloaded",timeout=50000)
-                    page.wait_for_timeout(2600)
+                    page.wait_for_timeout(3000)
                     for labels in (("Statistics","Estadísticas","Stats"),("Lineups","Alineaciones"),("Media","Videos","Vídeos")):
                         for label in labels:
                             try:
