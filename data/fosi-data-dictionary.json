@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-07T03:29:04.541603+00:00",
+  "generated_at": "2026-09-07T06:40:40.536372+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -190736,7 +190736,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7241"
+      "example": "7244"
     },
     {
       "path": "$.id",
@@ -214660,7 +214660,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-07T03:28:27.691466+00:00"
+      "example": "2026-09-07T06:40:03.777918+00:00"
     },
     {
       "path": "$.rosters",
@@ -227515,7 +227515,7 @@
         "espn"
       ],
       "file_count": 10,
-      "example": "2026-09-07T03:28:01Z"
+      "example": "2026-09-07T05:11:22Z"
     },
     {
       "path": "$.to",
@@ -229719,14 +229719,38 @@
     {
       "path": "$.transfers[].fee",
       "types": {
-        "null": 1
+        "object": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": null
+    },
+    {
+      "path": "$.transfers[].fee.feeText",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "on loan"
+    },
+    {
+      "path": "$.transfers[].fee.localizedFeeText",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "on_loan"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -229738,7 +229762,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Çorum FK"
+      "example": "Al Fateh FC"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -229750,7 +229774,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Çorum FK"
+      "example": "Al Fateh FC"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -229762,7 +229786,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "357274"
+      "example": "177356"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -229774,7 +229798,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-07T00:00:00Z"
+      "example": "2026-09-03T00:00:00Z"
     },
     {
       "path": "$.transfers[].marketValue",
@@ -229786,7 +229810,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "151987"
+      "example": "120425"
     },
     {
       "path": "$.transfers[].name",
@@ -229798,7 +229822,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Danijel Aleksic"
+      "example": "Hussain Qasim"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -229810,7 +229834,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.transfers[].playerId",
@@ -229822,7 +229846,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "119839"
+      "example": "959072"
     },
     {
       "path": "$.transfers[].position",
@@ -229846,7 +229870,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "centerattackingmidfielder_short"
+      "example": "left_wing_back_short"
     },
     {
       "path": "$.transfers[].position.label",
@@ -229858,7 +229882,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "AM"
+      "example": "LWB"
     },
     {
       "path": "$.transfers[].toClub",
@@ -229870,7 +229894,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "Al Riyadh"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -229882,7 +229906,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "Al Riyadh"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -229894,19 +229918,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2"
+      "example": "582739"
     },
     {
       "path": "$.transfers[].toDate",
       "types": {
-        "null": 1
+        "string": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": "2027-06-30T00:00:00Z"
     },
     {
       "path": "$.transfers[].transferDate",
@@ -229918,7 +229942,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-07T00:06:52Z"
+      "example": "2026-09-07T08:02:15Z"
     },
     {
       "path": "$.transfers[].transferText",
@@ -229966,7 +229990,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "contract"
+      "example": "on_loan"
     },
     {
       "path": "$.transfers[].transferType.text",
@@ -229978,7 +230002,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "contract"
+      "example": "on loan"
     },
     {
       "path": "$.trophies",

@@ -1,20 +1,27 @@
 {
   "source": "sofascore-spa",
   "status": "partial",
-  "retrieved_at": "2026-09-07T03:28:12.434811+00:00",
+  "retrieved_at": "2026-09-07T06:39:48.473904+00:00",
   "records": {
-    "incidents": 0,
-    "media": 0,
     "shotmap": 0,
-    "event": 0,
+    "lineups": 0,
+    "media": 0,
     "graph": 0,
-    "statistics": 0,
-    "lineups": 0
+    "event": 0,
+    "incidents": 0,
+    "statistics": 0
   },
   "errors": [],
+  "ssr_discovery": {
+    "team_url": "https://www.sofascore.com/football/team/pogon-szczecin/3117",
+    "candidate_pages": 0,
+    "status_code": 403,
+    "bytes": 48
+  },
   "discovery": {
     "team_url": "https://www.sofascore.com/football/team/pogon-szczecin/3117",
-    "candidate_pages": 0
+    "candidate_pages": 0,
+    "source": "spa"
   },
   "browser_capture": {
     "pages_visited": 0,
