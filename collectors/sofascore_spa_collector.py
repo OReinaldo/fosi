@@ -1,7 +1,9 @@
 """Dedicated SofaScore web-app capture fallback.
 
-Uses SSR HTML for match discovery, then Playwright/Chrome to capture the
-public site's event JSON. RAW payloads are preserved; no values are invented.
+Uses only public SofaScore web/API routes. It first probes the official hosts
+from the GitHub runner, then tries direct public event discovery, and finally
+falls back to Playwright/Chrome. RAW payloads are preserved; no values are
+invented or inferred from blocked responses.
 """
 import json,re,unicodedata
 from datetime import datetime,timezone
@@ -10,6 +12,11 @@ from pathlib import Path
 CONFIG=Path("config/selected-scout.json")
 ROOT=Path("data/scouting")
 DETAILS={"event","statistics","incidents","lineups","graph","shotmap","media"}
+API_BASES=(
+    "https://api.sofascore.com/api/v1",
+    "https://www.sofascore.com/api/v1",
+    "https://www.sofascore.app/api/v1",
+)
 
 
 def save(path,payload):
@@ -47,19 +54,79 @@ def extract_match_urls(text):
     return list(dict.fromkeys(normalized))
 
 
+def make_session():
+    from curl_cffi import requests
+    return requests.Session(impersonate="chrome")
+
+
+def common_headers(referer="https://www.sofascore.com/"):
+    return {
+        "Accept":"text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
+        "Accept-Language":"en-US,en;q=0.9",
+        "Cache-Control":"no-cache",
+        "Pragma":"no-cache",
+        "Referer":referer,
+    }
+
+
+def probe_official_hosts(team_id):
+    """Probe public SofaScore web/API hosts and attempt team event discovery."""
+    result={"hosts":[],"event_pages":[],"usable_api_base":None}
+    try:
+        session=make_session()
+        # Warm the public web origin first so cookies/session state are established.
+        for url in ("https://www.sofascore.com/", "https://www.sofascore.com/en"):
+            try:
+                r=session.get(url,headers=common_headers(),timeout=20)
+                result["hosts"].append({"url":url,"status_code":r.status_code,"bytes":len(r.content)})
+            except Exception as exc:
+                result["hosts"].append({"url":url,"error":str(exc)})
+
+        for base in API_BASES:
+            url=f"{base}/team/{team_id}/events/last/0"
+            try:
+                r=session.get(url,headers={**common_headers("https://www.sofascore.com/"),"Accept":"application/json,text/plain,*/*"},timeout=25)
+                item={"url":url,"status_code":r.status_code,"bytes":len(r.content)}
+                if r.status_code==200:
+                    try:
+                        payload=r.json()
+                        events=payload.get("events") or []
+                        item["events"]=len(events)
+                        result["event_pages"].append({"base":base,"page":0,"payload":payload})
+                        if events and result["usable_api_base"] is None:
+                            result["usable_api_base"]=base
+                    except Exception as exc:
+                        item["json_error"]=str(exc)
+                result["hosts"].append(item)
+            except Exception as exc:
+                result["hosts"].append({"url":url,"error":str(exc)})
+    except Exception as exc:
+        result["error"]=str(exc)
+    return result
+
+
+def fetch_direct_api_events(team_id,raw,probe):
+    """Persist discovered public event pages and return event ids."""
+    base=probe.get("usable_api_base")
+    if not base:
+        return []
+    events=[]
+    for item in probe.get("event_pages",[]):
+        payload=item.get("payload") or {}
+        for event in payload.get("events") or []:
+            eid=str(event.get("id") or "")
+            if eid:
+                events.append(eid)
+    ids=list(dict.fromkeys(events))
+    for eid in ids:
+        save(raw/"matches"/eid/"event.json",{"_discovery":True,"event":next((e for p in probe.get("event_pages",[]) for e in (p.get("payload") or {}).get("events",[]) if str(e.get("id"))==eid),{})})
+    return ids
+
+
 def discover_ssr(team_url):
     try:
-        from curl_cffi import requests
-        session=requests.Session(impersonate="chrome")
-        response=session.get(
-            team_url,
-            headers={
-                "Accept":"text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
-                "Accept-Language":"en-US,en;q=0.9",
-                "Referer":"https://www.google.com/",
-            },
-            timeout=30,
-        )
+        session=make_session()
+        response=session.get(team_url,headers=common_headers("https://www.google.com/"),timeout=30)
         meta={"status_code":response.status_code,"bytes":len(response.content)}
         if response.status_code>=400:
             return [],meta
@@ -79,6 +146,12 @@ def main():
     tid=str((cfg.get("provider_ids") or {}).get("sofascore") or "")
     if not tid:
         status["status"]="error";status["errors"].append({"error":"missing SofaScore team id"});save(root/"source-status-sofascore-spa.json",status);return
+
+    # First determine whether any official SofaScore host is reachable from the runner.
+    probe=probe_official_hosts(tid)
+    status["official_host_probe"]={k:v for k,v in probe.items() if k!="event_pages"}
+    direct_ids=fetch_direct_api_events(tid,raw,probe)
+    status["direct_api_discovery"]={"unique_matches":len(direct_ids),"usable_api_base":probe.get("usable_api_base")}
 
     team_url=f"https://www.sofascore.com/football/team/{slugify(cfg.get('team'))}/{tid}"
     ssr_candidates,ssr_meta=discover_ssr(team_url)
@@ -122,6 +195,10 @@ def main():
             candidates=list(ssr_candidates)
             if not candidates:
                 try:
+                    # Prime the public site before team discovery; some deployments only
+                    # hydrate event links after the initial origin/session is established.
+                    page.goto("https://www.sofascore.com/",wait_until="domcontentloaded",timeout=60000)
+                    page.wait_for_timeout(3000)
                     page.goto(team_url,wait_until="domcontentloaded",timeout=60000)
                     page.wait_for_timeout(7000)
                     for _ in range(16):
@@ -164,7 +241,7 @@ def main():
 
     status["browser_capture"]={"pages_visited":visited,"captured_layers":len(captured),"unique_matches":len({k[0] for k in captured})}
     status["records"]={k:sum(1 for eid in {x[0] for x in captured} if (raw/"matches"/eid/(k+".json")).exists()) for k in DETAILS}
-    status["status"]="success" if captured else "partial"
+    status["status"]="success" if captured or direct_ids else "partial"
     save(root/"source-status-sofascore-spa.json",status)
 
 
