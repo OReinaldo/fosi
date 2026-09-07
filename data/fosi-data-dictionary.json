@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-06T19:50:19.580422+00:00",
+  "generated_at": "2026-09-07T03:29:04.541603+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -175888,7 +175888,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "5803969"
+      "example": "5803976"
     },
     {
       "path": "$.fixtures.firstUnplayedMatch.firstUnplayedMatchIndex",
@@ -175900,7 +175900,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "55"
+      "example": "56"
     },
     {
       "path": "$.fixtures.fixtureInfo",
@@ -176176,7 +176176,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-08-30"
+      "example": "2026-08-31"
     },
     {
       "path": "$.gameInfo",
@@ -190736,7 +190736,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7238"
+      "example": "7241"
     },
     {
       "path": "$.id",
@@ -199261,7 +199261,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "5803969"
+      "example": "5803976"
     },
     {
       "path": "$.overview.matches.firstUnplayedMatch.firstUnplayedMatchIndex",
@@ -199273,7 +199273,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "55"
+      "example": "56"
     },
     {
       "path": "$.overview.matches.fixtureInfo",
@@ -199873,7 +199873,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-105"
+      "example": "-111"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
@@ -199885,7 +199885,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.95"
+      "example": "1.90"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
@@ -199897,7 +199897,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "20/21"
+      "example": "9/10"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
@@ -200101,7 +200101,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-105"
+      "example": "-111"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
@@ -200113,7 +200113,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.95"
+      "example": "1.90"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
@@ -200125,7 +200125,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "20/21"
+      "example": "9/10"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
@@ -200473,7 +200473,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Tomorrow"
+      "example": "Today"
     },
     {
       "path": "$.overview.nextMatch.stats",
@@ -201748,186 +201748,6 @@
       "example": null
     },
     {
-      "path": "$.overview.table[].data.ongoing[]",
-      "types": {
-        "object": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": null
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].aId",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "8025"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].aScore",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "0"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].aTeam",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "Śląsk Wrocław"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].extId",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "ls_0"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].gs",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "06.09.2026 20:18:15"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].hId",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "1957"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].hScore",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "2"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].hTeam",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "Jagiellonia Białystok"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].id",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "5803969"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].sId",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "3"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].shs",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "06.09.2026 21:22:16"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].stage",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "7"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].status",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "S"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].time",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "06.09.2026 20:15"
-    },
-    {
       "path": "$.overview.table[].data.pageUrl",
       "types": {
         "string": 2
@@ -202082,6 +201902,18 @@
       ],
       "file_count": 2,
       "example": "Lech Poznań"
+    },
+    {
+      "path": "$.overview.table[].data.table.all[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
     },
     {
       "path": "$.overview.table[].data.table.all[].pageUrl",
@@ -202300,6 +202132,18 @@
       "example": "Górnik Zabrze"
     },
     {
+      "path": "$.overview.table[].data.table.away[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
+    },
+    {
       "path": "$.overview.table[].data.table.away[].pageUrl",
       "types": {
         "string": 2
@@ -202502,6 +202346,18 @@
       ],
       "file_count": 2,
       "example": "Lech Poznań"
+    },
+    {
+      "path": "$.overview.table[].data.table.form[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
     },
     {
       "path": "$.overview.table[].data.table.form[].pageUrl",
@@ -202720,6 +202576,18 @@
       "example": "Lech Poznań"
     },
     {
+      "path": "$.overview.table[].data.table.home[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
+    },
+    {
       "path": "$.overview.table[].data.table.home[].pageUrl",
       "types": {
         "string": 2
@@ -202910,6 +202778,18 @@
       ],
       "file_count": 2,
       "example": "Legia Warszawa"
+    },
+    {
+      "path": "$.overview.table[].data.table.xg[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
     },
     {
       "path": "$.overview.table[].data.table.xg[].pageUrl",
@@ -204385,7 +204265,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8245"
+      "example": "1957"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].away.isOurTeam",
@@ -204397,7 +204277,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].away.name",
@@ -204409,7 +204289,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Korona Kielce"
+      "example": "Jagiellonia Białystok"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].away.shortName",
@@ -204421,7 +204301,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Korona Kielce"
+      "example": "Jagiellonia Białystok"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].date",
@@ -204457,7 +204337,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1957"
+      "example": "89466"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].home.isOurTeam",
@@ -204469,7 +204349,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].home.name",
@@ -204481,7 +204361,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Jagiellonia Białystok"
+      "example": "Motor Lublin"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].home.shortName",
@@ -204493,7 +204373,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Jagiellonia Białystok"
+      "example": "Motor Lublin"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].imageUrl",
@@ -204505,7 +204385,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/8245_xsmall.png"
+      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/89466_xsmall.png"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].linkToMatch",
@@ -204517,7 +204397,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/matches/jagiellonia-biaystok-vs-korona-kielce/uzoxg#5803900"
+      "example": "/matches/jagiellonia-biaystok-vs-motor-lublin/1x474yy#5803927"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].result",
@@ -204553,7 +204433,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1 - 0"
+      "example": "1 - 2"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].teamPageUrl",
@@ -204565,7 +204445,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/teams/8245/overview/korona-kielce"
+      "example": "/teams/89466/overview/motor-lublin"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].tooltipText",
@@ -204589,7 +204469,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "0"
+      "example": "2"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].tooltipText.awayTeam",
@@ -204601,7 +204481,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Korona Kielce"
+      "example": "Jagiellonia Białystok"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].tooltipText.awayTeamId",
@@ -204613,7 +204493,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8245"
+      "example": "1957"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].tooltipText.homeScore",
@@ -204637,7 +204517,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Jagiellonia Białystok"
+      "example": "Motor Lublin"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].tooltipText.homeTeamId",
@@ -204649,7 +204529,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1957"
+      "example": "89466"
     },
     {
       "path": "$.overview.table[].teamForm.1957[].tooltipText.utcTime",
@@ -204661,7 +204541,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2026-07-25T12:45:00Z"
+      "example": "2026-07-31T18:30:00Z"
     },
     {
       "path": "$.overview.table[].teamForm.2182",
@@ -207625,7 +207505,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "4024"
+      "example": "2186"
     },
     {
       "path": "$.overview.table[].teamForm.8025[].away.isOurTeam",
@@ -207649,7 +207529,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Raków Częstochowa"
+      "example": "Cracovia"
     },
     {
       "path": "$.overview.table[].teamForm.8025[].away.shortName",
@@ -207661,7 +207541,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Raków Częstochowa"
+      "example": "Cracovia"
     },
     {
       "path": "$.overview.table[].teamForm.8025[].date",
@@ -207745,7 +207625,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/4024_xsmall.png"
+      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/2186_xsmall.png"
     },
     {
       "path": "$.overview.table[].teamForm.8025[].linkToMatch",
@@ -207757,7 +207637,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/matches/rakow-czestochowa-vs-slask-wrocaw/17850y#5803929"
+      "example": "/matches/cracovia-vs-slask-wrocaw/v1nn3#5803939"
     },
     {
       "path": "$.overview.table[].teamForm.8025[].result",
@@ -207769,7 +207649,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1"
+      "example": "0"
     },
     {
       "path": "$.overview.table[].teamForm.8025[].resultString",
@@ -207781,7 +207661,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "W"
+      "example": "D"
     },
     {
       "path": "$.overview.table[].teamForm.8025[].score",
@@ -207793,7 +207673,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2 - 1"
+      "example": "0 - 0"
     },
     {
       "path": "$.overview.table[].teamForm.8025[].teamPageUrl",
@@ -207805,7 +207685,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/teams/4024/overview/rakow-czestochowa"
+      "example": "/teams/2186/overview/cracovia"
     },
     {
       "path": "$.overview.table[].teamForm.8025[].tooltipText",
@@ -207829,7 +207709,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1"
+      "example": "0"
     },
     {
       "path": "$.overview.table[].teamForm.8025[].tooltipText.awayTeam",
@@ -207841,7 +207721,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Raków Częstochowa"
+      "example": "Cracovia"
     },
     {
       "path": "$.overview.table[].teamForm.8025[].tooltipText.awayTeamId",
@@ -207853,7 +207733,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "4024"
+      "example": "2186"
     },
     {
       "path": "$.overview.table[].teamForm.8025[].tooltipText.homeScore",
@@ -207865,7 +207745,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2"
+      "example": "0"
     },
     {
       "path": "$.overview.table[].teamForm.8025[].tooltipText.homeTeam",
@@ -207901,7 +207781,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2026-08-02T15:30:00Z"
+      "example": "2026-08-09T12:45:00Z"
     },
     {
       "path": "$.overview.table[].teamForm.8028",
@@ -210013,7 +209893,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "54"
+      "example": "55"
     },
     {
       "path": "$.overview.topPlayers.byAssists.players[].stat",
@@ -214780,7 +214660,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-06T19:49:42.085897+00:00"
+      "example": "2026-09-07T03:28:27.691466+00:00"
     },
     {
       "path": "$.rosters",
@@ -219322,186 +219202,6 @@
       "example": null
     },
     {
-      "path": "$.table[].data.ongoing[]",
-      "types": {
-        "object": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": null
-    },
-    {
-      "path": "$.table[].data.ongoing[].aId",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "8025"
-    },
-    {
-      "path": "$.table[].data.ongoing[].aScore",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "0"
-    },
-    {
-      "path": "$.table[].data.ongoing[].aTeam",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "Śląsk Wrocław"
-    },
-    {
-      "path": "$.table[].data.ongoing[].extId",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "ls_0"
-    },
-    {
-      "path": "$.table[].data.ongoing[].gs",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "06.09.2026 20:18:15"
-    },
-    {
-      "path": "$.table[].data.ongoing[].hId",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "1957"
-    },
-    {
-      "path": "$.table[].data.ongoing[].hScore",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "2"
-    },
-    {
-      "path": "$.table[].data.ongoing[].hTeam",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "Jagiellonia Białystok"
-    },
-    {
-      "path": "$.table[].data.ongoing[].id",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "5803969"
-    },
-    {
-      "path": "$.table[].data.ongoing[].sId",
-      "types": {
-        "integer": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "3"
-    },
-    {
-      "path": "$.table[].data.ongoing[].shs",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "06.09.2026 21:22:16"
-    },
-    {
-      "path": "$.table[].data.ongoing[].stage",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "7"
-    },
-    {
-      "path": "$.table[].data.ongoing[].status",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "S"
-    },
-    {
-      "path": "$.table[].data.ongoing[].time",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "06.09.2026 20:15"
-    },
-    {
       "path": "$.table[].data.pageUrl",
       "types": {
         "string": 2
@@ -219656,6 +219356,18 @@
       ],
       "file_count": 2,
       "example": "Lech Poznań"
+    },
+    {
+      "path": "$.table[].data.table.all[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
     },
     {
       "path": "$.table[].data.table.all[].pageUrl",
@@ -219874,6 +219586,18 @@
       "example": "Górnik Zabrze"
     },
     {
+      "path": "$.table[].data.table.away[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
+    },
+    {
       "path": "$.table[].data.table.away[].pageUrl",
       "types": {
         "string": 2
@@ -220076,6 +219800,18 @@
       ],
       "file_count": 2,
       "example": "Lech Poznań"
+    },
+    {
+      "path": "$.table[].data.table.form[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
     },
     {
       "path": "$.table[].data.table.form[].pageUrl",
@@ -220294,6 +220030,18 @@
       "example": "Lech Poznań"
     },
     {
+      "path": "$.table[].data.table.home[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
+    },
+    {
       "path": "$.table[].data.table.home[].pageUrl",
       "types": {
         "string": 2
@@ -220484,6 +220232,18 @@
       ],
       "file_count": 2,
       "example": "Legia Warszawa"
+    },
+    {
+      "path": "$.table[].data.table.xg[].ongoing",
+      "types": {
+        "null": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "None"
     },
     {
       "path": "$.table[].data.table.xg[].pageUrl",
@@ -221959,7 +221719,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8245"
+      "example": "1957"
     },
     {
       "path": "$.table[].teamForm.1957[].away.isOurTeam",
@@ -221971,7 +221731,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.table[].teamForm.1957[].away.name",
@@ -221983,7 +221743,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Korona Kielce"
+      "example": "Jagiellonia Białystok"
     },
     {
       "path": "$.table[].teamForm.1957[].away.shortName",
@@ -221995,7 +221755,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Korona Kielce"
+      "example": "Jagiellonia Białystok"
     },
     {
       "path": "$.table[].teamForm.1957[].date",
@@ -222031,7 +221791,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1957"
+      "example": "89466"
     },
     {
       "path": "$.table[].teamForm.1957[].home.isOurTeam",
@@ -222043,7 +221803,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.table[].teamForm.1957[].home.name",
@@ -222055,7 +221815,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Jagiellonia Białystok"
+      "example": "Motor Lublin"
     },
     {
       "path": "$.table[].teamForm.1957[].home.shortName",
@@ -222067,7 +221827,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Jagiellonia Białystok"
+      "example": "Motor Lublin"
     },
     {
       "path": "$.table[].teamForm.1957[].imageUrl",
@@ -222079,7 +221839,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/8245_xsmall.png"
+      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/89466_xsmall.png"
     },
     {
       "path": "$.table[].teamForm.1957[].linkToMatch",
@@ -222091,7 +221851,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/matches/jagiellonia-biaystok-vs-korona-kielce/uzoxg#5803900"
+      "example": "/matches/jagiellonia-biaystok-vs-motor-lublin/1x474yy#5803927"
     },
     {
       "path": "$.table[].teamForm.1957[].result",
@@ -222127,7 +221887,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1 - 0"
+      "example": "1 - 2"
     },
     {
       "path": "$.table[].teamForm.1957[].teamPageUrl",
@@ -222139,7 +221899,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/teams/8245/overview/korona-kielce"
+      "example": "/teams/89466/overview/motor-lublin"
     },
     {
       "path": "$.table[].teamForm.1957[].tooltipText",
@@ -222163,7 +221923,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "0"
+      "example": "2"
     },
     {
       "path": "$.table[].teamForm.1957[].tooltipText.awayTeam",
@@ -222175,7 +221935,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Korona Kielce"
+      "example": "Jagiellonia Białystok"
     },
     {
       "path": "$.table[].teamForm.1957[].tooltipText.awayTeamId",
@@ -222187,7 +221947,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8245"
+      "example": "1957"
     },
     {
       "path": "$.table[].teamForm.1957[].tooltipText.homeScore",
@@ -222211,7 +221971,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Jagiellonia Białystok"
+      "example": "Motor Lublin"
     },
     {
       "path": "$.table[].teamForm.1957[].tooltipText.homeTeamId",
@@ -222223,7 +221983,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1957"
+      "example": "89466"
     },
     {
       "path": "$.table[].teamForm.1957[].tooltipText.utcTime",
@@ -222235,7 +221995,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2026-07-25T12:45:00Z"
+      "example": "2026-07-31T18:30:00Z"
     },
     {
       "path": "$.table[].teamForm.2182",
@@ -225199,7 +224959,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "4024"
+      "example": "2186"
     },
     {
       "path": "$.table[].teamForm.8025[].away.isOurTeam",
@@ -225223,7 +224983,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Raków Częstochowa"
+      "example": "Cracovia"
     },
     {
       "path": "$.table[].teamForm.8025[].away.shortName",
@@ -225235,7 +224995,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Raków Częstochowa"
+      "example": "Cracovia"
     },
     {
       "path": "$.table[].teamForm.8025[].date",
@@ -225319,7 +225079,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/4024_xsmall.png"
+      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/2186_xsmall.png"
     },
     {
       "path": "$.table[].teamForm.8025[].linkToMatch",
@@ -225331,7 +225091,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/matches/rakow-czestochowa-vs-slask-wrocaw/17850y#5803929"
+      "example": "/matches/cracovia-vs-slask-wrocaw/v1nn3#5803939"
     },
     {
       "path": "$.table[].teamForm.8025[].result",
@@ -225343,7 +225103,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1"
+      "example": "0"
     },
     {
       "path": "$.table[].teamForm.8025[].resultString",
@@ -225355,7 +225115,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "W"
+      "example": "D"
     },
     {
       "path": "$.table[].teamForm.8025[].score",
@@ -225367,7 +225127,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2 - 1"
+      "example": "0 - 0"
     },
     {
       "path": "$.table[].teamForm.8025[].teamPageUrl",
@@ -225379,7 +225139,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/teams/4024/overview/rakow-czestochowa"
+      "example": "/teams/2186/overview/cracovia"
     },
     {
       "path": "$.table[].teamForm.8025[].tooltipText",
@@ -225403,7 +225163,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1"
+      "example": "0"
     },
     {
       "path": "$.table[].teamForm.8025[].tooltipText.awayTeam",
@@ -225415,7 +225175,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Raków Częstochowa"
+      "example": "Cracovia"
     },
     {
       "path": "$.table[].teamForm.8025[].tooltipText.awayTeamId",
@@ -225427,7 +225187,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "4024"
+      "example": "2186"
     },
     {
       "path": "$.table[].teamForm.8025[].tooltipText.homeScore",
@@ -225439,7 +225199,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2"
+      "example": "0"
     },
     {
       "path": "$.table[].teamForm.8025[].tooltipText.homeTeam",
@@ -225475,7 +225235,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2026-08-02T15:30:00Z"
+      "example": "2026-08-09T12:45:00Z"
     },
     {
       "path": "$.table[].teamForm.8028",
@@ -227755,7 +227515,7 @@
         "espn"
       ],
       "file_count": 10,
-      "example": "2026-09-06T18:25:02Z"
+      "example": "2026-09-07T03:28:01Z"
     },
     {
       "path": "$.to",
@@ -227767,7 +227527,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-06"
+      "example": "2026-10-07"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -229959,38 +229719,14 @@
     {
       "path": "$.transfers[].fee",
       "types": {
-        "object": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.transfers[].fee.feeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "free transfer"
-    },
-    {
-      "path": "$.transfers[].fee.localizedFeeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "transfer_type_free_transfer"
+      "example": "None"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -230002,7 +229738,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "Çorum FK"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -230014,7 +229750,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "Çorum FK"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -230026,7 +229762,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2"
+      "example": "357274"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -230038,7 +229774,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-06T00:00:00Z"
+      "example": "2026-09-07T00:00:00Z"
     },
     {
       "path": "$.transfers[].marketValue",
@@ -230050,7 +229786,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "770659"
+      "example": "151987"
     },
     {
       "path": "$.transfers[].name",
@@ -230062,7 +229798,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Jamie Vardy"
+      "example": "Danijel Aleksic"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -230086,7 +229822,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "286119"
+      "example": "119839"
     },
     {
       "path": "$.transfers[].position",
@@ -230110,7 +229846,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "striker_short"
+      "example": "centerattackingmidfielder_short"
     },
     {
       "path": "$.transfers[].position.label",
@@ -230122,7 +229858,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "ST"
+      "example": "AM"
     },
     {
       "path": "$.transfers[].toClub",
@@ -230134,7 +229870,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Burnley"
+      "example": "Free agent"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -230146,7 +229882,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Burnley"
+      "example": "Free agent"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -230158,19 +229894,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8191"
+      "example": "2"
     },
     {
       "path": "$.transfers[].toDate",
       "types": {
-        "string": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2027-06-30T00:00:00Z"
+      "example": "None"
     },
     {
       "path": "$.transfers[].transferDate",
@@ -230182,7 +229918,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-06T17:02:13Z"
+      "example": "2026-09-07T00:06:52Z"
     },
     {
       "path": "$.transfers[].transferText",

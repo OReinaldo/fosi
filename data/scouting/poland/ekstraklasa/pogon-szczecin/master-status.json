@@ -3,7 +3,7 @@
     {
       "source": "espn",
       "status": "success",
-      "retrieved_at": "2026-09-06T19:49:14.280780+00:00",
+      "retrieved_at": "2026-09-07T03:28:01.233081+00:00",
       "layers": {
         "matches": "available",
         "team": "available",
@@ -43,15 +43,15 @@
     {
       "source": "sofascore-spa",
       "status": "partial",
-      "retrieved_at": "2026-09-06T11:02:45.251343+00:00",
+      "retrieved_at": "2026-09-06T19:49:26.824554+00:00",
       "records": {
-        "shotmap": 0,
         "event": 0,
-        "lineups": 0,
-        "statistics": 0,
         "incidents": 0,
+        "statistics": 0,
+        "lineups": 0,
         "media": 0,
-        "graph": 0
+        "graph": 0,
+        "shotmap": 0
       },
       "errors": [],
       "discovery": {
@@ -67,7 +67,7 @@
     {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-06T19:49:16.668065+00:00",
+      "retrieved_at": "2026-09-07T03:28:03.469734+00:00",
       "layers": {
         "news": "available",
         "standings": "available",
@@ -76,25 +76,25 @@
       },
       "records": {
         "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": {
-          "bytes": 216185,
+          "bytes": 215602,
           "layer": "news",
           "embedded_json_records": 0,
           "links": 34
         },
         "https://ekstraklasa.org/en/tabela/": {
-          "bytes": 337630,
+          "bytes": 336645,
           "layer": "standings",
           "embedded_json_records": 0,
           "links": 43
         },
         "https://ekstraklasa.org/statystyki/": {
-          "bytes": 1847684,
+          "bytes": 1857967,
           "layer": "stats",
           "embedded_json_records": 0,
-          "links": 67
+          "links": 68
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/1-kolejka/": {
-          "bytes": 312785,
+          "bytes": 312742,
           "layer": "fixtures",
           "embedded_json_records": 0,
           "links": 36
@@ -112,7 +112,7 @@
           "links": 39
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/4-kolejka/": {
-          "bytes": 325796,
+          "bytes": 325839,
           "layer": "fixtures",
           "embedded_json_records": 0,
           "links": 39
@@ -126,12 +126,12 @@
         }
       ],
       "structured_records": 0,
-      "links": 296
+      "links": 297
     },
     {
       "source": "sofascore",
       "status": "partial",
-      "retrieved_at": "2026-09-06T19:48:50.489161+00:00",
+      "retrieved_at": "2026-09-07T03:27:45.115865+00:00",
       "layers": {
         "matches": "partial",
         "stats": "partial",
@@ -179,7 +179,7 @@
     {
       "source": "fotmob",
       "status": "partial",
-      "retrieved_at": "2026-09-06T19:48:34.280034+00:00",
+      "retrieved_at": "2026-09-07T03:27:29.279104+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -198,8 +198,8 @@
         "player_matches_skipped_existing": 0,
         "transfers": 1,
         "date_scanned_matches": 3,
-        "date_scan_from": "2026-08-30",
-        "date_scan_to": "2026-10-06",
+        "date_scan_from": "2026-08-31",
+        "date_scan_to": "2026-10-07",
         "matches": 35,
         "match_details": 0,
         "match_details_skipped_existing": 35,
@@ -310,7 +310,7 @@
     },
     {
       "source": "understat",
-      "retrieved_at": "2026-09-06T19:49:16.605964+00:00",
+      "retrieved_at": "2026-09-07T03:28:03.411194+00:00",
       "layers": {},
       "records": {},
       "errors": [],
@@ -366,7 +366,7 @@
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-06T19:49:26.772762+00:00",
+  "updated_at": "2026-09-07T03:28:12.383526+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
