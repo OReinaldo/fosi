@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-07T17:24:27.320499+00:00",
+  "generated_at": "2026-09-07T18:40:13.021664+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -8,7 +8,7 @@
     "team_id": "pogon-szczecin"
   },
   "method": "observed-from-raw",
-  "files_seen": 244,
+  "files_seen": 251,
   "source_files": [
     "espn/events.json",
     "espn/injuries.json",
@@ -26,6 +26,7 @@
     "espn/schedule/page-9.json",
     "espn/schedule.json",
     "espn/team.json",
+    "espn/transactions.json",
     "fotmob/all-competition-calendar.json",
     "fotmob/deepstats/2026/2027/players/accurate_passes.json",
     "fotmob/deepstats/2026/2027/players/assists.json",
@@ -248,27 +249,33 @@
     "fotmob/videos/5904696.json",
     "sites/runtime-assets.json",
     "sites/site-1.links.json",
+    "sites/site-10.links.json",
+    "sites/site-11.links.json",
+    "sites/site-12.links.json",
     "sites/site-2.links.json",
     "sites/site-3.links.json",
+    "sites/site-3.tables.json",
     "sites/site-4.links.json",
     "sites/site-5.links.json",
     "sites/site-6.links.json",
-    "sites/site-7.links.json"
+    "sites/site-7.links.json",
+    "sites/site-8.links.json",
+    "sites/site-9.links.json"
   ],
   "fields": [
     {
       "path": "$",
       "types": {
-        "object": 207,
+        "object": 214,
         "null": 37
       },
-      "occurrences": 244,
+      "occurrences": 251,
       "sources": [
         "espn",
         "fotmob",
         "sites"
       ],
-      "file_count": 244,
+      "file_count": 251,
       "example": "None"
     },
     {
@@ -353,7 +360,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "722"
+      "example": "809"
     },
     {
       "path": "$.assets",
@@ -425,7 +432,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/"
+      "example": "https://ekstraklasa.org/en/clubs/pogon-szczecin/?tab=stats"
     },
     {
       "path": "$.birthDate",
@@ -175556,6 +175563,126 @@
       "example": "False"
     },
     {
+      "path": "$.fixtures.allFixtures.nextMatch.status.liveTime",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.fixtures.allFixtures.nextMatch.status.liveTime.addedTime",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "0"
+    },
+    {
+      "path": "$.fixtures.allFixtures.nextMatch.status.liveTime.basePeriod",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "90"
+    },
+    {
+      "path": "$.fixtures.allFixtures.nextMatch.status.liveTime.long",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "00:01"
+    },
+    {
+      "path": "$.fixtures.allFixtures.nextMatch.status.liveTime.longKey",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": ""
+    },
+    {
+      "path": "$.fixtures.allFixtures.nextMatch.status.liveTime.maxTime",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "90"
+    },
+    {
+      "path": "$.fixtures.allFixtures.nextMatch.status.liveTime.short",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "1‎’‎"
+    },
+    {
+      "path": "$.fixtures.allFixtures.nextMatch.status.liveTime.shortKey",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": ""
+    },
+    {
+      "path": "$.fixtures.allFixtures.nextMatch.status.ongoing",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "True"
+    },
+    {
+      "path": "$.fixtures.allFixtures.nextMatch.status.scoreStr",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "0 - 0"
+    },
+    {
       "path": "$.fixtures.allFixtures.nextMatch.status.started",
       "types": {
         "boolean": 1
@@ -175565,7 +175692,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.fixtures.allFixtures.nextMatch.status.utcTime",
@@ -175973,7 +176100,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "5803976"
+      "example": "5803974"
     },
     {
       "path": "$.fixtures.firstUnplayedMatch.firstUnplayedMatchIndex",
@@ -175985,7 +176112,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "56"
+      "example": "57"
     },
     {
       "path": "$.fixtures.fixtureInfo",
@@ -176839,7 +176966,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-09-07T17:23:30.304777+00:00"
+      "example": "2026-09-07T18:39:12.566470+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -190857,7 +190984,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "7"
+      "example": "12"
     },
     {
       "path": "$.id",
@@ -192265,6 +192392,18 @@
       "example": "s:600~t:436"
     },
     {
+      "path": "$.layer",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "sites"
+      ],
+      "file_count": 1,
+      "example": "standings"
+    },
+    {
       "path": "$.leaders",
       "types": {
         "array": 1
@@ -193251,25 +193390,25 @@
     {
       "path": "$.links",
       "types": {
-        "array": 7
+        "array": 12
       },
-      "occurrences": 7,
+      "occurrences": 12,
       "sources": [
         "sites"
       ],
-      "file_count": 7,
+      "file_count": 12,
       "example": null
     },
     {
       "path": "$.links[]",
       "types": {
-        "string": 7
+        "string": 12
       },
-      "occurrences": 7,
+      "occurrences": 12,
       "sources": [
         "sites"
       ],
-      "file_count": 7,
+      "file_count": 12,
       "example": "https://ekstraklasa.org/en/"
     },
     {
@@ -199394,7 +199533,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "5803976"
+      "example": "5803974"
     },
     {
       "path": "$.overview.matches.firstUnplayedMatch.firstUnplayedMatchIndex",
@@ -199406,7 +199545,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "56"
+      "example": "57"
     },
     {
       "path": "$.overview.matches.fixtureInfo",
@@ -199742,7 +199881,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "00:01"
+      "example": "7:17"
     },
     {
       "path": "$.overview.nextMatch.liveTime.longKey",
@@ -199766,7 +199905,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1‎’‎"
+      "example": "8‎’‎"
     },
     {
       "path": "$.overview.nextMatch.liveTime.shortKey",
@@ -199795,18 +199934,6 @@
     {
       "path": "$.overview.nextMatch.odds",
       "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.betBoostMarkets",
-      "types": {
         "null": 1
       },
       "occurrences": 1,
@@ -199815,726 +199942,6 @@
       ],
       "file_count": 1,
       "example": "None"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.callToActionLink",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c="
-    },
-    {
-      "path": "$.overview.nextMatch.odds.logoUrl",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "https://images.fotmob.com/images/betting/superbet"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchCouponKey",
-      "types": {
-        "null": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "None"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[]",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].fotMobMarketTypeId",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].fotMobMarketTypeId.translationKey",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "who_will_win"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].header",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "Match Odds"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].headerTranslationKey",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "who_will_win"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[]",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].couponKey",
-      "types": {
-        "null": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "None"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].link",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c="
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].name",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "1"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsAmerican",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "+100"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "2.00"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "1/1"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
-      "types": {
-        "null": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "None"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].value",
-      "types": {
-        "null": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "None"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[]",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].category",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "Oddstab"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[]",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].fotMobMarketTypeId",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].fotMobMarketTypeId.translationKey",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "who_will_win"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].header",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "Match Odds"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].headerTranslationKey",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "who_will_win"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[]",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].couponKey",
-      "types": {
-        "null": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "None"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].link",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c="
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].name",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "1"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsAmerican",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "+100"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "2.00"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "1/1"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
-      "types": {
-        "null": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "None"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].value",
-      "types": {
-        "null": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "None"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.oddsType",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "PreMatch"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.provider",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.provider.id",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "99999"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.odds.resolvedOddsMarket",
-      "types": {
-        "null": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "None"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.ongoing",
-      "types": {
-        "boolean": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "False"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.persistentKey",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "SuperBet_Poland"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.promoText",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.promoText.callToAction",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": ""
-    },
-    {
-      "path": "$.overview.nextMatch.odds.promoText.lang",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "en"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.promoText.link",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c="
-    },
-    {
-      "path": "$.overview.nextMatch.odds.promoText.linkIOS",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": ""
-    },
-    {
-      "path": "$.overview.nextMatch.odds.promoText.linkWeb",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": ""
-    },
-    {
-      "path": "$.overview.nextMatch.odds.promoText.text",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "Sign up with Superbet today!"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.promoText.text2",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": ""
-    },
-    {
-      "path": "$.overview.nextMatch.odds.providerId",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "99999"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.restrictions",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.restrictions.disableLiveOdds",
-      "types": {
-        "boolean": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "False"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.restrictions.excludedLeagueIds",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.restrictions.excludedLeagueIds[]",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "11548"
-    },
-    {
-      "path": "$.overview.nextMatch.odds.restrictions.excludedMatchIds",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.nextMatch.odds.restrictions.excludedMatchIds[]",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "5159283"
     },
     {
       "path": "$.overview.nextMatch.opponent",
@@ -200738,7 +200145,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "10"
+      "example": "8"
     },
     {
       "path": "$.overview.nextMatch.stats.stats[].title",
@@ -200957,6 +200364,126 @@
       "example": "False"
     },
     {
+      "path": "$.overview.nextMatch.status.liveTime",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.status.liveTime.addedTime",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "0"
+    },
+    {
+      "path": "$.overview.nextMatch.status.liveTime.basePeriod",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "90"
+    },
+    {
+      "path": "$.overview.nextMatch.status.liveTime.long",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "00:01"
+    },
+    {
+      "path": "$.overview.nextMatch.status.liveTime.longKey",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": ""
+    },
+    {
+      "path": "$.overview.nextMatch.status.liveTime.maxTime",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "90"
+    },
+    {
+      "path": "$.overview.nextMatch.status.liveTime.short",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "1‎’‎"
+    },
+    {
+      "path": "$.overview.nextMatch.status.liveTime.shortKey",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": ""
+    },
+    {
+      "path": "$.overview.nextMatch.status.ongoing",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "True"
+    },
+    {
+      "path": "$.overview.nextMatch.status.scoreStr",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "0 - 0"
+    },
+    {
       "path": "$.overview.nextMatch.status.started",
       "types": {
         "boolean": 1
@@ -200966,7 +200493,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.overview.nextMatch.status.utcTime",
@@ -201902,7 +201429,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8021"
+      "example": "8243"
     },
     {
       "path": "$.overview.table[].data.ongoing[].aScore",
@@ -201926,7 +201453,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Zagłębie Lubin"
+      "example": "Wisła Płock"
     },
     {
       "path": "$.overview.table[].data.ongoing[].extId",
@@ -201950,7 +201477,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "07.09.2026 18:01:32"
+      "example": "07.09.2026 20:30:45"
     },
     {
       "path": "$.overview.table[].data.ongoing[].hId",
@@ -201962,7 +201489,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1286895"
+      "example": "8023"
     },
     {
       "path": "$.overview.table[].data.ongoing[].hScore",
@@ -201986,7 +201513,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wieczysta Kraków"
+      "example": "Pogoń Szczecin"
     },
     {
       "path": "$.overview.table[].data.ongoing[].id",
@@ -201998,7 +201525,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "5803976"
+      "example": "5803974"
     },
     {
       "path": "$.overview.table[].data.ongoing[].sId",
@@ -202010,19 +201537,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "3"
-    },
-    {
-      "path": "$.overview.table[].data.ongoing[].shs",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "07.09.2026 19:06:01"
+      "example": "2"
     },
     {
       "path": "$.overview.table[].data.ongoing[].stage",
@@ -202058,7 +201573,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "07.09.2026 18:00"
+      "example": "07.09.2026 20:30"
     },
     {
       "path": "$.overview.table[].data.pageUrl",
@@ -203558,7 +203073,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8243"
+      "example": "1286895"
     },
     {
       "path": "$.overview.table[].nextOpponent.8024",
@@ -203654,7 +203169,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8023"
+      "example": "2186"
     },
     {
       "path": "$.overview.table[].nextOpponent.8245",
@@ -204194,7 +203709,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1286895"
+      "example": "2182"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].away.isOurTeam",
@@ -204206,7 +203721,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].away.name",
@@ -204218,7 +203733,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wieczysta Kraków"
+      "example": "Lech Poznań"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].away.shortName",
@@ -204230,7 +203745,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wieczysta Kraków"
+      "example": "Lech Poznań"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].date",
@@ -204266,7 +203781,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "5769"
+      "example": "1286895"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].home.isOurTeam",
@@ -204278,7 +203793,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].home.name",
@@ -204290,7 +203805,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Radomiak Radom"
+      "example": "Wieczysta Kraków"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].home.shortName",
@@ -204302,7 +203817,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Radomiak Radom"
+      "example": "Wieczysta Kraków"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].imageUrl",
@@ -204314,7 +203829,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/5769_xsmall.png"
+      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/2182_xsmall.png"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].linkToMatch",
@@ -204326,7 +203841,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/matches/radomiak-radom-vs-wieczysta-krakow/anthmkpx#5803898"
+      "example": "/matches/lech-poznan-vs-wieczysta-krakow/alowtxq5#5803930"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].result",
@@ -204362,7 +203877,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2 - 1"
+      "example": "1 - 2"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].teamPageUrl",
@@ -204374,7 +203889,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/teams/5769/overview/radomiak-radom"
+      "example": "/teams/2182/overview/lech-poznan"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].tooltipText",
@@ -204398,7 +203913,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1"
+      "example": "2"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].tooltipText.awayTeam",
@@ -204410,7 +203925,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wieczysta Kraków"
+      "example": "Lech Poznań"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].tooltipText.awayTeamId",
@@ -204422,7 +203937,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1286895"
+      "example": "2182"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].tooltipText.homeScore",
@@ -204434,7 +203949,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2"
+      "example": "1"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].tooltipText.homeTeam",
@@ -204446,7 +203961,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Radomiak Radom"
+      "example": "Wieczysta Kraków"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].tooltipText.homeTeamId",
@@ -204458,7 +203973,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "5769"
+      "example": "1286895"
     },
     {
       "path": "$.overview.table[].teamForm.1286895[].tooltipText.utcTime",
@@ -204470,7 +203985,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2026-07-24T16:00:00Z"
+      "example": "2026-08-01T15:30:00Z"
     },
     {
       "path": "$.overview.table[].teamForm.1957",
@@ -206786,7 +206301,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8028"
+      "example": "8021"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].away.isOurTeam",
@@ -206798,7 +206313,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].away.name",
@@ -206810,7 +206325,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Piast Gliwice"
+      "example": "Zagłębie Lubin"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].away.shortName",
@@ -206822,7 +206337,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Piast Gliwice"
+      "example": "Zagłębie Lubin"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].date",
@@ -206858,7 +206373,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8021"
+      "example": "8673"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].home.isOurTeam",
@@ -206870,7 +206385,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].home.name",
@@ -206882,7 +206397,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Zagłębie Lubin"
+      "example": "Legia Warszawa"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].home.shortName",
@@ -206894,7 +206409,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Zagłębie Lubin"
+      "example": "Legia Warszawa"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].imageUrl",
@@ -206906,7 +206421,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/8028_xsmall.png"
+      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/8673_xsmall.png"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].linkToMatch",
@@ -206918,7 +206433,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/matches/zagebie-lubin-vs-piast-gliwice/24onol#5803906"
+      "example": "/matches/zagebie-lubin-vs-legia-warszawa/2az0a6#5803926"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].result",
@@ -206930,7 +206445,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1"
+      "example": "-1"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].resultString",
@@ -206942,7 +206457,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "W"
+      "example": "L"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].score",
@@ -206954,7 +206469,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2 - 0"
+      "example": "3 - 1"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].teamPageUrl",
@@ -206966,7 +206481,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/teams/8028/overview/piast-gliwice"
+      "example": "/teams/8673/overview/legia-warszawa"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].tooltipText",
@@ -206990,7 +206505,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "0"
+      "example": "1"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].tooltipText.awayTeam",
@@ -207002,7 +206517,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Piast Gliwice"
+      "example": "Zagłębie Lubin"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].tooltipText.awayTeamId",
@@ -207014,7 +206529,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8028"
+      "example": "8021"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].tooltipText.homeScore",
@@ -207026,7 +206541,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2"
+      "example": "3"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].tooltipText.homeTeam",
@@ -207038,7 +206553,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Zagłębie Lubin"
+      "example": "Legia Warszawa"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].tooltipText.homeTeamId",
@@ -207050,7 +206565,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8021"
+      "example": "8673"
     },
     {
       "path": "$.overview.table[].teamForm.8021[].tooltipText.utcTime",
@@ -207062,7 +206577,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2026-07-27T17:00:00Z"
+      "example": "2026-08-02T12:45:00Z"
     },
     {
       "path": "$.overview.table[].teamForm.8023",
@@ -210146,7 +209661,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "55"
+      "example": "56"
     },
     {
       "path": "$.overview.topPlayers.byAssists.players[].stat",
@@ -210662,7 +210177,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "5"
+      "example": "19"
     },
     {
       "path": "$.overview.topPlayers.byRating.players[].rating",
@@ -214913,7 +214428,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-07T17:23:48.818708+00:00"
+      "example": "2026-09-07T18:39:31.233002+00:00"
     },
     {
       "path": "$.rosters",
@@ -217427,14 +216942,14 @@
     {
       "path": "$.source_url",
       "types": {
-        "string": 7
+        "string": 13
       },
-      "occurrences": 7,
+      "occurrences": 13,
       "sources": [
         "sites"
       ],
-      "file_count": 7,
-      "example": "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/"
+      "file_count": 13,
+      "example": "https://ekstraklasa.org/en/clubs/pogon-szczecin/?tab=stats"
     },
     {
       "path": "$.squad",
@@ -219548,7 +219063,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8021"
+      "example": "8243"
     },
     {
       "path": "$.table[].data.ongoing[].aScore",
@@ -219572,7 +219087,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Zagłębie Lubin"
+      "example": "Wisła Płock"
     },
     {
       "path": "$.table[].data.ongoing[].extId",
@@ -219596,7 +219111,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "07.09.2026 18:01:32"
+      "example": "07.09.2026 20:30:45"
     },
     {
       "path": "$.table[].data.ongoing[].hId",
@@ -219608,7 +219123,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1286895"
+      "example": "8023"
     },
     {
       "path": "$.table[].data.ongoing[].hScore",
@@ -219632,7 +219147,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wieczysta Kraków"
+      "example": "Pogoń Szczecin"
     },
     {
       "path": "$.table[].data.ongoing[].id",
@@ -219644,7 +219159,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "5803976"
+      "example": "5803974"
     },
     {
       "path": "$.table[].data.ongoing[].sId",
@@ -219656,19 +219171,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "3"
-    },
-    {
-      "path": "$.table[].data.ongoing[].shs",
-      "types": {
-        "string": 2
-      },
-      "occurrences": 2,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 2,
-      "example": "07.09.2026 19:06:01"
+      "example": "2"
     },
     {
       "path": "$.table[].data.ongoing[].stage",
@@ -219704,7 +219207,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "07.09.2026 18:00"
+      "example": "07.09.2026 20:30"
     },
     {
       "path": "$.table[].data.pageUrl",
@@ -221204,7 +220707,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8243"
+      "example": "1286895"
     },
     {
       "path": "$.table[].nextOpponent.8024",
@@ -221300,7 +220803,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8023"
+      "example": "2186"
     },
     {
       "path": "$.table[].nextOpponent.8245",
@@ -221840,7 +221343,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1286895"
+      "example": "2182"
     },
     {
       "path": "$.table[].teamForm.1286895[].away.isOurTeam",
@@ -221852,7 +221355,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.table[].teamForm.1286895[].away.name",
@@ -221864,7 +221367,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wieczysta Kraków"
+      "example": "Lech Poznań"
     },
     {
       "path": "$.table[].teamForm.1286895[].away.shortName",
@@ -221876,7 +221379,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wieczysta Kraków"
+      "example": "Lech Poznań"
     },
     {
       "path": "$.table[].teamForm.1286895[].date",
@@ -221912,7 +221415,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "5769"
+      "example": "1286895"
     },
     {
       "path": "$.table[].teamForm.1286895[].home.isOurTeam",
@@ -221924,7 +221427,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.table[].teamForm.1286895[].home.name",
@@ -221936,7 +221439,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Radomiak Radom"
+      "example": "Wieczysta Kraków"
     },
     {
       "path": "$.table[].teamForm.1286895[].home.shortName",
@@ -221948,7 +221451,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Radomiak Radom"
+      "example": "Wieczysta Kraków"
     },
     {
       "path": "$.table[].teamForm.1286895[].imageUrl",
@@ -221960,7 +221463,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/5769_xsmall.png"
+      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/2182_xsmall.png"
     },
     {
       "path": "$.table[].teamForm.1286895[].linkToMatch",
@@ -221972,7 +221475,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/matches/radomiak-radom-vs-wieczysta-krakow/anthmkpx#5803898"
+      "example": "/matches/lech-poznan-vs-wieczysta-krakow/alowtxq5#5803930"
     },
     {
       "path": "$.table[].teamForm.1286895[].result",
@@ -222008,7 +221511,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2 - 1"
+      "example": "1 - 2"
     },
     {
       "path": "$.table[].teamForm.1286895[].teamPageUrl",
@@ -222020,7 +221523,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/teams/5769/overview/radomiak-radom"
+      "example": "/teams/2182/overview/lech-poznan"
     },
     {
       "path": "$.table[].teamForm.1286895[].tooltipText",
@@ -222044,7 +221547,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1"
+      "example": "2"
     },
     {
       "path": "$.table[].teamForm.1286895[].tooltipText.awayTeam",
@@ -222056,7 +221559,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Wieczysta Kraków"
+      "example": "Lech Poznań"
     },
     {
       "path": "$.table[].teamForm.1286895[].tooltipText.awayTeamId",
@@ -222068,7 +221571,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1286895"
+      "example": "2182"
     },
     {
       "path": "$.table[].teamForm.1286895[].tooltipText.homeScore",
@@ -222080,7 +221583,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2"
+      "example": "1"
     },
     {
       "path": "$.table[].teamForm.1286895[].tooltipText.homeTeam",
@@ -222092,7 +221595,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Radomiak Radom"
+      "example": "Wieczysta Kraków"
     },
     {
       "path": "$.table[].teamForm.1286895[].tooltipText.homeTeamId",
@@ -222104,7 +221607,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "5769"
+      "example": "1286895"
     },
     {
       "path": "$.table[].teamForm.1286895[].tooltipText.utcTime",
@@ -222116,7 +221619,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2026-07-24T16:00:00Z"
+      "example": "2026-08-01T15:30:00Z"
     },
     {
       "path": "$.table[].teamForm.1957",
@@ -224432,7 +223935,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8028"
+      "example": "8021"
     },
     {
       "path": "$.table[].teamForm.8021[].away.isOurTeam",
@@ -224444,7 +223947,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.table[].teamForm.8021[].away.name",
@@ -224456,7 +223959,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Piast Gliwice"
+      "example": "Zagłębie Lubin"
     },
     {
       "path": "$.table[].teamForm.8021[].away.shortName",
@@ -224468,7 +223971,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Piast Gliwice"
+      "example": "Zagłębie Lubin"
     },
     {
       "path": "$.table[].teamForm.8021[].date",
@@ -224504,7 +224007,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8021"
+      "example": "8673"
     },
     {
       "path": "$.table[].teamForm.8021[].home.isOurTeam",
@@ -224516,7 +224019,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.table[].teamForm.8021[].home.name",
@@ -224528,7 +224031,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Zagłębie Lubin"
+      "example": "Legia Warszawa"
     },
     {
       "path": "$.table[].teamForm.8021[].home.shortName",
@@ -224540,7 +224043,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Zagłębie Lubin"
+      "example": "Legia Warszawa"
     },
     {
       "path": "$.table[].teamForm.8021[].imageUrl",
@@ -224552,7 +224055,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/8028_xsmall.png"
+      "example": "https://images.fotmob.com/image_resources/logo/teamlogo/8673_xsmall.png"
     },
     {
       "path": "$.table[].teamForm.8021[].linkToMatch",
@@ -224564,7 +224067,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/matches/zagebie-lubin-vs-piast-gliwice/24onol#5803906"
+      "example": "/matches/zagebie-lubin-vs-legia-warszawa/2az0a6#5803926"
     },
     {
       "path": "$.table[].teamForm.8021[].result",
@@ -224576,7 +224079,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1"
+      "example": "-1"
     },
     {
       "path": "$.table[].teamForm.8021[].resultString",
@@ -224588,7 +224091,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "W"
+      "example": "L"
     },
     {
       "path": "$.table[].teamForm.8021[].score",
@@ -224600,7 +224103,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2 - 0"
+      "example": "3 - 1"
     },
     {
       "path": "$.table[].teamForm.8021[].teamPageUrl",
@@ -224612,7 +224115,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "/teams/8028/overview/piast-gliwice"
+      "example": "/teams/8673/overview/legia-warszawa"
     },
     {
       "path": "$.table[].teamForm.8021[].tooltipText",
@@ -224636,7 +224139,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "0"
+      "example": "1"
     },
     {
       "path": "$.table[].teamForm.8021[].tooltipText.awayTeam",
@@ -224648,7 +224151,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Piast Gliwice"
+      "example": "Zagłębie Lubin"
     },
     {
       "path": "$.table[].teamForm.8021[].tooltipText.awayTeamId",
@@ -224660,7 +224163,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8028"
+      "example": "8021"
     },
     {
       "path": "$.table[].teamForm.8021[].tooltipText.homeScore",
@@ -224672,7 +224175,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2"
+      "example": "3"
     },
     {
       "path": "$.table[].teamForm.8021[].tooltipText.homeTeam",
@@ -224684,7 +224187,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "Zagłębie Lubin"
+      "example": "Legia Warszawa"
     },
     {
       "path": "$.table[].teamForm.8021[].tooltipText.homeTeamId",
@@ -224696,7 +224199,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8021"
+      "example": "8673"
     },
     {
       "path": "$.table[].teamForm.8021[].tooltipText.utcTime",
@@ -224708,7 +224211,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2026-07-27T17:00:00Z"
+      "example": "2026-08-02T12:45:00Z"
     },
     {
       "path": "$.table[].teamForm.8023",
@@ -227301,6 +226804,90 @@
       ],
       "file_count": 2,
       "example": "2026-08-08T15:30:00Z"
+    },
+    {
+      "path": "$.tables",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "sites"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.tables[]",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "sites"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.tables[].column_count",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "sites"
+      ],
+      "file_count": 1,
+      "example": "10"
+    },
+    {
+      "path": "$.tables[].row_count",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "sites"
+      ],
+      "file_count": 1,
+      "example": "19"
+    },
+    {
+      "path": "$.tables[].rows",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "sites"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.tables[].rows[]",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "sites"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.tables[].rows[][]",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "sites"
+      ],
+      "file_count": 1,
+      "example": "Status"
     },
     {
       "path": "$.tabs",

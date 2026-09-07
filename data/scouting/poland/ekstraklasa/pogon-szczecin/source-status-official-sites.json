@@ -1,55 +1,109 @@
 {
   "source": "official-sites",
   "status": "partial",
-  "retrieved_at": "2026-09-07T17:23:25.226950+00:00",
+  "retrieved_at": "2026-09-07T18:38:56.190455+00:00",
   "layers": {
-    "news": "available",
+    "club": "available",
     "standings": "available",
     "stats": "available",
     "fixtures": "available"
   },
   "records": {
-    "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": {
-      "bytes": 215555,
-      "layer": "news",
+    "https://ekstraklasa.org/en/clubs/pogon-szczecin/?tab=stats": {
+      "bytes": 651916,
+      "layer": "club",
       "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
+      "links": 85
+    },
+    "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": {
+      "bytes": 216185,
+      "layer": "club",
+      "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
       "links": 34
     },
-    "https://ekstraklasa.org/en/tabela/": {
+    "https://ekstraklasa.org/en/standings/2026-2027/": {
       "bytes": 337586,
       "layer": "standings",
       "embedded_json_records": 0,
+      "html_tables": 1,
+      "html_table_rows": 19,
       "links": 43
     },
     "https://ekstraklasa.org/statystyki/": {
-      "bytes": 1858460,
+      "bytes": 1864791,
       "layer": "stats",
       "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
       "links": 68
     },
-    "https://ekstraklasa.org/en/schedule/2026-2027/1-kolejka/": {
-      "bytes": 312785,
+    "https://ekstraklasa.org/en/statistics/?ranking=xg": {
+      "bytes": 1943165,
+      "layer": "stats",
+      "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
+      "links": 359
+    },
+    "https://ekstraklasa.org/en/schedule/2026-2027/1-round/": {
+      "bytes": 312781,
       "layer": "fixtures",
       "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
       "links": 36
     },
-    "https://ekstraklasa.org/en/schedule/2026-2027/2-kolejka/": {
-      "bytes": 316694,
+    "https://ekstraklasa.org/en/schedule/2026-2027/2-round/": {
+      "bytes": 316690,
       "layer": "fixtures",
       "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
       "links": 38
     },
-    "https://ekstraklasa.org/en/schedule/2026-2027/3-kolejka/": {
-      "bytes": 323991,
+    "https://ekstraklasa.org/en/schedule/2026-2027/3-round/": {
+      "bytes": 323944,
       "layer": "fixtures",
       "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
       "links": 39
     },
-    "https://ekstraklasa.org/en/schedule/2026-2027/4-kolejka/": {
-      "bytes": 325753,
+    "https://ekstraklasa.org/en/schedule/2026-2027/4-round/": {
+      "bytes": 325835,
       "layer": "fixtures",
       "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
       "links": 39
+    },
+    "https://ekstraklasa.org/en/schedule/2026-2027/kolejka-5/": {
+      "bytes": 333637,
+      "layer": "fixtures",
+      "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
+      "links": 37
+    },
+    "https://ekstraklasa.org/en/schedule/2026-2027/round-6/": {
+      "bytes": 339020,
+      "layer": "fixtures",
+      "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
+      "links": 37
+    },
+    "https://ekstraklasa.org/en/schedule/2026-2027/round-7/": {
+      "bytes": 343119,
+      "layer": "fixtures",
+      "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
+      "links": 37
     }
   },
   "errors": [
@@ -60,5 +114,7 @@
     }
   ],
   "structured_records": 0,
-  "links": 297
+  "structured_tables": 1,
+  "structured_rows": 19,
+  "links": 852
 }
