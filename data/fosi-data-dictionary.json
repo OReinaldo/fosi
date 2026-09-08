@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-08T03:29:25.282373+00:00",
+  "generated_at": "2026-09-08T16:36:10.055461+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -361,7 +361,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "811"
+      "example": "810"
     },
     {
       "path": "$.assets",
@@ -176848,7 +176848,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-09-08T03:28:17.544490+00:00"
+      "example": "2026-09-08T16:35:13.011166+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -190854,7 +190854,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7264"
+      "example": "7279"
     },
     {
       "path": "$.html_files_scanned",
@@ -197320,14 +197320,14 @@
     {
       "path": "$.overview.lastLineupStats.averageStarterAge",
       "types": {
-        "number": 1
+        "integer": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "26.1"
+      "example": "25"
     },
     {
       "path": "$.overview.lastLineupStats.coach",
@@ -197411,7 +197411,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "4-1-4-1"
+      "example": "4-3-3"
     },
     {
       "path": "$.overview.lastLineupStats.id",
@@ -197447,7 +197447,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8023"
+      "example": "8243"
     },
     {
       "path": "$.overview.lastLineupStats.lastMatch.awayTeamName",
@@ -197459,7 +197459,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Pogoń Szczecin"
+      "example": "Wisła Płock"
     },
     {
       "path": "$.overview.lastLineupStats.lastMatch.homeTeamId",
@@ -197471,7 +197471,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8021"
+      "example": "8023"
     },
     {
       "path": "$.overview.lastLineupStats.lastMatch.homeTeamName",
@@ -197483,7 +197483,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Zagłębie Lubin"
+      "example": "Pogoń Szczecin"
     },
     {
       "path": "$.overview.lastLineupStats.lastMatch.matchId",
@@ -197495,7 +197495,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "5803967"
+      "example": "5803974"
     },
     {
       "path": "$.overview.lastLineupStats.name",
@@ -197512,14 +197512,14 @@
     {
       "path": "$.overview.lastLineupStats.rating",
       "types": {
-        "number": 1
+        "integer": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6.6"
+      "example": "7"
     },
     {
       "path": "$.overview.lastLineupStats.starters",
@@ -197615,7 +197615,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "0.192"
+      "example": "0.2"
     },
     {
       "path": "$.overview.lastLineupStats.starters[].horizontalLayout.x",
@@ -197663,7 +197663,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "325707"
+      "example": "260565"
     },
     {
       "path": "$.overview.lastLineupStats.starters[].name",
@@ -197726,18 +197726,6 @@
       "example": "yellowCard"
     },
     {
-      "path": "$.overview.lastLineupStats.starters[].performance.playerOfTheMatch",
-      "types": {
-        "boolean": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "True"
-    },
-    {
       "path": "$.overview.lastLineupStats.starters[].performance.rating",
       "types": {
         "number": 1
@@ -197747,7 +197735,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8.7"
+      "example": "7.9"
     },
     {
       "path": "$.overview.lastLineupStats.starters[].performance.seasonRating",
@@ -197759,7 +197747,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7.59"
+      "example": "7.78"
     },
     {
       "path": "$.overview.lastLineupStats.starters[].positionId",
@@ -197819,7 +197807,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "0.192"
+      "example": "0.2"
     },
     {
       "path": "$.overview.lastLineupStats.starters[].verticalLayout.width",
@@ -197891,7 +197879,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "32"
+      "example": "33"
     },
     {
       "path": "$.overview.lastLineupStats.subs[].countryCode",
@@ -197903,7 +197891,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "FRA"
+      "example": "CMR"
     },
     {
       "path": "$.overview.lastLineupStats.subs[].countryName",
@@ -197915,7 +197903,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "France"
+      "example": "Cameroon"
     },
     {
       "path": "$.overview.lastLineupStats.subs[].id",
@@ -197927,7 +197915,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "280965"
+      "example": "316558"
     },
     {
       "path": "$.overview.lastLineupStats.subs[].marketValue",
@@ -197939,7 +197927,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "223696"
+      "example": "215995"
     },
     {
       "path": "$.overview.lastLineupStats.subs[].name",
@@ -197951,7 +197939,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Benjamin Mendy"
+      "example": "Jean Pierre Nsame"
     },
     {
       "path": "$.overview.lastLineupStats.subs[].performance",
@@ -197966,42 +197954,6 @@
       "example": null
     },
     {
-      "path": "$.overview.lastLineupStats.subs[].performance.events",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.lastLineupStats.subs[].performance.events[]",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.lastLineupStats.subs[].performance.events[].type",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "yellowCard"
-    },
-    {
       "path": "$.overview.lastLineupStats.subs[].performance.rating",
       "types": {
         "number": 1
@@ -198011,31 +197963,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6.2"
-    },
-    {
-      "path": "$.overview.lastLineupStats.subs[].performance.seasonAssists",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "1"
+      "example": "6.4"
     },
     {
       "path": "$.overview.lastLineupStats.subs[].performance.seasonRating",
       "types": {
-        "integer": 1
+        "number": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7"
+      "example": "6.51"
     },
     {
       "path": "$.overview.lastLineupStats.subs[].performance.substitutionEvents",
@@ -198071,7 +198011,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "46"
+      "example": "59"
     },
     {
       "path": "$.overview.lastLineupStats.subs[].performance.substitutionEvents[].type",
@@ -198095,7 +198035,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "23"
+      "example": "17"
     },
     {
       "path": "$.overview.lastLineupStats.subs[].usualPlayingPositionId",
@@ -198107,7 +198047,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1"
+      "example": "3"
     },
     {
       "path": "$.overview.lastLineupStats.totalStarterMarketValue",
@@ -198119,7 +198059,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7893077"
+      "example": "6790334"
     },
     {
       "path": "$.overview.lastLineupStats.unavailable",
@@ -198155,7 +198095,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "22"
+      "example": "23"
     },
     {
       "path": "$.overview.lastLineupStats.unavailable[].countryCode",
@@ -198167,7 +198107,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "GRE"
+      "example": "BIH"
     },
     {
       "path": "$.overview.lastLineupStats.unavailable[].countryName",
@@ -198179,7 +198119,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Greece"
+      "example": "Bosnia and Herzegovina"
     },
     {
       "path": "$.overview.lastLineupStats.unavailable[].id",
@@ -198191,7 +198131,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1410436"
+      "example": "1439702"
     },
     {
       "path": "$.overview.lastLineupStats.unavailable[].marketValue",
@@ -198203,7 +198143,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "135001"
+      "example": "970668"
     },
     {
       "path": "$.overview.lastLineupStats.unavailable[].name",
@@ -198215,7 +198155,31 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Nikolaos Botis"
+      "example": "Filip Čuić"
+    },
+    {
+      "path": "$.overview.lastLineupStats.unavailable[].performance",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.lastLineupStats.unavailable[].performance.seasonRating",
+      "types": {
+        "number": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "6.13"
     },
     {
       "path": "$.overview.lastLineupStats.unavailable[].unavailability",
@@ -198242,16 +198206,16 @@
       "example": "Early September 2026"
     },
     {
-      "path": "$.overview.lastLineupStats.unavailable[].unavailability.injuryId",
+      "path": "$.overview.lastLineupStats.unavailable[].unavailability.expectedReturnDate",
       "types": {
-        "integer": 1
+        "string": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "87"
+      "example": "2026-09-07T20:30:00Z"
     },
     {
       "path": "$.overview.lastLineupStats.unavailable[].unavailability.type",
@@ -198263,7 +198227,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "injury"
+      "example": "suspension"
     },
     {
       "path": "$.overview.lastMatch",
@@ -200027,7 +199991,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "+100"
+      "example": "-105"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
@@ -200039,7 +200003,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2.00"
+      "example": "1.95"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
@@ -200051,7 +200015,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1/1"
+      "example": "20/21"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
@@ -200255,7 +200219,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "+100"
+      "example": "-105"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
@@ -200267,7 +200231,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2.00"
+      "example": "1.95"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
@@ -200279,7 +200243,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1/1"
+      "example": "20/21"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
@@ -210875,7 +210839,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "700000"
+      "example": "250000"
     },
     {
       "path": "$.overview.transfers.allTransfers[].fromClub",
@@ -210887,7 +210851,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Pogoń Szczecin"
+      "example": "Wisła Kraków"
     },
     {
       "path": "$.overview.transfers.allTransfers[].fromClubFullName",
@@ -210899,7 +210863,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Pogoń Szczecin"
+      "example": "Wisła Kraków"
     },
     {
       "path": "$.overview.transfers.allTransfers[].fromClubId",
@@ -210911,7 +210875,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8023"
+      "example": "10265"
     },
     {
       "path": "$.overview.transfers.allTransfers[].fromDate",
@@ -210923,7 +210887,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-06T00:00:00Z"
+      "example": "2026-09-08T00:00:00Z"
     },
     {
       "path": "$.overview.transfers.allTransfers[].marketValue",
@@ -210935,7 +210899,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "650258"
+      "example": "135751"
     },
     {
       "path": "$.overview.transfers.allTransfers[].name",
@@ -210947,7 +210911,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Léo Borges"
+      "example": "Jordi Sánchez"
     },
     {
       "path": "$.overview.transfers.allTransfers[].onLoan",
@@ -210971,7 +210935,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1188767"
+      "example": "813076"
     },
     {
       "path": "$.overview.transfers.allTransfers[].position",
@@ -210995,7 +210959,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "leftback_short"
+      "example": "striker_short"
     },
     {
       "path": "$.overview.transfers.allTransfers[].position.label",
@@ -211007,7 +210971,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "LB"
+      "example": "ST"
     },
     {
       "path": "$.overview.transfers.allTransfers[].toClub",
@@ -211019,7 +210983,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Sigma Olomouc"
+      "example": "Pogoń Szczecin"
     },
     {
       "path": "$.overview.transfers.allTransfers[].toClubFullName",
@@ -211031,7 +210995,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Sigma Olomouc"
+      "example": "Pogoń Szczecin"
     },
     {
       "path": "$.overview.transfers.allTransfers[].toClubId",
@@ -211043,7 +211007,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6461"
+      "example": "8023"
     },
     {
       "path": "$.overview.transfers.allTransfers[].toDate",
@@ -211067,7 +211031,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-06T11:55:31Z"
+      "example": "2026-09-08T13:56:51Z"
     },
     {
       "path": "$.overview.transfers.allTransfers[].transferText",
@@ -211091,7 +211055,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "To"
+      "example": "From"
     },
     {
       "path": "$.overview.transfers.allTransfers[].transferType",
@@ -211547,7 +211511,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "free transfer"
+      "example": "fee"
     },
     {
       "path": "$.overview.transfers.data.Players in[].fee.localizedFeeText",
@@ -211559,7 +211523,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "transfer_type_free_transfer"
+      "example": "transfer_fee"
+    },
+    {
+      "path": "$.overview.transfers.data.Players in[].fee.value",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "250000"
     },
     {
       "path": "$.overview.transfers.data.Players in[].fromClub",
@@ -211571,7 +211547,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "Wisła Kraków"
     },
     {
       "path": "$.overview.transfers.data.Players in[].fromClubFullName",
@@ -211583,7 +211559,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "Wisła Kraków"
     },
     {
       "path": "$.overview.transfers.data.Players in[].fromClubId",
@@ -211595,7 +211571,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2"
+      "example": "10265"
     },
     {
       "path": "$.overview.transfers.data.Players in[].fromDate",
@@ -211607,7 +211583,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-07-31T00:00:00Z"
+      "example": "2026-09-08T00:00:00Z"
     },
     {
       "path": "$.overview.transfers.data.Players in[].marketValue",
@@ -211619,7 +211595,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "545875"
+      "example": "135751"
     },
     {
       "path": "$.overview.transfers.data.Players in[].name",
@@ -211631,7 +211607,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Lukas Willen"
+      "example": "Jordi Sánchez"
     },
     {
       "path": "$.overview.transfers.data.Players in[].onLoan",
@@ -211655,7 +211631,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1299888"
+      "example": "813076"
     },
     {
       "path": "$.overview.transfers.data.Players in[].position",
@@ -211679,7 +211655,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "centerback_short"
+      "example": "striker_short"
     },
     {
       "path": "$.overview.transfers.data.Players in[].position.label",
@@ -211691,7 +211667,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "CB"
+      "example": "ST"
     },
     {
       "path": "$.overview.transfers.data.Players in[].toClub",
@@ -211732,14 +211708,14 @@
     {
       "path": "$.overview.transfers.data.Players in[].toDate",
       "types": {
-        "string": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2029-06-30T00:00:00Z"
+      "example": "None"
     },
     {
       "path": "$.overview.transfers.data.Players in[].transferDate",
@@ -211751,7 +211727,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-07-31T16:25:58Z"
+      "example": "2026-09-08T13:56:51Z"
     },
     {
       "path": "$.overview.transfers.data.Players in[].transferText",
@@ -211864,50 +211840,14 @@
     {
       "path": "$.overview.transfers.data.Players out[].fee",
       "types": {
-        "object": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.transfers.data.Players out[].fee.feeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "fee"
-    },
-    {
-      "path": "$.overview.transfers.data.Players out[].fee.localizedFeeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "transfer_fee"
-    },
-    {
-      "path": "$.overview.transfers.data.Players out[].fee.value",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "700000"
+      "example": "None"
     },
     {
       "path": "$.overview.transfers.data.Players out[].fromClub",
@@ -211955,19 +211895,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-06T00:00:00Z"
+      "example": "2026-09-08T00:00:00Z"
     },
     {
       "path": "$.overview.transfers.data.Players out[].marketValue",
       "types": {
-        "integer": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "650258"
+      "example": "None"
     },
     {
       "path": "$.overview.transfers.data.Players out[].name",
@@ -211979,7 +211919,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Léo Borges"
+      "example": "John Isak Selbekk"
     },
     {
       "path": "$.overview.transfers.data.Players out[].onLoan",
@@ -212003,43 +211943,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1188767"
+      "example": "538292"
     },
     {
       "path": "$.overview.transfers.data.Players out[].position",
       "types": {
-        "object": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.overview.transfers.data.Players out[].position.key",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "leftback_short"
-    },
-    {
-      "path": "$.overview.transfers.data.Players out[].position.label",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "LB"
+      "example": "None"
     },
     {
       "path": "$.overview.transfers.data.Players out[].toClub",
@@ -212080,14 +211996,14 @@
     {
       "path": "$.overview.transfers.data.Players out[].toDate",
       "types": {
-        "null": 1
+        "string": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": "2029-06-30T00:00:00Z"
     },
     {
       "path": "$.overview.transfers.data.Players out[].transferDate",
@@ -212099,7 +212015,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-06T11:55:31Z"
+      "example": "2026-09-08T13:44:50Z"
     },
     {
       "path": "$.overview.transfers.data.Players out[].transferText",
@@ -214814,7 +214730,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T03:28:36.243182+00:00"
+      "example": "2026-09-08T16:35:31.567893+00:00"
     },
     {
       "path": "$.rosters",
@@ -228331,7 +228247,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "700000"
+      "example": "250000"
     },
     {
       "path": "$.transfers.allTransfers[].fromClub",
@@ -228343,7 +228259,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Pogoń Szczecin"
+      "example": "Wisła Kraków"
     },
     {
       "path": "$.transfers.allTransfers[].fromClubFullName",
@@ -228355,7 +228271,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Pogoń Szczecin"
+      "example": "Wisła Kraków"
     },
     {
       "path": "$.transfers.allTransfers[].fromClubId",
@@ -228367,7 +228283,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8023"
+      "example": "10265"
     },
     {
       "path": "$.transfers.allTransfers[].fromDate",
@@ -228379,7 +228295,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-06T00:00:00Z"
+      "example": "2026-09-08T00:00:00Z"
     },
     {
       "path": "$.transfers.allTransfers[].marketValue",
@@ -228391,7 +228307,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "650258"
+      "example": "135751"
     },
     {
       "path": "$.transfers.allTransfers[].name",
@@ -228403,7 +228319,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Léo Borges"
+      "example": "Jordi Sánchez"
     },
     {
       "path": "$.transfers.allTransfers[].onLoan",
@@ -228427,7 +228343,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1188767"
+      "example": "813076"
     },
     {
       "path": "$.transfers.allTransfers[].position",
@@ -228451,7 +228367,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "leftback_short"
+      "example": "striker_short"
     },
     {
       "path": "$.transfers.allTransfers[].position.label",
@@ -228463,7 +228379,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "LB"
+      "example": "ST"
     },
     {
       "path": "$.transfers.allTransfers[].toClub",
@@ -228475,7 +228391,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Sigma Olomouc"
+      "example": "Pogoń Szczecin"
     },
     {
       "path": "$.transfers.allTransfers[].toClubFullName",
@@ -228487,7 +228403,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Sigma Olomouc"
+      "example": "Pogoń Szczecin"
     },
     {
       "path": "$.transfers.allTransfers[].toClubId",
@@ -228499,7 +228415,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6461"
+      "example": "8023"
     },
     {
       "path": "$.transfers.allTransfers[].toDate",
@@ -228523,7 +228439,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-06T11:55:31Z"
+      "example": "2026-09-08T13:56:51Z"
     },
     {
       "path": "$.transfers.allTransfers[].transferText",
@@ -228547,7 +228463,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "To"
+      "example": "From"
     },
     {
       "path": "$.transfers.allTransfers[].transferType",
@@ -229004,7 +228920,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "free transfer"
+      "example": "fee"
     },
     {
       "path": "$.transfers.data.Players in[].fee.localizedFeeText",
@@ -229016,7 +228932,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "transfer_type_free_transfer"
+      "example": "transfer_fee"
+    },
+    {
+      "path": "$.transfers.data.Players in[].fee.value",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "250000"
     },
     {
       "path": "$.transfers.data.Players in[].fromClub",
@@ -229028,7 +228956,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "Wisła Kraków"
     },
     {
       "path": "$.transfers.data.Players in[].fromClubFullName",
@@ -229040,7 +228968,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "Wisła Kraków"
     },
     {
       "path": "$.transfers.data.Players in[].fromClubId",
@@ -229052,7 +228980,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2"
+      "example": "10265"
     },
     {
       "path": "$.transfers.data.Players in[].fromDate",
@@ -229064,7 +228992,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-07-31T00:00:00Z"
+      "example": "2026-09-08T00:00:00Z"
     },
     {
       "path": "$.transfers.data.Players in[].marketValue",
@@ -229076,7 +229004,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "545875"
+      "example": "135751"
     },
     {
       "path": "$.transfers.data.Players in[].name",
@@ -229088,7 +229016,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Lukas Willen"
+      "example": "Jordi Sánchez"
     },
     {
       "path": "$.transfers.data.Players in[].onLoan",
@@ -229112,7 +229040,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1299888"
+      "example": "813076"
     },
     {
       "path": "$.transfers.data.Players in[].position",
@@ -229136,7 +229064,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "centerback_short"
+      "example": "striker_short"
     },
     {
       "path": "$.transfers.data.Players in[].position.label",
@@ -229148,7 +229076,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "CB"
+      "example": "ST"
     },
     {
       "path": "$.transfers.data.Players in[].toClub",
@@ -229189,14 +229117,14 @@
     {
       "path": "$.transfers.data.Players in[].toDate",
       "types": {
-        "string": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2029-06-30T00:00:00Z"
+      "example": "None"
     },
     {
       "path": "$.transfers.data.Players in[].transferDate",
@@ -229208,7 +229136,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-07-31T16:25:58Z"
+      "example": "2026-09-08T13:56:51Z"
     },
     {
       "path": "$.transfers.data.Players in[].transferText",
@@ -229321,50 +229249,14 @@
     {
       "path": "$.transfers.data.Players out[].fee",
       "types": {
-        "object": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.transfers.data.Players out[].fee.feeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "fee"
-    },
-    {
-      "path": "$.transfers.data.Players out[].fee.localizedFeeText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "transfer_fee"
-    },
-    {
-      "path": "$.transfers.data.Players out[].fee.value",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "700000"
+      "example": "None"
     },
     {
       "path": "$.transfers.data.Players out[].fromClub",
@@ -229412,19 +229304,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-06T00:00:00Z"
+      "example": "2026-09-08T00:00:00Z"
     },
     {
       "path": "$.transfers.data.Players out[].marketValue",
       "types": {
-        "integer": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "650258"
+      "example": "None"
     },
     {
       "path": "$.transfers.data.Players out[].name",
@@ -229436,7 +229328,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Léo Borges"
+      "example": "John Isak Selbekk"
     },
     {
       "path": "$.transfers.data.Players out[].onLoan",
@@ -229460,43 +229352,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1188767"
+      "example": "538292"
     },
     {
       "path": "$.transfers.data.Players out[].position",
       "types": {
-        "object": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.transfers.data.Players out[].position.key",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "leftback_short"
-    },
-    {
-      "path": "$.transfers.data.Players out[].position.label",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "LB"
+      "example": "None"
     },
     {
       "path": "$.transfers.data.Players out[].toClub",
@@ -229537,14 +229405,14 @@
     {
       "path": "$.transfers.data.Players out[].toDate",
       "types": {
-        "null": 1
+        "string": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": "2029-06-30T00:00:00Z"
     },
     {
       "path": "$.transfers.data.Players out[].transferDate",
@@ -229556,7 +229424,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-06T11:55:31Z"
+      "example": "2026-09-08T13:44:50Z"
     },
     {
       "path": "$.transfers.data.Players out[].transferText",
@@ -229700,7 +229568,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "700000"
+      "example": "500000"
     },
     {
       "path": "$.transfers.data[].fromClub",
@@ -229712,7 +229580,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Pogoń Szczecin"
+      "example": "Qarabağ FK"
     },
     {
       "path": "$.transfers.data[].fromClubFullName",
@@ -229724,7 +229592,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Pogoń Szczecin"
+      "example": "Qarabağ FK"
     },
     {
       "path": "$.transfers.data[].fromClubId",
@@ -229736,7 +229604,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8023"
+      "example": "7981"
     },
     {
       "path": "$.transfers.data[].fromDate",
@@ -229748,7 +229616,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-06T00:00:00Z"
+      "example": "2026-09-08T00:00:00Z"
     },
     {
       "path": "$.transfers.data[].marketValue",
@@ -229760,7 +229628,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "650258"
+      "example": "1519950"
     },
     {
       "path": "$.transfers.data[].name",
@@ -229772,7 +229640,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Léo Borges"
+      "example": "Mateusz Kochalski"
     },
     {
       "path": "$.transfers.data[].onLoan",
@@ -229796,7 +229664,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1188767"
+      "example": "1154332"
     },
     {
       "path": "$.transfers.data[].position",
@@ -229820,7 +229688,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "leftback_short"
+      "example": "keeper"
     },
     {
       "path": "$.transfers.data[].position.label",
@@ -229832,7 +229700,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "LB"
+      "example": "GK"
     },
     {
       "path": "$.transfers.data[].toClub",
@@ -229844,7 +229712,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Sigma Olomouc"
+      "example": "Wieczysta Kraków"
     },
     {
       "path": "$.transfers.data[].toClubFullName",
@@ -229856,7 +229724,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Sigma Olomouc"
+      "example": "Wieczysta Kraków"
     },
     {
       "path": "$.transfers.data[].toClubId",
@@ -229868,19 +229736,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6461"
+      "example": "1286895"
     },
     {
       "path": "$.transfers.data[].toDate",
       "types": {
-        "null": 1
+        "string": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": "2029-06-30T00:00:00Z"
     },
     {
       "path": "$.transfers.data[].transferDate",
@@ -229892,7 +229760,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-06T11:55:31Z"
+      "example": "2026-09-08T14:09:05Z"
     },
     {
       "path": "$.transfers.data[].transferText",
@@ -230029,14 +229897,38 @@
     {
       "path": "$.transfers[].fee",
       "types": {
-        "null": 1
+        "object": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": null
+    },
+    {
+      "path": "$.transfers[].fee.feeText",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "free transfer"
+    },
+    {
+      "path": "$.transfers[].fee.localizedFeeText",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "transfer_type_free_transfer"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -230048,7 +229940,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Milan Futuro"
+      "example": "Free agent"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -230060,7 +229952,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Milan Futuro"
+      "example": "Free agent"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -230072,7 +229964,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1660760"
+      "example": "2"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -230084,7 +229976,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-07T00:00:00Z"
+      "example": "2026-09-08T00:00:00Z"
     },
     {
       "path": "$.transfers[].marketValue",
@@ -230096,7 +229988,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "295505"
+      "example": "788728"
     },
     {
       "path": "$.transfers[].name",
@@ -230108,7 +230000,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Demirel Hodzic"
+      "example": "Jordan Ayew"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -230132,7 +230024,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1667664"
+      "example": "154280"
     },
     {
       "path": "$.transfers[].position",
@@ -230156,7 +230048,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "centermidfielder_short"
+      "example": "striker_short"
     },
     {
       "path": "$.transfers[].position.label",
@@ -230168,7 +230060,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "CM"
+      "example": "ST"
     },
     {
       "path": "$.transfers[].toClub",
@@ -230180,7 +230072,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "NK Istra 1961"
+      "example": "Sheff Utd"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -230192,7 +230084,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "NK Istra 1961"
+      "example": "Sheffield United"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -230204,7 +230096,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6038"
+      "example": "8657"
     },
     {
       "path": "$.transfers[].toDate",
@@ -230216,7 +230108,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2029-06-30T00:00:00Z"
+      "example": "2027-06-30T00:00:00Z"
     },
     {
       "path": "$.transfers[].transferDate",
@@ -230228,7 +230120,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-07T21:35:58Z"
+      "example": "2026-09-08T17:43:49Z"
     },
     {
       "path": "$.transfers[].transferText",

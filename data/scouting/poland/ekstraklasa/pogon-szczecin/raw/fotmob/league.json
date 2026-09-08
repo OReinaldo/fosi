@@ -1436,13 +1436,13 @@
               "pts": 16,
               "teamId": 2182,
               "teamName": "Lech Poznań",
-              "xg": 12.692299842834473,
-              "xgConceded": 5.124899983406067,
-              "xPoints": 13.312461449792742,
+              "xg": 13.143699884414673,
+              "xgConceded": 5.163299977779388,
+              "xPoints": 13.380091775958201,
               "position": 2,
-              "xgDiff": -1.6922998428344727,
-              "xgConcededDiff": -1.124899983406067,
-              "xPointsDiff": 2.6875385502072575,
+              "xgDiff": -2.143699884414673,
+              "xgConcededDiff": -1.1632999777793884,
+              "xPointsDiff": 2.619908224041799,
               "xPosition": 2,
               "idx": 2,
               "xPositionDiff": -1,
@@ -1490,44 +1490,17 @@
               "pts": 8,
               "teamId": 2186,
               "teamName": "Cracovia",
-              "xg": 11.92749997973442,
-              "xgConceded": 9.243999898433685,
-              "xPoints": 11.239214538134696,
+              "xg": 12.076499938964844,
+              "xgConceded": 9.248199880123138,
+              "xPoints": 11.359577081383996,
               "position": 4,
-              "xgDiff": -5.927499979734421,
-              "xgConcededDiff": -1.2439998984336853,
-              "xPointsDiff": -3.2392145381346964,
+              "xgDiff": -6.076499938964844,
+              "xgConcededDiff": -1.2481998801231384,
+              "xPointsDiff": -3.3595770813839962,
               "xPosition": 4,
               "idx": 4,
               "xPositionDiff": 7,
               "qualColor": "#02CCF0"
-            },
-            {
-              "name": "Górnik Zabrze",
-              "shortName": "Górnik Zabrze",
-              "id": 8020,
-              "pageUrl": "/teams/8020/overview/gornik-zabrze",
-              "ongoing": null,
-              "played": 6,
-              "wins": 5,
-              "draws": 0,
-              "losses": 1,
-              "scoresStr": "12-7",
-              "goalConDiff": 5,
-              "pts": 15,
-              "teamId": 8020,
-              "teamName": "Górnik Zabrze",
-              "xg": 10.121599912643433,
-              "xgConceded": 8.156300038099289,
-              "xPoints": 9.591871294635922,
-              "position": 5,
-              "xgDiff": 1.8784000873565674,
-              "xgConcededDiff": -1.156300038099289,
-              "xPointsDiff": 5.408128705364078,
-              "xPosition": 5,
-              "idx": 5,
-              "xPositionDiff": -2,
-              "qualColor": null
             },
             {
               "name": "Śląsk Wrocław",
@@ -1547,13 +1520,40 @@
               "xg": 11.125099956989288,
               "xgConceded": 11.586900174617767,
               "xPoints": 9.536797753537417,
-              "position": 6,
+              "position": 5,
               "xgDiff": -2.1250999569892883,
               "xgConcededDiff": -0.5869001746177673,
               "xPointsDiff": -3.5367977535374173,
+              "xPosition": 5,
+              "idx": 5,
+              "xPositionDiff": 9,
+              "qualColor": null
+            },
+            {
+              "name": "Górnik Zabrze",
+              "shortName": "Górnik Zabrze",
+              "id": 8020,
+              "pageUrl": "/teams/8020/overview/gornik-zabrze",
+              "ongoing": null,
+              "played": 6,
+              "wins": 5,
+              "draws": 0,
+              "losses": 1,
+              "scoresStr": "12-7",
+              "goalConDiff": 5,
+              "pts": 15,
+              "teamId": 8020,
+              "teamName": "Górnik Zabrze",
+              "xg": 10.125799894332886,
+              "xgConceded": 8.305299997329712,
+              "xPoints": 9.460869703782233,
+              "position": 6,
+              "xgDiff": 1.8742001056671143,
+              "xgConcededDiff": -1.305299997329712,
+              "xPointsDiff": 5.539130296217767,
               "xPosition": 6,
               "idx": 6,
-              "xPositionDiff": 8,
+              "xPositionDiff": -3,
               "qualColor": null
             },
             {
@@ -1868,13 +1868,13 @@
               "pts": 0,
               "teamId": 4024,
               "teamName": "Raków Częstochowa",
-              "xg": 8.273499965667725,
-              "xgConceded": 14.874600172042847,
-              "xPoints": 5.244878641847053,
+              "xg": 8.311899960041046,
+              "xgConceded": 15.326000213623047,
+              "xPoints": 5.201430240484944,
               "position": 18,
-              "xgDiff": -2.2734999656677246,
-              "xgConcededDiff": -0.8746001720428467,
-              "xPointsDiff": -5.244878641847053,
+              "xgDiff": -2.311899960041046,
+              "xgConcededDiff": -1.3260002136230469,
+              "xPointsDiff": -5.201430240484944,
               "xPosition": 18,
               "idx": 18,
               "xPositionDiff": 0,
@@ -4950,6 +4950,138 @@
   "transfers": {
     "type": "league",
     "data": [
+      {
+        "name": "Mateusz Kochalski",
+        "playerId": 1154332,
+        "position": {
+          "label": "GK",
+          "key": "keeper"
+        },
+        "transferDate": "2026-09-08T14:09:05Z",
+        "transferText": [
+          null,
+          null,
+          null
+        ],
+        "fromClub": "Qarabağ FK",
+        "fromClubFullName": "Qarabağ FK",
+        "fromClubId": 7981,
+        "toClub": "Wieczysta Kraków",
+        "toClubFullName": "Wieczysta Kraków",
+        "toClubId": 1286895,
+        "fee": {
+          "feeText": "fee",
+          "localizedFeeText": "transfer_fee",
+          "value": 500000
+        },
+        "amountEuroEstimated": null,
+        "transferType": {
+          "text": "contract",
+          "localizationKey": "contract"
+        },
+        "contractExtension": false,
+        "onLoan": false,
+        "fromDate": "2026-09-08T00:00:00Z",
+        "toDate": "2029-06-30T00:00:00Z",
+        "marketValue": 1519950
+      },
+      {
+        "name": "Ervin Omic",
+        "playerId": 1343255,
+        "position": {
+          "label": "DM",
+          "key": "centerdefensivemidfielder_short"
+        },
+        "transferDate": "2026-09-08T14:08:13Z",
+        "transferText": [
+          null,
+          null,
+          null
+        ],
+        "fromClub": "Wisła Kraków",
+        "fromClubFullName": "Wisła Kraków",
+        "fromClubId": 10265,
+        "toClub": "Abha",
+        "toClubFullName": "Abha",
+        "toClubId": 150414,
+        "fee": {
+          "feeText": "on loan",
+          "localizedFeeText": "on_loan"
+        },
+        "amountEuroEstimated": null,
+        "transferType": {
+          "text": "on loan",
+          "localizationKey": "on_loan"
+        },
+        "contractExtension": false,
+        "onLoan": true,
+        "fromDate": "2026-09-08T00:00:00Z",
+        "toDate": "2027-06-30T00:00:00Z",
+        "marketValue": 275598
+      },
+      {
+        "name": "Jordi Sánchez",
+        "playerId": 813076,
+        "position": {
+          "label": "ST",
+          "key": "striker_short"
+        },
+        "transferDate": "2026-09-08T13:56:51Z",
+        "transferText": [
+          null,
+          null,
+          null
+        ],
+        "fromClub": "Wisła Kraków",
+        "fromClubFullName": "Wisła Kraków",
+        "fromClubId": 10265,
+        "toClub": "Pogoń Szczecin",
+        "toClubFullName": "Pogoń Szczecin",
+        "toClubId": 8023,
+        "fee": {
+          "feeText": "fee",
+          "localizedFeeText": "transfer_fee",
+          "value": 250000
+        },
+        "amountEuroEstimated": null,
+        "transferType": {
+          "text": "contract",
+          "localizationKey": "contract"
+        },
+        "contractExtension": false,
+        "onLoan": false,
+        "fromDate": "2026-09-08T00:00:00Z",
+        "toDate": null,
+        "marketValue": 135751
+      },
+      {
+        "name": "John Isak Selbekk",
+        "playerId": 538292,
+        "position": null,
+        "transferDate": "2026-09-08T13:44:50Z",
+        "transferText": [
+          null,
+          null,
+          null
+        ],
+        "fromClub": "Pogoń Szczecin",
+        "fromClubFullName": "Pogoń Szczecin",
+        "fromClubId": 8023,
+        "toClub": "Sigma Olomouc",
+        "toClubFullName": "Sigma Olomouc",
+        "toClubId": 6461,
+        "fee": null,
+        "amountEuroEstimated": null,
+        "transferType": {
+          "text": "contract",
+          "localizationKey": "contract"
+        },
+        "contractExtension": false,
+        "onLoan": false,
+        "fromDate": "2026-09-08T00:00:00Z",
+        "toDate": "2029-06-30T00:00:00Z",
+        "marketValue": null
+      },
       {
         "name": "Léo Borges",
         "playerId": 1188767,
@@ -8135,133 +8267,6 @@
         "fromDate": "2026-07-15T00:00:00Z",
         "toDate": "2029-06-30T00:00:00Z",
         "marketValue": 297307
-      },
-      {
-        "name": "Tymoteusz Gmur",
-        "playerId": 1662744,
-        "position": null,
-        "transferDate": "2026-07-15T16:54:16Z",
-        "transferText": [
-          null,
-          null,
-          null
-        ],
-        "fromClub": "Lech Poznań",
-        "fromClubFullName": "Lech Poznań",
-        "fromClubId": 2182,
-        "toClub": "Stal Mielec",
-        "toClubFullName": "Stal Mielec",
-        "toClubId": 458623,
-        "fee": {
-          "feeText": "on loan",
-          "localizedFeeText": "on_loan"
-        },
-        "amountEuroEstimated": null,
-        "transferType": {
-          "text": "on loan",
-          "localizationKey": "on_loan"
-        },
-        "contractExtension": false,
-        "onLoan": true,
-        "fromDate": "2026-07-15T00:00:00Z",
-        "toDate": "2027-06-30T00:00:00Z",
-        "marketValue": null
-      },
-      {
-        "name": "Vasco Lopes",
-        "playerId": 1241308,
-        "position": {
-          "label": "RW",
-          "key": "rightwinger_short"
-        },
-        "transferDate": "2026-07-15T16:34:50Z",
-        "transferText": [
-          null,
-          null,
-          null
-        ],
-        "fromClub": "Radomiak Radom",
-        "fromClubFullName": "Radomiak Radom",
-        "fromClubId": 5769,
-        "toClub": "Südtirol",
-        "toClubFullName": "Südtirol",
-        "toClubId": 189475,
-        "fee": null,
-        "amountEuroEstimated": null,
-        "transferType": {
-          "text": "contract",
-          "localizationKey": "contract"
-        },
-        "contractExtension": false,
-        "onLoan": false,
-        "fromDate": "2026-07-15T00:00:00Z",
-        "toDate": "2029-06-30T00:00:00Z",
-        "marketValue": 461941
-      },
-      {
-        "name": "Jérémy Guillemenot",
-        "playerId": 601785,
-        "position": {
-          "label": "ST",
-          "key": "striker_short"
-        },
-        "transferDate": "2026-07-15T16:33:27Z",
-        "transferText": [
-          null,
-          null,
-          null
-        ],
-        "fromClub": "Servette",
-        "fromClubFullName": "Servette",
-        "fromClubId": 9777,
-        "toClub": "Wisła Kraków",
-        "toClubFullName": "Wisła Kraków",
-        "toClubId": 10265,
-        "fee": {
-          "feeText": "free transfer",
-          "localizedFeeText": "transfer_type_free_transfer"
-        },
-        "amountEuroEstimated": null,
-        "transferType": {
-          "text": "contract",
-          "localizationKey": "contract"
-        },
-        "contractExtension": false,
-        "onLoan": false,
-        "fromDate": "2026-07-15T00:00:00Z",
-        "toDate": "2028-06-30T00:00:00Z",
-        "marketValue": 401739
-      },
-      {
-        "name": "Szymon Kawala",
-        "playerId": 1801963,
-        "position": null,
-        "transferDate": "2026-07-15T11:32:42Z",
-        "transferText": [
-          null,
-          null,
-          null
-        ],
-        "fromClub": "Wisła Kraków",
-        "fromClubFullName": "Wisła Kraków",
-        "fromClubId": 10265,
-        "toClub": "Sandecja Nowy Sacz",
-        "toClubFullName": "Sandecja Nowy Sacz",
-        "toClubId": -1,
-        "fee": {
-          "feeText": "on loan",
-          "localizedFeeText": "on_loan"
-        },
-        "amountEuroEstimated": null,
-        "transferType": {
-          "text": "on loan",
-          "localizationKey": "on_loan"
-        },
-        "contractExtension": false,
-        "onLoan": true,
-        "fromDate": "2026-07-15T00:00:00Z",
-        "toDate": "2027-06-30T00:00:00Z",
-        "marketValue": 441984
       }
     ]
   },
@@ -9643,13 +9648,13 @@
                 "pts": 16,
                 "teamId": 2182,
                 "teamName": "Lech Poznań",
-                "xg": 12.692299842834473,
-                "xgConceded": 5.124899983406067,
-                "xPoints": 13.312461449792742,
+                "xg": 13.143699884414673,
+                "xgConceded": 5.163299977779388,
+                "xPoints": 13.380091775958201,
                 "position": 2,
-                "xgDiff": -1.6922998428344727,
-                "xgConcededDiff": -1.124899983406067,
-                "xPointsDiff": 2.6875385502072575,
+                "xgDiff": -2.143699884414673,
+                "xgConcededDiff": -1.1632999777793884,
+                "xPointsDiff": 2.619908224041799,
                 "xPosition": 2,
                 "idx": 2,
                 "xPositionDiff": -1,
@@ -9697,44 +9702,17 @@
                 "pts": 8,
                 "teamId": 2186,
                 "teamName": "Cracovia",
-                "xg": 11.92749997973442,
-                "xgConceded": 9.243999898433685,
-                "xPoints": 11.239214538134696,
+                "xg": 12.076499938964844,
+                "xgConceded": 9.248199880123138,
+                "xPoints": 11.359577081383996,
                 "position": 4,
-                "xgDiff": -5.927499979734421,
-                "xgConcededDiff": -1.2439998984336853,
-                "xPointsDiff": -3.2392145381346964,
+                "xgDiff": -6.076499938964844,
+                "xgConcededDiff": -1.2481998801231384,
+                "xPointsDiff": -3.3595770813839962,
                 "xPosition": 4,
                 "idx": 4,
                 "xPositionDiff": 7,
                 "qualColor": "#02CCF0"
-              },
-              {
-                "name": "Górnik Zabrze",
-                "shortName": "Górnik Zabrze",
-                "id": 8020,
-                "pageUrl": "/teams/8020/overview/gornik-zabrze",
-                "ongoing": null,
-                "played": 6,
-                "wins": 5,
-                "draws": 0,
-                "losses": 1,
-                "scoresStr": "12-7",
-                "goalConDiff": 5,
-                "pts": 15,
-                "teamId": 8020,
-                "teamName": "Górnik Zabrze",
-                "xg": 10.121599912643433,
-                "xgConceded": 8.156300038099289,
-                "xPoints": 9.591871294635922,
-                "position": 5,
-                "xgDiff": 1.8784000873565674,
-                "xgConcededDiff": -1.156300038099289,
-                "xPointsDiff": 5.408128705364078,
-                "xPosition": 5,
-                "idx": 5,
-                "xPositionDiff": -2,
-                "qualColor": null
               },
               {
                 "name": "Śląsk Wrocław",
@@ -9754,13 +9732,40 @@
                 "xg": 11.125099956989288,
                 "xgConceded": 11.586900174617767,
                 "xPoints": 9.536797753537417,
-                "position": 6,
+                "position": 5,
                 "xgDiff": -2.1250999569892883,
                 "xgConcededDiff": -0.5869001746177673,
                 "xPointsDiff": -3.5367977535374173,
+                "xPosition": 5,
+                "idx": 5,
+                "xPositionDiff": 9,
+                "qualColor": null
+              },
+              {
+                "name": "Górnik Zabrze",
+                "shortName": "Górnik Zabrze",
+                "id": 8020,
+                "pageUrl": "/teams/8020/overview/gornik-zabrze",
+                "ongoing": null,
+                "played": 6,
+                "wins": 5,
+                "draws": 0,
+                "losses": 1,
+                "scoresStr": "12-7",
+                "goalConDiff": 5,
+                "pts": 15,
+                "teamId": 8020,
+                "teamName": "Górnik Zabrze",
+                "xg": 10.125799894332886,
+                "xgConceded": 8.305299997329712,
+                "xPoints": 9.460869703782233,
+                "position": 6,
+                "xgDiff": 1.8742001056671143,
+                "xgConcededDiff": -1.305299997329712,
+                "xPointsDiff": 5.539130296217767,
                 "xPosition": 6,
                 "idx": 6,
-                "xPositionDiff": 8,
+                "xPositionDiff": -3,
                 "qualColor": null
               },
               {
@@ -10075,13 +10080,13 @@
                 "pts": 0,
                 "teamId": 4024,
                 "teamName": "Raków Częstochowa",
-                "xg": 8.273499965667725,
-                "xgConceded": 14.874600172042847,
-                "xPoints": 5.244878641847053,
+                "xg": 8.311899960041046,
+                "xgConceded": 15.326000213623047,
+                "xPoints": 5.201430240484944,
                 "position": 18,
-                "xgDiff": -2.2734999656677246,
-                "xgConcededDiff": -0.8746001720428467,
-                "xPointsDiff": -5.244878641847053,
+                "xgDiff": -2.311899960041046,
+                "xgConcededDiff": -1.3260002136230469,
+                "xPointsDiff": -5.201430240484944,
                 "xPosition": 18,
                 "idx": 18,
                 "xPositionDiff": 0,
@@ -31506,10 +31511,10 @@
             "ccode": "POL",
             "teamId": 8020,
             "teamName": "Górnik Zabrze",
-            "value": 3.7,
+            "value": 3.8,
             "stat": {
               "name": "expected_goalsontarget",
-              "value": 3.7,
+              "value": 3.8,
               "format": "fraction",
               "fractions": 1
             },
@@ -32239,10 +32244,10 @@
           "ccode": "SWE",
           "teamId": 2182,
           "teamName": "Lech Poznań",
-          "value": 0.97,
+          "value": 0.96,
           "stat": {
             "name": "_expected_goals_and_expected_assists_per_90",
-            "value": 0.97,
+            "value": 0.96,
             "format": "fraction",
             "fractions": 2
           }
@@ -32256,10 +32261,10 @@
             "ccode": "SWE",
             "teamId": 2182,
             "teamName": "Lech Poznań",
-            "value": 0.97,
+            "value": 0.96,
             "stat": {
               "name": "_expected_goals_and_expected_assists_per_90",
-              "value": 0.97,
+              "value": 0.96,
               "format": "fraction",
               "fractions": 2
             },
@@ -34560,10 +34565,10 @@
             "rank": 3,
             "ccode": "POL",
             "teamId": 2182,
-            "value": 12.7,
+            "value": 13.1,
             "stat": {
               "name": "expected_goals_team",
-              "value": 12.7,
+              "value": 13.1,
               "format": "fraction",
               "fractions": 1
             },
@@ -34588,10 +34593,10 @@
           "rank": 1,
           "ccode": "POL",
           "teamId": 2182,
-          "value": 7.6,
+          "value": 8,
           "stat": {
             "name": "_xg_diff_team",
-            "value": 7.6,
+            "value": 8,
             "format": "fraction",
             "fractions": 1
           }
@@ -34604,10 +34609,10 @@
             "rank": 1,
             "ccode": "POL",
             "teamId": 2182,
-            "value": 7.6,
+            "value": 8,
             "stat": {
               "name": "_xg_diff_team",
-              "value": 7.6,
+              "value": 8,
               "format": "fraction",
               "fractions": 1
             },
@@ -35512,10 +35517,10 @@
           "rank": 1,
           "ccode": "POL",
           "teamId": 2182,
-          "value": 5.1,
+          "value": 5.2,
           "stat": {
             "name": "expected_goals_conceded_team",
-            "value": 5.1,
+            "value": 5.2,
             "format": "fraction",
             "fractions": 1
           }
@@ -35528,10 +35533,10 @@
             "rank": 1,
             "ccode": "POL",
             "teamId": 2182,
-            "value": 5.1,
+            "value": 5.2,
             "stat": {
               "name": "expected_goals_conceded_team",
-              "value": 5.1,
+              "value": 5.2,
               "format": "fraction",
               "fractions": 1
             },
@@ -36384,6 +36389,26 @@
           },
           {
             "id": 0,
+            "name": "Górnik Zabrze",
+            "rank": 2,
+            "ccode": "POL",
+            "teamId": 8020,
+            "value": 1,
+            "stat": {
+              "name": "total_red_card_team",
+              "value": 1,
+              "format": "number",
+              "fractions": 0
+            },
+            "teamColors": {
+              "darkMode": "#ffffff",
+              "lightMode": "#26419A",
+              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 0,
             "name": "Pogoń Szczecin",
             "rank": 2,
             "ccode": "POL",
@@ -36399,26 +36424,6 @@
               "darkMode": "#1753a4",
               "lightMode": "#102457",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
-            "id": 0,
-            "name": "Górnik Zabrze",
-            "rank": 3,
-            "ccode": "POL",
-            "teamId": 8020,
-            "value": 1,
-            "stat": {
-              "name": "total_red_card_team",
-              "value": 1,
-              "format": "number",
-              "fractions": 0
-            },
-            "teamColors": {
-              "darkMode": "#ffffff",
-              "lightMode": "#26419A",
-              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           }

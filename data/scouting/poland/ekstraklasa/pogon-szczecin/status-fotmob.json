@@ -1,7 +1,7 @@
 {
   "source": "fotmob",
   "status": "partial",
-  "retrieved_at": "2026-09-08T03:27:13.227501+00:00",
+  "retrieved_at": "2026-09-08T16:34:26.130751+00:00",
   "layers": {
     "team": "available",
     "players": "available",
@@ -15,9 +15,11 @@
   "records": {
     "team": 1,
     "league": 1,
-    "player_profiles": 20,
+    "player_profiles": 19,
     "player_matches": 0,
     "player_matches_skipped_existing": 0,
+    "player_match_rows": 0,
+    "player_match_pages": 0,
     "transfers": 1,
     "date_scanned_matches": 3,
     "date_scan_from": "2026-09-01",
@@ -31,10 +33,6 @@
     "event_video_refs": 0
   },
   "errors": [
-    {
-      "player_id": "0",
-      "player_matches_error": "HTTP Error 400: Bad Request"
-    },
     {
       "player_id": "1078936",
       "player_matches_error": "HTTP Error 400: Bad Request"

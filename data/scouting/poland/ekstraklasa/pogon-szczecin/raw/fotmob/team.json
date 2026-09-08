@@ -1563,13 +1563,13 @@
               "pts": 16,
               "teamId": 2182,
               "teamName": "Lech Poznań",
-              "xg": 12.692299842834473,
-              "xgConceded": 5.124899983406067,
-              "xPoints": 13.312461449792742,
+              "xg": 13.143699884414673,
+              "xgConceded": 5.163299977779388,
+              "xPoints": 13.380091775958201,
               "position": 2,
-              "xgDiff": -1.6922998428344727,
-              "xgConcededDiff": -1.124899983406067,
-              "xPointsDiff": 2.6875385502072575,
+              "xgDiff": -2.143699884414673,
+              "xgConcededDiff": -1.1632999777793884,
+              "xPointsDiff": 2.619908224041799,
               "xPosition": 2,
               "idx": 2,
               "xPositionDiff": -1,
@@ -1619,45 +1619,17 @@
               "pts": 8,
               "teamId": 2186,
               "teamName": "Cracovia",
-              "xg": 11.92749997973442,
-              "xgConceded": 9.243999898433685,
-              "xPoints": 11.239214538134696,
+              "xg": 12.076499938964844,
+              "xgConceded": 9.248199880123138,
+              "xPoints": 11.359577081383996,
               "position": 4,
-              "xgDiff": -5.927499979734421,
-              "xgConcededDiff": -1.2439998984336853,
-              "xPointsDiff": -3.2392145381346964,
+              "xgDiff": -6.076499938964844,
+              "xgConcededDiff": -1.2481998801231384,
+              "xPointsDiff": -3.3595770813839962,
               "xPosition": 4,
               "idx": 4,
               "xPositionDiff": 7,
               "qualColor": "#02CCF0"
-            },
-            {
-              "name": "Górnik Zabrze",
-              "shortName": "Górnik Zabrze",
-              "id": 8020,
-              "pageUrl": "/teams/8020/overview/gornik-zabrze",
-              "featuredInMatch": false,
-              "ongoing": null,
-              "played": 6,
-              "wins": 5,
-              "draws": 0,
-              "losses": 1,
-              "scoresStr": "12-7",
-              "goalConDiff": 5,
-              "pts": 15,
-              "teamId": 8020,
-              "teamName": "Górnik Zabrze",
-              "xg": 10.121599912643433,
-              "xgConceded": 8.156300038099289,
-              "xPoints": 9.591871294635922,
-              "position": 5,
-              "xgDiff": 1.8784000873565674,
-              "xgConcededDiff": -1.156300038099289,
-              "xPointsDiff": 5.408128705364078,
-              "xPosition": 5,
-              "idx": 5,
-              "xPositionDiff": -2,
-              "qualColor": null
             },
             {
               "name": "Śląsk Wrocław",
@@ -1678,13 +1650,41 @@
               "xg": 11.125099956989288,
               "xgConceded": 11.586900174617767,
               "xPoints": 9.536797753537417,
-              "position": 6,
+              "position": 5,
               "xgDiff": -2.1250999569892883,
               "xgConcededDiff": -0.5869001746177673,
               "xPointsDiff": -3.5367977535374173,
+              "xPosition": 5,
+              "idx": 5,
+              "xPositionDiff": 9,
+              "qualColor": null
+            },
+            {
+              "name": "Górnik Zabrze",
+              "shortName": "Górnik Zabrze",
+              "id": 8020,
+              "pageUrl": "/teams/8020/overview/gornik-zabrze",
+              "featuredInMatch": false,
+              "ongoing": null,
+              "played": 6,
+              "wins": 5,
+              "draws": 0,
+              "losses": 1,
+              "scoresStr": "12-7",
+              "goalConDiff": 5,
+              "pts": 15,
+              "teamId": 8020,
+              "teamName": "Górnik Zabrze",
+              "xg": 10.125799894332886,
+              "xgConceded": 8.305299997329712,
+              "xPoints": 9.460869703782233,
+              "position": 6,
+              "xgDiff": 1.8742001056671143,
+              "xgConcededDiff": -1.305299997329712,
+              "xPointsDiff": 5.539130296217767,
               "xPosition": 6,
               "idx": 6,
-              "xPositionDiff": 8,
+              "xPositionDiff": -3,
               "qualColor": null
             },
             {
@@ -2011,13 +2011,13 @@
               "pts": 0,
               "teamId": 4024,
               "teamName": "Raków Częstochowa",
-              "xg": 8.273499965667725,
-              "xgConceded": 14.874600172042847,
-              "xPoints": 5.244878641847053,
+              "xg": 8.311899960041046,
+              "xgConceded": 15.326000213623047,
+              "xPoints": 5.201430240484944,
               "position": 18,
-              "xgDiff": -2.2734999656677246,
-              "xgConcededDiff": -0.8746001720428467,
-              "xPointsDiff": -5.244878641847053,
+              "xgDiff": -2.311899960041046,
+              "xgConcededDiff": -1.3260002136230469,
+              "xPointsDiff": -5.201430240484944,
               "xPosition": 18,
               "idx": 18,
               "xPositionDiff": 0,
@@ -5093,6 +5093,41 @@
     "data": {
       "Players in": [
         {
+          "name": "Jordi Sánchez",
+          "playerId": 813076,
+          "position": {
+            "label": "ST",
+            "key": "striker_short"
+          },
+          "transferDate": "2026-09-08T13:56:51Z",
+          "transferText": [
+            "From",
+            10265,
+            "Wisła Kraków"
+          ],
+          "fromClub": "Wisła Kraków",
+          "fromClubFullName": "Wisła Kraków",
+          "fromClubId": 10265,
+          "toClub": "Pogoń Szczecin",
+          "toClubFullName": "Pogoń Szczecin",
+          "toClubId": 8023,
+          "fee": {
+            "feeText": "fee",
+            "localizedFeeText": "transfer_fee",
+            "value": 250000
+          },
+          "amountEuroEstimated": null,
+          "transferType": {
+            "text": "contract",
+            "localizationKey": "contract"
+          },
+          "contractExtension": false,
+          "onLoan": false,
+          "fromDate": "2026-09-08T00:00:00Z",
+          "toDate": null,
+          "marketValue": 135751
+        },
+        {
           "name": "Lukas Willen",
           "playerId": 1299888,
           "position": {
@@ -5525,6 +5560,34 @@
         }
       ],
       "Players out": [
+        {
+          "name": "John Isak Selbekk",
+          "playerId": 538292,
+          "position": null,
+          "transferDate": "2026-09-08T13:44:50Z",
+          "transferText": [
+            "To",
+            6461,
+            "Sigma Olomouc"
+          ],
+          "fromClub": "Pogoń Szczecin",
+          "fromClubFullName": "Pogoń Szczecin",
+          "fromClubId": 8023,
+          "toClub": "Sigma Olomouc",
+          "toClubFullName": "Sigma Olomouc",
+          "toClubId": 6461,
+          "fee": null,
+          "amountEuroEstimated": null,
+          "transferType": {
+            "text": "contract",
+            "localizationKey": "contract"
+          },
+          "contractExtension": false,
+          "onLoan": false,
+          "fromDate": "2026-09-08T00:00:00Z",
+          "toDate": "2029-06-30T00:00:00Z",
+          "marketValue": null
+        },
         {
           "name": "Léo Borges",
           "playerId": 1188767,
@@ -6314,6 +6377,69 @@
       ]
     },
     "allTransfers": [
+      {
+        "name": "Jordi Sánchez",
+        "playerId": 813076,
+        "position": {
+          "label": "ST",
+          "key": "striker_short"
+        },
+        "transferDate": "2026-09-08T13:56:51Z",
+        "transferText": [
+          "From",
+          10265,
+          "Wisła Kraków"
+        ],
+        "fromClub": "Wisła Kraków",
+        "fromClubFullName": "Wisła Kraków",
+        "fromClubId": 10265,
+        "toClub": "Pogoń Szczecin",
+        "toClubFullName": "Pogoń Szczecin",
+        "toClubId": 8023,
+        "fee": {
+          "feeText": "fee",
+          "localizedFeeText": "transfer_fee",
+          "value": 250000
+        },
+        "amountEuroEstimated": null,
+        "transferType": {
+          "text": "contract",
+          "localizationKey": "contract"
+        },
+        "contractExtension": false,
+        "onLoan": false,
+        "fromDate": "2026-09-08T00:00:00Z",
+        "toDate": null,
+        "marketValue": 135751
+      },
+      {
+        "name": "John Isak Selbekk",
+        "playerId": 538292,
+        "position": null,
+        "transferDate": "2026-09-08T13:44:50Z",
+        "transferText": [
+          "To",
+          6461,
+          "Sigma Olomouc"
+        ],
+        "fromClub": "Pogoń Szczecin",
+        "fromClubFullName": "Pogoń Szczecin",
+        "fromClubId": 8023,
+        "toClub": "Sigma Olomouc",
+        "toClubFullName": "Sigma Olomouc",
+        "toClubId": 6461,
+        "fee": null,
+        "amountEuroEstimated": null,
+        "transferType": {
+          "text": "contract",
+          "localizationKey": "contract"
+        },
+        "contractExtension": false,
+        "onLoan": false,
+        "fromDate": "2026-09-08T00:00:00Z",
+        "toDate": "2029-06-30T00:00:00Z",
+        "marketValue": null
+      },
       {
         "name": "Léo Borges",
         "playerId": 1188767,
@@ -8968,13 +9094,13 @@
                 "pts": 16,
                 "teamId": 2182,
                 "teamName": "Lech Poznań",
-                "xg": 12.692299842834473,
-                "xgConceded": 5.124899983406067,
-                "xPoints": 13.312461449792742,
+                "xg": 13.143699884414673,
+                "xgConceded": 5.163299977779388,
+                "xPoints": 13.380091775958201,
                 "position": 2,
-                "xgDiff": -1.6922998428344727,
-                "xgConcededDiff": -1.124899983406067,
-                "xPointsDiff": 2.6875385502072575,
+                "xgDiff": -2.143699884414673,
+                "xgConcededDiff": -1.1632999777793884,
+                "xPointsDiff": 2.619908224041799,
                 "xPosition": 2,
                 "idx": 2,
                 "xPositionDiff": -1,
@@ -9024,45 +9150,17 @@
                 "pts": 8,
                 "teamId": 2186,
                 "teamName": "Cracovia",
-                "xg": 11.92749997973442,
-                "xgConceded": 9.243999898433685,
-                "xPoints": 11.239214538134696,
+                "xg": 12.076499938964844,
+                "xgConceded": 9.248199880123138,
+                "xPoints": 11.359577081383996,
                 "position": 4,
-                "xgDiff": -5.927499979734421,
-                "xgConcededDiff": -1.2439998984336853,
-                "xPointsDiff": -3.2392145381346964,
+                "xgDiff": -6.076499938964844,
+                "xgConcededDiff": -1.2481998801231384,
+                "xPointsDiff": -3.3595770813839962,
                 "xPosition": 4,
                 "idx": 4,
                 "xPositionDiff": 7,
                 "qualColor": "#02CCF0"
-              },
-              {
-                "name": "Górnik Zabrze",
-                "shortName": "Górnik Zabrze",
-                "id": 8020,
-                "pageUrl": "/teams/8020/overview/gornik-zabrze",
-                "featuredInMatch": false,
-                "ongoing": null,
-                "played": 6,
-                "wins": 5,
-                "draws": 0,
-                "losses": 1,
-                "scoresStr": "12-7",
-                "goalConDiff": 5,
-                "pts": 15,
-                "teamId": 8020,
-                "teamName": "Górnik Zabrze",
-                "xg": 10.121599912643433,
-                "xgConceded": 8.156300038099289,
-                "xPoints": 9.591871294635922,
-                "position": 5,
-                "xgDiff": 1.8784000873565674,
-                "xgConcededDiff": -1.156300038099289,
-                "xPointsDiff": 5.408128705364078,
-                "xPosition": 5,
-                "idx": 5,
-                "xPositionDiff": -2,
-                "qualColor": null
               },
               {
                 "name": "Śląsk Wrocław",
@@ -9083,13 +9181,41 @@
                 "xg": 11.125099956989288,
                 "xgConceded": 11.586900174617767,
                 "xPoints": 9.536797753537417,
-                "position": 6,
+                "position": 5,
                 "xgDiff": -2.1250999569892883,
                 "xgConcededDiff": -0.5869001746177673,
                 "xPointsDiff": -3.5367977535374173,
+                "xPosition": 5,
+                "idx": 5,
+                "xPositionDiff": 9,
+                "qualColor": null
+              },
+              {
+                "name": "Górnik Zabrze",
+                "shortName": "Górnik Zabrze",
+                "id": 8020,
+                "pageUrl": "/teams/8020/overview/gornik-zabrze",
+                "featuredInMatch": false,
+                "ongoing": null,
+                "played": 6,
+                "wins": 5,
+                "draws": 0,
+                "losses": 1,
+                "scoresStr": "12-7",
+                "goalConDiff": 5,
+                "pts": 15,
+                "teamId": 8020,
+                "teamName": "Górnik Zabrze",
+                "xg": 10.125799894332886,
+                "xgConceded": 8.305299997329712,
+                "xPoints": 9.460869703782233,
+                "position": 6,
+                "xgDiff": 1.8742001056671143,
+                "xgConcededDiff": -1.305299997329712,
+                "xPointsDiff": 5.539130296217767,
                 "xPosition": 6,
                 "idx": 6,
-                "xPositionDiff": 8,
+                "xPositionDiff": -3,
                 "qualColor": null
               },
               {
@@ -9416,13 +9542,13 @@
                 "pts": 0,
                 "teamId": 4024,
                 "teamName": "Raków Częstochowa",
-                "xg": 8.273499965667725,
-                "xgConceded": 14.874600172042847,
-                "xPoints": 5.244878641847053,
+                "xg": 8.311899960041046,
+                "xgConceded": 15.326000213623047,
+                "xPoints": 5.201430240484944,
                 "position": 18,
-                "xgDiff": -2.2734999656677246,
-                "xgConcededDiff": -0.8746001720428467,
-                "xPointsDiff": -5.244878641847053,
+                "xgDiff": -2.311899960041046,
+                "xgConcededDiff": -1.3260002136230469,
+                "xPointsDiff": -5.201430240484944,
                 "xPosition": 18,
                 "idx": 18,
                 "xPositionDiff": 0,
@@ -12936,10 +13062,10 @@
         "leagueId": 196,
         "leagueName": "Ekstraklasa",
         "win": 2,
-        "draw": 2,
+        "draw": 3,
         "loss": 1,
-        "pointsPerGame": 1.6,
-        "winPercentage": 0.4
+        "pointsPerGame": 1.5,
+        "winPercentage": 0.33
       }
     ],
     "overviewFixtures": [
@@ -14230,9 +14356,9 @@
               "selections": [
                 {
                   "name": "1",
-                  "oddsDecimal": "2.00",
-                  "oddsAmerican": "+100",
-                  "oddsFraction": "1/1",
+                  "oddsDecimal": "1.95",
+                  "oddsAmerican": "-105",
+                  "oddsFraction": "20/21",
                   "couponKey": null,
                   "team": null,
                   "value": null,
@@ -14240,9 +14366,9 @@
                 },
                 {
                   "name": "x",
-                  "oddsDecimal": "3.75",
-                  "oddsAmerican": "+275",
-                  "oddsFraction": "11/4",
+                  "oddsDecimal": "3.70",
+                  "oddsAmerican": "+270",
+                  "oddsFraction": "27/10",
                   "couponKey": null,
                   "team": null,
                   "value": null,
@@ -14274,9 +14400,9 @@
                   "selections": [
                     {
                       "name": "1",
-                      "oddsDecimal": "2.00",
-                      "oddsAmerican": "+100",
-                      "oddsFraction": "1/1",
+                      "oddsDecimal": "1.95",
+                      "oddsAmerican": "-105",
+                      "oddsFraction": "20/21",
                       "couponKey": null,
                       "team": null,
                       "value": null,
@@ -14284,9 +14410,9 @@
                     },
                     {
                       "name": "x",
-                      "oddsDecimal": "3.75",
-                      "oddsAmerican": "+275",
-                      "oddsFraction": "11/4",
+                      "oddsDecimal": "3.70",
+                      "oddsAmerican": "+270",
+                      "oddsFraction": "27/10",
                       "couponKey": null,
                       "team": null,
                       "value": null,
@@ -14313,9 +14439,9 @@
                   "selections": [
                     {
                       "name": "Yes",
-                      "oddsDecimal": "1.55",
-                      "oddsAmerican": "-182",
-                      "oddsFraction": "11/20",
+                      "oddsDecimal": "1.60",
+                      "oddsAmerican": "-167",
+                      "oddsFraction": "3/5",
                       "couponKey": null,
                       "team": null,
                       "value": null,
@@ -14323,9 +14449,9 @@
                     },
                     {
                       "name": "No",
-                      "oddsDecimal": "2.40",
-                      "oddsAmerican": "+140",
-                      "oddsFraction": "7/5",
+                      "oddsDecimal": "2.30",
+                      "oddsAmerican": "+130",
+                      "oddsFraction": "13/10",
                       "couponKey": null,
                       "team": null,
                       "value": null,
@@ -14640,8 +14766,8 @@
     "lastLineupStats": {
       "id": 8023,
       "name": "Pogoń Szczecin",
-      "rating": 6.6,
-      "formation": "4-1-4-1",
+      "rating": 7,
+      "formation": "4-3-3",
       "starters": [
         {
           "id": 289211,
@@ -14656,24 +14782,23 @@
             "x": 0.1,
             "y": 0.5,
             "height": 0.25,
-            "width": 0.192
+            "width": 0.2
           },
           "verticalLayout": {
             "x": 0.5,
             "y": 0.1,
-            "height": 0.192,
+            "height": 0.2,
             "width": 1
           },
-          "marketValue": 325707,
+          "marketValue": 260565,
           "performance": {
-            "rating": 8.7,
+            "rating": 7.9,
             "events": [
               {
                 "type": "yellowCard"
               }
             ],
-            "seasonRating": 7.59,
-            "playerOfTheMatch": true
+            "seasonRating": 7.78
           }
         },
         {
@@ -14686,21 +14811,27 @@
           "countryName": "Iraq",
           "countryCode": "IRQ",
           "horizontalLayout": {
-            "x": 0.292,
+            "x": 0.357,
             "y": 0.875,
             "height": 0.25,
-            "width": 0.385
+            "width": 0.257
           },
           "verticalLayout": {
             "x": 0.125,
-            "y": 0.292,
-            "height": 0.192,
+            "y": 0.357,
+            "height": 0.2,
             "width": 0.25
           },
           "marketValue": 368982,
           "performance": {
-            "rating": 7.1,
-            "seasonRating": 6.18
+            "rating": 7.2,
+            "substitutionEvents": [
+              {
+                "time": 84,
+                "type": "subOut"
+              }
+            ],
+            "seasonRating": 6.42
           }
         },
         {
@@ -14713,277 +14844,281 @@
           "countryName": "Greece",
           "countryCode": "GRE",
           "horizontalLayout": {
-            "x": 0.292,
+            "x": 0.357,
             "y": 0.625,
             "height": 0.25,
-            "width": 0.192
+            "width": 0.257
           },
           "verticalLayout": {
             "x": 0.375,
-            "y": 0.292,
-            "height": 0.192,
+            "y": 0.357,
+            "height": 0.2,
             "width": 0.25
           },
-          "marketValue": 1553631,
+          "marketValue": 1824091,
           "performance": {
-            "rating": 6.8,
-            "seasonRating": 7.05
+            "rating": 7.3,
+            "seasonRating": 7.03
           }
         },
         {
-          "id": 749648,
-          "age": 28,
-          "name": "Attila Szalai",
+          "id": 1299888,
+          "age": 23,
+          "name": "Lukas Willen",
           "positionId": 36,
           "usualPlayingPositionId": 1,
-          "shirtNumber": "41",
-          "countryName": "Hungary",
-          "countryCode": "HUN",
+          "shirtNumber": "29",
+          "countryName": "Belgium",
+          "countryCode": "BEL",
           "horizontalLayout": {
-            "x": 0.292,
+            "x": 0.357,
             "y": 0.375,
             "height": 0.25,
-            "width": 0.385
+            "width": 0.257
           },
           "verticalLayout": {
             "x": 0.625,
-            "y": 0.292,
-            "height": 0.192,
+            "y": 0.357,
+            "height": 0.2,
             "width": 0.25
           },
-          "marketValue": 1413033,
+          "marketValue": 655050,
           "performance": {
-            "rating": 6.2,
-            "seasonGoals": 1,
-            "seasonRating": 7.43
+            "rating": 7.1,
+            "events": [
+              {
+                "type": "yellowCard"
+              }
+            ],
+            "seasonRating": 5.99
           }
         },
         {
-          "id": 1188767,
-          "age": 25,
-          "name": "Léo Borges",
+          "id": 280965,
+          "age": 32,
+          "name": "Benjamin Mendy",
           "positionId": 38,
           "usualPlayingPositionId": 1,
-          "shirtNumber": "4",
-          "countryName": "Brazil",
-          "countryCode": "BRA",
+          "shirtNumber": "23",
+          "countryName": "France",
+          "countryCode": "FRA",
           "horizontalLayout": {
-            "x": 0.292,
+            "x": 0.357,
             "y": 0.125,
             "height": 0.25,
-            "width": 0.385
+            "width": 0.257
           },
           "verticalLayout": {
             "x": 0.875,
-            "y": 0.292,
-            "height": 0.192,
+            "y": 0.357,
+            "height": 0.2,
             "width": 0.25
           },
-          "marketValue": 650258,
+          "marketValue": 178956,
           "performance": {
-            "rating": 7.2,
-            "seasonGoals": 1,
-            "seasonRating": 7.36
+            "rating": 7.3,
+            "seasonAssists": 1,
+            "seasonRating": 6.76
+          }
+        },
+        {
+          "id": 1786208,
+          "age": 17,
+          "name": "Natan Ława",
+          "positionId": 73,
+          "usualPlayingPositionId": 2,
+          "shirtNumber": "47",
+          "countryName": "Poland",
+          "countryCode": "POL",
+          "horizontalLayout": {
+            "x": 0.613,
+            "y": 0.79,
+            "height": 0.25,
+            "width": 0.257
+          },
+          "verticalLayout": {
+            "x": 0.21,
+            "y": 0.613,
+            "height": 0.2,
+            "width": 0.29
+          },
+          "marketValue": 1011937,
+          "performance": {
+            "rating": 6.8,
+            "substitutionEvents": [
+              {
+                "time": 59,
+                "type": "subOut"
+              }
+            ],
+            "seasonRating": 5.8
           }
         },
         {
           "id": 558189,
           "age": 28,
           "name": "Patryk Dziczek",
-          "positionId": 65,
+          "positionId": 75,
           "usualPlayingPositionId": 2,
           "shirtNumber": "16",
           "countryName": "Poland",
           "countryCode": "POL",
           "horizontalLayout": {
-            "x": 0.485,
+            "x": 0.613,
             "y": 0.5,
             "height": 0.25,
-            "width": 0.192
+            "width": 0.257
           },
           "verticalLayout": {
             "x": 0.5,
-            "y": 0.485,
-            "height": 0.192,
-            "width": 1
+            "y": 0.613,
+            "height": 0.2,
+            "width": 0.29
           },
-          "marketValue": 408714,
+          "marketValue": 462840,
           "performance": {
-            "rating": 7.4,
-            "seasonRating": 7.22
-          }
-        },
-        {
-          "id": 1078936,
-          "age": 26,
-          "name": "Paul Mukairu",
-          "positionId": 82,
-          "usualPlayingPositionId": 3,
-          "shirtNumber": "18",
-          "countryName": "Nigeria",
-          "countryCode": "NGA",
-          "horizontalLayout": {
-            "x": 0.678,
-            "y": 0.875,
-            "height": 0.25,
-            "width": 0.385
-          },
-          "verticalLayout": {
-            "x": 0.125,
-            "y": 0.678,
-            "height": 0.192,
-            "width": 0.25
-          },
-          "marketValue": 682276,
-          "performance": {
-            "rating": 6.5,
-            "substitutionEvents": [
-              {
-                "time": 90,
-                "type": "subOut"
-              }
-            ],
-            "seasonGoals": 1,
-            "seasonAssists": 1,
-            "seasonRating": 7.24
-          }
-        },
-        {
-          "id": 431948,
-          "age": 31,
-          "name": "Kellyn Acosta",
-          "positionId": 84,
-          "usualPlayingPositionId": 2,
-          "shirtNumber": "3",
-          "countryName": "USA",
-          "countryCode": "USA",
-          "horizontalLayout": {
-            "x": 0.678,
-            "y": 0.625,
-            "height": 0.25,
-            "width": 0.193
-          },
-          "verticalLayout": {
-            "x": 0.375,
-            "y": 0.678,
-            "height": 0.192,
-            "width": 0.25
-          },
-          "marketValue": 563321,
-          "performance": {
-            "rating": 6.6,
+            "rating": 7.8,
             "events": [
               {
                 "type": "yellowCard"
               }
             ],
+            "seasonRating": 7.25
+          }
+        },
+        {
+          "id": 1117005,
+          "age": 23,
+          "name": "Jan Biegański",
+          "positionId": 77,
+          "usualPlayingPositionId": 2,
+          "shirtNumber": "6",
+          "countryName": "Poland",
+          "countryCode": "POL",
+          "horizontalLayout": {
+            "x": 0.613,
+            "y": 0.21,
+            "height": 0.25,
+            "width": 0.257
+          },
+          "verticalLayout": {
+            "x": 0.79,
+            "y": 0.613,
+            "height": 0.2,
+            "width": 0.29
+          },
+          "marketValue": 268021,
+          "performance": {
+            "rating": 7.3,
+            "events": [
+              {
+                "type": "goal"
+              }
+            ],
             "substitutionEvents": [
               {
-                "time": 63,
+                "time": 73,
                 "type": "subOut"
               }
             ],
             "seasonGoals": 1,
-            "seasonRating": 7.18
-          }
-        },
-        {
-          "id": 1667987,
-          "age": 19,
-          "name": "Maciej Wojciechowski",
-          "positionId": 86,
-          "usualPlayingPositionId": 2,
-          "shirtNumber": "35",
-          "countryName": "Poland",
-          "countryCode": "POL",
-          "horizontalLayout": {
-            "x": 0.678,
-            "y": 0.375,
-            "height": 0.25,
-            "width": 0.385
-          },
-          "verticalLayout": {
-            "x": 0.625,
-            "y": 0.678,
-            "height": 0.192,
-            "width": 0.25
-          },
-          "performance": {
-            "rating": 6.7,
-            "substitutionEvents": [
-              {
-                "time": 74,
-                "type": "subOut"
-              }
-            ],
-            "seasonAssists": 1,
-            "seasonRating": 6.75
+            "seasonRating": 6.45
           }
         },
         {
           "id": 833697,
           "age": 26,
           "name": "Darko Churlinov",
-          "positionId": 88,
+          "positionId": 103,
           "usualPlayingPositionId": 3,
           "shirtNumber": "21",
           "countryName": "North Macedonia",
           "countryCode": "MKD",
           "horizontalLayout": {
-            "x": 0.678,
-            "y": 0.125,
+            "x": 0.87,
+            "y": 0.79,
             "height": 0.25,
-            "width": 0.385
+            "width": 0.257
           },
           "verticalLayout": {
-            "x": 0.875,
-            "y": 0.678,
-            "height": 0.192,
-            "width": 0.25
+            "x": 0.21,
+            "y": 0.87,
+            "height": 0.2,
+            "width": 0.29
           },
-          "marketValue": 903138,
+          "marketValue": 1083765,
           "performance": {
-            "rating": 6.4,
+            "rating": 7.3,
             "substitutionEvents": [
               {
-                "time": 46,
+                "time": 84,
                 "type": "subOut"
               }
             ],
             "seasonGoals": 1,
-            "seasonRating": 6.94
+            "seasonRating": 6.8
           }
         },
         {
-          "id": 1439702,
-          "age": 23,
-          "name": "Filip Cuic",
-          "positionId": 115,
+          "id": 1078936,
+          "age": 26,
+          "name": "Paul Mukairu",
+          "positionId": 105,
           "usualPlayingPositionId": 3,
-          "shirtNumber": "10",
-          "countryName": "Bosnia and Herzegovina",
-          "countryCode": "BIH",
+          "shirtNumber": "18",
+          "countryName": "Nigeria",
+          "countryCode": "NGA",
           "horizontalLayout": {
-            "x": 0.89,
+            "x": 0.87,
             "y": 0.5,
             "height": 0.25,
-            "width": 0.212
+            "width": 0.257
           },
           "verticalLayout": {
             "x": 0.5,
-            "y": 0.89,
-            "height": 0.192,
-            "width": 1
+            "y": 0.87,
+            "height": 0.2,
+            "width": 0.29
           },
-          "marketValue": 1024017,
+          "marketValue": 676127,
           "performance": {
-            "rating": 4.5,
-            "events": [
+            "rating": 6.7,
+            "seasonGoals": 1,
+            "seasonAssists": 1,
+            "seasonRating": 7.1
+          }
+        },
+        {
+          "id": 1667987,
+          "age": 19,
+          "name": "Maciej Wojciechowski",
+          "positionId": 107,
+          "usualPlayingPositionId": 2,
+          "shirtNumber": "35",
+          "countryName": "Poland",
+          "countryCode": "POL",
+          "horizontalLayout": {
+            "x": 0.87,
+            "y": 0.21,
+            "height": 0.25,
+            "width": 0.257
+          },
+          "verticalLayout": {
+            "x": 0.79,
+            "y": 0.87,
+            "height": 0.2,
+            "width": 0.29
+          },
+          "performance": {
+            "rating": 6.4,
+            "substitutionEvents": [
               {
-                "type": "redCard"
+                "time": 73,
+                "type": "subOut"
               }
             ],
-            "seasonRating": 6.68
+            "seasonAssists": 1,
+            "seasonRating": 6.73
           }
         }
       ],
@@ -14996,68 +15131,83 @@
       },
       "subs": [
         {
-          "id": 280965,
-          "age": 32,
-          "name": "Benjamin Mendy",
-          "usualPlayingPositionId": 1,
-          "shirtNumber": "23",
-          "countryName": "France",
-          "countryCode": "FRA",
-          "marketValue": 223696,
+          "id": 316558,
+          "age": 33,
+          "name": "Jean Pierre Nsame",
+          "usualPlayingPositionId": 3,
+          "shirtNumber": "17",
+          "countryName": "Cameroon",
+          "countryCode": "CMR",
+          "marketValue": 215995,
           "performance": {
-            "rating": 6.2,
-            "events": [
-              {
-                "type": "yellowCard"
-              }
-            ],
+            "rating": 6.4,
             "substitutionEvents": [
               {
-                "time": 46,
+                "time": 59,
                 "type": "subIn"
               }
             ],
-            "seasonAssists": 1,
-            "seasonRating": 7
+            "seasonRating": 6.51
           }
         },
         {
-          "id": 180283,
-          "age": 34,
-          "name": "Fredrik Ulvestad",
+          "id": 431948,
+          "age": 31,
+          "name": "Kellyn Acosta",
           "usualPlayingPositionId": 2,
-          "shirtNumber": "8",
-          "countryName": "Norway",
-          "countryCode": "NOR",
-          "marketValue": 281463,
-          "performance": {
-            "rating": 6.1,
-            "substitutionEvents": [
-              {
-                "time": 63,
-                "type": "subIn"
-              }
-            ],
-            "seasonRating": 6.79
-          }
-        },
-        {
-          "id": 1117005,
-          "age": 23,
-          "name": "Jan Bieganski",
-          "usualPlayingPositionId": 2,
-          "shirtNumber": "6",
-          "countryName": "Poland",
-          "countryCode": "POL",
-          "marketValue": 268021,
+          "shirtNumber": "3",
+          "countryName": "USA",
+          "countryCode": "USA",
+          "marketValue": 547379,
           "performance": {
             "rating": 6.5,
             "substitutionEvents": [
               {
-                "time": 74,
+                "time": 73,
+                "type": "subIn"
+              }
+            ],
+            "seasonGoals": 1,
+            "seasonRating": 7.02
+          }
+        },
+        {
+          "id": 1901066,
+          "age": 20,
+          "name": "Jacek Czapliński",
+          "usualPlayingPositionId": 3,
+          "shirtNumber": "30",
+          "countryName": "Poland",
+          "countryCode": "POL",
+          "marketValue": 204000,
+          "performance": {
+            "rating": 5.9,
+            "substitutionEvents": [
+              {
+                "time": 73,
                 "type": "subIn"
               }
             ]
+          }
+        },
+        {
+          "id": 749648,
+          "age": 28,
+          "name": "Attila Szalai",
+          "usualPlayingPositionId": 1,
+          "shirtNumber": "41",
+          "countryName": "Hungary",
+          "countryCode": "HUN",
+          "marketValue": 1414665,
+          "performance": {
+            "substitutionEvents": [
+              {
+                "time": 84,
+                "type": "subIn"
+              }
+            ],
+            "seasonGoals": 1,
+            "seasonRating": 7.18
           }
         },
         {
@@ -15067,12 +15217,12 @@
           "usualPlayingPositionId": 3,
           "shirtNumber": "7",
           "countryName": "The Gambia",
-          "countryCode": "",
-          "marketValue": 589049,
+          "countryCode": "GAM",
+          "marketValue": 496355,
           "performance": {
             "substitutionEvents": [
               {
-                "time": 90,
+                "time": 84,
                 "type": "subIn"
               }
             ],
@@ -15082,8 +15232,8 @@
         },
         {
           "id": 1797493,
-          "age": 16,
-          "name": "Alex Peskovic",
+          "age": 17,
+          "name": "Alex Pesković",
           "usualPlayingPositionId": 0,
           "shirtNumber": "33",
           "countryName": "Slovakia",
@@ -15111,56 +15261,6 @@
           "performance": {}
         },
         {
-          "id": 1299888,
-          "age": 23,
-          "name": "Lukas Willen",
-          "usualPlayingPositionId": 1,
-          "shirtNumber": "29",
-          "countryName": "Belgium",
-          "countryCode": "BEL",
-          "marketValue": 545875,
-          "performance": {
-            "seasonRating": 5.99
-          }
-        },
-        {
-          "id": 1786208,
-          "age": 17,
-          "name": "Natan Lawa",
-          "usualPlayingPositionId": 2,
-          "shirtNumber": "47",
-          "countryName": "Poland",
-          "countryCode": "POL",
-          "marketValue": 843281,
-          "performance": {
-            "seasonRating": 5.8
-          }
-        },
-        {
-          "id": 1901066,
-          "age": 20,
-          "name": "Jacek Czaplinski",
-          "usualPlayingPositionId": 3,
-          "shirtNumber": "30",
-          "countryName": "Poland",
-          "countryCode": "POL",
-          "marketValue": 170000,
-          "performance": {}
-        },
-        {
-          "id": 316558,
-          "age": 33,
-          "name": "Jean Pierre Nsame",
-          "usualPlayingPositionId": 3,
-          "shirtNumber": "17",
-          "countryName": "Cameroon",
-          "countryCode": "CMR",
-          "marketValue": 215995,
-          "performance": {
-            "seasonRating": 6.51
-          }
-        },
-        {
           "id": 69541,
           "age": 38,
           "name": "Kamil Grosicki",
@@ -15168,25 +15268,52 @@
           "shirtNumber": "11",
           "countryName": "Poland",
           "countryCode": "POL",
-          "marketValue": 234255,
+          "marketValue": 187404,
           "performance": {
             "seasonAssists": 1,
             "seasonRating": 6.44
           }
+        },
+        {
+          "id": 1596043,
+          "age": 20,
+          "name": "Patryk Paryzek",
+          "usualPlayingPositionId": 3,
+          "shirtNumber": "54",
+          "countryName": "Poland",
+          "countryCode": "POL",
+          "marketValue": 521199,
+          "performance": {}
         }
       ],
       "unavailable": [
+        {
+          "id": 1439702,
+          "age": 23,
+          "name": "Filip Čuić",
+          "countryName": "Bosnia and Herzegovina",
+          "countryCode": "BIH",
+          "marketValue": 970668,
+          "unavailability": {
+            "type": "suspension",
+            "expectedReturn": "Early September 2026",
+            "expectedReturnDate": "2026-09-07T20:30:00Z"
+          },
+          "performance": {
+            "seasonRating": 6.13
+          }
+        },
         {
           "id": 1410436,
           "age": 22,
           "name": "Nikolaos Botis",
           "countryName": "Greece",
           "countryCode": "GRE",
-          "marketValue": 135001,
+          "marketValue": 162001,
           "unavailability": {
             "injuryId": 87,
             "type": "injury",
-            "expectedReturn": "Early September 2026"
+            "expectedReturn": "Doubtful"
           }
         },
         {
@@ -15195,11 +15322,11 @@
           "name": "José Pozo",
           "countryName": "Spain",
           "countryCode": "ESP",
-          "marketValue": 177776,
+          "marketValue": 155501,
           "unavailability": {
             "injuryId": 73,
             "type": "injury",
-            "expectedReturn": "Early September 2026"
+            "expectedReturn": "Unknown"
           }
         },
         {
@@ -15208,7 +15335,7 @@
           "name": "Rajmund Molnár",
           "countryName": "Hungary",
           "countryCode": "HUN",
-          "marketValue": 1107810,
+          "marketValue": 1014643,
           "unavailability": {
             "injuryId": 76,
             "type": "injury",
@@ -15216,14 +15343,14 @@
           }
         }
       ],
-      "averageStarterAge": 26.1,
-      "totalStarterMarketValue": 7893077,
+      "averageStarterAge": 25,
+      "totalStarterMarketValue": 6790334,
       "lastMatch": {
-        "matchId": 5803967,
-        "homeTeamId": 8021,
-        "homeTeamName": "Zagłębie Lubin",
-        "awayTeamId": 8023,
-        "awayTeamName": "Pogoń Szczecin"
+        "matchId": 5803974,
+        "homeTeamId": 8023,
+        "homeTeamName": "Pogoń Szczecin",
+        "awayTeamId": 8243,
+        "awayTeamName": "Wisła Płock"
       }
     },
     "newsSummary": null,
@@ -15377,7 +15504,7 @@
             },
             "positionId": 1,
             "injury": null,
-            "rating": 7.09,
+            "rating": 7.07,
             "goals": 0,
             "penalties": 0,
             "assists": 0,
@@ -15486,7 +15613,7 @@
             "penalties": 0,
             "assists": 0,
             "rcards": 0,
-            "ycards": 0,
+            "ycards": 1,
             "excludeFromRanking": true,
             "positionIds": "37",
             "positionIdsDesc": "CB",
@@ -15507,7 +15634,7 @@
             },
             "positionId": 1,
             "injury": null,
-            "rating": 6.95,
+            "rating": 7.18,
             "goals": 1,
             "penalties": 0,
             "assists": 0,
@@ -15591,7 +15718,7 @@
             "positionId": 2,
             "injury": null,
             "rating": 6.89,
-            "goals": 0,
+            "goals": 1,
             "penalties": 0,
             "assists": 0,
             "rcards": 0,
@@ -15781,7 +15908,7 @@
             },
             "positionId": 3,
             "injury": null,
-            "rating": 6.63,
+            "rating": 6.79,
             "goals": 1,
             "penalties": 0,
             "assists": 0,
@@ -15889,7 +16016,7 @@
             },
             "positionId": 3,
             "injury": null,
-            "rating": 6.41,
+            "rating": 6.46,
             "goals": 0,
             "penalties": 0,
             "assists": 0,
@@ -16014,6 +16141,41 @@
       "type": "team",
       "data": {
         "Players in": [
+          {
+            "name": "Jordi Sánchez",
+            "playerId": 813076,
+            "position": {
+              "label": "ST",
+              "key": "striker_short"
+            },
+            "transferDate": "2026-09-08T13:56:51Z",
+            "transferText": [
+              "From",
+              10265,
+              "Wisła Kraków"
+            ],
+            "fromClub": "Wisła Kraków",
+            "fromClubFullName": "Wisła Kraków",
+            "fromClubId": 10265,
+            "toClub": "Pogoń Szczecin",
+            "toClubFullName": "Pogoń Szczecin",
+            "toClubId": 8023,
+            "fee": {
+              "feeText": "fee",
+              "localizedFeeText": "transfer_fee",
+              "value": 250000
+            },
+            "amountEuroEstimated": null,
+            "transferType": {
+              "text": "contract",
+              "localizationKey": "contract"
+            },
+            "contractExtension": false,
+            "onLoan": false,
+            "fromDate": "2026-09-08T00:00:00Z",
+            "toDate": null,
+            "marketValue": 135751
+          },
           {
             "name": "Lukas Willen",
             "playerId": 1299888,
@@ -16447,6 +16609,34 @@
           }
         ],
         "Players out": [
+          {
+            "name": "John Isak Selbekk",
+            "playerId": 538292,
+            "position": null,
+            "transferDate": "2026-09-08T13:44:50Z",
+            "transferText": [
+              "To",
+              6461,
+              "Sigma Olomouc"
+            ],
+            "fromClub": "Pogoń Szczecin",
+            "fromClubFullName": "Pogoń Szczecin",
+            "fromClubId": 8023,
+            "toClub": "Sigma Olomouc",
+            "toClubFullName": "Sigma Olomouc",
+            "toClubId": 6461,
+            "fee": null,
+            "amountEuroEstimated": null,
+            "transferType": {
+              "text": "contract",
+              "localizationKey": "contract"
+            },
+            "contractExtension": false,
+            "onLoan": false,
+            "fromDate": "2026-09-08T00:00:00Z",
+            "toDate": "2029-06-30T00:00:00Z",
+            "marketValue": null
+          },
           {
             "name": "Léo Borges",
             "playerId": 1188767,
@@ -17236,6 +17426,69 @@
         ]
       },
       "allTransfers": [
+        {
+          "name": "Jordi Sánchez",
+          "playerId": 813076,
+          "position": {
+            "label": "ST",
+            "key": "striker_short"
+          },
+          "transferDate": "2026-09-08T13:56:51Z",
+          "transferText": [
+            "From",
+            10265,
+            "Wisła Kraków"
+          ],
+          "fromClub": "Wisła Kraków",
+          "fromClubFullName": "Wisła Kraków",
+          "fromClubId": 10265,
+          "toClub": "Pogoń Szczecin",
+          "toClubFullName": "Pogoń Szczecin",
+          "toClubId": 8023,
+          "fee": {
+            "feeText": "fee",
+            "localizedFeeText": "transfer_fee",
+            "value": 250000
+          },
+          "amountEuroEstimated": null,
+          "transferType": {
+            "text": "contract",
+            "localizationKey": "contract"
+          },
+          "contractExtension": false,
+          "onLoan": false,
+          "fromDate": "2026-09-08T00:00:00Z",
+          "toDate": null,
+          "marketValue": 135751
+        },
+        {
+          "name": "John Isak Selbekk",
+          "playerId": 538292,
+          "position": null,
+          "transferDate": "2026-09-08T13:44:50Z",
+          "transferText": [
+            "To",
+            6461,
+            "Sigma Olomouc"
+          ],
+          "fromClub": "Pogoń Szczecin",
+          "fromClubFullName": "Pogoń Szczecin",
+          "fromClubId": 8023,
+          "toClub": "Sigma Olomouc",
+          "toClubFullName": "Sigma Olomouc",
+          "toClubId": 6461,
+          "fee": null,
+          "amountEuroEstimated": null,
+          "transferType": {
+            "text": "contract",
+            "localizationKey": "contract"
+          },
+          "contractExtension": false,
+          "onLoan": false,
+          "fromDate": "2026-09-08T00:00:00Z",
+          "toDate": "2029-06-30T00:00:00Z",
+          "marketValue": null
+        },
         {
           "name": "Léo Borges",
           "playerId": 1188767,
@@ -18946,7 +19199,7 @@
             "id": 949336,
             "name": "Musa Juwara",
             "rank": 39,
-            "ccode": "TMB",
+            "ccode": "GMB",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
             "value": 0.38,
@@ -19562,7 +19815,7 @@
             "id": 949336,
             "name": "Musa Juwara",
             "rank": 36,
-            "ccode": "TMB",
+            "ccode": "GMB",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
             "value": 2,
@@ -19935,7 +20188,7 @@
             "id": 949336,
             "name": "Musa Juwara",
             "rank": 78,
-            "ccode": "TMB",
+            "ccode": "GMB",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
             "value": 0.15,
@@ -20111,7 +20364,7 @@
             "id": 949336,
             "name": "Musa Juwara",
             "rank": 30,
-            "ccode": "TMB",
+            "ccode": "GMB",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
             "value": 1.5,
@@ -20727,7 +20980,7 @@
             "id": 949336,
             "name": "Musa Juwara",
             "rank": 73,
-            "ccode": "TMB",
+            "ccode": "GMB",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
             "value": 4.9,
@@ -21721,10 +21974,10 @@
           "rank": 6,
           "ccode": "POL",
           "teamId": 8023,
-          "value": 20154,
+          "value": 18164,
           "stat": {
             "name": "home_attendance_team",
-            "value": 20154,
+            "value": 18164,
             "format": "number",
             "fractions": 0
           }
@@ -21777,10 +22030,10 @@
             "rank": 6,
             "ccode": "POL",
             "teamId": 8023,
-            "value": 20154,
+            "value": 18164,
             "stat": {
               "name": "home_attendance_team",
-              "value": 20154,
+              "value": 18164,
               "format": "number",
               "fractions": 0
             },
@@ -21905,10 +22158,10 @@
             "rank": 1,
             "ccode": "POL",
             "teamId": 2182,
-            "value": 7.6,
+            "value": 8,
             "stat": {
               "name": "_xg_diff_team",
-              "value": 7.6,
+              "value": 8,
               "format": "fraction",
               "fractions": 1
             },
@@ -22745,10 +22998,10 @@
             "rank": 1,
             "ccode": "POL",
             "teamId": 2182,
-            "value": 5.1,
+            "value": 5.2,
             "stat": {
               "name": "expected_goals_conceded_team",
-              "value": 5.1,
+              "value": 5.2,
               "format": "fraction",
               "fractions": 1
             },
@@ -23538,7 +23791,7 @@
           {
             "id": 0,
             "name": "Górnik Zabrze",
-            "rank": 3,
+            "rank": 2,
             "ccode": "POL",
             "teamId": 8020,
             "value": 1,
@@ -25125,7 +25378,7 @@
             },
             "positionId": 1,
             "injury": null,
-            "rating": 7.09,
+            "rating": 7.07,
             "goals": 0,
             "penalties": 0,
             "assists": 0,
@@ -25234,7 +25487,7 @@
             "penalties": 0,
             "assists": 0,
             "rcards": 0,
-            "ycards": 0,
+            "ycards": 1,
             "excludeFromRanking": true,
             "positionIds": "37",
             "positionIdsDesc": "CB",
@@ -25255,7 +25508,7 @@
             },
             "positionId": 1,
             "injury": null,
-            "rating": 6.95,
+            "rating": 7.18,
             "goals": 1,
             "penalties": 0,
             "assists": 0,
@@ -25339,7 +25592,7 @@
             "positionId": 2,
             "injury": null,
             "rating": 6.89,
-            "goals": 0,
+            "goals": 1,
             "penalties": 0,
             "assists": 0,
             "rcards": 0,
@@ -25529,7 +25782,7 @@
             },
             "positionId": 3,
             "injury": null,
-            "rating": 6.63,
+            "rating": 6.79,
             "goals": 1,
             "penalties": 0,
             "assists": 0,
@@ -25637,7 +25890,7 @@
             },
             "positionId": 3,
             "injury": null,
-            "rating": 6.41,
+            "rating": 6.46,
             "goals": 0,
             "penalties": 0,
             "assists": 0,
@@ -26787,10 +27040,10 @@
         "leagueId": 196,
         "leagueName": "Ekstraklasa",
         "win": 2,
-        "draw": 2,
+        "draw": 3,
         "loss": 1,
-        "pointsPerGame": 1.6,
-        "winPercentage": 0.4
+        "pointsPerGame": 1.5,
+        "winPercentage": 0.33
       }
     ],
     "teamColors": {
