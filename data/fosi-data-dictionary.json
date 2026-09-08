@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-08T16:36:10.055461+00:00",
+  "generated_at": "2026-09-08T19:15:13.189687+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -8,7 +8,7 @@
     "team_id": "pogon-szczecin"
   },
   "method": "observed-from-raw",
-  "files_seen": 252,
+  "files_seen": 271,
   "source_files": [
     "espn/events.json",
     "espn/injuries.json",
@@ -219,6 +219,25 @@
     "fotmob/matches/5804206.json",
     "fotmob/matches/5804211.json",
     "fotmob/matches/5904696.json",
+    "fotmob/player-matches/1078936.json",
+    "fotmob/player-matches/1092563.json",
+    "fotmob/player-matches/1117005.json",
+    "fotmob/player-matches/1188767.json",
+    "fotmob/player-matches/1329535.json",
+    "fotmob/player-matches/1439702.json",
+    "fotmob/player-matches/1667987.json",
+    "fotmob/player-matches/180283.json",
+    "fotmob/player-matches/280965.json",
+    "fotmob/player-matches/289211.json",
+    "fotmob/player-matches/316558.json",
+    "fotmob/player-matches/406506.json",
+    "fotmob/player-matches/431948.json",
+    "fotmob/player-matches/558189.json",
+    "fotmob/player-matches/69541.json",
+    "fotmob/player-matches/749648.json",
+    "fotmob/player-matches/8023.json",
+    "fotmob/player-matches/833697.json",
+    "fotmob/player-matches/949336.json",
     "fotmob/players/0.json",
     "fotmob/players/1078936.json",
     "fotmob/players/1092563.json",
@@ -267,16 +286,16 @@
     {
       "path": "$",
       "types": {
-        "object": 215,
+        "object": 234,
         "null": 37
       },
-      "occurrences": 252,
+      "occurrences": 271,
       "sources": [
         "espn",
         "fotmob",
         "sites"
       ],
-      "file_count": 252,
+      "file_count": 271,
       "example": "None"
     },
     {
@@ -361,7 +380,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "810"
+      "example": "811"
     },
     {
       "path": "$.assets",
@@ -171146,6 +171165,18 @@
       "example": "2027-06-30T00:00:00.000Z"
     },
     {
+      "path": "$.count",
+      "types": {
+        "integer": 19
+      },
+      "occurrences": 19,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 19,
+      "example": "32"
+    },
+    {
       "path": "$.currentSeasonId",
       "types": {
         "string": 120
@@ -176848,7 +176879,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-09-08T16:35:13.011166+00:00"
+      "example": "2026-09-08T19:14:00.120688+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -193270,6 +193301,18 @@
       "example": "2026/2027"
     },
     {
+      "path": "$.league_id",
+      "types": {
+        "string": 19
+      },
+      "occurrences": 19,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 19,
+      "example": "196"
+    },
+    {
       "path": "$.links",
       "types": {
         "array": 12
@@ -193561,13 +193604,13 @@
     {
       "path": "$.matches",
       "types": {
-        "array": 1
+        "array": 20
       },
-      "occurrences": 1,
+      "occurrences": 20,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
+      "file_count": 20,
       "example": null
     },
     {
@@ -193585,14 +193628,26 @@
     {
       "path": "$.matches[]",
       "types": {
-        "object": 1
+        "object": 19
       },
-      "occurrences": 1,
+      "occurrences": 19,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
+      "file_count": 19,
       "example": null
+    },
+    {
+      "path": "$.matches[].assists",
+      "types": {
+        "integer": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "0"
     },
     {
       "path": "$.matches[].away",
@@ -193643,6 +193698,18 @@
       "example": "0"
     },
     {
+      "path": "$.matches[].awayScore",
+      "types": {
+        "integer": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "0"
+    },
+    {
       "path": "$.matches[].displayTournament",
       "types": {
         "boolean": 1
@@ -193653,6 +193720,18 @@
       ],
       "file_count": 1,
       "example": "True"
+    },
+    {
+      "path": "$.matches[].goals",
+      "types": {
+        "integer": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "0"
     },
     {
       "path": "$.matches[].home",
@@ -193703,16 +193782,124 @@
       "example": "4"
     },
     {
-      "path": "$.matches[].id",
+      "path": "$.matches[].homeScore",
       "types": {
-        "integer": 1
+        "integer": 18
       },
-      "occurrences": 1,
+      "occurrences": 18,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
+      "file_count": 18,
+      "example": "0"
+    },
+    {
+      "path": "$.matches[].id",
+      "types": {
+        "integer": 19
+      },
+      "occurrences": 19,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 19,
       "example": "5904696"
+    },
+    {
+      "path": "$.matches[].isHomeTeam",
+      "types": {
+        "boolean": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "False"
+    },
+    {
+      "path": "$.matches[].leagueId",
+      "types": {
+        "integer": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "196"
+    },
+    {
+      "path": "$.matches[].leagueName",
+      "types": {
+        "string": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "Ekstraklasa"
+    },
+    {
+      "path": "$.matches[].lineupPositionId",
+      "types": {
+        "integer": 13
+      },
+      "occurrences": 13,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 13,
+      "example": "82"
+    },
+    {
+      "path": "$.matches[].matchDate",
+      "types": {
+        "object": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": null
+    },
+    {
+      "path": "$.matches[].matchDate.utcTime",
+      "types": {
+        "string": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "2026-08-29T18:15:00.000Z"
+    },
+    {
+      "path": "$.matches[].matchPageUrl",
+      "types": {
+        "string": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#5803967"
+    },
+    {
+      "path": "$.matches[].minutesPlayed",
+      "types": {
+        "integer": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "89"
     },
     {
       "path": "$.matches[].notStarted",
@@ -193724,6 +193911,18 @@
         "fotmob"
       ],
       "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.matches[].onBench",
+      "types": {
+        "boolean": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
       "example": "False"
     },
     {
@@ -193775,6 +193974,30 @@
       "example": "4"
     },
     {
+      "path": "$.matches[].opponentTeamId",
+      "types": {
+        "integer": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "8021"
+    },
+    {
+      "path": "$.matches[].opponentTeamName",
+      "types": {
+        "string": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "Zagłębie Lubin"
+    },
+    {
       "path": "$.matches[].pageUrl",
       "types": {
         "string": 1
@@ -193787,6 +194010,79 @@
       "example": "/matches/pogon-szczecin-vs-fenerbahce/2b7log#5904696"
     },
     {
+      "path": "$.matches[].playedInMatch",
+      "types": {
+        "boolean": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "True"
+    },
+    {
+      "path": "$.matches[].playerOfTheMatch",
+      "types": {
+        "boolean": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "False"
+    },
+    {
+      "path": "$.matches[].ratingProps",
+      "types": {
+        "object": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": null
+    },
+    {
+      "path": "$.matches[].ratingProps.isTopRating",
+      "types": {
+        "boolean": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "False"
+    },
+    {
+      "path": "$.matches[].ratingProps.rating",
+      "types": {
+        "string": 15,
+        "integer": 3
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "6.5"
+    },
+    {
+      "path": "$.matches[].redCards",
+      "types": {
+        "integer": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "0"
+    },
+    {
       "path": "$.matches[].result",
       "types": {
         "integer": 1
@@ -193797,6 +194093,18 @@
       ],
       "file_count": 1,
       "example": "-1"
+    },
+    {
+      "path": "$.matches[].stage",
+      "types": {
+        "null": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "None"
     },
     {
       "path": "$.matches[].status",
@@ -193943,6 +194251,30 @@
       "example": "2026-07-11T17:30:00.000Z"
     },
     {
+      "path": "$.matches[].teamId",
+      "types": {
+        "integer": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "8023"
+    },
+    {
+      "path": "$.matches[].teamName",
+      "types": {
+        "string": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "Pogoń Szczecin"
+    },
+    {
       "path": "$.matches[].tournament",
       "types": {
         "object": 1
@@ -193989,6 +194321,18 @@
       ],
       "file_count": 1,
       "example": ""
+    },
+    {
+      "path": "$.matches[].yellowCards",
+      "types": {
+        "integer": 18
+      },
+      "occurrences": 18,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 18,
+      "example": "0"
     },
     {
       "path": "$.maxFee",
@@ -213711,6 +214055,18 @@
       "example": null
     },
     {
+      "path": "$.player_id",
+      "types": {
+        "string": 19
+      },
+      "occurrences": 19,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 19,
+      "example": "1078936"
+    },
+    {
       "path": "$.playoff",
       "types": {
         "null": 1
@@ -214730,7 +215086,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T16:35:31.567893+00:00"
+      "example": "2026-09-08T19:14:18.633628+00:00"
     },
     {
       "path": "$.rosters",
@@ -217232,14 +217588,14 @@
     {
       "path": "$.source",
       "types": {
-        "string": 1
+        "string": 20
       },
-      "occurrences": 1,
+      "occurrences": 20,
       "sources": [
         "fotmob"
       ],
-      "file_count": 1,
-      "example": "fotmob"
+      "file_count": 20,
+      "example": "playerData.recentMatches"
     },
     {
       "path": "$.source_url",
