@@ -1,7 +1,7 @@
 {
   "team_id": "8023",
-  "from": "2026-08-31",
-  "to": "2026-10-07",
+  "from": "2026-09-01",
+  "to": "2026-10-08",
   "matches": [
     {
       "id": 5904696,
@@ -255,38 +255,36 @@
       "time": "07.09.2026 20:30",
       "home": {
         "id": 8023,
-        "score": 0,
+        "score": 1,
         "name": "Pogoń Szczecin",
         "longName": "Pogoń Szczecin"
       },
       "away": {
         "id": 8243,
-        "score": 0,
+        "score": 1,
         "name": "Wisła Płock",
         "longName": "Wisła Płock"
       },
       "eliminatedTeamId": null,
-      "statusId": 2,
+      "statusId": 6,
       "tournamentStage": "7",
       "status": {
         "utcTime": "2026-09-07T18:30:00.000Z",
         "halfs": {
-          "firstHalfStarted": "07.09.2026 20:30:45"
+          "firstHalfStarted": "07.09.2026 20:30:45",
+          "secondHalfStarted": "07.09.2026 21:35:07"
         },
         "periodLength": 45,
-        "finished": false,
+        "finished": true,
         "started": true,
         "cancelled": false,
-        "ongoing": true,
-        "scoreStr": "0 - 0",
-        "liveTime": {
-          "short": "8‎’‎",
-          "shortKey": "",
-          "long": "7:25",
-          "longKey": "",
-          "maxTime": 45,
-          "basePeriod": 45,
-          "addedTime": 0
+        "awarded": false,
+        "scoreStr": "1 - 1",
+        "reason": {
+          "short": "FT",
+          "shortKey": "fulltime_short",
+          "long": "Full-Time",
+          "longKey": "finished"
         }
       },
       "timeTS": 1788805800000
