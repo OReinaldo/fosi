@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-08T19:15:13.189687+00:00",
+  "generated_at": "2026-09-09T03:29:08.685598+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -176313,7 +176313,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-01"
+      "example": "2026-09-02"
     },
     {
       "path": "$.gameInfo",
@@ -176879,7 +176879,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-09-08T19:14:00.120688+00:00"
+      "example": "2026-09-09T03:28:11.109697+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -190885,7 +190885,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7279"
+      "example": "7277"
     },
     {
       "path": "$.html_files_scanned",
@@ -200335,7 +200335,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-105"
+      "example": "+100"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
@@ -200347,7 +200347,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.95"
+      "example": "2.00"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
@@ -200359,7 +200359,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "20/21"
+      "example": "1/1"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
@@ -200563,7 +200563,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-105"
+      "example": "+100"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
@@ -200575,7 +200575,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.95"
+      "example": "2.00"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
@@ -200587,7 +200587,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "20/21"
+      "example": "1/1"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
@@ -215086,7 +215086,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T19:14:18.633628+00:00"
+      "example": "2026-09-09T03:28:29.492352+00:00"
     },
     {
       "path": "$.rosters",
@@ -228109,7 +228109,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-08"
+      "example": "2026-10-09"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -229900,7 +229900,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "fee"
+      "example": "on loan"
     },
     {
       "path": "$.transfers.data[].fee.localizedFeeText",
@@ -229912,19 +229912,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "transfer_fee"
-    },
-    {
-      "path": "$.transfers.data[].fee.value",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "500000"
+      "example": "on_loan"
     },
     {
       "path": "$.transfers.data[].fromClub",
@@ -229936,7 +229924,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Qarabağ FK"
+      "example": "Górnik Zabrze"
     },
     {
       "path": "$.transfers.data[].fromClubFullName",
@@ -229948,7 +229936,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Qarabağ FK"
+      "example": "Górnik Zabrze"
     },
     {
       "path": "$.transfers.data[].fromClubId",
@@ -229960,7 +229948,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7981"
+      "example": "8020"
     },
     {
       "path": "$.transfers.data[].fromDate",
@@ -229984,7 +229972,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1519950"
+      "example": "1000206"
     },
     {
       "path": "$.transfers.data[].name",
@@ -229996,7 +229984,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Mateusz Kochalski"
+      "example": "Michal Synos"
     },
     {
       "path": "$.transfers.data[].onLoan",
@@ -230008,7 +229996,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.transfers.data[].playerId",
@@ -230020,43 +230008,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1154332"
+      "example": "1735898"
     },
     {
       "path": "$.transfers.data[].position",
       "types": {
-        "object": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.transfers.data[].position.key",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "keeper"
-    },
-    {
-      "path": "$.transfers.data[].position.label",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "GK"
+      "example": "None"
     },
     {
       "path": "$.transfers.data[].toClub",
@@ -230068,7 +230032,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Wieczysta Kraków"
+      "example": "Termalica Nieciecza"
     },
     {
       "path": "$.transfers.data[].toClubFullName",
@@ -230080,7 +230044,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Wieczysta Kraków"
+      "example": "Termalica Nieciecza"
     },
     {
       "path": "$.transfers.data[].toClubId",
@@ -230092,7 +230056,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1286895"
+      "example": "177361"
     },
     {
       "path": "$.transfers.data[].toDate",
@@ -230104,7 +230068,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2029-06-30T00:00:00Z"
+      "example": "2027-06-30T00:00:00Z"
     },
     {
       "path": "$.transfers.data[].transferDate",
@@ -230116,7 +230080,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T14:09:05Z"
+      "example": "2026-09-08T22:03:34Z"
     },
     {
       "path": "$.transfers.data[].transferText",
@@ -230164,7 +230128,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "contract"
+      "example": "on_loan"
     },
     {
       "path": "$.transfers.data[].transferType.text",
@@ -230176,7 +230140,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "contract"
+      "example": "on loan"
     },
     {
       "path": "$.transfers.maxFee",
@@ -230272,7 +230236,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "free transfer"
+      "example": "on loan"
     },
     {
       "path": "$.transfers[].fee.localizedFeeText",
@@ -230284,7 +230248,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "transfer_type_free_transfer"
+      "example": "on_loan"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -230296,7 +230260,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "Górnik Zabrze"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -230308,7 +230272,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "Górnik Zabrze"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -230320,7 +230284,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2"
+      "example": "8020"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -230344,7 +230308,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "788728"
+      "example": "1000206"
     },
     {
       "path": "$.transfers[].name",
@@ -230356,7 +230320,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Jordan Ayew"
+      "example": "Michal Synos"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -230368,7 +230332,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.transfers[].playerId",
@@ -230380,43 +230344,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "154280"
+      "example": "1735898"
     },
     {
       "path": "$.transfers[].position",
       "types": {
-        "object": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.transfers[].position.key",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "striker_short"
-    },
-    {
-      "path": "$.transfers[].position.label",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "ST"
+      "example": "None"
     },
     {
       "path": "$.transfers[].toClub",
@@ -230428,7 +230368,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Sheff Utd"
+      "example": "Termalica Nieciecza"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -230440,7 +230380,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Sheffield United"
+      "example": "Termalica Nieciecza"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -230452,7 +230392,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8657"
+      "example": "177361"
     },
     {
       "path": "$.transfers[].toDate",
@@ -230476,7 +230416,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T17:43:49Z"
+      "example": "2026-09-08T22:03:34Z"
     },
     {
       "path": "$.transfers[].transferText",
@@ -230524,7 +230464,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "contract"
+      "example": "on_loan"
     },
     {
       "path": "$.transfers[].transferType.text",
@@ -230536,7 +230476,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "contract"
+      "example": "on loan"
     },
     {
       "path": "$.trophies",
