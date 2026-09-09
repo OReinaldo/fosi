@@ -1,6 +1,40 @@
 {
   "transfers": [
     {
+      "name": "Tobías Rubio",
+      "playerId": 1509081,
+      "position": {
+        "label": "LWB",
+        "key": "left_wing_back_short"
+      },
+      "transferDate": "2026-09-09T19:12:27Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Racing Club",
+      "fromClubFullName": "Racing Club",
+      "fromClubId": 10080,
+      "toClub": "Unión",
+      "toClubFullName": "Unión",
+      "toClubId": 10096,
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-09-09T00:00:00Z",
+      "toDate": "2027-06-30T00:00:00Z",
+      "marketValue": 974122
+    },
+    {
       "name": "Francisco Sierralta",
       "playerId": 632305,
       "position": {
@@ -1649,42 +1683,8 @@
       "fromDate": "2026-09-06T00:00:00Z",
       "toDate": "2027-06-30T00:00:00Z",
       "marketValue": 232538
-    },
-    {
-      "name": "Edward Chilufya",
-      "playerId": 848296,
-      "position": {
-        "label": "AM",
-        "key": "centerattackingmidfielder_short"
-      },
-      "transferDate": "2026-09-07T11:06:41Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "FC Midtjylland",
-      "fromClubFullName": "FC Midtjylland",
-      "fromClubId": 8113,
-      "toClub": "Hapoel Jerusalem",
-      "toClubFullName": "Hapoel Jerusalem",
-      "toClubId": 2094,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-07T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 671468
     }
   ],
-  "hits": 7289,
+  "hits": 7290,
   "maxFee": 145000000
 }

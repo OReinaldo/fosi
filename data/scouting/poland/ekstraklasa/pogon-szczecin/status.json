@@ -3,7 +3,7 @@
     {
       "source": "espn",
       "status": "success",
-      "retrieved_at": "2026-09-09T16:50:46.369847+00:00",
+      "retrieved_at": "2026-09-09T17:28:25.581354+00:00",
       "layers": {
         "matches": "available",
         "team": "available",
@@ -83,15 +83,15 @@
     {
       "source": "sofascore-spa",
       "status": "partial",
-      "retrieved_at": "2026-09-09T03:57:58.064720+00:00",
+      "retrieved_at": "2026-09-09T16:51:01.332767+00:00",
       "records": {
-        "incidents": 0,
-        "media": 0,
-        "graph": 0,
-        "lineups": 0,
-        "statistics": 0,
         "event": 0,
-        "shotmap": 0
+        "media": 0,
+        "statistics": 0,
+        "incidents": 0,
+        "shotmap": 0,
+        "lineups": 0,
+        "graph": 0
       },
       "errors": [],
       "official_host_probe": {
@@ -148,7 +148,7 @@
     {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-09T16:50:52.980649+00:00",
+      "retrieved_at": "2026-09-09T17:28:27.833881+00:00",
       "layers": {
         "club": "available",
         "standings": "available",
@@ -157,7 +157,7 @@
       },
       "records": {
         "https://ekstraklasa.org/en/clubs/pogon-szczecin/?tab=stats": {
-          "bytes": 658448,
+          "bytes": 658491,
           "layer": "club",
           "embedded_json_records": 0,
           "html_tables": 0,
@@ -165,7 +165,7 @@
           "links": 85
         },
         "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": {
-          "bytes": 216185,
+          "bytes": 216142,
           "layer": "club",
           "embedded_json_records": 0,
           "html_tables": 0,
@@ -181,7 +181,7 @@
           "links": 43
         },
         "https://ekstraklasa.org/statystyki/": {
-          "bytes": 1880605,
+          "bytes": 1880985,
           "layer": "stats",
           "embedded_json_records": 0,
           "html_tables": 0,
@@ -189,7 +189,7 @@
           "links": 68
         },
         "https://ekstraklasa.org/en/statistics/?ranking=xg": {
-          "bytes": 1971192,
+          "bytes": 1971235,
           "layer": "stats",
           "embedded_json_records": 0,
           "html_tables": 0,
@@ -245,7 +245,7 @@
           "links": 37
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/round-7/": {
-          "bytes": 342920,
+          "bytes": 342963,
           "layer": "fixtures",
           "embedded_json_records": 0,
           "html_tables": 0,
@@ -268,7 +268,7 @@
     {
       "source": "sofascore",
       "status": "partial",
-      "retrieved_at": "2026-09-09T16:50:18.262014+00:00",
+      "retrieved_at": "2026-09-09T17:27:07.898483+00:00",
       "layers": {
         "matches": "partial",
         "stats": "partial",
@@ -298,7 +298,7 @@
       ],
       "attempted_bases": [
         "https://api.sofascore.com/api/v1",
-        "https://www.sofascore.app/api/v1",
+        "https://api.sofascore.app/api/v1",
         "https://www.sofascore.com/api/v1"
       ],
       "browser_discovery": {
@@ -322,12 +322,12 @@
       "player_match_files_written": 19,
       "player_match_rows": 418,
       "errors": [],
-      "updated_at": "2026-09-09T03:57:56.717728+00:00"
+      "updated_at": "2026-09-09T16:51:00.406474+00:00"
     },
     {
       "source": "fotmob",
       "status": "partial",
-      "retrieved_at": "2026-09-09T16:50:06.411884+00:00",
+      "retrieved_at": "2026-09-09T17:26:56.615541+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -383,7 +383,7 @@
     },
     {
       "source": "understat",
-      "retrieved_at": "2026-09-09T16:50:52.935910+00:00",
+      "retrieved_at": "2026-09-09T17:28:27.773550+00:00",
       "layers": {},
       "records": {},
       "errors": [],
@@ -446,7 +446,7 @@
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-09T16:51:00.339479+00:00",
+  "updated_at": "2026-09-09T17:28:34.515764+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
