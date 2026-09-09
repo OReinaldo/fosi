@@ -88,6 +88,8 @@ jobs:
         run: python -m unittest test_scouting_intelligence.py -v
       - name: Build FOSI metrics
         run: python engine/metrics_engine.py
+      - name: Promote verified team deep stats into metrics
+        run: python engine/enrich_metrics_from_team_stats.py
       - name: Build spatial evidence index
         run: python engine/spatial.py
       - name: Publish dashboard payload
@@ -110,4 +112,4 @@ jobs:
       - name: Deploy refreshed dashboard
         id: deployment
         uses: actions/deploy-pages@v4
-# FOSI pipeline: acquisition -> player-history repair -> official-site runtime mining -> SofaScore SPA fallback -> FotMob deep stats -> hardening -> source coverage -> normalization -> RAW enrichment -> deep stats enrichment -> match status -> tests -> metrics -> publication -> validation -> Pages
+# FOSI pipeline: acquisition -> player-history repair -> official-site runtime mining -> SofaScore SPA fallback -> FotMob deep stats -> hardening -> source coverage -> normalization -> RAW enrichment -> deep stats enrichment -> match status -> tests -> metrics -> team-stat promotion -> publication -> validation -> Pages
