@@ -49,6 +49,8 @@ jobs:
           PY
       - name: Run selected-target acquisition
         run: python engine/run_scout.py
+      - name: Repair FotMob player-match history from player profiles
+        run: python engine/repair_player_history.py
       - name: Mine official site runtime assets
         run: python engine/mine_official_site_assets.py
       - name: Run dedicated SofaScore SPA fallback
@@ -108,4 +110,4 @@ jobs:
       - name: Deploy refreshed dashboard
         id: deployment
         uses: actions/deploy-pages@v4
-# FOSI pipeline: acquisition -> official-site runtime mining -> SofaScore SPA fallback -> FotMob deep stats -> hardening -> source coverage -> normalization -> RAW enrichment -> deep stats enrichment -> match status -> tests -> metrics -> publication -> validation -> Pages
+# FOSI pipeline: acquisition -> player-history repair -> official-site runtime mining -> SofaScore SPA fallback -> FotMob deep stats -> hardening -> source coverage -> normalization -> RAW enrichment -> deep stats enrichment -> match status -> tests -> metrics -> publication -> validation -> Pages
