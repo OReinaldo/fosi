@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4",
   "model": "FOSI metrics",
-  "generated_at": "2026-09-09T03:59:25.862696+00:00",
+  "generated_at": "2026-09-09T16:52:16.207470+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -533,7 +533,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803974.json",
         "provider_id": "5803974",
-        "retrieved_at": "2026-09-09T03:59:06.629505+00:00"
+        "retrieved_at": "2026-09-09T16:52:02.734940+00:00"
       },
       "status": "finished",
       "played": true
@@ -562,7 +562,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "5803967",
-        "retrieved_at": "2026-09-09T03:59:06.616138+00:00"
+        "retrieved_at": "2026-09-09T16:52:02.723443+00:00"
       },
       "status": "finished",
       "played": true
@@ -591,7 +591,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "5803955",
-        "retrieved_at": "2026-09-09T03:59:06.598700+00:00"
+        "retrieved_at": "2026-09-09T16:52:02.710196+00:00"
       },
       "status": "finished",
       "played": true
@@ -620,7 +620,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "5803936",
-        "retrieved_at": "2026-09-09T03:59:06.579660+00:00"
+        "retrieved_at": "2026-09-09T16:52:02.696083+00:00"
       },
       "status": "finished",
       "played": true
@@ -649,7 +649,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "5803923",
-        "retrieved_at": "2026-09-09T03:59:06.561918+00:00"
+        "retrieved_at": "2026-09-09T16:52:02.682822+00:00"
       },
       "status": "finished",
       "played": true
@@ -678,7 +678,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "5803899",
-        "retrieved_at": "2026-09-09T03:59:06.543670+00:00"
+        "retrieved_at": "2026-09-09T16:52:02.669024+00:00"
       },
       "status": "finished",
       "played": true
@@ -707,7 +707,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": "5904696",
-        "retrieved_at": "2026-09-09T03:59:06.653114+00:00"
+        "retrieved_at": "2026-09-09T16:52:02.752708+00:00"
       },
       "status": "finished",
       "played": true
@@ -910,5 +910,17 @@
   "coverage": {
     "normalized_records": 1997,
     "attributed_shots": 304
+  },
+  "team_season_stats_evidence": {
+    "source": "fotmob",
+    "season": "2026/2027",
+    "internal_season_id": "37304",
+    "fields_available": [
+      "expected_goals",
+      "fouls",
+      "goals"
+    ],
+    "fields_promoted": [],
+    "updated_at": "2026-09-09T16:52:16.250869+00:00"
   }
 }
