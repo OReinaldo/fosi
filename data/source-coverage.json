@@ -1,5 +1,5 @@
 {
-  "schema": "1.0",
+  "schema": "1.1",
   "generated_from": "source-status + RAW inventory",
   "target": {
     "country": "Poland",
@@ -54,8 +54,8 @@
       "set_pieces": "missing",
       "cards_suspensions": "missing",
       "injuries": "available",
-      "transfers": "missing",
-      "news_context": "missing",
+      "transfers": "available",
+      "news_context": "available",
       "video_evidence": "missing"
     },
     "fotmob": {
@@ -80,8 +80,8 @@
       "cards_suspensions": "missing",
       "injuries": "missing",
       "transfers": "available",
-      "news_context": "missing",
-      "video_evidence": "missing"
+      "news_context": "available",
+      "video_evidence": "available"
     },
     "official-sites": {
       "team_identity": "missing",
@@ -105,7 +105,7 @@
       "cards_suspensions": "missing",
       "injuries": "missing",
       "transfers": "missing",
-      "news_context": "missing",
+      "news_context": "available",
       "video_evidence": "missing"
     },
     "sofascore": {
@@ -130,7 +130,7 @@
       "cards_suspensions": "missing",
       "injuries": "missing",
       "transfers": "missing",
-      "news_context": "missing",
+      "news_context": "available",
       "video_evidence": "missing"
     },
     "sofascore-spa": {
@@ -155,7 +155,7 @@
       "cards_suspensions": "missing",
       "injuries": "missing",
       "transfers": "missing",
-      "news_context": "missing",
+      "news_context": "available",
       "video_evidence": "missing"
     },
     "understat": {
@@ -180,13 +180,14 @@
       "cards_suspensions": "missing",
       "injuries": "missing",
       "transfers": "missing",
-      "news_context": "missing",
+      "news_context": "available",
       "video_evidence": "missing"
     }
   },
   "notes": {
-    "available": "The collector reports the layer or RAW evidence as present; it does not guarantee semantic completeness.",
+    "available": "Available means verified acquisition evidence exists in status or preserved RAW. It does not claim that every provider exposes every subfield for every match.",
     "missing": "No usable evidence was observed for this field from that source.",
+    "source_aliases": "SofaScore browser/SPA status is mapped to its preserved SofaScore RAW directory when present.",
     "compliance_gated": "Sources such as FBref/Transfermarkt remain excluded from automated acquisition unless an explicit compliant access path is established."
   }
 }
