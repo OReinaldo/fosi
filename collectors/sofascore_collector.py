@@ -1,8 +1,8 @@
-"""FOSI SofaScore acquisition: direct API + optional authorized egress + browser SPA capture.
+"""FOSI SofaScore acquisition: direct API + protected authorized egress + browser SPA capture.
 
 Direct public endpoints are attempted first. When the GitHub Actions egress is blocked,
-FOSI can use an operator-provided SOFASCORE_PROXY without committing credentials.
-Nothing is fabricated and raw payloads remain the source of truth.
+FOSI can use either an operator-provided HTTP proxy (SOFASCORE_PROXY) or a protected
+reverse gateway (SOFASCORE_GATEWAY_URL + SOFASCORE_GATEWAY_TOKEN). Nothing is fabricated.
 """
 import json,re,time,os
 from datetime import datetime,timezone
@@ -18,8 +18,25 @@ def save(path,payload):
 
 
 def get_json(path):
-    """Fetch public SofaScore JSON, optionally through an authorized proxy/egress."""
-    last=None;telemetry=[];proxy=os.getenv("SOFASCORE_PROXY","").strip() or None
+    """Fetch SofaScore JSON using direct access, an HTTP proxy, or the protected gateway."""
+    last=None;telemetry=[]
+    proxy=os.getenv("SOFASCORE_PROXY","").strip() or None
+    gateway=os.getenv("SOFASCORE_GATEWAY_URL","").strip().rstrip("/") or None
+    gateway_token=os.getenv("SOFASCORE_GATEWAY_TOKEN","").strip() or None
+    if gateway and gateway_token:
+        url=f"{gateway}/api/v1{path}"
+        try:
+            from curl_cffi import requests
+            s=requests.Session(impersonate="chrome")
+            s.headers.update({"User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36","Accept":"application/json, text/plain, */*","Accept-Language":"en-US,en;q=0.9","Authorization":f"Bearer {gateway_token}"})
+            for attempt in range(3):
+                try:
+                    r=s.get(url,timeout=35,allow_redirects=True)
+                    telemetry.append({"base":"gateway","status":r.status_code,"attempt":attempt+1,"transport":"curl_cffi_gateway","proxy_configured":False})
+                    if r.status_code in (403,429): last=RuntimeError(f"HTTP {r.status_code} from SofaScore gateway");time.sleep(1.5*(attempt+1));continue
+                    r.raise_for_status();return r.json(),gateway,telemetry
+                except Exception as e:last=e;time.sleep(.8*(attempt+1))
+        except Exception as e:last=e
     try:
         from curl_cffi import requests
         session=requests.Session(impersonate="chrome")
@@ -31,11 +48,9 @@ def get_json(path):
                 try:
                     r=session.get(url,timeout=35,allow_redirects=True)
                     telemetry.append({"base":base,"status":r.status_code,"attempt":attempt+1,"transport":"curl_cffi","proxy_configured":bool(proxy)})
-                    if r.status_code in (403,429):
-                        last=RuntimeError(f"HTTP {r.status_code} from {base}");time.sleep(1.5*(attempt+1));continue
+                    if r.status_code in (403,429): last=RuntimeError(f"HTTP {r.status_code} from {base}");time.sleep(1.5*(attempt+1));continue
                     r.raise_for_status();return r.json(),base,telemetry
-                except Exception as e:
-                    last=e;time.sleep(0.8*(attempt+1))
+                except Exception as e:last=e;time.sleep(.8*(attempt+1))
     except Exception as e:last=e
     for base in BASES:
         try:
@@ -121,7 +136,7 @@ def browser_capture(tid,team_name,events,raw,st):
 
 
 def main():
-    cfg=json.loads(CONFIG.read_text(encoding="utf-8"));root=ROOT_BASE/cfg["country"].lower().replace(" ","-")/cfg["competition"].lower().replace(" ","-")/cfg["team_id"];raw=root/"raw"/"sofascore";proxy=bool(os.getenv("SOFASCORE_PROXY","").strip());st={"source":"sofascore","status":"collecting","retrieved_at":datetime.now(timezone.utc).isoformat(),"layers":{},"records":{},"errors":[],"attempted_bases":BASES,"proxy_configured":proxy}
+    cfg=json.loads(CONFIG.read_text(encoding="utf-8"));root=ROOT_BASE/cfg["country"].lower().replace(" ","-")/cfg["competition"].lower().replace(" ","-")/cfg["team_id"];raw=root/"raw"/"sofascore";proxy=bool(os.getenv("SOFASCORE_PROXY","").strip());gateway=bool(os.getenv("SOFASCORE_GATEWAY_URL","").strip() and os.getenv("SOFASCORE_GATEWAY_TOKEN","").strip());st={"source":"sofascore","status":"collecting","retrieved_at":datetime.now(timezone.utc).isoformat(),"layers":{},"records":{},"errors":[],"attempted_bases":BASES,"proxy_configured":proxy,"gateway_configured":gateway}
     try:
         tid=str((cfg.get("provider_ids") or {}).get("sofascore") or "");team_name=cfg.get("team") or "";events=[]
         if not tid:raise RuntimeError("SofaScore team id not configured")
@@ -147,8 +162,8 @@ def main():
         if missing and not (st["errors"] and not events):browser_capture(tid,team_name,events,raw,st)
         for k in counts:counts[k]=sum(1 for e in events if (raw/"matches"/str(e["id"])/(k+".json")).exists())
         st["records"].update(counts);st["layers"]["matches"]="available" if events else "partial";st["layers"]["stats"]="available" if counts["statistics"] else "partial";st["layers"]["events"]="available" if counts["incidents"] else "partial";st["layers"]["spatial"]="available" if counts["shotmap"] else "partial";st["layers"]["lineups"]="available" if counts["lineups"] else "partial";st["layers"]["video"]="available" if counts["media"] else "unavailable"
-        all403=bool(st.get("transport_telemetry")) and all(x.get("status") in (403,429) for x in st["transport_telemetry"] if x.get("transport")=="curl_cffi")
-        if all403:st["waf_blocked"]=True;st["blocked_by_egress"]=not proxy
+        all403=bool(st.get("transport_telemetry")) and all(x.get("status") in (403,429) for x in st["transport_telemetry"] if x.get("transport") in {"curl_cffi","curl_cffi_gateway"})
+        if all403:st["waf_blocked"]=True;st["blocked_by_egress"]=not (proxy or gateway)
         st["status"]="success" if not st["errors"] else "partial"
     except Exception as exc:st["status"]="error";st["errors"].append({"fatal":str(exc)})
     save(root/"source-status-sofascore.json",st)
