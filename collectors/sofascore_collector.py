@@ -1,11 +1,10 @@
-"""FOSI SofaScore acquisition: direct API + resilient real-browser SPA capture, raw-first.
+"""FOSI SofaScore acquisition: direct API + optional authorized egress + browser SPA capture.
 
-SofaScore may challenge direct API traffic. FOSI first uses a browser-like HTTP
-transport with persistent cookies, TLS impersonation, and the XHR headers used by
-the public application. If that is challenged, the public SPA fallback is used.
+Direct public endpoints are attempted first. When the GitHub Actions egress is blocked,
+FOSI can use an operator-provided SOFASCORE_PROXY without committing credentials.
 Nothing is fabricated and raw payloads remain the source of truth.
 """
-import json,re,time
+import json,re,time,os
 from datetime import datetime,timezone
 from pathlib import Path
 
@@ -19,57 +18,32 @@ def save(path,payload):
 
 
 def get_json(path):
-    """Fetch public SofaScore JSON using one browser-like session per run.
-
-    The X-Requested-With header is important because the public web application
-    sends these requests as XHR/fetch traffic. Persistent cookies and retries
-    also avoid turning a transient challenge into a permanent source failure.
-    """
-    last=None
-    telemetry=[]
+    """Fetch public SofaScore JSON, optionally through an authorized proxy/egress."""
+    last=None;telemetry=[];proxy=os.getenv("SOFASCORE_PROXY","").strip() or None
     try:
         from curl_cffi import requests
         session=requests.Session(impersonate="chrome")
-        session.headers.update({
-            "User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
-            "Accept":"application/json, text/plain, */*",
-            "Accept-Language":"en-US,en;q=0.9",
-            "Referer":"https://www.sofascore.com/",
-            "Origin":"https://www.sofascore.com",
-            "X-Requested-With":"XMLHttpRequest",
-            "Sec-Fetch-Dest":"empty",
-            "Sec-Fetch-Mode":"cors",
-            "Sec-Fetch-Site":"same-site",
-        })
+        if proxy: session.proxies={"http":proxy,"https":proxy}
+        session.headers.update({"User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36","Accept":"application/json, text/plain, */*","Accept-Language":"en-US,en;q=0.9","Referer":"https://www.sofascore.com/","Origin":"https://www.sofascore.com","X-Requested-With":"XMLHttpRequest","Sec-Fetch-Dest":"empty","Sec-Fetch-Mode":"cors","Sec-Fetch-Site":"same-site"})
         for base in BASES:
             url=base+path
             for attempt in range(3):
                 try:
                     r=session.get(url,timeout=35,allow_redirects=True)
-                    telemetry.append({"base":base,"status":r.status_code,"attempt":attempt+1})
+                    telemetry.append({"base":base,"status":r.status_code,"attempt":attempt+1,"transport":"curl_cffi","proxy_configured":bool(proxy)})
                     if r.status_code in (403,429):
-                        last=RuntimeError(f"HTTP {r.status_code} from {base}")
-                        time.sleep(1.5*(attempt+1));continue
-                    r.raise_for_status()
-                    payload=r.json()
-                    return payload,base,telemetry
+                        last=RuntimeError(f"HTTP {r.status_code} from {base}");time.sleep(1.5*(attempt+1));continue
+                    r.raise_for_status();return r.json(),base,telemetry
                 except Exception as e:
                     last=e;time.sleep(0.8*(attempt+1))
     except Exception as e:last=e
-    # Last-resort plain HTTP. Keep this conservative: it is a fallback, not a
-    # challenge bypass, and it uses the same public endpoint only.
     for base in BASES:
         try:
             import urllib.request
-            req=urllib.request.Request(base+path,headers={
-                "User-Agent":"Mozilla/5.0",
-                "Accept":"application/json, text/plain, */*",
-                "Referer":"https://www.sofascore.com/",
-                "Origin":"https://www.sofascore.com",
-                "X-Requested-With":"XMLHttpRequest",
-            })
-            with urllib.request.urlopen(req,timeout=35) as r:
-                telemetry.append({"base":base,"status":getattr(r,"status",200),"transport":"urllib"})
+            req=urllib.request.Request(base+path,headers={"User-Agent":"Mozilla/5.0","Accept":"application/json, text/plain, */*","Referer":"https://www.sofascore.com/","Origin":"https://www.sofascore.com","X-Requested-With":"XMLHttpRequest"})
+            opener=urllib.request.build_opener(urllib.request.ProxyHandler({"http":proxy,"https":proxy}) if proxy else urllib.request.ProxyHandler({}))
+            with opener.open(req,timeout=35) as r:
+                telemetry.append({"base":base,"status":getattr(r,"status",200),"transport":"urllib","proxy_configured":bool(proxy)})
                 return json.load(r),base,telemetry
         except Exception as e:last=e
     raise last
@@ -80,20 +54,16 @@ def slugify(value):
 
 
 def event_page_url(event):
-    custom=str(event.get("customId") or "")
-    slug=str(event.get("slug") or "")
+    custom=str(event.get("customId") or "");slug=str(event.get("slug") or "")
     if slug and custom:return f"https://www.sofascore.com/football/match/{slug}/{custom}"
-    home=(event.get("homeTeam") or {}).get("slug") or (event.get("homeTeam") or {}).get("name")
-    away=(event.get("awayTeam") or {}).get("slug") or (event.get("awayTeam") or {}).get("name")
+    home=(event.get("homeTeam") or {}).get("slug") or (event.get("homeTeam") or {}).get("name");away=(event.get("awayTeam") or {}).get("slug") or (event.get("awayTeam") or {}).get("name")
     if home and away and custom:return f"https://www.sofascore.com/football/match/{slugify(home)}-{slugify(away)}/{custom}"
     return f"https://www.sofascore.com/football/match/{custom or event.get('id')}/{custom or event.get('id')}"
 
 
 def browser_capture(tid,team_name,events,raw,st):
-    """Drive the public SPA with installed Chrome, trigger lazy widgets and capture per-match API JSON."""
     try:from playwright.sync_api import sync_playwright
-    except Exception as e:
-        st["errors"].append({"layer":"browser","error":f"Playwright unavailable: {e}"});return {}
+    except Exception as e:st["errors"].append({"layer":"browser","error":f"Playwright unavailable: {e}"});return {}
     captured={};visited=0;team_slug=slugify(team_name) or "pogon-szczecin";team_url=f"https://www.sofascore.com/football/team/{team_slug}/{tid}";wanted=set(DETAILS)
     ua="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
     with sync_playwright() as p:
@@ -101,7 +71,6 @@ def browser_capture(tid,team_name,events,raw,st):
         except Exception:browser=p.chromium.launch(headless=True,args=["--no-sandbox","--disable-dev-shm-usage"])
         context=browser.new_context(user_agent=ua,locale="en-US",viewport={"width":1440,"height":1200},extra_http_headers={"Accept-Language":"en-US,en;q=0.9","X-Requested-With":"XMLHttpRequest"})
         page=context.new_page();page.set_default_timeout(5000)
-
         def on_response(resp):
             url=resp.url
             if "api.sofascore.com/api/v1/" not in url or resp.request.resource_type not in {"xhr","fetch"}:return
@@ -116,7 +85,6 @@ def browser_capture(tid,team_name,events,raw,st):
                 captured[(eid,rest)]=resp.json()
             except BaseException:pass
         page.on("response",on_response)
-
         def click_text(patterns):
             for label in patterns:
                 try:
@@ -128,26 +96,15 @@ def browser_capture(tid,team_name,events,raw,st):
                     if loc.count():loc.first.click(timeout=3000);page.wait_for_timeout(1800);return True
                 except BaseException:pass
             return False
-
         def prime_team_page():
             try:
-                page.goto(team_url,wait_until="domcontentloaded",timeout=60000);page.wait_for_timeout(7000)
-                click_text(("Matches","Partidos","Resultados"))
-                season=str((json.loads(CONFIG.read_text(encoding="utf-8"))).get("season") or "")
-                if season:
-                    try:click_text((season,season.replace("/","/")))
-                    except BaseException:pass
-                for _ in range(14):
-                    page.evaluate("window.scrollBy(0, Math.max(800, window.innerHeight*0.95))");page.wait_for_timeout(500)
+                page.goto(team_url,wait_until="domcontentloaded",timeout=60000);page.wait_for_timeout(7000);click_text(("Matches","Partidos","Resultados"))
+                for _ in range(14):page.evaluate("window.scrollBy(0, Math.max(800, window.innerHeight*0.95))");page.wait_for_timeout(500)
             except BaseException as e:st["errors"].append({"layer":"browser_team_page","error":str(e)})
-
         prime_team_page();hrefs=[]
         try:hrefs=page.locator('a[href*="/football/match/"]').evaluate_all("els => els.map(e => e.href)")
         except BaseException:pass
-        try:
-            html=page.content();hrefs += re.findall(r'https?://www\\.sofascore\\.com/football/match/[^\\\"\'<>\\s]+',html);hrefs += ["https://www.sofascore.com"+x for x in re.findall(r'href=[\\\"\'](/football/match/[^\\\"\']+)',html)]
-        except BaseException:pass
-        hrefs=[h.split("\\u0026")[0] for h in hrefs];candidates=list(dict.fromkeys(hrefs+[event_page_url(e) for e in events]));st["browser_discovery"]={"team_url":team_url,"dom_match_links":len(hrefs),"candidate_pages":len(candidates)}
+        candidates=list(dict.fromkeys(hrefs+[event_page_url(e) for e in events]));st["browser_discovery"]={"team_url":team_url,"dom_match_links":len(hrefs),"candidate_pages":len(candidates)}
         for href in candidates:
             try:
                 page.goto(href,wait_until="domcontentloaded",timeout=50000);page.wait_for_timeout(2800)
@@ -155,20 +112,16 @@ def browser_capture(tid,team_name,events,raw,st):
                 for _ in range(10):page.evaluate("window.scrollBy(0, Math.max(700, window.innerHeight*0.85))");page.wait_for_timeout(450)
                 visited+=1
             except BaseException as e:st.setdefault("browser_errors",[]).append({"url":href,"error":str(e)})
-            if visited and visited%50==0:
-                try:context.close()
-                except BaseException:pass
-                context=browser.new_context(user_agent=ua,locale="en-US",viewport={"width":1440,"height":1200},extra_http_headers={"Accept-Language":"en-US,en;q=0.9","X-Requested-With":"XMLHttpRequest"});page=context.new_page();page.set_default_timeout(5000);page.on("response",on_response);prime_team_page()
         browser.close()
     for (eid,kind),payload in captured.items():
         if kind.startswith("player/"):
-            parts=kind.split("/");player_id=parts[1];asset=parts[2] if len(parts)>2 else "data";save(raw/"matches"/eid/"players"/player_id/(asset+".json"),payload)
+            parts=kind.split("/");save(raw/"matches"/eid/"players"/parts[1]/((parts[2] if len(parts)>2 else "data")+".json"),payload)
         else:save(raw/"matches"/eid/(kind+".json"),payload)
     st["browser_capture"]={"captured_match_layers":len(captured),"unique_matches":len({k[0] for k in captured}),"pages_visited":visited,"candidate_pages":len(candidates)};return captured
 
 
 def main():
-    cfg=json.loads(CONFIG.read_text(encoding="utf-8"));root=ROOT_BASE/cfg["country"].lower().replace(" ","-")/cfg["competition"].lower().replace(" ","-")/cfg["team_id"];raw=root/"raw"/"sofascore";st={"source":"sofascore","status":"collecting","retrieved_at":datetime.now(timezone.utc).isoformat(),"layers":{},"records":{},"errors":[],"attempted_bases":BASES}
+    cfg=json.loads(CONFIG.read_text(encoding="utf-8"));root=ROOT_BASE/cfg["country"].lower().replace(" ","-")/cfg["competition"].lower().replace(" ","-")/cfg["team_id"];raw=root/"raw"/"sofascore";proxy=bool(os.getenv("SOFASCORE_PROXY","").strip());st={"source":"sofascore","status":"collecting","retrieved_at":datetime.now(timezone.utc).isoformat(),"layers":{},"records":{},"errors":[],"attempted_bases":BASES,"proxy_configured":proxy}
     try:
         tid=str((cfg.get("provider_ids") or {}).get("sofascore") or "");team_name=cfg.get("team") or "";events=[]
         if not tid:raise RuntimeError("SofaScore team id not configured")
@@ -191,9 +144,12 @@ def main():
                 except Exception:pass
                 time.sleep(.12)
         missing=not events or any(counts[k]<len(events) for k in ("event","statistics","incidents","lineups","shotmap","media"))
-        if missing:browser_capture(tid,team_name,events,raw,st)
+        if missing and not (st["errors"] and not events):browser_capture(tid,team_name,events,raw,st)
         for k in counts:counts[k]=sum(1 for e in events if (raw/"matches"/str(e["id"])/(k+".json")).exists())
-        st["records"].update(counts);st["layers"]["matches"]="available" if events else "partial";st["layers"]["stats"]="available" if counts["statistics"] else "partial";st["layers"]["events"]="available" if counts["incidents"] else "partial";st["layers"]["spatial"]="available" if counts["shotmap"] else "partial";st["layers"]["lineups"]="available" if counts["lineups"] else "partial";st["layers"]["video"]="available" if counts["media"] else "unavailable";st["status"]="success" if not st["errors"] else "partial"
+        st["records"].update(counts);st["layers"]["matches"]="available" if events else "partial";st["layers"]["stats"]="available" if counts["statistics"] else "partial";st["layers"]["events"]="available" if counts["incidents"] else "partial";st["layers"]["spatial"]="available" if counts["shotmap"] else "partial";st["layers"]["lineups"]="available" if counts["lineups"] else "partial";st["layers"]["video"]="available" if counts["media"] else "unavailable"
+        all403=bool(st.get("transport_telemetry")) and all(x.get("status") in (403,429) for x in st["transport_telemetry"] if x.get("transport")=="curl_cffi")
+        if all403:st["waf_blocked"]=True;st["blocked_by_egress"]=not proxy
+        st["status"]="success" if not st["errors"] else "partial"
     except Exception as exc:st["status"]="error";st["errors"].append({"fatal":str(exc)})
     save(root/"source-status-sofascore.json",st)
 if __name__=="__main__":main()
