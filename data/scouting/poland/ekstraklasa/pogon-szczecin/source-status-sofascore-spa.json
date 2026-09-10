@@ -1,28 +1,31 @@
 {
   "source": "sofascore-spa",
   "status": "partial",
-  "retrieved_at": "2026-09-10T03:29:38.741298+00:00",
+  "retrieved_at": "2026-09-10T16:56:22.107485+00:00",
   "records": {
     "incidents": 0,
+    "graph": 0,
+    "shotmap": 0,
+    "statistics": 0,
     "media": 0,
     "event": 0,
-    "graph": 0,
-    "statistics": 0,
-    "shotmap": 0,
     "lineups": 0
   },
   "errors": [],
+  "proxy_configured": false,
   "official_host_probe": {
     "hosts": [
       {
         "url": "https://www.sofascore.com/",
         "status_code": 403,
-        "bytes": 48
+        "bytes": 48,
+        "proxy_configured": false
       },
       {
         "url": "https://www.sofascore.com/en",
         "status_code": 403,
-        "bytes": 48
+        "bytes": 48,
+        "proxy_configured": false
       },
       {
         "url": "https://api.sofascore.com/api/v1/team/3117/events/last/0",
@@ -40,7 +43,8 @@
         "bytes": 48
       }
     ],
-    "usable_api_base": null
+    "usable_api_base": null,
+    "proxy_configured": false
   },
   "direct_api_discovery": {
     "unique_matches": 0,
@@ -61,5 +65,7 @@
     "pages_visited": 0,
     "captured_layers": 0,
     "unique_matches": 0
-  }
+  },
+  "waf_blocked": true,
+  "blocked_by_egress": true
 }
