@@ -48,12 +48,16 @@ jobs:
           p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           PY
       - name: Run selected-target acquisition
+        env:
+          SOFASCORE_PROXY: ${{ secrets.SOFASCORE_PROXY }}
         run: python engine/run_scout.py
       - name: Repair FotMob player-match history from player profiles
         run: python engine/repair_player_history.py
       - name: Mine official site runtime assets
         run: python engine/mine_official_site_assets.py
       - name: Run dedicated SofaScore SPA fallback
+        env:
+          SOFASCORE_PROXY: ${{ secrets.SOFASCORE_PROXY }}
         run: python collectors/sofascore_spa_collector.py
       - name: Acquire FotMob deep season statistics
         run: python collectors/fotmob_deepstats_collector.py
