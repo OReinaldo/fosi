@@ -1,0 +1,6 @@
+name = "fosi-sofascore-gateway"
+main = "worker.js"
+compatibility_date = "2026-09-10"
+
+# Set the secret after deployment:
+# wrangler secret put FOSI_PROXY_TOKEN
