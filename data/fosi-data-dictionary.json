@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-09T17:29:28.352584+00:00",
+  "generated_at": "2026-09-10T03:30:48.602044+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -176314,7 +176314,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-02"
+      "example": "2026-09-03"
     },
     {
       "path": "$.gameInfo",
@@ -176880,7 +176880,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-09-09T17:28:35.905167+00:00"
+      "example": "2026-09-10T03:29:38.699873+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -190886,7 +190886,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7290"
+      "example": "7296"
     },
     {
       "path": "$.html_files_scanned",
@@ -211160,7 +211160,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "fee"
+      "example": "free transfer"
     },
     {
       "path": "$.overview.transfers.allTransfers[].fee.localizedFeeText",
@@ -211172,19 +211172,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "transfer_fee"
-    },
-    {
-      "path": "$.overview.transfers.allTransfers[].fee.value",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "250000"
+      "example": "transfer_type_free_transfer"
     },
     {
       "path": "$.overview.transfers.allTransfers[].fromClub",
@@ -211196,7 +211184,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Wisła Kraków"
+      "example": "Sampdoria"
     },
     {
       "path": "$.overview.transfers.allTransfers[].fromClubFullName",
@@ -211208,7 +211196,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Wisła Kraków"
+      "example": "Sampdoria"
     },
     {
       "path": "$.overview.transfers.allTransfers[].fromClubId",
@@ -211220,7 +211208,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "10265"
+      "example": "9882"
     },
     {
       "path": "$.overview.transfers.allTransfers[].fromDate",
@@ -211232,7 +211220,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T00:00:00Z"
+      "example": "2026-09-09T00:00:00Z"
     },
     {
       "path": "$.overview.transfers.allTransfers[].marketValue",
@@ -211244,7 +211232,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "135751"
+      "example": "429651"
     },
     {
       "path": "$.overview.transfers.allTransfers[].name",
@@ -211256,7 +211244,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Jordi Sánchez"
+      "example": "Alessandro Pio Riccio"
     },
     {
       "path": "$.overview.transfers.allTransfers[].onLoan",
@@ -211280,7 +211268,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "813076"
+      "example": "1200629"
     },
     {
       "path": "$.overview.transfers.allTransfers[].position",
@@ -211304,7 +211292,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "striker_short"
+      "example": "centerback_short"
     },
     {
       "path": "$.overview.transfers.allTransfers[].position.label",
@@ -211316,7 +211304,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "ST"
+      "example": "CB"
     },
     {
       "path": "$.overview.transfers.allTransfers[].toClub",
@@ -211357,14 +211345,14 @@
     {
       "path": "$.overview.transfers.allTransfers[].toDate",
       "types": {
-        "null": 1
+        "string": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": "2028-06-30T00:00:00Z"
     },
     {
       "path": "$.overview.transfers.allTransfers[].transferDate",
@@ -211376,7 +211364,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T13:56:51Z"
+      "example": "2026-09-09T20:15:51Z"
     },
     {
       "path": "$.overview.transfers.allTransfers[].transferText",
@@ -211856,7 +211844,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "fee"
+      "example": "free transfer"
     },
     {
       "path": "$.overview.transfers.data.Players in[].fee.localizedFeeText",
@@ -211868,19 +211856,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "transfer_fee"
-    },
-    {
-      "path": "$.overview.transfers.data.Players in[].fee.value",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "250000"
+      "example": "transfer_type_free_transfer"
     },
     {
       "path": "$.overview.transfers.data.Players in[].fromClub",
@@ -211892,7 +211868,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Wisła Kraków"
+      "example": "Sampdoria"
     },
     {
       "path": "$.overview.transfers.data.Players in[].fromClubFullName",
@@ -211904,7 +211880,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Wisła Kraków"
+      "example": "Sampdoria"
     },
     {
       "path": "$.overview.transfers.data.Players in[].fromClubId",
@@ -211916,7 +211892,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "10265"
+      "example": "9882"
     },
     {
       "path": "$.overview.transfers.data.Players in[].fromDate",
@@ -211928,7 +211904,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T00:00:00Z"
+      "example": "2026-09-09T00:00:00Z"
     },
     {
       "path": "$.overview.transfers.data.Players in[].marketValue",
@@ -211940,7 +211916,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "135751"
+      "example": "429651"
     },
     {
       "path": "$.overview.transfers.data.Players in[].name",
@@ -211952,7 +211928,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Jordi Sánchez"
+      "example": "Alessandro Pio Riccio"
     },
     {
       "path": "$.overview.transfers.data.Players in[].onLoan",
@@ -211976,7 +211952,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "813076"
+      "example": "1200629"
     },
     {
       "path": "$.overview.transfers.data.Players in[].position",
@@ -212000,7 +211976,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "striker_short"
+      "example": "centerback_short"
     },
     {
       "path": "$.overview.transfers.data.Players in[].position.label",
@@ -212012,7 +211988,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "ST"
+      "example": "CB"
     },
     {
       "path": "$.overview.transfers.data.Players in[].toClub",
@@ -212053,14 +212029,14 @@
     {
       "path": "$.overview.transfers.data.Players in[].toDate",
       "types": {
-        "null": 1
+        "string": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": "2028-06-30T00:00:00Z"
     },
     {
       "path": "$.overview.transfers.data.Players in[].transferDate",
@@ -212072,7 +212048,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T13:56:51Z"
+      "example": "2026-09-09T20:15:51Z"
     },
     {
       "path": "$.overview.transfers.data.Players in[].transferText",
@@ -215087,7 +215063,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-09T17:28:54.608722+00:00"
+      "example": "2026-09-10T03:29:57.201080+00:00"
     },
     {
       "path": "$.rosters",
@@ -228110,7 +228086,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-09"
+      "example": "2026-10-10"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -228580,7 +228556,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "fee"
+      "example": "free transfer"
     },
     {
       "path": "$.transfers.allTransfers[].fee.localizedFeeText",
@@ -228592,19 +228568,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "transfer_fee"
-    },
-    {
-      "path": "$.transfers.allTransfers[].fee.value",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "250000"
+      "example": "transfer_type_free_transfer"
     },
     {
       "path": "$.transfers.allTransfers[].fromClub",
@@ -228616,7 +228580,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Wisła Kraków"
+      "example": "Sampdoria"
     },
     {
       "path": "$.transfers.allTransfers[].fromClubFullName",
@@ -228628,7 +228592,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Wisła Kraków"
+      "example": "Sampdoria"
     },
     {
       "path": "$.transfers.allTransfers[].fromClubId",
@@ -228640,7 +228604,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "10265"
+      "example": "9882"
     },
     {
       "path": "$.transfers.allTransfers[].fromDate",
@@ -228652,7 +228616,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T00:00:00Z"
+      "example": "2026-09-09T00:00:00Z"
     },
     {
       "path": "$.transfers.allTransfers[].marketValue",
@@ -228664,7 +228628,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "135751"
+      "example": "429651"
     },
     {
       "path": "$.transfers.allTransfers[].name",
@@ -228676,7 +228640,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Jordi Sánchez"
+      "example": "Alessandro Pio Riccio"
     },
     {
       "path": "$.transfers.allTransfers[].onLoan",
@@ -228700,7 +228664,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "813076"
+      "example": "1200629"
     },
     {
       "path": "$.transfers.allTransfers[].position",
@@ -228724,7 +228688,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "striker_short"
+      "example": "centerback_short"
     },
     {
       "path": "$.transfers.allTransfers[].position.label",
@@ -228736,7 +228700,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "ST"
+      "example": "CB"
     },
     {
       "path": "$.transfers.allTransfers[].toClub",
@@ -228777,14 +228741,14 @@
     {
       "path": "$.transfers.allTransfers[].toDate",
       "types": {
-        "null": 1
+        "string": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": "2028-06-30T00:00:00Z"
     },
     {
       "path": "$.transfers.allTransfers[].transferDate",
@@ -228796,7 +228760,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T13:56:51Z"
+      "example": "2026-09-09T20:15:51Z"
     },
     {
       "path": "$.transfers.allTransfers[].transferText",
@@ -229277,7 +229241,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "fee"
+      "example": "free transfer"
     },
     {
       "path": "$.transfers.data.Players in[].fee.localizedFeeText",
@@ -229289,19 +229253,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "transfer_fee"
-    },
-    {
-      "path": "$.transfers.data.Players in[].fee.value",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "250000"
+      "example": "transfer_type_free_transfer"
     },
     {
       "path": "$.transfers.data.Players in[].fromClub",
@@ -229313,7 +229265,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Wisła Kraków"
+      "example": "Sampdoria"
     },
     {
       "path": "$.transfers.data.Players in[].fromClubFullName",
@@ -229325,7 +229277,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Wisła Kraków"
+      "example": "Sampdoria"
     },
     {
       "path": "$.transfers.data.Players in[].fromClubId",
@@ -229337,7 +229289,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "10265"
+      "example": "9882"
     },
     {
       "path": "$.transfers.data.Players in[].fromDate",
@@ -229349,7 +229301,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T00:00:00Z"
+      "example": "2026-09-09T00:00:00Z"
     },
     {
       "path": "$.transfers.data.Players in[].marketValue",
@@ -229361,7 +229313,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "135751"
+      "example": "429651"
     },
     {
       "path": "$.transfers.data.Players in[].name",
@@ -229373,7 +229325,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Jordi Sánchez"
+      "example": "Alessandro Pio Riccio"
     },
     {
       "path": "$.transfers.data.Players in[].onLoan",
@@ -229397,7 +229349,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "813076"
+      "example": "1200629"
     },
     {
       "path": "$.transfers.data.Players in[].position",
@@ -229421,7 +229373,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "striker_short"
+      "example": "centerback_short"
     },
     {
       "path": "$.transfers.data.Players in[].position.label",
@@ -229433,7 +229385,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "ST"
+      "example": "CB"
     },
     {
       "path": "$.transfers.data.Players in[].toClub",
@@ -229474,14 +229426,14 @@
     {
       "path": "$.transfers.data.Players in[].toDate",
       "types": {
-        "null": 1
+        "string": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": "2028-06-30T00:00:00Z"
     },
     {
       "path": "$.transfers.data.Players in[].transferDate",
@@ -229493,7 +229445,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T13:56:51Z"
+      "example": "2026-09-09T20:15:51Z"
     },
     {
       "path": "$.transfers.data.Players in[].transferText",
@@ -229925,7 +229877,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Auxerre"
+      "example": "Widzew Łódź"
     },
     {
       "path": "$.transfers.data[].fromClubFullName",
@@ -229937,7 +229889,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Auxerre"
+      "example": "Widzew Łódź"
     },
     {
       "path": "$.transfers.data[].fromClubId",
@@ -229949,7 +229901,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8583"
+      "example": "8024"
     },
     {
       "path": "$.transfers.data[].fromDate",
@@ -229966,14 +229918,14 @@
     {
       "path": "$.transfers.data[].marketValue",
       "types": {
-        "integer": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1071337"
+      "example": "None"
     },
     {
       "path": "$.transfers.data[].name",
@@ -229985,7 +229937,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Francisco Sierralta"
+      "example": "Kuba Nawrocki"
     },
     {
       "path": "$.transfers.data[].onLoan",
@@ -230009,43 +229961,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "632305"
+      "example": "1784264"
     },
     {
       "path": "$.transfers.data[].position",
       "types": {
-        "object": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.transfers.data[].position.key",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "centerback_short"
-    },
-    {
-      "path": "$.transfers.data[].position.label",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "CB"
+      "example": "None"
     },
     {
       "path": "$.transfers.data[].toClub",
@@ -230057,7 +229985,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Piast Gliwice"
+      "example": "Stal Stalowa Wola"
     },
     {
       "path": "$.transfers.data[].toClubFullName",
@@ -230069,7 +229997,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Piast Gliwice"
+      "example": "Stal Stalowa Wola"
     },
     {
       "path": "$.transfers.data[].toClubId",
@@ -230081,7 +230009,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8028"
+      "example": "8049"
     },
     {
       "path": "$.transfers.data[].toDate",
@@ -230105,7 +230033,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-09T17:02:12Z"
+      "example": "2026-09-09T20:19:21Z"
     },
     {
       "path": "$.transfers.data[].transferText",
@@ -230261,7 +230189,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on loan"
+      "example": "fee"
     },
     {
       "path": "$.transfers[].fee.localizedFeeText",
@@ -230273,7 +230201,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on_loan"
+      "example": "transfer_fee"
+    },
+    {
+      "path": "$.transfers[].fee.value",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "689000"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -230285,7 +230225,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Racing Club"
+      "example": "Union Touarga Sport"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -230297,7 +230237,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Racing Club"
+      "example": "Union Touarga Sport"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -230309,7 +230249,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "10080"
+      "example": "320835"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -230321,19 +230261,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-09T00:00:00Z"
+      "example": "2026-09-07T00:00:00Z"
     },
     {
       "path": "$.transfers[].marketValue",
       "types": {
-        "integer": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "974122"
+      "example": "None"
     },
     {
       "path": "$.transfers[].name",
@@ -230345,7 +230285,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Tobías Rubio"
+      "example": "Taha Majni"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -230357,7 +230297,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.transfers[].playerId",
@@ -230369,7 +230309,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1509081"
+      "example": "1816803"
     },
     {
       "path": "$.transfers[].position",
@@ -230393,7 +230333,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "left_wing_back_short"
+      "example": "rightback_short"
     },
     {
       "path": "$.transfers[].position.label",
@@ -230405,7 +230345,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "LWB"
+      "example": "RB"
     },
     {
       "path": "$.transfers[].toClub",
@@ -230417,7 +230357,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Unión"
+      "example": "Crystal Palace"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -230429,7 +230369,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Unión"
+      "example": "Crystal Palace"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -230441,19 +230381,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "10096"
+      "example": "9826"
     },
     {
       "path": "$.transfers[].toDate",
       "types": {
-        "string": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2027-06-30T00:00:00Z"
+      "example": "None"
     },
     {
       "path": "$.transfers[].transferDate",
@@ -230465,7 +230405,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-09T19:12:27Z"
+      "example": "2026-09-09T21:41:31Z"
     },
     {
       "path": "$.transfers[].transferText",
@@ -230513,7 +230453,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on_loan"
+      "example": "contract"
     },
     {
       "path": "$.transfers[].transferType.text",
@@ -230525,7 +230465,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on loan"
+      "example": "contract"
     },
     {
       "path": "$.trophies",
@@ -230742,7 +230682,7 @@
         "fotmob"
       ],
       "file_count": 19,
-      "example": "2026-09-09T17:28:34.570467+00:00"
+      "example": "2026-09-10T03:29:37.606461+00:00"
     },
     {
       "path": "$.videos",
