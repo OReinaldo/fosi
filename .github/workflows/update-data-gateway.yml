@@ -1,0 +1,119 @@
+name: FOSI - Update scouting data via gateway
+on:
+  workflow_dispatch:
+    inputs:
+      country: {description: 'Country', required: true, default: 'Poland'}
+      competition: {description: 'Competition', required: true, default: 'Ekstraklasa'}
+      team: {description: 'Team', required: true, default: 'Pogoń Szczecin'}
+  push:
+    paths: ['.github/workflows/update-data-gateway.yml']
+  schedule:
+    - cron: '30 3 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Install acquisition dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Apply requested scouting target only for manual runs
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        env:
+          FOSI_COUNTRY: ${{ inputs.country }}
+          FOSI_COMPETITION: ${{ inputs.competition }}
+          FOSI_TEAM: ${{ inputs.team }}
+        run: |
+          python - <<'PY'
+          import json, os, re
+          from pathlib import Path
+          p=Path('config/selected-scout.json')
+          d=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
+          country=os.environ['FOSI_COUNTRY']; competition=os.environ['FOSI_COMPETITION']; team=os.environ['FOSI_TEAM']
+          slug=re.sub(r'[^a-z0-9]+','-',team.lower()).strip('-')
+          d.update({'enabled':True,'country':country,'competition':competition,'team':team,'team_id':slug})
+          p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+      - name: Run selected-target acquisition
+        env:
+          SOFASCORE_PROXY: ${{ secrets.SOFASCORE_PROXY }}
+          SOFASCORE_GATEWAY_URL: ${{ secrets.SOFASCORE_GATEWAY_URL }}
+          SOFASCORE_GATEWAY_TOKEN: ${{ secrets.SOFASCORE_GATEWAY_TOKEN }}
+        run: python engine/run_scout.py
+      - name: Repair FotMob player-match history from player profiles
+        run: python engine/repair_player_history.py
+      - name: Mine official site runtime assets
+        run: python engine/mine_official_site_assets.py
+      - name: Run dedicated SofaScore SPA fallback
+        env:
+          SOFASCORE_PROXY: ${{ secrets.SOFASCORE_PROXY }}
+          SOFASCORE_GATEWAY_URL: ${{ secrets.SOFASCORE_GATEWAY_URL }}
+          SOFASCORE_GATEWAY_TOKEN: ${{ secrets.SOFASCORE_GATEWAY_TOKEN }}
+        run: python collectors/sofascore_spa_collector.py
+      - name: Acquire FotMob deep season statistics
+        run: python collectors/fotmob_deepstats_collector.py
+      - name: Harden secondary evidence acquisition
+        run: python engine/acquisition_hardening.py
+      - name: Build RAW field dictionary
+        run: python engine/build_data_dictionary.py
+      - name: Build source coverage matrix
+        run: python engine/build_source_coverage.py
+      - name: Build normalized FOSI data layer
+        run: python engine/normalize_sources.py
+      - name: Enrich normalized data from preserved RAW
+        run: python engine/enrich_normalized.py
+      - name: Enrich normalized players from FotMob deep stats
+        run: python engine/enrich_deepstats.py
+      - name: Classify finished versus scheduled fixtures
+        run: python engine/classify_match_status.py
+      - name: Test FOSI normalization
+        working-directory: engine
+        run: python -m unittest test_normalize_sources.py -v
+      - name: Test RAW enrichment
+        working-directory: engine
+        run: python -m unittest test_enrich_normalized.py -v
+      - name: Test FOSI metrics engine
+        working-directory: engine
+        run: python -m unittest test_metrics_engine.py -v
+      - name: Test FOSI intelligence
+        working-directory: engine
+        run: python -m unittest test_intelligence.py -v
+      - name: Test FOSI scouting intelligence
+        working-directory: engine
+        run: python -m unittest test_scouting_intelligence.py -v
+      - name: Build FOSI metrics
+        run: python engine/metrics_engine.py
+      - name: Promote verified team deep stats into metrics
+        run: python engine/enrich_metrics_from_team_stats.py
+      - name: Build spatial evidence index
+        run: python engine/spatial.py
+      - name: Publish dashboard payload
+        run: python engine/publish_dashboard.py
+      - name: Validate dashboard payload
+        run: python engine/validate_dashboard.py
+      - name: Commit updated data
+        run: |
+          git config user.name 'fosi-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/scouting/ data/fosi-data-dictionary.json data/source-coverage.json dashboard/data.json
+          git diff --cached --quiet || git commit -m 'data: update active scouting dataset via gateway'
+          git push
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload refreshed dashboard
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./
+      - name: Deploy refreshed dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4
