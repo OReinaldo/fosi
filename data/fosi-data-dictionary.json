@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-10T17:40:04.151549+00:00",
+  "generated_at": "2026-09-11T03:29:50.296879+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -176194,7 +176194,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.fixtures.previousFixturesUrl",
@@ -176314,7 +176314,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-03"
+      "example": "2026-09-04"
     },
     {
       "path": "$.gameInfo",
@@ -176880,7 +176880,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-09-10T17:38:56.369523+00:00"
+      "example": "2026-09-11T03:28:24.408363+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -190886,7 +190886,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7322"
+      "example": "7308"
     },
     {
       "path": "$.html_files_scanned",
@@ -197636,7 +197636,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.overview.hasTotw",
@@ -199904,7 +199904,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.overview.newsSummary",
@@ -210356,7 +210356,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "49"
+      "example": "57"
     },
     {
       "path": "$.overview.topPlayers.byAssists.players[].stat",
@@ -215063,7 +215063,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-10T17:39:27.169056+00:00"
+      "example": "2026-09-11T03:28:56.243216+00:00"
     },
     {
       "path": "$.rosters",
@@ -228086,7 +228086,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-10"
+      "example": "2026-10-11"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -230213,7 +230213,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "fee"
+      "example": "on loan"
     },
     {
       "path": "$.transfers[].fee.localizedFeeText",
@@ -230225,19 +230225,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "transfer_fee"
-    },
-    {
-      "path": "$.transfers[].fee.value",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "10000000"
+      "example": "on_loan"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -230249,7 +230237,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Pachuca"
+      "example": "Dinamo Zagreb"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -230261,7 +230249,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Pachuca"
+      "example": "Dinamo Zagreb"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -230273,7 +230261,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7848"
+      "example": "10156"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -230285,19 +230273,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-10T00:00:00Z"
+      "example": "2026-07-12T00:00:00Z"
     },
     {
       "path": "$.transfers[].marketValue",
       "types": {
-        "null": 1
+        "integer": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": "236947"
     },
     {
       "path": "$.transfers[].name",
@@ -230309,7 +230297,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Elías Montiel"
+      "example": "Samy Mmaee"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -230321,7 +230309,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.transfers[].playerId",
@@ -230333,7 +230321,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1502909"
+      "example": "560165"
     },
     {
       "path": "$.transfers[].position",
@@ -230357,7 +230345,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "centerdefensivemidfielder_short"
+      "example": "centerback_short"
     },
     {
       "path": "$.transfers[].position.label",
@@ -230369,7 +230357,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "DM"
+      "example": "CB"
     },
     {
       "path": "$.transfers[].toClub",
@@ -230381,7 +230369,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Atlas"
+      "example": "Pafos FC"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -230393,7 +230381,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Atlas"
+      "example": "Pafos FC"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -230405,7 +230393,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6577"
+      "example": "2137"
     },
     {
       "path": "$.transfers[].toDate",
@@ -230417,7 +230405,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2030-06-30T00:00:00Z"
+      "example": "2027-05-31T00:00:00Z"
     },
     {
       "path": "$.transfers[].transferDate",
@@ -230429,7 +230417,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-10T17:54:28Z"
+      "example": "2026-09-11T01:18:06Z"
     },
     {
       "path": "$.transfers[].transferText",
@@ -230477,7 +230465,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "contract"
+      "example": "on_loan"
     },
     {
       "path": "$.transfers[].transferType.text",
@@ -230489,7 +230477,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "contract"
+      "example": "on loan"
     },
     {
       "path": "$.trophies",
@@ -230706,7 +230694,7 @@
         "fotmob"
       ],
       "file_count": 19,
-      "example": "2026-09-10T17:38:55.048876+00:00"
+      "example": "2026-09-11T03:28:23.080895+00:00"
     },
     {
       "path": "$.videos",

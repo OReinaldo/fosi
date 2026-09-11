@@ -1,6 +1,40 @@
 {
   "transfers": [
     {
+      "name": "Samy Mmaee",
+      "playerId": 560165,
+      "position": {
+        "label": "CB",
+        "key": "centerback_short"
+      },
+      "transferDate": "2026-09-11T01:18:06Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Dinamo Zagreb",
+      "fromClubFullName": "Dinamo Zagreb",
+      "fromClubId": 10156,
+      "toClub": "Pafos FC",
+      "toClubFullName": "Pafos FC",
+      "toClubId": 2137,
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-07-12T00:00:00Z",
+      "toDate": "2027-05-31T00:00:00Z",
+      "marketValue": 236947
+    },
+    {
       "name": "Elías Montiel",
       "playerId": 1502909,
       "position": {
@@ -1641,43 +1675,8 @@
       "fromDate": "2026-09-09T00:00:00Z",
       "toDate": "2027-06-30T00:00:00Z",
       "marketValue": 3424978
-    },
-    {
-      "name": "Sani Suleiman",
-      "playerId": 1374055,
-      "position": {
-        "label": "LW",
-        "key": "leftwinger_short"
-      },
-      "transferDate": "2026-09-09T10:33:25Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "RB Leipzig",
-      "fromClubFullName": "RB Leipzig",
-      "fromClubId": 178475,
-      "toClub": "Al Qadsiah",
-      "toClubFullName": "Al Qadsiah",
-      "toClubId": 101919,
-      "fee": {
-        "feeText": "fee",
-        "localizedFeeText": "transfer_fee",
-        "value": 8000000
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-08T00:00:00Z",
-      "toDate": null,
-      "marketValue": 1287885
     }
   ],
-  "hits": 7322,
+  "hits": 7308,
   "maxFee": 145000000
 }

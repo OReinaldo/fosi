@@ -1652,13 +1652,13 @@
               "pts": 9,
               "teamId": 8023,
               "teamName": "Pogoń Szczecin",
-              "xg": 8.738600075244904,
-              "xgConceded": 9.317399978637695,
-              "xPoints": 8.054376616160372,
+              "xg": 9.074800074100494,
+              "xgConceded": 9.612099885940552,
+              "xPoints": 8.080771439066107,
               "position": 10,
-              "xgDiff": -0.7386000752449036,
-              "xgConcededDiff": -4.317399978637695,
-              "xPointsDiff": 0.945623383839628,
+              "xgDiff": -1.0748000741004944,
+              "xgConcededDiff": -4.612099885940552,
+              "xPointsDiff": 0.9192285609338935,
               "xPosition": 10,
               "idx": 10,
               "xPositionDiff": -2,
@@ -1733,13 +1733,13 @@
               "pts": 5,
               "teamId": 8243,
               "teamName": "Wisła Płock",
-              "xg": 10.030900001525879,
-              "xgConceded": 10.581400096416473,
-              "xPoints": 7.800179965112144,
+              "xg": 10.325599908828735,
+              "xgConceded": 10.917600095272064,
+              "xPoints": 7.785263530402281,
               "position": 13,
-              "xgDiff": -6.030900001525879,
-              "xgConcededDiff": 0.4185999035835266,
-              "xPointsDiff": -2.800179965112144,
+              "xgDiff": -6.325599908828735,
+              "xgConcededDiff": 0.08239990472793579,
+              "xPointsDiff": -2.785263530402281,
               "xPosition": 13,
               "idx": 13,
               "xPositionDiff": 3,
@@ -5496,9 +5496,9 @@
         "fromClub": "Wisła Kraków",
         "fromClubFullName": "Wisła Kraków",
         "fromClubId": 10265,
-        "toClub": "Abha",
-        "toClubFullName": "Abha",
-        "toClubId": 150414,
+        "toClub": "CFR Cluj",
+        "toClubFullName": "CFR Cluj",
+        "toClubId": 9731,
         "fee": {
           "feeText": "on loan",
           "localizedFeeText": "on_loan"
@@ -9873,13 +9873,13 @@
                 "pts": 9,
                 "teamId": 8023,
                 "teamName": "Pogoń Szczecin",
-                "xg": 8.738600075244904,
-                "xgConceded": 9.317399978637695,
-                "xPoints": 8.054376616160372,
+                "xg": 9.074800074100494,
+                "xgConceded": 9.612099885940552,
+                "xPoints": 8.080771439066107,
                 "position": 10,
-                "xgDiff": -0.7386000752449036,
-                "xgConcededDiff": -4.317399978637695,
-                "xPointsDiff": 0.945623383839628,
+                "xgDiff": -1.0748000741004944,
+                "xgConcededDiff": -4.612099885940552,
+                "xPointsDiff": 0.9192285609338935,
                 "xPosition": 10,
                 "idx": 10,
                 "xPositionDiff": -2,
@@ -9954,13 +9954,13 @@
                 "pts": 5,
                 "teamId": 8243,
                 "teamName": "Wisła Płock",
-                "xg": 10.030900001525879,
-                "xgConceded": 10.581400096416473,
-                "xPoints": 7.800179965112144,
+                "xg": 10.325599908828735,
+                "xgConceded": 10.917600095272064,
+                "xPoints": 7.785263530402281,
                 "position": 13,
-                "xgDiff": -6.030900001525879,
-                "xgConcededDiff": 0.4185999035835266,
-                "xPointsDiff": -2.800179965112144,
+                "xgDiff": -6.325599908828735,
+                "xgConcededDiff": 0.08239990472793579,
+                "xPointsDiff": -2.785263530402281,
                 "xPosition": 13,
                 "idx": 13,
                 "xPositionDiff": 3,
@@ -15596,7 +15596,11 @@
           "stage": ""
         },
         "status": {
-          "utcTime": "2026-09-11T16:00:00Z",
+          "utcTime": "2026-09-11T16:00:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "11.09.2026 18:00:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
@@ -15626,7 +15630,11 @@
           "stage": ""
         },
         "status": {
-          "utcTime": "2026-09-11T18:30:00Z",
+          "utcTime": "2026-09-11T18:30:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "11.09.2026 20:30:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
@@ -23013,7 +23021,7 @@
         }
       }
     ],
-    "hasOngoingMatch": false,
+    "hasOngoingMatch": true,
     "shotMap": null,
     "matches": {
       "firstUnplayedMatch": {
@@ -24835,8 +24843,11 @@
             "id": "89466"
           },
           "status": {
-            "utcTime": "2026-09-11T16:00:00Z",
-            "timezone": "",
+            "utcTime": "2026-09-11T16:00:00.000Z",
+            "halfs": {
+              "firstHalfStarted": "11.09.2026 18:00:00"
+            },
+            "periodLength": 45,
             "started": false,
             "cancelled": false,
             "finished": false
@@ -24858,8 +24869,11 @@
             "id": "1957"
           },
           "status": {
-            "utcTime": "2026-09-11T18:30:00Z",
-            "timezone": "",
+            "utcTime": "2026-09-11T18:30:00.000Z",
+            "halfs": {
+              "firstHalfStarted": "11.09.2026 20:30:00"
+            },
+            "periodLength": 45,
             "started": false,
             "cancelled": false,
             "finished": false
@@ -30524,7 +30538,7 @@
           }
         }
       ],
-      "hasOngoingMatch": false,
+      "hasOngoingMatch": true,
       "fixtureInfo": {
         "activeRound": {
           "roundId": "8",
@@ -31405,9 +31419,30 @@
             }
           },
           {
+            "id": 1117005,
+            "name": "Jan Biegański",
+            "rank": 2,
+            "ccode": "POL",
+            "teamId": 8023,
+            "teamName": "Pogoń Szczecin",
+            "value": 0.81,
+            "stat": {
+              "name": "expected_goals_per_90",
+              "value": 0.81,
+              "format": "fraction",
+              "fractions": 2
+            },
+            "teamColors": {
+              "darkMode": "#1753a4",
+              "lightMode": "#102457",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
             "id": 200601,
             "name": "Mikael Ishak",
-            "rank": 2,
+            "rank": 3,
             "ccode": "SWE",
             "teamId": 2182,
             "teamName": "Lech Poznań",
@@ -31422,27 +31457,6 @@
               "darkMode": "#004898",
               "lightMode": "#004898",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
-            "id": 1131220,
-            "name": "Janis Antiste",
-            "rank": 3,
-            "ccode": "MTQ",
-            "teamId": 8020,
-            "teamName": "Górnik Zabrze",
-            "value": 0.8,
-            "stat": {
-              "name": "expected_goals_per_90",
-              "value": 0.8,
-              "format": "fraction",
-              "fractions": 2
-            },
-            "teamColors": {
-              "darkMode": "#ffffff",
-              "lightMode": "#26419A",
-              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           }
@@ -32834,22 +32848,22 @@
             }
           },
           {
-            "id": 731338,
-            "name": "Robert Gumny",
+            "id": 1520923,
+            "name": "Afonso Silva",
             "rank": 3,
-            "ccode": "POL",
-            "teamId": 2182,
-            "teamName": "Lech Poznań",
-            "value": 2.9,
+            "ccode": "POR",
+            "teamId": 8243,
+            "teamName": "Wisła Płock",
+            "value": 3.1,
             "stat": {
               "name": "interception",
-              "value": 2.9,
+              "value": 3.1,
               "format": "fraction",
               "fractions": 1
             },
             "teamColors": {
-              "darkMode": "#004898",
-              "lightMode": "#004898",
+              "darkMode": "#085AA6",
+              "lightMode": "#085AA6",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -33573,10 +33587,10 @@
           "ccode": "ROU",
           "teamId": 8023,
           "teamName": "Pogoń Szczecin",
-          "value": 4,
+          "value": 3.9,
           "stat": {
             "name": "_goals_prevented",
-            "value": 4,
+            "value": 3.9,
             "format": "fraction",
             "fractions": 1
           }
@@ -33590,10 +33604,10 @@
             "ccode": "ROU",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
-            "value": 4,
+            "value": 3.9,
             "stat": {
               "name": "_goals_prevented",
-              "value": 4,
+              "value": 3.9,
               "format": "fraction",
               "fractions": 1
             },
@@ -34906,20 +34920,20 @@
           },
           {
             "id": 0,
-            "name": "Cracovia",
+            "name": "Wisła Płock",
             "rank": 3,
             "ccode": "POL",
-            "teamId": 2186,
-            "value": 16,
+            "teamId": 8243,
+            "value": 17,
             "stat": {
               "name": "big_chance_missed_team",
-              "value": 16,
+              "value": 17,
               "format": "number",
               "fractions": 0
             },
             "teamColors": {
-              "darkMode": "#E21A22",
-              "lightMode": "#c7000f",
+              "darkMode": "#085AA6",
+              "lightMode": "#085AA6",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -35058,10 +35072,10 @@
             "rank": 2,
             "ccode": "POL",
             "teamId": 8023,
-            "value": 25.5,
+            "value": 25.2,
             "stat": {
               "name": "accurate_long_balls_team",
-              "value": 25.5,
+              "value": 25.2,
               "format": "fraction",
               "fractions": 1
             },
@@ -35747,13 +35761,13 @@
           {
             "id": 0,
             "name": "Wisła Płock",
-            "rank": 2,
+            "rank": 3,
             "ccode": "POL",
             "teamId": 8243,
-            "value": 17.2,
+            "value": 17,
             "stat": {
               "name": "total_tackle_team",
-              "value": 17.2,
+              "value": 17,
               "format": "fraction",
               "fractions": 1
             },
@@ -38330,8 +38344,11 @@
           "id": "89466"
         },
         "status": {
-          "utcTime": "2026-09-11T16:00:00Z",
-          "timezone": "",
+          "utcTime": "2026-09-11T16:00:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "11.09.2026 18:00:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
@@ -38353,8 +38370,11 @@
           "id": "1957"
         },
         "status": {
-          "utcTime": "2026-09-11T18:30:00Z",
-          "timezone": "",
+          "utcTime": "2026-09-11T18:30:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "11.09.2026 20:30:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
@@ -44019,7 +44039,7 @@
         }
       }
     ],
-    "hasOngoingMatch": false,
+    "hasOngoingMatch": true,
     "fixtureInfo": {
       "activeRound": {
         "roundId": "8",

@@ -1,7 +1,7 @@
 {
   "team_id": "8023",
-  "from": "2026-09-03",
-  "to": "2026-10-10",
+  "from": "2026-09-04",
+  "to": "2026-10-11",
   "matches": [
     {
       "id": 5904696,
@@ -353,35 +353,34 @@
     },
     {
       "id": 5803999,
-      "pageUrl": "/matches/pogon-szczecin-vs-korona-kielce/26sif7#5803999",
-      "opponent": {
-        "id": 8245,
-        "name": "Korona Kielce",
-        "score": 0
-      },
+      "leagueId": 937879,
+      "time": "11.10.2026 17:30",
       "home": {
         "id": 8023,
+        "score": 0,
         "name": "Pogoń Szczecin",
-        "score": 0
+        "longName": "Pogoń Szczecin"
       },
       "away": {
         "id": 8245,
+        "score": 0,
         "name": "Korona Kielce",
-        "score": 0
+        "longName": "Korona Kielce"
       },
-      "displayTournament": false,
-      "notStarted": true,
-      "tournament": {
-        "name": "Ekstraklasa",
-        "stage": "",
-        "leagueId": 196
-      },
+      "eliminatedTeamId": null,
+      "statusId": 1,
+      "tournamentStage": "10",
       "status": {
         "utcTime": "2026-10-11T15:30:00.000Z",
+        "halfs": {
+          "firstHalfStarted": "11.10.2026 17:30:00"
+        },
+        "periodLength": 45,
         "started": false,
         "cancelled": false,
         "finished": false
-      }
+      },
+      "timeTS": 1791732600000
     },
     {
       "id": 5804005,
