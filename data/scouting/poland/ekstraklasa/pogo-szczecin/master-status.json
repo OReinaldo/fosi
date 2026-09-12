@@ -1,73 +1,334 @@
 {
   "sources": [
     {
+      "source": "espn",
+      "status": "success",
+      "retrieved_at": "2026-09-12T19:31:35.353993+00:00",
+      "layers": {
+        "matches": "available",
+        "team": "available",
+        "injuries": "available",
+        "record": "available",
+        "transactions": "available",
+        "events": "available",
+        "stats": "partial",
+        "play_by_play": "partial",
+        "probabilities": "partial",
+        "cdn": "partial"
+      },
+      "records": {
+        "schedule_events": 1,
+        "team": 1,
+        "injuries": 1,
+        "record": 1,
+        "transactions": 1,
+        "match_summaries": 1,
+        "event": 0,
+        "competition": 0,
+        "plays": 0,
+        "situation": 0,
+        "probabilities": 0,
+        "predictor": 0,
+        "competitor_stats": 0,
+        "competitor_roster": 0,
+        "cdn_game": 0
+      },
+      "errors": [],
+      "routes_attempted": [
+        {
+          "path": "/all/teams/511/schedule?limit=100&offset=0",
+          "status": "success",
+          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+        },
+        {
+          "path": "/all/teams/511/schedule?limit=100&offset=100",
+          "status": "success",
+          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+        },
+        {
+          "path": "/all/teams/511/schedule?limit=100&offset=200",
+          "status": "success",
+          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+        },
+        {
+          "path": "/all/teams/511/schedule?limit=100&offset=300",
+          "status": "success",
+          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+        },
+        {
+          "path": "/all/teams/511/schedule?limit=100&offset=400",
+          "status": "success",
+          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+        },
+        {
+          "path": "/all/teams/511/schedule?limit=100&dates=2025",
+          "status": "success",
+          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+        },
+        {
+          "path": "/all/teams/511/schedule?limit=100&dates=2026",
+          "status": "success",
+          "base": "https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+        },
+        {
+          "path": "/pol.1/scoreboard?limit=100&dates=2026",
+          "status": "unavailable"
+        },
+        {
+          "path": "/pol.1/scoreboard?limit=100&dates=20260701-20270630",
+          "status": "unavailable"
+        }
+      ]
+    },
+    {
+      "source": "official-sites",
+      "status": "partial",
+      "retrieved_at": "2026-09-12T19:31:41.306048+00:00",
+      "layers": {
+        "club": "available",
+        "standings": "available",
+        "stats": "available",
+        "fixtures": "available"
+      },
+      "records": {
+        "https://ekstraklasa.org/en/clubs/pogon-szczecin/?tab=stats": {
+          "bytes": 667674,
+          "layer": "club",
+          "embedded_json_records": 0,
+          "html_tables": 0,
+          "html_table_rows": 0,
+          "links": 87
+        },
+        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": {
+          "bytes": 215645,
+          "layer": "club",
+          "embedded_json_records": 0,
+          "html_tables": 0,
+          "html_table_rows": 0,
+          "links": 34
+        },
+        "https://ekstraklasa.org/en/standings/2026-2027/": {
+          "bytes": 337619,
+          "layer": "standings",
+          "embedded_json_records": 0,
+          "html_tables": 1,
+          "html_table_rows": 19,
+          "links": 43
+        },
+        "https://ekstraklasa.org/statystyki/": {
+          "bytes": 1904038,
+          "layer": "stats",
+          "embedded_json_records": 0,
+          "html_tables": 0,
+          "html_table_rows": 0,
+          "links": 69
+        },
+        "https://ekstraklasa.org/en/statistics/?ranking=xg": {
+          "bytes": 1987829,
+          "layer": "stats",
+          "embedded_json_records": 0,
+          "html_tables": 0,
+          "html_table_rows": 0,
+          "links": 367
+        },
+        "https://ekstraklasa.org/en/schedule/2026-2027/1-round/": {
+          "bytes": 312781,
+          "layer": "fixtures",
+          "embedded_json_records": 0,
+          "html_tables": 0,
+          "html_table_rows": 0,
+          "links": 36
+        },
+        "https://ekstraklasa.org/en/schedule/2026-2027/2-round/": {
+          "bytes": 316647,
+          "layer": "fixtures",
+          "embedded_json_records": 0,
+          "html_tables": 0,
+          "html_table_rows": 0,
+          "links": 38
+        },
+        "https://ekstraklasa.org/en/schedule/2026-2027/3-round/": {
+          "bytes": 323987,
+          "layer": "fixtures",
+          "embedded_json_records": 0,
+          "html_tables": 0,
+          "html_table_rows": 0,
+          "links": 39
+        },
+        "https://ekstraklasa.org/en/schedule/2026-2027/4-round/": {
+          "bytes": 325792,
+          "layer": "fixtures",
+          "embedded_json_records": 0,
+          "html_tables": 0,
+          "html_table_rows": 0,
+          "links": 39
+        },
+        "https://ekstraklasa.org/en/schedule/2026-2027/kolejka-5/": {
+          "bytes": 333637,
+          "layer": "fixtures",
+          "embedded_json_records": 0,
+          "html_tables": 0,
+          "html_table_rows": 0,
+          "links": 37
+        },
+        "https://ekstraklasa.org/en/schedule/2026-2027/round-6/": {
+          "bytes": 339063,
+          "layer": "fixtures",
+          "embedded_json_records": 0,
+          "html_tables": 0,
+          "html_table_rows": 0,
+          "links": 37
+        },
+        "https://ekstraklasa.org/en/schedule/2026-2027/round-7/": {
+          "bytes": 342963,
+          "layer": "fixtures",
+          "embedded_json_records": 0,
+          "html_tables": 0,
+          "html_table_rows": 0,
+          "links": 37
+        }
+      },
+      "errors": [
+        {
+          "url": "https://www.pogonszczecin.pl/",
+          "layer": "context",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "structured_records": 0,
+      "structured_tables": 1,
+      "structured_rows": 19,
+      "links": 863
+    },
+    {
+      "source": "sofascore",
+      "status": "partial",
+      "retrieved_at": "2026-09-12T19:30:30.175727+00:00",
+      "layers": {
+        "matches": "partial",
+        "stats": "partial",
+        "events": "partial",
+        "spatial": "partial",
+        "lineups": "partial",
+        "video": "unavailable"
+      },
+      "records": {
+        "event": 0,
+        "statistics": 0,
+        "incidents": 0,
+        "lineups": 0,
+        "graph": 0,
+        "shotmap": 0,
+        "media": 0
+      },
+      "errors": [
+        {
+          "layer": "direct_team_api",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "layer": "matches",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "attempted_bases": [
+        "https://api.sofascore.com/api/v1",
+        "https://api.sofascore.app/api/v1",
+        "https://www.sofascore.com/api/v1"
+      ],
+      "proxy_configured": false,
+      "gateway_configured": true
+    },
+    {
+      "source": "fotmob",
+      "status": "partial",
+      "retrieved_at": "2026-09-12T19:29:13.333627+00:00",
+      "layers": {
+        "team": "available",
+        "players": "available",
+        "competition": "available",
+        "matches": "available",
+        "stats": "available",
+        "events": "available",
+        "spatial": "available",
+        "video": "available"
+      },
+      "records": {
+        "team": 1,
+        "league": 1,
+        "player_profiles": 19,
+        "player_matches": 19,
+        "player_matches_skipped_existing": 0,
+        "player_match_rows": 431,
+        "player_match_source": "playerData.recentMatches",
+        "transfers": 1,
+        "date_scanned_matches": 11,
+        "date_scan_from": "2026-07-01",
+        "date_scan_to": "2026-10-12",
+        "matches": 35,
+        "match_details": 29,
+        "match_details_skipped_existing": 6,
+        "heatmaps": 0,
+        "livetickers": 29,
+        "videos": 7
+      },
+      "errors": [
+        {
+          "match_id": "5803974",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "match_id": "5803967",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "match_id": "5803955",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "match_id": "5803936",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "match_id": "5803923",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "match_id": "5803899",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "team_id": "8023"
+    },
+    {
       "source": "understat",
-      "retrieved_at": "2026-09-02T07:35:16.547754+00:00",
+      "retrieved_at": "2026-09-12T19:31:41.244811+00:00",
       "layers": {},
       "records": {},
       "errors": [],
       "status": "not_applicable",
       "reason": "competition is outside Understat supported league set"
-    },
-    {
-      "source": "official-sites",
-      "status": "partial",
-      "retrieved_at": "2026-09-02T07:35:16.583910+00:00",
-      "layers": {
-        "news": "available"
-      },
-      "records": {
-        "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215645
-      },
-      "errors": [
-        {
-          "url": "https://www.pogonszczecin.pl/",
-          "error": "HTTP Error 403: Forbidden"
-        }
-      ]
-    },
-    {
-      "source": "fotmob",
-      "status": "success",
-      "retrieved_at": "2026-09-02T07:35:10.912946+00:00",
-      "layers": {
-        "team": "available",
-        "players": "available",
-        "matches": "available",
-        "stats": "available",
-        "events": "available",
-        "spatial": "available"
-      },
-      "records": {
-        "team": 1,
-        "matches": 6,
-        "match_details": 6
-      },
-      "errors": [],
-      "team_id": "8023"
-    },
-    {
-      "source": "sofascore",
-      "status": "error",
-      "retrieved_at": "2026-09-02T07:35:16.389757+00:00",
-      "team": "Pogoń Szczecin",
-      "layers": {},
-      "records": {},
-      "errors": [
-        {
-          "fatal": "HTTP Error 403: Forbidden"
-        }
-      ]
     }
   ],
   "layers": {
-    "news": "available",
-    "team": "available",
-    "players": "available",
     "matches": "available",
-    "stats": "available",
+    "team": "available",
+    "injuries": "available",
+    "record": "available",
+    "transactions": "available",
     "events": "available",
-    "spatial": "available"
+    "stats": "available",
+    "play_by_play": "partial",
+    "probabilities": "partial",
+    "cdn": "partial",
+    "club": "available",
+    "standings": "available",
+    "fixtures": "available",
+    "spatial": "available",
+    "lineups": "partial",
+    "video": "available",
+    "players": "available",
+    "competition": "available"
   },
   "target": {
     "enabled": true,
@@ -75,17 +336,36 @@
     "competition": "Ekstraklasa",
     "team": "Pogoń Szczecin",
     "team_id": "pogo-szczecin",
+    "season": "2026/2027",
     "provider_ids": {
       "fotmob": "8023",
-      "sofascore": "3117"
+      "sofascore": "3117",
+      "espn": "511"
     },
+    "provider_competition_ids": {
+      "fotmob": "196",
+      "sofascore": "202",
+      "espn": "pol.1"
+    },
+    "fotmob_internal_season_id": "37304",
     "public_site_urls": [
       "https://www.pogonszczecin.pl/",
-      "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/"
+      "https://ekstraklasa.org/en/clubs/pogon-szczecin/?tab=stats",
+      "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/",
+      "https://ekstraklasa.org/en/standings/2026-2027/",
+      "https://ekstraklasa.org/statystyki/",
+      "https://ekstraklasa.org/en/statistics/?ranking=xg",
+      "https://ekstraklasa.org/en/schedule/2026-2027/1-round/",
+      "https://ekstraklasa.org/en/schedule/2026-2027/2-round/",
+      "https://ekstraklasa.org/en/schedule/2026-2027/3-round/",
+      "https://ekstraklasa.org/en/schedule/2026-2027/4-round/",
+      "https://ekstraklasa.org/en/schedule/2026-2027/kolejka-5/",
+      "https://ekstraklasa.org/en/schedule/2026-2027/round-6/",
+      "https://ekstraklasa.org/en/schedule/2026-2027/round-7/"
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-02T07:35:18.521763+00:00",
+  "updated_at": "2026-09-12T19:32:02.226742+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
@@ -101,6 +381,12 @@
       "stderr": ""
     },
     {
+      "collector": "collectors/espn_collector.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
       "collector": "collectors/understat_collector.py",
       "returncode": 0,
       "stdout": "",
@@ -109,9 +395,19 @@
     {
       "collector": "collectors/site_collector.py",
       "returncode": 0,
-      "stdout": "",
+      "stdout": "{\"status\": \"partial\", \"pages\": 12, \"embedded_records\": 0, \"html_tables\": 1, \"html_rows\": 19}\n",
       "stderr": ""
     }
   ],
-  "data_score": 90
+  "data_score": 84,
+  "data_quality": {
+    "score": 84,
+    "layer_coverage": 0.965,
+    "source_health": 0.537,
+    "missing_expected_sources": [
+      "sofascore-spa"
+    ],
+    "layer_points": 96.5,
+    "layer_points_possible": 100.0
+  }
 }

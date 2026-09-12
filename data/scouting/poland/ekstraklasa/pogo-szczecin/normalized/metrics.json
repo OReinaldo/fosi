@@ -1,0 +1,934 @@
+{
+  "schema_version": "1.4",
+  "model": "FOSI metrics",
+  "generated_at": "2026-09-12T19:33:40.876784+00:00",
+  "scope": {
+    "country": "Poland",
+    "competition": "Ekstraklasa",
+    "team": "Pogoń Szczecin",
+    "team_id": "pogo-szczecin"
+  },
+  "method": "deterministic-from-normalized",
+  "source_normalized": "data/scouting/poland/ekstraklasa/pogo-szczecin/normalized/fosi.json",
+  "metrics": {
+    "form": {
+      "value": "DDDWW",
+      "observed": 5,
+      "total": 5,
+      "coverage": 1.0,
+      "unit": "result-code",
+      "status": "observed",
+      "source": null
+    },
+    "goals_for": {
+      "value": 8.0,
+      "observed": 7,
+      "total": 7,
+      "coverage": 1.0,
+      "unit": "goals",
+      "status": "observed",
+      "source": null
+    },
+    "goals_against": {
+      "value": 9.0,
+      "observed": 7,
+      "total": 7,
+      "coverage": 1.0,
+      "unit": "goals",
+      "status": "observed",
+      "source": null
+    },
+    "goals_for_per_match": {
+      "value": 1.14,
+      "observed": 7,
+      "total": 7,
+      "coverage": 1.0,
+      "unit": "goals/match",
+      "status": "derived",
+      "source": null
+    },
+    "goals_against_per_match": {
+      "value": 1.29,
+      "observed": 7,
+      "total": 7,
+      "coverage": 1.0,
+      "unit": "goals/match",
+      "status": "derived",
+      "source": null
+    },
+    "xg": {
+      "value": 18.71,
+      "observed": 160,
+      "total": 162,
+      "coverage": 0.988,
+      "unit": "goals",
+      "status": "observed",
+      "source": null
+    },
+    "xga": {
+      "value": 20.7,
+      "observed": 208,
+      "total": 208,
+      "coverage": 1.0,
+      "unit": "goals",
+      "status": "observed",
+      "source": null
+    },
+    "xgot": {
+      "value": 20.15,
+      "observed": 162,
+      "total": 162,
+      "coverage": 1.0,
+      "unit": "goals",
+      "status": "observed",
+      "source": null
+    },
+    "xgot_against": {
+      "value": 15.89,
+      "observed": 208,
+      "total": 208,
+      "coverage": 1.0,
+      "unit": "goals",
+      "status": "observed",
+      "source": null
+    },
+    "xg_per_match": {
+      "value": 2.67,
+      "observed": 7,
+      "total": 7,
+      "coverage": 1.0,
+      "unit": "goals/match",
+      "status": "derived",
+      "source": null
+    },
+    "xga_per_match": {
+      "value": 2.96,
+      "observed": 7,
+      "total": 7,
+      "coverage": 1.0,
+      "unit": "goals/match",
+      "status": "derived",
+      "source": null
+    },
+    "shots_count": {
+      "value": 370,
+      "observed": 370,
+      "total": 370,
+      "coverage": 1.0,
+      "unit": "shots",
+      "status": "observed",
+      "source": null
+    },
+    "shots_with_xg": {
+      "value": 368,
+      "observed": 368,
+      "total": 370,
+      "coverage": 0.995,
+      "unit": "shots",
+      "status": "observed",
+      "source": null
+    },
+    "shots_for": {
+      "value": 162,
+      "observed": 6,
+      "total": 7,
+      "coverage": 0.857,
+      "unit": "shots",
+      "status": "observed",
+      "source": null
+    },
+    "shots_against": {
+      "value": 208,
+      "observed": 6,
+      "total": 7,
+      "coverage": 0.857,
+      "unit": "shots",
+      "status": "observed",
+      "source": null
+    },
+    "matches_sample": {
+      "value": 7,
+      "observed": 7,
+      "total": 7,
+      "coverage": 1.0,
+      "unit": "matches",
+      "status": "observed",
+      "source": null
+    },
+    "players_count": {
+      "value": 25,
+      "observed": 25,
+      "total": 25,
+      "coverage": 1.0,
+      "unit": "players",
+      "status": "observed",
+      "source": null
+    },
+    "events_count": {
+      "value": 177,
+      "observed": 177,
+      "total": 177,
+      "coverage": 1.0,
+      "unit": "events",
+      "status": "observed",
+      "source": null
+    },
+    "spatial_actions_count": {
+      "value": 1770,
+      "observed": 1770,
+      "total": 1770,
+      "coverage": 1.0,
+      "unit": "actions",
+      "status": "observed",
+      "source": null
+    },
+    "passes": {
+      "value": null,
+      "observed": 0,
+      "total": 177,
+      "coverage": 0.0,
+      "unit": "provider-unit",
+      "status": "unavailable",
+      "source": null
+    },
+    "recoveries": {
+      "value": null,
+      "observed": 0,
+      "total": 177,
+      "coverage": 0.0,
+      "unit": "provider-unit",
+      "status": "unavailable",
+      "source": null
+    },
+    "losses": {
+      "value": null,
+      "observed": 0,
+      "total": 177,
+      "coverage": 0.0,
+      "unit": "provider-unit",
+      "status": "unavailable",
+      "source": null
+    },
+    "tackles": {
+      "value": null,
+      "observed": 0,
+      "total": 177,
+      "coverage": 0.0,
+      "unit": "provider-unit",
+      "status": "unavailable",
+      "source": null
+    },
+    "interceptions": {
+      "value": null,
+      "observed": 0,
+      "total": 177,
+      "coverage": 0.0,
+      "unit": "provider-unit",
+      "status": "unavailable",
+      "source": null
+    },
+    "duels": {
+      "value": null,
+      "observed": 0,
+      "total": 177,
+      "coverage": 0.0,
+      "unit": "provider-unit",
+      "status": "unavailable",
+      "source": null
+    },
+    "final_third_entries": {
+      "value": null,
+      "observed": 0,
+      "total": 177,
+      "coverage": 0.0,
+      "unit": "provider-unit",
+      "status": "unavailable",
+      "source": null
+    },
+    "possession": {
+      "value": null,
+      "observed": 0,
+      "total": 177,
+      "coverage": 0.0,
+      "unit": "provider-unit",
+      "status": "unavailable",
+      "source": null
+    },
+    "corners": {
+      "value": null,
+      "observed": 0,
+      "total": 177,
+      "coverage": 0.0,
+      "unit": "provider-unit",
+      "status": "unavailable",
+      "source": null
+    },
+    "free_kicks": {
+      "value": null,
+      "observed": 0,
+      "total": 177,
+      "coverage": 0.0,
+      "unit": "provider-unit",
+      "status": "unavailable",
+      "source": null
+    }
+  },
+  "xg_by_match": {
+    "5803899": {
+      "for": 2.061271585524082,
+      "against": 6.274703983217478,
+      "for_shots": 20,
+      "against_shots": 50,
+      "for_xgot": 2.802415683865547,
+      "against_xgot": 4.195739611983299
+    },
+    "5803923": {
+      "for": 2.4314626418054104,
+      "against": 2.8026091903448105,
+      "for_shots": 22,
+      "against_shots": 38,
+      "for_xgot": 2.198749229311943,
+      "against_xgot": 1.7876468114554882
+    },
+    "5803936": {
+      "for": 5.301634065806866,
+      "against": 1.7734296303242445,
+      "for_shots": 32,
+      "against_shots": 32,
+      "for_xgot": 6.771906577050686,
+      "against_xgot": 2.3707198165357113
+    },
+    "5803955": {
+      "for": 2.850719593465328,
+      "against": 1.7379947826266289,
+      "for_shots": 26,
+      "against_shots": 28,
+      "for_xgot": 6.443306442350149,
+      "against_xgot": 1.3097142651677132
+    },
+    "5803967": {
+      "for": 1.416087280958891,
+      "against": 3.058185577392578,
+      "for_shots": 16,
+      "against_shots": 34,
+      "for_xgot": 0.03665661811828613,
+      "against_xgot": 2.416121281683445
+    },
+    "5803974": {
+      "for": 4.647412966936827,
+      "against": 5.048738371580839,
+      "for_shots": 44,
+      "against_shots": 26,
+      "for_xgot": 1.898428063839674,
+      "against_xgot": 3.8068989887833595
+    }
+  },
+  "match_metrics": [
+    {
+      "match_id": "5803974",
+      "date": "2026-09-07T18:30:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 8243,
+        "name": "Wisła Płock"
+      },
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "result": "D",
+      "goals_for": 1.0,
+      "goals_against": 1.0,
+      "xg": 4.647,
+      "xga": 5.049,
+      "xgot": 1.898,
+      "xgot_against": 3.807,
+      "shots_for": 44,
+      "shots_against": 26
+    },
+    {
+      "match_id": "5803967",
+      "date": "2026-08-29T18:15:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8021,
+        "name": "Zagłębie Lubin"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0,
+      "xg": 1.416,
+      "xga": 3.058,
+      "xgot": 0.037,
+      "xgot_against": 2.416,
+      "shots_for": 16,
+      "shots_against": 34
+    },
+    {
+      "match_id": "5803955",
+      "date": "2026-08-23T18:15:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 10265,
+        "name": "Wisła Kraków"
+      },
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "result": "D",
+      "goals_for": 2.0,
+      "goals_against": 2.0,
+      "xg": 2.851,
+      "xga": 1.738,
+      "xgot": 6.443,
+      "xgot_against": 1.31,
+      "shots_for": 26,
+      "shots_against": 28
+    },
+    {
+      "match_id": "5803936",
+      "date": "2026-08-08T15:30:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 89466,
+        "name": "Motor Lublin"
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "result": "W",
+      "goals_for": 3.0,
+      "goals_against": 1.0,
+      "xg": 5.302,
+      "xga": 1.773,
+      "xgot": 6.772,
+      "xgot_against": 2.371,
+      "shots_for": 32,
+      "shots_against": 32
+    },
+    {
+      "match_id": "5803923",
+      "date": "2026-08-03T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 2186,
+        "name": "Cracovia"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "result": "W",
+      "goals_for": 2.0,
+      "goals_against": 0.0,
+      "xg": 2.431,
+      "xga": 2.803,
+      "xgot": 2.199,
+      "xgot_against": 1.788,
+      "shots_for": 22,
+      "shots_against": 38
+    },
+    {
+      "match_id": "5803899",
+      "date": "2026-07-24T18:30:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 8673,
+        "name": "Legia Warszawa"
+      },
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "result": "L",
+      "goals_for": 0.0,
+      "goals_against": 1.0,
+      "xg": 2.061,
+      "xga": 6.275,
+      "xgot": 2.802,
+      "xgot_against": 4.196,
+      "shots_for": 20,
+      "shots_against": 50
+    },
+    {
+      "match_id": "5904696",
+      "date": "2026-07-11T17:30:00.000Z",
+      "competition": "Club Friendlies",
+      "home_team": {
+        "id": 8695,
+        "name": "Fenerbahçe"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "result": "L",
+      "goals_for": 0.0,
+      "goals_against": 4.0
+    }
+  ],
+  "shot_zones_for": {
+    "box-central": 23,
+    "box-wide": 96,
+    "final-third-wide": 18,
+    "final-third-central": 8,
+    "wide": 1
+  },
+  "recent_matches": [
+    {
+      "fosi_id": "match:fotmob:5803974",
+      "provider": "fotmob",
+      "provider_id": "5803974",
+      "date": "2026-09-07T18:30:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "7",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 8243,
+        "name": "Wisła Płock"
+      },
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogo-szczecin/raw/fotmob/matches/5803974.json",
+        "provider_id": "5803974",
+        "retrieved_at": "2026-09-12T19:33:21.053424+00:00"
+      },
+      "status": "finished",
+      "played": true
+    },
+    {
+      "fosi_id": "match:fotmob:5803967",
+      "provider": "fotmob",
+      "provider_id": "5803967",
+      "date": "2026-08-29T18:15:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "6",
+      "home_team": {
+        "id": 8021,
+        "name": "Zagłębie Lubin"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogo-szczecin/raw/fotmob/matches/5803967.json",
+        "provider_id": "5803967",
+        "retrieved_at": "2026-09-12T19:33:21.035959+00:00"
+      },
+      "status": "finished",
+      "played": true
+    },
+    {
+      "fosi_id": "match:fotmob:5803955",
+      "provider": "fotmob",
+      "provider_id": "5803955",
+      "date": "2026-08-23T18:15:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "5",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 10265,
+        "name": "Wisła Kraków"
+      },
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogo-szczecin/raw/fotmob/matches/5803955.json",
+        "provider_id": "5803955",
+        "retrieved_at": "2026-09-12T19:33:21.017464+00:00"
+      },
+      "status": "finished",
+      "played": true
+    },
+    {
+      "fosi_id": "match:fotmob:5803936",
+      "provider": "fotmob",
+      "provider_id": "5803936",
+      "date": "2026-08-08T15:30:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "3",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 89466,
+        "name": "Motor Lublin"
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "result_for_home": "W",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogo-szczecin/raw/fotmob/matches/5803936.json",
+        "provider_id": "5803936",
+        "retrieved_at": "2026-09-12T19:33:20.997739+00:00"
+      },
+      "status": "finished",
+      "played": true
+    },
+    {
+      "fosi_id": "match:fotmob:5803923",
+      "provider": "fotmob",
+      "provider_id": "5803923",
+      "date": "2026-08-03T17:00:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "2",
+      "home_team": {
+        "id": 2186,
+        "name": "Cracovia"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "result_for_home": "L",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogo-szczecin/raw/fotmob/matches/5803923.json",
+        "provider_id": "5803923",
+        "retrieved_at": "2026-09-12T19:33:20.979492+00:00"
+      },
+      "status": "finished",
+      "played": true
+    },
+    {
+      "fosi_id": "match:fotmob:5803899",
+      "provider": "fotmob",
+      "provider_id": "5803899",
+      "date": "2026-07-24T18:30:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "1",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 8673,
+        "name": "Legia Warszawa"
+      },
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "result_for_home": "L",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogo-szczecin/raw/fotmob/matches/5803899.json",
+        "provider_id": "5803899",
+        "retrieved_at": "2026-09-12T19:33:20.960135+00:00"
+      },
+      "status": "finished",
+      "played": true
+    },
+    {
+      "fosi_id": "match:fotmob:5904696",
+      "provider": "fotmob",
+      "provider_id": "5904696",
+      "date": "2026-07-11T17:30:00.000Z",
+      "competition": "Club Friendlies",
+      "round": null,
+      "home_team": {
+        "id": 8695,
+        "name": "Fenerbahçe"
+      },
+      "away_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "result_for_home": "W",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogo-szczecin/raw/fotmob/matches/5904696.json",
+        "provider_id": "5904696",
+        "retrieved_at": "2026-09-12T19:33:21.092943+00:00"
+      },
+      "status": "finished",
+      "played": true
+    }
+  ],
+  "player_metrics": [
+    {
+      "fosi_id": "player:fotmob:180283",
+      "player_id": "180283",
+      "name": "Fredrik Ulvestad",
+      "position": 64,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:558189",
+      "player_id": "558189",
+      "name": "Patryk Dziczek",
+      "position": 64,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1329535",
+      "player_id": "1329535",
+      "name": "Dimitrios Keramitsis",
+      "position": 34,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1188767",
+      "player_id": "1188767",
+      "name": "Léo Borges",
+      "position": 38,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:949336",
+      "player_id": "949336",
+      "name": "Musa Juwara",
+      "position": 82,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:280965",
+      "player_id": "280965",
+      "name": "Benjamin Mendy",
+      "position": 38,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:69541",
+      "player_id": "69541",
+      "name": "Kamil Grosicki",
+      "position": 106,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1078936",
+      "player_id": "1078936",
+      "name": "Paul Mukairu",
+      "position": 106,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1092563",
+      "player_id": "1092563",
+      "name": "Hussein Ali",
+      "position": 32,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:406506",
+      "player_id": "406506",
+      "name": "Linus Wahlqvist Egnell",
+      "position": 32,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:749648",
+      "player_id": "749648",
+      "name": "Attila Szalai",
+      "position": 36,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1667987",
+      "player_id": "1667987",
+      "name": "Maciej Wojciechowski",
+      "position": 86,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:833697",
+      "player_id": "833697",
+      "name": "Darko Churlinov",
+      "position": 87,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1117005",
+      "player_id": "1117005",
+      "name": "Jan Biegański",
+      "position": 76,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:316558",
+      "player_id": "316558",
+      "name": "Jean Pierre Nsame",
+      "position": 105,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:431948",
+      "player_id": "431948",
+      "name": "Kellyn Acosta",
+      "position": 66,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1786208",
+      "player_id": "1786208",
+      "name": "Natan Ława",
+      "position": 85,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:289211",
+      "player_id": "289211",
+      "name": "Valentin Cojocaru",
+      "position": 11,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1439702",
+      "player_id": "1439702",
+      "name": "Filip Čuić",
+      "position": 115,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1901066",
+      "player_id": "1901066",
+      "name": "Jacek Czapliński",
+      "position": 78,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1299888",
+      "player_id": "1299888",
+      "name": "Lukas Willen",
+      "position": 37,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1183326",
+      "player_id": "1183326",
+      "name": "Mads Agger",
+      "position": 83,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:1080510",
+      "player_id": "1080510",
+      "name": "Mor Ndiaye",
+      "position": 76,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:8023",
+      "player_id": "8023",
+      "name": "Paul Mukairu",
+      "position": 106,
+      "stats": {},
+      "per90": {}
+    },
+    {
+      "fosi_id": "player:fotmob:0",
+      "player_id": "0",
+      "name": "Pogoń Szczecin",
+      "position": null,
+      "stats": {},
+      "per90": {}
+    }
+  ],
+  "coverage": {
+    "normalized_records": 2377,
+    "attributed_shots": 370
+  },
+  "team_season_stats_evidence": {
+    "source": "fotmob",
+    "season": "2026/2027",
+    "internal_season_id": "37304",
+    "fields_available": [
+      "expected_goals",
+      "fouls",
+      "goals"
+    ],
+    "fields_promoted": [],
+    "updated_at": "2026-09-12T19:33:40.941446+00:00"
+  }
+}

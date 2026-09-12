@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "retrieved_at": "2026-09-12T19:33:16.659485+00:00",
+  "policy": "retry secondary public assets; preserve RAW; no inferred event-video timestamps",
+  "heatmaps": {
+    "attempted": 6,
+    "downloaded": 0,
+    "skipped": 0,
+    "errors": [
+      {
+        "match_id": "5803899",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "match_id": "5803923",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "match_id": "5803936",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "match_id": "5803955",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "match_id": "5803967",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "match_id": "5803974",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "livetickers": {
+    "attempted": 35,
+    "downloaded": 6,
+    "skipped": 29,
+    "errors": []
+  },
+  "video_event_refs_removed": 0
+}

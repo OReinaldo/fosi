@@ -1,13 +1,39 @@
 {
   "source": "sofascore",
-  "status": "error",
-  "retrieved_at": "2026-09-02T07:35:16.389757+00:00",
-  "team": "Pogoń Szczecin",
-  "layers": {},
-  "records": {},
+  "status": "partial",
+  "retrieved_at": "2026-09-12T19:30:30.175727+00:00",
+  "layers": {
+    "matches": "partial",
+    "stats": "partial",
+    "events": "partial",
+    "spatial": "partial",
+    "lineups": "partial",
+    "video": "unavailable"
+  },
+  "records": {
+    "event": 0,
+    "statistics": 0,
+    "incidents": 0,
+    "lineups": 0,
+    "graph": 0,
+    "shotmap": 0,
+    "media": 0
+  },
   "errors": [
     {
-      "fatal": "HTTP Error 403: Forbidden"
+      "layer": "direct_team_api",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "layer": "matches",
+      "error": "HTTP Error 403: Forbidden"
     }
-  ]
+  ],
+  "attempted_bases": [
+    "https://api.sofascore.com/api/v1",
+    "https://api.sofascore.app/api/v1",
+    "https://www.sofascore.com/api/v1"
+  ],
+  "proxy_configured": false,
+  "gateway_configured": true
 }

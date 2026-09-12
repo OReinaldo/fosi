@@ -1,20 +1,61 @@
 {
   "source": "fotmob",
-  "status": "success",
-  "retrieved_at": "2026-09-02T07:35:10.912946+00:00",
+  "status": "partial",
+  "retrieved_at": "2026-09-12T19:29:13.333627+00:00",
   "layers": {
     "team": "available",
     "players": "available",
+    "competition": "available",
     "matches": "available",
     "stats": "available",
     "events": "available",
-    "spatial": "available"
+    "spatial": "available",
+    "video": "available"
   },
   "records": {
     "team": 1,
-    "matches": 6,
-    "match_details": 6
+    "league": 1,
+    "player_profiles": 19,
+    "player_matches": 19,
+    "player_matches_skipped_existing": 0,
+    "player_match_rows": 431,
+    "player_match_source": "playerData.recentMatches",
+    "transfers": 1,
+    "date_scanned_matches": 11,
+    "date_scan_from": "2026-07-01",
+    "date_scan_to": "2026-10-12",
+    "matches": 35,
+    "match_details": 29,
+    "match_details_skipped_existing": 6,
+    "heatmaps": 0,
+    "livetickers": 29,
+    "videos": 7
   },
-  "errors": [],
+  "errors": [
+    {
+      "match_id": "5803974",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "match_id": "5803967",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "match_id": "5803955",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "match_id": "5803936",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "match_id": "5803923",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "match_id": "5803899",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
   "team_id": "8023"
 }

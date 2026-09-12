@@ -1,17 +1,120 @@
 {
   "source": "official-sites",
   "status": "partial",
-  "retrieved_at": "2026-09-02T07:35:16.583910+00:00",
+  "retrieved_at": "2026-09-12T19:31:41.306048+00:00",
   "layers": {
-    "news": "available"
+    "club": "available",
+    "standings": "available",
+    "stats": "available",
+    "fixtures": "available"
   },
   "records": {
-    "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": 215645
+    "https://ekstraklasa.org/en/clubs/pogon-szczecin/?tab=stats": {
+      "bytes": 667674,
+      "layer": "club",
+      "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
+      "links": 87
+    },
+    "https://ekstraklasa.org/en/clubs/pogon-szczecin/news/": {
+      "bytes": 215645,
+      "layer": "club",
+      "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
+      "links": 34
+    },
+    "https://ekstraklasa.org/en/standings/2026-2027/": {
+      "bytes": 337619,
+      "layer": "standings",
+      "embedded_json_records": 0,
+      "html_tables": 1,
+      "html_table_rows": 19,
+      "links": 43
+    },
+    "https://ekstraklasa.org/statystyki/": {
+      "bytes": 1904038,
+      "layer": "stats",
+      "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
+      "links": 69
+    },
+    "https://ekstraklasa.org/en/statistics/?ranking=xg": {
+      "bytes": 1987829,
+      "layer": "stats",
+      "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
+      "links": 367
+    },
+    "https://ekstraklasa.org/en/schedule/2026-2027/1-round/": {
+      "bytes": 312781,
+      "layer": "fixtures",
+      "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
+      "links": 36
+    },
+    "https://ekstraklasa.org/en/schedule/2026-2027/2-round/": {
+      "bytes": 316647,
+      "layer": "fixtures",
+      "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
+      "links": 38
+    },
+    "https://ekstraklasa.org/en/schedule/2026-2027/3-round/": {
+      "bytes": 323987,
+      "layer": "fixtures",
+      "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
+      "links": 39
+    },
+    "https://ekstraklasa.org/en/schedule/2026-2027/4-round/": {
+      "bytes": 325792,
+      "layer": "fixtures",
+      "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
+      "links": 39
+    },
+    "https://ekstraklasa.org/en/schedule/2026-2027/kolejka-5/": {
+      "bytes": 333637,
+      "layer": "fixtures",
+      "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
+      "links": 37
+    },
+    "https://ekstraklasa.org/en/schedule/2026-2027/round-6/": {
+      "bytes": 339063,
+      "layer": "fixtures",
+      "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
+      "links": 37
+    },
+    "https://ekstraklasa.org/en/schedule/2026-2027/round-7/": {
+      "bytes": 342963,
+      "layer": "fixtures",
+      "embedded_json_records": 0,
+      "html_tables": 0,
+      "html_table_rows": 0,
+      "links": 37
+    }
   },
   "errors": [
     {
       "url": "https://www.pogonszczecin.pl/",
+      "layer": "context",
       "error": "HTTP Error 403: Forbidden"
     }
-  ]
+  ],
+  "structured_records": 0,
+  "structured_tables": 1,
+  "structured_rows": 19,
+  "links": 863
 }
