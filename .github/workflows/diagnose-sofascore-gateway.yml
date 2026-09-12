@@ -1,0 +1,27 @@
+name: FOSI - Diagnose SofaScore gateway
+
+on:
+  workflow_dispatch:
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe protected gateway
+        env:
+          GATEWAY_URL: ${{ secrets.SOFASCORE_GATEWAY_URL }}
+          GATEWAY_TOKEN: ${{ secrets.SOFASCORE_GATEWAY_TOKEN }}
+        run: |
+          set -euo pipefail
+          URL="${GATEWAY_URL%/}/api/v1/team/3117"
+          echo "Gateway configured: $([ -n "$GATEWAY_URL" ] && echo yes || echo no)"
+          echo "Testing protected gateway endpoint..."
+          curl -sS -D /tmp/headers -o /tmp/body -w 'HTTP_STATUS=%{http_code}\n' \
+            -H "Authorization: Bearer ${GATEWAY_TOKEN}" \
+            -H 'Accept: application/json' \
+            --max-time 45 "$URL" | tee /tmp/status
+          echo '--- selected response headers ---'
+          grep -iE '^(x-fosi-|content-type:|cache-control:)' /tmp/headers || true
+          echo '--- response body (first 500 chars) ---'
+          head -c 500 /tmp/body || true
+          echo
