@@ -15596,12 +15596,7 @@
           "stage": ""
         },
         "status": {
-          "utcTime": "2026-09-11T16:00:00.000Z",
-          "halfs": {
-            "firstHalfStarted": "11.09.2026 18:00:51",
-            "secondHalfStarted": "11.09.2026 19:04:05"
-          },
-          "periodLength": 45,
+          "utcTime": "2026-09-11T16:00:00Z",
           "finished": true,
           "started": true,
           "cancelled": false,
@@ -15639,12 +15634,7 @@
           "stage": ""
         },
         "status": {
-          "utcTime": "2026-09-11T18:30:00.000Z",
-          "halfs": {
-            "firstHalfStarted": "11.09.2026 20:32:41",
-            "secondHalfStarted": "11.09.2026 21:32:40"
-          },
-          "periodLength": 45,
+          "utcTime": "2026-09-11T18:30:00Z",
           "finished": true,
           "started": true,
           "cancelled": false,
@@ -15682,7 +15672,11 @@
           "stage": ""
         },
         "status": {
-          "utcTime": "2026-09-12T12:45:00Z",
+          "utcTime": "2026-09-12T12:45:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "12.09.2026 14:45:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
@@ -15712,7 +15706,11 @@
           "stage": ""
         },
         "status": {
-          "utcTime": "2026-09-12T15:30:00Z",
+          "utcTime": "2026-09-12T15:30:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "12.09.2026 17:30:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
@@ -15742,7 +15740,11 @@
           "stage": ""
         },
         "status": {
-          "utcTime": "2026-09-12T18:15:00Z",
+          "utcTime": "2026-09-12T18:15:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "12.09.2026 20:15:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
@@ -24861,12 +24863,8 @@
             "id": "89466"
           },
           "status": {
-            "utcTime": "2026-09-11T16:00:00.000Z",
-            "halfs": {
-              "firstHalfStarted": "11.09.2026 18:00:51",
-              "secondHalfStarted": "11.09.2026 19:04:05"
-            },
-            "periodLength": 45,
+            "utcTime": "2026-09-11T16:00:00Z",
+            "timezone": "",
             "finished": true,
             "started": true,
             "cancelled": false,
@@ -24896,12 +24894,8 @@
             "id": "1957"
           },
           "status": {
-            "utcTime": "2026-09-11T18:30:00.000Z",
-            "halfs": {
-              "firstHalfStarted": "11.09.2026 20:32:41",
-              "secondHalfStarted": "11.09.2026 21:32:40"
-            },
-            "periodLength": 45,
+            "utcTime": "2026-09-11T18:30:00Z",
+            "timezone": "",
             "finished": true,
             "started": true,
             "cancelled": false,
@@ -24931,8 +24925,11 @@
             "id": "8245"
           },
           "status": {
-            "utcTime": "2026-09-12T12:45:00Z",
-            "timezone": "",
+            "utcTime": "2026-09-12T12:45:00.000Z",
+            "halfs": {
+              "firstHalfStarted": "12.09.2026 14:45:00"
+            },
+            "periodLength": 45,
             "started": false,
             "cancelled": false,
             "finished": false
@@ -24954,8 +24951,11 @@
             "id": "2182"
           },
           "status": {
-            "utcTime": "2026-09-12T15:30:00Z",
-            "timezone": "",
+            "utcTime": "2026-09-12T15:30:00.000Z",
+            "halfs": {
+              "firstHalfStarted": "12.09.2026 17:30:00"
+            },
+            "periodLength": 45,
             "started": false,
             "cancelled": false,
             "finished": false
@@ -24977,8 +24977,11 @@
             "id": "4023"
           },
           "status": {
-            "utcTime": "2026-09-12T18:15:00Z",
-            "timezone": "",
+            "utcTime": "2026-09-12T18:15:00.000Z",
+            "halfs": {
+              "firstHalfStarted": "12.09.2026 20:15:00"
+            },
+            "periodLength": 45,
             "started": false,
             "cancelled": false,
             "finished": false
@@ -38380,12 +38383,8 @@
           "id": "89466"
         },
         "status": {
-          "utcTime": "2026-09-11T16:00:00.000Z",
-          "halfs": {
-            "firstHalfStarted": "11.09.2026 18:00:51",
-            "secondHalfStarted": "11.09.2026 19:04:05"
-          },
-          "periodLength": 45,
+          "utcTime": "2026-09-11T16:00:00Z",
+          "timezone": "",
           "finished": true,
           "started": true,
           "cancelled": false,
@@ -38415,12 +38414,8 @@
           "id": "1957"
         },
         "status": {
-          "utcTime": "2026-09-11T18:30:00.000Z",
-          "halfs": {
-            "firstHalfStarted": "11.09.2026 20:32:41",
-            "secondHalfStarted": "11.09.2026 21:32:40"
-          },
-          "periodLength": 45,
+          "utcTime": "2026-09-11T18:30:00Z",
+          "timezone": "",
           "finished": true,
           "started": true,
           "cancelled": false,
@@ -38450,8 +38445,11 @@
           "id": "8245"
         },
         "status": {
-          "utcTime": "2026-09-12T12:45:00Z",
-          "timezone": "",
+          "utcTime": "2026-09-12T12:45:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "12.09.2026 14:45:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
@@ -38473,8 +38471,11 @@
           "id": "2182"
         },
         "status": {
-          "utcTime": "2026-09-12T15:30:00Z",
-          "timezone": "",
+          "utcTime": "2026-09-12T15:30:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "12.09.2026 17:30:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
@@ -38496,8 +38497,11 @@
           "id": "4023"
         },
         "status": {
-          "utcTime": "2026-09-12T18:15:00Z",
-          "timezone": "",
+          "utcTime": "2026-09-12T18:15:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "12.09.2026 20:15:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
