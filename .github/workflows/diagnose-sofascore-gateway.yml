@@ -2,6 +2,9 @@ name: FOSI - Diagnose SofaScore gateway
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/diagnose-sofascore-gateway.yml'
 
 jobs:
   diagnose:
