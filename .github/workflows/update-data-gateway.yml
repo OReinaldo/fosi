@@ -6,7 +6,10 @@ on:
       competition: {description: 'Competition', required: true, default: 'Ekstraklasa'}
       team: {description: 'Team', required: true, default: 'Pogoń Szczecin'}
   push:
-    paths: ['.github/workflows/update-data-gateway.yml']
+    paths:
+      - '.github/workflows/update-data-gateway.yml'
+      - 'collectors/sofascore_collector.py'
+      - 'collectors/sofascore_spa_collector.py'
   schedule:
     - cron: '30 3 * * *'
 permissions:
