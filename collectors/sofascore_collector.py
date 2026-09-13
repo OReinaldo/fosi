@@ -32,10 +32,13 @@ def get_json(path):
             for attempt in range(3):
                 try:
                     r=s.get(url,timeout=35,allow_redirects=True)
-                    telemetry.append({"base":"gateway","status":r.status_code,"attempt":attempt+1,"transport":"curl_cffi_gateway","proxy_configured":False})
+                    item={"base":"gateway","status":r.status_code,"attempt":attempt+1,"transport":"curl_cffi_gateway","proxy_configured":False}
+                    if r.headers.get("x-fosi-upstream"): item["upstream"]=r.headers.get("x-fosi-upstream")
+                    telemetry.append(item)
                     if r.status_code in (403,429): last=RuntimeError(f"HTTP {r.status_code} from SofaScore gateway");time.sleep(1.5*(attempt+1));continue
                     r.raise_for_status();return r.json(),gateway,telemetry
-                except Exception as e:last=e;time.sleep(.8*(attempt+1))
+                except Exception as e:
+                    last=e;time.sleep(.8*(attempt+1))
         except Exception as e:last=e
     try:
         from curl_cffi import requests
@@ -77,6 +80,13 @@ def event_page_url(event):
 
 
 def browser_capture(tid,team_name,events,raw,st):
+    """Capture API responses from SofaScore's own SPA rather than deep-linking to protected API URLs.
+
+    Current SofaScore protection can reject direct API/deep-link traffic even when browser
+    automation is used. The fallback therefore warms an allowed football entry page first,
+    then attempts SPA navigation to the team and match views so the browser itself creates
+    the site's request/session context. No challenge solving or credential bypass is used.
+    """
     try:from playwright.sync_api import sync_playwright
     except Exception as e:st["errors"].append({"layer":"browser","error":f"Playwright unavailable: {e}"});return {}
     captured={};visited=0;team_slug=slugify(team_name) or "pogon-szczecin";team_url=f"https://www.sofascore.com/football/team/{team_slug}/{tid}";wanted=set(DETAILS)
@@ -84,11 +94,11 @@ def browser_capture(tid,team_name,events,raw,st):
     with sync_playwright() as p:
         try:browser=p.chromium.launch(channel="chrome",headless=True,args=["--no-sandbox","--disable-dev-shm-usage"])
         except Exception:browser=p.chromium.launch(headless=True,args=["--no-sandbox","--disable-dev-shm-usage"])
-        context=browser.new_context(user_agent=ua,locale="en-US",viewport={"width":1440,"height":1200},extra_http_headers={"Accept-Language":"en-US,en;q=0.9","X-Requested-With":"XMLHttpRequest"})
-        page=context.new_page();page.set_default_timeout(5000)
+        context=context=browser.new_context(user_agent=ua,locale="en-US",viewport={"width":1440,"height":1200},extra_http_headers={"Accept-Language":"en-US,en;q=0.9"})
+        page=context.new_page();page.set_default_timeout(7000)
         def on_response(resp):
             url=resp.url
-            if "api.sofascore.com/api/v1/" not in url or resp.request.resource_type not in {"xhr","fetch"}:return
+            if "/api/v1/" not in url or resp.request.resource_type not in {"xhr","fetch"}:return
             try:
                 key=url.split("/api/v1/",1)[-1].split("?",1)[0].strip("/");parts=key.split("/")
                 if len(parts)<2 or parts[0]!="event":return
@@ -111,18 +121,54 @@ def browser_capture(tid,team_name,events,raw,st):
                     if loc.count():loc.first.click(timeout=3000);page.wait_for_timeout(1800);return True
                 except BaseException:pass
             return False
-        def prime_team_page():
+        def warm_entry_page():
             try:
-                page.goto(team_url,wait_until="domcontentloaded",timeout=60000);page.wait_for_timeout(7000);click_text(("Matches","Partidos","Resultados"))
-                for _ in range(14):page.evaluate("window.scrollBy(0, Math.max(800, window.innerHeight*0.95))");page.wait_for_timeout(500)
+                page.goto("https://www.sofascore.com/football",wait_until="domcontentloaded",timeout=60000)
+                page.wait_for_timeout(8000)
+                for _ in range(8):page.evaluate("window.scrollBy(0, Math.max(700, window.innerHeight*0.9))");page.wait_for_timeout(500)
+                st["browser_entry"]={"url":page.url,"title":page.title()}
+                return True
+            except BaseException as e:
+                st["errors"].append({"layer":"browser_entry","error":str(e)});return False
+        def navigate_team_spa():
+            # Prefer an actual team link already rendered by the SPA.
+            try:
+                links=page.locator('a[href*="/football/team/"]').evaluate_all("els => els.map(e => ({href:e.href,text:(e.innerText||e.textContent||'').trim()}))")
+                target=next((x for x in links if str(x.get("href","")).rstrip("/").split("/")[-1]==str(tid)),None)
+                if target:
+                    page.locator(f'a[href="{target["href"]}"]').first.click(timeout=5000);page.wait_for_timeout(5000);return True
+            except BaseException:pass
+            # If the entry page exposes a search field, use the site's own UI to resolve the team.
+            try:
+                inputs=page.locator('input').all()
+                for inp in inputs:
+                    ph=(inp.get_attribute("placeholder") or "").lower()
+                    aria=(inp.get_attribute("aria-label") or "").lower()
+                    if any(x in f"{ph} {aria}" for x in ("search","buscar")):
+                        inp.fill(team_name);page.wait_for_timeout(2500)
+                        page.get_by_text(team_name,exact=False).first.click(timeout=4000);page.wait_for_timeout(5000);return True
+            except BaseException:pass
+            return False
+        warm_entry_page();team_nav=navigate_team_spa();st["browser_team_navigation"]={"spa_navigation":team_nav,"current_url":page.url}
+        if not team_nav:
+            try:
+                page.goto(team_url,wait_until="domcontentloaded",timeout=50000);page.wait_for_timeout(4000)
             except BaseException as e:st["errors"].append({"layer":"browser_team_page","error":str(e)})
-        prime_team_page();hrefs=[]
+        try:click_text(("Matches","Partidos","Resultados"))
+        except BaseException:pass
+        for _ in range(14):page.evaluate("window.scrollBy(0, Math.max(800, window.innerHeight*0.95))");page.wait_for_timeout(500)
+        hrefs=[]
         try:hrefs=page.locator('a[href*="/football/match/"]').evaluate_all("els => els.map(e => e.href)")
         except BaseException:pass
-        candidates=list(dict.fromkeys(hrefs+[event_page_url(e) for e in events]));st["browser_discovery"]={"team_url":team_url,"dom_match_links":len(hrefs),"candidate_pages":len(candidates)}
+        candidates=list(dict.fromkeys(hrefs+[event_page_url(e) for e in events]))
+        st["browser_discovery"]={"team_url":team_url,"dom_match_links":len(hrefs),"candidate_pages":len(candidates)}
         for href in candidates:
             try:
-                page.goto(href,wait_until="domcontentloaded",timeout=50000);page.wait_for_timeout(2800)
+                # When possible, click an existing SPA match link instead of deep-linking.
+                loc=page.locator(f'a[href="{href}"]')
+                if loc.count():loc.first.click(timeout=4000)
+                else:page.goto(href,wait_until="domcontentloaded",timeout=50000)
+                page.wait_for_timeout(2800)
                 for labels in (("Statistics","Estadísticas","Stats"),("Lineups","Alineaciones"),("Media","Videos","Vídeos")):click_text(labels)
                 for _ in range(10):page.evaluate("window.scrollBy(0, Math.max(700, window.innerHeight*0.85))");page.wait_for_timeout(450)
                 visited+=1
@@ -159,7 +205,7 @@ def main():
                 except Exception:pass
                 time.sleep(.12)
         missing=not events or any(counts[k]<len(events) for k in ("event","statistics","incidents","lineups","shotmap","media"))
-        if missing and not (st["errors"] and not events):browser_capture(tid,team_name,events,raw,st)
+        if missing:browser_capture(tid,team_name,events,raw,st)
         for k in counts:counts[k]=sum(1 for e in events if (raw/"matches"/str(e["id"])/(k+".json")).exists())
         st["records"].update(counts);st["layers"]["matches"]="available" if events else "partial";st["layers"]["stats"]="available" if counts["statistics"] else "partial";st["layers"]["events"]="available" if counts["incidents"] else "partial";st["layers"]["spatial"]="available" if counts["shotmap"] else "partial";st["layers"]["lineups"]="available" if counts["lineups"] else "partial";st["layers"]["video"]="available" if counts["media"] else "unavailable"
         all403=bool(st.get("transport_telemetry")) and all(x.get("status") in (403,429) for x in st["transport_telemetry"] if x.get("transport") in {"curl_cffi","curl_cffi_gateway"})
