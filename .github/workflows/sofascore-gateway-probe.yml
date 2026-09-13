@@ -1,0 +1,49 @@
+name: FOSI - SofaScore gateway probe
+on:
+  push:
+    paths:
+      - '.github/workflows/sofascore-gateway-probe.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '45 3 * * *'
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe protected gateway
+        env:
+          GATEWAY_URL: ${{ secrets.SOFASCORE_GATEWAY_URL }}
+          GATEWAY_TOKEN: ${{ secrets.SOFASCORE_GATEWAY_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "${GATEWAY_URL}" ] || [ -z "${GATEWAY_TOKEN}" ]; then
+            echo 'Gateway secrets are not configured'
+            exit 1
+          fi
+          URL="${GATEWAY_URL%/}/api/v1/team/3117/events/last/0"
+          tmp=$(mktemp)
+          code=$(curl -sS -L --max-time 30 -o "$tmp" -w '%{http_code}' \
+            -H "Authorization: Bearer ${GATEWAY_TOKEN}" \
+            -H 'Accept: application/json' \
+            -H 'User-Agent: FOSI-SofaScore-Probe/1.0' \
+            -D headers.txt "$URL")
+          echo "http_code=${code}"
+          echo 'gateway_upstream='$(grep -i '^x-fosi-upstream:' headers.txt | tail -1 | sed 's/\r$//' || true)
+          echo 'content_type='$(grep -i '^content-type:' headers.txt | tail -1 | sed 's/\r$//' || true)
+          echo 'response_prefix:'
+          head -c 300 "$tmp" | tr '\n' ' '
+          echo
+          if [ "$code" = '200' ]; then
+            echo 'SOFASCORE_GATEWAY_OK=1'
+          elif [ "$code" = '401' ]; then
+            echo 'SOFASCORE_GATEWAY_AUTH_FAILED=1'
+            exit 2
+          elif [ "$code" = '502' ]; then
+            echo 'SOFASCORE_UPSTREAM_BLOCKED_OR_UNAVAILABLE=1'
+            exit 3
+          else
+            echo "SOFASCORE_GATEWAY_HTTP=${code}"
+            exit 4
+          fi
