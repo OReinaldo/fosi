@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4",
   "model": "FOSI metrics",
-  "generated_at": "2026-09-13T08:06:01.982267+00:00",
+  "generated_at": "2026-09-13T20:57:30.648045+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -12,7 +12,7 @@
   "source_normalized": "data/scouting/poland/ekstraklasa/pogon-szczecin/normalized/fosi.json",
   "metrics": {
     "form": {
-      "value": "DDDWW",
+      "value": "DDDDW",
       "observed": 5,
       "total": 5,
       "coverage": 1.0,
@@ -22,80 +22,80 @@
     },
     "goals_for": {
       "value": 7.0,
-      "observed": 7,
-      "total": 7,
-      "coverage": 1.0,
+      "observed": 8,
+      "total": 9,
+      "coverage": 0.889,
       "unit": "goals",
       "status": "observed",
       "source": null
     },
     "goals_against": {
       "value": 8.0,
-      "observed": 7,
-      "total": 7,
-      "coverage": 1.0,
+      "observed": 8,
+      "total": 9,
+      "coverage": 0.889,
       "unit": "goals",
       "status": "observed",
       "source": null
     },
     "goals_for_per_match": {
-      "value": 1.0,
-      "observed": 7,
-      "total": 7,
+      "value": 0.88,
+      "observed": 9,
+      "total": 9,
       "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
       "source": null
     },
     "goals_against_per_match": {
-      "value": 1.14,
-      "observed": 7,
-      "total": 7,
+      "value": 1.0,
+      "observed": 9,
+      "total": 9,
       "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
       "source": null
     },
     "xg": {
-      "value": 14.7,
-      "observed": 120,
-      "total": 122,
+      "value": 15.52,
+      "observed": 124,
+      "total": 126,
       "coverage": 0.984,
       "unit": "goals",
       "status": "observed",
       "source": null
     },
     "xga": {
-      "value": 15.65,
-      "observed": 182,
-      "total": 182,
+      "value": 20.16,
+      "observed": 196,
+      "total": 196,
       "coverage": 1.0,
       "unit": "goals",
       "status": "observed",
       "source": null
     },
     "xgot": {
-      "value": 19.17,
-      "observed": 122,
-      "total": 122,
+      "value": 19.99,
+      "observed": 126,
+      "total": 126,
       "coverage": 1.0,
       "unit": "goals",
       "status": "observed",
       "source": null
     },
     "xgot_against": {
-      "value": 12.08,
-      "observed": 182,
-      "total": 182,
+      "value": 17.07,
+      "observed": 196,
+      "total": 196,
       "coverage": 1.0,
       "unit": "goals",
       "status": "observed",
       "source": null
     },
     "xg_per_match": {
-      "value": 2.1,
-      "observed": 7,
-      "total": 7,
+      "value": 1.72,
+      "observed": 9,
+      "total": 9,
       "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
@@ -103,62 +103,62 @@
     },
     "xga_per_match": {
       "value": 2.24,
-      "observed": 7,
-      "total": 7,
+      "observed": 9,
+      "total": 9,
       "coverage": 1.0,
       "unit": "goals/match",
       "status": "derived",
       "source": null
     },
     "shots_count": {
-      "value": 304,
-      "observed": 304,
-      "total": 304,
+      "value": 322,
+      "observed": 322,
+      "total": 322,
       "coverage": 1.0,
       "unit": "shots",
       "status": "observed",
       "source": null
     },
     "shots_with_xg": {
-      "value": 302,
-      "observed": 302,
-      "total": 304,
-      "coverage": 0.993,
+      "value": 320,
+      "observed": 320,
+      "total": 322,
+      "coverage": 0.994,
       "unit": "shots",
       "status": "observed",
       "source": null
     },
     "shots_for": {
-      "value": 122,
-      "observed": 6,
-      "total": 7,
-      "coverage": 0.857,
+      "value": 126,
+      "observed": 7,
+      "total": 9,
+      "coverage": 0.778,
       "unit": "shots",
       "status": "observed",
       "source": null
     },
     "shots_against": {
-      "value": 182,
-      "observed": 5,
-      "total": 7,
-      "coverage": 0.714,
+      "value": 196,
+      "observed": 10,
+      "total": 9,
+      "coverage": 1.111,
       "unit": "shots",
       "status": "observed",
       "source": null
     },
     "matches_sample": {
-      "value": 7,
-      "observed": 7,
-      "total": 7,
+      "value": 9,
+      "observed": 9,
+      "total": 9,
       "coverage": 1.0,
       "unit": "matches",
       "status": "observed",
       "source": null
     },
     "players_count": {
-      "value": 24,
-      "observed": 24,
-      "total": 24,
+      "value": 25,
+      "observed": 25,
+      "total": 25,
       "coverage": 1.0,
       "unit": "players",
       "status": "observed",
@@ -321,9 +321,83 @@
       "against_shots": 0,
       "for_xgot": 0.916628122329712,
       "against_xgot": 0.0
+    },
+    "5803905": {
+      "for": 0.0,
+      "against": 0.94574761390686,
+      "for_shots": 0,
+      "against_shots": 2,
+      "for_xgot": 0.0,
+      "against_xgot": 0.994592249393463
+    },
+    "5803928": {
+      "for": 0.0,
+      "against": 1.4394935965538012,
+      "for_shots": 0,
+      "against_shots": 5,
+      "for_xgot": 0.0,
+      "against_xgot": 1.554334402084351
+    },
+    "5803940": {
+      "for": 0.0,
+      "against": 0.8727267980575559,
+      "for_shots": 0,
+      "against_shots": 2,
+      "for_xgot": 0.0,
+      "against_xgot": 0.826170980930328
+    },
+    "5803942": {
+      "for": 0.0,
+      "against": 0.8297357112169264,
+      "for_shots": 0,
+      "against_shots": 3,
+      "for_xgot": 0.0,
+      "against_xgot": 1.0749584287405014
+    },
+    "5803965": {
+      "for": 0.0,
+      "against": 0.427732191979885,
+      "for_shots": 0,
+      "against_shots": 2,
+      "for_xgot": 0.0,
+      "against_xgot": 0.5397807061672214
+    },
+    "5803979": {
+      "for": 0.8237848300486804,
+      "against": 0.0,
+      "for_shots": 4,
+      "against_shots": 0,
+      "for_xgot": 0.820334807038307,
+      "against_xgot": 0.0
     }
   },
   "match_metrics": [
+    {
+      "match_id": "5803979",
+      "date": "2026-09-13T12:45:00.000Z",
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 1286895,
+        "name": "Wieczysta Kraków"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result": "D",
+      "goals_for": 0.0,
+      "goals_against": 0.0,
+      "xg": 0.824,
+      "xga": 0.0,
+      "xgot": 0.82,
+      "xgot_against": 0.0,
+      "shots_for": 4,
+      "shots_against": 0
+    },
     {
       "match_id": "5803974",
       "date": "2026-09-07T18:30:00.000Z",
@@ -499,16 +573,71 @@
       "result": "L",
       "goals_for": 0.0,
       "goals_against": 4.0
+    },
+    {
+      "match_id": "5803905",
+      "date": null,
+      "competition": "Ekstraklasa",
+      "home_team": {
+        "id": null,
+        "name": null
+      },
+      "away_team": {
+        "id": null,
+        "name": null
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "result": null,
+      "goals_for": null,
+      "goals_against": null,
+      "xg": 0.0,
+      "xga": 0.946,
+      "xgot": 0.0,
+      "xgot_against": 0.995,
+      "shots_for": 0,
+      "shots_against": 2
     }
   ],
   "shot_zones_for": {
     "box-central": 19,
-    "box-wide": 66,
+    "box-wide": 69,
     "final-third-wide": 14,
     "final-third-central": 6,
     "wide": 1
   },
   "recent_matches": [
+    {
+      "fosi_id": "match:fotmob:5803979",
+      "provider": "fotmob",
+      "provider_id": "5803979",
+      "date": "2026-09-13T12:45:00.000Z",
+      "competition": "Ekstraklasa",
+      "round": "8",
+      "home_team": {
+        "id": 8023,
+        "name": "Pogoń Szczecin"
+      },
+      "away_team": {
+        "id": 1286895,
+        "name": "Wieczysta Kraków"
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "result_for_home": "D",
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803979.json",
+        "provider_id": "5803979",
+        "retrieved_at": "2026-09-13T20:57:11.823706+00:00"
+      },
+      "status": "finished",
+      "played": true
+    },
     {
       "fosi_id": "match:fotmob:5803974",
       "provider": "fotmob",
@@ -533,7 +662,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803974.json",
         "provider_id": "5803974",
-        "retrieved_at": "2026-09-13T08:05:43.244698+00:00"
+        "retrieved_at": "2026-09-13T20:57:11.821189+00:00"
       },
       "status": "finished",
       "played": true
@@ -562,7 +691,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803967.json",
         "provider_id": "5803967",
-        "retrieved_at": "2026-09-13T08:05:43.230438+00:00"
+        "retrieved_at": "2026-09-13T20:57:11.806022+00:00"
       },
       "status": "finished",
       "played": true
@@ -591,7 +720,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803955.json",
         "provider_id": "5803955",
-        "retrieved_at": "2026-09-13T08:05:43.211239+00:00"
+        "retrieved_at": "2026-09-13T20:57:11.787221+00:00"
       },
       "status": "finished",
       "played": true
@@ -620,7 +749,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803936.json",
         "provider_id": "5803936",
-        "retrieved_at": "2026-09-13T08:05:43.190941+00:00"
+        "retrieved_at": "2026-09-13T20:57:11.766678+00:00"
       },
       "status": "finished",
       "played": true
@@ -649,7 +778,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803923.json",
         "provider_id": "5803923",
-        "retrieved_at": "2026-09-13T08:05:43.171707+00:00"
+        "retrieved_at": "2026-09-13T20:57:11.747478+00:00"
       },
       "status": "finished",
       "played": true
@@ -678,7 +807,7 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5803899.json",
         "provider_id": "5803899",
-        "retrieved_at": "2026-09-13T08:05:43.151407+00:00"
+        "retrieved_at": "2026-09-13T20:57:11.728468+00:00"
       },
       "status": "finished",
       "played": true
@@ -707,10 +836,39 @@
         "source": "fotmob",
         "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/matches/5904696.json",
         "provider_id": "5904696",
-        "retrieved_at": "2026-09-13T08:05:43.270104+00:00"
+        "retrieved_at": "2026-09-13T20:57:11.846651+00:00"
       },
       "status": "finished",
       "played": true
+    },
+    {
+      "fosi_id": "match:fotmob:5803905",
+      "provider": "fotmob",
+      "provider_id": "5803905",
+      "date": null,
+      "competition": "Ekstraklasa",
+      "round": null,
+      "home_team": {
+        "id": null,
+        "name": null
+      },
+      "away_team": {
+        "id": null,
+        "name": null
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "result_for_home": null,
+      "source_meta": {
+        "source": "fotmob",
+        "raw_path": "poland/ekstraklasa/pogon-szczecin/raw/fotmob/players/813076.json",
+        "provider_id": "5803905",
+        "retrieved_at": "2026-09-13T20:57:12.158697+00:00"
+      },
+      "status": "unresolved",
+      "played": false
     }
   ],
   "player_metrics": [
@@ -899,6 +1057,16 @@
       "per90": {}
     },
     {
+      "fosi_id": "player:fotmob:813076",
+      "player_id": "813076",
+      "name": "Jordi Sánchez",
+      "position": null,
+      "stats": {
+        "goals": 7
+      },
+      "per90": {}
+    },
+    {
       "fosi_id": "player:fotmob:0",
       "player_id": "0",
       "name": "Pogoń Szczecin",
@@ -908,8 +1076,8 @@
     }
   ],
   "coverage": {
-    "normalized_records": 1997,
-    "attributed_shots": 304
+    "normalized_records": 2017,
+    "attributed_shots": 322
   },
   "team_season_stats_evidence": {
     "source": "fotmob",
@@ -921,6 +1089,6 @@
       "goals"
     ],
     "fields_promoted": [],
-    "updated_at": "2026-09-13T08:06:02.048358+00:00"
+    "updated_at": "2026-09-13T20:57:30.711402+00:00"
   }
 }

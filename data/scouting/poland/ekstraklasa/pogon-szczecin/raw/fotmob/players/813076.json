@@ -1,0 +1,5266 @@
+{
+  "id": 813076,
+  "name": "Jordi Sánchez",
+  "birthDate": {
+    "utcTime": "1994-11-11T00:00:00.000Z",
+    "timezone": "UTC"
+  },
+  "isCoach": false,
+  "isCaptain": false,
+  "gender": "male",
+  "primaryTeam": {
+    "teamId": 8023,
+    "teamName": "Pogoń Szczecin",
+    "onLoan": false,
+    "teamColors": {
+      "color": "#102457",
+      "colorAlternate": "#1753a4",
+      "colorAway": "#880E02",
+      "colorAwayAlternate": "#9f2815"
+    }
+  },
+  "positionDescription": {
+    "positions": [
+      {
+        "strPos": {
+          "label": "Left Winger",
+          "key": "leftwinger"
+        },
+        "strPosShort": {
+          "label": "LW",
+          "key": "leftwinger_short"
+        },
+        "occurences": 1,
+        "position": "107",
+        "isMainPosition": false,
+        "pitchPositionData": null
+      },
+      {
+        "strPos": {
+          "label": "Striker",
+          "key": "striker"
+        },
+        "strPosShort": {
+          "label": "ST",
+          "key": "striker_short"
+        },
+        "occurences": 6,
+        "position": "115",
+        "isMainPosition": true,
+        "pitchPositionData": {
+          "right": 0.5,
+          "top": 0.1
+        }
+      }
+    ],
+    "primaryPosition": {
+      "label": "Striker",
+      "key": "striker"
+    },
+    "nonPrimaryPositions": []
+  },
+  "injuryInformation": null,
+  "internationalDuty": null,
+  "playerInformation": [
+    {
+      "value": {
+        "numberValue": 190,
+        "key": null,
+        "fallback": "190 cm"
+      },
+      "title": "Height",
+      "translationKey": "height_sentencecase"
+    },
+    {
+      "value": {
+        "numberValue": 22,
+        "options": {},
+        "key": null,
+        "fallback": 22
+      },
+      "title": "Shirt",
+      "translationKey": "shirt"
+    },
+    {
+      "value": {
+        "numberValue": 31,
+        "options": {
+          "style": "unit",
+          "unit": "year",
+          "unitDisplay": "long"
+        },
+        "key": null,
+        "fallback": "31"
+      },
+      "title": "Age",
+      "translationKey": "age_sentencecase"
+    },
+    {
+      "value": {
+        "key": "right",
+        "fallback": "Right"
+      },
+      "title": "Preferred foot",
+      "translationKey": "preferred_foot"
+    },
+    {
+      "value": {
+        "key": null,
+        "fallback": "Spain"
+      },
+      "title": "Country",
+      "translationKey": "country_sentencecase",
+      "icon": {
+        "type": "country",
+        "id": "ESP"
+      },
+      "countryCode": "ESP"
+    },
+    {
+      "value": {
+        "numberValue": 135751,
+        "key": null,
+        "fallback": "€135.8k"
+      },
+      "title": "Market value",
+      "translationKey": "transfer_value"
+    }
+  ],
+  "mainLeague": {
+    "leagueId": 196,
+    "leagueName": "Ekstraklasa",
+    "season": "2026/2027",
+    "stats": [
+      {
+        "title": "Goals",
+        "localizedTitleId": "goals",
+        "value": 7
+      },
+      {
+        "title": "Assists",
+        "localizedTitleId": "assists",
+        "value": 1
+      },
+      {
+        "title": "Started",
+        "localizedTitleId": "started",
+        "value": 8
+      },
+      {
+        "title": "Matches",
+        "localizedTitleId": "matches_uppercase",
+        "value": 8
+      },
+      {
+        "title": "Minutes played",
+        "localizedTitleId": "minutes_played",
+        "value": 671
+      },
+      {
+        "title": "Rating",
+        "localizedTitleId": "rating",
+        "value": 7.61
+      },
+      {
+        "title": "Yellow cards",
+        "localizedTitleId": "yellow_cards",
+        "value": 2
+      },
+      {
+        "title": "Red cards",
+        "localizedTitleId": "red_cards",
+        "value": 0
+      }
+    ]
+  },
+  "trophies": null,
+  "recentMatches": [
+    {
+      "teamId": 8023,
+      "teamName": "Pogoń Szczecin",
+      "opponentTeamId": 1286895,
+      "opponentTeamName": "Wieczysta Kraków",
+      "isHomeTeam": true,
+      "id": 5803979,
+      "matchDate": {
+        "utcTime": "2026-09-13T12:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-wieczysta-krakow/ap5pv1fw#5803979",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "minutesPlayed": 90,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.8",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 115,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 10265,
+      "teamName": "Wisła Kraków",
+      "opponentTeamId": 8245,
+      "opponentTeamName": "Korona Kielce",
+      "isHomeTeam": false,
+      "id": 5803970,
+      "matchDate": {
+        "utcTime": "2026-09-05T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/korona-kielce-vs-wisa-krakow/2u056m#5803970",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minutesPlayed": 90,
+      "goals": 0,
+      "assists": 1,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.5",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 115,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 10265,
+      "teamName": "Wisła Kraków",
+      "opponentTeamId": 1286895,
+      "opponentTeamName": "Wieczysta Kraków",
+      "isHomeTeam": true,
+      "id": 5803965,
+      "matchDate": {
+        "utcTime": "2026-08-29T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/wisa-krakow-vs-wieczysta-krakow/aqhsm4k3#5803965",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "minutesPlayed": 73,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.8",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 115,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 10265,
+      "teamName": "Wisła Kraków",
+      "opponentTeamId": 8023,
+      "opponentTeamName": "Pogoń Szczecin",
+      "isHomeTeam": false,
+      "id": 5803955,
+      "matchDate": {
+        "utcTime": "2026-08-23T18:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-krakow/2rkl8v#5803955",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 2,
+      "minutesPlayed": 81,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.5",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 115,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 10265,
+      "teamName": "Wisła Kraków",
+      "opponentTeamId": 8020,
+      "opponentTeamName": "Górnik Zabrze",
+      "isHomeTeam": false,
+      "id": 5803942,
+      "matchDate": {
+        "utcTime": "2026-08-16T18:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/gornik-zabrze-vs-wisa-krakow/2rjewv#5803942",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "minutesPlayed": 90,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.1",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 115,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 10265,
+      "teamName": "Wisła Kraków",
+      "opponentTeamId": 8243,
+      "opponentTeamName": "Wisła Płock",
+      "isHomeTeam": true,
+      "id": 5803940,
+      "matchDate": {
+        "utcTime": "2026-08-07T18:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/wisa-pock-vs-wisa-krakow/2tzcm9#5803940",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "minutesPlayed": 90,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.9",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 115,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 10265,
+      "teamName": "Wisła Kraków",
+      "opponentTeamId": 8028,
+      "opponentTeamName": "Piast Gliwice",
+      "isHomeTeam": false,
+      "id": 5803928,
+      "matchDate": {
+        "utcTime": "2026-08-01T12:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/piast-gliwice-vs-wisa-krakow/2rmjtf#5803928",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 4,
+      "awayScore": 3,
+      "minutesPlayed": 90,
+      "goals": 2,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "8.8",
+        "isTopRating": true
+      },
+      "playerOfTheMatch": true,
+      "onBench": false,
+      "lineupPositionId": 115,
+      "playedInMatch": true
+    },
+    {
+      "teamId": 10265,
+      "teamName": "Wisła Kraków",
+      "opponentTeamId": 4023,
+      "opponentTeamName": "GKS Katowice",
+      "isHomeTeam": true,
+      "id": 5803905,
+      "matchDate": {
+        "utcTime": "2026-07-26T18:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/gks-katowice-vs-wisa-krakow/1os10f#5803905",
+      "leagueId": 196,
+      "leagueName": "Ekstraklasa",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "minutesPlayed": 67,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.4",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false,
+      "lineupPositionId": 115,
+      "playedInMatch": true
+    }
+  ],
+  "matchesUrl": "https://pub.fotmob.com/prod/db/api/player/813076/matches",
+  "careerHistory": {
+    "showFootnote": false,
+    "careerItems": {
+      "senior": {
+        "teamEntries": [
+          {
+            "participantId": 813076,
+            "teamId": 8023,
+            "team": "Pogoń Szczecin",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2026-09-08T00:00:00",
+            "endDate": null,
+            "active": true,
+            "role": null,
+            "appearances": "1",
+            "goals": "1",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 813076,
+            "teamId": 10265,
+            "team": "Wisła Kraków",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "free transfer",
+              "localizationKey": "free_transfer"
+            },
+            "startDate": "2026-01-26T00:00:00",
+            "endDate": "2026-09-08T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "19",
+            "goals": "8",
+            "assists": "1",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 813076,
+            "teamId": 112688,
+            "team": "Hokkaido Consadole Sapporo",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2024-07-13T00:00:00",
+            "endDate": "2026-01-07T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "20",
+            "goals": "2",
+            "assists": "1",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 813076,
+            "teamId": 8024,
+            "team": "Widzew Łódź",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2022-07-02T00:00:00",
+            "endDate": "2024-07-13T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "65",
+            "goals": "19",
+            "assists": "5",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 813076,
+            "teamId": 8393,
+            "team": "Albacete",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2021-07-01T00:00:00",
+            "endDate": "2022-07-01T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "40",
+            "goals": "8",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 813076,
+            "teamId": 189783,
+            "team": "UCAM Murcia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            },
+            "startDate": "2021-01-29T00:00:00",
+            "endDate": "2021-06-20T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "14",
+            "goals": "4",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 813076,
+            "teamId": 10279,
+            "team": "Castellón",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2020-08-28T00:00:00",
+            "endDate": "2021-01-29T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "19",
+            "goals": "0",
+            "assists": "1",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 813076,
+            "teamId": 161777,
+            "team": "Valencia B",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            },
+            "startDate": "2019-07-12T00:00:00",
+            "endDate": "2020-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "25",
+            "goals": "8",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 813076,
+            "teamId": 1123073,
+            "team": "UD Ibiza",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            },
+            "startDate": "2019-01-31T00:00:00",
+            "endDate": "2019-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "12",
+            "goals": "2",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 813076,
+            "teamId": 8388,
+            "team": "Numancia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2018-07-02T00:00:00",
+            "endDate": "2019-01-31T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "8",
+            "goals": "1",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 813076,
+            "teamId": 161777,
+            "team": "Valencia B",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2016-07-05T00:00:00",
+            "endDate": "2018-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "72",
+            "goals": "16",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 813076,
+            "teamId": 2241,
+            "team": "Badalona",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2013-05-01T00:00:00",
+            "endDate": "2014-08-18T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "6",
+            "goals": "1",
+            "assists": "0",
+            "hasUncertainData": false
+          }
+        ],
+        "seasonEntries": [
+          {
+            "seasonName": "2026/2027",
+            "appearances": "1",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": "7.61"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 196,
+                "leagueName": "Ekstraklasa",
+                "seasonName": "2026/2027",
+                "tournamentId": 37304,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "7.61"
+                }
+              }
+            ],
+            "teamId": 8023,
+            "team": "Pogoń Szczecin",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2026/2027",
+            "appearances": "8",
+            "goals": "6",
+            "assists": "1",
+            "rating": {
+              "rating": "7.61"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 196,
+                "leagueName": "Ekstraklasa",
+                "seasonName": "2026/2027",
+                "tournamentId": 37304,
+                "goals": "6",
+                "assists": "1",
+                "appearances": "7",
+                "rating": {
+                  "rating": "7.61"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueName": "Cup",
+                "seasonName": "2026/2027",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 10265,
+            "team": "Wisła Kraków",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "free transfer",
+              "localizationKey": "free_transfer"
+            }
+          },
+          {
+            "seasonName": "2025/2026",
+            "appearances": "11",
+            "goals": "2",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 197,
+                "leagueName": "I Liga",
+                "seasonName": "2025/2026",
+                "tournamentId": 27140,
+                "goals": "2",
+                "assists": "undefined",
+                "appearances": "11",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 10265,
+            "team": "Wisła Kraków",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "free transfer",
+              "localizationKey": "free_transfer"
+            }
+          },
+          {
+            "seasonName": "2025",
+            "appearances": "10",
+            "goals": "1",
+            "assists": "1",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 224,
+                "leagueName": "J. League Cup",
+                "seasonName": "2025",
+                "tournamentId": 24613,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueName": "J2 League",
+                "seasonName": "2025",
+                "tournamentId": -1,
+                "goals": "1",
+                "assists": "1",
+                "appearances": "9",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 112688,
+            "team": "Hokkaido Consadole Sapporo",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2024",
+            "appearances": "10",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": "6.06"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 223,
+                "leagueName": "J. League",
+                "seasonName": "2024",
+                "tournamentId": 22617,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "7",
+                "rating": {
+                  "rating": "6.06"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 224,
+                "leagueName": "J. League Cup",
+                "seasonName": "2024",
+                "tournamentId": 22828,
+                "goals": "1",
+                "assists": "undefined",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueName": "Emperor Cup",
+                "seasonName": "2024",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 112688,
+            "team": "Hokkaido Consadole Sapporo",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2023/2024",
+            "appearances": "35",
+            "goals": "11",
+            "assists": "3",
+            "rating": {
+              "rating": "6.84"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 196,
+                "leagueName": "Ekstraklasa",
+                "seasonName": "2023/2024",
+                "tournamentId": 20954,
+                "goals": "8",
+                "assists": "3",
+                "appearances": "31",
+                "rating": {
+                  "rating": "6.84"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueName": "Cup",
+                "seasonName": "2023/2024",
+                "tournamentId": -1,
+                "goals": "3",
+                "assists": "undefined",
+                "appearances": "4",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8024,
+            "team": "Widzew Łódź",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2022/2023",
+            "appearances": "30",
+            "goals": "8",
+            "assists": "2",
+            "rating": {
+              "rating": "6.65"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 196,
+                "leagueName": "Ekstraklasa",
+                "seasonName": "2022/2023",
+                "tournamentId": 17716,
+                "goals": "6",
+                "assists": "2",
+                "appearances": "29",
+                "rating": {
+                  "rating": "6.65"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueName": "Cup",
+                "seasonName": "2022/2023",
+                "tournamentId": -1,
+                "goals": "2",
+                "assists": "undefined",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8024,
+            "team": "Widzew Łódź",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2021/2022",
+            "appearances": "40",
+            "goals": "8",
+            "assists": "0",
+            "rating": {
+              "rating": "5.97"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 138,
+                "leagueName": "Copa del Rey",
+                "seasonName": "2021/2022",
+                "tournamentId": 17075,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": "5.97"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueName": "Primera División RFEF",
+                "seasonName": "2021/2022",
+                "tournamentId": -1,
+                "goals": "8",
+                "assists": "undefined",
+                "appearances": "38",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8393,
+            "team": "Albacete",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2020/2021",
+            "appearances": "14",
+            "goals": "4",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "Primera División RFEF",
+                "seasonName": "2020/2021",
+                "tournamentId": -1,
+                "goals": "4",
+                "assists": "undefined",
+                "appearances": "14",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 189783,
+            "team": "UCAM Murcia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            }
+          },
+          {
+            "seasonName": "2020/2021",
+            "appearances": "19",
+            "goals": "0",
+            "assists": "1",
+            "rating": {
+              "rating": "6.05"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 140,
+                "leagueName": "LaLiga2",
+                "seasonName": "2020/2021",
+                "tournamentId": 15586,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "17",
+                "rating": {
+                  "rating": "6.04"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 138,
+                "leagueName": "Copa del Rey",
+                "seasonName": "2020/2021",
+                "tournamentId": 15839,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "2",
+                "rating": {
+                  "rating": "6.22"
+                }
+              }
+            ],
+            "teamId": 10279,
+            "team": "Castellón",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2019/2020",
+            "appearances": "25",
+            "goals": "8",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "Primera División RFEF",
+                "seasonName": "2019/2020",
+                "tournamentId": -1,
+                "goals": "8",
+                "assists": "undefined",
+                "appearances": "25",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 161777,
+            "team": "Valencia B",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            }
+          },
+          {
+            "seasonName": "2018/2019",
+            "appearances": "12",
+            "goals": "2",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "Primera División RFEF",
+                "seasonName": "2018/2019",
+                "tournamentId": -1,
+                "goals": "2",
+                "assists": "undefined",
+                "appearances": "12",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 1123073,
+            "team": "UD Ibiza",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            }
+          },
+          {
+            "seasonName": "2018/2019",
+            "appearances": "8",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": "5.93"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 140,
+                "leagueName": "LaLiga2",
+                "seasonName": "2018/2019",
+                "tournamentId": 13029,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "7",
+                "rating": {
+                  "rating": "5.93"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 138,
+                "leagueName": "Copa del Rey",
+                "seasonName": "2018/2019",
+                "tournamentId": 13054,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8388,
+            "team": "Numancia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2017/2018",
+            "appearances": "32",
+            "goals": "10",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "Primera División RFEF",
+                "seasonName": "2017/2018",
+                "tournamentId": -1,
+                "goals": "10",
+                "assists": "undefined",
+                "appearances": "32",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 161777,
+            "team": "Valencia B",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2016/2017",
+            "appearances": "40",
+            "goals": "6",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "Primera División RFEF",
+                "seasonName": "2016/2017",
+                "tournamentId": -1,
+                "goals": "6",
+                "assists": "undefined",
+                "appearances": "40",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 161777,
+            "team": "Valencia B",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2013/2014",
+            "appearances": "4",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "Primera División RFEF",
+                "seasonName": "2013/2014",
+                "tournamentId": -1,
+                "goals": "1",
+                "assists": "undefined",
+                "appearances": "4",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 2241,
+            "team": "Badalona",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2012/2013",
+            "appearances": "2",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "Primera División RFEF",
+                "seasonName": "2012/2013",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 2241,
+            "team": "Badalona",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          }
+        ]
+      },
+      "youth": {
+        "teamEntries": [
+          {
+            "participantId": 813076,
+            "teamId": -1,
+            "team": "Valencia Under 23",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            },
+            "startDate": "2019-10-12T00:00:00",
+            "endDate": "2020-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": null,
+            "goals": null,
+            "assists": null,
+            "hasUncertainData": false
+          }
+        ],
+        "seasonEntries": null
+      }
+    },
+    "fullCareer": true
+  },
+  "traits": {
+    "key": "stats_comparison_forwards",
+    "title": "Stats compared to other forwards",
+    "items": [
+      {
+        "key": "chances_created",
+        "title": "Chances created",
+        "value": 0.82
+      },
+      {
+        "key": "aerials_won",
+        "title": "Aerial duels",
+        "value": 0.28
+      },
+      {
+        "key": "defensive_actions",
+        "title": "Defensive actions",
+        "value": 0.31
+      },
+      {
+        "key": "goals",
+        "title": "Goals",
+        "value": 0.99
+      },
+      {
+        "key": "shot_attempts",
+        "title": "Shot attempts",
+        "value": 0.44
+      },
+      {
+        "key": "touches",
+        "title": "Touches",
+        "value": 0.06
+      }
+    ]
+  },
+  "meta": {
+    "seopath": "jordi-sanchez",
+    "pageurl": "/players/813076/jordi-sanchez",
+    "faqJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How old is Jordi Sánchez?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jordi Sánchez is 31 years old. Born on Fri Nov 11 1994."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How tall is Jordi Sánchez?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jordi Sánchez is 190 cm tall. Or 6 ft 3 in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When was Jordi Sánchez born?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jordi Sánchez was born Fri Nov 11 1994 and is now 31 years old."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which is Jordi Sánchez's preferred foot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jordi Sánchez's preferred foot is right."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is Jordi Sánchez's transfer value?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jordi Sánchez's transfer value is estimated to be around €135.8k."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Jordi Sánchez from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jordi Sánchez is from Spain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many goals has Jordi Sánchez scored this season?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jordi Sánchez has scored 7 goals in the Ekstraklasa."
+          }
+        }
+      ]
+    },
+    "personJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Jordi Sánchez",
+      "birthDate": "1994-11-11T00:00:00.000Z",
+      "url": "https://www.fotmob.com/players/813076/jordi-sanchez",
+      "nationality": {
+        "@type": "Country",
+        "name": "Spain"
+      },
+      "affiliation": {
+        "@type": "SportsTeam",
+        "name": "Pogoń Szczecin"
+      },
+      "gender": "https://schema.org/Male",
+      "height": {
+        "@type": "QuantitativeValue",
+        "unitText": "cm",
+        "value": "190"
+      },
+      "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "kg",
+        "value": "83"
+      }
+    },
+    "breadcrumbJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fotmob.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ekstraklasa 2026/2027",
+          "item": "https://www.fotmob.com/leagues/196/overview/ekstraklasa-20262027"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Pogoń Szczecin",
+          "item": "https://www.fotmob.com/teams/8023/overview/pogon-szczecin"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Jordi Sánchez",
+          "item": "https://www.fotmob.com/leagues/813076/overview/jordi-sanchez"
+        }
+      ]
+    }
+  },
+  "coachStats": null,
+  "statSeasons": [
+    {
+      "seasonName": "2026/2027",
+      "tournaments": [
+        {
+          "name": "Ekstraklasa",
+          "tournamentId": 196,
+          "entryId": "0-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2025/2026",
+      "tournaments": [
+        {
+          "name": "I Liga",
+          "tournamentId": 197,
+          "entryId": "1-0",
+          "hasDeepStats": false
+        }
+      ]
+    },
+    {
+      "seasonName": "2025",
+      "tournaments": [
+        {
+          "name": "J. League 2",
+          "tournamentId": 8974,
+          "entryId": "2-0",
+          "hasDeepStats": false
+        }
+      ]
+    },
+    {
+      "seasonName": "2024",
+      "tournaments": [
+        {
+          "name": "J. League",
+          "tournamentId": 223,
+          "entryId": "3-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2023/2024",
+      "tournaments": [
+        {
+          "name": "Ekstraklasa",
+          "tournamentId": 196,
+          "entryId": "4-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2022/2023",
+      "tournaments": [
+        {
+          "name": "Ekstraklasa",
+          "tournamentId": 196,
+          "entryId": "5-0",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2021/2022",
+      "tournaments": [
+        {
+          "name": "Primera Division RFEF - Group 2",
+          "tournamentId": 8968,
+          "entryId": "6-0",
+          "hasDeepStats": false
+        },
+        {
+          "name": "Copa del Rey",
+          "tournamentId": 138,
+          "entryId": "6-1",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2020/2021",
+      "tournaments": [
+        {
+          "name": "LaLiga2",
+          "tournamentId": 140,
+          "entryId": "7-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Segunda B Grp. IV - Grp. B",
+          "tournamentId": 8968,
+          "entryId": "7-1",
+          "hasDeepStats": false
+        },
+        {
+          "name": "Copa del Rey",
+          "tournamentId": 138,
+          "entryId": "7-2",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2019/2020",
+      "tournaments": [
+        {
+          "name": "Segunda B Grp. III",
+          "tournamentId": 8968,
+          "entryId": "8-0",
+          "hasDeepStats": false
+        }
+      ]
+    },
+    {
+      "seasonName": "2018/2019",
+      "tournaments": [
+        {
+          "name": "LaLiga2",
+          "tournamentId": 140,
+          "entryId": "9-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Segunda B Grp. IV",
+          "tournamentId": 8968,
+          "entryId": "9-1",
+          "hasDeepStats": false
+        }
+      ]
+    },
+    {
+      "seasonName": "2017/2018",
+      "tournaments": [
+        {
+          "name": "Segunda B Grp. III",
+          "tournamentId": 8968,
+          "entryId": "10-0",
+          "hasDeepStats": false
+        }
+      ]
+    }
+  ],
+  "firstSeasonStats": {
+    "sectionOrder": [
+      "top-stat-card",
+      "shotmap",
+      "stats-section"
+    ],
+    "shotmap": [
+      {
+        "id": 2949461133,
+        "playerName": "Jordi Sánchez",
+        "eventType": "Goal",
+        "shotType": "Header",
+        "situation": "RegularPlay",
+        "teamId": 10265,
+        "playerId": 813076,
+        "x": 101.5862068968,
+        "y": 35.22,
+        "min": 60,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 36.51625,
+        "goalCrossedZ": 1.7079999916,
+        "expectedGoals": 0.796367108821869,
+        "expectedGoalsOnTarget": 0.994592249393463,
+        "onGoalShot": {
+          "x": 0.334325396825397,
+          "y": 0.45185184962963,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 10265,
+        "awayTeamId": 4023,
+        "homeTeamName": "Wisła Kraków",
+        "awayTeamName": "GKS Katowice",
+        "homeScore": 2,
+        "awayScore": 1,
+        "matchId": 5803905,
+        "matchDate": "2026-07-26T18:15:00Z",
+        "teamColor": "#DA241C",
+        "teamColorDark": "#DA241C"
+      },
+      {
+        "id": 2949463729,
+        "playerName": "Jordi Sánchez",
+        "eventType": "AttemptSaved",
+        "shotType": "LeftFoot",
+        "situation": "ThrowInSetPiece",
+        "teamId": 10265,
+        "playerId": 813076,
+        "x": 98.3421052628,
+        "y": 30.292,
+        "min": 64,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": true,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 100.1637931038,
+        "blockedY": 30.72125,
+        "goalCrossedY": 32.55125,
+        "goalCrossedZ": 1.219999994,
+        "expectedGoals": 0.149380505084991,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 1.3832671957672,
+          "y": 0.322751321164021,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 10265,
+        "awayTeamId": 4023,
+        "homeTeamName": "Wisła Kraków",
+        "awayTeamName": "GKS Katowice",
+        "homeScore": 2,
+        "awayScore": 1,
+        "matchId": 5803905,
+        "matchDate": "2026-07-26T18:15:00Z",
+        "teamColor": "#DA241C",
+        "teamColorDark": "#DA241C"
+      },
+      {
+        "id": 2950509707,
+        "playerName": "Jordi Sánchez",
+        "eventType": "AttemptSaved",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 10265,
+        "playerId": 813076,
+        "x": 95.5438596479,
+        "y": 36.44,
+        "min": 24,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": true,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 97.1842105256,
+        "blockedY": 36.05875,
+        "goalCrossedY": 34.1525,
+        "goalCrossedZ": 1.219999994,
+        "expectedGoals": 0.0871980488300324,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 0.959656084656084,
+          "y": 0.322751321164021,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8028,
+        "awayTeamId": 10265,
+        "homeTeamName": "Piast Gliwice",
+        "awayTeamName": "Wisła Kraków",
+        "homeScore": 4,
+        "awayScore": 3,
+        "matchId": 5803928,
+        "matchDate": "2026-08-01T12:45:00Z",
+        "teamColor": "#DA241C",
+        "teamColorDark": "#DA241C"
+      },
+      {
+        "id": 2950518613,
+        "playerName": "Jordi Sánchez",
+        "eventType": "Goal",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 10265,
+        "playerId": 813076,
+        "x": 95.0614035074,
+        "y": 32.55125,
+        "min": 38,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 33.92375,
+        "goalCrossedZ": 0.6934736808,
+        "expectedGoals": 0.256329625844955,
+        "expectedGoalsOnTarget": 0.167163252830505,
+        "onGoalShot": {
+          "x": 1.02017195767196,
+          "y": 0.183458645714286,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8028,
+        "awayTeamId": 10265,
+        "homeTeamName": "Piast Gliwice",
+        "awayTeamName": "Wisła Kraków",
+        "homeScore": 4,
+        "awayScore": 3,
+        "matchId": 5803928,
+        "matchDate": "2026-08-01T12:45:00Z",
+        "teamColor": "#DA241C",
+        "teamColorDark": "#DA241C"
+      },
+      {
+        "id": 2950520669,
+        "playerName": "Jordi Sánchez",
+        "eventType": "Miss",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 10265,
+        "playerId": 813076,
+        "x": 90.8,
+        "y": 38.452380954,
+        "min": 42,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 94.675438595,
+        "blockedY": 35.525,
+        "goalCrossedY": 28.286904761,
+        "goalCrossedZ": 0.0898947364,
+        "expectedGoals": 0.178640782833099,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 2,
+          "y": 0.0157348569627092,
+          "zoomRatio": 0.661637841112139
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8028,
+        "awayTeamId": 10265,
+        "homeTeamName": "Piast Gliwice",
+        "awayTeamName": "Wisła Kraków",
+        "homeScore": 4,
+        "awayScore": 3,
+        "matchId": 5803928,
+        "matchDate": "2026-08-01T12:45:00Z",
+        "teamColor": "#DA241C",
+        "teamColorDark": "#DA241C"
+      },
+      {
+        "id": 2950528643,
+        "playerName": "Jordi Sánchez",
+        "eventType": "AttemptSaved",
+        "shotType": "LeftFoot",
+        "situation": "RegularPlay",
+        "teamId": 10265,
+        "playerId": 813076,
+        "x": 100.6379310348,
+        "y": 36.44,
+        "min": 47,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 103.0086206898,
+        "blockedY": 35.90625,
+        "goalCrossedY": 35.14375,
+        "goalCrossedZ": 0.2054736832,
+        "expectedGoals": 0.597084522247314,
+        "expectedGoalsOnTarget": 0.414233267307282,
+        "onGoalShot": {
+          "x": 0.697420634920634,
+          "y": 0.0543581172486773,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8028,
+        "awayTeamId": 10265,
+        "homeTeamName": "Piast Gliwice",
+        "awayTeamName": "Wisła Kraków",
+        "homeScore": 4,
+        "awayScore": 3,
+        "matchId": 5803928,
+        "matchDate": "2026-08-01T12:45:00Z",
+        "teamColor": "#DA241C",
+        "teamColorDark": "#DA241C"
+      },
+      {
+        "id": 2950541761,
+        "playerName": "Jordi Sánchez",
+        "eventType": "Goal",
+        "shotType": "Header",
+        "situation": "RegularPlay",
+        "teamId": 10265,
+        "playerId": 813076,
+        "x": 99.5948275866,
+        "y": 36.135,
+        "min": 69,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 36.51625,
+        "goalCrossedZ": 1.829999991,
+        "expectedGoals": 0.320240616798401,
+        "expectedGoalsOnTarget": 0.972937881946564,
+        "onGoalShot": {
+          "x": 0.334325396825397,
+          "y": 0.484126981746032,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8028,
+        "awayTeamId": 10265,
+        "homeTeamName": "Piast Gliwice",
+        "awayTeamName": "Wisła Kraków",
+        "homeScore": 4,
+        "awayScore": 3,
+        "matchId": 5803928,
+        "matchDate": "2026-08-01T12:45:00Z",
+        "teamColor": "#DA241C",
+        "teamColorDark": "#DA241C"
+      },
+      {
+        "id": 2952229509,
+        "playerName": "Jordi Sánchez",
+        "eventType": "Goal",
+        "shotType": "LeftFoot",
+        "situation": "ThrowInSetPiece",
+        "teamId": 10265,
+        "playerId": 813076,
+        "x": 95.640350876,
+        "y": 40.217380953,
+        "min": 36,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 31.78875,
+        "goalCrossedZ": 1.669473676,
+        "expectedGoals": 0.245964288711548,
+        "expectedGoalsOnTarget": 0.826170980930328,
+        "onGoalShot": {
+          "x": 1.58498677248677,
+          "y": 0.441659702645503,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 10265,
+        "awayTeamId": 8243,
+        "homeTeamName": "Wisła Kraków",
+        "awayTeamName": "Wisła Płock",
+        "homeScore": 2,
+        "awayScore": 1,
+        "matchId": 5803940,
+        "matchDate": "2026-08-07T18:30:00Z",
+        "teamColor": "#DA241C",
+        "teamColorDark": "#DA241C"
+      },
+      {
+        "id": 2952266615,
+        "playerName": "Jordi Sánchez",
+        "eventType": "Miss",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 10265,
+        "playerId": 813076,
+        "x": 100.6379310348,
+        "y": 34.53375,
+        "min": 79,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 25.1290625,
+        "goalCrossedZ": 0.1797894728,
+        "expectedGoals": 0.626762509346008,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 2,
+          "y": 0.0202672460267024,
+          "zoomRatio": 0.426110543558671
+        },
+        "box": "InsideBox",
+        "homeTeamId": 10265,
+        "awayTeamId": 8243,
+        "homeTeamName": "Wisła Kraków",
+        "awayTeamName": "Wisła Płock",
+        "homeScore": 2,
+        "awayScore": 1,
+        "matchId": 5803940,
+        "matchDate": "2026-08-07T18:30:00Z",
+        "teamColor": "#DA241C",
+        "teamColorDark": "#DA241C"
+      },
+      {
+        "id": 2955976757,
+        "playerName": "Jordi Sánchez",
+        "eventType": "AttemptSaved",
+        "shotType": "Header",
+        "situation": "FastBreak",
+        "teamId": 10265,
+        "playerId": 813076,
+        "x": 96.5087719289,
+        "y": 36.135,
+        "min": 10,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 103.577586207,
+        "blockedY": 34.53375,
+        "goalCrossedY": 33.5425,
+        "goalCrossedZ": 0.6934736808,
+        "expectedGoals": 0.218734174966812,
+        "expectedGoalsOnTarget": 0.0866519659757614,
+        "onGoalShot": {
+          "x": 1.12103174603175,
+          "y": 0.183458645714286,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8020,
+        "awayTeamId": 10265,
+        "homeTeamName": "Górnik Zabrze",
+        "awayTeamName": "Wisła Kraków",
+        "homeScore": 2,
+        "awayScore": 1,
+        "matchId": 5803942,
+        "matchDate": "2026-08-16T18:15:00Z",
+        "teamColor": "#DA241C",
+        "teamColorDark": "#DA241C"
+      },
+      {
+        "id": 2956034253,
+        "playerName": "Jordi Sánchez",
+        "eventType": "Goal",
+        "shotType": "RightFoot",
+        "situation": "ThrowInSetPiece",
+        "teamId": 10265,
+        "playerId": 813076,
+        "x": 102.5344827588,
+        "y": 32.39875,
+        "min": 55,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 31.865,
+        "goalCrossedZ": 0.6934736808,
+        "expectedGoals": 0.514593482017517,
+        "expectedGoalsOnTarget": 0.98830646276474,
+        "onGoalShot": {
+          "x": 1.56481481481482,
+          "y": 0.183458645714286,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8020,
+        "awayTeamId": 10265,
+        "homeTeamName": "Górnik Zabrze",
+        "awayTeamName": "Wisła Kraków",
+        "homeScore": 2,
+        "awayScore": 1,
+        "matchId": 5803942,
+        "matchDate": "2026-08-16T18:15:00Z",
+        "teamColor": "#DA241C",
+        "teamColorDark": "#DA241C"
+      },
+      {
+        "id": 2956044591,
+        "playerName": "Jordi Sánchez",
+        "eventType": "Miss",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 10265,
+        "playerId": 813076,
+        "x": 96.4122807008,
+        "y": 35.44875,
+        "min": 65,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 101.9655172416,
+        "blockedY": 48.3447133731,
+        "goalCrossedY": 54.225592409,
+        "goalCrossedZ": 1.7850526228,
+        "expectedGoals": 0.0964080542325974,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 0,
+          "y": 0.0882571242761565,
+          "zoomRatio": 0.186891929964829
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8020,
+        "awayTeamId": 10265,
+        "homeTeamName": "Górnik Zabrze",
+        "awayTeamName": "Wisła Kraków",
+        "homeScore": 2,
+        "awayScore": 1,
+        "matchId": 5803942,
+        "matchDate": "2026-08-16T18:15:00Z",
+        "teamColor": "#DA241C",
+        "teamColorDark": "#DA241C"
+      },
+      {
+        "id": 2959154701,
+        "playerName": "Jordi Sánchez",
+        "eventType": "Miss",
+        "shotType": "Header",
+        "situation": "FromCorner",
+        "teamId": 10265,
+        "playerId": 813076,
+        "x": 98.3421052628,
+        "y": 41.5990625,
+        "min": 78,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 26.942142857,
+        "goalCrossedZ": 3.4984827616,
+        "expectedGoals": 0.0392529331147671,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 2,
+          "y": 0.495686253025085,
+          "zoomRatio": 0.535573322527364
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8023,
+        "awayTeamId": 10265,
+        "homeTeamName": "Pogoń Szczecin",
+        "awayTeamName": "Wisła Kraków",
+        "homeScore": 2,
+        "awayScore": 2,
+        "matchId": 5803955,
+        "matchDate": "2026-08-23T18:15:00Z",
+        "teamColor": "#DA241C",
+        "teamColorDark": "#DA241C"
+      },
+      {
+        "id": 2961241825,
+        "playerName": "Jordi Sánchez",
+        "eventType": "AttemptSaved",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 10265,
+        "playerId": 813076,
+        "x": 92,
+        "y": 46.8733757928,
+        "min": 31,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 103.103448276,
+        "blockedY": 34.99125,
+        "goalCrossedY": 32.55125,
+        "goalCrossedZ": 1.4639999928,
+        "expectedGoals": 0.03919567912817,
+        "expectedGoalsOnTarget": 0.0657228231430054,
+        "onGoalShot": {
+          "x": 1.3832671957672,
+          "y": 0.387301585396825,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 10265,
+        "awayTeamId": 1286895,
+        "homeTeamName": "Wisła Kraków",
+        "awayTeamName": "Wieczysta Kraków",
+        "homeScore": 2,
+        "awayScore": 0,
+        "matchId": 5803965,
+        "matchDate": "2026-08-29T15:30:00Z",
+        "teamColor": "#DA241C",
+        "teamColorDark": "#DA241C"
+      },
+      {
+        "id": 2961288593,
+        "playerName": "Jordi Sánchez",
+        "eventType": "Goal",
+        "shotType": "LeftFoot",
+        "situation": "RegularPlay",
+        "teamId": 10265,
+        "playerId": 813076,
+        "x": 100.25862069,
+        "y": 37.58375,
+        "min": 54,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 34.915,
+        "goalCrossedZ": 0.2439999988,
+        "expectedGoals": 0.388536512851715,
+        "expectedGoalsOnTarget": 0.474057883024216,
+        "onGoalShot": {
+          "x": 0.757936507936506,
+          "y": 0.0645502642328042,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 10265,
+        "awayTeamId": 1286895,
+        "homeTeamName": "Wisła Kraków",
+        "awayTeamName": "Wieczysta Kraków",
+        "homeScore": 2,
+        "awayScore": 0,
+        "matchId": 5803965,
+        "matchDate": "2026-08-29T15:30:00Z",
+        "teamColor": "#DA241C",
+        "teamColorDark": "#DA241C"
+      },
+      {
+        "id": 2969093083,
+        "playerName": "Jordi Sánchez",
+        "eventType": "Miss",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 8023,
+        "playerId": 813076,
+        "x": 96.4122807008,
+        "y": 34.4575,
+        "min": 4,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 28.791190475,
+        "goalCrossedZ": 0.3595789456,
+        "expectedGoals": 0.21056741476059,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 2,
+          "y": 0.0690328459649328,
+          "zoomRatio": 0.725693650700349
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8023,
+        "awayTeamId": 1286895,
+        "homeTeamName": "Pogoń Szczecin",
+        "awayTeamName": "Wieczysta Kraków",
+        "homeScore": 2,
+        "awayScore": 0,
+        "matchId": 5803979,
+        "matchDate": "2026-09-13T12:45:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      },
+      {
+        "id": 2969099893,
+        "playerName": "Jordi Sánchez",
+        "eventType": "AttemptSaved",
+        "shotType": "Header",
+        "situation": "RegularPlay",
+        "teamId": 8023,
+        "playerId": 813076,
+        "x": 95.7368421041,
+        "y": 35.83,
+        "min": 14,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 103.8620689656,
+        "blockedY": 35.525,
+        "goalCrossedY": 35.60125,
+        "goalCrossedZ": 0.3659999982,
+        "expectedGoals": 0.0647244453430176,
+        "expectedGoalsOnTarget": 0.139444962143898,
+        "onGoalShot": {
+          "x": 0.576388888888889,
+          "y": 0.0968253963492064,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8023,
+        "awayTeamId": 1286895,
+        "homeTeamName": "Pogoń Szczecin",
+        "awayTeamName": "Wieczysta Kraków",
+        "homeScore": 2,
+        "awayScore": 0,
+        "matchId": 5803979,
+        "matchDate": "2026-09-13T12:45:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      },
+      {
+        "id": 2969173995,
+        "playerName": "Jordi Sánchez",
+        "eventType": "Miss",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 8023,
+        "playerId": 813076,
+        "x": 101.8706896554,
+        "y": 21.9673885388,
+        "min": 50,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 96.8947368413,
+        "blockedY": 36.51625,
+        "goalCrossedY": 67.4752606632,
+        "goalCrossedZ": 0.3595789456,
+        "expectedGoals": 0.0123711246997118,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 0,
+          "y": 0.0107416324317167,
+          "zoomRatio": 0.112919210339576
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8023,
+        "awayTeamId": 1286895,
+        "homeTeamName": "Pogoń Szczecin",
+        "awayTeamName": "Wieczysta Kraków",
+        "homeScore": 2,
+        "awayScore": 0,
+        "matchId": 5803979,
+        "matchDate": "2026-09-13T12:45:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      },
+      {
+        "id": 2969231637,
+        "playerName": "Jordi Sánchez",
+        "eventType": "Goal",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 8023,
+        "playerId": 813076,
+        "x": 94.9649122793,
+        "y": 30.34,
+        "min": 90,
+        "minAdded": 3,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 32.6275,
+        "goalCrossedZ": 0.0385263156,
+        "expectedGoals": 0.536121845245361,
+        "expectedGoalsOnTarget": 0.680889844894409,
+        "onGoalShot": {
+          "x": 1.36309523809524,
+          "y": 0.010192146984127,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8023,
+        "awayTeamId": 1286895,
+        "homeTeamName": "Pogoń Szczecin",
+        "awayTeamName": "Wieczysta Kraków",
+        "homeScore": 2,
+        "awayScore": 0,
+        "matchId": 5803979,
+        "matchDate": "2026-09-13T12:45:00Z",
+        "teamColor": "#102457",
+        "teamColorDark": "#1753a4"
+      }
+    ],
+    "statsSection": {
+      "id": "stats-section",
+      "items": [
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "goals",
+              "per90": 0.9388971684053652,
+              "percentileRank": 100,
+              "percentileRankPer90": 92.6829268292683,
+              "statFormat": "number",
+              "statValue": "7",
+              "title": "Goals"
+            },
+            {
+              "localizedTitleId": "expected_goals",
+              "per90": 0.6931341031979875,
+              "percentileRank": 100,
+              "percentileRankPer90": 90.2439024390244,
+              "statFormat": "fraction",
+              "statValue": "5.17",
+              "title": "xG"
+            },
+            {
+              "localizedTitleId": "expected_goals_on_target",
+              "per90": 0.7760924056461068,
+              "percentileRank": 100,
+              "percentileRankPer90": 90.2439024390244,
+              "statFormat": "fraction",
+              "statValue": "5.79",
+              "title": "xGOT"
+            },
+            {
+              "localizedTitleId": "non_penalty_xg",
+              "per90": 0.6931341031979875,
+              "percentileRank": 100,
+              "percentileRankPer90": 90.2439024390244,
+              "statFormat": "fraction",
+              "statValue": "5.17",
+              "title": "xG excl. penalty"
+            },
+            {
+              "localizedTitleId": "shots",
+              "per90": 2.548435171385991,
+              "percentileRank": 85.36585365853658,
+              "percentileRankPer90": 34.146341463414636,
+              "statFormat": "number",
+              "statValue": "19",
+              "title": "Shots"
+            },
+            {
+              "localizedTitleId": "ShotsOnTarget",
+              "per90": 1.4754098360655739,
+              "percentileRank": 95.1219512195122,
+              "percentileRankPer90": 78.04878048780488,
+              "statFormat": "number",
+              "statValue": "11",
+              "title": "Shots on target"
+            },
+            {
+              "localizedTitleId": "headed_shots",
+              "per90": 0.6706408345752608,
+              "percentileRank": 73.17073170731707,
+              "percentileRankPer90": 31.70731707317073,
+              "statFormat": "number",
+              "statValue": "5",
+              "title": "Headed shots"
+            }
+          ],
+          "localizedTitleId": "shooting",
+          "title": "Shooting",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "assists",
+              "per90": 0.13412816691505217,
+              "percentileRank": 100,
+              "percentileRankPer90": 80.48780487804879,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Assists"
+            },
+            {
+              "localizedTitleId": "expected_assists",
+              "per90": 0.18811979521226954,
+              "percentileRank": 100,
+              "percentileRankPer90": 90.2439024390244,
+              "statFormat": "fraction",
+              "statValue": "1.40",
+              "title": "xA"
+            },
+            {
+              "localizedTitleId": "successful_passes",
+              "per90": 6.974664679582712,
+              "percentileRank": 68.29268292682927,
+              "percentileRankPer90": 7.317073170731707,
+              "statFormat": "number",
+              "statValue": "52",
+              "title": "Accurate passes"
+            },
+            {
+              "localizedTitleId": "successful_passes_accuracy",
+              "per90": 59.770114942528735,
+              "percentileRank": 17.073170731707318,
+              "percentileRankPer90": 17.073170731707318,
+              "statFormat": "percent",
+              "statValue": "59.8",
+              "title": "Pass accuracy"
+            },
+            {
+              "localizedTitleId": "chances_created",
+              "per90": 1.0730253353204173,
+              "percentileRank": 92.6829268292683,
+              "percentileRankPer90": 63.41463414634146,
+              "statFormat": "number",
+              "statValue": "8",
+              "title": "Chances created"
+            },
+            {
+              "localizedTitleId": "big_chance_created_team_title",
+              "per90": 0.5365126676602087,
+              "percentileRank": 100,
+              "percentileRankPer90": 90.2439024390244,
+              "statFormat": "number",
+              "statValue": "4",
+              "title": "Big chances created"
+            }
+          ],
+          "localizedTitleId": "passing",
+          "title": "Passing",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "dribbles_succeeded",
+              "per90": 0.40238450074515647,
+              "percentileRank": 65.85365853658537,
+              "percentileRankPer90": 41.46341463414634,
+              "statFormat": "number",
+              "statValue": "3",
+              "title": "Dribbles"
+            },
+            {
+              "localizedTitleId": "won_contest_subtitle",
+              "per90": 60,
+              "percentileRank": 65.85365853658537,
+              "percentileRankPer90": 65.85365853658537,
+              "statFormat": "percent",
+              "statValue": "60.0",
+              "title": "Dribbles success rate"
+            },
+            {
+              "localizedTitleId": "duel_won",
+              "per90": 3.0849478390461997,
+              "percentileRank": 68.29268292682927,
+              "percentileRankPer90": 9.75609756097561,
+              "statFormat": "number",
+              "statValue": "23",
+              "title": "Duels won"
+            },
+            {
+              "localizedTitleId": "duel_won_percent",
+              "per90": 41.81818181818182,
+              "percentileRank": 43.90243902439025,
+              "percentileRankPer90": 43.90243902439025,
+              "statFormat": "percent",
+              "statValue": "41.8",
+              "title": "Duels won %"
+            },
+            {
+              "localizedTitleId": "aerials_won",
+              "per90": 1.3412816691505216,
+              "percentileRank": 63.41463414634146,
+              "percentileRankPer90": 19.51219512195122,
+              "statFormat": "number",
+              "statValue": "10",
+              "title": "Aerials won"
+            },
+            {
+              "localizedTitleId": "aerials_won_percent",
+              "per90": 40,
+              "percentileRank": 41.46341463414634,
+              "percentileRankPer90": 41.46341463414634,
+              "statFormat": "percent",
+              "statValue": "40.0",
+              "title": "Aerials won %"
+            },
+            {
+              "localizedTitleId": "touches",
+              "per90": 22.801788375558868,
+              "percentileRank": 73.17073170731707,
+              "percentileRankPer90": 0,
+              "statFormat": "number",
+              "statValue": "170",
+              "title": "Touches"
+            },
+            {
+              "localizedTitleId": "touches_opp_box",
+              "per90": 5.901639344262295,
+              "percentileRank": 92.6829268292683,
+              "percentileRankPer90": 58.536585365853654,
+              "statFormat": "number",
+              "statValue": "44",
+              "title": "Touches in opposition box"
+            },
+            {
+              "localizedTitleId": "dispossessed",
+              "per90": 0.26825633383010433,
+              "percentileRank": 68.29268292682927,
+              "percentileRankPer90": 92.6829268292683,
+              "statFormat": "number",
+              "statValue": "2",
+              "title": "Dispossessed"
+            },
+            {
+              "localizedTitleId": "fouls_won",
+              "per90": 1.2071535022354696,
+              "percentileRank": 85.36585365853658,
+              "percentileRankPer90": 51.21951219512195,
+              "statFormat": "number",
+              "statValue": "9",
+              "title": "Fouls won"
+            }
+          ],
+          "localizedTitleId": "possession",
+          "title": "Possession",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "defensive_actions",
+              "per90": 1.0730253353204173,
+              "percentileRank": 41.46341463414634,
+              "percentileRankPer90": 2.4390243902439024,
+              "statFormat": "number",
+              "statValue": "8",
+              "title": "Defensive actions"
+            },
+            {
+              "localizedTitleId": "matchstats.headers.tackles",
+              "per90": 0.13412816691505217,
+              "percentileRank": 17.073170731707318,
+              "percentileRankPer90": 17.073170731707318,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Tackles"
+            },
+            {
+              "localizedTitleId": "fouls",
+              "per90": 1.6095380029806259,
+              "percentileRank": 9.75609756097561,
+              "percentileRankPer90": 39.02439024390244,
+              "statFormat": "number",
+              "statValue": "12",
+              "title": "Fouls committed"
+            },
+            {
+              "localizedTitleId": "recoveries",
+              "per90": 0.9388971684053652,
+              "percentileRank": 39.02439024390244,
+              "percentileRankPer90": 7.317073170731707,
+              "statFormat": "number",
+              "statValue": "7",
+              "title": "Recoveries"
+            },
+            {
+              "localizedTitleId": "poss_won_att_3rd_team_title",
+              "per90": 0.40238450074515647,
+              "percentileRank": 60.97560975609756,
+              "percentileRankPer90": 36.58536585365854,
+              "statFormat": "number",
+              "statValue": "3",
+              "title": "Possession won final 3rd"
+            },
+            {
+              "localizedTitleId": "dribbled_past",
+              "per90": 0.40238450074515647,
+              "percentileRank": 7.317073170731707,
+              "percentileRankPer90": 34.146341463414636,
+              "statFormat": "number",
+              "statValue": "3",
+              "title": "Dribbled past"
+            },
+            {
+              "localizedTitleId": "clearances",
+              "per90": 0.9388971684053652,
+              "percentileRank": 70.73170731707317,
+              "percentileRankPer90": 41.46341463414634,
+              "statFormat": "number",
+              "statValue": "7",
+              "title": "Clearances"
+            },
+            {
+              "localizedTitleId": "clean_sheet_team_title",
+              "per90": 0.13412816691505217,
+              "percentileRank": 85.36585365853658,
+              "percentileRankPer90": 85.36585365853658,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Clean sheets"
+            },
+            {
+              "localizedTitleId": "goals_conceded_while_on_pitch",
+              "per90": 1.3412816691505216,
+              "percentileRank": 7.317073170731707,
+              "percentileRankPer90": 53.65853658536586,
+              "statFormat": "number",
+              "statValue": "10",
+              "title": "Goals conceded while on pitch"
+            },
+            {
+              "localizedTitleId": "expected_goals_against_while_on_pitch",
+              "per90": 1.3870327518878147,
+              "percentileRank": 9.75609756097561,
+              "percentileRankPer90": 60.97560975609756,
+              "statFormat": "fraction",
+              "statValue": "10.34",
+              "title": "xG against while on pitch"
+            }
+          ],
+          "localizedTitleId": "defending",
+          "title": "Defending",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "yellow_cards",
+              "per90": 0.26825633383010433,
+              "percentileRank": 4.878048780487805,
+              "percentileRankPer90": 29.268292682926827,
+              "statFormat": "number",
+              "statValue": "2",
+              "title": "Yellow cards"
+            },
+            {
+              "localizedTitleId": "red_cards",
+              "per90": 0,
+              "percentileRank": 100,
+              "percentileRankPer90": 100,
+              "statFormat": "number",
+              "statValue": "0",
+              "title": "Red cards"
+            }
+          ],
+          "localizedTitleId": "discipline",
+          "title": "Discipline",
+          "type": "stat-values"
+        }
+      ],
+      "localizedTitleId": "season_performance",
+      "title": "Season performance",
+      "type": "grouped-stat-values"
+    },
+    "topStatCard": {
+      "display": "stats-group",
+      "id": "top-stat-card",
+      "items": [
+        {
+          "localizedTitleId": "goals",
+          "per90": 0.9388971684053652,
+          "percentileRank": 100,
+          "percentileRankPer90": 92.6829268292683,
+          "statFormat": "number",
+          "statValue": "7",
+          "title": "Goals"
+        },
+        {
+          "localizedTitleId": "assists",
+          "per90": 0.13412816691505217,
+          "percentileRank": 100,
+          "percentileRankPer90": 80.48780487804879,
+          "statFormat": "number",
+          "statValue": "1",
+          "title": "Assists"
+        },
+        {
+          "localizedTitleId": "rating",
+          "per90": 7.60875,
+          "percentileRank": 95.1219512195122,
+          "percentileRankPer90": 95.1219512195122,
+          "statFormat": "fraction",
+          "statValue": "7.61",
+          "title": "Rating"
+        },
+        {
+          "localizedTitleId": "matches_uppercase",
+          "per90": 8,
+          "percentileRank": 100,
+          "percentileRankPer90": 100,
+          "statFormat": "number",
+          "statValue": "8",
+          "title": "Matches"
+        },
+        {
+          "localizedTitleId": "player_started_matches",
+          "per90": 8,
+          "percentileRank": 100,
+          "percentileRankPer90": 58.536585365853654,
+          "statFormat": "number",
+          "statValue": "8",
+          "title": "Started"
+        },
+        {
+          "localizedTitleId": "minutes_played",
+          "per90": 90,
+          "percentileRank": 95.1219512195122,
+          "percentileRankPer90": 100,
+          "statFormat": "number",
+          "statValue": "671",
+          "title": "Minutes"
+        }
+      ],
+      "type": "stat-values"
+    },
+    "heatmap": {
+      "coordinates": [
+        {
+          "x": 71.11,
+          "y": 18.39
+        },
+        {
+          "x": 73.48,
+          "y": 22.18
+        },
+        {
+          "x": 70.32,
+          "y": 17.2
+        },
+        {
+          "x": 40.42,
+          "y": 65.18
+        },
+        {
+          "x": 73.02,
+          "y": 46.03
+        },
+        {
+          "x": 38.51,
+          "y": 2.43
+        },
+        {
+          "x": 73.81,
+          "y": 7.15
+        },
+        {
+          "x": 102.16,
+          "y": 16.36
+        },
+        {
+          "x": 6.56,
+          "y": 32.55
+        },
+        {
+          "x": 80.12,
+          "y": 30.95
+        },
+        {
+          "x": 39.63,
+          "y": 30.34
+        },
+        {
+          "x": 59.41,
+          "y": 25.19
+        },
+        {
+          "x": 59.41,
+          "y": 25.19
+        },
+        {
+          "x": 66.61,
+          "y": 11.68
+        },
+        {
+          "x": 32.65,
+          "y": 7.02
+        },
+        {
+          "x": 95.64,
+          "y": 41.31
+        },
+        {
+          "x": 45.28,
+          "y": 64.2
+        },
+        {
+          "x": 85.17,
+          "y": 16.99
+        },
+        {
+          "x": 101.59,
+          "y": 32.78
+        },
+        {
+          "x": 98.34,
+          "y": 37.71
+        },
+        {
+          "x": 95.35,
+          "y": 37.72
+        },
+        {
+          "x": 74.38,
+          "y": 25.65
+        },
+        {
+          "x": 74.94,
+          "y": 59.93
+        },
+        {
+          "x": 38.62,
+          "y": 28.37
+        },
+        {
+          "x": 39.63,
+          "y": 38.54
+        },
+        {
+          "x": 47.01,
+          "y": 16.99
+        },
+        {
+          "x": 35.24,
+          "y": 47.08
+        },
+        {
+          "x": 74.38,
+          "y": 23.93
+        },
+        {
+          "x": 80.12,
+          "y": 29.72
+        },
+        {
+          "x": 95.54,
+          "y": 31.56
+        },
+        {
+          "x": 104.05,
+          "y": 29.21
+        },
+        {
+          "x": 94,
+          "y": 24.07
+        },
+        {
+          "x": 68.97,
+          "y": 12.72
+        },
+        {
+          "x": 68.97,
+          "y": 12.92
+        },
+        {
+          "x": 95.06,
+          "y": 35.45
+        },
+        {
+          "x": 90.8,
+          "y": 29.55
+        },
+        {
+          "x": 100.64,
+          "y": 31.56
+        },
+        {
+          "x": 97.96,
+          "y": 29.88
+        },
+        {
+          "x": 66.04,
+          "y": 14.19
+        },
+        {
+          "x": 44.06,
+          "y": 43.93
+        },
+        {
+          "x": 10.04,
+          "y": 30.23
+        },
+        {
+          "x": 75.5,
+          "y": 37.67
+        },
+        {
+          "x": 101.4,
+          "y": 45.12
+        },
+        {
+          "x": 91.1,
+          "y": 50.87
+        },
+        {
+          "x": 57.58,
+          "y": 65.77
+        },
+        {
+          "x": 99.59,
+          "y": 31.86
+        },
+        {
+          "x": 41.1,
+          "y": 19.66
+        },
+        {
+          "x": 61.45,
+          "y": 26.52
+        },
+        {
+          "x": 86.89,
+          "y": 47.5
+        },
+        {
+          "x": 57.07,
+          "y": 15.03
+        },
+        {
+          "x": 55.85,
+          "y": 18.04
+        },
+        {
+          "x": 52.7,
+          "y": 34.3
+        },
+        {
+          "x": 78.09,
+          "y": 17.41
+        },
+        {
+          "x": 97.57,
+          "y": 12.72
+        },
+        {
+          "x": 99.31,
+          "y": 47.5
+        },
+        {
+          "x": 71,
+          "y": 41.43
+        },
+        {
+          "x": 92.7,
+          "y": 35.6
+        },
+        {
+          "x": 65.14,
+          "y": 45.54
+        },
+        {
+          "x": 68.41,
+          "y": 49.12
+        },
+        {
+          "x": 60.33,
+          "y": 34.53
+        },
+        {
+          "x": 46.81,
+          "y": 20.92
+        },
+        {
+          "x": 36.82,
+          "y": 19.02
+        },
+        {
+          "x": 56.77,
+          "y": 33.54
+        },
+        {
+          "x": 36.82,
+          "y": 16.36
+        },
+        {
+          "x": 31.64,
+          "y": 10.43
+        },
+        {
+          "x": 47.11,
+          "y": 42.47
+        },
+        {
+          "x": 75.5,
+          "y": 43.86
+        },
+        {
+          "x": 95.45,
+          "y": 32.25
+        },
+        {
+          "x": 94.1,
+          "y": 28.62
+        },
+        {
+          "x": 95.64,
+          "y": 27.78
+        },
+        {
+          "x": 10.61,
+          "y": 41.83
+        },
+        {
+          "x": 48.13,
+          "y": 17.41
+        },
+        {
+          "x": 11.4,
+          "y": 33.77
+        },
+        {
+          "x": 34.34,
+          "y": 63.61
+        },
+        {
+          "x": 12.3,
+          "y": 30.34
+        },
+        {
+          "x": 12.3,
+          "y": 30.34
+        },
+        {
+          "x": 10.61,
+          "y": 36.74
+        },
+        {
+          "x": 66.94,
+          "y": 8.07
+        },
+        {
+          "x": 92.7,
+          "y": 22.04
+        },
+        {
+          "x": 92.3,
+          "y": 23.44
+        },
+        {
+          "x": 46.5,
+          "y": 7.15
+        },
+        {
+          "x": 39.07,
+          "y": 10.76
+        },
+        {
+          "x": 78.32,
+          "y": 48.34
+        },
+        {
+          "x": 99.78,
+          "y": 3.87
+        },
+        {
+          "x": 99.78,
+          "y": 3.87
+        },
+        {
+          "x": 10.23,
+          "y": 35.75
+        },
+        {
+          "x": 42.34,
+          "y": 44.7
+        },
+        {
+          "x": 48.33,
+          "y": 37.95
+        },
+        {
+          "x": 36.59,
+          "y": 63.61
+        },
+        {
+          "x": 36.59,
+          "y": 63.61
+        },
+        {
+          "x": 61.34,
+          "y": 64.33
+        },
+        {
+          "x": 100.64,
+          "y": 33.47
+        },
+        {
+          "x": 63.9,
+          "y": 65.38
+        },
+        {
+          "x": 73.7,
+          "y": 37.95
+        },
+        {
+          "x": 86.46,
+          "y": 33.7
+        },
+        {
+          "x": 68.97,
+          "y": 59.34
+        },
+        {
+          "x": 69.98,
+          "y": 55.8
+        },
+        {
+          "x": 57.07,
+          "y": 64.52
+        },
+        {
+          "x": 94,
+          "y": 62.36
+        },
+        {
+          "x": 76.29,
+          "y": 58.16
+        },
+        {
+          "x": 91.6,
+          "y": 21.62
+        },
+        {
+          "x": 41.55,
+          "y": 41.6
+        },
+        {
+          "x": 38.39,
+          "y": 15.31
+        },
+        {
+          "x": 96.51,
+          "y": 31.86
+        },
+        {
+          "x": 52.8,
+          "y": 10.04
+        },
+        {
+          "x": 62.1,
+          "y": 51.22
+        },
+        {
+          "x": 50.26,
+          "y": 4.66
+        },
+        {
+          "x": 72.69,
+          "y": 23.86
+        },
+        {
+          "x": 82.26,
+          "y": 25.01
+        },
+        {
+          "x": 53.41,
+          "y": 14.12
+        },
+        {
+          "x": 102.53,
+          "y": 35.6
+        },
+        {
+          "x": 76.52,
+          "y": 26.57
+        },
+        {
+          "x": 96.41,
+          "y": 32.55
+        },
+        {
+          "x": 50.26,
+          "y": 19.52
+        },
+        {
+          "x": 90.8,
+          "y": 38.03
+        },
+        {
+          "x": 83.5,
+          "y": 26.05
+        },
+        {
+          "x": 98.05,
+          "y": 41.95
+        },
+        {
+          "x": 95.64,
+          "y": 36.67
+        },
+        {
+          "x": 71.34,
+          "y": 57.96
+        },
+        {
+          "x": 71.79,
+          "y": 6.62
+        },
+        {
+          "x": 71.67,
+          "y": 9.77
+        },
+        {
+          "x": 69.53,
+          "y": 20.01
+        },
+        {
+          "x": 77.87,
+          "y": 30.64
+        },
+        {
+          "x": 83.95,
+          "y": 53.18
+        },
+        {
+          "x": 82.94,
+          "y": 56.46
+        },
+        {
+          "x": 64.58,
+          "y": 27.45
+        },
+        {
+          "x": 46.3,
+          "y": 19.02
+        },
+        {
+          "x": 56.46,
+          "y": 47.01
+        },
+        {
+          "x": 74.15,
+          "y": 27.28
+        },
+        {
+          "x": 79.11,
+          "y": 21.76
+        },
+        {
+          "x": 85.28,
+          "y": 44.14
+        },
+        {
+          "x": 50.26,
+          "y": 19.8
+        },
+        {
+          "x": 84.51,
+          "y": 20.78
+        },
+        {
+          "x": 84.51,
+          "y": 20.78
+        },
+        {
+          "x": 25.89,
+          "y": 24.14
+        },
+        {
+          "x": 66.15,
+          "y": 3.28
+        },
+        {
+          "x": 83.5,
+          "y": 9.45
+        },
+        {
+          "x": 43.24,
+          "y": 57.96
+        },
+        {
+          "x": 33.66,
+          "y": 21.62
+        },
+        {
+          "x": 73.48,
+          "y": 37.67
+        },
+        {
+          "x": 98.34,
+          "y": 26.4
+        },
+        {
+          "x": 98.34,
+          "y": 26.4
+        },
+        {
+          "x": 86.89,
+          "y": 18.46
+        },
+        {
+          "x": 62.33,
+          "y": 7.41
+        },
+        {
+          "x": 78.99,
+          "y": 18.95
+        },
+        {
+          "x": 84.51,
+          "y": 21.41
+        },
+        {
+          "x": 75.84,
+          "y": 62.16
+        },
+        {
+          "x": 93.2,
+          "y": 27.7
+        },
+        {
+          "x": 33.89,
+          "y": 31.26
+        },
+        {
+          "x": 40.2,
+          "y": 28.37
+        },
+        {
+          "x": 72.91,
+          "y": 39.8
+        },
+        {
+          "x": 37.94,
+          "y": 23.02
+        },
+        {
+          "x": 37.94,
+          "y": 23.02
+        },
+        {
+          "x": 69.87,
+          "y": 22.25
+        },
+        {
+          "x": 92,
+          "y": 21.13
+        },
+        {
+          "x": 105,
+          "y": 43.04
+        },
+        {
+          "x": 101.87,
+          "y": 33.16
+        },
+        {
+          "x": 102.34,
+          "y": 11.15
+        },
+        {
+          "x": 76.63,
+          "y": 2.62
+        },
+        {
+          "x": 77.19,
+          "y": 42.52
+        },
+        {
+          "x": 80.35,
+          "y": 41.43
+        },
+        {
+          "x": 80.35,
+          "y": 41.43
+        },
+        {
+          "x": 39.97,
+          "y": 19.23
+        },
+        {
+          "x": 62.78,
+          "y": 27.78
+        },
+        {
+          "x": 62.1,
+          "y": 4.99
+        },
+        {
+          "x": 58.6,
+          "y": 2.69
+        },
+        {
+          "x": 100.26,
+          "y": 30.42
+        },
+        {
+          "x": 72.12,
+          "y": 37.71
+        },
+        {
+          "x": 48.23,
+          "y": 60.92
+        },
+        {
+          "x": 63.9,
+          "y": 17.55
+        },
+        {
+          "x": 71.45,
+          "y": 62.75
+        },
+        {
+          "x": 51.08,
+          "y": 4.66
+        },
+        {
+          "x": 93.6,
+          "y": 25.01
+        },
+        {
+          "x": 93.8,
+          "y": 24.28
+        },
+        {
+          "x": 51.59,
+          "y": 48.48
+        },
+        {
+          "x": 92.5,
+          "y": 30.29
+        },
+        {
+          "x": 32.43,
+          "y": 6.03
+        },
+        {
+          "x": 61.04,
+          "y": 10.56
+        },
+        {
+          "x": 91,
+          "y": 23.3
+        },
+        {
+          "x": 68.29,
+          "y": 28.29
+        },
+        {
+          "x": 72.24,
+          "y": 29.88
+        },
+        {
+          "x": 60.02,
+          "y": 18.81
+        },
+        {
+          "x": 8.2,
+          "y": 34.23
+        },
+        {
+          "x": 64.8,
+          "y": 3.41
+        },
+        {
+          "x": 102.34,
+          "y": 15.8
+        },
+        {
+          "x": 93.4,
+          "y": 34.15
+        },
+        {
+          "x": 79.67,
+          "y": 3.8
+        },
+        {
+          "x": 36.93,
+          "y": 4.07
+        },
+        {
+          "x": 16.93,
+          "y": 44.42
+        },
+        {
+          "x": 63.68,
+          "y": 16.78
+        },
+        {
+          "x": 82.6,
+          "y": 18.6
+        },
+        {
+          "x": 48.84,
+          "y": 54.88
+        },
+        {
+          "x": 78.32,
+          "y": 42.29
+        },
+        {
+          "x": 78.32,
+          "y": 42.29
+        },
+        {
+          "x": 93.8,
+          "y": 44.56
+        },
+        {
+          "x": 74.26,
+          "y": 30.32
+        },
+        {
+          "x": 69.98,
+          "y": 27.28
+        },
+        {
+          "x": 96.41,
+          "y": 33.54
+        },
+        {
+          "x": 24.77,
+          "y": 32.86
+        },
+        {
+          "x": 95.93,
+          "y": 30.26
+        },
+        {
+          "x": 95.74,
+          "y": 32.17
+        },
+        {
+          "x": 95.74,
+          "y": 32.17
+        },
+        {
+          "x": 77.08,
+          "y": 0.72
+        },
+        {
+          "x": 41.1,
+          "y": 34.46
+        },
+        {
+          "x": 77.98,
+          "y": 2.1
+        },
+        {
+          "x": 72.8,
+          "y": 34.46
+        },
+        {
+          "x": 7.33,
+          "y": 40.05
+        },
+        {
+          "x": 99.11,
+          "y": 26.17
+        },
+        {
+          "x": 101.87,
+          "y": 46.03
+        },
+        {
+          "x": 99.31,
+          "y": 48.98
+        },
+        {
+          "x": 97.67,
+          "y": 38.54
+        },
+        {
+          "x": 74.49,
+          "y": 45.54
+        },
+        {
+          "x": 55.65,
+          "y": 31.94
+        },
+        {
+          "x": 54.23,
+          "y": 48.06
+        },
+        {
+          "x": 61.24,
+          "y": 5.05
+        },
+        {
+          "x": 31.3,
+          "y": 19.09
+        },
+        {
+          "x": 38.85,
+          "y": 21.76
+        },
+        {
+          "x": 39.41,
+          "y": 21.83
+        },
+        {
+          "x": 42.9,
+          "y": 8.59
+        },
+        {
+          "x": 96.32,
+          "y": 20.71
+        },
+        {
+          "x": 94.96,
+          "y": 37.66
+        }
+      ]
+    },
+    "keeperShotmap": null
+  },
+  "status": "active",
+  "marketValues": {
+    "values": [
+      {
+        "date": "2014-12-31T00:00:00+00:00",
+        "value": 100000,
+        "currency": "EUR",
+        "lowerBound": 70000,
+        "upperBound": 120000,
+        "source": "scisports"
+      },
+      {
+        "date": "2015-06-30T00:00:00+00:00",
+        "value": 110000,
+        "currency": "EUR",
+        "lowerBound": 80000,
+        "upperBound": 140000,
+        "source": "scisports"
+      },
+      {
+        "date": "2015-12-31T00:00:00+00:00",
+        "value": 120000,
+        "currency": "EUR",
+        "lowerBound": 90000,
+        "upperBound": 160000,
+        "source": "scisports"
+      },
+      {
+        "date": "2016-06-30T00:00:00+00:00",
+        "value": 120000,
+        "currency": "EUR",
+        "lowerBound": 90000,
+        "upperBound": 150000,
+        "source": "scisports",
+        "teamId": 161777,
+        "teamName": "Valencia B",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2016-12-31T00:00:00+00:00",
+        "value": 110000,
+        "currency": "EUR",
+        "lowerBound": 80000,
+        "upperBound": 140000,
+        "source": "scisports",
+        "teamId": 161777,
+        "teamName": "Valencia B"
+      },
+      {
+        "date": "2017-06-30T00:00:00+00:00",
+        "value": 120000,
+        "currency": "EUR",
+        "lowerBound": 90000,
+        "upperBound": 150000,
+        "source": "scisports",
+        "teamId": 161777,
+        "teamName": "Valencia B"
+      },
+      {
+        "date": "2017-12-31T00:00:00+00:00",
+        "value": 120000,
+        "currency": "EUR",
+        "lowerBound": 90000,
+        "upperBound": 160000,
+        "source": "scisports",
+        "teamId": 161777,
+        "teamName": "Valencia B"
+      },
+      {
+        "date": "2018-06-30T00:00:00+00:00",
+        "value": 150000,
+        "currency": "EUR",
+        "lowerBound": 120000,
+        "upperBound": 190000,
+        "source": "scisports",
+        "teamId": 8388,
+        "teamName": "Numancia",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2018-12-31T00:00:00+00:00",
+        "value": 180000,
+        "currency": "EUR",
+        "lowerBound": 140000,
+        "upperBound": 230000,
+        "source": "scisports",
+        "teamId": 1123073,
+        "teamName": "UD Ibiza",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2019-06-30T00:00:00+00:00",
+        "value": 140000,
+        "currency": "EUR",
+        "lowerBound": 100000,
+        "upperBound": 170000,
+        "source": "scisports",
+        "teamId": 161777,
+        "teamName": "Valencia B",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2019-12-31T00:00:00+00:00",
+        "value": 90000,
+        "currency": "EUR",
+        "lowerBound": 70000,
+        "upperBound": 110000,
+        "source": "scisports",
+        "teamId": 161777,
+        "teamName": "Valencia B"
+      },
+      {
+        "date": "2020-06-30T00:00:00+00:00",
+        "value": 80000,
+        "currency": "EUR",
+        "lowerBound": 60000,
+        "upperBound": 110000,
+        "source": "scisports",
+        "teamId": 10279,
+        "teamName": "Castellón",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2020-12-31T00:00:00+00:00",
+        "value": 80000,
+        "currency": "EUR",
+        "lowerBound": 60000,
+        "upperBound": 100000,
+        "source": "scisports",
+        "teamId": 189783,
+        "teamName": "UCAM Murcia",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2021-06-30T00:00:00+00:00",
+        "value": 120000,
+        "currency": "EUR",
+        "lowerBound": 90000,
+        "upperBound": 150000,
+        "source": "scisports",
+        "teamId": 8393,
+        "teamName": "Albacete",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2021-10-31T00:00:00+00:00",
+        "value": 160000,
+        "currency": "EUR",
+        "lowerBound": 120000,
+        "upperBound": 200000,
+        "source": "scisports",
+        "teamId": 8393,
+        "teamName": "Albacete"
+      },
+      {
+        "date": "2021-11-30T00:00:00+00:00",
+        "value": 150000,
+        "currency": "EUR",
+        "lowerBound": 110000,
+        "upperBound": 190000,
+        "source": "scisports",
+        "teamId": 8393,
+        "teamName": "Albacete"
+      },
+      {
+        "date": "2021-12-31T00:00:00+00:00",
+        "value": 220000,
+        "currency": "EUR",
+        "lowerBound": 170000,
+        "upperBound": 280000,
+        "source": "scisports",
+        "teamId": 8393,
+        "teamName": "Albacete"
+      },
+      {
+        "date": "2022-01-31T00:00:00+00:00",
+        "value": 170000,
+        "currency": "EUR",
+        "lowerBound": 130000,
+        "upperBound": 220000,
+        "source": "scisports",
+        "teamId": 8393,
+        "teamName": "Albacete"
+      },
+      {
+        "date": "2022-02-28T00:00:00+00:00",
+        "value": 140000,
+        "currency": "EUR",
+        "lowerBound": 100000,
+        "upperBound": 170000,
+        "source": "scisports",
+        "teamId": 8393,
+        "teamName": "Albacete"
+      },
+      {
+        "date": "2022-03-31T00:00:00+00:00",
+        "value": 120000,
+        "currency": "EUR",
+        "lowerBound": 90000,
+        "upperBound": 160000,
+        "source": "scisports",
+        "teamId": 8393,
+        "teamName": "Albacete"
+      },
+      {
+        "date": "2022-04-30T00:00:00+00:00",
+        "value": 100000,
+        "currency": "EUR",
+        "lowerBound": 80000,
+        "upperBound": 130000,
+        "source": "scisports",
+        "teamId": 8393,
+        "teamName": "Albacete"
+      },
+      {
+        "date": "2022-05-31T00:00:00+00:00",
+        "value": 110000,
+        "currency": "EUR",
+        "lowerBound": 80000,
+        "upperBound": 130000,
+        "source": "scisports",
+        "teamId": 8393,
+        "teamName": "Albacete"
+      },
+      {
+        "date": "2022-06-30T00:00:00+00:00",
+        "value": 140000,
+        "currency": "EUR",
+        "lowerBound": 100000,
+        "upperBound": 170000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2022-07-31T00:00:00+00:00",
+        "value": 210000,
+        "currency": "EUR",
+        "lowerBound": 160000,
+        "upperBound": 260000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2022-08-31T00:00:00+00:00",
+        "value": 230000,
+        "currency": "EUR",
+        "lowerBound": 170000,
+        "upperBound": 290000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2022-09-04T00:00:00+00:00",
+        "value": 250000,
+        "currency": "EUR",
+        "lowerBound": 190000,
+        "upperBound": 310000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2022-09-30T00:00:00+00:00",
+        "value": 260000,
+        "currency": "EUR",
+        "lowerBound": 190000,
+        "upperBound": 320000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2022-10-31T00:00:00+00:00",
+        "value": 270000,
+        "currency": "EUR",
+        "lowerBound": 210000,
+        "upperBound": 340000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2022-11-30T00:00:00+00:00",
+        "value": 270000,
+        "currency": "EUR",
+        "lowerBound": 200000,
+        "upperBound": 340000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2022-12-31T00:00:00+00:00",
+        "value": 270000,
+        "currency": "EUR",
+        "lowerBound": 200000,
+        "upperBound": 340000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2023-01-31T00:00:00+00:00",
+        "value": 260000,
+        "currency": "EUR",
+        "lowerBound": 200000,
+        "upperBound": 330000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2023-02-28T00:00:00+00:00",
+        "value": 250000,
+        "currency": "EUR",
+        "lowerBound": 190000,
+        "upperBound": 310000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2023-03-31T00:00:00+00:00",
+        "value": 240000,
+        "currency": "EUR",
+        "lowerBound": 180000,
+        "upperBound": 300000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2023-04-30T00:00:00+00:00",
+        "value": 240000,
+        "currency": "EUR",
+        "lowerBound": 180000,
+        "upperBound": 290000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2023-05-31T00:00:00+00:00",
+        "value": 230000,
+        "currency": "EUR",
+        "lowerBound": 180000,
+        "upperBound": 290000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2023-06-30T00:00:00+00:00",
+        "value": 200000,
+        "currency": "EUR",
+        "lowerBound": 150000,
+        "upperBound": 250000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2023-07-31T00:00:00+00:00",
+        "value": 200000,
+        "currency": "EUR",
+        "lowerBound": 150000,
+        "upperBound": 250000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2023-09-01T00:00:00+00:00",
+        "value": 200000,
+        "currency": "EUR",
+        "lowerBound": 150000,
+        "upperBound": 250000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2023-09-30T00:00:00+00:00",
+        "value": 180000,
+        "currency": "EUR",
+        "lowerBound": 140000,
+        "upperBound": 230000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2023-10-31T00:00:00+00:00",
+        "value": 180000,
+        "currency": "EUR",
+        "lowerBound": 130000,
+        "upperBound": 220000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2023-11-30T00:00:00+00:00",
+        "value": 180000,
+        "currency": "EUR",
+        "lowerBound": 130000,
+        "upperBound": 220000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2023-12-31T00:00:00+00:00",
+        "value": 140000,
+        "currency": "EUR",
+        "lowerBound": 110000,
+        "upperBound": 180000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2024-01-31T00:00:00+00:00",
+        "value": 180000,
+        "currency": "EUR",
+        "lowerBound": 144000,
+        "upperBound": 216000,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2024-02-29T00:00:00+00:00",
+        "value": 216000,
+        "currency": "EUR",
+        "lowerBound": 172800,
+        "upperBound": 259200,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2024-03-31T00:00:00+00:00",
+        "value": 259200,
+        "currency": "EUR",
+        "lowerBound": 207360,
+        "upperBound": 311040,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2024-04-30T00:00:00+00:00",
+        "value": 311040,
+        "currency": "EUR",
+        "lowerBound": 248832,
+        "upperBound": 373248,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2024-05-31T00:00:00+00:00",
+        "value": 373248,
+        "currency": "EUR",
+        "lowerBound": 298598,
+        "upperBound": 447897,
+        "source": "scisports",
+        "teamId": 8024,
+        "teamName": "Widzew Łódź"
+      },
+      {
+        "date": "2024-06-30T00:00:00+00:00",
+        "value": 447897,
+        "currency": "EUR",
+        "lowerBound": 358317,
+        "upperBound": 537476,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2024-07-31T00:00:00+00:00",
+        "value": 448209,
+        "currency": "EUR",
+        "lowerBound": 358567,
+        "upperBound": 537851,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2024-08-31T00:00:00+00:00",
+        "value": 379051,
+        "currency": "EUR",
+        "lowerBound": 303240,
+        "upperBound": 454861,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2024-09-30T00:00:00+00:00",
+        "value": 379051,
+        "currency": "EUR",
+        "lowerBound": 303240,
+        "upperBound": 454861,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2024-10-31T00:00:00+00:00",
+        "value": 347704,
+        "currency": "EUR",
+        "lowerBound": 278163,
+        "upperBound": 417245,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2024-11-30T00:00:00+00:00",
+        "value": 312522,
+        "currency": "EUR",
+        "lowerBound": 250017,
+        "upperBound": 375026,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2024-12-31T00:00:00+00:00",
+        "value": 312522,
+        "currency": "EUR",
+        "lowerBound": 250017,
+        "upperBound": 375026,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2025-01-30T00:00:00+00:00",
+        "value": 312522,
+        "currency": "EUR",
+        "lowerBound": 250017,
+        "upperBound": 375026,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2025-02-27T00:00:00+00:00",
+        "value": 312522,
+        "currency": "EUR",
+        "lowerBound": 250017,
+        "upperBound": 375026,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2025-03-30T00:00:00+00:00",
+        "value": 290882,
+        "currency": "EUR",
+        "lowerBound": 232706,
+        "upperBound": 349059,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2025-04-30T00:00:00+00:00",
+        "value": 290882,
+        "currency": "EUR",
+        "lowerBound": 232706,
+        "upperBound": 349059,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2025-05-31T00:00:00+00:00",
+        "value": 290882,
+        "currency": "EUR",
+        "lowerBound": 232706,
+        "upperBound": 349059,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2025-07-01T00:00:00+00:00",
+        "value": 192737,
+        "currency": "EUR",
+        "lowerBound": 154190,
+        "upperBound": 231285,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2025-08-01T00:00:00+00:00",
+        "value": 158122,
+        "currency": "EUR",
+        "lowerBound": 126498,
+        "upperBound": 189747,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2025-09-01T00:00:00+00:00",
+        "value": 158122,
+        "currency": "EUR",
+        "lowerBound": 126498,
+        "upperBound": 189747,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2025-10-01T00:00:00+00:00",
+        "value": 169165,
+        "currency": "EUR",
+        "lowerBound": 135332,
+        "upperBound": 202998,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2025-11-01T00:00:00+00:00",
+        "value": 169165,
+        "currency": "EUR",
+        "lowerBound": 135332,
+        "upperBound": 202998,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2025-12-01T00:00:00+00:00",
+        "value": 169165,
+        "currency": "EUR",
+        "lowerBound": 135332,
+        "upperBound": 202998,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2026-01-01T00:00:00+00:00",
+        "value": 169165,
+        "currency": "EUR",
+        "lowerBound": 135332,
+        "upperBound": 202998,
+        "source": "scisports",
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo"
+      },
+      {
+        "date": "2026-02-01T00:00:00+00:00",
+        "value": 184127,
+        "currency": "EUR",
+        "lowerBound": 147302,
+        "upperBound": 220953,
+        "source": "scisports",
+        "teamId": 10265,
+        "teamName": "Wisła Kraków",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2026-04-01T00:00:00+00:00",
+        "value": 184127,
+        "currency": "EUR",
+        "lowerBound": 147302,
+        "upperBound": 220953,
+        "source": "scisports",
+        "teamId": 10265,
+        "teamName": "Wisła Kraków"
+      },
+      {
+        "date": "2026-05-01T00:00:00+00:00",
+        "value": 147302,
+        "currency": "EUR",
+        "lowerBound": 117841,
+        "upperBound": 176762,
+        "source": "scisports",
+        "teamId": 10265,
+        "teamName": "Wisła Kraków"
+      },
+      {
+        "date": "2026-06-01T00:00:00+00:00",
+        "value": 117841,
+        "currency": "EUR",
+        "lowerBound": 94272,
+        "upperBound": 141409,
+        "source": "scisports",
+        "teamId": 10265,
+        "teamName": "Wisła Kraków"
+      },
+      {
+        "date": "2026-07-01T00:00:00+00:00",
+        "value": 94272,
+        "currency": "EUR",
+        "lowerBound": 75417,
+        "upperBound": 113126,
+        "source": "scisports",
+        "teamId": 10265,
+        "teamName": "Wisła Kraków"
+      },
+      {
+        "date": "2026-08-01T00:00:00+00:00",
+        "value": 113126,
+        "currency": "EUR",
+        "lowerBound": 90500,
+        "upperBound": 135751,
+        "source": "scisports",
+        "teamId": 10265,
+        "teamName": "Wisła Kraków"
+      },
+      {
+        "date": "2026-09-01T00:00:00+00:00",
+        "value": 135751,
+        "currency": "EUR",
+        "lowerBound": 108600,
+        "upperBound": 162901,
+        "source": "scisports",
+        "teamId": 10265,
+        "teamName": "Wisła Kraków"
+      }
+    ]
+  },
+  "relatedLinksData": {
+    "teammates": [
+      {
+        "id": 1830746,
+        "name": "Isaiah Eichie"
+      },
+      {
+        "id": 431948,
+        "name": "Kellyn Acosta"
+      },
+      {
+        "id": 1200629,
+        "name": "Alessandro Pio Riccio"
+      },
+      {
+        "id": 1117005,
+        "name": "Jan Biegański"
+      },
+      {
+        "id": 949336,
+        "name": "Musa Juwara"
+      },
+      {
+        "id": 1050169,
+        "name": "Rajmund Molnár"
+      },
+      {
+        "id": 1439702,
+        "name": "Filip Čuić"
+      },
+      {
+        "id": 69541,
+        "name": "Kamil Grosicki"
+      },
+      {
+        "id": 1329535,
+        "name": "Dimitrios Keramitsis"
+      },
+      {
+        "id": 585352,
+        "name": "José Pozo"
+      },
+      {
+        "id": 1092563,
+        "name": "Hussein Ali"
+      },
+      {
+        "id": 558189,
+        "name": "Patryk Dziczek"
+      },
+      {
+        "id": 316558,
+        "name": "Jean Pierre Nsame"
+      },
+      {
+        "id": 1078936,
+        "name": "Paul Mukairu"
+      },
+      {
+        "id": 1080510,
+        "name": "Mor Ndiaye"
+      },
+      {
+        "id": 833697,
+        "name": "Darko Churlinov"
+      },
+      {
+        "id": 280965,
+        "name": "Benjamin Mendy"
+      },
+      {
+        "id": 406506,
+        "name": "Linus Wahlqvist Egnell"
+      },
+      {
+        "id": 1299888,
+        "name": "Lukas Willen"
+      },
+      {
+        "id": 1901066,
+        "name": "Jacek Czapliński"
+      },
+      {
+        "id": 1410436,
+        "name": "Nikolaos Botis"
+      },
+      {
+        "id": 1797493,
+        "name": "Alex Pesković"
+      },
+      {
+        "id": 1667987,
+        "name": "Maciej Wojciechowski"
+      },
+      {
+        "id": 749648,
+        "name": "Attila Szalai"
+      },
+      {
+        "id": 1786208,
+        "name": "Natan Ława"
+      },
+      {
+        "id": 1596043,
+        "name": "Patryk Paryzek"
+      },
+      {
+        "id": 2090858,
+        "name": "Andrzej Ossowski"
+      },
+      {
+        "id": 289211,
+        "name": "Valentin Cojocaru"
+      },
+      {
+        "id": 2170709,
+        "name": "Antoni Fojut"
+      },
+      {
+        "id": 841811,
+        "name": "Kevin Dąbrowski"
+      }
+    ],
+    "mensNationalTeam": [
+      {
+        "id": 562727,
+        "name": "David Raya"
+      },
+      {
+        "id": 1323897,
+        "name": "Marc Pubill"
+      },
+      {
+        "id": 288406,
+        "name": "Alejandro Grimaldo"
+      },
+      {
+        "id": 940573,
+        "name": "Eric García"
+      },
+      {
+        "id": 602563,
+        "name": "Marcos Llorente"
+      },
+      {
+        "id": 574645,
+        "name": "Mikel Merino"
+      },
+      {
+        "id": 881771,
+        "name": "Ferrán Torres"
+      },
+      {
+        "id": 605654,
+        "name": "Fabián Ruiz"
+      },
+      {
+        "id": 1279040,
+        "name": "Gavi"
+      },
+      {
+        "id": 614834,
+        "name": "Dani Olmo"
+      },
+      {
+        "id": 1047676,
+        "name": "Yéremi Pino"
+      },
+      {
+        "id": 941573,
+        "name": "Pedro Porro"
+      },
+      {
+        "id": 1167220,
+        "name": "Joan García"
+      },
+      {
+        "id": 411617,
+        "name": "Aymeric Laporte"
+      },
+      {
+        "id": 942372,
+        "name": "Álex Baena"
+      },
+      {
+        "id": 675088,
+        "name": "Rodri"
+      },
+      {
+        "id": 1202110,
+        "name": "Nico Williams"
+      },
+      {
+        "id": 1031325,
+        "name": "Martín Zubimendi"
+      },
+      {
+        "id": 1467236,
+        "name": "Lamine Yamal"
+      },
+      {
+        "id": 1083323,
+        "name": "Pedri"
+      },
+      {
+        "id": 678234,
+        "name": "Mikel Oyarzabal"
+      },
+      {
+        "id": 1532137,
+        "name": "Pau Cubarsí"
+      },
+      {
+        "id": 660625,
+        "name": "Unai Simón"
+      },
+      {
+        "id": 873289,
+        "name": "Marc Cucurella"
+      },
+      {
+        "id": 1553105,
+        "name": "Víctor Muñoz"
+      },
+      {
+        "id": 609505,
+        "name": "Borja Iglesias"
+      }
+    ],
+    "womensNationalTeam": []
+  },
+  "nextMatch": {
+    "matchId": 5803991,
+    "homeId": 8028,
+    "awayId": 8023,
+    "homeName": "Piast Gliwice",
+    "awayName": "Pogoń Szczecin",
+    "matchDate": "2026-09-20T10:15:00Z",
+    "statusId": 1,
+    "leagueId": 196,
+    "parentLeagueId": 196,
+    "leagueName": "Ekstraklasa",
+    "status": {
+      "utcTime": "2026-09-20T10:15:00.000Z",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "stadium": {
+      "venue": "Stadion Miejski",
+      "city": "Gliwice",
+      "lat": 50.306616993,
+      "long": 18.69544208
+    },
+    "matchUrl": "/matches/pogon-szczecin-vs-piast-gliwice/24pcga#5803991"
+  },
+  "dataProvider": "enet",
+  "topCompletedTransfer": {
+    "name": "Jordi Sánchez",
+    "playerId": 813076,
+    "position": null,
+    "transferDate": "2026-09-08",
+    "transferText": [
+      null,
+      null,
+      null
+    ],
+    "fromClub": "Wisła Kraków",
+    "fromClubFullName": "Wisła Kraków",
+    "fromClubId": 10265,
+    "toClub": "Pogoń Szczecin",
+    "toClubFullName": "Pogoń Szczecin",
+    "toClubId": 8023,
+    "fee": {
+      "feeText": "fee",
+      "localizedFeeText": "transfer_fee",
+      "value": 250000
+    },
+    "amountEuroEstimated": null,
+    "transferType": {
+      "text": "contract",
+      "localizationKey": "contract"
+    },
+    "contractExtension": false,
+    "onLoan": false,
+    "fromDate": null,
+    "toDate": null,
+    "marketValue": null
+  },
+  "initialMatchesPage": {
+    "matches": [
+      {
+        "teamId": 8023,
+        "teamName": "Pogoń Szczecin",
+        "opponentTeamId": 1286895,
+        "opponentTeamName": "Wieczysta Kraków",
+        "isHomeTeam": true,
+        "id": 5803979,
+        "matchDate": {
+          "utcTime": "2026-09-13T12:45:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-wieczysta-krakow/ap5pv1fw#5803979",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 0,
+        "minutesPlayed": 90,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.8",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 115,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 10265,
+        "teamName": "Wisła Kraków",
+        "opponentTeamId": 8245,
+        "opponentTeamName": "Korona Kielce",
+        "isHomeTeam": false,
+        "id": 5803970,
+        "matchDate": {
+          "utcTime": "2026-09-05T15:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/korona-kielce-vs-wisa-krakow/2u056m#5803970",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 1,
+        "minutesPlayed": 90,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.5",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 115,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 10265,
+        "teamName": "Wisła Kraków",
+        "opponentTeamId": 1286895,
+        "opponentTeamName": "Wieczysta Kraków",
+        "isHomeTeam": true,
+        "id": 5803965,
+        "matchDate": {
+          "utcTime": "2026-08-29T15:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/wisa-krakow-vs-wieczysta-krakow/aqhsm4k3#5803965",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 0,
+        "minutesPlayed": 73,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.8",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 115,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 10265,
+        "teamName": "Wisła Kraków",
+        "opponentTeamId": 8023,
+        "opponentTeamName": "Pogoń Szczecin",
+        "isHomeTeam": false,
+        "id": 5803955,
+        "matchDate": {
+          "utcTime": "2026-08-23T18:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/pogon-szczecin-vs-wisa-krakow/2rkl8v#5803955",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 2,
+        "minutesPlayed": 81,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.5",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 115,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 10265,
+        "teamName": "Wisła Kraków",
+        "opponentTeamId": 8020,
+        "opponentTeamName": "Górnik Zabrze",
+        "isHomeTeam": false,
+        "id": 5803942,
+        "matchDate": {
+          "utcTime": "2026-08-16T18:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/gornik-zabrze-vs-wisa-krakow/2rjewv#5803942",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 1,
+        "minutesPlayed": 90,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.1",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 115,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 10265,
+        "teamName": "Wisła Kraków",
+        "opponentTeamId": 8243,
+        "opponentTeamName": "Wisła Płock",
+        "isHomeTeam": true,
+        "id": 5803940,
+        "matchDate": {
+          "utcTime": "2026-08-07T18:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/wisa-pock-vs-wisa-krakow/2tzcm9#5803940",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 1,
+        "minutesPlayed": 90,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.9",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 115,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 10265,
+        "teamName": "Wisła Kraków",
+        "opponentTeamId": 8028,
+        "opponentTeamName": "Piast Gliwice",
+        "isHomeTeam": false,
+        "id": 5803928,
+        "matchDate": {
+          "utcTime": "2026-08-01T12:45:00.000Z"
+        },
+        "matchPageUrl": "/matches/piast-gliwice-vs-wisa-krakow/2rmjtf#5803928",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 4,
+        "awayScore": 3,
+        "minutesPlayed": 90,
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "8.8",
+          "isTopRating": true
+        },
+        "playerOfTheMatch": true,
+        "onBench": false,
+        "lineupPositionId": 115,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 10265,
+        "teamName": "Wisła Kraków",
+        "opponentTeamId": 4023,
+        "opponentTeamName": "GKS Katowice",
+        "isHomeTeam": true,
+        "id": 5803905,
+        "matchDate": {
+          "utcTime": "2026-07-26T18:15:00.000Z"
+        },
+        "matchPageUrl": "/matches/gks-katowice-vs-wisa-krakow/1os10f#5803905",
+        "leagueId": 196,
+        "leagueName": "Ekstraklasa",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 1,
+        "minutesPlayed": 67,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "7.4",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 115,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo",
+        "opponentTeamId": 820969,
+        "opponentTeamName": "FC Imabari",
+        "isHomeTeam": true,
+        "id": 4691527,
+        "matchDate": {
+          "utcTime": "2025-06-15T05:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/hokkaido-consadole-sapporo-vs-fc-imabari/5k8b6oxa#4691527",
+        "leagueId": 8974,
+        "leagueName": "J. League 2",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 2,
+        "minutesPlayed": 64,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 104,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo",
+        "opponentTeamId": 162193,
+        "opponentTeamName": "Sagan Tosu",
+        "isHomeTeam": false,
+        "id": 4691478,
+        "matchDate": {
+          "utcTime": "2025-05-25T05:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/hokkaido-consadole-sapporo-vs-sagan-tosu/hcta9ma#4691478",
+        "leagueId": 8974,
+        "leagueName": "J. League 2",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 1,
+        "minutesPlayed": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "redCards": 1,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": true,
+        "playedInMatch": false
+      },
+      {
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo",
+        "opponentTeamId": 164737,
+        "opponentTeamName": "Kataller Toyama",
+        "isHomeTeam": true,
+        "id": 4691507,
+        "matchDate": {
+          "utcTime": "2025-05-17T05:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/hokkaido-consadole-sapporo-vs-kataller-toyama/hofk2oa#4691507",
+        "leagueId": 8974,
+        "leagueName": "J. League 2",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 1,
+        "minutesPlayed": 61,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 104,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo",
+        "opponentTeamId": 860934,
+        "opponentTeamName": "Iwaki FC",
+        "isHomeTeam": false,
+        "id": 4691452,
+        "matchDate": {
+          "utcTime": "2025-05-11T04:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/hokkaido-consadole-sapporo-vs-iwaki-fc/61qm8qxf#4691452",
+        "leagueId": 8974,
+        "leagueName": "J. League 2",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 1,
+        "minutesPlayed": 67,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 106,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo",
+        "opponentTeamId": 8065,
+        "opponentTeamName": "Júbilo Iwata",
+        "isHomeTeam": true,
+        "id": 4691442,
+        "matchDate": {
+          "utcTime": "2025-05-06T05:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/jubilo-iwata-vs-hokkaido-consadole-sapporo/3ckp9ca#4691442",
+        "leagueId": 8974,
+        "leagueName": "J. League 2",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 4,
+        "minutesPlayed": 53,
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo",
+        "opponentTeamId": 164720,
+        "opponentTeamName": "Montedio Yamagata",
+        "isHomeTeam": false,
+        "id": 4691469,
+        "matchDate": {
+          "utcTime": "2025-05-03T05:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/hokkaido-consadole-sapporo-vs-montedio-yamagata/hocqzpc#4691469",
+        "leagueId": 8974,
+        "leagueName": "J. League 2",
+        "stage": null,
+        "homeScore": 0,
+        "awayScore": 1,
+        "minutesPlayed": 21,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo",
+        "opponentTeamId": 162198,
+        "opponentTeamName": "Ehime FC",
+        "isHomeTeam": false,
+        "id": 4691368,
+        "matchDate": {
+          "utcTime": "2025-03-23T05:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/hokkaido-consadole-sapporo-vs-ehime-fc/hcu3q4r#4691368",
+        "leagueId": 8974,
+        "leagueName": "J. League 2",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 2,
+        "minutesPlayed": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": true,
+        "playedInMatch": false
+      },
+      {
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo",
+        "opponentTeamId": 194015,
+        "opponentTeamName": "Blaublitz Akita",
+        "isHomeTeam": false,
+        "id": 4691388,
+        "matchDate": {
+          "utcTime": "2025-03-15T04:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/hokkaido-consadole-sapporo-vs-blaublitz-akita/llunot3#4691388",
+        "leagueId": 8974,
+        "leagueName": "J. League 2",
+        "stage": null,
+        "homeScore": 1,
+        "awayScore": 3,
+        "minutesPlayed": 18,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo",
+        "opponentTeamId": 162196,
+        "opponentTeamName": "Roasso Kumamoto",
+        "isHomeTeam": false,
+        "id": 4691339,
+        "matchDate": {
+          "utcTime": "2025-02-23T04:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/hokkaido-consadole-sapporo-vs-roasso-kumamoto/hctrxxa#4691339",
+        "leagueId": 8974,
+        "leagueName": "J. League 2",
+        "stage": null,
+        "homeScore": 3,
+        "awayScore": 0,
+        "minutesPlayed": 21,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo",
+        "opponentTeamId": 4427,
+        "opponentTeamName": "Oita Trinita",
+        "isHomeTeam": false,
+        "id": 4691348,
+        "matchDate": {
+          "utcTime": "2025-02-16T05:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/oita-trinita-vs-hokkaido-consadole-sapporo/35f39n9#4691348",
+        "leagueId": 8974,
+        "leagueName": "J. League 2",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 0,
+        "minutesPlayed": 62,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": 0,
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "lineupPositionId": 107,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo",
+        "opponentTeamId": 6582,
+        "opponentTeamName": "Gamba Osaka",
+        "isHomeTeam": false,
+        "id": 4410152,
+        "matchDate": {
+          "utcTime": "2024-10-05T08:30:00.000Z"
+        },
+        "matchPageUrl": "/matches/gamba-osaka-vs-hokkaido-consadole-sapporo/39mqjnf#4410152",
+        "leagueId": 223,
+        "leagueName": "J. League",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 1,
+        "minutesPlayed": 45,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.3",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      },
+      {
+        "teamId": 112688,
+        "teamName": "Hokkaido Consadole Sapporo",
+        "opponentTeamId": 8542,
+        "opponentTeamName": "Kyoto Sanga FC",
+        "isHomeTeam": true,
+        "id": 4410111,
+        "matchDate": {
+          "utcTime": "2024-09-28T04:00:00.000Z"
+        },
+        "matchPageUrl": "/matches/kyoto-sanga-fc-vs-hokkaido-consadole-sapporo/3dj29hj#4410111",
+        "leagueId": 223,
+        "leagueName": "J. League",
+        "stage": null,
+        "homeScore": 2,
+        "awayScore": 0,
+        "minutesPlayed": 20,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "ratingProps": {
+          "rating": "6.3",
+          "isTopRating": false
+        },
+        "playerOfTheMatch": false,
+        "onBench": false,
+        "playedInMatch": true
+      }
+    ],
+    "previous": "https://pub.fotmob.com/prod/db/api/player/813076/matches?before=1727496000"
+  }
+}

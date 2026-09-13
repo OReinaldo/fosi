@@ -295,7 +295,7 @@
       "time": "13.09.2026 14:45",
       "home": {
         "id": 8023,
-        "score": 0,
+        "score": 2,
         "name": "Pogoń Szczecin",
         "longName": "Pogoń Szczecin"
       },
@@ -306,17 +306,26 @@
         "longName": "Wieczysta Kraków"
       },
       "eliminatedTeamId": null,
-      "statusId": 1,
+      "statusId": 6,
       "tournamentStage": "8",
       "status": {
         "utcTime": "2026-09-13T12:45:00.000Z",
         "halfs": {
-          "firstHalfStarted": "13.09.2026 14:45:00"
+          "firstHalfStarted": "13.09.2026 14:45:26",
+          "secondHalfStarted": "13.09.2026 15:49:03"
         },
         "periodLength": 45,
-        "started": false,
+        "finished": true,
+        "started": true,
         "cancelled": false,
-        "finished": false
+        "awarded": false,
+        "scoreStr": "2 - 0",
+        "reason": {
+          "short": "FT",
+          "shortKey": "fulltime_short",
+          "long": "Full-Time",
+          "longKey": "finished"
+        }
       },
       "timeTS": 1789303500000
     },
