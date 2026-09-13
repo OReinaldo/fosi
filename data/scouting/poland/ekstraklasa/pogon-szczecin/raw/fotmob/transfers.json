@@ -1,6 +1,911 @@
 {
   "transfers": [
     {
+      "name": "Badr Bayou",
+      "playerId": 2140499,
+      "position": null,
+      "transferDate": "2026-09-12T17:17:18Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Mantova",
+      "fromClubFullName": "Mantova",
+      "fromClubId": 9889,
+      "toClub": "Free agent",
+      "toClubFullName": "Free agent",
+      "toClubId": 2,
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-10T00:00:00Z",
+      "toDate": null,
+      "marketValue": null
+    },
+    {
+      "name": "Emiliano Gómez",
+      "playerId": 935366,
+      "position": {
+        "label": "LW",
+        "key": "leftwinger_short"
+      },
+      "transferDate": "2026-09-12T12:13:53Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Puebla",
+      "fromClubFullName": "Puebla",
+      "fromClubId": 7847,
+      "toClub": "Tigres",
+      "toClubFullName": "Tigres",
+      "toClubId": 8561,
+      "fee": {
+        "feeText": "undisclosed",
+        "localizedFeeText": "undisclosed"
+      },
+      "amountEuroEstimated": 3400000,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-09T00:00:00Z",
+      "toDate": null,
+      "marketValue": 2046804
+    },
+    {
+      "name": "Matej Mikulenka",
+      "playerId": 1485809,
+      "position": {
+        "label": "ST",
+        "key": "striker_short"
+      },
+      "transferDate": "2026-09-12T11:57:34Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Sigma Olomouc",
+      "fromClubFullName": "Sigma Olomouc",
+      "fromClubId": 6461,
+      "toClub": "Slovan Liberec",
+      "toClubFullName": "Slovan Liberec",
+      "toClubId": 10245,
+      "fee": {
+        "feeText": "fee",
+        "localizedFeeText": "transfer_fee",
+        "value": 1000000
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-08T00:00:00Z",
+      "toDate": "2031-06-30T00:00:00Z",
+      "marketValue": 1033213
+    },
+    {
+      "name": "Santiago Bueno",
+      "playerId": 848034,
+      "position": {
+        "label": "CB",
+        "key": "centerback_short"
+      },
+      "transferDate": "2026-09-12T11:39:56Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Wolves",
+      "fromClubFullName": "Wolverhampton Wanderers",
+      "fromClubId": 8602,
+      "toClub": "América",
+      "toClubFullName": "CF América",
+      "toClubId": 6576,
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-09-12T00:00:00Z",
+      "toDate": "2027-06-30T00:00:00Z",
+      "marketValue": 10527515
+    },
+    {
+      "name": "Zeidane Inoussa",
+      "playerId": 1184745,
+      "position": {
+        "label": "LW",
+        "key": "leftwinger_short"
+      },
+      "transferDate": "2026-09-12T11:35:38Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Swansea",
+      "fromClubFullName": "Swansea City",
+      "fromClubId": 10003,
+      "toClub": "Górnik Zabrze",
+      "toClubFullName": "Górnik Zabrze",
+      "toClubId": 8020,
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-09-12T00:00:00Z",
+      "toDate": "2027-06-30T00:00:00Z",
+      "marketValue": 4306811
+    },
+    {
+      "name": "Wojciech Kaminski",
+      "playerId": 1067718,
+      "position": {
+        "label": "CM",
+        "key": "centermidfielder_short"
+      },
+      "transferDate": "2026-09-12T11:04:47Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Korona Kielce",
+      "fromClubFullName": "Korona Kielce",
+      "fromClubId": 8245,
+      "toClub": "Free agent",
+      "toClubFullName": "Free agent",
+      "toClubId": 2,
+      "fee": null,
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-12T00:00:00Z",
+      "toDate": null,
+      "marketValue": 252243
+    },
+    {
+      "name": "David Terans",
+      "playerId": 495321,
+      "position": {
+        "label": "AM",
+        "key": "centerattackingmidfielder_short"
+      },
+      "transferDate": "2026-09-12T10:34:58Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Fluminense",
+      "fromClubFullName": "Fluminense",
+      "fromClubId": 9863,
+      "toClub": "Atlético-GO",
+      "toClubFullName": "Atlético-GO",
+      "toClubId": 165545,
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-11T00:00:00Z",
+      "toDate": "2026-11-30T00:00:00Z",
+      "marketValue": 576992
+    },
+    {
+      "name": "Isaac",
+      "playerId": 1463337,
+      "position": {
+        "label": "RW",
+        "key": "rightwinger_short"
+      },
+      "transferDate": "2026-09-12T10:29:06Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Athletico Paranaense",
+      "fromClubFullName": "Athletico Paranaense",
+      "fromClubId": 10273,
+      "toClub": "Maccabi Netanya",
+      "toClubFullName": "Maccabi Netanya",
+      "toClubId": 1832,
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-09-11T00:00:00Z",
+      "toDate": "2027-05-31T00:00:00Z",
+      "marketValue": 1162726
+    },
+    {
+      "name": "Pedro Lima",
+      "playerId": 1610952,
+      "position": {
+        "label": "RB",
+        "key": "rightback_short"
+      },
+      "transferDate": "2026-09-12T10:27:36Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Wolves",
+      "fromClubFullName": "Wolverhampton Wanderers",
+      "fromClubId": 8602,
+      "toClub": "São Paulo",
+      "toClubFullName": "São Paulo",
+      "toClubId": 10277,
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-09-12T00:00:00Z",
+      "toDate": "2027-06-30T00:00:00Z",
+      "marketValue": 5569687
+    },
+    {
+      "name": "Chico",
+      "playerId": 923766,
+      "position": {
+        "label": "ST",
+        "key": "striker_short"
+      },
+      "transferDate": "2026-09-12T10:26:21Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Cruzeiro",
+      "fromClubFullName": "Cruzeiro",
+      "fromClubId": 9781,
+      "toClub": "Fortaleza",
+      "toClubFullName": "Fortaleza",
+      "toClubId": 8287,
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-09-11T00:00:00Z",
+      "toDate": "2026-12-31T00:00:00Z",
+      "marketValue": 597499
+    },
+    {
+      "name": "Ignacio Laquintana",
+      "playerId": 971433,
+      "position": {
+        "label": "RW",
+        "key": "rightwinger_short"
+      },
+      "transferDate": "2026-09-12T10:25:26Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "RB Bragantino",
+      "fromClubFullName": "RB Bragantino",
+      "fromClubId": 109705,
+      "toClub": "Vitória",
+      "toClubFullName": "Vitória",
+      "toClubId": 7733,
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-09-12T00:00:00Z",
+      "toDate": "2026-12-31T00:00:00Z",
+      "marketValue": 945831
+    },
+    {
+      "name": "Neto Pessoa",
+      "playerId": 1248050,
+      "position": {
+        "label": "ST",
+        "key": "striker_short"
+      },
+      "transferDate": "2026-09-12T10:24:34Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Chapecoense",
+      "fromClubFullName": "Chapecoense",
+      "fromClubId": 197693,
+      "toClub": "Sport Recife",
+      "toClubFullName": "Sport Recife",
+      "toClubId": 6305,
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-11T00:00:00Z",
+      "toDate": null,
+      "marketValue": 346833
+    },
+    {
+      "name": "Matías Viña",
+      "playerId": 840184,
+      "position": {
+        "label": "LB",
+        "key": "leftback_short"
+      },
+      "transferDate": "2026-09-12T10:23:02Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Flamengo",
+      "fromClubFullName": "Flamengo",
+      "fromClubId": 9770,
+      "toClub": "Cruzeiro",
+      "toClubFullName": "Cruzeiro",
+      "toClubId": 9781,
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-09-11T00:00:00Z",
+      "toDate": "2026-12-31T00:00:00Z",
+      "marketValue": 2251398
+    },
+    {
+      "name": "Rudi Allan Molotnikov",
+      "playerId": 1418923,
+      "position": {
+        "label": "ST",
+        "key": "striker_short"
+      },
+      "transferDate": "2026-09-12T10:21:36Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Hibernian",
+      "fromClubFullName": "Hibernian",
+      "fromClubId": 10251,
+      "toClub": "Arbroath",
+      "toClubFullName": "Arbroath",
+      "toClubId": 8280,
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-09-11T00:00:00Z",
+      "toDate": "2027-01-01T00:00:00Z",
+      "marketValue": 588248
+    },
+    {
+      "name": "Jacob MacIntyre",
+      "playerId": 1406698,
+      "position": {
+        "label": "LW",
+        "key": "leftwinger_short"
+      },
+      "transferDate": "2026-09-12T10:20:56Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Hibernian",
+      "fromClubFullName": "Hibernian",
+      "fromClubId": 10251,
+      "toClub": "Arbroath",
+      "toClubFullName": "Arbroath",
+      "toClubId": 8280,
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-09-11T00:00:00Z",
+      "toDate": "2027-01-01T00:00:00Z",
+      "marketValue": 601714
+    },
+    {
+      "name": "Mathias Svenningsen-Grønn",
+      "playerId": 1656393,
+      "position": null,
+      "transferDate": "2026-09-12T10:19:36Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Sarpsborg 08",
+      "fromClubFullName": "Sarpsborg 08",
+      "fromClubId": 8509,
+      "toClub": "Strømmen",
+      "toClubFullName": "Strømmen",
+      "toClubId": 4249,
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-09-11T00:00:00Z",
+      "toDate": "2026-12-31T00:00:00Z",
+      "marketValue": 657288
+    },
+    {
+      "name": "Harald Woxen",
+      "playerId": 1664802,
+      "position": {
+        "label": "CM",
+        "key": "centermidfielder_short"
+      },
+      "transferDate": "2026-09-12T10:18:33Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Lillestrøm",
+      "fromClubFullName": "Lillestrøm",
+      "fromClubId": 8476,
+      "toClub": "Sogndal",
+      "toClubFullName": "Sogndal",
+      "toClubId": 8616,
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-09-11T00:00:00Z",
+      "toDate": "2026-12-31T00:00:00Z",
+      "marketValue": 2037218
+    },
+    {
+      "name": "Elbasan Rashani",
+      "playerId": 196972,
+      "position": {
+        "label": "LW",
+        "key": "leftwinger_short"
+      },
+      "transferDate": "2026-09-12T10:17:18Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Melbourne City FC",
+      "fromClubFullName": "Melbourne City FC",
+      "fromClubId": 203576,
+      "toClub": "Vålerenga",
+      "toClubFullName": "Vålerenga",
+      "toClubId": 8007,
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-11T00:00:00Z",
+      "toDate": "2026-12-31T00:00:00Z",
+      "marketValue": 178844
+    },
+    {
+      "name": "Håvard Nielsen",
+      "playerId": 171548,
+      "position": {
+        "label": "RW",
+        "key": "rightwinger_short"
+      },
+      "transferDate": "2026-09-12T10:16:34Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Free agent",
+      "fromClubFullName": "Free agent",
+      "fromClubId": 2,
+      "toClub": "Vålerenga",
+      "toClubFullName": "Vålerenga",
+      "toClubId": 8007,
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-11T00:00:00Z",
+      "toDate": "2026-12-31T00:00:00Z",
+      "marketValue": 179578
+    },
+    {
+      "name": "Ismajl Beka",
+      "playerId": 939088,
+      "position": {
+        "label": "CB",
+        "key": "centerback_short"
+      },
+      "transferDate": "2026-09-12T09:13:24Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Grasshopper",
+      "fromClubFullName": "Grasshopper",
+      "fromClubId": 9956,
+      "toClub": "FC Rapperswil-Jona",
+      "toClubFullName": "FC Rapperswil-Jona",
+      "toClubId": 185504,
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-09-07T00:00:00Z",
+      "toDate": "2027-06-30T00:00:00Z",
+      "marketValue": 162003
+    },
+    {
+      "name": "Rhodri Smith",
+      "playerId": 1690071,
+      "position": {
+        "label": "LB",
+        "key": "leftback_short"
+      },
+      "transferDate": "2026-09-12T09:11:34Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Young Boys",
+      "fromClubFullName": "Young Boys",
+      "fromClubId": 10192,
+      "toClub": "Baník Ostrava",
+      "toClubFullName": "Baník Ostrava",
+      "toClubId": 6362,
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-09-08T00:00:00Z",
+      "toDate": "2027-06-30T00:00:00Z",
+      "marketValue": 851184
+    },
+    {
+      "name": "Moritz Jenz",
+      "playerId": 894802,
+      "position": {
+        "label": "CB",
+        "key": "centerback_short"
+      },
+      "transferDate": "2026-09-12T09:10:16Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Wolfsburg",
+      "fromClubFullName": "Wolfsburg",
+      "fromClubId": 8721,
+      "toClub": "Young Boys",
+      "toClubFullName": "Young Boys",
+      "toClubId": 10192,
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-08T00:00:00Z",
+      "toDate": "2027-06-30T00:00:00Z",
+      "marketValue": 2184088
+    },
+    {
+      "name": "Clément Michelin",
+      "playerId": 766935,
+      "position": {
+        "label": "RB",
+        "key": "rightback_short"
+      },
+      "transferDate": "2026-09-12T09:08:47Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Free agent",
+      "fromClubFullName": "Free agent",
+      "fromClubId": 2,
+      "toClub": "Basel",
+      "toClubFullName": "Basel",
+      "toClubId": 9931,
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-08T00:00:00Z",
+      "toDate": "2028-06-30T00:00:00Z",
+      "marketValue": 442960
+    },
+    {
+      "name": "Isaac Kiese Thelin",
+      "playerId": 289140,
+      "position": {
+        "label": "ST",
+        "key": "striker_short"
+      },
+      "transferDate": "2026-09-12T09:07:12Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Free agent",
+      "fromClubFullName": "Free agent",
+      "fromClubId": 2,
+      "toClub": "Ried",
+      "toClubFullName": "Ried",
+      "toClubId": 10017,
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-10T00:00:00Z",
+      "toDate": "2028-06-30T00:00:00Z",
+      "marketValue": 509904
+    },
+    {
+      "name": "Marko Kerkez",
+      "playerId": 1515178,
+      "position": null,
+      "transferDate": "2026-09-12T08:48:49Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Aris Thessaloniki",
+      "fromClubFullName": "Aris Thessaloniki",
+      "fromClubId": 8239,
+      "toClub": "FK Mladost Novi Sad",
+      "toClubFullName": "FK Mladost Novi Sad",
+      "toClubId": 1266892,
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-11T00:00:00Z",
+      "toDate": null,
+      "marketValue": 98113
+    },
+    {
+      "name": "Alexis Serna",
+      "playerId": 1031322,
+      "position": {
+        "label": "CM",
+        "key": "centermidfielder_short"
+      },
+      "transferDate": "2026-09-12T08:44:46Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Independiente Medellín",
+      "fromClubFullName": "Independiente Medellín",
+      "fromClubId": 2528,
+      "toClub": "Beitar Jerusalem",
+      "toClubFullName": "Beitar Jerusalem",
+      "toClubId": 8173,
+      "fee": {
+        "feeText": "fee",
+        "localizedFeeText": "transfer_fee",
+        "value": 600000
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-11T00:00:00Z",
+      "toDate": "2029-06-30T00:00:00Z",
+      "marketValue": 397208
+    },
+    {
+      "name": "Anastasios Chatzigiovanis",
+      "playerId": 801780,
+      "position": {
+        "label": "LW",
+        "key": "leftwinger_short"
+      },
+      "transferDate": "2026-09-12T08:42:07Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Omonia Nicosia",
+      "fromClubFullName": "Omonia Nicosia",
+      "fromClubId": 8044,
+      "toClub": "OFI Crete",
+      "toClubFullName": "OFI Crete",
+      "toClubId": 7753,
+      "fee": null,
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-11T00:00:00Z",
+      "toDate": "2027-06-30T00:00:00Z",
+      "marketValue": 329329
+    },
+    {
       "name": "Santi Ramos",
       "playerId": 1366362,
       "position": null,
@@ -766,914 +1671,8 @@
       "fromDate": "2026-09-10T00:00:00Z",
       "toDate": "2027-06-30T00:00:00Z",
       "marketValue": 488577
-    },
-    {
-      "name": "Milutin Vidosavljevic",
-      "playerId": 1058667,
-      "position": {
-        "label": "AM",
-        "key": "centerattackingmidfielder_short"
-      },
-      "transferDate": "2026-09-11T18:17:56Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Vojvodina",
-      "fromClubFullName": "Vojvodina",
-      "fromClubId": 6406,
-      "toClub": "Akron Togliatti",
-      "toClubFullName": "Akron Togliatti",
-      "toClubId": 1068364,
-      "fee": {
-        "feeText": "fee",
-        "localizedFeeText": "transfer_fee",
-        "value": 300000
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-10T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 1213230
-    },
-    {
-      "name": "Andrey Khodanovich",
-      "playerId": 1447790,
-      "position": {
-        "label": "GK",
-        "key": "keeper"
-      },
-      "transferDate": "2026-09-11T18:13:49Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Orenburg",
-      "fromClubFullName": "FC Orenburg",
-      "fromClubId": 132286,
-      "toClub": "Volga Ulyanovsk",
-      "toClubFullName": "Volga Ulyanovsk",
-      "toClubId": 113055,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-10T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 642059
-    },
-    {
-      "name": "Dominik Steczyk",
-      "playerId": 949666,
-      "position": {
-        "label": "RW",
-        "key": "rightwinger_short"
-      },
-      "transferDate": "2026-09-11T17:50:37Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Académico Viseu",
-      "fromClubFullName": "Académico Viseu",
-      "fromClubId": 1786,
-      "toClub": "Free agent",
-      "toClubFullName": "Free agent",
-      "toClubId": 2,
-      "fee": {
-        "feeText": "free transfer",
-        "localizedFeeText": "transfer_type_free_transfer"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-07T00:00:00Z",
-      "toDate": null,
-      "marketValue": 302729
-    },
-    {
-      "name": "Gonçalo Costa",
-      "playerId": 1354243,
-      "position": {
-        "label": "LB",
-        "key": "leftback_short"
-      },
-      "transferDate": "2026-09-11T17:47:43Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Estoril",
-      "fromClubFullName": "Estoril",
-      "fromClubId": 7842,
-      "toClub": "Gorica",
-      "toClubFullName": "Gorica",
-      "toClubId": 7972,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-07T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 561733
-    },
-    {
-      "name": "Pedro Teixeira",
-      "playerId": 1282418,
-      "position": {
-        "label": "GK",
-        "key": "keeper"
-      },
-      "transferDate": "2026-09-11T17:45:18Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Marítimo",
-      "fromClubFullName": "Marítimo",
-      "fromClubId": 10212,
-      "toClub": "AD Camacha",
-      "toClubFullName": "AD Camacha",
-      "toClubId": -1,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-08T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 318248
-    },
-    {
-      "name": "Tomas Silva",
-      "playerId": 1427859,
-      "position": {
-        "label": "DM",
-        "key": "centerdefensivemidfielder_short"
-      },
-      "transferDate": "2026-09-11T17:39:35Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Académico Viseu",
-      "fromClubFullName": "Académico Viseu",
-      "fromClubId": 1786,
-      "toClub": "Sporting Covilhã",
-      "toClubFullName": "Sporting Covilhã",
-      "toClubId": 1940,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-10T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 370393
-    },
-    {
-      "name": "Zé Carlos",
-      "playerId": 1132158,
-      "position": {
-        "label": "RB",
-        "key": "rightback_short"
-      },
-      "transferDate": "2026-09-11T17:35:52Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Free agent",
-      "fromClubFullName": "Free agent",
-      "fromClubId": 2,
-      "toClub": "Rio Ave",
-      "toClubFullName": "Rio Ave",
-      "toClubId": 7841,
-      "fee": {
-        "feeText": "free transfer",
-        "localizedFeeText": "transfer_type_free_transfer"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-10T00:00:00Z",
-      "toDate": "2028-06-30T00:00:00Z",
-      "marketValue": 1089023
-    },
-    {
-      "name": "Rildo",
-      "playerId": 1174629,
-      "position": {
-        "label": "ST",
-        "key": "striker_short"
-      },
-      "transferDate": "2026-09-11T17:33:36Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Santa Clara",
-      "fromClubFullName": "Santa Clara",
-      "fromClubId": 1567,
-      "toClub": "Avaí",
-      "toClubFullName": "Avaí",
-      "toClubId": 104822,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-10T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 334841
-    },
-    {
-      "name": "Khayon Edwards",
-      "playerId": 1186515,
-      "position": {
-        "label": "ST",
-        "key": "striker_short"
-      },
-      "transferDate": "2026-09-11T17:29:47Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Estoril",
-      "fromClubFullName": "Estoril",
-      "fromClubId": 7842,
-      "toClub": "Free agent",
-      "toClubFullName": "Free agent",
-      "toClubId": 2,
-      "fee": {
-        "feeText": "free transfer",
-        "localizedFeeText": "transfer_type_free_transfer"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-10T00:00:00Z",
-      "toDate": null,
-      "marketValue": 541303
-    },
-    {
-      "name": "Stéphane Diarra",
-      "playerId": 731036,
-      "position": {
-        "label": "RW",
-        "key": "rightwinger_short"
-      },
-      "transferDate": "2026-09-11T17:26:09Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Alverca",
-      "fromClubFullName": "Alverca",
-      "fromClubId": 9780,
-      "toClub": "Santarém",
-      "toClubFullName": "Santarém",
-      "toClubId": 1074312,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-11T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 416237
-    },
-    {
-      "name": "Michail Antonio",
-      "playerId": 158545,
-      "position": {
-        "label": "ST",
-        "key": "striker_short"
-      },
-      "transferDate": "2026-09-11T17:01:30Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Free agent",
-      "fromClubFullName": "Free agent",
-      "fromClubId": 2,
-      "toClub": "Watford",
-      "toClubFullName": "Watford",
-      "toClubId": 9817,
-      "fee": {
-        "feeText": "undisclosed",
-        "localizedFeeText": "undisclosed"
-      },
-      "amountEuroEstimated": 450000,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-11T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 228223
-    },
-    {
-      "name": "Arie Yanko",
-      "playerId": 187148,
-      "position": null,
-      "transferDate": "2026-09-11T14:25:58Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Maccabi Kabilio Jaffa",
-      "fromClubFullName": "Maccabi Kabilio Jaffa",
-      "fromClubId": 196257,
-      "toClub": "Hapoel Ramat Gan",
-      "toClubFullName": "Hapoel Ramat Gan",
-      "toClubId": 89753,
-      "fee": {
-        "feeText": "free transfer",
-        "localizedFeeText": "transfer_type_free_transfer"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-11T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 80672
-    },
-    {
-      "name": "Josué Casimir",
-      "playerId": 1199382,
-      "position": {
-        "label": "RM",
-        "key": "rightmidfielder_short"
-      },
-      "transferDate": "2026-09-11T10:58:54Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Auxerre",
-      "fromClubFullName": "Auxerre",
-      "fromClubId": 8583,
-      "toClub": "Dinamo",
-      "toClubFullName": "Dinamo Moscow",
-      "toClubId": 9763,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-10T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 2426419
-    },
-    {
-      "name": "Nicolás Fonseca",
-      "playerId": 950599,
-      "position": {
-        "label": "DM",
-        "key": "centerdefensivemidfielder_short"
-      },
-      "transferDate": "2026-09-11T10:22:23Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "León",
-      "fromClubFullName": "León",
-      "fromClubId": 1841,
-      "toClub": "Coritiba",
-      "toClubFullName": "Coritiba",
-      "toClubId": 9767,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-10T00:00:00Z",
-      "toDate": "2027-08-31T00:00:00Z",
-      "marketValue": 2197421
-    },
-    {
-      "name": "Lautaro López",
-      "playerId": 1515144,
-      "position": {
-        "label": "CM",
-        "key": "centermidfielder_short"
-      },
-      "transferDate": "2026-09-11T10:19:20Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Torque",
-      "fromClubFullName": "Montevideo City Torque",
-      "fromClubId": 395613,
-      "toClub": "Bahia",
-      "toClubFullName": "Bahia",
-      "toClubId": 7877,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-10T00:00:00Z",
-      "toDate": "2026-12-31T00:00:00Z",
-      "marketValue": 777165
-    },
-    {
-      "name": "Sergio Padt",
-      "playerId": 156553,
-      "position": {
-        "label": "GK",
-        "key": "keeper"
-      },
-      "transferDate": "2026-09-11T10:08:50Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Free agent",
-      "fromClubFullName": "Free agent",
-      "fromClubId": 2,
-      "toClub": "FC Utrecht",
-      "toClubFullName": "FC Utrecht",
-      "toClubId": 9908,
-      "fee": null,
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-11T00:00:00Z",
-      "toDate": "2028-06-30T00:00:00Z",
-      "marketValue": 97424
-    },
-    {
-      "name": "Noah Makanza",
-      "playerId": 1689070,
-      "position": {
-        "label": "CM",
-        "key": "centermidfielder_short"
-      },
-      "transferDate": "2026-09-11T09:52:21Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "KV Mechelen",
-      "fromClubFullName": "KV Mechelen",
-      "fromClubId": 8203,
-      "toClub": "Umm Salal",
-      "toClubFullName": "Umm Salal",
-      "toClubId": 101903,
-      "fee": null,
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-02T00:00:00Z",
-      "toDate": null,
-      "marketValue": 454241
-    },
-    {
-      "name": "Barry Cotter",
-      "playerId": 825825,
-      "position": {
-        "label": "RB",
-        "key": "rightback_short"
-      },
-      "transferDate": "2026-09-11T09:17:18Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Derry City",
-      "fromClubFullName": "Derry City",
-      "fromClubId": 8338,
-      "toClub": "CSKA Sofia",
-      "toClubFullName": "CSKA Sofia",
-      "toClubId": 10144,
-      "fee": {
-        "feeText": "fee",
-        "localizedFeeText": "transfer_fee",
-        "value": 100000
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-08T00:00:00Z",
-      "toDate": "2029-06-30T00:00:00Z",
-      "marketValue": 50000
-    },
-    {
-      "name": "Arttu Hoskonen",
-      "playerId": 670409,
-      "position": {
-        "label": "CB",
-        "key": "centerback_short"
-      },
-      "transferDate": "2026-09-11T08:32:35Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Stockport County",
-      "fromClubFullName": "Stockport County",
-      "fromClubId": 10007,
-      "toClub": "Lyngby",
-      "toClubFullName": "Lyngby",
-      "toClubId": 9907,
-      "fee": null,
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-07T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 140008
-    },
-    {
-      "name": "James Rodríguez",
-      "playerId": 164684,
-      "position": {
-        "label": "AM",
-        "key": "centerattackingmidfielder_short"
-      },
-      "transferDate": "2026-09-11T08:29:32Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Free agent",
-      "fromClubFullName": "Free agent",
-      "fromClubId": 2,
-      "toClub": "Atlético Nacional",
-      "toClubFullName": "Atlético Nacional",
-      "toClubId": 6368,
-      "fee": {
-        "feeText": "free transfer",
-        "localizedFeeText": "transfer_type_free_transfer"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-10T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 760084
-    },
-    {
-      "name": "Luke Le Roux",
-      "playerId": 933069,
-      "position": {
-        "label": "DM",
-        "key": "centerdefensivemidfielder_short"
-      },
-      "transferDate": "2026-09-11T08:27:42Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Free agent",
-      "fromClubFullName": "Free agent",
-      "fromClubId": 2,
-      "toClub": "Cercle Brugge",
-      "toClubFullName": "Cercle Brugge",
-      "toClubId": 9984,
-      "fee": {
-        "feeText": "free transfer",
-        "localizedFeeText": "transfer_type_free_transfer"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-10T00:00:00Z",
-      "toDate": "2028-06-30T00:00:00Z",
-      "marketValue": 732012
-    },
-    {
-      "name": "Juan Cuadrado",
-      "playerId": 155066,
-      "position": {
-        "label": "RWB",
-        "key": "right_wing_back_short"
-      },
-      "transferDate": "2026-09-11T08:25:08Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Free agent",
-      "fromClubFullName": "Free agent",
-      "fromClubId": 2,
-      "toClub": "Millonarios",
-      "toClubFullName": "Millonarios",
-      "toClubId": 4403,
-      "fee": {
-        "feeText": "free transfer",
-        "localizedFeeText": "transfer_type_free_transfer"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-10T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 497409
-    },
-    {
-      "name": "Adrian Raychev",
-      "playerId": 1609196,
-      "position": null,
-      "transferDate": "2026-09-11T08:05:00Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Pisa",
-      "fromClubFullName": "Pisa",
-      "fromClubId": 6479,
-      "toClub": "Levski Sofia",
-      "toClubFullName": "Levski Sofia",
-      "toClubId": 8632,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-07-01T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 395321
-    },
-    {
-      "name": "Timipere Johnson Eboh",
-      "playerId": 1289352,
-      "position": {
-        "label": "DM",
-        "key": "centerdefensivemidfielder_short"
-      },
-      "transferDate": "2026-09-11T07:45:43Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Kifisia FC",
-      "fromClubFullName": "Kifisia FC",
-      "fromClubId": 488099,
-      "toClub": "Nea Salamis",
-      "toClubFullName": "Nea Salamis",
-      "toClubId": 8590,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-09T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 433276
-    },
-    {
-      "name": "Aliou Badji",
-      "playerId": 837264,
-      "position": {
-        "label": "ST",
-        "key": "striker_short"
-      },
-      "transferDate": "2026-09-11T07:43:00Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Sivasspor",
-      "fromClubFullName": "Sivasspor",
-      "fromClubId": 6265,
-      "toClub": "Levadiakos",
-      "toClubFullName": "Levadiakos",
-      "toClubId": 4493,
-      "fee": {
-        "feeText": "free transfer",
-        "localizedFeeText": "transfer_type_free_transfer"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-08T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 192079
-    },
-    {
-      "name": "Samy Mmaee",
-      "playerId": 560165,
-      "position": {
-        "label": "CB",
-        "key": "centerback_short"
-      },
-      "transferDate": "2026-09-11T01:18:06Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Dinamo Zagreb",
-      "fromClubFullName": "Dinamo Zagreb",
-      "fromClubId": 10156,
-      "toClub": "Pafos FC",
-      "toClubFullName": "Pafos FC",
-      "toClubId": 2137,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-07-12T00:00:00Z",
-      "toDate": "2027-05-31T00:00:00Z",
-      "marketValue": 236947
-    },
-    {
-      "name": "Elías Montiel",
-      "playerId": 1502909,
-      "position": {
-        "label": "DM",
-        "key": "centerdefensivemidfielder_short"
-      },
-      "transferDate": "2026-09-10T17:54:28Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Pachuca",
-      "fromClubFullName": "Pachuca",
-      "fromClubId": 7848,
-      "toClub": "Atlas",
-      "toClubFullName": "Atlas",
-      "toClubId": 6577,
-      "fee": {
-        "feeText": "fee",
-        "localizedFeeText": "transfer_fee",
-        "value": 10000000
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-10T00:00:00Z",
-      "toDate": "2030-06-30T00:00:00Z",
-      "marketValue": null
     }
   ],
-  "hits": 7348,
+  "hits": 7365,
   "maxFee": 145000000
 }
