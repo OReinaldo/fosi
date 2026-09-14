@@ -10,7 +10,6 @@ on:
       - '.github/workflows/update-data-gateway.yml'
       - 'collectors/sofascore_collector.py'
       - 'collectors/sofascore_spa_collector.py'
-      - 'collectors/crawlora_sofascore_collector.py'
   schedule:
     - cron: '30 3 * * *'
 permissions:
@@ -48,10 +47,6 @@ jobs:
           d.update({'enabled':True,'country':country,'competition':competition,'team':team,'team_id':slug})
           p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           PY
-      - name: Run authorized Crawlora SofaScore fallback
-        env:
-          CRAWLORA_API_KEY: ${{ secrets.CRAWLORA_API_KEY }}
-        run: python collectors/crawlora_sofascore_collector.py
       - name: Run selected-target acquisition
         env:
           SOFASCORE_PROXY: ${{ secrets.SOFASCORE_PROXY }}
