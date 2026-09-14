@@ -30,6 +30,32 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
           python -m playwright install --with-deps chromium
+      - name: Probe SofaScore gateway
+        env:
+          SOFASCORE_GATEWAY_URL: ${{ secrets.SOFASCORE_GATEWAY_URL }}
+          SOFASCORE_GATEWAY_TOKEN: ${{ secrets.SOFASCORE_GATEWAY_TOKEN }}
+        run: |
+          set -euo pipefail
+          curl -sS -D /tmp/sofa_headers \
+            -H "Authorization: Bearer ${SOFASCORE_GATEWAY_TOKEN}" \
+            -H "Accept: application/json" \
+            "${SOFASCORE_GATEWAY_URL}/api/v1/team/3117" \
+            -o /tmp/sofa_body || true
+          status=$(awk 'NR==1 {print $2}' /tmp/sofa_headers 2>/dev/null || true)
+          echo "SOFASCORE_GATEWAY_HTTP_STATUS=${status:-unknown}"
+          echo "SOFASCORE_GATEWAY_HEADERS="
+          grep -iE '^(x-fosi|content-type|cache-control):' /tmp/sofa_headers || true
+          echo "SOFASCORE_GATEWAY_BODY="
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('/tmp/sofa_body')
+          try:
+              data=json.loads(p.read_text(encoding='utf-8', errors='replace'))
+              print(json.dumps(data, ensure_ascii=False)[:5000])
+          except Exception:
+              print(p.read_text(encoding='utf-8', errors='replace')[:5000])
+          PY
       - name: Apply requested scouting target only for manual runs
         if: ${{ github.event_name == 'workflow_dispatch' }}
         env:
