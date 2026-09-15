@@ -1,7 +1,7 @@
 {
   "team_id": "8023",
-  "from": "2026-09-07",
-  "to": "2026-10-14",
+  "from": "2026-09-08",
+  "to": "2026-10-15",
   "matches": [
     {
       "id": 5904696,
@@ -251,30 +251,32 @@
     },
     {
       "id": 5803974,
-      "leagueId": 937879,
-      "time": "07.09.2026 20:30",
+      "pageUrl": "/matches/pogon-szczecin-vs-wisa-pock/26rtbe#5803974",
+      "opponent": {
+        "id": 8243,
+        "name": "Wisła Płock",
+        "score": 1
+      },
       "home": {
         "id": 8023,
-        "score": 1,
         "name": "Pogoń Szczecin",
-        "longName": "Pogoń Szczecin"
+        "score": 1
       },
       "away": {
         "id": 8243,
-        "score": 1,
         "name": "Wisła Płock",
-        "longName": "Wisła Płock"
+        "score": 1
       },
-      "eliminatedTeamId": null,
-      "statusId": 6,
-      "tournamentStage": "7",
+      "displayTournament": false,
+      "result": 0,
+      "notStarted": false,
+      "tournament": {
+        "name": "Ekstraklasa",
+        "stage": "",
+        "leagueId": 196
+      },
       "status": {
         "utcTime": "2026-09-07T18:30:00.000Z",
-        "halfs": {
-          "firstHalfStarted": "07.09.2026 20:30:45",
-          "secondHalfStarted": "07.09.2026 21:35:07"
-        },
-        "periodLength": 45,
         "finished": true,
         "started": true,
         "cancelled": false,
@@ -286,8 +288,7 @@
           "long": "Full-Time",
           "longKey": "finished"
         }
-      },
-      "timeTS": 1788805800000
+      }
     },
     {
       "id": 5803979,

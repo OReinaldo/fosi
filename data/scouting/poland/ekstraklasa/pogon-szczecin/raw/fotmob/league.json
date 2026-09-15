@@ -15894,12 +15894,7 @@
           "stage": ""
         },
         "status": {
-          "utcTime": "2026-09-14T17:00:00.000Z",
-          "halfs": {
-            "firstHalfStarted": "14.09.2026 19:01:34",
-            "secondHalfStarted": "14.09.2026 20:06:48"
-          },
-          "periodLength": 45,
+          "utcTime": "2026-09-14T17:00:00Z",
           "finished": true,
           "started": true,
           "cancelled": false,
@@ -15937,7 +15932,11 @@
           "stage": ""
         },
         "status": {
-          "utcTime": "2026-09-15T16:00:00Z",
+          "utcTime": "2026-09-15T16:00:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "15.09.2026 18:00:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
@@ -15967,7 +15966,11 @@
           "stage": ""
         },
         "status": {
-          "utcTime": "2026-09-15T18:30:00Z",
+          "utcTime": "2026-09-15T18:30:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "15.09.2026 20:30:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
@@ -25154,12 +25157,8 @@
             "id": "8028"
           },
           "status": {
-            "utcTime": "2026-09-14T17:00:00.000Z",
-            "halfs": {
-              "firstHalfStarted": "14.09.2026 19:01:34",
-              "secondHalfStarted": "14.09.2026 20:06:48"
-            },
-            "periodLength": 45,
+            "utcTime": "2026-09-14T17:00:00Z",
+            "timezone": "",
             "finished": true,
             "started": true,
             "cancelled": false,
@@ -25189,8 +25188,11 @@
             "id": "8021"
           },
           "status": {
-            "utcTime": "2026-09-15T16:00:00Z",
-            "timezone": "",
+            "utcTime": "2026-09-15T16:00:00.000Z",
+            "halfs": {
+              "firstHalfStarted": "15.09.2026 18:00:00"
+            },
+            "periodLength": 45,
             "started": false,
             "cancelled": false,
             "finished": false
@@ -25212,8 +25214,11 @@
             "id": "8020"
           },
           "status": {
-            "utcTime": "2026-09-15T18:30:00Z",
-            "timezone": "",
+            "utcTime": "2026-09-15T18:30:00.000Z",
+            "halfs": {
+              "firstHalfStarted": "15.09.2026 20:30:00"
+            },
+            "periodLength": 45,
             "started": false,
             "cancelled": false,
             "finished": false
@@ -38725,12 +38730,8 @@
           "id": "8028"
         },
         "status": {
-          "utcTime": "2026-09-14T17:00:00.000Z",
-          "halfs": {
-            "firstHalfStarted": "14.09.2026 19:01:34",
-            "secondHalfStarted": "14.09.2026 20:06:48"
-          },
-          "periodLength": 45,
+          "utcTime": "2026-09-14T17:00:00Z",
+          "timezone": "",
           "finished": true,
           "started": true,
           "cancelled": false,
@@ -38760,8 +38761,11 @@
           "id": "8021"
         },
         "status": {
-          "utcTime": "2026-09-15T16:00:00Z",
-          "timezone": "",
+          "utcTime": "2026-09-15T16:00:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "15.09.2026 18:00:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
@@ -38783,8 +38787,11 @@
           "id": "8020"
         },
         "status": {
-          "utcTime": "2026-09-15T18:30:00Z",
-          "timezone": "",
+          "utcTime": "2026-09-15T18:30:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "15.09.2026 20:30:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
