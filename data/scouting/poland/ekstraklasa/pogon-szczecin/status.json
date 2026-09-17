@@ -3,7 +3,7 @@
     {
       "source": "espn",
       "status": "success",
-      "retrieved_at": "2026-09-17T03:28:55.098568+00:00",
+      "retrieved_at": "2026-09-17T03:41:01.845853+00:00",
       "layers": {
         "matches": "available",
         "team": "available",
@@ -83,15 +83,15 @@
     {
       "source": "sofascore-spa",
       "status": "partial",
-      "retrieved_at": "2026-09-16T03:41:02.225499+00:00",
+      "retrieved_at": "2026-09-17T03:29:12.275159+00:00",
       "records": {
         "shotmap": 0,
-        "statistics": 0,
         "media": 0,
+        "lineups": 0,
+        "statistics": 0,
         "event": 0,
         "incidents": 0,
-        "graph": 0,
-        "lineups": 0
+        "graph": 0
       },
       "errors": [],
       "proxy_configured": false,
@@ -154,7 +154,7 @@
     {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-17T03:29:00.081890+00:00",
+      "retrieved_at": "2026-09-17T03:41:05.164298+00:00",
       "layers": {
         "club": "available",
         "standings": "available",
@@ -163,7 +163,7 @@
       },
       "records": {
         "https://ekstraklasa.org/en/clubs/pogon-szczecin/?tab=stats": {
-          "bytes": 672688,
+          "bytes": 672645,
           "layer": "club",
           "embedded_json_records": 0,
           "html_tables": 0,
@@ -187,7 +187,7 @@
           "links": 43
         },
         "https://ekstraklasa.org/statystyki/": {
-          "bytes": 1945346,
+          "bytes": 1945432,
           "layer": "stats",
           "embedded_json_records": 0,
           "html_tables": 0,
@@ -195,7 +195,7 @@
           "links": 71
         },
         "https://ekstraklasa.org/en/statistics/?ranking=xg": {
-          "bytes": 2026018,
+          "bytes": 2025716,
           "layer": "stats",
           "embedded_json_records": 0,
           "html_tables": 0,
@@ -211,7 +211,7 @@
           "links": 36
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/2-round/": {
-          "bytes": 330325,
+          "bytes": 330239,
           "layer": "fixtures",
           "embedded_json_records": 0,
           "html_tables": 0,
@@ -274,7 +274,7 @@
     {
       "source": "sofascore",
       "status": "partial",
-      "retrieved_at": "2026-09-17T03:27:28.789103+00:00",
+      "retrieved_at": "2026-09-17T03:39:25.394457+00:00",
       "layers": {
         "matches": "partial",
         "stats": "partial",
@@ -308,7 +308,7 @@
         "https://www.sofascore.com/api/v1"
       ],
       "proxy_configured": false,
-      "gateway_configured": false,
+      "gateway_configured": true,
       "browser_entry": {
         "url": "https://www.sofascore.com/football",
         "title": ""
@@ -338,12 +338,12 @@
       "player_match_files_written": 20,
       "player_match_rows": 426,
       "errors": [],
-      "updated_at": "2026-09-16T03:41:00.842465+00:00"
+      "updated_at": "2026-09-17T03:29:10.803984+00:00"
     },
     {
       "source": "fotmob",
       "status": "partial",
-      "retrieved_at": "2026-09-17T03:27:16.016218+00:00",
+      "retrieved_at": "2026-09-17T03:39:12.853169+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -399,7 +399,7 @@
     },
     {
       "source": "understat",
-      "retrieved_at": "2026-09-17T03:29:00.022011+00:00",
+      "retrieved_at": "2026-09-17T03:41:05.101632+00:00",
       "layers": {},
       "records": {},
       "errors": [],
@@ -462,7 +462,7 @@
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-17T03:29:10.715108+00:00",
+  "updated_at": "2026-09-17T03:41:11.316608+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
