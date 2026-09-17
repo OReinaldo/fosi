@@ -1,7 +1,7 @@
 {
   "team_id": "8023",
-  "from": "2026-09-09",
-  "to": "2026-10-16",
+  "from": "2026-09-10",
+  "to": "2026-10-17",
   "matches": [
     {
       "id": 5904696,
@@ -394,35 +394,34 @@
     },
     {
       "id": 5804005,
-      "pageUrl": "/matches/gks-katowice-vs-pogon-szczecin/177d4w#5804005",
-      "opponent": {
-        "id": 4023,
-        "name": "GKS Katowice",
-        "score": 0
-      },
+      "leagueId": 937879,
+      "time": "17.10.2026 17:30",
       "home": {
         "id": 4023,
+        "score": 0,
         "name": "GKS Katowice",
-        "score": 0
+        "longName": "GKS Katowice"
       },
       "away": {
         "id": 8023,
+        "score": 0,
         "name": "Pogoń Szczecin",
-        "score": 0
+        "longName": "Pogoń Szczecin"
       },
-      "displayTournament": false,
-      "notStarted": true,
-      "tournament": {
-        "name": "Ekstraklasa",
-        "stage": "",
-        "leagueId": 196
-      },
+      "eliminatedTeamId": null,
+      "statusId": 1,
+      "tournamentStage": "11",
       "status": {
         "utcTime": "2026-10-17T15:30:00.000Z",
+        "halfs": {
+          "firstHalfStarted": "17.10.2026 17:30:00"
+        },
+        "periodLength": 45,
         "started": false,
         "cancelled": false,
         "finished": false
-      }
+      },
+      "timeTS": 1792251000000
     },
     {
       "id": 5804018,

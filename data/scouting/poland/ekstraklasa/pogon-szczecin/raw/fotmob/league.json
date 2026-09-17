@@ -1733,13 +1733,13 @@
               "pts": 8,
               "teamId": 5769,
               "teamName": "Radomiak Radom",
-              "xg": 12.66199991106987,
-              "xgConceded": 15.691399931907654,
-              "xPoints": 8.763618111966283,
+              "xg": 12.855199784040451,
+              "xgConceded": 15.70770001411438,
+              "xPoints": 8.882872920897169,
               "position": 13,
-              "xgDiff": -6.66199991106987,
-              "xgConcededDiff": -0.6913999319076538,
-              "xPointsDiff": -0.7636181119662826,
+              "xgDiff": -6.855199784040451,
+              "xgConcededDiff": -0.7077000141143799,
+              "xPointsDiff": -0.8828729208971691,
               "xPosition": 13,
               "idx": 13,
               "xPositionDiff": 1,
@@ -1868,13 +1868,13 @@
               "pts": 13,
               "teamId": 8028,
               "teamName": "Piast Gliwice",
-              "xg": 10.842599868774414,
-              "xgConceded": 17.334899961948395,
-              "xPoints": 7.0947729819096566,
+              "xg": 10.85889995098114,
+              "xgConceded": 17.528099834918976,
+              "xPoints": 6.986832524668392,
               "position": 18,
-              "xgDiff": 4.157400131225586,
-              "xgConcededDiff": -4.334899961948395,
-              "xPointsDiff": 5.9052270180903434,
+              "xgDiff": 4.14110004901886,
+              "xgConcededDiff": -4.528099834918976,
+              "xPointsDiff": 6.013167475331608,
               "xPosition": 18,
               "idx": 18,
               "xPositionDiff": -12,
@@ -9950,13 +9950,13 @@
                 "pts": 8,
                 "teamId": 5769,
                 "teamName": "Radomiak Radom",
-                "xg": 12.66199991106987,
-                "xgConceded": 15.691399931907654,
-                "xPoints": 8.763618111966283,
+                "xg": 12.855199784040451,
+                "xgConceded": 15.70770001411438,
+                "xPoints": 8.882872920897169,
                 "position": 13,
-                "xgDiff": -6.66199991106987,
-                "xgConcededDiff": -0.6913999319076538,
-                "xPointsDiff": -0.7636181119662826,
+                "xgDiff": -6.855199784040451,
+                "xgConcededDiff": -0.7077000141143799,
+                "xPointsDiff": -0.8828729208971691,
                 "xPosition": 13,
                 "idx": 13,
                 "xPositionDiff": 1,
@@ -10085,13 +10085,13 @@
                 "pts": 13,
                 "teamId": 8028,
                 "teamName": "Piast Gliwice",
-                "xg": 10.842599868774414,
-                "xgConceded": 17.334899961948395,
-                "xPoints": 7.0947729819096566,
+                "xg": 10.85889995098114,
+                "xgConceded": 17.528099834918976,
+                "xPoints": 6.986832524668392,
                 "position": 18,
-                "xgDiff": 4.157400131225586,
-                "xgConcededDiff": -4.334899961948395,
-                "xPointsDiff": 5.9052270180903434,
+                "xgDiff": 4.14110004901886,
+                "xgConcededDiff": -4.528099834918976,
+                "xPointsDiff": 6.013167475331608,
                 "xPosition": 18,
                 "idx": 18,
                 "xPositionDiff": -12,
@@ -33739,16 +33739,16 @@
       {
         "header": "Goals prevented",
         "participant": {
-          "id": 289211,
-          "name": "Valentin Cojocaru",
+          "id": 1122644,
+          "name": "Domen Gril",
           "rank": 1,
-          "ccode": "ROU",
-          "teamId": 8023,
-          "teamName": "Pogoń Szczecin",
-          "value": 4.4,
+          "ccode": "SVN",
+          "teamId": 8028,
+          "teamName": "Piast Gliwice",
+          "value": 4.7,
           "stat": {
             "name": "_goals_prevented",
-            "value": 4.4,
+            "value": 4.7,
             "format": "fraction",
             "fractions": 1
           }
@@ -33756,9 +33756,30 @@
         "fetchAllUrl": "https://data.fotmob.com/stats/196/season/37304/_goals_prevented.json",
         "topThree": [
           {
+            "id": 1122644,
+            "name": "Domen Gril",
+            "rank": 1,
+            "ccode": "SVN",
+            "teamId": 8028,
+            "teamName": "Piast Gliwice",
+            "value": 4.7,
+            "stat": {
+              "name": "_goals_prevented",
+              "value": 4.7,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#0850A0",
+              "lightMode": "#0850A0",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
             "id": 289211,
             "name": "Valentin Cojocaru",
-            "rank": 1,
+            "rank": 2,
             "ccode": "ROU",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
@@ -33772,27 +33793,6 @@
             "teamColors": {
               "darkMode": "#1753a4",
               "lightMode": "#102457",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
-            "id": 1122644,
-            "name": "Domen Gril",
-            "rank": 2,
-            "ccode": "SVN",
-            "teamId": 8028,
-            "teamName": "Piast Gliwice",
-            "value": 4.1,
-            "stat": {
-              "name": "_goals_prevented",
-              "value": 4.1,
-              "format": "fraction",
-              "fractions": 1
-            },
-            "teamColors": {
-              "darkMode": "#0850A0",
-              "lightMode": "#0850A0",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -34994,21 +34994,21 @@
           },
           {
             "id": 0,
-            "name": "Legia Warszawa",
+            "name": "Radomiak Radom",
             "rank": 3,
             "ccode": "POL",
-            "teamId": 8673,
-            "value": 25,
+            "teamId": 5769,
+            "value": 26,
             "stat": {
               "name": "big_chance_team",
-              "value": 25,
+              "value": 26,
               "format": "number",
               "fractions": 0
             },
             "teamColors": {
-              "darkMode": "#ffffff",
-              "lightMode": "#009445",
-              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
+              "darkMode": "#09883C",
+              "lightMode": "#09883C",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           }
@@ -35022,14 +35022,14 @@
         "header": "Big chances missed",
         "participant": {
           "id": 0,
-          "name": "Motor Lublin",
+          "name": "Radomiak Radom",
           "rank": 1,
           "ccode": "POL",
-          "teamId": 89466,
-          "value": 20,
+          "teamId": 5769,
+          "value": 22,
           "stat": {
             "name": "big_chance_missed_team",
-            "value": 20,
+            "value": 22,
             "format": "number",
             "fractions": 0
           }
@@ -35038,8 +35038,28 @@
         "topThree": [
           {
             "id": 0,
-            "name": "Motor Lublin",
+            "name": "Radomiak Radom",
             "rank": 1,
+            "ccode": "POL",
+            "teamId": 5769,
+            "value": 22,
+            "stat": {
+              "name": "big_chance_missed_team",
+              "value": 22,
+              "format": "number",
+              "fractions": 0
+            },
+            "teamColors": {
+              "darkMode": "#09883C",
+              "lightMode": "#09883C",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 0,
+            "name": "Motor Lublin",
+            "rank": 2,
             "ccode": "POL",
             "teamId": 89466,
             "value": 20,
@@ -35059,7 +35079,7 @@
           {
             "id": 0,
             "name": "Wisła Kraków",
-            "rank": 2,
+            "rank": 3,
             "ccode": "POL",
             "teamId": 10265,
             "value": 19,
@@ -35072,26 +35092,6 @@
             "teamColors": {
               "darkMode": "#DA241C",
               "lightMode": "#DA241C",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
-            "id": 0,
-            "name": "Lech Poznań",
-            "rank": 3,
-            "ccode": "POL",
-            "teamId": 2182,
-            "value": 19,
-            "stat": {
-              "name": "big_chance_missed_team",
-              "value": 19,
-              "format": "number",
-              "fractions": 0
-            },
-            "teamColors": {
-              "darkMode": "#004898",
-              "lightMode": "#004898",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -35146,10 +35146,10 @@
             "rank": 2,
             "ccode": "POL",
             "teamId": 8028,
-            "value": 394.6,
+            "value": 394.5,
             "stat": {
               "name": "accurate_pass_team",
-              "value": 394.6,
+              "value": 394.5,
               "format": "fraction",
               "fractions": 1
             },

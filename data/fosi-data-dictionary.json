@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-16T03:41:59.604196+00:00",
+  "generated_at": "2026-09-17T03:30:08.267076+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -176341,7 +176341,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-09"
+      "example": "2026-09-10"
     },
     {
       "path": "$.gameInfo",
@@ -176907,7 +176907,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-09-16T03:41:02.169482+00:00"
+      "example": "2026-09-17T03:29:12.227153+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -190913,7 +190913,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7358"
+      "example": "7356"
     },
     {
       "path": "$.html_files_scanned",
@@ -215042,7 +215042,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-16T03:41:20.889892+00:00"
+      "example": "2026-09-17T03:29:30.868916+00:00"
     },
     {
       "path": "$.rosters",
@@ -228065,7 +228065,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-16"
+      "example": "2026-10-17"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -230186,14 +230186,14 @@
     {
       "path": "$.transfers[].amountEuroEstimated",
       "types": {
-        "integer": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "280000"
+      "example": "None"
     },
     {
       "path": "$.transfers[].contractExtension",
@@ -230229,7 +230229,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "undisclosed"
+      "example": "on loan"
     },
     {
       "path": "$.transfers[].fee.localizedFeeText",
@@ -230241,7 +230241,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "undisclosed"
+      "example": "on_loan"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -230253,7 +230253,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Ironi Tiberias"
+      "example": "Deportivo A Coruña"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -230265,7 +230265,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Ironi Tiberias"
+      "example": "Deportivo A Coruña"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -230277,7 +230277,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "543580"
+      "example": "9783"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -230289,7 +230289,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-15T00:00:00Z"
+      "example": "2026-09-16T00:00:00Z"
     },
     {
       "path": "$.transfers[].marketValue",
@@ -230301,7 +230301,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "264617"
+      "example": "1166787"
     },
     {
       "path": "$.transfers[].name",
@@ -230313,7 +230313,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Itamar Shviro"
+      "example": "Teun Gijselhart"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -230325,7 +230325,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.transfers[].playerId",
@@ -230337,7 +230337,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "972387"
+      "example": "1466558"
     },
     {
       "path": "$.transfers[].position",
@@ -230361,7 +230361,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "striker_short"
+      "example": "centerdefensivemidfielder_short"
     },
     {
       "path": "$.transfers[].position.label",
@@ -230373,7 +230373,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "ST"
+      "example": "DM"
     },
     {
       "path": "$.transfers[].toClub",
@@ -230385,7 +230385,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Bnei Sakhnin"
+      "example": "Al Ain"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -230397,7 +230397,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Bnei Sakhnin"
+      "example": "Al Ain"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -230409,7 +230409,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8718"
+      "example": "1017732"
     },
     {
       "path": "$.transfers[].toDate",
@@ -230433,7 +230433,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-16T03:34:22Z"
+      "example": "2026-09-16T17:50:33Z"
     },
     {
       "path": "$.transfers[].transferText",
@@ -230481,7 +230481,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "contract"
+      "example": "on_loan"
     },
     {
       "path": "$.transfers[].transferType.text",
@@ -230493,7 +230493,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "contract"
+      "example": "on loan"
     },
     {
       "path": "$.trophies",
@@ -230710,7 +230710,7 @@
         "fotmob"
       ],
       "file_count": 20,
-      "example": "2026-09-16T03:41:00.804668+00:00"
+      "example": "2026-09-17T03:29:10.767700+00:00"
     },
     {
       "path": "$.videos",
