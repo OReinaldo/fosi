@@ -7,8 +7,8 @@ on:
       team: {description: 'Team', required: true, default: 'Pogoń Szczecin'}
   push:
     paths: ['collectors/**','engine/**','config/**','.github/workflows/update-data.yml','requirements.txt']
-  schedule:
-    - cron: '15 3 * * *'
+  #schedule:
+    #- cron: '15 3 * * *'
 permissions:
   contents: write
   pages: write
