@@ -1,7 +1,7 @@
 {
   "team_id": "8023",
-  "from": "2026-09-13",
-  "to": "2026-10-20",
+  "from": "2026-09-14",
+  "to": "2026-10-21",
   "matches": [
     {
       "id": 5904696,
@@ -292,30 +292,32 @@
     },
     {
       "id": 5803979,
-      "leagueId": 937879,
-      "time": "13.09.2026 14:45",
+      "pageUrl": "/matches/pogon-szczecin-vs-wieczysta-krakow/ap5pv1fw#5803979",
+      "opponent": {
+        "id": 1286895,
+        "name": "Wieczysta Kraków",
+        "score": 0
+      },
       "home": {
         "id": 8023,
-        "score": 2,
         "name": "Pogoń Szczecin",
-        "longName": "Pogoń Szczecin"
+        "score": 2
       },
       "away": {
         "id": 1286895,
-        "score": 0,
         "name": "Wieczysta Kraków",
-        "longName": "Wieczysta Kraków"
+        "score": 0
       },
-      "eliminatedTeamId": null,
-      "statusId": 6,
-      "tournamentStage": "8",
+      "displayTournament": false,
+      "result": 1,
+      "notStarted": false,
+      "tournament": {
+        "name": "Ekstraklasa",
+        "stage": "",
+        "leagueId": 196
+      },
       "status": {
         "utcTime": "2026-09-13T12:45:00.000Z",
-        "halfs": {
-          "firstHalfStarted": "13.09.2026 14:45:26",
-          "secondHalfStarted": "13.09.2026 15:49:03"
-        },
-        "periodLength": 45,
         "finished": true,
         "started": true,
         "cancelled": false,
@@ -327,8 +329,7 @@
           "long": "Full-Time",
           "longKey": "finished"
         }
-      },
-      "timeTS": 1789303500000
+      }
     },
     {
       "id": 5803991,
@@ -336,28 +337,37 @@
       "time": "20.09.2026 12:15",
       "home": {
         "id": 8028,
-        "score": 0,
+        "score": 1,
         "name": "Piast Gliwice",
         "longName": "Piast Gliwice"
       },
       "away": {
         "id": 8023,
-        "score": 0,
+        "score": 2,
         "name": "Pogoń Szczecin",
         "longName": "Pogoń Szczecin"
       },
       "eliminatedTeamId": null,
-      "statusId": 1,
+      "statusId": 6,
       "tournamentStage": "9",
       "status": {
         "utcTime": "2026-09-20T10:15:00.000Z",
         "halfs": {
-          "firstHalfStarted": "20.09.2026 12:15:00"
+          "firstHalfStarted": "20.09.2026 12:16:59",
+          "secondHalfStarted": "20.09.2026 13:22:10"
         },
         "periodLength": 45,
-        "started": false,
+        "finished": true,
+        "started": true,
         "cancelled": false,
-        "finished": false
+        "awarded": false,
+        "scoreStr": "1 - 2",
+        "reason": {
+          "short": "FT",
+          "shortKey": "fulltime_short",
+          "long": "Full-Time",
+          "longKey": "finished"
+        }
       },
       "timeTS": 1789899300000
     },

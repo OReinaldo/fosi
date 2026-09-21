@@ -1,6 +1,40 @@
 {
   "transfers": [
     {
+      "name": "Hidajet Hankić",
+      "playerId": 351362,
+      "position": {
+        "label": "GK",
+        "key": "keeper"
+      },
+      "transferDate": "2026-09-20T08:09:58Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Free agent",
+      "fromClubFullName": "Free agent",
+      "fromClubId": 2,
+      "toClub": "Ried",
+      "toClubFullName": "Ried",
+      "toClubId": 10017,
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-09-18T00:00:00Z",
+      "toDate": "2029-06-30T00:00:00Z",
+      "marketValue": 163528
+    },
+    {
       "name": "Miloš Jović",
       "playerId": 1690598,
       "position": {
@@ -538,8 +572,8 @@
       "name": "Tobias Pfeffer",
       "playerId": 1512861,
       "position": {
-        "label": "CM",
-        "key": "centermidfielder_short"
+        "label": "RB",
+        "key": "rightback_short"
       },
       "transferDate": "2026-09-19T08:56:14Z",
       "transferText": [
@@ -1647,42 +1681,8 @@
       "fromDate": "2026-09-14T00:00:00Z",
       "toDate": null,
       "marketValue": 618013
-    },
-    {
-      "name": "Jacob Farrell",
-      "playerId": 1315434,
-      "position": {
-        "label": "CB",
-        "key": "centerback_short"
-      },
-      "transferDate": "2026-09-16T08:05:38Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Portsmouth",
-      "fromClubFullName": "Portsmouth",
-      "fromClubId": 8462,
-      "toClub": "Sydney FC",
-      "toClubFullName": "Sydney FC",
-      "toClubId": 10164,
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-16T00:00:00Z",
-      "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 840384
     }
   ],
-  "hits": 7390,
+  "hits": 7380,
   "maxFee": 145000000
 }
