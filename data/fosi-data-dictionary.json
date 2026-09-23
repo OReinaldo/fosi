@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-22T03:41:30.503430+00:00",
+  "generated_at": "2026-09-23T03:42:23.900903+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -385,7 +385,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "817"
+      "example": "818"
     },
     {
       "path": "$.assets",
@@ -176343,7 +176343,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-15"
+      "example": "2026-09-16"
     },
     {
       "path": "$.gameInfo",
@@ -176909,7 +176909,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-09-22T03:40:21.750368+00:00"
+      "example": "2026-09-23T03:41:24.019288+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -190714,7 +190714,7 @@
       "example": null
     },
     {
-      "path": "$.history.trophyList[].area",
+      "path": "$.history.trophyList[].availableSeasons",
       "types": {
         "array": 1
       },
@@ -190726,7 +190726,7 @@
       "example": null
     },
     {
-      "path": "$.history.trophyList[].area[]",
+      "path": "$.history.trophyList[].availableSeasons[]",
       "types": {
         "string": 1
       },
@@ -190735,22 +190735,10 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Poland"
+      "example": "2026/2027"
     },
     {
-      "path": "$.history.trophyList[].ccode",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.history.trophyList[].ccode[]",
+      "path": "$.history.trophyList[].leagueId",
       "types": {
         "string": 1
       },
@@ -190759,22 +190747,10 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "POL"
+      "example": "196"
     },
     {
       "path": "$.history.trophyList[].name",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.history.trophyList[].name[]",
       "types": {
         "string": 1
       },
@@ -190788,19 +190764,7 @@
     {
       "path": "$.history.trophyList[].runnerup",
       "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.history.trophyList[].runnerup[]",
-      "types": {
-        "string": 1
+        "integer": 1
       },
       "occurrences": 1,
       "sources": [
@@ -190810,19 +190774,7 @@
       "example": "2"
     },
     {
-      "path": "$.history.trophyList[].season_runnerup",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.history.trophyList[].season_runnerup[]",
+      "path": "$.history.trophyList[].seasonsRunnerup",
       "types": {
         "string": 1
       },
@@ -190834,19 +190786,7 @@
       "example": "2000/2001,1986/1987"
     },
     {
-      "path": "$.history.trophyList[].season_won",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.history.trophyList[].season_won[]",
+      "path": "$.history.trophyList[].seasonsWon",
       "types": {
         "string": 1
       },
@@ -190858,45 +190798,9 @@
       "example": ""
     },
     {
-      "path": "$.history.trophyList[].tournamentTemplateId",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.history.trophyList[].tournamentTemplateId[]",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "196"
-    },
-    {
       "path": "$.history.trophyList[].won",
       "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.history.trophyList[].won[]",
-      "types": {
-        "string": 1
+        "integer": 1
       },
       "occurrences": 1,
       "sources": [
@@ -190915,7 +190819,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7368"
+      "example": "7664"
     },
     {
       "path": "$.html_files_scanned",
@@ -202657,7 +202561,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "17.608948816439604"
+      "example": "17.542669034611222"
     },
     {
       "path": "$.overview.table[].data.table.xg[].xPointsDiff",
@@ -202669,7 +202573,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "-0.6089488164396037"
+      "example": "-0.5426690346112224"
     },
     {
       "path": "$.overview.table[].data.table.xg[].xPosition",
@@ -202705,7 +202609,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "18.706400334835052"
+      "example": "18.547700345516205"
     },
     {
       "path": "$.overview.table[].data.table.xg[].xgConceded",
@@ -202717,7 +202621,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "10.682699888944626"
+      "example": "10.6766999065876"
     },
     {
       "path": "$.overview.table[].data.table.xg[].xgConcededDiff",
@@ -202729,7 +202633,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1.3173001110553741"
+      "example": "1.3233000934123993"
     },
     {
       "path": "$.overview.table[].data.table.xg[].xgDiff",
@@ -202741,7 +202645,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "-1.7064003348350525"
+      "example": "-1.5477003455162048"
     },
     {
       "path": "$.overview.table[].data.tableFilterTypes",
@@ -210493,7 +210397,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-09T00:00:00Z"
+      "example": "2026-09-08T22:00:00Z"
     },
     {
       "path": "$.overview.transfers.allTransfers[].marketValue",
@@ -210625,7 +210529,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2028-06-30T00:00:00Z"
+      "example": "2028-06-29T22:00:00Z"
     },
     {
       "path": "$.overview.transfers.allTransfers[].transferDate",
@@ -210637,7 +210541,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-09T20:15:51Z"
+      "example": "2026-09-09T18:15:51Z"
     },
     {
       "path": "$.overview.transfers.allTransfers[].transferText",
@@ -210841,7 +210745,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-07-01T00:00:00Z"
+      "example": "2026-06-30T22:00:00Z"
     },
     {
       "path": "$.overview.transfers.data.Contract extension[].marketValue",
@@ -210853,7 +210757,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "279620"
+      "example": "178956"
     },
     {
       "path": "$.overview.transfers.data.Contract extension[].name",
@@ -210973,7 +210877,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2027-06-30T00:00:00Z"
+      "example": "2027-06-29T22:00:00Z"
     },
     {
       "path": "$.overview.transfers.data.Contract extension[].transferDate",
@@ -210985,7 +210889,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-07-01T20:54:32Z"
+      "example": "2026-07-01T18:54:32Z"
     },
     {
       "path": "$.overview.transfers.data.Contract extension[].transferText",
@@ -211177,7 +211081,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-09T00:00:00Z"
+      "example": "2026-09-08T22:00:00Z"
     },
     {
       "path": "$.overview.transfers.data.Players in[].marketValue",
@@ -211309,7 +211213,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2028-06-30T00:00:00Z"
+      "example": "2028-06-29T22:00:00Z"
     },
     {
       "path": "$.overview.transfers.data.Players in[].transferDate",
@@ -211321,7 +211225,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-09T20:15:51Z"
+      "example": "2026-09-09T18:15:51Z"
     },
     {
       "path": "$.overview.transfers.data.Players in[].transferText",
@@ -211489,7 +211393,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T00:00:00Z"
+      "example": "2026-09-07T22:00:00Z"
     },
     {
       "path": "$.overview.transfers.data.Players out[].marketValue",
@@ -211597,7 +211501,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2029-06-30T00:00:00Z"
+      "example": "2029-06-29T22:00:00Z"
     },
     {
       "path": "$.overview.transfers.data.Players out[].transferDate",
@@ -211609,7 +211513,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T13:44:50Z"
+      "example": "2026-09-08T11:44:50Z"
     },
     {
       "path": "$.overview.transfers.data.Players out[].transferText",
@@ -214336,7 +214240,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-22T03:40:40.419195+00:00"
+      "example": "2026-09-23T03:41:42.902936+00:00"
     },
     {
       "path": "$.rosters",
@@ -220125,7 +220029,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "17.608948816439604"
+      "example": "17.542669034611222"
     },
     {
       "path": "$.table[].data.table.xg[].xPointsDiff",
@@ -220137,7 +220041,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "-0.6089488164396037"
+      "example": "-0.5426690346112224"
     },
     {
       "path": "$.table[].data.table.xg[].xPosition",
@@ -220173,7 +220077,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "18.706400334835052"
+      "example": "18.547700345516205"
     },
     {
       "path": "$.table[].data.table.xg[].xgConceded",
@@ -220185,7 +220089,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "10.682699888944626"
+      "example": "10.6766999065876"
     },
     {
       "path": "$.table[].data.table.xg[].xgConcededDiff",
@@ -220197,7 +220101,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "1.3173001110553741"
+      "example": "1.3233000934123993"
     },
     {
       "path": "$.table[].data.table.xg[].xgDiff",
@@ -220209,7 +220113,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "-1.7064003348350525"
+      "example": "-1.5477003455162048"
     },
     {
       "path": "$.table[].data.tableFilterTypes",
@@ -227256,6 +227160,978 @@
       "example": null
     },
     {
+      "path": "$.team.nextEvent[]",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].competitions",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[]",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].attendance",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "0"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].boxscoreAvailable",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "True"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].broadcasts",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[]",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].homeAway",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "home"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].id",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "511"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].order",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "0"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].team",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].team.abbreviation",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "POG"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].team.displayName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Pogon Szczecin"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].team.id",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "511"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].team.links",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].team.links[]",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].team.links[].href",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "https://www.espn.com/soccer/club/_/id/511/pogon-szczecin"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].team.links[].rel",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].team.links[].rel[]",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "clubhouse"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].team.links[].text",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Clubhouse"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].team.location",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Pogon Szczecin"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].team.shortDisplayName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Pogon Szczecin"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].type",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "team"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].competitors[].winner",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].date",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "2026-09-26T15:30Z"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].id",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "401923501"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].neutralSite",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].notes",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].status",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].status.addedClock",
+      "types": {
+        "number": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "0.0"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].status.clock",
+      "types": {
+        "number": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "0.0"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].status.displayClock",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "0'"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].status.period",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "0"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].status.type",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].status.type.completed",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].status.type.description",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Scheduled"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].status.type.detail",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Sat, September 26th at 11:30 AM EDT"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].status.type.id",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "1"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].status.type.name",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "STATUS_SCHEDULED"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].status.type.shortDetail",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "9/26 - 11:30 AM EDT"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].status.type.state",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "pre"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].ticketsAvailable",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].timeValid",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "True"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].venue",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].venue.address",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].venue.address.city",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Szczecin"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].venue.address.country",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Poland"
+    },
+    {
+      "path": "$.team.nextEvent[].competitions[].venue.fullName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Stadion Miejski im. Floriana Krygiera"
+    },
+    {
+      "path": "$.team.nextEvent[].date",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "2026-09-26T15:30Z"
+    },
+    {
+      "path": "$.team.nextEvent[].id",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "401923501"
+    },
+    {
+      "path": "$.team.nextEvent[].league",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].league.abbreviation",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Club Friendly"
+    },
+    {
+      "path": "$.team.nextEvent[].league.alternateId",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "68"
+    },
+    {
+      "path": "$.team.nextEvent[].league.id",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "19834"
+    },
+    {
+      "path": "$.team.nextEvent[].league.isTournament",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.team.nextEvent[].league.midsizeName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "CLUB.FRIENDLY"
+    },
+    {
+      "path": "$.team.nextEvent[].league.name",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Club Friendly"
+    },
+    {
+      "path": "$.team.nextEvent[].league.shortName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Club Friendly"
+    },
+    {
+      "path": "$.team.nextEvent[].league.slug",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "club.friendly"
+    },
+    {
+      "path": "$.team.nextEvent[].links",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].links[]",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].links[].href",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "https://www.espn.com/soccer/match/_/gameId/401923501/udinese-pogon-szczecin"
+    },
+    {
+      "path": "$.team.nextEvent[].links[].isExternal",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.team.nextEvent[].links[].isPremium",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.team.nextEvent[].links[].language",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "en-US"
+    },
+    {
+      "path": "$.team.nextEvent[].links[].rel",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].links[].rel[]",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "summary"
+    },
+    {
+      "path": "$.team.nextEvent[].links[].shortText",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Summary"
+    },
+    {
+      "path": "$.team.nextEvent[].links[].text",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Summary"
+    },
+    {
+      "path": "$.team.nextEvent[].name",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "Udinese at Pogon Szczecin"
+    },
+    {
+      "path": "$.team.nextEvent[].season",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].season.displayName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "2026 Club Friendly"
+    },
+    {
+      "path": "$.team.nextEvent[].season.year",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "2026"
+    },
+    {
+      "path": "$.team.nextEvent[].seasonType",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.team.nextEvent[].seasonType.abbreviation",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "2026 Club Friendly"
+    },
+    {
+      "path": "$.team.nextEvent[].seasonType.id",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "1"
+    },
+    {
+      "path": "$.team.nextEvent[].seasonType.name",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "2026 Club Friendly"
+    },
+    {
+      "path": "$.team.nextEvent[].seasonType.type",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "13818"
+    },
+    {
+      "path": "$.team.nextEvent[].shortName",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "UDI @ POG"
+    },
+    {
+      "path": "$.team.nextEvent[].timeValid",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "espn"
+      ],
+      "file_count": 1,
+      "example": "True"
+    },
+    {
       "path": "$.team.record",
       "types": {
         "object": 1
@@ -227361,7 +228237,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-22"
+      "example": "2026-10-23"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -227928,7 +228804,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-09T00:00:00Z"
+      "example": "2026-09-08T22:00:00Z"
     },
     {
       "path": "$.transfers.allTransfers[].marketValue",
@@ -228060,7 +228936,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2028-06-30T00:00:00Z"
+      "example": "2028-06-29T22:00:00Z"
     },
     {
       "path": "$.transfers.allTransfers[].transferDate",
@@ -228072,7 +228948,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-09T20:15:51Z"
+      "example": "2026-09-09T18:15:51Z"
     },
     {
       "path": "$.transfers.allTransfers[].transferText",
@@ -228277,7 +229153,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-07-01T00:00:00Z"
+      "example": "2026-06-30T22:00:00Z"
     },
     {
       "path": "$.transfers.data.Contract extension[].marketValue",
@@ -228289,7 +229165,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "279620"
+      "example": "178956"
     },
     {
       "path": "$.transfers.data.Contract extension[].name",
@@ -228409,7 +229285,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2027-06-30T00:00:00Z"
+      "example": "2027-06-29T22:00:00Z"
     },
     {
       "path": "$.transfers.data.Contract extension[].transferDate",
@@ -228421,7 +229297,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-07-01T20:54:32Z"
+      "example": "2026-07-01T18:54:32Z"
     },
     {
       "path": "$.transfers.data.Contract extension[].transferText",
@@ -228613,7 +229489,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-09T00:00:00Z"
+      "example": "2026-09-08T22:00:00Z"
     },
     {
       "path": "$.transfers.data.Players in[].marketValue",
@@ -228745,7 +229621,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2028-06-30T00:00:00Z"
+      "example": "2028-06-29T22:00:00Z"
     },
     {
       "path": "$.transfers.data.Players in[].transferDate",
@@ -228757,7 +229633,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-09T20:15:51Z"
+      "example": "2026-09-09T18:15:51Z"
     },
     {
       "path": "$.transfers.data.Players in[].transferText",
@@ -228925,7 +229801,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T00:00:00Z"
+      "example": "2026-09-07T22:00:00Z"
     },
     {
       "path": "$.transfers.data.Players out[].marketValue",
@@ -229033,7 +229909,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2029-06-30T00:00:00Z"
+      "example": "2029-06-29T22:00:00Z"
     },
     {
       "path": "$.transfers.data.Players out[].transferDate",
@@ -229045,7 +229921,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-08T13:44:50Z"
+      "example": "2026-09-08T11:44:50Z"
     },
     {
       "path": "$.transfers.data.Players out[].transferText",
@@ -229225,7 +230101,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-15T00:00:00Z"
+      "example": "2026-09-14T22:00:00Z"
     },
     {
       "path": "$.transfers.data[].marketValue",
@@ -229357,7 +230233,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2029-06-30T00:00:00Z"
+      "example": "2029-06-29T22:00:00Z"
     },
     {
       "path": "$.transfers.data[].transferDate",
@@ -229369,7 +230245,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-15T20:12:24Z"
+      "example": "2026-09-15T18:12:24Z"
     },
     {
       "path": "$.transfers.data[].transferText",
@@ -229549,7 +230425,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "AD Ceuta FC"
+      "example": "Koper"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -229561,7 +230437,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "AD Ceuta FC"
+      "example": "Koper"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -229573,7 +230449,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "357259"
+      "example": "5772"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -229585,7 +230461,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-21T00:00:00Z"
+      "example": "2026-09-22T00:00:00Z"
     },
     {
       "path": "$.transfers[].marketValue",
@@ -229597,7 +230473,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "298790"
+      "example": "274136"
     },
     {
       "path": "$.transfers[].name",
@@ -229609,7 +230485,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Víctor Corral"
+      "example": "Omar El Manssouri"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -229633,7 +230509,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1756668"
+      "example": "1683716"
     },
     {
       "path": "$.transfers[].position",
@@ -229657,7 +230533,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "centermidfielder_short"
+      "example": "leftwinger_short"
     },
     {
       "path": "$.transfers[].position.label",
@@ -229669,7 +230545,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "CM"
+      "example": "LW"
     },
     {
       "path": "$.transfers[].toClub",
@@ -229681,7 +230557,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Europa FC"
+      "example": "RS Berkane"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -229693,7 +230569,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Europa FC"
+      "example": "RS Berkane"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -229705,7 +230581,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "545013"
+      "example": "316652"
     },
     {
       "path": "$.transfers[].toDate",
@@ -229717,7 +230593,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2027-06-30T00:00:00Z"
+      "example": "2029-06-30T00:00:00Z"
     },
     {
       "path": "$.transfers[].transferDate",
@@ -229729,7 +230605,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-21T15:45:11Z"
+      "example": "2026-09-23T03:10:31Z"
     },
     {
       "path": "$.transfers[].transferText",
@@ -230006,7 +230882,7 @@
         "fotmob"
       ],
       "file_count": 21,
-      "example": "2026-09-22T03:40:20.376563+00:00"
+      "example": "2026-09-23T03:41:23.175045+00:00"
     },
     {
       "path": "$.videos",
