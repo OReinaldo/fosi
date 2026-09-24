@@ -1,7 +1,7 @@
 {
   "team_id": "8023",
-  "from": "2026-09-16",
-  "to": "2026-10-23",
+  "from": "2026-09-17",
+  "to": "2026-10-24",
   "matches": [
     {
       "id": 5904696,
@@ -435,35 +435,34 @@
     },
     {
       "id": 5804018,
-      "pageUrl": "/matches/radomiak-radom-vs-pogon-szczecin/1kmukn#5804018",
-      "opponent": {
-        "id": 5769,
-        "name": "Radomiak Radom",
-        "score": 0
-      },
+      "leagueId": 937879,
+      "time": "24.10.2026 17:30",
       "home": {
         "id": 8023,
+        "score": 0,
         "name": "Pogoń Szczecin",
-        "score": 0
+        "longName": "Pogoń Szczecin"
       },
       "away": {
         "id": 5769,
+        "score": 0,
         "name": "Radomiak Radom",
-        "score": 0
+        "longName": "Radomiak Radom"
       },
-      "displayTournament": false,
-      "notStarted": true,
-      "tournament": {
-        "name": "Ekstraklasa",
-        "stage": "",
-        "leagueId": 196
-      },
+      "eliminatedTeamId": null,
+      "statusId": 1,
+      "tournamentStage": "12",
       "status": {
         "utcTime": "2026-10-24T15:30:00.000Z",
+        "halfs": {
+          "firstHalfStarted": "24.10.2026 17:30:00"
+        },
+        "periodLength": 45,
         "started": false,
         "cancelled": false,
         "finished": false
-      }
+      },
+      "timeTS": 1792855800000
     },
     {
       "id": 5804027,
@@ -491,7 +490,7 @@
         "leagueId": 196
       },
       "status": {
-        "utcTime": "2026-10-31T17:00:00.000Z",
+        "utcTime": "2026-11-02T19:30:00.000Z",
         "matchDateTbd": true,
         "matchTimeTbd": false,
         "started": false,

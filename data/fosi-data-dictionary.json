@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-23T03:42:23.900903+00:00",
+  "generated_at": "2026-09-24T03:42:11.936874+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -171532,6 +171532,18 @@
       "example": "male"
     },
     {
+      "path": "$.details.hasFixtureDifficulty",
+      "types": {
+        "boolean": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "False"
+    },
+    {
       "path": "$.details.id",
       "types": {
         "integer": 2
@@ -176343,7 +176355,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-16"
+      "example": "2026-09-17"
     },
     {
       "path": "$.gameInfo",
@@ -176909,7 +176921,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-09-23T03:41:24.019288+00:00"
+      "example": "2026-09-24T03:41:03.009480+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -190819,7 +190831,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7664"
+      "example": "7649"
     },
     {
       "path": "$.html_files_scanned",
@@ -214240,7 +214252,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-23T03:41:42.902936+00:00"
+      "example": "2026-09-24T03:41:21.719988+00:00"
     },
     {
       "path": "$.rosters",
@@ -228237,7 +228249,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-23"
+      "example": "2026-10-24"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -230882,7 +230894,7 @@
         "fotmob"
       ],
       "file_count": 21,
-      "example": "2026-09-23T03:41:23.175045+00:00"
+      "example": "2026-09-24T03:41:01.889988+00:00"
     },
     {
       "path": "$.videos",
