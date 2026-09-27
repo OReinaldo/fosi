@@ -407,7 +407,18 @@
                       "text": "Squad"
                     }
                   ]
-                }
+                },
+                "score": {
+                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/club.friendly/events/401923501/competitions/401923501/competitors/511/scores/38?lang=en&region=us",
+                  "value": 1.0,
+                  "displayValue": "1",
+                  "winner": false,
+                  "source": {
+                    "id": "38",
+                    "description": "SA.ENVOY"
+                  }
+                },
+                "record": []
               },
               {
                 "id": "118",
@@ -532,24 +543,35 @@
                       "text": "Squad"
                     }
                   ]
-                }
+                },
+                "score": {
+                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/club.friendly/events/401923501/competitions/401923501/competitors/118/scores/38?lang=en&region=us",
+                  "value": 1.0,
+                  "displayValue": "1",
+                  "winner": false,
+                  "source": {
+                    "id": "38",
+                    "description": "SA.ENVOY"
+                  }
+                },
+                "record": []
               }
             ],
             "notes": [],
             "broadcasts": [],
             "status": {
-              "clock": 0.0,
+              "clock": 5400.0,
               "addedClock": 0.0,
-              "displayClock": "0'",
-              "period": 0,
+              "displayClock": "90'",
+              "period": 2,
               "type": {
-                "id": "1",
-                "name": "STATUS_SCHEDULED",
-                "state": "pre",
-                "completed": false,
-                "description": "Scheduled",
-                "detail": "Sat, September 26th at 11:30 AM EDT",
-                "shortDetail": "9/26 - 11:30 AM EDT"
+                "id": "28",
+                "name": "STATUS_FULL_TIME",
+                "state": "post",
+                "completed": true,
+                "description": "Full Time",
+                "detail": "FT",
+                "shortDetail": "FT"
               }
             }
           }
