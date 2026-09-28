@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T09:28:59.889470+00:00",
+  "generated_at": "2026-09-28T10:05:06.786639+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -176416,7 +176416,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-20"
+      "example": "2026-09-21"
     },
     {
       "path": "$.gameInfo",
@@ -177090,7 +177090,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-09-27T09:27:57.210832+00:00"
+      "example": "2026-09-28T10:04:12.495039+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -191000,7 +191000,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7534"
+      "example": "7521"
     },
     {
       "path": "$.html_files_scanned",
@@ -214433,7 +214433,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-27T09:28:15.686441+00:00"
+      "example": "2026-09-28T10:04:31.215645+00:00"
     },
     {
       "path": "$.rosters",
@@ -228538,7 +228538,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-27"
+      "example": "2026-10-28"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -230659,14 +230659,14 @@
     {
       "path": "$.transfers[].amountEuroEstimated",
       "types": {
-        "integer": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "3000000"
+      "example": "None"
     },
     {
       "path": "$.transfers[].contractExtension",
@@ -230702,7 +230702,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "undisclosed"
+      "example": "on loan"
     },
     {
       "path": "$.transfers[].fee.localizedFeeText",
@@ -230714,7 +230714,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "undisclosed"
+      "example": "on_loan"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -230726,7 +230726,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Santos"
+      "example": "Wydad Casablanca"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -230738,7 +230738,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Santos"
+      "example": "Wydad Casablanca"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -230750,7 +230750,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8514"
+      "example": "102050"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -230762,7 +230762,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-25T00:00:00Z"
+      "example": "2026-09-26T00:00:00Z"
     },
     {
       "path": "$.transfers[].marketValue",
@@ -230774,7 +230774,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2610572"
+      "example": "697071"
     },
     {
       "path": "$.transfers[].name",
@@ -230786,7 +230786,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "João Pedro Chermont"
+      "example": "Ramiro Vaca"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -230798,7 +230798,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.transfers[].playerId",
@@ -230810,7 +230810,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1636512"
+      "example": "832400"
     },
     {
       "path": "$.transfers[].position",
@@ -230834,7 +230834,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "rightback_short"
+      "example": "centerattackingmidfielder_short"
     },
     {
       "path": "$.transfers[].position.label",
@@ -230846,7 +230846,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "RB"
+      "example": "AM"
     },
     {
       "path": "$.transfers[].toClub",
@@ -230858,7 +230858,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Sharjah Cultural Club"
+      "example": "Khorfakkan"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -230870,7 +230870,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Sharjah Cultural Club"
+      "example": "Khorfakkan"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -230882,7 +230882,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "102124"
+      "example": "149993"
     },
     {
       "path": "$.transfers[].toDate",
@@ -230894,7 +230894,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2029-06-30T00:00:00Z"
+      "example": "2027-06-30T00:00:00Z"
     },
     {
       "path": "$.transfers[].transferDate",
@@ -230906,7 +230906,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-27T11:11:56Z"
+      "example": "2026-09-28T01:49:41Z"
     },
     {
       "path": "$.transfers[].transferText",
@@ -230954,7 +230954,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "contract"
+      "example": "on_loan"
     },
     {
       "path": "$.transfers[].transferType.text",
@@ -230966,7 +230966,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "contract"
+      "example": "on loan"
     },
     {
       "path": "$.trophies",
@@ -231183,7 +231183,7 @@
         "fotmob"
       ],
       "file_count": 21,
-      "example": "2026-09-27T09:27:55.812059+00:00"
+      "example": "2026-09-28T10:04:11.098868+00:00"
     },
     {
       "path": "$.videos",

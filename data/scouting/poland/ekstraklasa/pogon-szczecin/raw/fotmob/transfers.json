@@ -1,6 +1,40 @@
 {
   "transfers": [
     {
+      "name": "Ramiro Vaca",
+      "playerId": 832400,
+      "position": {
+        "label": "AM",
+        "key": "centerattackingmidfielder_short"
+      },
+      "transferDate": "2026-09-28T01:49:41Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Wydad Casablanca",
+      "fromClubFullName": "Wydad Casablanca",
+      "fromClubId": 102050,
+      "toClub": "Khorfakkan",
+      "toClubFullName": "Khorfakkan",
+      "toClubId": 149993,
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-09-26T00:00:00Z",
+      "toDate": "2027-06-30T00:00:00Z",
+      "marketValue": 697071
+    },
+    {
       "name": "João Pedro Chermont",
       "playerId": 1636512,
       "position": {
@@ -1658,42 +1692,8 @@
       "fromDate": "2026-09-16T22:00:00Z",
       "toDate": "2026-11-29T23:00:00Z",
       "marketValue": 491401
-    },
-    {
-      "name": "Olivier Verdon",
-      "playerId": 854293,
-      "position": {
-        "label": "CB",
-        "key": "centerback_short"
-      },
-      "transferDate": "2026-09-17T12:27:50Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Ludogorets Razgrad",
-      "fromClubFullName": "Ludogorets Razgrad",
-      "fromClubId": 210173,
-      "toClub": "Maccabi Netanya",
-      "toClubFullName": "Maccabi Netanya",
-      "toClubId": 1832,
-      "fee": {
-        "feeText": "free transfer",
-        "localizedFeeText": "transfer_type_free_transfer"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-15T22:00:00Z",
-      "toDate": "2028-06-29T22:00:00Z",
-      "marketValue": 517317
     }
   ],
-  "hits": 7534,
+  "hits": 7521,
   "maxFee": 145000000
 }

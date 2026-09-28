@@ -1,7 +1,7 @@
 {
   "team_id": "8023",
-  "from": "2026-09-20",
-  "to": "2026-10-27",
+  "from": "2026-09-21",
+  "to": "2026-10-28",
   "matches": [
     {
       "id": 5904696,
@@ -333,30 +333,32 @@
     },
     {
       "id": 5803991,
-      "leagueId": 937879,
-      "time": "20.09.2026 12:15",
+      "pageUrl": "/matches/pogon-szczecin-vs-piast-gliwice/24pcga#5803991",
+      "opponent": {
+        "id": 8028,
+        "name": "Piast Gliwice",
+        "score": 1
+      },
       "home": {
         "id": 8028,
-        "score": 1,
         "name": "Piast Gliwice",
-        "longName": "Piast Gliwice"
+        "score": 1
       },
       "away": {
         "id": 8023,
-        "score": 2,
         "name": "Pogoń Szczecin",
-        "longName": "Pogoń Szczecin"
+        "score": 2
       },
-      "eliminatedTeamId": null,
-      "statusId": 6,
-      "tournamentStage": "9",
+      "displayTournament": false,
+      "result": 1,
+      "notStarted": false,
+      "tournament": {
+        "name": "Ekstraklasa",
+        "stage": "",
+        "leagueId": 196
+      },
       "status": {
         "utcTime": "2026-09-20T10:15:00.000Z",
-        "halfs": {
-          "firstHalfStarted": "20.09.2026 12:16:59",
-          "secondHalfStarted": "20.09.2026 13:22:10"
-        },
-        "periodLength": 45,
         "finished": true,
         "started": true,
         "cancelled": false,
@@ -368,8 +370,7 @@
           "long": "Full-Time",
           "longKey": "finished"
         }
-      },
-      "timeTS": 1789899300000
+      }
     },
     {
       "id": 5803999,
