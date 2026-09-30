@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-29T10:04:15.772573+00:00",
+  "generated_at": "2026-09-30T09:56:48.351755+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -176416,7 +176416,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-22"
+      "example": "2026-09-23"
     },
     {
       "path": "$.gameInfo",
@@ -177090,7 +177090,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-09-29T10:03:16.936590+00:00"
+      "example": "2026-09-30T09:55:42.256442+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -191000,7 +191000,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7533"
+      "example": "7536"
     },
     {
       "path": "$.html_files_scanned",
@@ -200227,6 +200227,18 @@
     {
       "path": "$.overview.nextMatch.odds",
       "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.betBoostMarkets",
+      "types": {
         "null": 1
       },
       "occurrences": 1,
@@ -200235,6 +200247,726 @@
       ],
       "file_count": 1,
       "example": "None"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.callToActionLink",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c="
+    },
+    {
+      "path": "$.overview.nextMatch.odds.logoUrl",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "https://images.fotmob.com/images/betting/superbet"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchCouponKey",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[]",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].fotMobMarketTypeId",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].fotMobMarketTypeId.translationKey",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "who_will_win"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].header",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Match Odds"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].headerTranslationKey",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "who_will_win"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[]",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].couponKey",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].link",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c="
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].name",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "1"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsAmerican",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "+110"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "2.10"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "11/10"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].value",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[]",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].category",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Oddstab"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[]",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].fotMobMarketTypeId",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].fotMobMarketTypeId.translationKey",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "who_will_win"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].header",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Match Odds"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].headerTranslationKey",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "who_will_win"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[]",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].couponKey",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].link",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c="
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].name",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "1"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsAmerican",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "+110"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "2.10"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "11/10"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].value",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.oddsType",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "PreMatch"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.provider",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.provider.id",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "99999"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.odds.resolvedOddsMarket",
+      "types": {
+        "null": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "None"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.ongoing",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.persistentKey",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "SuperBet_Poland"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.promoText",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.promoText.callToAction",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": ""
+    },
+    {
+      "path": "$.overview.nextMatch.odds.promoText.lang",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "en"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.promoText.link",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c="
+    },
+    {
+      "path": "$.overview.nextMatch.odds.promoText.linkIOS",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": ""
+    },
+    {
+      "path": "$.overview.nextMatch.odds.promoText.linkWeb",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": ""
+    },
+    {
+      "path": "$.overview.nextMatch.odds.promoText.text",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "Sign up with Superbet today!"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.promoText.text2",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": ""
+    },
+    {
+      "path": "$.overview.nextMatch.odds.providerId",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "99999"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.restrictions",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.restrictions.disableLiveOdds",
+      "types": {
+        "boolean": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "False"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.restrictions.excludedLeagueIds",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.restrictions.excludedLeagueIds[]",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "11548"
+    },
+    {
+      "path": "$.overview.nextMatch.odds.restrictions.excludedMatchIds",
+      "types": {
+        "array": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.nextMatch.odds.restrictions.excludedMatchIds[]",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "5159283"
     },
     {
       "path": "$.overview.nextMatch.opponent",
@@ -214433,7 +215165,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-29T10:03:35.519443+00:00"
+      "example": "2026-09-30T09:56:00.569095+00:00"
     },
     {
       "path": "$.rosters",
@@ -227353,1086 +228085,6 @@
       "example": null
     },
     {
-      "path": "$.team.nextEvent[]",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[]",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].attendance",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "0"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].boxscoreAvailable",
-      "types": {
-        "boolean": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "True"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].broadcasts",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[]",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].homeAway",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "home"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].id",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "511"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].order",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "0"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].record",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].score",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].score.$ref",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/club.friendly/events/401923501/competitions/401923501/competitors/511/scores/38?lang=en&region=us"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].score.displayValue",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "1"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].score.source",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].score.source.description",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "SA.ENVOY"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].score.source.id",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "38"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].score.value",
-      "types": {
-        "number": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "1.0"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].score.winner",
-      "types": {
-        "boolean": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "False"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].team",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].team.abbreviation",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "POG"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].team.displayName",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "Pogon Szczecin"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].team.id",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "511"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].team.links",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].team.links[]",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].team.links[].href",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "https://www.espn.com/soccer/club/_/id/511/pogon-szczecin"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].team.links[].rel",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].team.links[].rel[]",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "clubhouse"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].team.links[].text",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "Clubhouse"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].team.location",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "Pogon Szczecin"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].team.shortDisplayName",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "Pogon Szczecin"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].type",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "team"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].competitors[].winner",
-      "types": {
-        "boolean": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "False"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].date",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "2026-09-26T15:30Z"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].id",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "401923501"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].neutralSite",
-      "types": {
-        "boolean": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "False"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].notes",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].status",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].status.addedClock",
-      "types": {
-        "number": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "0.0"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].status.clock",
-      "types": {
-        "number": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "5400.0"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].status.displayClock",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "90'"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].status.period",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "2"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].status.type",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].status.type.completed",
-      "types": {
-        "boolean": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "True"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].status.type.description",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "Full Time"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].status.type.detail",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "FT"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].status.type.id",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "28"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].status.type.name",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "STATUS_FULL_TIME"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].status.type.shortDetail",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "FT"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].status.type.state",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "post"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].ticketsAvailable",
-      "types": {
-        "boolean": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "False"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].timeValid",
-      "types": {
-        "boolean": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "True"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].venue",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].venue.address",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].venue.address.city",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "Szczecin"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].venue.address.country",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "Poland"
-    },
-    {
-      "path": "$.team.nextEvent[].competitions[].venue.fullName",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "Stadion Miejski im. Floriana Krygiera"
-    },
-    {
-      "path": "$.team.nextEvent[].date",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "2026-09-26T15:30Z"
-    },
-    {
-      "path": "$.team.nextEvent[].id",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "401923501"
-    },
-    {
-      "path": "$.team.nextEvent[].league",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].league.abbreviation",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "Club Friendly"
-    },
-    {
-      "path": "$.team.nextEvent[].league.alternateId",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "68"
-    },
-    {
-      "path": "$.team.nextEvent[].league.id",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "19834"
-    },
-    {
-      "path": "$.team.nextEvent[].league.isTournament",
-      "types": {
-        "boolean": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "False"
-    },
-    {
-      "path": "$.team.nextEvent[].league.midsizeName",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "CLUB.FRIENDLY"
-    },
-    {
-      "path": "$.team.nextEvent[].league.name",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "Club Friendly"
-    },
-    {
-      "path": "$.team.nextEvent[].league.shortName",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "Club Friendly"
-    },
-    {
-      "path": "$.team.nextEvent[].league.slug",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "club.friendly"
-    },
-    {
-      "path": "$.team.nextEvent[].links",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].links[]",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].links[].href",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "https://www.espn.com/soccer/match/_/gameId/401923501/udinese-pogon-szczecin"
-    },
-    {
-      "path": "$.team.nextEvent[].links[].isExternal",
-      "types": {
-        "boolean": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "False"
-    },
-    {
-      "path": "$.team.nextEvent[].links[].isPremium",
-      "types": {
-        "boolean": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "False"
-    },
-    {
-      "path": "$.team.nextEvent[].links[].language",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "en-US"
-    },
-    {
-      "path": "$.team.nextEvent[].links[].rel",
-      "types": {
-        "array": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].links[].rel[]",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "summary"
-    },
-    {
-      "path": "$.team.nextEvent[].links[].shortText",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "Summary"
-    },
-    {
-      "path": "$.team.nextEvent[].links[].text",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "Summary"
-    },
-    {
-      "path": "$.team.nextEvent[].name",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "Udinese at Pogon Szczecin"
-    },
-    {
-      "path": "$.team.nextEvent[].season",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].season.displayName",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "2026 Club Friendly"
-    },
-    {
-      "path": "$.team.nextEvent[].season.year",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "2026"
-    },
-    {
-      "path": "$.team.nextEvent[].seasonType",
-      "types": {
-        "object": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": null
-    },
-    {
-      "path": "$.team.nextEvent[].seasonType.abbreviation",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "2026 Club Friendly"
-    },
-    {
-      "path": "$.team.nextEvent[].seasonType.id",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "1"
-    },
-    {
-      "path": "$.team.nextEvent[].seasonType.name",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "2026 Club Friendly"
-    },
-    {
-      "path": "$.team.nextEvent[].seasonType.type",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "13818"
-    },
-    {
-      "path": "$.team.nextEvent[].shortName",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "UDI @ POG"
-    },
-    {
-      "path": "$.team.nextEvent[].timeValid",
-      "types": {
-        "boolean": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "espn"
-      ],
-      "file_count": 1,
-      "example": "True"
-    },
-    {
       "path": "$.team.record",
       "types": {
         "object": 1
@@ -228538,7 +228190,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-29"
+      "example": "2026-10-30"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -230702,7 +230354,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on loan"
+      "example": "free transfer"
     },
     {
       "path": "$.transfers[].fee.localizedFeeText",
@@ -230714,7 +230366,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on_loan"
+      "example": "transfer_type_free_transfer"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -230726,7 +230378,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Aberdeen"
+      "example": "Free agent"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -230738,7 +230390,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Aberdeen"
+      "example": "Free agent"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -230750,7 +230402,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8485"
+      "example": "2"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -230762,19 +230414,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-28T00:00:00Z"
+      "example": "2026-09-30T00:00:00Z"
     },
     {
       "path": "$.transfers[].marketValue",
       "types": {
-        "null": 1
+        "integer": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": "2150214"
     },
     {
       "path": "$.transfers[].name",
@@ -230786,7 +230438,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Nicholas Suman"
+      "example": "Ryotaro Ito"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -230798,7 +230450,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "True"
+      "example": "False"
     },
     {
       "path": "$.transfers[].playerId",
@@ -230810,7 +230462,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "815620"
+      "example": "727838"
     },
     {
       "path": "$.transfers[].position",
@@ -230834,7 +230486,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "keeper"
+      "example": "centerattackingmidfielder_short"
     },
     {
       "path": "$.transfers[].position.label",
@@ -230846,7 +230498,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "GK"
+      "example": "AM"
     },
     {
       "path": "$.transfers[].toClub",
@@ -230858,7 +230510,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Ross County"
+      "example": "Real Valladolid"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -230870,7 +230522,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Ross County"
+      "example": "Real Valladolid"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -230882,7 +230534,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8649"
+      "example": "10281"
     },
     {
       "path": "$.transfers[].toDate",
@@ -230894,7 +230546,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2027-05-31T00:00:00Z"
+      "example": "2027-06-30T00:00:00Z"
     },
     {
       "path": "$.transfers[].transferDate",
@@ -230906,7 +230558,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-29T10:02:05Z"
+      "example": "2026-09-30T11:02:24Z"
     },
     {
       "path": "$.transfers[].transferText",
@@ -230954,7 +230606,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on_loan"
+      "example": "contract"
     },
     {
       "path": "$.transfers[].transferType.text",
@@ -230966,7 +230618,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "on loan"
+      "example": "contract"
     },
     {
       "path": "$.trophies",
@@ -231183,7 +230835,7 @@
         "fotmob"
       ],
       "file_count": 21,
-      "example": "2026-09-29T10:03:15.548387+00:00"
+      "example": "2026-09-30T09:55:41.585126+00:00"
     },
     {
       "path": "$.videos",

@@ -14423,7 +14423,161 @@
         "cancelled": false,
         "finished": false
       },
-      "odds": null,
+      "odds": {
+        "persistentKey": "SuperBet_Poland",
+        "providerId": "99999",
+        "logoUrl": "https://images.fotmob.com/images/betting/superbet",
+        "promoText": {
+          "lang": "en",
+          "text": "Sign up with Superbet today!",
+          "text2": "",
+          "link": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c=",
+          "linkIOS": "",
+          "linkWeb": "",
+          "callToAction": ""
+        },
+        "ongoing": false,
+        "callToActionLink": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c=",
+        "betBoostMarkets": null,
+        "odds": {
+          "matchfactMarkets": [
+            {
+              "header": "Match Odds",
+              "headerTranslationKey": "who_will_win",
+              "selections": [
+                {
+                  "name": "1",
+                  "oddsDecimal": "2.10",
+                  "oddsAmerican": "+110",
+                  "oddsFraction": "11/10",
+                  "couponKey": null,
+                  "team": null,
+                  "value": null,
+                  "link": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c="
+                },
+                {
+                  "name": "x",
+                  "oddsDecimal": "3.25",
+                  "oddsAmerican": "+225",
+                  "oddsFraction": "9/4",
+                  "couponKey": null,
+                  "team": null,
+                  "value": null,
+                  "link": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c="
+                },
+                {
+                  "name": "2",
+                  "oddsDecimal": "3.10",
+                  "oddsAmerican": "+210",
+                  "oddsFraction": "21/10",
+                  "couponKey": null,
+                  "team": null,
+                  "value": null,
+                  "link": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c="
+                }
+              ],
+              "fotMobMarketTypeId": {
+                "translationKey": "who_will_win"
+              }
+            }
+          ],
+          "oddsTabMarkets": [
+            {
+              "category": "Oddstab",
+              "markets": [
+                {
+                  "header": "Match Odds",
+                  "headerTranslationKey": "who_will_win",
+                  "selections": [
+                    {
+                      "name": "1",
+                      "oddsDecimal": "2.10",
+                      "oddsAmerican": "+110",
+                      "oddsFraction": "11/10",
+                      "couponKey": null,
+                      "team": null,
+                      "value": null,
+                      "link": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c="
+                    },
+                    {
+                      "name": "x",
+                      "oddsDecimal": "3.25",
+                      "oddsAmerican": "+225",
+                      "oddsFraction": "9/4",
+                      "couponKey": null,
+                      "team": null,
+                      "value": null,
+                      "link": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c="
+                    },
+                    {
+                      "name": "2",
+                      "oddsDecimal": "3.10",
+                      "oddsAmerican": "+210",
+                      "oddsFraction": "21/10",
+                      "couponKey": null,
+                      "team": null,
+                      "value": null,
+                      "link": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c="
+                    }
+                  ],
+                  "fotMobMarketTypeId": {
+                    "translationKey": "who_will_win"
+                  }
+                },
+                {
+                  "header": "Both Teams To Score",
+                  "headerTranslationKey": "both_score",
+                  "selections": [
+                    {
+                      "name": "Yes",
+                      "oddsDecimal": "1.55",
+                      "oddsAmerican": "-182",
+                      "oddsFraction": "11/20",
+                      "couponKey": null,
+                      "team": null,
+                      "value": null,
+                      "link": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c="
+                    },
+                    {
+                      "name": "No",
+                      "oddsDecimal": "2.30",
+                      "oddsAmerican": "+130",
+                      "oddsFraction": "13/10",
+                      "couponKey": null,
+                      "team": null,
+                      "value": null,
+                      "link": "https://wlsuperbet.adsrv.eacdn.com/C.ashx?btag=a_34075b_43c_&affid=780&siteid=34075&adid=43&c="
+                    }
+                  ],
+                  "fotMobMarketTypeId": {
+                    "translationKey": "both_score"
+                  }
+                }
+              ]
+            }
+          ],
+          "matchCouponKey": null,
+          "oddsType": "PreMatch",
+          "provider": {
+            "id": 99999
+          },
+          "resolvedOddsMarket": null
+        },
+        "restrictions": {
+          "disableLiveOdds": false,
+          "excludedLeagueIds": [
+            "11548",
+            "11648"
+          ],
+          "excludedMatchIds": [
+            "5159283",
+            "5159284",
+            "5159285",
+            "5214835",
+            "5333731"
+          ]
+        }
+      },
       "liveTime": {
         "short": "1‎’‎",
         "shortKey": "",
@@ -15775,6 +15929,32 @@
             "transferValue": 268021
           },
           {
+            "id": 949336,
+            "name": "Musa Juwara",
+            "shirtNumber": 7,
+            "ccode": "GAM",
+            "cname": "The Gambia",
+            "role": {
+              "key": "midfielder_long",
+              "fallback": "Midfielder"
+            },
+            "positionId": 2,
+            "injury": null,
+            "rating": 6.79,
+            "goals": 1,
+            "penalties": 0,
+            "assists": 0,
+            "rcards": 0,
+            "ycards": 0,
+            "excludeFromRanking": true,
+            "positionIds": "82,72",
+            "positionIdsDesc": "RW,RM",
+            "height": 170,
+            "age": 24,
+            "dateOfBirth": "2001-12-26",
+            "transferValue": 496355
+          },
+          {
             "id": 585352,
             "name": "José Pozo",
             "shirtNumber": 14,
@@ -15913,32 +16093,6 @@
       {
         "title": "attackers",
         "members": [
-          {
-            "id": 949336,
-            "name": "Musa Juwara",
-            "shirtNumber": 7,
-            "ccode": "GAM",
-            "cname": "The Gambia",
-            "role": {
-              "key": "attacker_long",
-              "fallback": "Attacker"
-            },
-            "positionId": 3,
-            "injury": null,
-            "rating": 6.79,
-            "goals": 1,
-            "penalties": 0,
-            "assists": 0,
-            "rcards": 0,
-            "ycards": 0,
-            "excludeFromRanking": true,
-            "positionIds": "82,72",
-            "positionIdsDesc": "RW,RM",
-            "height": 170,
-            "age": 24,
-            "dateOfBirth": "2001-12-26",
-            "transferValue": 496355
-          },
           {
             "id": 1050169,
             "name": "Rajmund Molnár",
@@ -25847,6 +26001,32 @@
             "transferValue": 268021
           },
           {
+            "id": 949336,
+            "name": "Musa Juwara",
+            "shirtNumber": 7,
+            "ccode": "GAM",
+            "cname": "The Gambia",
+            "role": {
+              "key": "midfielder_long",
+              "fallback": "Midfielder"
+            },
+            "positionId": 2,
+            "injury": null,
+            "rating": 6.79,
+            "goals": 1,
+            "penalties": 0,
+            "assists": 0,
+            "rcards": 0,
+            "ycards": 0,
+            "excludeFromRanking": true,
+            "positionIds": "82,72",
+            "positionIdsDesc": "RW,RM",
+            "height": 170,
+            "age": 24,
+            "dateOfBirth": "2001-12-26",
+            "transferValue": 496355
+          },
+          {
             "id": 585352,
             "name": "José Pozo",
             "shirtNumber": 14,
@@ -25985,32 +26165,6 @@
       {
         "title": "attackers",
         "members": [
-          {
-            "id": 949336,
-            "name": "Musa Juwara",
-            "shirtNumber": 7,
-            "ccode": "GAM",
-            "cname": "The Gambia",
-            "role": {
-              "key": "attacker_long",
-              "fallback": "Attacker"
-            },
-            "positionId": 3,
-            "injury": null,
-            "rating": 6.79,
-            "goals": 1,
-            "penalties": 0,
-            "assists": 0,
-            "rcards": 0,
-            "ycards": 0,
-            "excludeFromRanking": true,
-            "positionIds": "82,72",
-            "positionIdsDesc": "RW,RM",
-            "height": 170,
-            "age": 24,
-            "dateOfBirth": "2001-12-26",
-            "transferValue": 496355
-          },
           {
             "id": 1050169,
             "name": "Rajmund Molnár",
