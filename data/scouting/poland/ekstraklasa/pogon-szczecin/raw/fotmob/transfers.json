@@ -1,6 +1,40 @@
 {
   "transfers": [
     {
+      "name": "Chris Smalling",
+      "playerId": 165823,
+      "position": {
+        "label": "CB",
+        "key": "centerback_short"
+      },
+      "transferDate": "2026-10-01T10:38:47Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Free agent",
+      "fromClubFullName": "Free agent",
+      "fromClubId": 2,
+      "toClub": "FC Porto",
+      "toClubFullName": "FC Porto",
+      "toClubId": 9773,
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-10-30T00:00:00Z",
+      "toDate": "2027-06-30T00:00:00Z",
+      "marketValue": 871720
+    },
+    {
       "name": "Ryotaro Ito",
       "playerId": 727838,
       "position": {
@@ -32,7 +66,7 @@
       "onLoan": false,
       "fromDate": "2026-09-30T00:00:00Z",
       "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 2150214
+      "marketValue": 2150415
     },
     {
       "name": "Andreas Maxsø",
@@ -66,7 +100,7 @@
       "onLoan": false,
       "fromDate": "2026-09-29T00:00:00Z",
       "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 557126
+      "marketValue": 551863
     },
     {
       "name": "Mohamed Elneny",
@@ -100,7 +134,7 @@
       "onLoan": false,
       "fromDate": "2026-09-29T00:00:00Z",
       "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 551863
+      "marketValue": 567805
     },
     {
       "name": "Norbert Gyömbér",
@@ -338,7 +372,7 @@
       "onLoan": false,
       "fromDate": "2026-09-28T00:00:00Z",
       "toDate": null,
-      "marketValue": 5824048
+      "marketValue": 4950440
     },
     {
       "name": "Yahya Al Ghassani",
@@ -372,7 +406,7 @@
       "onLoan": true,
       "fromDate": "2026-09-28T00:00:00Z",
       "toDate": "2027-06-30T00:00:00Z",
-      "marketValue": 753494
+      "marketValue": 748109
     },
     {
       "name": "Papu Gómez",
@@ -403,7 +437,7 @@
       "onLoan": false,
       "fromDate": "2026-09-28T00:00:00Z",
       "toDate": null,
-      "marketValue": 362751
+      "marketValue": 290200
     },
     {
       "name": "Neto",
@@ -1149,7 +1183,7 @@
       "onLoan": false,
       "fromDate": "2026-09-22T00:00:00Z",
       "toDate": "2028-06-30T00:00:00Z",
-      "marketValue": 443278
+      "marketValue": 454321
     },
     {
       "name": "Víctor Corral",
@@ -1659,42 +1693,8 @@
       "fromDate": "2026-09-18T22:00:00Z",
       "toDate": "2027-06-29T22:00:00Z",
       "marketValue": 941248
-    },
-    {
-      "name": "Issoufou Dayo",
-      "playerId": 505873,
-      "position": {
-        "label": "CB",
-        "key": "centerback_short"
-      },
-      "transferDate": "2026-09-19T11:38:16Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Umm Salal",
-      "fromClubFullName": "Umm Salal",
-      "fromClubId": 101903,
-      "toClub": "Wydad Casablanca",
-      "toClubFullName": "Wydad Casablanca",
-      "toClubId": 102050,
-      "fee": {
-        "feeText": "free transfer",
-        "localizedFeeText": "transfer_type_free_transfer"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-14T22:00:00Z",
-      "toDate": "2027-06-29T22:00:00Z",
-      "marketValue": 50931
     }
   ],
-  "hits": 7536,
+  "hits": 7534,
   "maxFee": 145000000
 }

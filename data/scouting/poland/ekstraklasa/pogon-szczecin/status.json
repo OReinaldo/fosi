@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "understat",
-      "retrieved_at": "2026-09-30T09:55:29.123798+00:00",
+      "retrieved_at": "2026-10-01T10:22:31.159767+00:00",
       "layers": {},
       "records": {},
       "errors": [],
@@ -12,7 +12,7 @@
     {
       "source": "espn",
       "status": "success",
-      "retrieved_at": "2026-09-30T09:55:19.967935+00:00",
+      "retrieved_at": "2026-10-01T10:22:27.325083+00:00",
       "layers": {
         "matches": "available",
         "team": "available",
@@ -92,7 +92,7 @@
     {
       "source": "fotmob",
       "status": "partial",
-      "retrieved_at": "2026-09-30T09:53:34.115933+00:00",
+      "retrieved_at": "2026-10-01T10:20:48.210560+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -113,8 +113,8 @@
         "player_match_source": "playerData.recentMatches",
         "transfers": 1,
         "date_scanned_matches": 3,
-        "date_scan_from": "2026-09-23",
-        "date_scan_to": "2026-10-30",
+        "date_scan_from": "2026-09-24",
+        "date_scan_to": "2026-10-31",
         "matches": 35,
         "match_details": 0,
         "match_details_skipped_existing": 35,
@@ -149,7 +149,7 @@
     {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-09-30T09:55:29.162700+00:00",
+      "retrieved_at": "2026-10-01T10:22:31.218574+00:00",
       "layers": {
         "club": "available",
         "standings": "available",
@@ -230,7 +230,7 @@
           "links": 39
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/kolejka-5/": {
-          "bytes": 343122,
+          "bytes": 343165,
           "layer": "fixtures",
           "embedded_json_records": 0,
           "html_tables": 0,
@@ -246,7 +246,7 @@
           "links": 37
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/round-7/": {
-          "bytes": 352491,
+          "bytes": 352448,
           "layer": "fixtures",
           "embedded_json_records": 0,
           "html_tables": 0,
@@ -275,20 +275,20 @@
       "player_match_files_written": 21,
       "player_match_rows": 432,
       "errors": [],
-      "updated_at": "2026-09-29T10:03:15.587495+00:00"
+      "updated_at": "2026-09-30T09:55:41.610600+00:00"
     },
     {
       "source": "sofascore-spa",
       "status": "partial",
-      "retrieved_at": "2026-09-29T10:03:16.992500+00:00",
+      "retrieved_at": "2026-09-30T09:55:42.295639+00:00",
       "records": {
-        "lineups": 0,
-        "event": 0,
-        "incidents": 0,
-        "graph": 0,
         "shotmap": 0,
+        "statistics": 0,
         "media": 0,
-        "statistics": 0
+        "event": 0,
+        "lineups": 0,
+        "graph": 0,
+        "incidents": 0
       },
       "errors": [],
       "proxy_configured": false,
@@ -318,8 +318,9 @@
           },
           {
             "url": "https://www.sofascore.app/api/v1/team/3117/events/last/0",
-            "status_code": 403,
-            "bytes": 48
+            "status_code": 200,
+            "bytes": 0,
+            "json_error": "Expecting value: line 1 column 1 (char 0)"
           }
         ],
         "usable_api_base": null,
@@ -344,14 +345,12 @@
         "pages_visited": 0,
         "captured_layers": 0,
         "unique_matches": 0
-      },
-      "waf_blocked": true,
-      "blocked_by_egress": true
+      }
     },
     {
       "source": "sofascore",
       "status": "partial",
-      "retrieved_at": "2026-09-30T09:53:53.008330+00:00",
+      "retrieved_at": "2026-10-01T10:21:00.047089+00:00",
       "layers": {
         "matches": "partial",
         "stats": "partial",
@@ -462,7 +461,7 @@
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-09-30T09:55:41.539978+00:00",
+  "updated_at": "2026-10-01T10:22:40.668338+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
