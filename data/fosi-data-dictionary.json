@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-01T10:23:38.618120+00:00",
+  "generated_at": "2026-10-02T10:00:49.730165+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -176416,7 +176416,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-24"
+      "example": "2026-09-25"
     },
     {
       "path": "$.gameInfo",
@@ -177090,7 +177090,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-10-01T10:22:42.131546+00:00"
+      "example": "2026-10-02T09:59:54.048408+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -191000,7 +191000,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7534"
+      "example": "7533"
     },
     {
       "path": "$.html_files_scanned",
@@ -200438,7 +200438,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "+120"
+      "example": "+125"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
@@ -200450,7 +200450,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2.20"
+      "example": "2.25"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
@@ -200462,7 +200462,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6/5"
+      "example": "5/4"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
@@ -200666,7 +200666,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "+120"
+      "example": "+125"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
@@ -200678,7 +200678,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2.20"
+      "example": "2.25"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
@@ -200690,7 +200690,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6/5"
+      "example": "5/4"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
@@ -215165,7 +215165,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-01T10:23:00.873899+00:00"
+      "example": "2026-10-02T10:00:12.674860+00:00"
     },
     {
       "path": "$.rosters",
@@ -228190,7 +228190,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-31"
+      "example": "2026-11-01"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -230378,7 +230378,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "Toulouse"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -230390,7 +230390,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "Toulouse"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -230402,7 +230402,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2"
+      "example": "9941"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -230414,7 +230414,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-30T00:00:00Z"
+      "example": "2027-01-01T00:00:00Z"
     },
     {
       "path": "$.transfers[].marketValue",
@@ -230426,7 +230426,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "871720"
+      "example": "4743222"
     },
     {
       "path": "$.transfers[].name",
@@ -230438,7 +230438,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Chris Smalling"
+      "example": "Mark McKenzie"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -230462,7 +230462,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "165823"
+      "example": "924485"
     },
     {
       "path": "$.transfers[].position",
@@ -230510,7 +230510,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "FC Porto"
+      "example": "Philadelphia"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -230522,7 +230522,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "FC Porto"
+      "example": "Philadelphia Union"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -230534,19 +230534,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "9773"
+      "example": "191716"
     },
     {
       "path": "$.transfers[].toDate",
       "types": {
-        "string": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2027-06-30T00:00:00Z"
+      "example": "None"
     },
     {
       "path": "$.transfers[].transferDate",
@@ -230558,7 +230558,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-01T10:38:47Z"
+      "example": "2026-10-01T18:44:12Z"
     },
     {
       "path": "$.transfers[].transferText",
@@ -230835,7 +230835,7 @@
         "fotmob"
       ],
       "file_count": 21,
-      "example": "2026-10-01T10:22:40.730642+00:00"
+      "example": "2026-10-02T09:59:52.671939+00:00"
     },
     {
       "path": "$.videos",
