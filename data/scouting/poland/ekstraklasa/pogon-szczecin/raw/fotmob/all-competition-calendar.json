@@ -1,7 +1,7 @@
 {
   "team_id": "8023",
-  "from": "2026-09-25",
-  "to": "2026-11-01",
+  "from": "2026-09-26",
+  "to": "2026-11-02",
   "matches": [
     {
       "id": 5904696,
@@ -467,35 +467,34 @@
     },
     {
       "id": 5804027,
-      "pageUrl": "/matches/rakow-czestochowa-vs-pogon-szczecin/177mfj#5804027",
-      "opponent": {
-        "id": 4024,
-        "name": "Raków Częstochowa",
-        "score": 0
-      },
+      "leagueId": 937879,
+      "time": "02.11.2026 20:30",
       "home": {
         "id": 4024,
+        "score": 0,
         "name": "Raków Częstochowa",
-        "score": 0
+        "longName": "Raków Częstochowa"
       },
       "away": {
         "id": 8023,
+        "score": 0,
         "name": "Pogoń Szczecin",
-        "score": 0
+        "longName": "Pogoń Szczecin"
       },
-      "displayTournament": false,
-      "notStarted": true,
-      "tournament": {
-        "name": "Ekstraklasa",
-        "stage": "",
-        "leagueId": 196
-      },
+      "eliminatedTeamId": null,
+      "statusId": 1,
+      "tournamentStage": "13",
       "status": {
         "utcTime": "2026-11-02T19:30:00.000Z",
+        "halfs": {
+          "firstHalfStarted": "02.11.2026 20:30:00"
+        },
+        "periodLength": 45,
         "started": false,
         "cancelled": false,
         "finished": false
-      }
+      },
+      "timeTS": 1793647800000
     },
     {
       "id": 5804038,
