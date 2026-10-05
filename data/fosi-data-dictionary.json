@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-04T10:02:28.733617+00:00",
+  "generated_at": "2026-10-05T10:45:50.202827+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -171593,6 +171593,18 @@
       "example": "Ekstraklasa"
     },
     {
+      "path": "$.details.nationalTeamId",
+      "types": {
+        "integer": 2
+      },
+      "occurrences": 2,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 2,
+      "example": "8568"
+    },
+    {
       "path": "$.details.primaryLeagueId",
       "types": {
         "integer": 1
@@ -171939,6 +171951,18 @@
       ],
       "file_count": 1,
       "example": "https://www.fotmob.com/teams/8023/overview/pogon-szczecin"
+    },
+    {
+      "path": "$.details.teamColor",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#102457"
     },
     {
       "path": "$.details.type",
@@ -176416,7 +176440,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-27"
+      "example": "2026-09-28"
     },
     {
       "path": "$.gameInfo",
@@ -177090,7 +177114,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-10-04T10:01:25.684555+00:00"
+      "example": "2026-10-05T10:44:56.651930+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -191000,7 +191024,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7542"
+      "example": "7552"
     },
     {
       "path": "$.html_files_scanned",
@@ -200438,7 +200462,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "+120"
+      "example": "+125"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
@@ -200450,7 +200474,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2.20"
+      "example": "2.25"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
@@ -200462,7 +200486,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6/5"
+      "example": "5/4"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
@@ -200666,7 +200690,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "+120"
+      "example": "+125"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
@@ -200678,7 +200702,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2.20"
+      "example": "2.25"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
@@ -200690,7 +200714,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6/5"
+      "example": "5/4"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
@@ -202071,6 +202095,18 @@
       ],
       "file_count": 1,
       "example": "Óscar García"
+    },
+    {
+      "path": "$.overview.squad[].members[].nationalTeamId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "6720"
     },
     {
       "path": "$.overview.squad[].members[].role",
@@ -211289,6 +211325,42 @@
       "example": "Sampdoria"
     },
     {
+      "path": "$.overview.transfers.allTransfers[].fromClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.transfers.allTransfers[].fromClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#005eae"
+    },
+    {
+      "path": "$.overview.transfers.allTransfers[].fromClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#1D4892"
+    },
+    {
       "path": "$.overview.transfers.allTransfers[].fromClubFullName",
       "types": {
         "string": 1
@@ -211419,6 +211491,42 @@
       ],
       "file_count": 1,
       "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.overview.transfers.allTransfers[].toClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.transfers.allTransfers[].toClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#1753a4"
+    },
+    {
+      "path": "$.overview.transfers.allTransfers[].toClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#102457"
     },
     {
       "path": "$.overview.transfers.allTransfers[].toClubFullName",
@@ -211637,6 +211745,42 @@
       "example": "Pogoń Szczecin"
     },
     {
+      "path": "$.overview.transfers.data.Contract extension[].fromClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.transfers.data.Contract extension[].fromClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#1753a4"
+    },
+    {
+      "path": "$.overview.transfers.data.Contract extension[].fromClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#102457"
+    },
+    {
       "path": "$.overview.transfers.data.Contract extension[].fromClubFullName",
       "types": {
         "string": 1
@@ -211767,6 +211911,42 @@
       ],
       "file_count": 1,
       "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.overview.transfers.data.Contract extension[].toClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.transfers.data.Contract extension[].toClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#1753a4"
+    },
+    {
+      "path": "$.overview.transfers.data.Contract extension[].toClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#102457"
     },
     {
       "path": "$.overview.transfers.data.Contract extension[].toClubFullName",
@@ -211973,6 +212153,42 @@
       "example": "Sampdoria"
     },
     {
+      "path": "$.overview.transfers.data.Players in[].fromClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.transfers.data.Players in[].fromClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#005eae"
+    },
+    {
+      "path": "$.overview.transfers.data.Players in[].fromClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#1D4892"
+    },
+    {
       "path": "$.overview.transfers.data.Players in[].fromClubFullName",
       "types": {
         "string": 1
@@ -212103,6 +212319,42 @@
       ],
       "file_count": 1,
       "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.overview.transfers.data.Players in[].toClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.transfers.data.Players in[].toClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#1753a4"
+    },
+    {
+      "path": "$.overview.transfers.data.Players in[].toClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#102457"
     },
     {
       "path": "$.overview.transfers.data.Players in[].toClubFullName",
@@ -212285,6 +212537,42 @@
       "example": "Pogoń Szczecin"
     },
     {
+      "path": "$.overview.transfers.data.Players out[].fromClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.transfers.data.Players out[].fromClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#1753a4"
+    },
+    {
+      "path": "$.overview.transfers.data.Players out[].fromClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#102457"
+    },
+    {
       "path": "$.overview.transfers.data.Players out[].fromClubFullName",
       "types": {
         "string": 1
@@ -212391,6 +212679,42 @@
       ],
       "file_count": 1,
       "example": "Sigma Olomouc"
+    },
+    {
+      "path": "$.overview.transfers.data.Players out[].toClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.overview.transfers.data.Players out[].toClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#0057a0"
+    },
+    {
+      "path": "$.overview.transfers.data.Players out[].toClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#004580"
     },
     {
       "path": "$.overview.transfers.data.Players out[].toClubFullName",
@@ -215165,7 +215489,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-04T10:01:44.410342+00:00"
+      "example": "2026-10-05T10:45:15.294692+00:00"
     },
     {
       "path": "$.rosters",
@@ -217855,6 +218179,18 @@
       ],
       "file_count": 1,
       "example": "Óscar García"
+    },
+    {
+      "path": "$.squad.squad[].members[].nationalTeamId",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "6720"
     },
     {
       "path": "$.squad.squad[].members[].role",
@@ -228145,6 +228481,18 @@
       "example": "s:600~t:511"
     },
     {
+      "path": "$.teamColors",
+      "types": {
+        "object": 112
+      },
+      "occurrences": 112,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 112,
+      "example": null
+    },
+    {
       "path": "$.teamName",
       "types": {
         "string": 120
@@ -228190,7 +228538,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-11-03"
+      "example": "2026-11-04"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -228724,6 +229072,42 @@
       "example": "Sampdoria"
     },
     {
+      "path": "$.transfers.allTransfers[].fromClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.transfers.allTransfers[].fromClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#005eae"
+    },
+    {
+      "path": "$.transfers.allTransfers[].fromClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#1D4892"
+    },
+    {
       "path": "$.transfers.allTransfers[].fromClubFullName",
       "types": {
         "string": 1
@@ -228854,6 +229238,42 @@
       ],
       "file_count": 1,
       "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.transfers.allTransfers[].toClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.transfers.allTransfers[].toClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#1753a4"
+    },
+    {
+      "path": "$.transfers.allTransfers[].toClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#102457"
     },
     {
       "path": "$.transfers.allTransfers[].toClubFullName",
@@ -229073,6 +229493,42 @@
       "example": "Pogoń Szczecin"
     },
     {
+      "path": "$.transfers.data.Contract extension[].fromClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.transfers.data.Contract extension[].fromClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#1753a4"
+    },
+    {
+      "path": "$.transfers.data.Contract extension[].fromClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#102457"
+    },
+    {
       "path": "$.transfers.data.Contract extension[].fromClubFullName",
       "types": {
         "string": 1
@@ -229203,6 +229659,42 @@
       ],
       "file_count": 1,
       "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.transfers.data.Contract extension[].toClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.transfers.data.Contract extension[].toClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#1753a4"
+    },
+    {
+      "path": "$.transfers.data.Contract extension[].toClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#102457"
     },
     {
       "path": "$.transfers.data.Contract extension[].toClubFullName",
@@ -229409,6 +229901,42 @@
       "example": "Sampdoria"
     },
     {
+      "path": "$.transfers.data.Players in[].fromClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.transfers.data.Players in[].fromClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#005eae"
+    },
+    {
+      "path": "$.transfers.data.Players in[].fromClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#1D4892"
+    },
+    {
       "path": "$.transfers.data.Players in[].fromClubFullName",
       "types": {
         "string": 1
@@ -229539,6 +230067,42 @@
       ],
       "file_count": 1,
       "example": "Pogoń Szczecin"
+    },
+    {
+      "path": "$.transfers.data.Players in[].toClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.transfers.data.Players in[].toClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#1753a4"
+    },
+    {
+      "path": "$.transfers.data.Players in[].toClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#102457"
     },
     {
       "path": "$.transfers.data.Players in[].toClubFullName",
@@ -229721,6 +230285,42 @@
       "example": "Pogoń Szczecin"
     },
     {
+      "path": "$.transfers.data.Players out[].fromClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.transfers.data.Players out[].fromClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#1753a4"
+    },
+    {
+      "path": "$.transfers.data.Players out[].fromClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#102457"
+    },
+    {
       "path": "$.transfers.data.Players out[].fromClubFullName",
       "types": {
         "string": 1
@@ -229827,6 +230427,42 @@
       ],
       "file_count": 1,
       "example": "Sigma Olomouc"
+    },
+    {
+      "path": "$.transfers.data.Players out[].toClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.transfers.data.Players out[].toClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#0057a0"
+    },
+    {
+      "path": "$.transfers.data.Players out[].toClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#004580"
     },
     {
       "path": "$.transfers.data.Players out[].toClubFullName",
@@ -230021,6 +230657,42 @@
       "example": "ŁKS Łódź"
     },
     {
+      "path": "$.transfers.data[].fromClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.transfers.data[].fromClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#E40020"
+    },
+    {
+      "path": "$.transfers.data[].fromClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#a8000e"
+    },
+    {
       "path": "$.transfers.data[].fromClubFullName",
       "types": {
         "string": 1
@@ -230151,6 +230823,42 @@
       ],
       "file_count": 1,
       "example": "Cracovia"
+    },
+    {
+      "path": "$.transfers.data[].toClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.transfers.data[].toClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#E21A22"
+    },
+    {
+      "path": "$.transfers.data[].toClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#c7000f"
     },
     {
       "path": "$.transfers.data[].toClubFullName",
@@ -230354,7 +231062,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "fee"
+      "example": "free transfer"
     },
     {
       "path": "$.transfers[].fee.localizedFeeText",
@@ -230366,19 +231074,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "transfer_fee"
-    },
-    {
-      "path": "$.transfers[].fee.value",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "1100000"
+      "example": "transfer_type_free_transfer"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -230390,7 +231086,43 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Nacional"
+      "example": "Free agent"
+    },
+    {
+      "path": "$.transfers[].fromClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.transfers[].fromClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#6D7782"
+    },
+    {
+      "path": "$.transfers[].fromClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#f9f9f9"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -230402,7 +231134,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Nacional"
+      "example": "Free agent"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -230414,7 +231146,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8304"
+      "example": "2"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -230426,7 +231158,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-09-29T00:00:00Z"
+      "example": "2026-10-05T00:00:00Z"
     },
     {
       "path": "$.transfers[].marketValue",
@@ -230438,7 +231170,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1154898"
+      "example": "282132"
     },
     {
       "path": "$.transfers[].name",
@@ -230450,7 +231182,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Juan Cruz De Los Santos"
+      "example": "José Luis Morales"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -230474,7 +231206,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1354489"
+      "example": "477472"
     },
     {
       "path": "$.transfers[].position",
@@ -230498,7 +231230,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "leftwinger_short"
+      "example": "striker_short"
     },
     {
       "path": "$.transfers[].position.label",
@@ -230510,7 +231242,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "LW"
+      "example": "ST"
     },
     {
       "path": "$.transfers[].toClub",
@@ -230522,7 +231254,43 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Al-Jazira"
+      "example": "Real Oviedo"
+    },
+    {
+      "path": "$.transfers[].toClubColors",
+      "types": {
+        "object": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": null
+    },
+    {
+      "path": "$.transfers[].toClubColors.darkMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#005ebb"
+    },
+    {
+      "path": "$.transfers[].toClubColors.lightMode",
+      "types": {
+        "string": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "#0032A0"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -230534,7 +231302,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Al-Jazira"
+      "example": "Real Oviedo"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -230546,19 +231314,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "102101"
+      "example": "8670"
     },
     {
       "path": "$.transfers[].toDate",
       "types": {
-        "null": 1
+        "string": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": "2027-06-30T00:00:00Z"
     },
     {
       "path": "$.transfers[].transferDate",
@@ -230570,7 +231338,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-04T09:26:35Z"
+      "example": "2026-10-05T08:45:42Z"
     },
     {
       "path": "$.transfers[].transferText",
@@ -230847,7 +231615,7 @@
         "fotmob"
       ],
       "file_count": 21,
-      "example": "2026-10-04T10:01:24.562825+00:00"
+      "example": "2026-10-05T10:44:55.261920+00:00"
     },
     {
       "path": "$.videos",
