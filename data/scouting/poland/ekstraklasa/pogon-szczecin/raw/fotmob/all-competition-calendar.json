@@ -1,7 +1,7 @@
 {
   "team_id": "8023",
-  "from": "2026-09-30",
-  "to": "2026-11-06",
+  "from": "2026-10-01",
+  "to": "2026-11-07",
   "matches": [
     {
       "id": 5904696,
@@ -498,37 +498,34 @@
     },
     {
       "id": 5804038,
-      "pageUrl": "/matches/pogon-szczecin-vs-widzew-odz/24nyww#5804038",
-      "opponent": {
-        "id": 8024,
-        "name": "Widzew Łódź",
-        "score": 0
-      },
+      "leagueId": 937879,
+      "time": "07.11.2026 18:00",
       "home": {
         "id": 8024,
+        "score": 0,
         "name": "Widzew Łódź",
-        "score": 0
+        "longName": "Widzew Łódź"
       },
       "away": {
         "id": 8023,
+        "score": 0,
         "name": "Pogoń Szczecin",
-        "score": 0
+        "longName": "Pogoń Szczecin"
       },
-      "displayTournament": false,
-      "notStarted": true,
-      "tournament": {
-        "name": "Ekstraklasa",
-        "stage": "",
-        "leagueId": 196
-      },
+      "eliminatedTeamId": null,
+      "statusId": 1,
+      "tournamentStage": "14",
       "status": {
         "utcTime": "2026-11-07T17:00:00.000Z",
-        "matchDateTbd": true,
-        "matchTimeTbd": false,
+        "halfs": {
+          "firstHalfStarted": "07.11.2026 18:00:00"
+        },
+        "periodLength": 45,
         "started": false,
         "cancelled": false,
         "finished": false
-      }
+      },
+      "timeTS": 1794070800000
     },
     {
       "id": 5804043,
