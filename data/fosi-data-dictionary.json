@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-08T10:51:34.522252+00:00",
+  "generated_at": "2026-10-09T10:50:26.013518+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -176320,7 +176320,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.fixtures.previousFixturesUrl",
@@ -176440,7 +176440,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-01"
+      "example": "2026-10-02"
     },
     {
       "path": "$.gameInfo",
@@ -177114,7 +177114,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-10-08T10:50:32.318631+00:00"
+      "example": "2026-10-09T10:49:23.565029+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -191024,7 +191024,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7542"
+      "example": "7544"
     },
     {
       "path": "$.html_files_scanned",
@@ -197822,7 +197822,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.overview.hasTotw",
@@ -200066,7 +200066,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.overview.newsSummary",
@@ -200498,7 +200498,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "+120"
+      "example": "+115"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
@@ -200510,7 +200510,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2.20"
+      "example": "2.15"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
@@ -200522,7 +200522,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6/5"
+      "example": "23/20"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
@@ -200726,7 +200726,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "+120"
+      "example": "+115"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
@@ -200738,7 +200738,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2.20"
+      "example": "2.15"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
@@ -200750,7 +200750,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6/5"
+      "example": "23/20"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
@@ -215525,7 +215525,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-08T10:50:50.900425+00:00"
+      "example": "2026-10-09T10:49:42.091850+00:00"
     },
     {
       "path": "$.rosters",
@@ -227998,7 +227998,7 @@
         "espn"
       ],
       "file_count": 1,
-      "example": "Club Friendly"
+      "example": "UEFA Conference League Qualifying"
     },
     {
       "path": "$.team.defaultLeague.alternateId",
@@ -228010,7 +228010,7 @@
         "espn"
       ],
       "file_count": 1,
-      "example": "68"
+      "example": "2468"
     },
     {
       "path": "$.team.defaultLeague.id",
@@ -228022,7 +228022,7 @@
         "espn"
       ],
       "file_count": 1,
-      "example": "19834"
+      "example": "20221"
     },
     {
       "path": "$.team.defaultLeague.links",
@@ -228058,7 +228058,7 @@
         "espn"
       ],
       "file_count": 1,
-      "example": "https://www.espn.com/soccer/league/_/name/club.friendly"
+      "example": "https://www.espn.com/soccer/league/_/name/uefa.europa.conf_qual"
     },
     {
       "path": "$.team.defaultLeague.links[].isExternal",
@@ -228166,7 +228166,7 @@
         "espn"
       ],
       "file_count": 1,
-      "example": "CLUB.FRIENDLY"
+      "example": "UEFA.EUROPA.CONF_QUAL"
     },
     {
       "path": "$.team.defaultLeague.name",
@@ -228178,7 +228178,7 @@
         "espn"
       ],
       "file_count": 1,
-      "example": "Club Friendly"
+      "example": "UEFA Conference League Qualifying"
     },
     {
       "path": "$.team.defaultLeague.season",
@@ -228226,7 +228226,7 @@
         "espn"
       ],
       "file_count": 1,
-      "example": "Club Friendly"
+      "example": "UECL Qualifying"
     },
     {
       "path": "$.team.defaultLeague.slug",
@@ -228238,7 +228238,7 @@
         "espn"
       ],
       "file_count": 1,
-      "example": "club.friendly"
+      "example": "uefa.europa.conf_qual"
     },
     {
       "path": "$.team.displayName",
@@ -228298,7 +228298,7 @@
         "espn"
       ],
       "file_count": 1,
-      "example": "club.friendly"
+      "example": "uefa.europa.conf_qual"
     },
     {
       "path": "$.team.links",
@@ -228574,7 +228574,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-11-07"
+      "example": "2026-11-08"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -231194,7 +231194,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-06T00:00:00Z"
+      "example": "2026-10-08T00:00:00Z"
     },
     {
       "path": "$.transfers[].marketValue",
@@ -231206,7 +231206,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "321617"
+      "example": "1665682"
     },
     {
       "path": "$.transfers[].name",
@@ -231218,7 +231218,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Alexis Blin"
+      "example": "Mitchel Bakker"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -231242,7 +231242,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "605848"
+      "example": "891870"
     },
     {
       "path": "$.transfers[].position",
@@ -231266,7 +231266,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "centerdefensivemidfielder_short"
+      "example": "centerback_short"
     },
     {
       "path": "$.transfers[].position.label",
@@ -231278,7 +231278,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "DM"
+      "example": "CB"
     },
     {
       "path": "$.transfers[].toClub",
@@ -231290,7 +231290,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Lausanne"
+      "example": "NEC Nijmegen"
     },
     {
       "path": "$.transfers[].toClubColors",
@@ -231314,7 +231314,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "#ffffff"
+      "example": "#ED1C24"
     },
     {
       "path": "$.transfers[].toClubColors.lightMode",
@@ -231326,7 +231326,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "#445490"
+      "example": "#ED1C24"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -231338,7 +231338,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Lausanne"
+      "example": "NEC Nijmegen"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -231350,7 +231350,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7730"
+      "example": "8464"
     },
     {
       "path": "$.transfers[].toDate",
@@ -231374,7 +231374,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-08T08:40:29Z"
+      "example": "2026-10-09T07:20:25Z"
     },
     {
       "path": "$.transfers[].transferText",
@@ -231651,7 +231651,7 @@
         "fotmob"
       ],
       "file_count": 21,
-      "example": "2026-10-08T10:50:31.295630+00:00"
+      "example": "2026-10-09T10:49:22.056860+00:00"
     },
     {
       "path": "$.videos",

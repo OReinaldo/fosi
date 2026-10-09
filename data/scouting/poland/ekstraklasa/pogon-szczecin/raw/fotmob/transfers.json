@@ -1,6 +1,90 @@
 {
   "transfers": [
     {
+      "name": "Mitchel Bakker",
+      "playerId": 891870,
+      "position": {
+        "label": "CB",
+        "key": "centerback_short"
+      },
+      "transferDate": "2026-10-09T07:20:25Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Free agent",
+      "fromClubFullName": "Free agent",
+      "fromClubId": 2,
+      "fromClubColors": {
+        "lightMode": "#f9f9f9",
+        "darkMode": "#6D7782"
+      },
+      "toClub": "NEC Nijmegen",
+      "toClubFullName": "NEC Nijmegen",
+      "toClubId": 8464,
+      "toClubColors": {
+        "lightMode": "#ED1C24",
+        "darkMode": "#ED1C24"
+      },
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-10-08T00:00:00Z",
+      "toDate": "2027-06-30T00:00:00Z",
+      "marketValue": 1665682
+    },
+    {
+      "name": "Matteo Darmian",
+      "playerId": 46820,
+      "position": {
+        "label": "RM",
+        "key": "rightmidfielder_short"
+      },
+      "transferDate": "2026-10-08T21:27:03Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Free agent",
+      "fromClubFullName": "Free agent",
+      "fromClubId": 2,
+      "fromClubColors": {
+        "lightMode": "#f9f9f9",
+        "darkMode": "#6D7782"
+      },
+      "toClub": "Bologna",
+      "toClubFullName": "Bologna",
+      "toClubId": 9857,
+      "toClubColors": {
+        "lightMode": "#102880",
+        "darkMode": "#004eca"
+      },
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-10-08T00:00:00Z",
+      "toDate": "2027-06-30T00:00:00Z",
+      "marketValue": 782731
+    },
+    {
       "name": "Alexis Blin",
       "playerId": 605848,
       "position": {
@@ -2007,94 +2091,9 @@
       "fromDate": "2026-09-21T22:00:00Z",
       "toDate": "2028-06-29T22:00:00Z",
       "marketValue": 601096
-    },
-    {
-      "name": "Dani García",
-      "playerId": 433311,
-      "position": {
-        "label": "DM",
-        "key": "centerdefensivemidfielder_short"
-      },
-      "transferDate": "2026-09-22T09:52:49Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Olympiacos",
-      "fromClubFullName": "Olympiacos",
-      "fromClubId": 8638,
-      "fromClubColors": {
-        "lightMode": "#DC0D15",
-        "darkMode": "#DC0D15"
-      },
-      "toClub": "Atromitos",
-      "toClubFullName": "Atromitos",
-      "toClubId": 10187,
-      "toClubColors": {
-        "lightMode": "#004078",
-        "darkMode": "#2d5793"
-      },
-      "fee": {
-        "feeText": "free transfer",
-        "localizedFeeText": "transfer_type_free_transfer"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-19T22:00:00Z",
-      "toDate": "2027-06-29T22:00:00Z",
-      "marketValue": 442520
-    },
-    {
-      "name": "Akol Akon",
-      "playerId": 1823247,
-      "position": {
-        "label": "RW",
-        "key": "rightwinger_short"
-      },
-      "transferDate": "2026-09-22T05:33:37Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Sydney FC",
-      "fromClubFullName": "Sydney FC",
-      "fromClubId": 10164,
-      "fromClubColors": {
-        "lightMode": "#184878",
-        "darkMode": "#62a8da"
-      },
-      "toClub": "Colorado",
-      "toClubFullName": "Colorado Rapids",
-      "toClubId": 8314,
-      "toClubColors": {
-        "lightMode": "#88242E",
-        "darkMode": "#963139"
-      },
-      "fee": {
-        "feeText": "fee",
-        "localizedFeeText": "transfer_fee",
-        "value": 1750000
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2027-06-30T22:00:00Z",
-      "toDate": "2031-06-29T22:00:00Z",
-      "marketValue": 866028
     }
   ],
-  "hits": 7542,
+  "hits": 7544,
   "maxFee": 145000000,
   "maxMarketValue": 119483344,
   "minAge": 15,
