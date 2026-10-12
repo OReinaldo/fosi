@@ -1,7 +1,7 @@
 {
   "team_id": "8023",
-  "from": "2026-10-04",
-  "to": "2026-11-10",
+  "from": "2026-10-05",
+  "to": "2026-11-11",
   "matches": [
     {
       "id": 5904696,
@@ -378,7 +378,7 @@
       "time": "11.10.2026 17:30",
       "home": {
         "id": 8023,
-        "score": 0,
+        "score": 2,
         "name": "Pogoń Szczecin",
         "longName": "Pogoń Szczecin"
       },
@@ -389,17 +389,26 @@
         "longName": "Korona Kielce"
       },
       "eliminatedTeamId": null,
-      "statusId": 1,
+      "statusId": 6,
       "tournamentStage": "10",
       "status": {
         "utcTime": "2026-10-11T15:30:00.000Z",
         "halfs": {
-          "firstHalfStarted": "11.10.2026 17:30:00"
+          "firstHalfStarted": "11.10.2026 17:33:15",
+          "secondHalfStarted": "11.10.2026 18:36:53"
         },
         "periodLength": 45,
-        "started": false,
+        "finished": true,
+        "started": true,
         "cancelled": false,
-        "finished": false
+        "awarded": false,
+        "scoreStr": "2 - 0",
+        "reason": {
+          "short": "FT",
+          "shortKey": "fulltime_short",
+          "long": "Full-Time",
+          "longKey": "finished"
+        }
       },
       "timeTS": 1791732600000
     },
