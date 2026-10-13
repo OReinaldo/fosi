@@ -1,168 +1,30 @@
 {
   "team": {
-    "id": "511",
-    "uid": "s:600~t:511",
-    "slug": "team.pogon_szczecin",
-    "location": "Pogon Szczecin",
-    "name": "Pogon Szczecin",
     "abbreviation": "POG",
-    "displayName": "Pogon Szczecin",
-    "shortDisplayName": "Pogon Szczecin",
-    "color": "000000",
     "alternateColor": "000000",
-    "isActive": true,
-    "record": {},
-    "links": [
-      {
-        "language": "en-US",
-        "rel": [
-          "clubhouse",
-          "desktop",
-          "team"
-        ],
-        "href": "https://www.espn.com/soccer/club/_/id/511/pogon-szczecin",
-        "text": "Clubhouse",
-        "shortText": "Clubhouse",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "language": "en-US",
-        "rel": [
-          "stats",
-          "desktop",
-          "team"
-        ],
-        "href": "https://www.espn.com/soccer/team/stats/_/id/511/pogon-szczecin",
-        "text": "Stats",
-        "shortText": "Stats",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "language": "en-US",
-        "rel": [
-          "stats",
-          "sportscenter",
-          "app",
-          "team"
-        ],
-        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:511&section=stats",
-        "text": "Stats",
-        "shortText": "Stats",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "language": "en-US",
-        "rel": [
-          "schedule",
-          "desktop",
-          "team"
-        ],
-        "href": "https://www.espn.com/soccer/team/fixtures/_/id/511/pogon-szczecin",
-        "text": "Fixtures",
-        "shortText": "Fixtures",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "language": "en-US",
-        "rel": [
-          "schedule",
-          "sportscenter",
-          "app",
-          "team"
-        ],
-        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:511&section=scores",
-        "text": "Fixtures",
-        "shortText": "Fixtures",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "language": "en-US",
-        "rel": [
-          "results",
-          "desktop",
-          "team"
-        ],
-        "href": "https://www.espn.com/soccer/team/results/_/id/511/pogon-szczecin",
-        "text": "Results",
-        "shortText": "Results",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "language": "en-US",
-        "rel": [
-          "results",
-          "sportscenter",
-          "app",
-          "team"
-        ],
-        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:511&section=scores",
-        "text": "Results",
-        "shortText": "Results",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "language": "en-US",
-        "rel": [
-          "squad",
-          "desktop",
-          "team"
-        ],
-        "href": "https://www.espn.com/soccer/team/squad/_/id/511/pogon-szczecin",
-        "text": "Squad",
-        "shortText": "Squad",
-        "isExternal": false,
-        "isPremium": false
-      },
-      {
-        "language": "en-US",
-        "rel": [
-          "squad",
-          "sportscenter",
-          "app",
-          "team"
-        ],
-        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:511&section=squad",
-        "text": "Squad",
-        "shortText": "Squad",
-        "isExternal": false,
-        "isPremium": false
-      }
-    ],
+    "color": "000000",
     "defaultLeague": {
-      "id": "20221",
-      "alternateId": "2468",
-      "name": "UEFA Conference League Qualifying",
       "abbreviation": "UEFA Conference League Qualifying",
-      "shortName": "UECL Qualifying",
-      "midsizeName": "UEFA.EUROPA.CONF_QUAL",
-      "slug": "uefa.europa.conf_qual",
-      "season": {
-        "type": {
-          "hasStandings": false
-        }
-      },
+      "alternateId": "2468",
+      "id": "20221",
       "links": [
         {
-          "language": "en-US",
-          "rel": [
-            "index",
-            "desktop",
-            "league"
-          ],
           "href": "https://www.espn.com/soccer/league/_/name/uefa.europa.conf_qual",
-          "text": "Index",
-          "shortText": "Index",
           "isExternal": false,
-          "isPremium": false
+          "isPremium": false,
+          "language": "en-US",
+          "rel": [
+            "index",
+            "desktop",
+            "league"
+          ],
+          "shortText": "Index",
+          "text": "Index"
         },
         {
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:20221",
+          "isExternal": false,
+          "isPremium": false,
           "language": "en-US",
           "rel": [
             "index",
@@ -170,26 +32,26 @@
             "app",
             "league"
           ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:20221",
-          "text": "Index",
           "shortText": "Index",
-          "isExternal": false,
-          "isPremium": false
+          "text": "Index"
         },
         {
-          "language": "en-US",
-          "rel": [
-            "schedule",
-            "desktop",
-            "league"
-          ],
           "href": "https://www.espn.com/soccer/schedule/_/league/uefa.europa.conf_qual",
-          "text": "Schedule",
-          "shortText": "Schedule",
           "isExternal": false,
-          "isPremium": false
+          "isPremium": false,
+          "language": "en-US",
+          "rel": [
+            "schedule",
+            "desktop",
+            "league"
+          ],
+          "shortText": "Schedule",
+          "text": "Schedule"
         },
         {
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:20221&section=scores",
+          "isExternal": false,
+          "isPremium": false,
           "language": "en-US",
           "rel": [
             "schedule",
@@ -197,26 +59,53 @@
             "app",
             "league"
           ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:20221&section=scores",
-          "text": "Schedule",
           "shortText": "Schedule",
-          "isExternal": false,
-          "isPremium": false
+          "text": "Schedule"
         },
         {
+          "href": "https://www.espn.com/soccer/table/_/league/uefa.europa.conf_qual",
+          "isExternal": false,
+          "isPremium": false,
           "language": "en-US",
           "rel": [
-            "scores",
+            "standings",
             "desktop",
             "league"
           ],
+          "shortText": "Standings",
+          "text": "Standings"
+        },
+        {
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:20221&section=standings",
+          "isExternal": false,
+          "isPremium": false,
+          "language": "en-US",
+          "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "shortText": "Standings",
+          "text": "Standings"
+        },
+        {
           "href": "https://www.espn.com/soccer/scoreboard/_/league/uefa.europa.conf_qual",
-          "text": "Scores",
-          "shortText": "Scores",
           "isExternal": false,
-          "isPremium": false
+          "isPremium": false,
+          "language": "en-US",
+          "rel": [
+            "scores",
+            "desktop",
+            "league"
+          ],
+          "shortText": "Scores",
+          "text": "Scores"
         },
         {
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:20221&section=scores",
+          "isExternal": false,
+          "isPremium": false,
           "language": "en-US",
           "rel": [
             "scores",
@@ -224,26 +113,26 @@
             "app",
             "league"
           ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:20221&section=scores",
-          "text": "Scores",
           "shortText": "Scores",
-          "isExternal": false,
-          "isPremium": false
+          "text": "Scores"
         },
         {
+          "href": "https://www.espn.com/soccer/stats/_/league/uefa.europa.conf_qual",
+          "isExternal": false,
+          "isPremium": false,
           "language": "en-US",
           "rel": [
             "stats",
             "desktop",
             "league"
           ],
-          "href": "https://www.espn.com/soccer/stats/_/league/uefa.europa.conf_qual",
-          "text": "Stats",
           "shortText": "Stats",
-          "isExternal": false,
-          "isPremium": false
+          "text": "Stats"
         },
         {
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:20221&section=stats",
+          "isExternal": false,
+          "isPremium": false,
           "language": "en-US",
           "rel": [
             "stats",
@@ -251,29 +140,191 @@
             "app",
             "league"
           ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:20221&section=stats",
-          "text": "Stats",
           "shortText": "Stats",
-          "isExternal": false,
-          "isPremium": false
+          "text": "Stats"
         },
         {
+          "href": "https://www.espn.com/soccer/teams/_/league/uefa.europa.conf_qual",
+          "isExternal": false,
+          "isPremium": false,
           "language": "en-US",
           "rel": [
             "teams",
             "desktop",
             "league"
           ],
-          "href": "https://www.espn.com/soccer/teams/_/league/uefa.europa.conf_qual",
-          "text": "Teams",
           "shortText": "Teams",
-          "isExternal": false,
-          "isPremium": false
+          "text": "Teams"
         }
       ],
-      "logos": []
+      "midsizeName": "UEFA.EUROPA.CONF_QUAL",
+      "name": "UEFA Conference League Qualifying",
+      "season": {
+        "type": {
+          "hasStandings": false
+        }
+      },
+      "shortName": "UECL Qualifying",
+      "slug": "uefa.europa.conf_qual"
     },
+    "displayName": "Pogon Szczecin",
+    "id": "511",
+    "isActive": true,
     "leagueAbbrev": "uefa.europa.conf_qual",
-    "nextEvent": []
+    "links": [
+      {
+        "href": "https://www.espn.com/soccer/club/_/id/511/pogon-szczecin",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "clubhouse",
+          "desktop",
+          "team"
+        ],
+        "shortText": "Clubhouse",
+        "text": "Clubhouse"
+      },
+      {
+        "href": "https://www.espn.com/soccer/team/stats/_/id/511/pogon-szczecin",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "stats",
+          "desktop",
+          "team"
+        ],
+        "shortText": "Stats",
+        "text": "Stats"
+      },
+      {
+        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:511&section=stats",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "stats",
+          "sportscenter",
+          "app",
+          "team"
+        ],
+        "shortText": "Stats",
+        "text": "Stats"
+      },
+      {
+        "href": "https://www.espn.com/soccer/team/fixtures/_/id/511/pogon-szczecin",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "schedule",
+          "desktop",
+          "team"
+        ],
+        "shortText": "Fixtures",
+        "text": "Fixtures"
+      },
+      {
+        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:511&section=scores",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "schedule",
+          "sportscenter",
+          "app",
+          "team"
+        ],
+        "shortText": "Fixtures",
+        "text": "Fixtures"
+      },
+      {
+        "href": "https://www.espn.com/soccer/team/results/_/id/511/pogon-szczecin",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "results",
+          "desktop",
+          "team"
+        ],
+        "shortText": "Results",
+        "text": "Results"
+      },
+      {
+        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:511&section=scores",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "results",
+          "sportscenter",
+          "app",
+          "team"
+        ],
+        "shortText": "Results",
+        "text": "Results"
+      },
+      {
+        "href": "https://www.espn.com/soccer/standings/_/league/uefa.europa.conf_qual",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "standings",
+          "desktop",
+          "team"
+        ],
+        "shortText": "Standings",
+        "text": "Standings"
+      },
+      {
+        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:511&section=standings",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "standings",
+          "sportscenter",
+          "app",
+          "team"
+        ],
+        "shortText": "Standings",
+        "text": "Standings"
+      },
+      {
+        "href": "https://www.espn.com/soccer/team/squad/_/id/511/pogon-szczecin",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "squad",
+          "desktop",
+          "team"
+        ],
+        "shortText": "Squad",
+        "text": "Squad"
+      },
+      {
+        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:511&section=squad",
+        "isExternal": false,
+        "isPremium": false,
+        "language": "en-US",
+        "rel": [
+          "squad",
+          "sportscenter",
+          "app",
+          "team"
+        ],
+        "shortText": "Squad",
+        "text": "Squad"
+      }
+    ],
+    "location": "Pogon Szczecin",
+    "name": "Pogon Szczecin",
+    "shortDisplayName": "Pogon Szczecin",
+    "slug": "team.pogon_szczecin",
+    "uid": "s:600~t:511"
   }
 }

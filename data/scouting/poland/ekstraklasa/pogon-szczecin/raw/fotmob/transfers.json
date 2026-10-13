@@ -1,6 +1,48 @@
 {
   "transfers": [
     {
+      "name": "Daniel Carvajal",
+      "playerId": 282674,
+      "position": {
+        "label": "RB",
+        "key": "rightback_short"
+      },
+      "transferDate": "2026-10-13T10:26:40Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Free agent",
+      "fromClubFullName": "Free agent",
+      "fromClubId": 2,
+      "fromClubColors": {
+        "lightMode": "#f9f9f9",
+        "darkMode": "#6D7782"
+      },
+      "toClub": "Getafe",
+      "toClubFullName": "Getafe",
+      "toClubId": 8305,
+      "toClubColors": {
+        "lightMode": "#084888",
+        "darkMode": "#005dbb"
+      },
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-10-13T00:00:00Z",
+      "toDate": "2027-06-30T00:00:00Z",
+      "marketValue": 1910577
+    },
+    {
       "name": "Victor Sandberg",
       "playerId": 1580117,
       "position": {
@@ -2050,51 +2092,9 @@
       "fromDate": "2026-09-22T22:00:00Z",
       "toDate": "2027-06-29T22:00:00Z",
       "marketValue": 486332
-    },
-    {
-      "name": "Zakaria Ami",
-      "playerId": 1687438,
-      "position": {
-        "label": "CM",
-        "key": "centermidfielder_short"
-      },
-      "transferDate": "2026-09-26T05:24:59Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Hassania Agadir",
-      "fromClubFullName": "Hassania Agadir",
-      "fromClubId": 102037,
-      "fromClubColors": {
-        "lightMode": "#F00828",
-        "darkMode": "#6D7782"
-      },
-      "toClub": "Olympique Dcheïra",
-      "toClubFullName": "Olympique Dcheïra",
-      "toClubId": 570487,
-      "toClubColors": {
-        "lightMode": "#f9f9f9",
-        "darkMode": "#6D7782"
-      },
-      "fee": {
-        "feeText": "free transfer",
-        "localizedFeeText": "transfer_type_free_transfer"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-22T22:00:00Z",
-      "toDate": null,
-      "marketValue": 263354
     }
   ],
-  "hits": 7555,
+  "hits": 7556,
   "maxFee": 145000000,
   "maxMarketValue": 119483344,
   "minAge": 15,
