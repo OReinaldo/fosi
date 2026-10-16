@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-15T08:32:56.154634+00:00",
+  "generated_at": "2026-10-16T08:25:15.743358+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -386,7 +386,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "889"
+      "example": "833"
     },
     {
       "path": "$.assets",
@@ -176320,7 +176320,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.fixtures.previousFixturesUrl",
@@ -176440,7 +176440,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-08"
+      "example": "2026-10-09"
     },
     {
       "path": "$.gameInfo",
@@ -177114,7 +177114,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-10-15T08:31:44.346684+00:00"
+      "example": "2026-10-16T08:24:20.259374+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -191024,7 +191024,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7554"
+      "example": "7553"
     },
     {
       "path": "$.html_files_scanned",
@@ -198026,7 +198026,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.overview.hasTotw",
@@ -200330,7 +200330,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.overview.newsSummary",
@@ -200762,7 +200762,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-111"
+      "example": "+100"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
@@ -200774,7 +200774,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.90"
+      "example": "2.00"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
@@ -200786,7 +200786,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "9/10"
+      "example": "1/1"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
@@ -200990,7 +200990,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-111"
+      "example": "+100"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
@@ -201002,7 +201002,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.90"
+      "example": "2.00"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
@@ -201014,7 +201014,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "9/10"
+      "example": "1/1"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
@@ -201355,14 +201355,14 @@
     {
       "path": "$.overview.nextMatch.startDay",
       "types": {
-        "null": 1
+        "string": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": "Tomorrow"
     },
     {
       "path": "$.overview.nextMatch.stats",
@@ -203822,7 +203822,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "19.22251256658575"
+      "example": "19.363293551395042"
     },
     {
       "path": "$.overview.table[].data.table.xg[].xPointsDiff",
@@ -203834,7 +203834,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2.777487433414251"
+      "example": "2.636706448604958"
     },
     {
       "path": "$.overview.table[].data.table.xg[].xPosition",
@@ -203870,7 +203870,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "20.831899970769882"
+      "example": "21.148199886083603"
     },
     {
       "path": "$.overview.table[].data.table.xg[].xgConceded",
@@ -203882,7 +203882,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8.395200043916702"
+      "example": "8.441900044679642"
     },
     {
       "path": "$.overview.table[].data.table.xg[].xgConcededDiff",
@@ -203894,7 +203894,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "-0.39520004391670227"
+      "example": "-0.4419000446796417"
     },
     {
       "path": "$.overview.table[].data.table.xg[].xgDiff",
@@ -203906,7 +203906,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "0.1681000292301178"
+      "example": "-0.1481998860836029"
     },
     {
       "path": "$.overview.table[].data.tableFilterTypes",
@@ -215741,7 +215741,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-15T08:32:03.030613+00:00"
+      "example": "2026-10-16T08:24:38.784762+00:00"
     },
     {
       "path": "$.rosters",
@@ -221540,7 +221540,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "19.22251256658575"
+      "example": "19.363293551395042"
     },
     {
       "path": "$.table[].data.table.xg[].xPointsDiff",
@@ -221552,7 +221552,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "2.777487433414251"
+      "example": "2.636706448604958"
     },
     {
       "path": "$.table[].data.table.xg[].xPosition",
@@ -221588,7 +221588,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "20.831899970769882"
+      "example": "21.148199886083603"
     },
     {
       "path": "$.table[].data.table.xg[].xgConceded",
@@ -221600,7 +221600,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8.395200043916702"
+      "example": "8.441900044679642"
     },
     {
       "path": "$.table[].data.table.xg[].xgConcededDiff",
@@ -221612,7 +221612,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "-0.39520004391670227"
+      "example": "-0.4419000446796417"
     },
     {
       "path": "$.table[].data.table.xg[].xgDiff",
@@ -221624,7 +221624,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "0.1681000292301178"
+      "example": "-0.1481998860836029"
     },
     {
       "path": "$.table[].data.tableFilterTypes",
@@ -228752,7 +228752,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-11-14"
+      "example": "2026-11-15"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -231781,7 +231781,7 @@
         "fotmob"
       ],
       "file_count": 21,
-      "example": "2026-10-15T08:31:42.858952+00:00"
+      "example": "2026-10-16T08:24:18.806716+00:00"
     },
     {
       "path": "$.videos",
