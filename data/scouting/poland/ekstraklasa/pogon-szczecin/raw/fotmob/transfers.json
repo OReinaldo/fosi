@@ -1,6 +1,48 @@
 {
   "transfers": [
     {
+      "name": "Nico Mantl",
+      "playerId": 862918,
+      "position": {
+        "label": "GK",
+        "key": "keeper"
+      },
+      "transferDate": "2026-10-17T08:57:43Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Free agent",
+      "fromClubFullName": "Free agent",
+      "fromClubId": 2,
+      "fromClubColors": {
+        "lightMode": "#f9f9f9",
+        "darkMode": "#6D7782"
+      },
+      "toClub": "Kilmarnock",
+      "toClubFullName": "Kilmarnock",
+      "toClubId": 8597,
+      "toClubColors": {
+        "lightMode": "#0745A4",
+        "darkMode": "#0745A4"
+      },
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-10-17T00:00:00Z",
+      "toDate": "2027-06-30T00:00:00Z",
+      "marketValue": 373248
+    },
+    {
       "name": "Daniel Carvajal",
       "playerId": 282674,
       "position": {
@@ -2050,51 +2092,9 @@
       "fromDate": "2026-09-24T22:00:00Z",
       "toDate": null,
       "marketValue": 1497607
-    },
-    {
-      "name": "Silvère Ganvoula",
-      "playerId": 600513,
-      "position": {
-        "label": "ST",
-        "key": "striker_short"
-      },
-      "transferDate": "2026-09-26T05:32:36Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Al-Fayha",
-      "fromClubFullName": "Al-Fayha",
-      "fromClubId": 582749,
-      "fromClubColors": {
-        "lightMode": "#E8412C",
-        "darkMode": "#E8412C"
-      },
-      "toClub": "Wydad Casablanca",
-      "toClubFullName": "Wydad Casablanca",
-      "toClubId": 102050,
-      "toClubColors": {
-        "lightMode": "#E61E25",
-        "darkMode": "#E61E25"
-      },
-      "fee": {
-        "feeText": "free transfer",
-        "localizedFeeText": "transfer_type_free_transfer"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-22T22:00:00Z",
-      "toDate": "2027-06-29T22:00:00Z",
-      "marketValue": 486332
     }
   ],
-  "hits": 7553,
+  "hits": 7554,
   "maxFee": 145000000,
   "maxMarketValue": 119483344,
   "minAge": 15,
