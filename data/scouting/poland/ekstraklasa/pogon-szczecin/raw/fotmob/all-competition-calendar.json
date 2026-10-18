@@ -1,7 +1,7 @@
 {
   "team_id": "8023",
-  "from": "2026-10-10",
-  "to": "2026-11-16",
+  "from": "2026-10-11",
+  "to": "2026-11-17",
   "matches": [
     {
       "id": 5904696,
@@ -424,22 +424,31 @@
       },
       "away": {
         "id": 8023,
-        "score": 0,
+        "score": 1,
         "name": "Pogoń Szczecin",
         "longName": "Pogoń Szczecin"
       },
       "eliminatedTeamId": null,
-      "statusId": 1,
+      "statusId": 6,
       "tournamentStage": "11",
       "status": {
         "utcTime": "2026-10-17T15:30:00.000Z",
         "halfs": {
-          "firstHalfStarted": "17.10.2026 17:30:00"
+          "firstHalfStarted": "17.10.2026 17:36:25",
+          "secondHalfStarted": "17.10.2026 18:38:50"
         },
         "periodLength": 45,
-        "started": false,
+        "finished": true,
+        "started": true,
         "cancelled": false,
-        "finished": false
+        "awarded": false,
+        "scoreStr": "0 - 1",
+        "reason": {
+          "short": "FT",
+          "shortKey": "fulltime_short",
+          "long": "Full-Time",
+          "longKey": "finished"
+        }
       },
       "timeTS": 1792251000000
     },
