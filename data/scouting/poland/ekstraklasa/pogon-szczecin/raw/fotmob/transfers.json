@@ -1,6 +1,48 @@
 {
   "transfers": [
     {
+      "name": "Guy Hadida",
+      "playerId": 716877,
+      "position": {
+        "label": "CM",
+        "key": "centermidfielder_short"
+      },
+      "transferDate": "2026-10-21T08:37:17Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Free agent",
+      "fromClubFullName": "Free agent",
+      "fromClubId": 2,
+      "fromClubColors": {
+        "lightMode": "#f9f9f9",
+        "darkMode": "#6D7782"
+      },
+      "toClub": "Maccabi Petach Tikva",
+      "toClubFullName": "Maccabi Petach Tikva",
+      "toClubId": 7929,
+      "toClubColors": {
+        "lightMode": "#004EA2",
+        "darkMode": "#004EA2"
+      },
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-10-20T00:00:00Z",
+      "toDate": "2029-06-30T00:00:00Z",
+      "marketValue": 377794
+    },
+    {
       "name": "Sabir Bougrine",
       "playerId": 643242,
       "position": {
@@ -989,8 +1031,8 @@
       "toClubFullName": "Hatta",
       "toClubId": 102113,
       "toClubColors": {
-        "lightMode": "#184888",
-        "darkMode": "#6D7782"
+        "lightMode": "#7A9AAB",
+        "darkMode": "#97B8C9"
       },
       "fee": {
         "feeText": "undisclosed",
@@ -1031,8 +1073,8 @@
       "toClubFullName": "Hatta",
       "toClubId": 102113,
       "toClubColors": {
-        "lightMode": "#184888",
-        "darkMode": "#6D7782"
+        "lightMode": "#7A9AAB",
+        "darkMode": "#97B8C9"
       },
       "fee": {
         "feeText": "undisclosed",
@@ -1200,7 +1242,7 @@
       "toClubId": 8143,
       "toClubColors": {
         "lightMode": "#382828",
-        "darkMode": "#6D7782"
+        "darkMode": "#FFFFFF"
       },
       "fee": {
         "feeText": "on loan",
@@ -1620,7 +1662,7 @@
       "toClubId": 8143,
       "toClubColors": {
         "lightMode": "#382828",
-        "darkMode": "#6D7782"
+        "darkMode": "#FFFFFF"
       },
       "fee": {
         "feeText": "on loan",
@@ -2050,51 +2092,9 @@
       "fromDate": "2026-09-27T22:00:00Z",
       "toDate": "2028-06-29T22:00:00Z",
       "marketValue": 941732
-    },
-    {
-      "name": "Cristóbal Zambrano",
-      "playerId": 1804987,
-      "position": {
-        "label": "RW",
-        "key": "rightwinger_short"
-      },
-      "transferDate": "2026-09-28T00:00:00Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Universidad de Concepción",
-      "fromClubFullName": "Universidad de Concepción",
-      "fromClubId": 4054,
-      "fromClubColors": {
-        "lightMode": "#e19b00",
-        "darkMode": "#E6D700"
-      },
-      "toClub": "Deportes Concepción",
-      "toClubFullName": "Deportes Concepción",
-      "toClubId": 4134,
-      "toClubColors": {
-        "lightMode": "#7519AC",
-        "darkMode": "#7519AC"
-      },
-      "fee": {
-        "feeText": "on loan",
-        "localizedFeeText": "on_loan"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-28T00:00:00Z",
-      "toDate": "2026-12-31T00:00:00Z",
-      "marketValue": 546273
     }
   ],
-  "hits": 7559,
+  "hits": 7560,
   "maxFee": 145000000,
   "maxMarketValue": 119483344,
   "minAge": 15,
