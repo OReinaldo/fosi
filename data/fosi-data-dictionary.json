@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-21T08:49:13.263254+00:00",
+  "generated_at": "2026-10-22T08:51:07.591043+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -176440,7 +176440,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-14"
+      "example": "2026-10-15"
     },
     {
       "path": "$.gameInfo",
@@ -177114,7 +177114,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-10-21T08:48:17.947310+00:00"
+      "example": "2026-10-22T08:50:11.873414+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -191024,7 +191024,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7560"
+      "example": "7558"
     },
     {
       "path": "$.html_files_scanned",
@@ -211286,7 +211286,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "8.1"
+      "example": "8.11"
     },
     {
       "path": "$.overview.topPlayers.byRating.players[].stat",
@@ -211346,7 +211346,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8.1"
+      "example": "8.11"
     },
     {
       "path": "$.overview.topPlayers.byRating.players[].teamColors",
@@ -211442,7 +211442,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "8.1"
+      "example": "8.11"
     },
     {
       "path": "$.overview.topPlayers.byRating.seeAllLink",
@@ -215705,7 +215705,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-21T08:48:36.520258+00:00"
+      "example": "2026-10-22T08:50:30.517646+00:00"
     },
     {
       "path": "$.rosters",
@@ -219342,7 +219342,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "44"
+      "example": "47"
     },
     {
       "path": "$.stats.teams[].participant",
@@ -228716,7 +228716,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-11-20"
+      "example": "2026-11-21"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -231192,7 +231192,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "free transfer"
+      "example": "fee"
     },
     {
       "path": "$.transfers[].fee.localizedFeeText",
@@ -231204,7 +231204,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "transfer_type_free_transfer"
+      "example": "transfer_fee"
+    },
+    {
+      "path": "$.transfers[].fee.value",
+      "types": {
+        "integer": 1
+      },
+      "occurrences": 1,
+      "sources": [
+        "fotmob"
+      ],
+      "file_count": 1,
+      "example": "1800000"
     },
     {
       "path": "$.transfers[].fromClub",
@@ -231216,7 +231228,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "San Jose"
     },
     {
       "path": "$.transfers[].fromClubColors",
@@ -231240,7 +231252,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "#6D7782"
+      "example": "#0d59af"
     },
     {
       "path": "$.transfers[].fromClubColors.lightMode",
@@ -231252,7 +231264,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "#f9f9f9"
+      "example": "#0d59af"
     },
     {
       "path": "$.transfers[].fromClubFullName",
@@ -231264,7 +231276,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Free agent"
+      "example": "San Jose Earthquakes"
     },
     {
       "path": "$.transfers[].fromClubId",
@@ -231276,7 +231288,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2"
+      "example": "6603"
     },
     {
       "path": "$.transfers[].fromDate",
@@ -231288,7 +231300,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-20T00:00:00Z"
+      "example": "2027-01-01T00:00:00Z"
     },
     {
       "path": "$.transfers[].marketValue",
@@ -231300,7 +231312,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "377794"
+      "example": "2466285"
     },
     {
       "path": "$.transfers[].name",
@@ -231312,7 +231324,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Guy Hadida"
+      "example": "Hernán López"
     },
     {
       "path": "$.transfers[].onLoan",
@@ -231336,7 +231348,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "716877"
+      "example": "1037535"
     },
     {
       "path": "$.transfers[].position",
@@ -231360,7 +231372,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "centermidfielder_short"
+      "example": "rightwinger_short"
     },
     {
       "path": "$.transfers[].position.label",
@@ -231372,7 +231384,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "CM"
+      "example": "RW"
     },
     {
       "path": "$.transfers[].toClub",
@@ -231384,7 +231396,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Maccabi Petach Tikva"
+      "example": "Argentinos Juniors"
     },
     {
       "path": "$.transfers[].toClubColors",
@@ -231408,7 +231420,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "#004EA2"
+      "example": "#B62D41"
     },
     {
       "path": "$.transfers[].toClubColors.lightMode",
@@ -231420,7 +231432,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "#004EA2"
+      "example": "#B62D41"
     },
     {
       "path": "$.transfers[].toClubFullName",
@@ -231432,7 +231444,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "Maccabi Petach Tikva"
+      "example": "Argentinos Juniors"
     },
     {
       "path": "$.transfers[].toClubId",
@@ -231444,19 +231456,19 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7929"
+      "example": "10086"
     },
     {
       "path": "$.transfers[].toDate",
       "types": {
-        "string": 1
+        "null": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2029-06-30T00:00:00Z"
+      "example": "None"
     },
     {
       "path": "$.transfers[].transferDate",
@@ -231468,7 +231480,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-21T08:37:17Z"
+      "example": "2026-10-21T11:33:14Z"
     },
     {
       "path": "$.transfers[].transferText",
@@ -231745,7 +231757,7 @@
         "fotmob"
       ],
       "file_count": 21,
-      "example": "2026-10-21T08:48:16.436308+00:00"
+      "example": "2026-10-22T08:50:10.373712+00:00"
     },
     {
       "path": "$.videos",

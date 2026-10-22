@@ -104,7 +104,12 @@
               15,
               16,
               17
-            ]
+            ],
+            "targetLeague": {
+              "id": 197,
+              "name": "I Liga",
+              "tKey": "relegation_to"
+            }
           }
         ],
         "ongoing": [],
@@ -1559,33 +1564,6 @@
               "qualColor": null
             },
             {
-              "name": "Pogoń Szczecin",
-              "shortName": "Pogoń Szczecin",
-              "id": 8023,
-              "pageUrl": "/teams/8023/overview/pogon-szczecin",
-              "ongoing": null,
-              "played": 10,
-              "wins": 6,
-              "draws": 3,
-              "losses": 1,
-              "scoresStr": "15-6",
-              "goalConDiff": 9,
-              "pts": 21,
-              "teamId": 8023,
-              "teamName": "Pogoń Szczecin",
-              "xg": 16.074900269508362,
-              "xgConceded": 13.601199805736542,
-              "xPoints": 15.739235084511003,
-              "position": 7,
-              "xgDiff": -1.0749002695083618,
-              "xgConcededDiff": -7.601199805736542,
-              "xPointsDiff": 5.260764915488997,
-              "xPosition": 7,
-              "idx": 7,
-              "xPositionDiff": -3,
-              "qualColor": null
-            },
-            {
               "name": "Zagłębie Lubin",
               "shortName": "Zagłębie Lubin",
               "id": 8021,
@@ -1603,13 +1581,40 @@
               "xg": 16.219499945640564,
               "xgConceded": 16.25630009174347,
               "xPoints": 15.45901632551524,
-              "position": 8,
+              "position": 7,
               "xgDiff": -3.219499945640564,
               "xgConcededDiff": -3.2563000917434692,
               "xPointsDiff": 2.5409836744847603,
+              "xPosition": 7,
+              "idx": 7,
+              "xPositionDiff": 0,
+              "qualColor": null
+            },
+            {
+              "name": "Pogoń Szczecin",
+              "shortName": "Pogoń Szczecin",
+              "id": 8023,
+              "pageUrl": "/teams/8023/overview/pogon-szczecin",
+              "ongoing": null,
+              "played": 10,
+              "wins": 6,
+              "draws": 3,
+              "losses": 1,
+              "scoresStr": "15-6",
+              "goalConDiff": 9,
+              "pts": 21,
+              "teamId": 8023,
+              "teamName": "Pogoń Szczecin",
+              "xg": 16.025400161743164,
+              "xgConceded": 14.082499861717224,
+              "xPoints": 15.343900111966908,
+              "position": 8,
+              "xgDiff": -1.025400161743164,
+              "xgConcededDiff": -8.082499861717224,
+              "xPointsDiff": 5.656099888033092,
               "xPosition": 8,
               "idx": 8,
-              "xPositionDiff": -1,
+              "xPositionDiff": -4,
               "qualColor": null
             },
             {
@@ -1654,13 +1659,13 @@
               "pts": 18,
               "teamId": 4023,
               "teamName": "GKS Katowice",
-              "xg": 19.45160013437271,
-              "xgConceded": 21.00980007648468,
-              "xPoints": 14.400000540242644,
+              "xg": 19.932900190353394,
+              "xgConceded": 20.960299968719482,
+              "xPoints": 14.761698939858722,
               "position": 10,
-              "xgDiff": 2.548399865627289,
-              "xgConcededDiff": -5.00980007648468,
-              "xPointsDiff": 3.599999459757356,
+              "xgDiff": 2.0670998096466064,
+              "xgConcededDiff": -4.960299968719482,
+              "xPointsDiff": 3.2383010601412785,
               "xPosition": 10,
               "idx": 10,
               "xPositionDiff": -5,
@@ -1735,13 +1740,13 @@
               "pts": 14,
               "teamId": 8243,
               "teamName": "Wisła Płock",
-              "xg": 14.419799953699112,
-              "xgConceded": 15.945000112056732,
-              "xPoints": 12.442512789098554,
+              "xg": 14.468899965286255,
+              "xgConceded": 15.978900015354156,
+              "xPoints": 12.467978955524348,
               "position": 13,
-              "xgDiff": -4.419799953699112,
-              "xgConcededDiff": -0.9450001120567322,
-              "xPointsDiff": 1.5574872109014457,
+              "xgDiff": -4.468899965286255,
+              "xgConcededDiff": -0.9789000153541565,
+              "xPointsDiff": 1.532021044475652,
               "xPosition": 13,
               "idx": 13,
               "xPositionDiff": -3,
@@ -1789,13 +1794,13 @@
               "pts": 8,
               "teamId": 5769,
               "teamName": "Radomiak Radom",
-              "xg": 15.749199837446213,
-              "xgConceded": 23.232200175523758,
-              "xPoints": 11.194744042430628,
+              "xg": 15.783099740743637,
+              "xgConceded": 23.2813001871109,
+              "xPoints": 11.17563029223381,
               "position": 15,
-              "xgDiff": -6.749199837446213,
-              "xgConcededDiff": 0.7677998244762421,
-              "xPointsDiff": -3.194744042430628,
+              "xgDiff": -6.783099740743637,
+              "xgConcededDiff": 0.7186998128890991,
+              "xPointsDiff": -3.1756302922338104,
               "xPosition": 15,
               "idx": 15,
               "xPositionDiff": 1,
@@ -9117,7 +9122,12 @@
                 15,
                 16,
                 17
-              ]
+              ],
+              "targetLeague": {
+                "id": 197,
+                "name": "I Liga",
+                "tKey": "relegation_to"
+              }
             }
           ],
           "ongoing": [],
@@ -10572,33 +10582,6 @@
                 "qualColor": null
               },
               {
-                "name": "Pogoń Szczecin",
-                "shortName": "Pogoń Szczecin",
-                "id": 8023,
-                "pageUrl": "/teams/8023/overview/pogon-szczecin",
-                "ongoing": null,
-                "played": 10,
-                "wins": 6,
-                "draws": 3,
-                "losses": 1,
-                "scoresStr": "15-6",
-                "goalConDiff": 9,
-                "pts": 21,
-                "teamId": 8023,
-                "teamName": "Pogoń Szczecin",
-                "xg": 16.074900269508362,
-                "xgConceded": 13.601199805736542,
-                "xPoints": 15.739235084511003,
-                "position": 7,
-                "xgDiff": -1.0749002695083618,
-                "xgConcededDiff": -7.601199805736542,
-                "xPointsDiff": 5.260764915488997,
-                "xPosition": 7,
-                "idx": 7,
-                "xPositionDiff": -3,
-                "qualColor": null
-              },
-              {
                 "name": "Zagłębie Lubin",
                 "shortName": "Zagłębie Lubin",
                 "id": 8021,
@@ -10616,13 +10599,40 @@
                 "xg": 16.219499945640564,
                 "xgConceded": 16.25630009174347,
                 "xPoints": 15.45901632551524,
-                "position": 8,
+                "position": 7,
                 "xgDiff": -3.219499945640564,
                 "xgConcededDiff": -3.2563000917434692,
                 "xPointsDiff": 2.5409836744847603,
+                "xPosition": 7,
+                "idx": 7,
+                "xPositionDiff": 0,
+                "qualColor": null
+              },
+              {
+                "name": "Pogoń Szczecin",
+                "shortName": "Pogoń Szczecin",
+                "id": 8023,
+                "pageUrl": "/teams/8023/overview/pogon-szczecin",
+                "ongoing": null,
+                "played": 10,
+                "wins": 6,
+                "draws": 3,
+                "losses": 1,
+                "scoresStr": "15-6",
+                "goalConDiff": 9,
+                "pts": 21,
+                "teamId": 8023,
+                "teamName": "Pogoń Szczecin",
+                "xg": 16.025400161743164,
+                "xgConceded": 14.082499861717224,
+                "xPoints": 15.343900111966908,
+                "position": 8,
+                "xgDiff": -1.025400161743164,
+                "xgConcededDiff": -8.082499861717224,
+                "xPointsDiff": 5.656099888033092,
                 "xPosition": 8,
                 "idx": 8,
-                "xPositionDiff": -1,
+                "xPositionDiff": -4,
                 "qualColor": null
               },
               {
@@ -10667,13 +10677,13 @@
                 "pts": 18,
                 "teamId": 4023,
                 "teamName": "GKS Katowice",
-                "xg": 19.45160013437271,
-                "xgConceded": 21.00980007648468,
-                "xPoints": 14.400000540242644,
+                "xg": 19.932900190353394,
+                "xgConceded": 20.960299968719482,
+                "xPoints": 14.761698939858722,
                 "position": 10,
-                "xgDiff": 2.548399865627289,
-                "xgConcededDiff": -5.00980007648468,
-                "xPointsDiff": 3.599999459757356,
+                "xgDiff": 2.0670998096466064,
+                "xgConcededDiff": -4.960299968719482,
+                "xPointsDiff": 3.2383010601412785,
                 "xPosition": 10,
                 "idx": 10,
                 "xPositionDiff": -5,
@@ -10748,13 +10758,13 @@
                 "pts": 14,
                 "teamId": 8243,
                 "teamName": "Wisła Płock",
-                "xg": 14.419799953699112,
-                "xgConceded": 15.945000112056732,
-                "xPoints": 12.442512789098554,
+                "xg": 14.468899965286255,
+                "xgConceded": 15.978900015354156,
+                "xPoints": 12.467978955524348,
                 "position": 13,
-                "xgDiff": -4.419799953699112,
-                "xgConcededDiff": -0.9450001120567322,
-                "xPointsDiff": 1.5574872109014457,
+                "xgDiff": -4.468899965286255,
+                "xgConcededDiff": -0.9789000153541565,
+                "xPointsDiff": 1.532021044475652,
                 "xPosition": 13,
                 "idx": 13,
                 "xPositionDiff": -3,
@@ -10802,13 +10812,13 @@
                 "pts": 8,
                 "teamId": 5769,
                 "teamName": "Radomiak Radom",
-                "xg": 15.749199837446213,
-                "xgConceded": 23.232200175523758,
-                "xPoints": 11.194744042430628,
+                "xg": 15.783099740743637,
+                "xgConceded": 23.2813001871109,
+                "xPoints": 11.17563029223381,
                 "position": 15,
-                "xgDiff": -6.749199837446213,
-                "xgConcededDiff": 0.7677998244762421,
-                "xPointsDiff": -3.194744042430628,
+                "xgDiff": -6.783099740743637,
+                "xgConcededDiff": 0.7186998128890991,
+                "xPointsDiff": -3.1756302922338104,
                 "xPosition": 15,
                 "idx": 15,
                 "xPositionDiff": 1,
@@ -13970,11 +13980,11 @@
             "name": "Bartosz Nowak",
             "teamId": 4023,
             "teamName": "GKS Katowice",
-            "rating": 8.1,
-            "value": 8.1,
+            "rating": 8.11,
+            "value": 8.11,
             "stat": {
               "name": "rating",
-              "value": 8.1,
+              "value": 8.11,
               "format": "fraction",
               "fractions": 2
             },
@@ -32439,10 +32449,10 @@
           "ccode": "POL",
           "teamId": 4023,
           "teamName": "GKS Katowice",
-          "value": 8.1,
+          "value": 8.11,
           "stat": {
             "name": "rating",
-            "value": 8.1,
+            "value": 8.11,
             "format": "fraction",
             "fractions": 2
           }
@@ -32456,10 +32466,10 @@
             "ccode": "POL",
             "teamId": 4023,
             "teamName": "GKS Katowice",
-            "value": 8.1,
+            "value": 8.11,
             "stat": {
               "name": "rating",
-              "value": 8.1,
+              "value": 8.11,
               "format": "fraction",
               "fractions": 2
             },
@@ -32741,10 +32751,10 @@
             "ccode": "ESP",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
-            "value": 6.2,
+            "value": 6.3,
             "stat": {
               "name": "expected_goals",
-              "value": 6.2,
+              "value": 6.3,
               "format": "fraction",
               "fractions": 1
             },
@@ -32917,10 +32927,10 @@
             "ccode": "ESP",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
-            "value": 6.8,
+            "value": 6.7,
             "stat": {
               "name": "expected_goalsontarget",
-              "value": 6.8,
+              "value": 6.7,
               "format": "fraction",
               "fractions": 1
             },
@@ -33319,10 +33329,10 @@
           "ccode": "POL",
           "teamId": 4023,
           "teamName": "GKS Katowice",
-          "value": 42,
+          "value": 43,
           "stat": {
             "name": "total_att_assist",
-            "value": 42,
+            "value": 43,
             "format": "number",
             "fractions": 0
           }
@@ -33336,10 +33346,10 @@
             "ccode": "POL",
             "teamId": 4023,
             "teamName": "GKS Katowice",
-            "value": 42,
+            "value": 43,
             "stat": {
               "name": "total_att_assist",
-              "value": 42,
+              "value": 43,
               "format": "number",
               "fractions": 0
             },
@@ -33583,10 +33593,10 @@
           "ccode": "POL",
           "teamId": 4023,
           "teamName": "GKS Katowice",
-          "value": 6.7,
+          "value": 6.8,
           "stat": {
             "name": "expected_assists",
-            "value": 6.7,
+            "value": 6.8,
             "format": "fraction",
             "fractions": 1
           }
@@ -33600,10 +33610,10 @@
             "ccode": "POL",
             "teamId": 4023,
             "teamName": "GKS Katowice",
-            "value": 6.7,
+            "value": 6.8,
             "stat": {
               "name": "expected_assists",
-              "value": 6.7,
+              "value": 6.8,
               "format": "fraction",
               "fractions": 1
             },
@@ -33671,10 +33681,10 @@
           "ccode": "POL",
           "teamId": 4023,
           "teamName": "GKS Katowice",
-          "value": 0.61,
+          "value": 0.63,
           "stat": {
             "name": "expected_assists_per_90",
-            "value": 0.61,
+            "value": 0.63,
             "format": "fraction",
             "fractions": 2
           }
@@ -33688,10 +33698,10 @@
             "ccode": "POL",
             "teamId": 4023,
             "teamName": "GKS Katowice",
-            "value": 0.61,
+            "value": 0.63,
             "stat": {
               "name": "expected_assists_per_90",
-              "value": 0.61,
+              "value": 0.63,
               "format": "fraction",
               "fractions": 2
             },
@@ -34340,23 +34350,23 @@
             }
           },
           {
-            "id": 982272,
-            "name": "Sidnei Tavares",
+            "id": 848346,
+            "name": "Patrik Hellebrand",
             "rank": 3,
-            "ccode": "CPV",
-            "teamId": 8243,
-            "teamName": "Wisła Płock",
-            "value": 2.6,
+            "ccode": "CZE",
+            "teamId": 8245,
+            "teamName": "Korona Kielce",
+            "value": 2.4,
             "stat": {
               "name": "interception",
-              "value": 2.6,
+              "value": 2.4,
               "format": "fraction",
               "fractions": 1
             },
             "teamColors": {
-              "darkMode": "#085AA6",
-              "lightMode": "#085AA6",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "darkMode": "#FBD23F",
+              "lightMode": "#e39b01",
+              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           }
@@ -35079,10 +35089,10 @@
           "ccode": "ROU",
           "teamId": 8023,
           "teamName": "Pogoń Szczecin",
-          "value": 5.7,
+          "value": 5.2,
           "stat": {
             "name": "_goals_prevented",
-            "value": 5.7,
+            "value": 5.2,
             "format": "fraction",
             "fractions": 1
           }
@@ -35096,10 +35106,10 @@
             "ccode": "ROU",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
-            "value": 5.7,
+            "value": 5.2,
             "stat": {
               "name": "_goals_prevented",
-              "value": 5.7,
+              "value": 5.2,
               "format": "fraction",
               "fractions": 1
             },
@@ -35161,21 +35171,197 @@
       {
         "header": "Goals conceded per 90",
         "participant": {
+          "id": 289211,
+          "name": "Valentin Cojocaru",
+          "rank": 1,
+          "ccode": "ROU",
+          "teamId": 8023,
+          "teamName": "Pogoń Szczecin",
+          "value": 0.6,
+          "stat": {
+            "name": "goals_conceded",
+            "value": 0.6,
+            "format": "fraction",
+            "fractions": 1
+          }
+        },
+        "fetchAllUrl": "https://data.fotmob.com/stats/196/season/37304/goals_conceded.json",
+        "topThree": [
+          {
+            "id": 289211,
+            "name": "Valentin Cojocaru",
+            "rank": 1,
+            "ccode": "ROU",
+            "teamId": 8023,
+            "teamName": "Pogoń Szczecin",
+            "value": 0.6,
+            "stat": {
+              "name": "goals_conceded",
+              "value": 0.6,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#1753a4",
+              "lightMode": "#102457",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 1159532,
+            "name": "Ottó Hindrich",
+            "rank": 2,
+            "ccode": "ROU",
+            "teamId": 8673,
+            "teamName": "Legia Warsaw",
+            "value": 0.8,
+            "stat": {
+              "name": "goals_conceded",
+              "value": 0.8,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#ffffff",
+              "lightMode": "#009445",
+              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 630036,
+            "name": "Mateusz Lis",
+            "rank": 3,
+            "ccode": "POL",
+            "teamId": 2182,
+            "teamName": "Lech Poznań",
+            "value": 0.9,
+            "stat": {
+              "name": "goals_conceded",
+              "value": 0.9,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#004898",
+              "lightMode": "#004898",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          }
+        ],
+        "order": 40,
+        "name": "goals_conceded",
+        "localizedTitleId": "goals_conceded_per_90",
+        "category": "Goalkeeping"
+      },
+      {
+        "header": "High claims per 90",
+        "participant": {
+          "id": 1161563,
+          "name": "Xavier Dziekoński",
+          "rank": 1,
+          "ccode": "POL",
+          "teamId": 8245,
+          "teamName": "Korona Kielce",
+          "value": 1.5,
+          "stat": {
+            "name": "total_high_claim",
+            "value": 1.5,
+            "format": "fraction",
+            "fractions": 1
+          }
+        },
+        "fetchAllUrl": "https://data.fotmob.com/stats/196/season/37304/total_high_claim.json",
+        "topThree": [
+          {
+            "id": 1161563,
+            "name": "Xavier Dziekoński",
+            "rank": 1,
+            "ccode": "POL",
+            "teamId": 8245,
+            "teamName": "Korona Kielce",
+            "value": 1.5,
+            "stat": {
+              "name": "total_high_claim",
+              "value": 1.5,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#FBD23F",
+              "lightMode": "#e39b01",
+              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 1512753,
+            "name": "Gašper Tratnik",
+            "rank": 2,
+            "ccode": "SVN",
+            "teamId": 89466,
+            "teamName": "Motor Lublin",
+            "value": 1.5,
+            "stat": {
+              "name": "total_high_claim",
+              "value": 1.5,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#FFFF00",
+              "lightMode": "#d7a000",
+              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 1122644,
+            "name": "Domen Gril",
+            "rank": 3,
+            "ccode": "SVN",
+            "teamId": 8028,
+            "teamName": "Piast Gliwice",
+            "value": 1.4,
+            "stat": {
+              "name": "total_high_claim",
+              "value": 1.4,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#0850A0",
+              "lightMode": "#0850A0",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          }
+        ],
+        "order": 41,
+        "name": "total_high_claim",
+        "localizedTitleId": "high_claims_per_90",
+        "category": "Goalkeeping"
+      },
+      {
+        "header": "Sweeper actions per 90",
+        "participant": {
           "id": 1132116,
           "name": "Kacper Trelowski",
           "rank": 1,
           "ccode": "POL",
           "teamId": 4024,
           "teamName": "Raków Częstochowa",
-          "value": 2.4,
+          "value": 1,
           "stat": {
-            "name": "goals_conceded",
-            "value": 2.4,
+            "name": "total_keeper_sweeper",
+            "value": 1,
             "format": "fraction",
             "fractions": 1
           }
         },
-        "fetchAllUrl": "https://data.fotmob.com/stats/196/season/37304/goals_conceded.json",
+        "fetchAllUrl": "https://data.fotmob.com/stats/196/season/37304/total_keeper_sweeper.json",
         "topThree": [
           {
             "id": 1132116,
@@ -35184,10 +35370,10 @@
             "ccode": "POL",
             "teamId": 4024,
             "teamName": "Raków Częstochowa",
-            "value": 2.4,
+            "value": 1,
             "stat": {
-              "name": "goals_conceded",
-              "value": 2.4,
+              "name": "total_keeper_sweeper",
+              "value": 1,
               "format": "fraction",
               "fractions": 1
             },
@@ -35199,18 +35385,106 @@
             }
           },
           {
+            "id": 208302,
+            "name": "Rafał Leszczyński",
+            "rank": 1,
+            "ccode": "POL",
+            "teamId": 8243,
+            "teamName": "Wisła Płock",
+            "value": 1,
+            "stat": {
+              "name": "total_keeper_sweeper",
+              "value": 1,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#085AA6",
+              "lightMode": "#085AA6",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 450742,
+            "name": "Bartłomiej Drągowski",
+            "rank": 3,
+            "ccode": "POL",
+            "teamId": 8024,
+            "teamName": "Widzew Łódź",
+            "value": 0.8,
+            "stat": {
+              "name": "total_keeper_sweeper",
+              "value": 0.8,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#AD180F",
+              "lightMode": "#AD180F",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          }
+        ],
+        "order": 42,
+        "name": "total_keeper_sweeper",
+        "localizedTitleId": "keeper_sweeper_per_90",
+        "category": "Goalkeeping"
+      },
+      {
+        "header": "Penalty saves",
+        "participant": {
+          "id": 1122644,
+          "name": "Domen Gril",
+          "rank": 1,
+          "ccode": "SVN",
+          "teamId": 8028,
+          "teamName": "Piast Gliwice",
+          "value": 1,
+          "stat": {
+            "name": "penalty_save",
+            "value": 1,
+            "format": "number",
+            "fractions": 0
+          }
+        },
+        "fetchAllUrl": "https://data.fotmob.com/stats/196/season/37304/penalty_save.json",
+        "topThree": [
+          {
+            "id": 1122644,
+            "name": "Domen Gril",
+            "rank": 1,
+            "ccode": "SVN",
+            "teamId": 8028,
+            "teamName": "Piast Gliwice",
+            "value": 1,
+            "stat": {
+              "name": "penalty_save",
+              "value": 1,
+              "format": "number",
+              "fractions": 0
+            },
+            "teamColors": {
+              "darkMode": "#0850A0",
+              "lightMode": "#0850A0",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
             "id": 867286,
             "name": "Karol Niemczycki",
             "rank": 2,
             "ccode": "POL",
             "teamId": 8025,
             "teamName": "Śląsk Wrocław",
-            "value": 2,
+            "value": 1,
             "stat": {
-              "name": "goals_conceded",
-              "value": 2,
-              "format": "fraction",
-              "fractions": 1
+              "name": "penalty_save",
+              "value": 1,
+              "format": "number",
+              "fractions": 0
             },
             "teamColors": {
               "darkMode": "#138445",
@@ -35220,30 +35494,30 @@
             }
           },
           {
-            "id": 948374,
-            "name": "Filip Majchrowicz",
+            "id": 1132116,
+            "name": "Kacper Trelowski",
             "rank": 3,
             "ccode": "POL",
-            "teamId": 5769,
-            "teamName": "Radomiak Radom",
-            "value": 1.9,
+            "teamId": 4024,
+            "teamName": "Raków Częstochowa",
+            "value": 1,
             "stat": {
-              "name": "goals_conceded",
-              "value": 1.9,
-              "format": "fraction",
-              "fractions": 1
+              "name": "penalty_save",
+              "value": 1,
+              "format": "number",
+              "fractions": 0
             },
             "teamColors": {
-              "darkMode": "#09883C",
-              "lightMode": "#09883C",
+              "darkMode": "#EC1B24",
+              "lightMode": "#EC1B24",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           }
         ],
-        "order": 40,
-        "name": "goals_conceded",
-        "localizedTitleId": "goals_conceded_per_90",
+        "order": 43,
+        "name": "penalty_save",
+        "localizedTitleId": "penalty_saves",
         "category": "Goalkeeping"
       },
       {
@@ -35329,7 +35603,7 @@
             }
           }
         ],
-        "order": 41,
+        "order": 44,
         "name": "fouls",
         "localizedTitleId": "fouls_committed_per_90",
         "category": "Discipline"
@@ -35417,7 +35691,7 @@
             }
           }
         ],
-        "order": 42,
+        "order": 45,
         "name": "yellow_card",
         "localizedTitleId": "yellow_cards",
         "category": "Discipline"
@@ -35505,7 +35779,7 @@
             }
           }
         ],
-        "order": 43,
+        "order": 46,
         "name": "red_card",
         "localizedTitleId": "red_cards",
         "category": "Discipline"
@@ -35591,7 +35865,7 @@
             }
           }
         ],
-        "order": 44,
+        "order": 47,
         "name": "rating_team",
         "localizedTitleId": "rating_team_title",
         "category": "Top Stat"
@@ -35675,7 +35949,7 @@
             }
           }
         ],
-        "order": 45,
+        "order": 48,
         "name": "goals_team_match",
         "localizedTitleId": "goals_team_match_title",
         "category": "Top Stat"
@@ -35759,7 +36033,7 @@
             }
           }
         ],
-        "order": 46,
+        "order": 49,
         "name": "goals_conceded_team_match",
         "localizedTitleId": "goals_conceded_team_match_title",
         "category": "Top Stat"
@@ -35843,7 +36117,7 @@
             }
           }
         ],
-        "order": 47,
+        "order": 50,
         "name": "possession_percentage_team",
         "localizedTitleId": "possession_percentage_title",
         "category": "Top Stat"
@@ -35927,7 +36201,7 @@
             }
           }
         ],
-        "order": 49,
+        "order": 52,
         "name": "clean_sheet_team",
         "localizedTitleId": "clean_sheet_team_title",
         "category": "Top Stat"
@@ -36011,7 +36285,7 @@
             }
           }
         ],
-        "order": 50,
+        "order": 53,
         "name": "home_attendance_team",
         "localizedTitleId": "Attendance",
         "category": "Top Stat"
@@ -36099,7 +36373,7 @@
             }
           }
         ],
-        "order": 50,
+        "order": 53,
         "name": "squad_value_team",
         "localizedTitleId": "squad_value",
         "category": "Top Stat"
@@ -36183,7 +36457,7 @@
             }
           }
         ],
-        "order": 51,
+        "order": 54,
         "name": "expected_goals_team",
         "localizedTitleId": "expected_goals",
         "category": "Attacking"
@@ -36267,7 +36541,7 @@
             }
           }
         ],
-        "order": 52,
+        "order": 55,
         "name": "_xg_diff_team",
         "localizedTitleId": "xg_diff_title",
         "category": "Attacking"
@@ -36351,7 +36625,7 @@
             }
           }
         ],
-        "order": 53,
+        "order": 56,
         "name": "ontarget_scoring_att_team",
         "localizedTitleId": "ontarget_scoring_att_team_title",
         "category": "Attacking"
@@ -36396,8 +36670,28 @@
           },
           {
             "id": 0,
-            "name": "Wisła Kraków",
+            "name": "GKS Katowice",
             "rank": 2,
+            "ccode": "POL",
+            "teamId": 4023,
+            "value": 40,
+            "stat": {
+              "name": "big_chance_team",
+              "value": 40,
+              "format": "number",
+              "fractions": 0
+            },
+            "teamColors": {
+              "darkMode": "#FEE200",
+              "lightMode": "#dd9e00",
+              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 0,
+            "name": "Wisła Kraków",
+            "rank": 3,
             "ccode": "POL",
             "teamId": 10265,
             "value": 39,
@@ -36413,29 +36707,9 @@
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
-          },
-          {
-            "id": 0,
-            "name": "GKS Katowice",
-            "rank": 3,
-            "ccode": "POL",
-            "teamId": 4023,
-            "value": 38,
-            "stat": {
-              "name": "big_chance_team",
-              "value": 38,
-              "format": "number",
-              "fractions": 0
-            },
-            "teamColors": {
-              "darkMode": "#FEE200",
-              "lightMode": "#dd9e00",
-              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
           }
         ],
-        "order": 54,
+        "order": 57,
         "name": "big_chance_team",
         "localizedTitleId": "big_chance",
         "category": "Attacking"
@@ -36480,8 +36754,28 @@
           },
           {
             "id": 0,
-            "name": "Wisła Kraków",
+            "name": "GKS Katowice",
             "rank": 2,
+            "ccode": "POL",
+            "teamId": 4023,
+            "value": 26,
+            "stat": {
+              "name": "big_chance_missed_team",
+              "value": 26,
+              "format": "number",
+              "fractions": 0
+            },
+            "teamColors": {
+              "darkMode": "#FEE200",
+              "lightMode": "#dd9e00",
+              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 0,
+            "name": "Wisła Kraków",
+            "rank": 3,
             "ccode": "POL",
             "teamId": 10265,
             "value": 26,
@@ -36497,29 +36791,9 @@
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
-          },
-          {
-            "id": 0,
-            "name": "Motor Lublin",
-            "rank": 3,
-            "ccode": "POL",
-            "teamId": 89466,
-            "value": 26,
-            "stat": {
-              "name": "big_chance_missed_team",
-              "value": 26,
-              "format": "number",
-              "fractions": 0
-            },
-            "teamColors": {
-              "darkMode": "#FFFF00",
-              "lightMode": "#d7a000",
-              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
           }
         ],
-        "order": 55,
+        "order": 58,
         "name": "big_chance_missed_team",
         "localizedTitleId": "big_chance_missed_team_title",
         "category": "Attacking"
@@ -36603,7 +36877,7 @@
             }
           }
         ],
-        "order": 56,
+        "order": 59,
         "name": "accurate_pass_team",
         "localizedTitleId": "accurate_pass_team_title",
         "category": "Attacking"
@@ -36687,7 +36961,7 @@
             }
           }
         ],
-        "order": 57,
+        "order": 60,
         "name": "accurate_long_balls_team",
         "localizedTitleId": "accurate_long_balls_team_title",
         "category": "Attacking"
@@ -36771,7 +37045,7 @@
             }
           }
         ],
-        "order": 58,
+        "order": 61,
         "name": "accurate_cross_team",
         "localizedTitleId": "accurate_cross_team_title",
         "category": "Attacking"
@@ -36855,7 +37129,7 @@
             }
           }
         ],
-        "order": 59,
+        "order": 62,
         "name": "penalty_won_team",
         "localizedTitleId": "penalty_won_team_title",
         "category": "Attacking"
@@ -36868,10 +37142,10 @@
           "rank": 1,
           "ccode": "POL",
           "teamId": 4023,
-          "value": 340,
+          "value": 342,
           "stat": {
             "name": "touches_in_opp_box_team",
-            "value": 340,
+            "value": 342,
             "format": "number",
             "fractions": 0
           }
@@ -36884,10 +37158,10 @@
             "rank": 1,
             "ccode": "POL",
             "teamId": 4023,
-            "value": 340,
+            "value": 342,
             "stat": {
               "name": "touches_in_opp_box_team",
-              "value": 340,
+              "value": 342,
               "format": "number",
               "fractions": 0
             },
@@ -36939,7 +37213,7 @@
             }
           }
         ],
-        "order": 60,
+        "order": 63,
         "name": "touches_in_opp_box_team",
         "localizedTitleId": "touches_opp_box",
         "category": "Attacking"
@@ -37023,7 +37297,7 @@
             }
           }
         ],
-        "order": 61,
+        "order": 64,
         "name": "corner_taken_team",
         "localizedTitleId": "corners",
         "category": "Attacking"
@@ -37107,7 +37381,7 @@
             }
           }
         ],
-        "order": 62,
+        "order": 65,
         "name": "_set_piece_goals_team",
         "localizedTitleId": "set_piece_goals",
         "category": "Attacking"
@@ -37191,7 +37465,7 @@
             }
           }
         ],
-        "order": 63,
+        "order": 66,
         "name": "expected_goals_conceded_team",
         "localizedTitleId": "expected_goals_conceded",
         "category": "Defending"
@@ -37275,7 +37549,7 @@
             }
           }
         ],
-        "order": 64,
+        "order": 67,
         "name": "interception_team",
         "localizedTitleId": "interception_team_title",
         "category": "Defending"
@@ -37341,13 +37615,13 @@
           {
             "id": 0,
             "name": "Wisła Płock",
-            "rank": 2,
+            "rank": 3,
             "ccode": "POL",
             "teamId": 8243,
-            "value": 16.7,
+            "value": 16.5,
             "stat": {
               "name": "total_tackle_team",
-              "value": 16.7,
+              "value": 16.5,
               "format": "fraction",
               "fractions": 1
             },
@@ -37359,7 +37633,7 @@
             }
           }
         ],
-        "order": 65,
+        "order": 68,
         "name": "total_tackle_team",
         "localizedTitleId": "tackle_title",
         "category": "Defending"
@@ -37443,7 +37717,7 @@
             }
           }
         ],
-        "order": 66,
+        "order": 69,
         "name": "effective_clearance_team",
         "localizedTitleId": "effective_clearance_team_title",
         "category": "Defending"
@@ -37527,7 +37801,7 @@
             }
           }
         ],
-        "order": 67,
+        "order": 70,
         "name": "poss_won_att_3rd_team",
         "localizedTitleId": "poss_won_att_3rd_title",
         "category": "Defending"
@@ -37611,7 +37885,7 @@
             }
           }
         ],
-        "order": 68,
+        "order": 71,
         "name": "_set_piece_goals_conceded_team",
         "localizedTitleId": "set_piece_goals_conceded",
         "category": "Defending"
@@ -37695,7 +37969,7 @@
             }
           }
         ],
-        "order": 69,
+        "order": 72,
         "name": "penalty_conceded_team",
         "localizedTitleId": "penalty_conceded_team_title",
         "category": "Defending"
@@ -37779,7 +38053,7 @@
             }
           }
         ],
-        "order": 70,
+        "order": 73,
         "name": "saves_team",
         "localizedTitleId": "saves_title",
         "category": "Defending"
@@ -37863,7 +38137,7 @@
             }
           }
         ],
-        "order": 71,
+        "order": 74,
         "name": "fk_foul_lost_team",
         "localizedTitleId": "fouls_per_match",
         "category": "Discipline"
@@ -37947,7 +38221,7 @@
             }
           }
         ],
-        "order": 72,
+        "order": 75,
         "name": "total_yel_card_team",
         "localizedTitleId": "yellow_cards",
         "category": "Discipline"
@@ -38031,7 +38305,7 @@
             }
           }
         ],
-        "order": 73,
+        "order": 76,
         "name": "total_red_card_team",
         "localizedTitleId": "red_cards",
         "category": "Discipline"

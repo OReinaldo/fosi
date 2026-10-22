@@ -1,6 +1,49 @@
 {
   "transfers": [
     {
+      "name": "Hernán López",
+      "playerId": 1037535,
+      "position": {
+        "label": "RW",
+        "key": "rightwinger_short"
+      },
+      "transferDate": "2026-10-21T11:33:14Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "San Jose",
+      "fromClubFullName": "San Jose Earthquakes",
+      "fromClubId": 6603,
+      "fromClubColors": {
+        "lightMode": "#0d59af",
+        "darkMode": "#0d59af"
+      },
+      "toClub": "Argentinos Juniors",
+      "toClubFullName": "Argentinos Juniors",
+      "toClubId": 10086,
+      "toClubColors": {
+        "lightMode": "#B62D41",
+        "darkMode": "#B62D41"
+      },
+      "fee": {
+        "feeText": "fee",
+        "localizedFeeText": "transfer_fee",
+        "value": 1800000
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2027-01-01T00:00:00Z",
+      "toDate": null,
+      "marketValue": 2466285
+    },
+    {
       "name": "Guy Hadida",
       "playerId": 716877,
       "position": {
@@ -2050,51 +2093,9 @@
       "fromDate": "2026-09-27T22:00:00Z",
       "toDate": null,
       "marketValue": 933278
-    },
-    {
-      "name": "Patric",
-      "playerId": 358149,
-      "position": {
-        "label": "CM",
-        "key": "centermidfielder_short"
-      },
-      "transferDate": "2026-09-28T09:55:36Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Lazio",
-      "fromClubFullName": "Lazio",
-      "fromClubId": 8543,
-      "fromClubColors": {
-        "lightMode": "#75acd4",
-        "darkMode": "#4096da"
-      },
-      "toClub": "Al-Ittifaq",
-      "toClubFullName": "Al-Ittifaq",
-      "toClubId": -1,
-      "toClubColors": {
-        "lightMode": "#f9f9f9",
-        "darkMode": "#6D7782"
-      },
-      "fee": {
-        "feeText": "free transfer",
-        "localizedFeeText": "transfer_type_free_transfer"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-27T22:00:00Z",
-      "toDate": "2028-06-29T22:00:00Z",
-      "marketValue": 941732
     }
   ],
-  "hits": 7560,
+  "hits": 7558,
   "maxFee": 145000000,
   "maxMarketValue": 119483344,
   "minAge": 15,
