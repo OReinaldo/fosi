@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-22T08:51:07.591043+00:00",
+  "generated_at": "2026-10-23T08:46:55.247802+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -386,7 +386,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "818"
+      "example": "817"
     },
     {
       "path": "$.assets",
@@ -176320,7 +176320,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.fixtures.previousFixturesUrl",
@@ -176440,7 +176440,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-15"
+      "example": "2026-10-16"
     },
     {
       "path": "$.gameInfo",
@@ -177114,7 +177114,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-10-22T08:50:11.873414+00:00"
+      "example": "2026-10-23T08:45:58.208119+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -190139,18 +190139,6 @@
       "example": null
     },
     {
-      "path": "$.history.historicalTableData.ranks[].isConsecutive",
-      "types": {
-        "boolean": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "True"
-    },
-    {
       "path": "$.history.historicalTableData.ranks[].numberOfTeams",
       "types": {
         "integer": 1
@@ -190259,18 +190247,6 @@
       "example": "14"
     },
     {
-      "path": "$.history.historicalTableData.ranks[].tableLink",
-      "types": {
-        "string": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "https://data.fotmob.com/historic/197/season/5339/table.fot.gz"
-    },
-    {
       "path": "$.history.historicalTableData.ranks[].templateId",
       "types": {
         "integer": 1
@@ -190281,18 +190257,6 @@
       ],
       "file_count": 1,
       "example": "197"
-    },
-    {
-      "path": "$.history.historicalTableData.ranks[].tournamentId",
-      "types": {
-        "integer": 1
-      },
-      "occurrences": 1,
-      "sources": [
-        "fotmob"
-      ],
-      "file_count": 1,
-      "example": "5339"
     },
     {
       "path": "$.history.historicalTableData.ranks[].tournamentName",
@@ -198026,7 +197990,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.overview.hasTotw",
@@ -200294,7 +200258,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.overview.newsSummary",
@@ -200726,7 +200690,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-143"
+      "example": "-133"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
@@ -200738,7 +200702,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.70"
+      "example": "1.75"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
@@ -200750,7 +200714,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7/10"
+      "example": "3/4"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
@@ -200954,7 +200918,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "-143"
+      "example": "-133"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
@@ -200966,7 +200930,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "1.70"
+      "example": "1.75"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
@@ -200978,7 +200942,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "7/10"
+      "example": "3/4"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
@@ -201319,14 +201283,14 @@
     {
       "path": "$.overview.nextMatch.startDay",
       "types": {
-        "null": 1
+        "string": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": "Tomorrow"
     },
     {
       "path": "$.overview.nextMatch.stats",
@@ -215705,7 +215669,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-22T08:50:30.517646+00:00"
+      "example": "2026-10-23T08:46:16.740636+00:00"
     },
     {
       "path": "$.rosters",
@@ -228716,7 +228680,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-11-21"
+      "example": "2026-11-22"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -231757,7 +231721,7 @@
         "fotmob"
       ],
       "file_count": 21,
-      "example": "2026-10-22T08:50:10.373712+00:00"
+      "example": "2026-10-23T08:45:56.700001+00:00"
     },
     {
       "path": "$.videos",
