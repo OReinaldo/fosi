@@ -1,6 +1,48 @@
 {
   "transfers": [
     {
+      "name": "René Renner",
+      "playerId": 557831,
+      "position": {
+        "label": "LWB",
+        "key": "left_wing_back_short"
+      },
+      "transferDate": "2026-10-24T09:07:43Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "Wolfsberger AC",
+      "fromClubFullName": "Wolfsberger AC",
+      "fromClubId": 1954,
+      "fromClubColors": {
+        "lightMode": "#1E1E1C",
+        "darkMode": "#ffffff"
+      },
+      "toClub": "Free agent",
+      "toClubFullName": "Free agent",
+      "toClubId": 2,
+      "toClubColors": {
+        "lightMode": "#f9f9f9",
+        "darkMode": "#6D7782"
+      },
+      "fee": {
+        "feeText": "free transfer",
+        "localizedFeeText": "transfer_type_free_transfer"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "contract",
+        "localizationKey": "contract"
+      },
+      "contractExtension": false,
+      "onLoan": false,
+      "fromDate": "2026-10-20T00:00:00Z",
+      "toDate": null,
+      "marketValue": 134742
+    },
+    {
       "name": "Hernán López",
       "playerId": 1037535,
       "position": {
@@ -2054,48 +2096,9 @@
       "fromDate": "2026-09-25T22:00:00Z",
       "toDate": "2026-10-25T23:00:00Z",
       "marketValue": 519524
-    },
-    {
-      "name": "Aleksa Puric",
-      "playerId": 1527038,
-      "position": {
-        "label": "CB",
-        "key": "centerback_short"
-      },
-      "transferDate": "2026-09-28T09:58:42Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Atlético Madrid",
-      "fromClubFullName": "Atlético Madrid",
-      "fromClubId": 9906,
-      "fromClubColors": {
-        "lightMode": "#C63527",
-        "darkMode": "#C63527"
-      },
-      "toClub": "United FC",
-      "toClubFullName": "United FC",
-      "toClubId": 1552577,
-      "toClubColors": {
-        "lightMode": "#231F20",
-        "darkMode": "#ffffff"
-      },
-      "fee": null,
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "contract",
-        "localizationKey": "contract"
-      },
-      "contractExtension": false,
-      "onLoan": false,
-      "fromDate": "2026-09-27T22:00:00Z",
-      "toDate": null,
-      "marketValue": 933278
     }
   ],
-  "hits": 7558,
+  "hits": 7559,
   "maxFee": 145000000,
   "maxMarketValue": 119483344,
   "minAge": 15,
