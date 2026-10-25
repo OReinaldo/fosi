@@ -1,7 +1,7 @@
 {
   "team_id": "8023",
-  "from": "2026-10-17",
-  "to": "2026-11-23",
+  "from": "2026-10-18",
+  "to": "2026-11-24",
   "matches": [
     {
       "id": 5904696,
@@ -415,30 +415,32 @@
     },
     {
       "id": 5804005,
-      "leagueId": 937879,
-      "time": "17.10.2026 17:30",
+      "pageUrl": "/matches/gks-katowice-vs-pogon-szczecin/177d4w#5804005",
+      "opponent": {
+        "id": 4023,
+        "name": "GKS Katowice",
+        "score": 0
+      },
       "home": {
         "id": 4023,
-        "score": 0,
         "name": "GKS Katowice",
-        "longName": "GKS Katowice"
+        "score": 0
       },
       "away": {
         "id": 8023,
-        "score": 1,
         "name": "Pogoń Szczecin",
-        "longName": "Pogoń Szczecin"
+        "score": 1
       },
-      "eliminatedTeamId": null,
-      "statusId": 6,
-      "tournamentStage": "11",
+      "displayTournament": false,
+      "result": 1,
+      "notStarted": false,
+      "tournament": {
+        "name": "Ekstraklasa",
+        "stage": "",
+        "leagueId": 196
+      },
       "status": {
         "utcTime": "2026-10-17T15:30:00.000Z",
-        "halfs": {
-          "firstHalfStarted": "17.10.2026 17:36:25",
-          "secondHalfStarted": "17.10.2026 18:38:50"
-        },
-        "periodLength": 45,
         "finished": true,
         "started": true,
         "cancelled": false,
@@ -450,8 +452,7 @@
           "long": "Full-Time",
           "longKey": "finished"
         }
-      },
-      "timeTS": 1792251000000
+      }
     },
     {
       "id": 5804018,
@@ -459,28 +460,39 @@
       "time": "24.10.2026 17:30",
       "home": {
         "id": 8023,
-        "score": 0,
+        "score": 4,
         "name": "Pogoń Szczecin",
         "longName": "Pogoń Szczecin"
       },
       "away": {
         "id": 5769,
-        "score": 0,
+        "score": 3,
         "name": "Radomiak Radom",
+        "redCards": 1,
         "longName": "Radomiak Radom"
       },
       "eliminatedTeamId": null,
-      "statusId": 1,
+      "statusId": 6,
       "tournamentStage": "12",
       "status": {
         "utcTime": "2026-10-24T15:30:00.000Z",
+        "numberOfAwayRedCards": 1,
         "halfs": {
-          "firstHalfStarted": "24.10.2026 17:30:00"
+          "firstHalfStarted": "24.10.2026 17:31:00",
+          "secondHalfStarted": "24.10.2026 18:36:58"
         },
         "periodLength": 45,
-        "started": false,
+        "finished": true,
+        "started": true,
         "cancelled": false,
-        "finished": false
+        "awarded": false,
+        "scoreStr": "4 - 3",
+        "reason": {
+          "short": "FT",
+          "shortKey": "fulltime_short",
+          "long": "Full-Time",
+          "longKey": "finished"
+        }
       },
       "timeTS": 1792855800000
     },
