@@ -1,9 +1,67 @@
 {
   "sources": [
     {
+      "source": "sofascore",
+      "status": "partial",
+      "retrieved_at": "2026-10-28T09:54:28.063192+00:00",
+      "layers": {
+        "matches": "partial",
+        "stats": "partial",
+        "events": "partial",
+        "spatial": "partial",
+        "lineups": "partial",
+        "video": "unavailable"
+      },
+      "records": {
+        "event": 0,
+        "statistics": 0,
+        "incidents": 0,
+        "lineups": 0,
+        "graph": 0,
+        "shotmap": 0,
+        "media": 0
+      },
+      "errors": [
+        {
+          "layer": "direct_team_api",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "layer": "matches",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "attempted_bases": [
+        "https://api.sofascore.com/api/v1",
+        "https://api.sofascore.app/api/v1",
+        "https://www.sofascore.com/api/v1"
+      ],
+      "proxy_configured": false,
+      "gateway_configured": true,
+      "browser_entry": {
+        "url": "https://www.sofascore.com/football",
+        "title": ""
+      },
+      "browser_team_navigation": {
+        "spa_navigation": false,
+        "current_url": "https://www.sofascore.com/football"
+      },
+      "browser_discovery": {
+        "team_url": "https://www.sofascore.com/football/team/pogo-szczecin/3117",
+        "dom_match_links": 0,
+        "candidate_pages": 0
+      },
+      "browser_capture": {
+        "captured_match_layers": 0,
+        "unique_matches": 0,
+        "pages_visited": 0,
+        "candidate_pages": 0
+      }
+    },
+    {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-10-27T09:15:35.686031+00:00",
+      "retrieved_at": "2026-10-28T09:56:07.900047+00:00",
       "layers": {
         "club": "available",
         "standings": "available",
@@ -36,7 +94,7 @@
           "links": 43
         },
         "https://ekstraklasa.org/statystyki/": {
-          "bytes": 2097578,
+          "bytes": 2097535,
           "layer": "stats",
           "embedded_json_records": 0,
           "html_tables": 0,
@@ -84,7 +142,7 @@
           "links": 57
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/kolejka-5/": {
-          "bytes": 341146,
+          "bytes": 341189,
           "layer": "fixtures",
           "embedded_json_records": 0,
           "html_tables": 0,
@@ -100,7 +158,7 @@
           "links": 55
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/round-7/": {
-          "bytes": 350515,
+          "bytes": 350472,
           "layer": "fixtures",
           "embedded_json_records": 0,
           "html_tables": 0,
@@ -122,7 +180,7 @@
     },
     {
       "source": "understat",
-      "retrieved_at": "2026-10-27T09:15:35.636887+00:00",
+      "retrieved_at": "2026-10-28T09:56:07.860932+00:00",
       "layers": {},
       "records": {},
       "errors": [],
@@ -130,16 +188,73 @@
       "reason": "competition is outside Understat supported league set"
     },
     {
+      "source": "fotmob",
+      "status": "partial",
+      "retrieved_at": "2026-10-28T09:54:12.562561+00:00",
+      "layers": {
+        "team": "available",
+        "players": "available",
+        "competition": "available",
+        "matches": "available",
+        "stats": "available",
+        "events": "available",
+        "spatial": "available",
+        "video": "available"
+      },
+      "records": {
+        "team": 1,
+        "league": 1,
+        "player_profiles": 16,
+        "player_matches": 0,
+        "player_matches_skipped_existing": 16,
+        "player_match_rows": 323,
+        "player_match_source": "playerData.recentMatches",
+        "transfers": 1,
+        "date_scanned_matches": 4,
+        "date_scan_from": "2026-10-21",
+        "date_scan_to": "2026-11-27",
+        "matches": 35,
+        "match_details": 0,
+        "match_details_skipped_existing": 35,
+        "heatmaps": 0,
+        "livetickers": 0,
+        "videos": 6
+      },
+      "errors": [
+        {
+          "match_id": "5803967",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "match_id": "5803955",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "match_id": "5803936",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "match_id": "5803923",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "match_id": "5803899",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "team_id": "8023"
+    },
+    {
       "source": "sofascore-spa",
       "status": "partial",
-      "retrieved_at": "2026-10-26T09:14:46.558139+00:00",
+      "retrieved_at": "2026-10-27T09:15:43.872446+00:00",
       "records": {
         "shotmap": 0,
-        "media": 0,
-        "statistics": 0,
-        "lineups": 0,
         "incidents": 0,
+        "lineups": 0,
         "graph": 0,
+        "statistics": 0,
+        "media": 0,
         "event": 0
       },
       "errors": [],
@@ -200,9 +315,20 @@
       }
     },
     {
+      "source": "fotmob",
+      "status": "success",
+      "source_of_truth": "playerData.recentMatches",
+      "league_id": "196",
+      "profiles_processed": 21,
+      "player_match_files_written": 21,
+      "player_match_rows": 432,
+      "errors": [],
+      "updated_at": "2026-10-27T09:15:42.786304+00:00"
+    },
+    {
       "source": "espn",
       "status": "success",
-      "retrieved_at": "2026-10-27T09:15:25.621115+00:00",
+      "retrieved_at": "2026-10-28T09:55:59.286151+00:00",
       "layers": {
         "matches": "available",
         "team": "available",
@@ -278,153 +404,27 @@
           "status": "unavailable"
         }
       ]
-    },
-    {
-      "source": "fotmob",
-      "status": "partial",
-      "retrieved_at": "2026-10-27T09:13:37.115486+00:00",
-      "layers": {
-        "team": "available",
-        "players": "available",
-        "competition": "available",
-        "matches": "available",
-        "stats": "available",
-        "events": "available",
-        "spatial": "available",
-        "video": "available"
-      },
-      "records": {
-        "team": 1,
-        "league": 1,
-        "player_profiles": 15,
-        "player_matches": 0,
-        "player_matches_skipped_existing": 15,
-        "player_match_rows": 309,
-        "player_match_source": "playerData.recentMatches",
-        "transfers": 1,
-        "date_scanned_matches": 4,
-        "date_scan_from": "2026-10-20",
-        "date_scan_to": "2026-11-26",
-        "matches": 35,
-        "match_details": 0,
-        "match_details_skipped_existing": 35,
-        "heatmaps": 0,
-        "livetickers": 0,
-        "videos": 6
-      },
-      "errors": [
-        {
-          "match_id": "5803967",
-          "error": "HTTP Error 404: Not Found"
-        },
-        {
-          "match_id": "5803955",
-          "error": "HTTP Error 404: Not Found"
-        },
-        {
-          "match_id": "5803936",
-          "error": "HTTP Error 404: Not Found"
-        },
-        {
-          "match_id": "5803923",
-          "error": "HTTP Error 404: Not Found"
-        },
-        {
-          "match_id": "5803899",
-          "error": "HTTP Error 404: Not Found"
-        }
-      ],
-      "team_id": "8023"
-    },
-    {
-      "source": "sofascore",
-      "status": "partial",
-      "retrieved_at": "2026-10-27T09:13:52.231744+00:00",
-      "layers": {
-        "matches": "partial",
-        "stats": "partial",
-        "events": "partial",
-        "spatial": "partial",
-        "lineups": "partial",
-        "video": "unavailable"
-      },
-      "records": {
-        "event": 0,
-        "statistics": 0,
-        "incidents": 0,
-        "lineups": 0,
-        "graph": 0,
-        "shotmap": 0,
-        "media": 0
-      },
-      "errors": [
-        {
-          "layer": "direct_team_api",
-          "error": "HTTP Error 403: Forbidden"
-        },
-        {
-          "layer": "matches",
-          "error": "HTTP Error 403: Forbidden"
-        }
-      ],
-      "attempted_bases": [
-        "https://api.sofascore.com/api/v1",
-        "https://api.sofascore.app/api/v1",
-        "https://www.sofascore.com/api/v1"
-      ],
-      "proxy_configured": false,
-      "gateway_configured": true,
-      "browser_entry": {
-        "url": "https://www.sofascore.com/football",
-        "title": ""
-      },
-      "browser_team_navigation": {
-        "spa_navigation": false,
-        "current_url": "https://www.sofascore.com/football"
-      },
-      "browser_discovery": {
-        "team_url": "https://www.sofascore.com/football/team/pogo-szczecin/3117",
-        "dom_match_links": 0,
-        "candidate_pages": 0
-      },
-      "browser_capture": {
-        "captured_match_layers": 0,
-        "unique_matches": 0,
-        "pages_visited": 0,
-        "candidate_pages": 0
-      }
-    },
-    {
-      "source": "fotmob",
-      "status": "success",
-      "source_of_truth": "playerData.recentMatches",
-      "league_id": "196",
-      "profiles_processed": 21,
-      "player_match_files_written": 21,
-      "player_match_rows": 432,
-      "errors": [],
-      "updated_at": "2026-10-26T09:14:45.188491+00:00"
     }
   ],
   "layers": {
+    "matches": "available",
+    "stats": "available",
+    "events": "available",
+    "spatial": "available",
+    "lineups": "partial",
+    "video": "available",
     "club": "available",
     "standings": "available",
-    "stats": "available",
     "fixtures": "available",
-    "matches": "available",
     "team": "available",
+    "players": "available",
+    "competition": "available",
     "injuries": "available",
     "record": "available",
     "transactions": "available",
-    "events": "available",
     "play_by_play": "partial",
     "probabilities": "partial",
-    "cdn": "partial",
-    "players": "available",
-    "competition": "available",
-    "spatial": "available",
-    "video": "available",
-    "lineups": "partial"
+    "cdn": "partial"
   },
   "target": {
     "enabled": true,
@@ -461,7 +461,7 @@
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-10-27T09:15:42.704576+00:00",
+  "updated_at": "2026-10-28T09:56:15.154503+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
