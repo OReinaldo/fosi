@@ -1,7 +1,7 @@
 {
   "team_id": "8023",
-  "from": "2026-10-21",
-  "to": "2026-11-27",
+  "from": "2026-10-22",
+  "to": "2026-11-28",
   "matches": [
     {
       "id": 5904696,
@@ -591,37 +591,34 @@
     },
     {
       "id": 5804052,
-      "pageUrl": "/matches/lech-poznan-vs-pogon-szczecin/v0cdm#5804052",
-      "opponent": {
-        "id": 2182,
-        "name": "Lech Poznań",
-        "score": 0
-      },
+      "leagueId": 937879,
+      "time": "28.11.2026 18:00",
       "home": {
         "id": 2182,
+        "score": 0,
         "name": "Lech Poznań",
-        "score": 0
+        "longName": "Lech Poznań"
       },
       "away": {
         "id": 8023,
+        "score": 0,
         "name": "Pogoń Szczecin",
-        "score": 0
+        "longName": "Pogoń Szczecin"
       },
-      "displayTournament": false,
-      "notStarted": true,
-      "tournament": {
-        "name": "Ekstraklasa",
-        "stage": "",
-        "leagueId": 196
-      },
+      "eliminatedTeamId": null,
+      "statusId": 1,
+      "tournamentStage": "16",
       "status": {
         "utcTime": "2026-11-28T17:00:00.000Z",
-        "matchDateTbd": true,
-        "matchTimeTbd": false,
+        "halfs": {
+          "firstHalfStarted": "28.11.2026 18:00:00"
+        },
+        "periodLength": 45,
         "started": false,
         "cancelled": false,
         "finished": false
-      }
+      },
+      "timeTS": 1795885200000
     },
     {
       "id": 5804062,
