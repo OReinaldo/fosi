@@ -18224,7 +18224,11 @@
           "stage": ""
         },
         "status": {
-          "utcTime": "2026-10-30T17:00:00Z",
+          "utcTime": "2026-10-30T17:00:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "30.10.2026 18:00:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
@@ -18254,7 +18258,11 @@
           "stage": ""
         },
         "status": {
-          "utcTime": "2026-10-30T19:30:00Z",
+          "utcTime": "2026-10-30T19:30:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "30.10.2026 20:30:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
@@ -24201,7 +24209,7 @@
         }
       }
     ],
-    "hasOngoingMatch": false,
+    "hasOngoingMatch": true,
     "shotMap": null,
     "matches": {
       "firstUnplayedMatch": {
@@ -27511,8 +27519,11 @@
             "id": "89466"
           },
           "status": {
-            "utcTime": "2026-10-30T17:00:00Z",
-            "timezone": "",
+            "utcTime": "2026-10-30T17:00:00.000Z",
+            "halfs": {
+              "firstHalfStarted": "30.10.2026 18:00:00"
+            },
+            "periodLength": 45,
             "started": false,
             "cancelled": false,
             "finished": false
@@ -27534,8 +27545,11 @@
             "id": "8673"
           },
           "status": {
-            "utcTime": "2026-10-30T19:30:00Z",
-            "timezone": "",
+            "utcTime": "2026-10-30T19:30:00.000Z",
+            "halfs": {
+              "firstHalfStarted": "30.10.2026 20:30:00"
+            },
+            "periodLength": 45,
             "started": false,
             "cancelled": false,
             "finished": false
@@ -32096,7 +32110,7 @@
           }
         }
       ],
-      "hasOngoingMatch": false,
+      "hasOngoingMatch": true,
       "fixtureInfo": {
         "activeRound": {
           "roundId": "13",
@@ -41830,8 +41844,11 @@
           "id": "89466"
         },
         "status": {
-          "utcTime": "2026-10-30T17:00:00Z",
-          "timezone": "",
+          "utcTime": "2026-10-30T17:00:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "30.10.2026 18:00:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
@@ -41853,8 +41870,11 @@
           "id": "8673"
         },
         "status": {
-          "utcTime": "2026-10-30T19:30:00Z",
-          "timezone": "",
+          "utcTime": "2026-10-30T19:30:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "30.10.2026 20:30:00"
+          },
+          "periodLength": 45,
           "started": false,
           "cancelled": false,
           "finished": false
@@ -46415,7 +46435,7 @@
         }
       }
     ],
-    "hasOngoingMatch": false,
+    "hasOngoingMatch": true,
     "fixtureInfo": {
       "activeRound": {
         "roundId": "13",
