@@ -1,6 +1,48 @@
 {
   "transfers": [
     {
+      "name": "Corsin Konietzke",
+      "playerId": 1607482,
+      "position": {
+        "label": "AM",
+        "key": "centerattackingmidfielder_short"
+      },
+      "transferDate": "2026-10-31T09:23:39Z",
+      "transferText": [
+        null,
+        null,
+        null
+      ],
+      "fromClub": "St. Gallen",
+      "fromClubFullName": "St. Gallen",
+      "fromClubId": 10190,
+      "fromClubColors": {
+        "lightMode": "#097D35",
+        "darkMode": "#097D35"
+      },
+      "toClub": "FC Vaduz",
+      "toClubFullName": "FC Vaduz",
+      "toClubId": 9824,
+      "toClubColors": {
+        "lightMode": "#DC002E",
+        "darkMode": "#DC002E"
+      },
+      "fee": {
+        "feeText": "on loan",
+        "localizedFeeText": "on_loan"
+      },
+      "amountEuroEstimated": null,
+      "transferType": {
+        "text": "on loan",
+        "localizationKey": "on_loan"
+      },
+      "contractExtension": false,
+      "onLoan": true,
+      "fromDate": "2026-10-29T00:00:00Z",
+      "toDate": "2026-12-20T00:00:00Z",
+      "marketValue": null
+    },
+    {
       "name": "Christos Papadopoulos",
       "playerId": 1585812,
       "position": {
@@ -2058,51 +2100,9 @@
       "fromDate": "2026-09-27T22:00:00Z",
       "toDate": null,
       "marketValue": 5483011
-    },
-    {
-      "name": "Yahya Al Ghassani",
-      "playerId": 959373,
-      "position": {
-        "label": "RW",
-        "key": "rightwinger_short"
-      },
-      "transferDate": "2026-09-29T07:08:24Z",
-      "transferText": [
-        null,
-        null,
-        null
-      ],
-      "fromClub": "Shabab Al-Ahli Dubai FC",
-      "fromClubFullName": "Shabab Al-Ahli Dubai FC",
-      "fromClubId": 102119,
-      "fromClubColors": {
-        "lightMode": "#C02020",
-        "darkMode": "#C02020"
-      },
-      "toClub": "Sharjah Cultural Club",
-      "toClubFullName": "Sharjah Cultural Club",
-      "toClubId": 102124,
-      "toClubColors": {
-        "lightMode": "#97192E",
-        "darkMode": "#ffffff"
-      },
-      "fee": {
-        "feeText": "free transfer",
-        "localizedFeeText": "transfer_type_free_transfer"
-      },
-      "amountEuroEstimated": null,
-      "transferType": {
-        "text": "on loan",
-        "localizationKey": "on_loan"
-      },
-      "contractExtension": false,
-      "onLoan": true,
-      "fromDate": "2026-09-27T22:00:00Z",
-      "toDate": "2027-06-29T22:00:00Z",
-      "marketValue": 686124
     }
   ],
-  "hits": 7557,
+  "hits": 7558,
   "maxFee": 145000000,
   "maxMarketValue": 119483344,
   "minAge": 15,
