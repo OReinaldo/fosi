@@ -173,15 +173,32 @@
               "pageUrl": "/teams/8023/overview/pogon-szczecin",
               "deduction": null,
               "ongoing": null,
-              "played": 11,
+              "played": 12,
               "wins": 7,
               "draws": 3,
-              "losses": 1,
-              "scoresStr": "19-9",
-              "goalConDiff": 10,
+              "losses": 2,
+              "scoresStr": "20-12",
+              "goalConDiff": 8,
               "pts": 24,
               "idx": 4,
               "qualColor": "#02CCF0"
+            },
+            {
+              "name": "Zagłębie Lubin",
+              "shortName": "Zagłębie Lubin",
+              "id": 8021,
+              "pageUrl": "/teams/8021/overview/zagebie-lubin",
+              "deduction": null,
+              "ongoing": null,
+              "played": 13,
+              "wins": 6,
+              "draws": 4,
+              "losses": 3,
+              "scoresStr": "16-15",
+              "goalConDiff": 1,
+              "pts": 22,
+              "idx": 5,
+              "qualColor": null
             },
             {
               "name": "GKS Katowice",
@@ -197,7 +214,7 @@
               "scoresStr": "25-19",
               "goalConDiff": 6,
               "pts": 21,
-              "idx": 5,
+              "idx": 6,
               "qualColor": null
             },
             {
@@ -214,7 +231,7 @@
               "scoresStr": "24-20",
               "goalConDiff": 4,
               "pts": 21,
-              "idx": 6,
+              "idx": 7,
               "qualColor": null
             },
             {
@@ -231,23 +248,6 @@
               "scoresStr": "20-18",
               "goalConDiff": 2,
               "pts": 21,
-              "idx": 7,
-              "qualColor": null
-            },
-            {
-              "name": "Zagłębie Lubin",
-              "shortName": "Zagłębie Lubin",
-              "id": 8021,
-              "pageUrl": "/teams/8021/overview/zagebie-lubin",
-              "deduction": null,
-              "ongoing": null,
-              "played": 12,
-              "wins": 5,
-              "draws": 4,
-              "losses": 3,
-              "scoresStr": "15-15",
-              "goalConDiff": 0,
-              "pts": 19,
               "idx": 8,
               "qualColor": null
             },
@@ -275,12 +275,12 @@
               "pageUrl": "/teams/8245/overview/korona-kielce",
               "deduction": null,
               "ongoing": null,
-              "played": 12,
+              "played": 13,
               "wins": 5,
               "draws": 3,
-              "losses": 4,
-              "scoresStr": "14-18",
-              "goalConDiff": -4,
+              "losses": 5,
+              "scoresStr": "14-19",
+              "goalConDiff": -5,
               "pts": 18,
               "idx": 10,
               "qualColor": null
@@ -354,21 +354,55 @@
               "qualColor": null
             },
             {
+              "name": "Radomiak Radom",
+              "shortName": "Radomiak Radom",
+              "id": 5769,
+              "pageUrl": "/teams/5769/overview/radomiak-radom",
+              "deduction": null,
+              "ongoing": null,
+              "played": 13,
+              "wins": 3,
+              "draws": 2,
+              "losses": 8,
+              "scoresStr": "15-29",
+              "goalConDiff": -14,
+              "pts": 11,
+              "idx": 15,
+              "qualColor": null
+            },
+            {
               "name": "Śląsk Wrocław",
               "shortName": "Śląsk Wrocław",
               "id": 8025,
               "pageUrl": "/teams/8025/overview/slask-wrocaw",
               "deduction": null,
               "ongoing": null,
-              "played": 12,
+              "played": 13,
               "wins": 2,
               "draws": 3,
-              "losses": 7,
-              "scoresStr": "16-22",
-              "goalConDiff": -6,
+              "losses": 8,
+              "scoresStr": "17-25",
+              "goalConDiff": -8,
               "pts": 9,
-              "idx": 15,
-              "qualColor": null
+              "idx": 16,
+              "qualColor": "#FF4646"
+            },
+            {
+              "name": "Raków Częstochowa",
+              "shortName": "Raków Częstochowa",
+              "id": 4024,
+              "pageUrl": "/teams/4024/overview/rakow-czestochowa",
+              "deduction": null,
+              "ongoing": null,
+              "played": 13,
+              "wins": 3,
+              "draws": 0,
+              "losses": 10,
+              "scoresStr": "19-29",
+              "goalConDiff": -10,
+              "pts": 9,
+              "idx": 17,
+              "qualColor": "#FF4646"
             },
             {
               "name": "Wieczysta Kraków",
@@ -384,40 +418,6 @@
               "scoresStr": "17-26",
               "goalConDiff": -9,
               "pts": 8,
-              "idx": 16,
-              "qualColor": "#FF4646"
-            },
-            {
-              "name": "Radomiak Radom",
-              "shortName": "Radomiak Radom",
-              "id": 5769,
-              "pageUrl": "/teams/5769/overview/radomiak-radom",
-              "deduction": null,
-              "ongoing": null,
-              "played": 12,
-              "wins": 2,
-              "draws": 2,
-              "losses": 8,
-              "scoresStr": "12-28",
-              "goalConDiff": -16,
-              "pts": 8,
-              "idx": 17,
-              "qualColor": "#FF4646"
-            },
-            {
-              "name": "Raków Częstochowa",
-              "shortName": "Raków Częstochowa",
-              "id": 4024,
-              "pageUrl": "/teams/4024/overview/rakow-czestochowa",
-              "deduction": null,
-              "ongoing": null,
-              "played": 12,
-              "wins": 2,
-              "draws": 0,
-              "losses": 10,
-              "scoresStr": "16-28",
-              "goalConDiff": -12,
-              "pts": 6,
               "idx": 18,
               "qualColor": "#FF4646"
             }
@@ -460,6 +460,24 @@
               "qualColor": "#FFD908"
             },
             {
+              "name": "Zagłębie Lubin",
+              "shortName": "Zagłębie Lubin",
+              "id": 8021,
+              "pageUrl": "/teams/8021/overview/zagebie-lubin",
+              "deduction": null,
+              "ongoing": null,
+              "played": 7,
+              "wins": 5,
+              "draws": 1,
+              "losses": 1,
+              "scoresStr": "8-4",
+              "goalConDiff": 4,
+              "goalsScored": 8,
+              "pts": 16,
+              "idx": 3,
+              "qualColor": "#0294F0"
+            },
+            {
               "name": "GKS Katowice",
               "shortName": "GKS Katowice",
               "id": 4023,
@@ -474,8 +492,8 @@
               "goalConDiff": 9,
               "goalsScored": 16,
               "pts": 15,
-              "idx": 3,
-              "qualColor": "#0294F0"
+              "idx": 4,
+              "qualColor": "#02CCF0"
             },
             {
               "name": "Pogoń Szczecin",
@@ -492,8 +510,8 @@
               "goalConDiff": 6,
               "goalsScored": 14,
               "pts": 14,
-              "idx": 4,
-              "qualColor": "#02CCF0"
+              "idx": 5,
+              "qualColor": null
             },
             {
               "name": "Piast Gliwice",
@@ -509,24 +527,6 @@
               "scoresStr": "17-12",
               "goalConDiff": 5,
               "goalsScored": 17,
-              "pts": 13,
-              "idx": 5,
-              "qualColor": null
-            },
-            {
-              "name": "Zagłębie Lubin",
-              "shortName": "Zagłębie Lubin",
-              "id": 8021,
-              "pageUrl": "/teams/8021/overview/zagebie-lubin",
-              "deduction": null,
-              "ongoing": null,
-              "played": 6,
-              "wins": 4,
-              "draws": 1,
-              "losses": 1,
-              "scoresStr": "7-4",
-              "goalConDiff": 3,
-              "goalsScored": 7,
               "pts": 13,
               "idx": 6,
               "qualColor": null
@@ -586,6 +586,24 @@
               "qualColor": null
             },
             {
+              "name": "Radomiak Radom",
+              "shortName": "Radomiak Radom",
+              "id": 5769,
+              "pageUrl": "/teams/5769/overview/radomiak-radom",
+              "deduction": null,
+              "ongoing": null,
+              "played": 7,
+              "wins": 3,
+              "draws": 1,
+              "losses": 3,
+              "scoresStr": "10-11",
+              "goalConDiff": -1,
+              "goalsScored": 10,
+              "pts": 10,
+              "idx": 10,
+              "qualColor": null
+            },
+            {
               "name": "Korona Kielce",
               "shortName": "Korona Kielce",
               "id": 8245,
@@ -600,7 +618,7 @@
               "goalConDiff": 0,
               "goalsScored": 7,
               "pts": 9,
-              "idx": 10,
+              "idx": 11,
               "qualColor": null
             },
             {
@@ -618,7 +636,7 @@
               "goalConDiff": -3,
               "goalsScored": 6,
               "pts": 9,
-              "idx": 11,
+              "idx": 12,
               "qualColor": null
             },
             {
@@ -636,7 +654,7 @@
               "goalConDiff": 1,
               "goalsScored": 6,
               "pts": 8,
-              "idx": 12,
+              "idx": 13,
               "qualColor": null
             },
             {
@@ -654,7 +672,7 @@
               "goalConDiff": -1,
               "goalsScored": 9,
               "pts": 8,
-              "idx": 13,
+              "idx": 14,
               "qualColor": null
             },
             {
@@ -672,26 +690,26 @@
               "goalConDiff": -2,
               "goalsScored": 9,
               "pts": 8,
-              "idx": 14,
+              "idx": 15,
               "qualColor": null
             },
             {
-              "name": "Radomiak Radom",
-              "shortName": "Radomiak Radom",
-              "id": 5769,
-              "pageUrl": "/teams/5769/overview/radomiak-radom",
+              "name": "Raków Częstochowa",
+              "shortName": "Raków Częstochowa",
+              "id": 4024,
+              "pageUrl": "/teams/4024/overview/rakow-czestochowa",
               "deduction": null,
               "ongoing": null,
-              "played": 6,
+              "played": 7,
               "wins": 2,
-              "draws": 1,
-              "losses": 3,
-              "scoresStr": "7-10",
-              "goalConDiff": -3,
-              "goalsScored": 7,
-              "pts": 7,
-              "idx": 15,
-              "qualColor": null
+              "draws": 0,
+              "losses": 5,
+              "scoresStr": "12-18",
+              "goalConDiff": -6,
+              "goalsScored": 12,
+              "pts": 6,
+              "idx": 16,
+              "qualColor": "#FF4646"
             },
             {
               "name": "Widzew Łódź",
@@ -708,7 +726,7 @@
               "goalConDiff": -2,
               "goalsScored": 8,
               "pts": 5,
-              "idx": 16,
+              "idx": 17,
               "qualColor": "#FF4646"
             },
             {
@@ -726,24 +744,6 @@
               "goalConDiff": -1,
               "goalsScored": 7,
               "pts": 4,
-              "idx": 17,
-              "qualColor": "#FF4646"
-            },
-            {
-              "name": "Raków Częstochowa",
-              "shortName": "Raków Częstochowa",
-              "id": 4024,
-              "pageUrl": "/teams/4024/overview/rakow-czestochowa",
-              "deduction": null,
-              "ongoing": null,
-              "played": 6,
-              "wins": 1,
-              "draws": 0,
-              "losses": 5,
-              "scoresStr": "9-17",
-              "goalConDiff": -8,
-              "goalsScored": 9,
-              "pts": 3,
               "idx": 18,
               "qualColor": "#FF4646"
             }
@@ -810,13 +810,13 @@
               "pageUrl": "/teams/8023/overview/pogon-szczecin",
               "deduction": null,
               "ongoing": null,
-              "played": 4,
+              "played": 5,
               "wins": 3,
               "draws": 1,
-              "losses": 0,
-              "scoresStr": "5-1",
-              "goalConDiff": 4,
-              "goalsScored": 5,
+              "losses": 1,
+              "scoresStr": "6-4",
+              "goalConDiff": 2,
+              "goalsScored": 6,
               "pts": 10,
               "idx": 4,
               "qualColor": "#02CCF0"
@@ -846,12 +846,12 @@
               "pageUrl": "/teams/8245/overview/korona-kielce",
               "deduction": null,
               "ongoing": null,
-              "played": 6,
+              "played": 7,
               "wins": 3,
               "draws": 0,
-              "losses": 3,
-              "scoresStr": "7-11",
-              "goalConDiff": -4,
+              "losses": 4,
+              "scoresStr": "7-12",
+              "goalConDiff": -5,
               "goalsScored": 7,
               "pts": 9,
               "idx": 6,
@@ -1044,13 +1044,13 @@
               "pageUrl": "/teams/8025/overview/slask-wrocaw",
               "deduction": null,
               "ongoing": null,
-              "played": 6,
+              "played": 7,
               "wins": 0,
               "draws": 1,
-              "losses": 5,
-              "scoresStr": "7-12",
-              "goalConDiff": -5,
-              "goalsScored": 7,
+              "losses": 6,
+              "scoresStr": "8-15",
+              "goalConDiff": -7,
+              "goalsScored": 8,
               "pts": 1,
               "idx": 17,
               "qualColor": "#FF4646"
@@ -1100,13 +1100,13 @@
               "id": 8023,
               "pageUrl": "/teams/8023/overview/pogon-szczecin",
               "played": 5,
-              "wins": 5,
+              "wins": 4,
               "draws": 0,
-              "losses": 0,
-              "scoresStr": "11-4",
-              "goalConDiff": 7,
-              "goalsScored": 11,
-              "pts": 15,
+              "losses": 1,
+              "scoresStr": "10-7",
+              "goalConDiff": 3,
+              "goalsScored": 10,
+              "pts": 12,
               "ongoing": null,
               "idx": 2,
               "qualColor": "#FFD908"
@@ -1229,9 +1229,9 @@
               "wins": 2,
               "draws": 1,
               "losses": 2,
-              "scoresStr": "7-9",
+              "scoresStr": "5-7",
               "goalConDiff": -2,
-              "goalsScored": 7,
+              "goalsScored": 5,
               "pts": 7,
               "ongoing": null,
               "idx": 9,
@@ -1256,6 +1256,24 @@
               "qualColor": null
             },
             {
+              "name": "Raków Częstochowa",
+              "shortName": "Raków Częstochowa",
+              "featuredInMatch": false,
+              "id": 4024,
+              "pageUrl": "/teams/4024/overview/rakow-czestochowa",
+              "played": 5,
+              "wins": 2,
+              "draws": 0,
+              "losses": 3,
+              "scoresStr": "9-11",
+              "goalConDiff": -2,
+              "goalsScored": 9,
+              "pts": 6,
+              "ongoing": null,
+              "idx": 11,
+              "qualColor": null
+            },
+            {
               "name": "Jagiellonia Białystok",
               "shortName": "Jagiellonia Białystok",
               "featuredInMatch": false,
@@ -1270,7 +1288,7 @@
               "goalsScored": 6,
               "pts": 6,
               "ongoing": null,
-              "idx": 11,
+              "idx": 12,
               "qualColor": null
             },
             {
@@ -1283,12 +1301,12 @@
               "wins": 2,
               "draws": 0,
               "losses": 3,
-              "scoresStr": "5-12",
-              "goalConDiff": -7,
+              "scoresStr": "5-11",
+              "goalConDiff": -6,
               "goalsScored": 5,
               "pts": 6,
               "ongoing": null,
-              "idx": 12,
+              "idx": 13,
               "qualColor": null
             },
             {
@@ -1306,7 +1324,7 @@
               "goalsScored": 8,
               "pts": 4,
               "ongoing": null,
-              "idx": 13,
+              "idx": 14,
               "qualColor": null
             },
             {
@@ -1324,7 +1342,7 @@
               "goalsScored": 6,
               "pts": 3,
               "ongoing": null,
-              "idx": 14,
+              "idx": 15,
               "qualColor": null
             },
             {
@@ -1342,8 +1360,26 @@
               "goalsScored": 6,
               "pts": 3,
               "ongoing": null,
-              "idx": 15,
-              "qualColor": null
+              "idx": 16,
+              "qualColor": "#FF4646"
+            },
+            {
+              "name": "Radomiak Radom",
+              "shortName": "Radomiak Radom",
+              "featuredInMatch": false,
+              "id": 5769,
+              "pageUrl": "/teams/5769/overview/radomiak-radom",
+              "played": 5,
+              "wins": 1,
+              "draws": 0,
+              "losses": 4,
+              "scoresStr": "9-14",
+              "goalConDiff": -5,
+              "goalsScored": 9,
+              "pts": 3,
+              "ongoing": null,
+              "idx": 17,
+              "qualColor": "#FF4646"
             },
             {
               "name": "Śląsk Wrocław",
@@ -1355,46 +1391,10 @@
               "wins": 1,
               "draws": 0,
               "losses": 4,
-              "scoresStr": "7-11",
-              "goalConDiff": -4,
+              "scoresStr": "7-12",
+              "goalConDiff": -5,
               "goalsScored": 7,
               "pts": 3,
-              "ongoing": null,
-              "idx": 16,
-              "qualColor": "#FF4646"
-            },
-            {
-              "name": "Raków Częstochowa",
-              "shortName": "Raków Częstochowa",
-              "featuredInMatch": false,
-              "id": 4024,
-              "pageUrl": "/teams/4024/overview/rakow-czestochowa",
-              "played": 5,
-              "wins": 1,
-              "draws": 0,
-              "losses": 4,
-              "scoresStr": "8-13",
-              "goalConDiff": -5,
-              "goalsScored": 8,
-              "pts": 3,
-              "ongoing": null,
-              "idx": 17,
-              "qualColor": "#FF4646"
-            },
-            {
-              "name": "Radomiak Radom",
-              "shortName": "Radomiak Radom",
-              "featuredInMatch": false,
-              "id": 5769,
-              "pageUrl": "/teams/5769/overview/radomiak-radom",
-              "played": 5,
-              "wins": 0,
-              "draws": 0,
-              "losses": 5,
-              "scoresStr": "6-15",
-              "goalConDiff": -9,
-              "goalsScored": 6,
-              "pts": 0,
               "ongoing": null,
               "idx": 18,
               "qualColor": "#FF4646"
@@ -1479,7 +1479,7 @@
               "xPointsDiff": -1.7496067871248187,
               "xPosition": 3,
               "idx": 3,
-              "xPositionDiff": 4,
+              "xPositionDiff": 5,
               "qualColor": "#0294F0"
             },
             {
@@ -1498,12 +1498,12 @@
               "teamId": 89466,
               "teamName": "Motor Lublin",
               "xg": 24.531400322914124,
-              "xgConceded": 19.137400150299072,
-              "xPoints": 21.175647791552862,
+              "xgConceded": 19.166200160980225,
+              "xPoints": 21.1540286681713,
               "position": 4,
               "xgDiff": -5.5314003229141235,
-              "xgConcededDiff": 2.8625998497009277,
-              "xPointsDiff": -5.175647791552862,
+              "xgConcededDiff": 2.8337998390197754,
+              "xPointsDiff": -5.1540286681713,
               "xPosition": 4,
               "idx": 4,
               "xPositionDiff": 7,
@@ -1560,7 +1560,7 @@
               "xPointsDiff": 1.9174090153289605,
               "xPosition": 6,
               "idx": 6,
-              "xPositionDiff": -1,
+              "xPositionDiff": 0,
               "qualColor": null
             },
             {
@@ -1578,16 +1578,43 @@
               "pts": 12,
               "teamId": 2186,
               "teamName": "Cracovia",
-              "xg": 20.809599995613098,
+              "xg": 20.83840000629425,
               "xgConceded": 18.73449993133545,
-              "xPoints": 18.79989270987752,
+              "xPoints": 18.820414342446227,
               "position": 7,
-              "xgDiff": -5.809599995613098,
+              "xgDiff": -5.8384000062942505,
               "xgConcededDiff": 2.265500068664551,
-              "xPointsDiff": -6.799892709877518,
+              "xPointsDiff": -6.820414342446227,
               "xPosition": 7,
               "idx": 7,
               "xPositionDiff": 6,
+              "qualColor": null
+            },
+            {
+              "name": "Zagłębie Lubin",
+              "shortName": "Zagłębie Lubin",
+              "id": 8021,
+              "pageUrl": "/teams/8021/overview/zagebie-lubin",
+              "ongoing": null,
+              "played": 13,
+              "wins": 6,
+              "draws": 4,
+              "losses": 3,
+              "scoresStr": "16-15",
+              "goalConDiff": 1,
+              "pts": 22,
+              "teamId": 8021,
+              "teamName": "Zagłębie Lubin",
+              "xg": 17.890999913215637,
+              "xgConceded": 18.78960007429123,
+              "xPoints": 17.56085881567938,
+              "position": 8,
+              "xgDiff": -1.8909999132156372,
+              "xgConcededDiff": -3.7896000742912292,
+              "xPointsDiff": 4.4391411843206185,
+              "xPosition": 8,
+              "idx": 8,
+              "xPositionDiff": -3,
               "qualColor": null
             },
             {
@@ -1608,13 +1635,40 @@
               "xg": 21.881799936294556,
               "xgConceded": 24.62279975414276,
               "xPoints": 16.2999959316689,
-              "position": 8,
+              "position": 9,
               "xgDiff": -4.881799936294556,
               "xgConcededDiff": 1.3772002458572388,
               "xPointsDiff": -8.2999959316689,
-              "xPosition": 8,
-              "idx": 8,
-              "xPositionDiff": 8,
+              "xPosition": 9,
+              "idx": 9,
+              "xPositionDiff": 9,
+              "qualColor": null
+            },
+            {
+              "name": "Pogoń Szczecin",
+              "shortName": "Pogoń Szczecin",
+              "id": 8023,
+              "pageUrl": "/teams/8023/overview/pogon-szczecin",
+              "ongoing": null,
+              "played": 12,
+              "wins": 7,
+              "draws": 3,
+              "losses": 2,
+              "scoresStr": "20-12",
+              "goalConDiff": 8,
+              "pts": 24,
+              "teamId": 8023,
+              "teamName": "Pogoń Szczecin",
+              "xg": 17.877100110054016,
+              "xgConceded": 19.187899947166443,
+              "xPoints": 16.161055507277045,
+              "position": 10,
+              "xgDiff": 2.122899889945984,
+              "xgConcededDiff": -7.187899947166443,
+              "xPointsDiff": 7.8389444927229555,
+              "xPosition": 10,
+              "idx": 10,
+              "xPositionDiff": -6,
               "qualColor": null
             },
             {
@@ -1635,67 +1689,94 @@
               "xg": 20.48920002579689,
               "xgConceded": 19.991899967193604,
               "xPoints": 16.1342580078924,
-              "position": 9,
+              "position": 11,
               "xgDiff": -3.4892000257968903,
               "xgConcededDiff": -1.9918999671936035,
               "xPointsDiff": 1.8657419921076013,
-              "xPosition": 9,
-              "idx": 9,
-              "xPositionDiff": 0,
-              "qualColor": null
-            },
-            {
-              "name": "Zagłębie Lubin",
-              "shortName": "Zagłębie Lubin",
-              "id": 8021,
-              "pageUrl": "/teams/8021/overview/zagebie-lubin",
-              "ongoing": null,
-              "played": 12,
-              "wins": 5,
-              "draws": 4,
-              "losses": 3,
-              "scoresStr": "15-15",
-              "goalConDiff": 0,
-              "pts": 19,
-              "teamId": 8021,
-              "teamName": "Zagłębie Lubin",
-              "xg": 16.830999970436096,
-              "xgConceded": 17.999000072479248,
-              "xPoints": 15.982988584072343,
-              "position": 10,
-              "xgDiff": -1.8309999704360962,
-              "xgConcededDiff": -2.999000072479248,
-              "xPointsDiff": 3.017011415927657,
-              "xPosition": 10,
-              "idx": 10,
+              "xPosition": 11,
+              "idx": 11,
               "xPositionDiff": -2,
               "qualColor": null
             },
             {
-              "name": "Pogoń Szczecin",
-              "shortName": "Pogoń Szczecin",
-              "id": 8023,
-              "pageUrl": "/teams/8023/overview/pogon-szczecin",
+              "name": "Raków Częstochowa",
+              "shortName": "Raków Częstochowa",
+              "id": 4024,
+              "pageUrl": "/teams/4024/overview/rakow-czestochowa",
               "ongoing": null,
-              "played": 11,
-              "wins": 7,
+              "played": 13,
+              "wins": 3,
+              "draws": 0,
+              "losses": 10,
+              "scoresStr": "19-29",
+              "goalConDiff": -10,
+              "pts": 9,
+              "teamId": 4024,
+              "teamName": "Raków Częstochowa",
+              "xg": 22.45590004324913,
+              "xgConceded": 29.189500212669373,
+              "xPoints": 15.79880291703097,
+              "position": 12,
+              "xgDiff": -3.4559000432491302,
+              "xgConcededDiff": -0.18950021266937256,
+              "xPointsDiff": -6.7988029170309705,
+              "xPosition": 12,
+              "idx": 12,
+              "xPositionDiff": 5,
+              "qualColor": null
+            },
+            {
+              "name": "Radomiak Radom",
+              "shortName": "Radomiak Radom",
+              "id": 5769,
+              "pageUrl": "/teams/5769/overview/radomiak-radom",
+              "ongoing": null,
+              "played": 13,
+              "wins": 3,
+              "draws": 2,
+              "losses": 8,
+              "scoresStr": "15-29",
+              "goalConDiff": -14,
+              "pts": 11,
+              "teamId": 5769,
+              "teamName": "Radomiak Radom",
+              "xg": 20.54739984869957,
+              "xgConceded": 26.44480013847351,
+              "xPoints": 15.06405188817467,
+              "position": 13,
+              "xgDiff": -5.54739984869957,
+              "xgConcededDiff": 2.5551998615264893,
+              "xPointsDiff": -4.064051888174671,
+              "xPosition": 13,
+              "idx": 13,
+              "xPositionDiff": 2,
+              "qualColor": null
+            },
+            {
+              "name": "Korona Kielce",
+              "shortName": "Korona Kielce",
+              "id": 8245,
+              "pageUrl": "/teams/8245/overview/korona-kielce",
+              "ongoing": null,
+              "played": 13,
+              "wins": 5,
               "draws": 3,
-              "losses": 1,
-              "scoresStr": "19-9",
-              "goalConDiff": 10,
-              "pts": 24,
-              "teamId": 8023,
-              "teamName": "Pogoń Szczecin",
-              "xg": 17.30680012702942,
-              "xgConceded": 16.49929988384247,
-              "xPoints": 15.974492329634222,
-              "position": 11,
-              "xgDiff": 1.693199872970581,
-              "xgConcededDiff": -7.499299883842468,
-              "xPointsDiff": 8.025507670365778,
-              "xPosition": 11,
-              "idx": 11,
-              "xPositionDiff": -7,
+              "losses": 5,
+              "scoresStr": "14-19",
+              "goalConDiff": -5,
+              "pts": 18,
+              "teamId": 8245,
+              "teamName": "Korona Kielce",
+              "xg": 17.37189992517233,
+              "xgConceded": 21.187300205230713,
+              "xPoints": 14.958912952998677,
+              "position": 14,
+              "xgDiff": -3.371899925172329,
+              "xgConcededDiff": -2.187300205230713,
+              "xPointsDiff": 3.041087047001323,
+              "xPosition": 14,
+              "idx": 14,
+              "xPositionDiff": -4,
               "qualColor": null
             },
             {
@@ -1716,13 +1797,13 @@
               "xg": 19.70600003004074,
               "xgConceded": 24.539100110530853,
               "xPoints": 14.785659075353514,
-              "position": 12,
+              "position": 15,
               "xgDiff": -2.706000030040741,
               "xgConcededDiff": -5.539100110530853,
               "xPointsDiff": -3.7856590753535144,
-              "xPosition": 12,
-              "idx": 12,
-              "xPositionDiff": 2,
+              "xPosition": 15,
+              "idx": 15,
+              "xPositionDiff": -1,
               "qualColor": null
             },
             {
@@ -1743,94 +1824,13 @@
               "xg": 17.22660005092621,
               "xgConceded": 20.040400087833405,
               "xPoints": 14.398677774951926,
-              "position": 13,
+              "position": 16,
               "xgDiff": -5.2266000509262085,
               "xgConcededDiff": -2.0404000878334045,
               "xPointsDiff": 0.6013222250480741,
-              "xPosition": 13,
-              "idx": 13,
-              "xPositionDiff": -1,
-              "qualColor": null
-            },
-            {
-              "name": "Korona Kielce",
-              "shortName": "Korona Kielce",
-              "id": 8245,
-              "pageUrl": "/teams/8245/overview/korona-kielce",
-              "ongoing": null,
-              "played": 12,
-              "wins": 5,
-              "draws": 3,
-              "losses": 4,
-              "scoresStr": "14-18",
-              "goalConDiff": -4,
-              "pts": 18,
-              "teamId": 8245,
-              "teamName": "Korona Kielce",
-              "xg": 16.581299923360348,
-              "xgConceded": 20.127300262451172,
-              "xPoints": 13.860365965394534,
-              "position": 14,
-              "xgDiff": -2.5812999233603477,
-              "xgConcededDiff": -2.127300262451172,
-              "xPointsDiff": 4.139634034605466,
-              "xPosition": 14,
-              "idx": 14,
-              "xPositionDiff": -4,
-              "qualColor": null
-            },
-            {
-              "name": "Radomiak Radom",
-              "shortName": "Radomiak Radom",
-              "id": 5769,
-              "pageUrl": "/teams/5769/overview/radomiak-radom",
-              "ongoing": null,
-              "played": 12,
-              "wins": 2,
-              "draws": 2,
-              "losses": 8,
-              "scoresStr": "12-28",
-              "goalConDiff": -16,
-              "pts": 8,
-              "teamId": 5769,
-              "teamName": "Radomiak Radom",
-              "xg": 18.19989976286888,
-              "xgConceded": 24.562700152397156,
-              "xPoints": 13.353347292514458,
-              "position": 15,
-              "xgDiff": -6.199899762868881,
-              "xgConcededDiff": 3.4372998476028442,
-              "xPointsDiff": -5.353347292514458,
-              "xPosition": 15,
-              "idx": 15,
-              "xPositionDiff": 2,
-              "qualColor": null
-            },
-            {
-              "name": "Raków Częstochowa",
-              "shortName": "Raków Częstochowa",
-              "id": 4024,
-              "pageUrl": "/teams/4024/overview/rakow-czestochowa",
-              "ongoing": null,
-              "played": 12,
-              "wins": 2,
-              "draws": 0,
-              "losses": 10,
-              "scoresStr": "16-28",
-              "goalConDiff": -12,
-              "pts": 6,
-              "teamId": 4024,
-              "teamName": "Raków Częstochowa",
-              "xg": 19.767299979925156,
-              "xgConceded": 28.619200229644775,
-              "xPoints": 13.077970003599631,
-              "position": 16,
-              "xgDiff": -3.7672999799251556,
-              "xgConcededDiff": -0.6192002296447754,
-              "xPointsDiff": -7.077970003599631,
               "xPosition": 16,
               "idx": 16,
-              "xPositionDiff": 2,
+              "xPositionDiff": -4,
               "qualColor": "#FF4646"
             },
             {
@@ -1839,25 +1839,25 @@
               "id": 8025,
               "pageUrl": "/teams/8025/overview/slask-wrocaw",
               "ongoing": null,
-              "played": 12,
+              "played": 13,
               "wins": 2,
               "draws": 3,
-              "losses": 7,
-              "scoresStr": "16-22",
-              "goalConDiff": -6,
+              "losses": 8,
+              "scoresStr": "17-25",
+              "goalConDiff": -8,
               "pts": 9,
               "teamId": 8025,
               "teamName": "Śląsk Wrocław",
-              "xg": 17.50409996509552,
-              "xgConceded": 24.970100462436676,
-              "xPoints": 12.807050816309076,
+              "xg": 19.386199951171875,
+              "xgConceded": 27.317600548267365,
+              "xPoints": 13.868268854907821,
               "position": 17,
-              "xgDiff": -1.50409996509552,
-              "xgConcededDiff": -2.970100462436676,
-              "xPointsDiff": -3.8070508163090757,
+              "xgDiff": -2.386199951171875,
+              "xgConcededDiff": -2.3176005482673645,
+              "xPointsDiff": -4.8682688549078215,
               "xPosition": 17,
               "idx": 17,
-              "xPositionDiff": -2,
+              "xPositionDiff": -1,
               "qualColor": "#FF4646"
             },
             {
@@ -1884,7 +1884,7 @@
               "xPointsDiff": 8.743787916103596,
               "xPosition": 18,
               "idx": 18,
-              "xPositionDiff": -12,
+              "xPositionDiff": -11,
               "qualColor": "#FF4646"
             }
           ]
@@ -2520,36 +2520,6 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8021.png",
-            "linkToMatch": "/matches/rakow-czestochowa-vs-zagebie-lubin/1773u8#5803938",
-            "date": null,
-            "teamPageUrl": "/teams/8021/overview/zagebie-lubin",
-            "tooltipText": {
-              "utcTime": "2026-09-15T16:00:00Z",
-              "homeTeam": "Raków Częstochowa",
-              "homeTeamId": 4024,
-              "homeScore": 2,
-              "awayTeam": "Zagłębie Lubin",
-              "awayTeamId": 8021,
-              "awayScore": 3
-            },
-            "score": "2 - 3",
-            "home": {
-              "id": "4024",
-              "name": "Raków Częstochowa",
-              "shortName": "Raków Częstochowa",
-              "isOurTeam": true
-            },
-            "away": {
-              "id": "8021",
-              "name": "Zagłębie Lubin",
-              "shortName": "Zagłębie Lubin",
-              "isOurTeam": false
-            }
-          },
-          {
-            "result": -1,
-            "resultString": "L",
             "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8245.png",
             "linkToMatch": "/matches/rakow-czestochowa-vs-korona-kielce/18thb4#5803988",
             "date": null,
@@ -2666,39 +2636,39 @@
               "shortName": "Raków Częstochowa",
               "isOurTeam": true
             }
-          }
-        ],
-        "5769": [
+          },
           {
-            "result": -1,
-            "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8028.png",
-            "linkToMatch": "/matches/radomiak-radom-vs-piast-gliwice/1kobsr#5803980",
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8023.png",
+            "linkToMatch": "/matches/rakow-czestochowa-vs-pogon-szczecin/177mfj#5804027",
             "date": null,
-            "teamPageUrl": "/teams/8028/overview/piast-gliwice",
+            "teamPageUrl": "/teams/8023/overview/pogon-szczecin",
             "tooltipText": {
-              "utcTime": "2026-09-14T17:00:00Z",
-              "homeTeam": "Radomiak Radom",
-              "homeTeamId": 5769,
-              "homeScore": 0,
-              "awayTeam": "Piast Gliwice",
-              "awayTeamId": 8028,
-              "awayScore": 2
+              "utcTime": "2026-11-02T19:30:00Z",
+              "homeTeam": "Raków Częstochowa",
+              "homeTeamId": 4024,
+              "homeScore": 3,
+              "awayTeam": "Pogoń Szczecin",
+              "awayTeamId": 8023,
+              "awayScore": 1
             },
-            "score": "0 - 2",
+            "score": "3 - 1",
             "home": {
-              "id": "5769",
-              "name": "Radomiak Radom",
-              "shortName": "Radomiak Radom",
+              "id": "4024",
+              "name": "Raków Częstochowa",
+              "shortName": "Raków Częstochowa",
               "isOurTeam": true
             },
             "away": {
-              "id": "8028",
-              "name": "Piast Gliwice",
-              "shortName": "Piast Gliwice",
+              "id": "8023",
+              "name": "Pogoń Szczecin",
+              "shortName": "Pogoń Szczecin",
               "isOurTeam": false
             }
-          },
+          }
+        ],
+        "5769": [
           {
             "result": -1,
             "resultString": "L",
@@ -2817,6 +2787,36 @@
               "name": "Radomiak Radom",
               "shortName": "Radomiak Radom",
               "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8025.png",
+            "linkToMatch": "/matches/radomiak-radom-vs-slask-wrocaw/1knfv0#5804026",
+            "date": null,
+            "teamPageUrl": "/teams/8025/overview/slask-wrocaw",
+            "tooltipText": {
+              "utcTime": "2026-11-02T17:00:00Z",
+              "homeTeam": "Radomiak Radom",
+              "homeTeamId": 5769,
+              "homeScore": 3,
+              "awayTeam": "Śląsk Wrocław",
+              "awayTeamId": 8025,
+              "awayScore": 1
+            },
+            "score": "3 - 1",
+            "home": {
+              "id": "5769",
+              "name": "Radomiak Radom",
+              "shortName": "Radomiak Radom",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "8025",
+              "name": "Śląsk Wrocław",
+              "shortName": "Śląsk Wrocław",
+              "isOurTeam": false
             }
           }
         ],
@@ -2974,36 +2974,6 @@
         ],
         "8021": [
           {
-            "result": 1,
-            "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/4024.png",
-            "linkToMatch": "/matches/rakow-czestochowa-vs-zagebie-lubin/1773u8#5803938",
-            "date": null,
-            "teamPageUrl": "/teams/4024/overview/rakow-czestochowa",
-            "tooltipText": {
-              "utcTime": "2026-09-15T16:00:00Z",
-              "homeTeam": "Raków Częstochowa",
-              "homeTeamId": 4024,
-              "homeScore": 2,
-              "awayTeam": "Zagłębie Lubin",
-              "awayTeamId": 8021,
-              "awayScore": 3
-            },
-            "score": "2 - 3",
-            "home": {
-              "id": "4024",
-              "name": "Raków Częstochowa",
-              "shortName": "Raków Częstochowa",
-              "isOurTeam": false
-            },
-            "away": {
-              "id": "8021",
-              "name": "Zagłębie Lubin",
-              "shortName": "Zagłębie Lubin",
-              "isOurTeam": true
-            }
-          },
-          {
             "result": -1,
             "resultString": "L",
             "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8243.png",
@@ -3122,39 +3092,39 @@
               "shortName": "Zagłębie Lubin",
               "isOurTeam": true
             }
-          }
-        ],
-        "8023": [
+          },
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/1286895.png",
-            "linkToMatch": "/matches/pogon-szczecin-vs-wieczysta-krakow/ap5pv1fw#5803979",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8245.png",
+            "linkToMatch": "/matches/zagebie-lubin-vs-korona-kielce/26rtbg#5804030",
             "date": null,
-            "teamPageUrl": "/teams/1286895/overview/wieczysta-krakow",
+            "teamPageUrl": "/teams/8245/overview/korona-kielce",
             "tooltipText": {
-              "utcTime": "2026-09-13T12:45:00Z",
-              "homeTeam": "Pogoń Szczecin",
-              "homeTeamId": 8023,
-              "homeScore": 2,
-              "awayTeam": "Wieczysta Kraków",
-              "awayTeamId": 1286895,
+              "utcTime": "2026-11-02T17:00:00Z",
+              "homeTeam": "Zagłębie Lubin",
+              "homeTeamId": 8021,
+              "homeScore": 1,
+              "awayTeam": "Korona Kielce",
+              "awayTeamId": 8245,
               "awayScore": 0
             },
-            "score": "2 - 0",
+            "score": "1 - 0",
             "home": {
-              "id": "8023",
-              "name": "Pogoń Szczecin",
-              "shortName": "Pogoń Szczecin",
+              "id": "8021",
+              "name": "Zagłębie Lubin",
+              "shortName": "Zagłębie Lubin",
               "isOurTeam": true
             },
             "away": {
-              "id": "1286895",
-              "name": "Wieczysta Kraków",
-              "shortName": "Wieczysta Kraków",
+              "id": "8245",
+              "name": "Korona Kielce",
+              "shortName": "Korona Kielce",
               "isOurTeam": false
             }
-          },
+          }
+        ],
+        "8023": [
           {
             "result": 1,
             "resultString": "W",
@@ -3273,6 +3243,36 @@
               "name": "Radomiak Radom",
               "shortName": "Radomiak Radom",
               "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/4024.png",
+            "linkToMatch": "/matches/rakow-czestochowa-vs-pogon-szczecin/177mfj#5804027",
+            "date": null,
+            "teamPageUrl": "/teams/4024/overview/rakow-czestochowa",
+            "tooltipText": {
+              "utcTime": "2026-11-02T19:30:00Z",
+              "homeTeam": "Raków Częstochowa",
+              "homeTeamId": 4024,
+              "homeScore": 3,
+              "awayTeam": "Pogoń Szczecin",
+              "awayTeamId": 8023,
+              "awayScore": 1
+            },
+            "score": "3 - 1",
+            "home": {
+              "id": "4024",
+              "name": "Raków Częstochowa",
+              "shortName": "Raków Częstochowa",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "8023",
+              "name": "Pogoń Szczecin",
+              "shortName": "Pogoń Szczecin",
+              "isOurTeam": true
             }
           }
         ],
@@ -3432,36 +3432,6 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8245.png",
-            "linkToMatch": "/matches/slask-wrocaw-vs-korona-kielce/26t7j2#5803982",
-            "date": null,
-            "teamPageUrl": "/teams/8245/overview/korona-kielce",
-            "tooltipText": {
-              "utcTime": "2026-09-12T12:45:00Z",
-              "homeTeam": "Śląsk Wrocław",
-              "homeTeamId": 8025,
-              "homeScore": 1,
-              "awayTeam": "Korona Kielce",
-              "awayTeamId": 8245,
-              "awayScore": 2
-            },
-            "score": "1 - 2",
-            "home": {
-              "id": "8025",
-              "name": "Śląsk Wrocław",
-              "shortName": "Śląsk Wrocław",
-              "isOurTeam": true
-            },
-            "away": {
-              "id": "8245",
-              "name": "Korona Kielce",
-              "shortName": "Korona Kielce",
-              "isOurTeam": false
-            }
-          },
-          {
-            "result": -1,
-            "resultString": "L",
             "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10265.png",
             "linkToMatch": "/matches/slask-wrocaw-vs-wisa-krakow/2rldh0#5803993",
             "date": null,
@@ -3577,6 +3547,36 @@
               "name": "Wieczysta Kraków",
               "shortName": "Wieczysta Kraków",
               "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5769.png",
+            "linkToMatch": "/matches/radomiak-radom-vs-slask-wrocaw/1knfv0#5804026",
+            "date": null,
+            "teamPageUrl": "/teams/5769/overview/radomiak-radom",
+            "tooltipText": {
+              "utcTime": "2026-11-02T17:00:00Z",
+              "homeTeam": "Radomiak Radom",
+              "homeTeamId": 5769,
+              "homeScore": 3,
+              "awayTeam": "Śląsk Wrocław",
+              "awayTeamId": 8025,
+              "awayScore": 1
+            },
+            "score": "3 - 1",
+            "home": {
+              "id": "5769",
+              "name": "Radomiak Radom",
+              "shortName": "Radomiak Radom",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "8025",
+              "name": "Śląsk Wrocław",
+              "shortName": "Śląsk Wrocław",
+              "isOurTeam": true
             }
           }
         ],
@@ -3886,36 +3886,6 @@
         ],
         "8245": [
           {
-            "result": -1,
-            "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8020.png",
-            "linkToMatch": "/matches/gornik-zabrze-vs-korona-kielce/26rgrm#5803925",
-            "date": null,
-            "teamPageUrl": "/teams/8020/overview/gornik-zabrze",
-            "tooltipText": {
-              "utcTime": "2026-09-15T18:30:00Z",
-              "homeTeam": "Korona Kielce",
-              "homeTeamId": 8245,
-              "homeScore": 0,
-              "awayTeam": "Górnik Zabrze",
-              "awayTeamId": 8020,
-              "awayScore": 2
-            },
-            "score": "0 - 2",
-            "home": {
-              "id": "8245",
-              "name": "Korona Kielce",
-              "shortName": "Korona Kielce",
-              "isOurTeam": true
-            },
-            "away": {
-              "id": "8020",
-              "name": "Górnik Zabrze",
-              "shortName": "Górnik Zabrze",
-              "isOurTeam": false
-            }
-          },
-          {
             "result": 1,
             "resultString": "W",
             "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/4024.png",
@@ -4033,6 +4003,36 @@
               "name": "GKS Katowice",
               "shortName": "GKS Katowice",
               "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8021.png",
+            "linkToMatch": "/matches/zagebie-lubin-vs-korona-kielce/26rtbg#5804030",
+            "date": null,
+            "teamPageUrl": "/teams/8021/overview/zagebie-lubin",
+            "tooltipText": {
+              "utcTime": "2026-11-02T17:00:00Z",
+              "homeTeam": "Zagłębie Lubin",
+              "homeTeamId": 8021,
+              "homeScore": 1,
+              "awayTeam": "Korona Kielce",
+              "awayTeamId": 8245,
+              "awayScore": 0
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "8021",
+              "name": "Zagłębie Lubin",
+              "shortName": "Zagłębie Lubin",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "8245",
+              "name": "Korona Kielce",
+              "shortName": "Korona Kielce",
+              "isOurTeam": true
             }
           }
         ],
@@ -4711,36 +4711,36 @@
           "2026-11-08T13:45:00Z"
         ],
         "4024": [
-          "8023",
-          "Pogoń Szczecin",
-          "5804027",
+          "8673",
+          "Legia Warszawa",
+          "5804035",
+          {
+            "id": "8673",
+            "name": "Legia Warszawa",
+            "shortName": "Legia Warszawa"
+          },
           {
             "id": "4024",
             "name": "Raków Częstochowa",
             "shortName": "Raków Częstochowa"
           },
-          {
-            "id": "8023",
-            "name": "Pogoń Szczecin",
-            "shortName": "Pogoń Szczecin"
-          },
-          "2026-11-02T19:30:00Z"
+          "2026-11-08T16:30:00Z"
         ],
         "5769": [
-          "8025",
-          "Śląsk Wrocław",
-          "5804026",
+          "8245",
+          "Korona Kielce",
+          "5804033",
+          {
+            "id": "8245",
+            "name": "Korona Kielce",
+            "shortName": "Korona Kielce"
+          },
           {
             "id": "5769",
             "name": "Radomiak Radom",
             "shortName": "Radomiak Radom"
           },
-          {
-            "id": "8025",
-            "name": "Śląsk Wrocław",
-            "shortName": "Śląsk Wrocław"
-          },
-          "2026-11-02T17:00:00Z"
+          "2026-11-07T11:15:00Z"
         ],
         "8020": [
           "1286895",
@@ -4759,36 +4759,36 @@
           "2026-11-07T16:30:00Z"
         ],
         "8021": [
-          "8245",
-          "Korona Kielce",
-          "5804030",
+          "2182",
+          "Lech Poznań",
+          "5804034",
+          {
+            "id": "2182",
+            "name": "Lech Poznań",
+            "shortName": "Lech Poznań"
+          },
           {
             "id": "8021",
             "name": "Zagłębie Lubin",
             "shortName": "Zagłębie Lubin"
           },
-          {
-            "id": "8245",
-            "name": "Korona Kielce",
-            "shortName": "Korona Kielce"
-          },
-          "2026-11-02T17:00:00Z"
+          "2026-11-08T19:15:00Z"
         ],
         "8023": [
-          "4024",
-          "Raków Częstochowa",
-          "5804027",
+          "8024",
+          "Widzew Łódź",
+          "5804038",
           {
-            "id": "4024",
-            "name": "Raków Częstochowa",
-            "shortName": "Raków Częstochowa"
+            "id": "8024",
+            "name": "Widzew Łódź",
+            "shortName": "Widzew Łódź"
           },
           {
             "id": "8023",
             "name": "Pogoń Szczecin",
             "shortName": "Pogoń Szczecin"
           },
-          "2026-11-02T19:30:00Z"
+          "2026-11-07T19:15:00Z"
         ],
         "8024": [
           "8023",
@@ -4807,20 +4807,20 @@
           "2026-11-07T19:15:00Z"
         ],
         "8025": [
-          "5769",
-          "Radomiak Radom",
-          "5804026",
-          {
-            "id": "5769",
-            "name": "Radomiak Radom",
-            "shortName": "Radomiak Radom"
-          },
+          "8028",
+          "Piast Gliwice",
+          "5804037",
           {
             "id": "8025",
             "name": "Śląsk Wrocław",
             "shortName": "Śląsk Wrocław"
           },
-          "2026-11-02T17:00:00Z"
+          {
+            "id": "8028",
+            "name": "Piast Gliwice",
+            "shortName": "Piast Gliwice"
+          },
+          "2026-11-07T13:45:00Z"
         ],
         "8028": [
           "8025",
@@ -4855,20 +4855,20 @@
           "2026-11-06T17:00:00Z"
         ],
         "8245": [
-          "8021",
-          "Zagłębie Lubin",
-          "5804030",
-          {
-            "id": "8021",
-            "name": "Zagłębie Lubin",
-            "shortName": "Zagłębie Lubin"
-          },
+          "5769",
+          "Radomiak Radom",
+          "5804033",
           {
             "id": "8245",
             "name": "Korona Kielce",
             "shortName": "Korona Kielce"
           },
-          "2026-11-02T17:00:00Z"
+          {
+            "id": "5769",
+            "name": "Radomiak Radom",
+            "shortName": "Radomiak Radom"
+          },
+          "2026-11-07T11:15:00Z"
         ],
         "8673": [
           "4024",
@@ -9191,15 +9191,32 @@
                 "pageUrl": "/teams/8023/overview/pogon-szczecin",
                 "deduction": null,
                 "ongoing": null,
-                "played": 11,
+                "played": 12,
                 "wins": 7,
                 "draws": 3,
-                "losses": 1,
-                "scoresStr": "19-9",
-                "goalConDiff": 10,
+                "losses": 2,
+                "scoresStr": "20-12",
+                "goalConDiff": 8,
                 "pts": 24,
                 "idx": 4,
                 "qualColor": "#02CCF0"
+              },
+              {
+                "name": "Zagłębie Lubin",
+                "shortName": "Zagłębie Lubin",
+                "id": 8021,
+                "pageUrl": "/teams/8021/overview/zagebie-lubin",
+                "deduction": null,
+                "ongoing": null,
+                "played": 13,
+                "wins": 6,
+                "draws": 4,
+                "losses": 3,
+                "scoresStr": "16-15",
+                "goalConDiff": 1,
+                "pts": 22,
+                "idx": 5,
+                "qualColor": null
               },
               {
                 "name": "GKS Katowice",
@@ -9215,7 +9232,7 @@
                 "scoresStr": "25-19",
                 "goalConDiff": 6,
                 "pts": 21,
-                "idx": 5,
+                "idx": 6,
                 "qualColor": null
               },
               {
@@ -9232,7 +9249,7 @@
                 "scoresStr": "24-20",
                 "goalConDiff": 4,
                 "pts": 21,
-                "idx": 6,
+                "idx": 7,
                 "qualColor": null
               },
               {
@@ -9249,23 +9266,6 @@
                 "scoresStr": "20-18",
                 "goalConDiff": 2,
                 "pts": 21,
-                "idx": 7,
-                "qualColor": null
-              },
-              {
-                "name": "Zagłębie Lubin",
-                "shortName": "Zagłębie Lubin",
-                "id": 8021,
-                "pageUrl": "/teams/8021/overview/zagebie-lubin",
-                "deduction": null,
-                "ongoing": null,
-                "played": 12,
-                "wins": 5,
-                "draws": 4,
-                "losses": 3,
-                "scoresStr": "15-15",
-                "goalConDiff": 0,
-                "pts": 19,
                 "idx": 8,
                 "qualColor": null
               },
@@ -9293,12 +9293,12 @@
                 "pageUrl": "/teams/8245/overview/korona-kielce",
                 "deduction": null,
                 "ongoing": null,
-                "played": 12,
+                "played": 13,
                 "wins": 5,
                 "draws": 3,
-                "losses": 4,
-                "scoresStr": "14-18",
-                "goalConDiff": -4,
+                "losses": 5,
+                "scoresStr": "14-19",
+                "goalConDiff": -5,
                 "pts": 18,
                 "idx": 10,
                 "qualColor": null
@@ -9372,21 +9372,55 @@
                 "qualColor": null
               },
               {
+                "name": "Radomiak Radom",
+                "shortName": "Radomiak Radom",
+                "id": 5769,
+                "pageUrl": "/teams/5769/overview/radomiak-radom",
+                "deduction": null,
+                "ongoing": null,
+                "played": 13,
+                "wins": 3,
+                "draws": 2,
+                "losses": 8,
+                "scoresStr": "15-29",
+                "goalConDiff": -14,
+                "pts": 11,
+                "idx": 15,
+                "qualColor": null
+              },
+              {
                 "name": "Śląsk Wrocław",
                 "shortName": "Śląsk Wrocław",
                 "id": 8025,
                 "pageUrl": "/teams/8025/overview/slask-wrocaw",
                 "deduction": null,
                 "ongoing": null,
-                "played": 12,
+                "played": 13,
                 "wins": 2,
                 "draws": 3,
-                "losses": 7,
-                "scoresStr": "16-22",
-                "goalConDiff": -6,
+                "losses": 8,
+                "scoresStr": "17-25",
+                "goalConDiff": -8,
                 "pts": 9,
-                "idx": 15,
-                "qualColor": null
+                "idx": 16,
+                "qualColor": "#FF4646"
+              },
+              {
+                "name": "Raków Częstochowa",
+                "shortName": "Raków Częstochowa",
+                "id": 4024,
+                "pageUrl": "/teams/4024/overview/rakow-czestochowa",
+                "deduction": null,
+                "ongoing": null,
+                "played": 13,
+                "wins": 3,
+                "draws": 0,
+                "losses": 10,
+                "scoresStr": "19-29",
+                "goalConDiff": -10,
+                "pts": 9,
+                "idx": 17,
+                "qualColor": "#FF4646"
               },
               {
                 "name": "Wieczysta Kraków",
@@ -9402,40 +9436,6 @@
                 "scoresStr": "17-26",
                 "goalConDiff": -9,
                 "pts": 8,
-                "idx": 16,
-                "qualColor": "#FF4646"
-              },
-              {
-                "name": "Radomiak Radom",
-                "shortName": "Radomiak Radom",
-                "id": 5769,
-                "pageUrl": "/teams/5769/overview/radomiak-radom",
-                "deduction": null,
-                "ongoing": null,
-                "played": 12,
-                "wins": 2,
-                "draws": 2,
-                "losses": 8,
-                "scoresStr": "12-28",
-                "goalConDiff": -16,
-                "pts": 8,
-                "idx": 17,
-                "qualColor": "#FF4646"
-              },
-              {
-                "name": "Raków Częstochowa",
-                "shortName": "Raków Częstochowa",
-                "id": 4024,
-                "pageUrl": "/teams/4024/overview/rakow-czestochowa",
-                "deduction": null,
-                "ongoing": null,
-                "played": 12,
-                "wins": 2,
-                "draws": 0,
-                "losses": 10,
-                "scoresStr": "16-28",
-                "goalConDiff": -12,
-                "pts": 6,
                 "idx": 18,
                 "qualColor": "#FF4646"
               }
@@ -9478,6 +9478,24 @@
                 "qualColor": "#FFD908"
               },
               {
+                "name": "Zagłębie Lubin",
+                "shortName": "Zagłębie Lubin",
+                "id": 8021,
+                "pageUrl": "/teams/8021/overview/zagebie-lubin",
+                "deduction": null,
+                "ongoing": null,
+                "played": 7,
+                "wins": 5,
+                "draws": 1,
+                "losses": 1,
+                "scoresStr": "8-4",
+                "goalConDiff": 4,
+                "goalsScored": 8,
+                "pts": 16,
+                "idx": 3,
+                "qualColor": "#0294F0"
+              },
+              {
                 "name": "GKS Katowice",
                 "shortName": "GKS Katowice",
                 "id": 4023,
@@ -9492,8 +9510,8 @@
                 "goalConDiff": 9,
                 "goalsScored": 16,
                 "pts": 15,
-                "idx": 3,
-                "qualColor": "#0294F0"
+                "idx": 4,
+                "qualColor": "#02CCF0"
               },
               {
                 "name": "Pogoń Szczecin",
@@ -9510,8 +9528,8 @@
                 "goalConDiff": 6,
                 "goalsScored": 14,
                 "pts": 14,
-                "idx": 4,
-                "qualColor": "#02CCF0"
+                "idx": 5,
+                "qualColor": null
               },
               {
                 "name": "Piast Gliwice",
@@ -9527,24 +9545,6 @@
                 "scoresStr": "17-12",
                 "goalConDiff": 5,
                 "goalsScored": 17,
-                "pts": 13,
-                "idx": 5,
-                "qualColor": null
-              },
-              {
-                "name": "Zagłębie Lubin",
-                "shortName": "Zagłębie Lubin",
-                "id": 8021,
-                "pageUrl": "/teams/8021/overview/zagebie-lubin",
-                "deduction": null,
-                "ongoing": null,
-                "played": 6,
-                "wins": 4,
-                "draws": 1,
-                "losses": 1,
-                "scoresStr": "7-4",
-                "goalConDiff": 3,
-                "goalsScored": 7,
                 "pts": 13,
                 "idx": 6,
                 "qualColor": null
@@ -9604,6 +9604,24 @@
                 "qualColor": null
               },
               {
+                "name": "Radomiak Radom",
+                "shortName": "Radomiak Radom",
+                "id": 5769,
+                "pageUrl": "/teams/5769/overview/radomiak-radom",
+                "deduction": null,
+                "ongoing": null,
+                "played": 7,
+                "wins": 3,
+                "draws": 1,
+                "losses": 3,
+                "scoresStr": "10-11",
+                "goalConDiff": -1,
+                "goalsScored": 10,
+                "pts": 10,
+                "idx": 10,
+                "qualColor": null
+              },
+              {
                 "name": "Korona Kielce",
                 "shortName": "Korona Kielce",
                 "id": 8245,
@@ -9618,7 +9636,7 @@
                 "goalConDiff": 0,
                 "goalsScored": 7,
                 "pts": 9,
-                "idx": 10,
+                "idx": 11,
                 "qualColor": null
               },
               {
@@ -9636,7 +9654,7 @@
                 "goalConDiff": -3,
                 "goalsScored": 6,
                 "pts": 9,
-                "idx": 11,
+                "idx": 12,
                 "qualColor": null
               },
               {
@@ -9654,7 +9672,7 @@
                 "goalConDiff": 1,
                 "goalsScored": 6,
                 "pts": 8,
-                "idx": 12,
+                "idx": 13,
                 "qualColor": null
               },
               {
@@ -9672,7 +9690,7 @@
                 "goalConDiff": -1,
                 "goalsScored": 9,
                 "pts": 8,
-                "idx": 13,
+                "idx": 14,
                 "qualColor": null
               },
               {
@@ -9690,26 +9708,26 @@
                 "goalConDiff": -2,
                 "goalsScored": 9,
                 "pts": 8,
-                "idx": 14,
+                "idx": 15,
                 "qualColor": null
               },
               {
-                "name": "Radomiak Radom",
-                "shortName": "Radomiak Radom",
-                "id": 5769,
-                "pageUrl": "/teams/5769/overview/radomiak-radom",
+                "name": "Raków Częstochowa",
+                "shortName": "Raków Częstochowa",
+                "id": 4024,
+                "pageUrl": "/teams/4024/overview/rakow-czestochowa",
                 "deduction": null,
                 "ongoing": null,
-                "played": 6,
+                "played": 7,
                 "wins": 2,
-                "draws": 1,
-                "losses": 3,
-                "scoresStr": "7-10",
-                "goalConDiff": -3,
-                "goalsScored": 7,
-                "pts": 7,
-                "idx": 15,
-                "qualColor": null
+                "draws": 0,
+                "losses": 5,
+                "scoresStr": "12-18",
+                "goalConDiff": -6,
+                "goalsScored": 12,
+                "pts": 6,
+                "idx": 16,
+                "qualColor": "#FF4646"
               },
               {
                 "name": "Widzew Łódź",
@@ -9726,7 +9744,7 @@
                 "goalConDiff": -2,
                 "goalsScored": 8,
                 "pts": 5,
-                "idx": 16,
+                "idx": 17,
                 "qualColor": "#FF4646"
               },
               {
@@ -9744,24 +9762,6 @@
                 "goalConDiff": -1,
                 "goalsScored": 7,
                 "pts": 4,
-                "idx": 17,
-                "qualColor": "#FF4646"
-              },
-              {
-                "name": "Raków Częstochowa",
-                "shortName": "Raków Częstochowa",
-                "id": 4024,
-                "pageUrl": "/teams/4024/overview/rakow-czestochowa",
-                "deduction": null,
-                "ongoing": null,
-                "played": 6,
-                "wins": 1,
-                "draws": 0,
-                "losses": 5,
-                "scoresStr": "9-17",
-                "goalConDiff": -8,
-                "goalsScored": 9,
-                "pts": 3,
                 "idx": 18,
                 "qualColor": "#FF4646"
               }
@@ -9828,13 +9828,13 @@
                 "pageUrl": "/teams/8023/overview/pogon-szczecin",
                 "deduction": null,
                 "ongoing": null,
-                "played": 4,
+                "played": 5,
                 "wins": 3,
                 "draws": 1,
-                "losses": 0,
-                "scoresStr": "5-1",
-                "goalConDiff": 4,
-                "goalsScored": 5,
+                "losses": 1,
+                "scoresStr": "6-4",
+                "goalConDiff": 2,
+                "goalsScored": 6,
                 "pts": 10,
                 "idx": 4,
                 "qualColor": "#02CCF0"
@@ -9864,12 +9864,12 @@
                 "pageUrl": "/teams/8245/overview/korona-kielce",
                 "deduction": null,
                 "ongoing": null,
-                "played": 6,
+                "played": 7,
                 "wins": 3,
                 "draws": 0,
-                "losses": 3,
-                "scoresStr": "7-11",
-                "goalConDiff": -4,
+                "losses": 4,
+                "scoresStr": "7-12",
+                "goalConDiff": -5,
                 "goalsScored": 7,
                 "pts": 9,
                 "idx": 6,
@@ -10062,13 +10062,13 @@
                 "pageUrl": "/teams/8025/overview/slask-wrocaw",
                 "deduction": null,
                 "ongoing": null,
-                "played": 6,
+                "played": 7,
                 "wins": 0,
                 "draws": 1,
-                "losses": 5,
-                "scoresStr": "7-12",
-                "goalConDiff": -5,
-                "goalsScored": 7,
+                "losses": 6,
+                "scoresStr": "8-15",
+                "goalConDiff": -7,
+                "goalsScored": 8,
                 "pts": 1,
                 "idx": 17,
                 "qualColor": "#FF4646"
@@ -10118,13 +10118,13 @@
                 "id": 8023,
                 "pageUrl": "/teams/8023/overview/pogon-szczecin",
                 "played": 5,
-                "wins": 5,
+                "wins": 4,
                 "draws": 0,
-                "losses": 0,
-                "scoresStr": "11-4",
-                "goalConDiff": 7,
-                "goalsScored": 11,
-                "pts": 15,
+                "losses": 1,
+                "scoresStr": "10-7",
+                "goalConDiff": 3,
+                "goalsScored": 10,
+                "pts": 12,
                 "ongoing": null,
                 "idx": 2,
                 "qualColor": "#FFD908"
@@ -10247,9 +10247,9 @@
                 "wins": 2,
                 "draws": 1,
                 "losses": 2,
-                "scoresStr": "7-9",
+                "scoresStr": "5-7",
                 "goalConDiff": -2,
-                "goalsScored": 7,
+                "goalsScored": 5,
                 "pts": 7,
                 "ongoing": null,
                 "idx": 9,
@@ -10274,6 +10274,24 @@
                 "qualColor": null
               },
               {
+                "name": "Raków Częstochowa",
+                "shortName": "Raków Częstochowa",
+                "featuredInMatch": false,
+                "id": 4024,
+                "pageUrl": "/teams/4024/overview/rakow-czestochowa",
+                "played": 5,
+                "wins": 2,
+                "draws": 0,
+                "losses": 3,
+                "scoresStr": "9-11",
+                "goalConDiff": -2,
+                "goalsScored": 9,
+                "pts": 6,
+                "ongoing": null,
+                "idx": 11,
+                "qualColor": null
+              },
+              {
                 "name": "Jagiellonia Białystok",
                 "shortName": "Jagiellonia Białystok",
                 "featuredInMatch": false,
@@ -10288,7 +10306,7 @@
                 "goalsScored": 6,
                 "pts": 6,
                 "ongoing": null,
-                "idx": 11,
+                "idx": 12,
                 "qualColor": null
               },
               {
@@ -10301,12 +10319,12 @@
                 "wins": 2,
                 "draws": 0,
                 "losses": 3,
-                "scoresStr": "5-12",
-                "goalConDiff": -7,
+                "scoresStr": "5-11",
+                "goalConDiff": -6,
                 "goalsScored": 5,
                 "pts": 6,
                 "ongoing": null,
-                "idx": 12,
+                "idx": 13,
                 "qualColor": null
               },
               {
@@ -10324,7 +10342,7 @@
                 "goalsScored": 8,
                 "pts": 4,
                 "ongoing": null,
-                "idx": 13,
+                "idx": 14,
                 "qualColor": null
               },
               {
@@ -10342,7 +10360,7 @@
                 "goalsScored": 6,
                 "pts": 3,
                 "ongoing": null,
-                "idx": 14,
+                "idx": 15,
                 "qualColor": null
               },
               {
@@ -10360,8 +10378,26 @@
                 "goalsScored": 6,
                 "pts": 3,
                 "ongoing": null,
-                "idx": 15,
-                "qualColor": null
+                "idx": 16,
+                "qualColor": "#FF4646"
+              },
+              {
+                "name": "Radomiak Radom",
+                "shortName": "Radomiak Radom",
+                "featuredInMatch": false,
+                "id": 5769,
+                "pageUrl": "/teams/5769/overview/radomiak-radom",
+                "played": 5,
+                "wins": 1,
+                "draws": 0,
+                "losses": 4,
+                "scoresStr": "9-14",
+                "goalConDiff": -5,
+                "goalsScored": 9,
+                "pts": 3,
+                "ongoing": null,
+                "idx": 17,
+                "qualColor": "#FF4646"
               },
               {
                 "name": "Śląsk Wrocław",
@@ -10373,46 +10409,10 @@
                 "wins": 1,
                 "draws": 0,
                 "losses": 4,
-                "scoresStr": "7-11",
-                "goalConDiff": -4,
+                "scoresStr": "7-12",
+                "goalConDiff": -5,
                 "goalsScored": 7,
                 "pts": 3,
-                "ongoing": null,
-                "idx": 16,
-                "qualColor": "#FF4646"
-              },
-              {
-                "name": "Raków Częstochowa",
-                "shortName": "Raków Częstochowa",
-                "featuredInMatch": false,
-                "id": 4024,
-                "pageUrl": "/teams/4024/overview/rakow-czestochowa",
-                "played": 5,
-                "wins": 1,
-                "draws": 0,
-                "losses": 4,
-                "scoresStr": "8-13",
-                "goalConDiff": -5,
-                "goalsScored": 8,
-                "pts": 3,
-                "ongoing": null,
-                "idx": 17,
-                "qualColor": "#FF4646"
-              },
-              {
-                "name": "Radomiak Radom",
-                "shortName": "Radomiak Radom",
-                "featuredInMatch": false,
-                "id": 5769,
-                "pageUrl": "/teams/5769/overview/radomiak-radom",
-                "played": 5,
-                "wins": 0,
-                "draws": 0,
-                "losses": 5,
-                "scoresStr": "6-15",
-                "goalConDiff": -9,
-                "goalsScored": 6,
-                "pts": 0,
                 "ongoing": null,
                 "idx": 18,
                 "qualColor": "#FF4646"
@@ -10497,7 +10497,7 @@
                 "xPointsDiff": -1.7496067871248187,
                 "xPosition": 3,
                 "idx": 3,
-                "xPositionDiff": 4,
+                "xPositionDiff": 5,
                 "qualColor": "#0294F0"
               },
               {
@@ -10516,12 +10516,12 @@
                 "teamId": 89466,
                 "teamName": "Motor Lublin",
                 "xg": 24.531400322914124,
-                "xgConceded": 19.137400150299072,
-                "xPoints": 21.175647791552862,
+                "xgConceded": 19.166200160980225,
+                "xPoints": 21.1540286681713,
                 "position": 4,
                 "xgDiff": -5.5314003229141235,
-                "xgConcededDiff": 2.8625998497009277,
-                "xPointsDiff": -5.175647791552862,
+                "xgConcededDiff": 2.8337998390197754,
+                "xPointsDiff": -5.1540286681713,
                 "xPosition": 4,
                 "idx": 4,
                 "xPositionDiff": 7,
@@ -10578,7 +10578,7 @@
                 "xPointsDiff": 1.9174090153289605,
                 "xPosition": 6,
                 "idx": 6,
-                "xPositionDiff": -1,
+                "xPositionDiff": 0,
                 "qualColor": null
               },
               {
@@ -10596,16 +10596,43 @@
                 "pts": 12,
                 "teamId": 2186,
                 "teamName": "Cracovia",
-                "xg": 20.809599995613098,
+                "xg": 20.83840000629425,
                 "xgConceded": 18.73449993133545,
-                "xPoints": 18.79989270987752,
+                "xPoints": 18.820414342446227,
                 "position": 7,
-                "xgDiff": -5.809599995613098,
+                "xgDiff": -5.8384000062942505,
                 "xgConcededDiff": 2.265500068664551,
-                "xPointsDiff": -6.799892709877518,
+                "xPointsDiff": -6.820414342446227,
                 "xPosition": 7,
                 "idx": 7,
                 "xPositionDiff": 6,
+                "qualColor": null
+              },
+              {
+                "name": "Zagłębie Lubin",
+                "shortName": "Zagłębie Lubin",
+                "id": 8021,
+                "pageUrl": "/teams/8021/overview/zagebie-lubin",
+                "ongoing": null,
+                "played": 13,
+                "wins": 6,
+                "draws": 4,
+                "losses": 3,
+                "scoresStr": "16-15",
+                "goalConDiff": 1,
+                "pts": 22,
+                "teamId": 8021,
+                "teamName": "Zagłębie Lubin",
+                "xg": 17.890999913215637,
+                "xgConceded": 18.78960007429123,
+                "xPoints": 17.56085881567938,
+                "position": 8,
+                "xgDiff": -1.8909999132156372,
+                "xgConcededDiff": -3.7896000742912292,
+                "xPointsDiff": 4.4391411843206185,
+                "xPosition": 8,
+                "idx": 8,
+                "xPositionDiff": -3,
                 "qualColor": null
               },
               {
@@ -10626,13 +10653,40 @@
                 "xg": 21.881799936294556,
                 "xgConceded": 24.62279975414276,
                 "xPoints": 16.2999959316689,
-                "position": 8,
+                "position": 9,
                 "xgDiff": -4.881799936294556,
                 "xgConcededDiff": 1.3772002458572388,
                 "xPointsDiff": -8.2999959316689,
-                "xPosition": 8,
-                "idx": 8,
-                "xPositionDiff": 8,
+                "xPosition": 9,
+                "idx": 9,
+                "xPositionDiff": 9,
+                "qualColor": null
+              },
+              {
+                "name": "Pogoń Szczecin",
+                "shortName": "Pogoń Szczecin",
+                "id": 8023,
+                "pageUrl": "/teams/8023/overview/pogon-szczecin",
+                "ongoing": null,
+                "played": 12,
+                "wins": 7,
+                "draws": 3,
+                "losses": 2,
+                "scoresStr": "20-12",
+                "goalConDiff": 8,
+                "pts": 24,
+                "teamId": 8023,
+                "teamName": "Pogoń Szczecin",
+                "xg": 17.877100110054016,
+                "xgConceded": 19.187899947166443,
+                "xPoints": 16.161055507277045,
+                "position": 10,
+                "xgDiff": 2.122899889945984,
+                "xgConcededDiff": -7.187899947166443,
+                "xPointsDiff": 7.8389444927229555,
+                "xPosition": 10,
+                "idx": 10,
+                "xPositionDiff": -6,
                 "qualColor": null
               },
               {
@@ -10653,67 +10707,94 @@
                 "xg": 20.48920002579689,
                 "xgConceded": 19.991899967193604,
                 "xPoints": 16.1342580078924,
-                "position": 9,
+                "position": 11,
                 "xgDiff": -3.4892000257968903,
                 "xgConcededDiff": -1.9918999671936035,
                 "xPointsDiff": 1.8657419921076013,
-                "xPosition": 9,
-                "idx": 9,
-                "xPositionDiff": 0,
-                "qualColor": null
-              },
-              {
-                "name": "Zagłębie Lubin",
-                "shortName": "Zagłębie Lubin",
-                "id": 8021,
-                "pageUrl": "/teams/8021/overview/zagebie-lubin",
-                "ongoing": null,
-                "played": 12,
-                "wins": 5,
-                "draws": 4,
-                "losses": 3,
-                "scoresStr": "15-15",
-                "goalConDiff": 0,
-                "pts": 19,
-                "teamId": 8021,
-                "teamName": "Zagłębie Lubin",
-                "xg": 16.830999970436096,
-                "xgConceded": 17.999000072479248,
-                "xPoints": 15.982988584072343,
-                "position": 10,
-                "xgDiff": -1.8309999704360962,
-                "xgConcededDiff": -2.999000072479248,
-                "xPointsDiff": 3.017011415927657,
-                "xPosition": 10,
-                "idx": 10,
+                "xPosition": 11,
+                "idx": 11,
                 "xPositionDiff": -2,
                 "qualColor": null
               },
               {
-                "name": "Pogoń Szczecin",
-                "shortName": "Pogoń Szczecin",
-                "id": 8023,
-                "pageUrl": "/teams/8023/overview/pogon-szczecin",
+                "name": "Raków Częstochowa",
+                "shortName": "Raków Częstochowa",
+                "id": 4024,
+                "pageUrl": "/teams/4024/overview/rakow-czestochowa",
                 "ongoing": null,
-                "played": 11,
-                "wins": 7,
+                "played": 13,
+                "wins": 3,
+                "draws": 0,
+                "losses": 10,
+                "scoresStr": "19-29",
+                "goalConDiff": -10,
+                "pts": 9,
+                "teamId": 4024,
+                "teamName": "Raków Częstochowa",
+                "xg": 22.45590004324913,
+                "xgConceded": 29.189500212669373,
+                "xPoints": 15.79880291703097,
+                "position": 12,
+                "xgDiff": -3.4559000432491302,
+                "xgConcededDiff": -0.18950021266937256,
+                "xPointsDiff": -6.7988029170309705,
+                "xPosition": 12,
+                "idx": 12,
+                "xPositionDiff": 5,
+                "qualColor": null
+              },
+              {
+                "name": "Radomiak Radom",
+                "shortName": "Radomiak Radom",
+                "id": 5769,
+                "pageUrl": "/teams/5769/overview/radomiak-radom",
+                "ongoing": null,
+                "played": 13,
+                "wins": 3,
+                "draws": 2,
+                "losses": 8,
+                "scoresStr": "15-29",
+                "goalConDiff": -14,
+                "pts": 11,
+                "teamId": 5769,
+                "teamName": "Radomiak Radom",
+                "xg": 20.54739984869957,
+                "xgConceded": 26.44480013847351,
+                "xPoints": 15.06405188817467,
+                "position": 13,
+                "xgDiff": -5.54739984869957,
+                "xgConcededDiff": 2.5551998615264893,
+                "xPointsDiff": -4.064051888174671,
+                "xPosition": 13,
+                "idx": 13,
+                "xPositionDiff": 2,
+                "qualColor": null
+              },
+              {
+                "name": "Korona Kielce",
+                "shortName": "Korona Kielce",
+                "id": 8245,
+                "pageUrl": "/teams/8245/overview/korona-kielce",
+                "ongoing": null,
+                "played": 13,
+                "wins": 5,
                 "draws": 3,
-                "losses": 1,
-                "scoresStr": "19-9",
-                "goalConDiff": 10,
-                "pts": 24,
-                "teamId": 8023,
-                "teamName": "Pogoń Szczecin",
-                "xg": 17.30680012702942,
-                "xgConceded": 16.49929988384247,
-                "xPoints": 15.974492329634222,
-                "position": 11,
-                "xgDiff": 1.693199872970581,
-                "xgConcededDiff": -7.499299883842468,
-                "xPointsDiff": 8.025507670365778,
-                "xPosition": 11,
-                "idx": 11,
-                "xPositionDiff": -7,
+                "losses": 5,
+                "scoresStr": "14-19",
+                "goalConDiff": -5,
+                "pts": 18,
+                "teamId": 8245,
+                "teamName": "Korona Kielce",
+                "xg": 17.37189992517233,
+                "xgConceded": 21.187300205230713,
+                "xPoints": 14.958912952998677,
+                "position": 14,
+                "xgDiff": -3.371899925172329,
+                "xgConcededDiff": -2.187300205230713,
+                "xPointsDiff": 3.041087047001323,
+                "xPosition": 14,
+                "idx": 14,
+                "xPositionDiff": -4,
                 "qualColor": null
               },
               {
@@ -10734,13 +10815,13 @@
                 "xg": 19.70600003004074,
                 "xgConceded": 24.539100110530853,
                 "xPoints": 14.785659075353514,
-                "position": 12,
+                "position": 15,
                 "xgDiff": -2.706000030040741,
                 "xgConcededDiff": -5.539100110530853,
                 "xPointsDiff": -3.7856590753535144,
-                "xPosition": 12,
-                "idx": 12,
-                "xPositionDiff": 2,
+                "xPosition": 15,
+                "idx": 15,
+                "xPositionDiff": -1,
                 "qualColor": null
               },
               {
@@ -10761,94 +10842,13 @@
                 "xg": 17.22660005092621,
                 "xgConceded": 20.040400087833405,
                 "xPoints": 14.398677774951926,
-                "position": 13,
+                "position": 16,
                 "xgDiff": -5.2266000509262085,
                 "xgConcededDiff": -2.0404000878334045,
                 "xPointsDiff": 0.6013222250480741,
-                "xPosition": 13,
-                "idx": 13,
-                "xPositionDiff": -1,
-                "qualColor": null
-              },
-              {
-                "name": "Korona Kielce",
-                "shortName": "Korona Kielce",
-                "id": 8245,
-                "pageUrl": "/teams/8245/overview/korona-kielce",
-                "ongoing": null,
-                "played": 12,
-                "wins": 5,
-                "draws": 3,
-                "losses": 4,
-                "scoresStr": "14-18",
-                "goalConDiff": -4,
-                "pts": 18,
-                "teamId": 8245,
-                "teamName": "Korona Kielce",
-                "xg": 16.581299923360348,
-                "xgConceded": 20.127300262451172,
-                "xPoints": 13.860365965394534,
-                "position": 14,
-                "xgDiff": -2.5812999233603477,
-                "xgConcededDiff": -2.127300262451172,
-                "xPointsDiff": 4.139634034605466,
-                "xPosition": 14,
-                "idx": 14,
-                "xPositionDiff": -4,
-                "qualColor": null
-              },
-              {
-                "name": "Radomiak Radom",
-                "shortName": "Radomiak Radom",
-                "id": 5769,
-                "pageUrl": "/teams/5769/overview/radomiak-radom",
-                "ongoing": null,
-                "played": 12,
-                "wins": 2,
-                "draws": 2,
-                "losses": 8,
-                "scoresStr": "12-28",
-                "goalConDiff": -16,
-                "pts": 8,
-                "teamId": 5769,
-                "teamName": "Radomiak Radom",
-                "xg": 18.19989976286888,
-                "xgConceded": 24.562700152397156,
-                "xPoints": 13.353347292514458,
-                "position": 15,
-                "xgDiff": -6.199899762868881,
-                "xgConcededDiff": 3.4372998476028442,
-                "xPointsDiff": -5.353347292514458,
-                "xPosition": 15,
-                "idx": 15,
-                "xPositionDiff": 2,
-                "qualColor": null
-              },
-              {
-                "name": "Raków Częstochowa",
-                "shortName": "Raków Częstochowa",
-                "id": 4024,
-                "pageUrl": "/teams/4024/overview/rakow-czestochowa",
-                "ongoing": null,
-                "played": 12,
-                "wins": 2,
-                "draws": 0,
-                "losses": 10,
-                "scoresStr": "16-28",
-                "goalConDiff": -12,
-                "pts": 6,
-                "teamId": 4024,
-                "teamName": "Raków Częstochowa",
-                "xg": 19.767299979925156,
-                "xgConceded": 28.619200229644775,
-                "xPoints": 13.077970003599631,
-                "position": 16,
-                "xgDiff": -3.7672999799251556,
-                "xgConcededDiff": -0.6192002296447754,
-                "xPointsDiff": -7.077970003599631,
                 "xPosition": 16,
                 "idx": 16,
-                "xPositionDiff": 2,
+                "xPositionDiff": -4,
                 "qualColor": "#FF4646"
               },
               {
@@ -10857,25 +10857,25 @@
                 "id": 8025,
                 "pageUrl": "/teams/8025/overview/slask-wrocaw",
                 "ongoing": null,
-                "played": 12,
+                "played": 13,
                 "wins": 2,
                 "draws": 3,
-                "losses": 7,
-                "scoresStr": "16-22",
-                "goalConDiff": -6,
+                "losses": 8,
+                "scoresStr": "17-25",
+                "goalConDiff": -8,
                 "pts": 9,
                 "teamId": 8025,
                 "teamName": "Śląsk Wrocław",
-                "xg": 17.50409996509552,
-                "xgConceded": 24.970100462436676,
-                "xPoints": 12.807050816309076,
+                "xg": 19.386199951171875,
+                "xgConceded": 27.317600548267365,
+                "xPoints": 13.868268854907821,
                 "position": 17,
-                "xgDiff": -1.50409996509552,
-                "xgConcededDiff": -2.970100462436676,
-                "xPointsDiff": -3.8070508163090757,
+                "xgDiff": -2.386199951171875,
+                "xgConcededDiff": -2.3176005482673645,
+                "xPointsDiff": -4.8682688549078215,
                 "xPosition": 17,
                 "idx": 17,
-                "xPositionDiff": -2,
+                "xPositionDiff": -1,
                 "qualColor": "#FF4646"
               },
               {
@@ -10902,7 +10902,7 @@
                 "xPointsDiff": 8.743787916103596,
                 "xPosition": 18,
                 "idx": 18,
-                "xPositionDiff": -12,
+                "xPositionDiff": -11,
                 "qualColor": "#FF4646"
               }
             ]
@@ -11538,36 +11538,6 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8021.png",
-              "linkToMatch": "/matches/rakow-czestochowa-vs-zagebie-lubin/1773u8#5803938",
-              "date": null,
-              "teamPageUrl": "/teams/8021/overview/zagebie-lubin",
-              "tooltipText": {
-                "utcTime": "2026-09-15T16:00:00Z",
-                "homeTeam": "Raków Częstochowa",
-                "homeTeamId": 4024,
-                "homeScore": 2,
-                "awayTeam": "Zagłębie Lubin",
-                "awayTeamId": 8021,
-                "awayScore": 3
-              },
-              "score": "2 - 3",
-              "home": {
-                "id": "4024",
-                "name": "Raków Częstochowa",
-                "shortName": "Raków Częstochowa",
-                "isOurTeam": true
-              },
-              "away": {
-                "id": "8021",
-                "name": "Zagłębie Lubin",
-                "shortName": "Zagłębie Lubin",
-                "isOurTeam": false
-              }
-            },
-            {
-              "result": -1,
-              "resultString": "L",
               "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8245.png",
               "linkToMatch": "/matches/rakow-czestochowa-vs-korona-kielce/18thb4#5803988",
               "date": null,
@@ -11684,39 +11654,39 @@
                 "shortName": "Raków Częstochowa",
                 "isOurTeam": true
               }
-            }
-          ],
-          "5769": [
+            },
             {
-              "result": -1,
-              "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8028.png",
-              "linkToMatch": "/matches/radomiak-radom-vs-piast-gliwice/1kobsr#5803980",
+              "result": 1,
+              "resultString": "W",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8023.png",
+              "linkToMatch": "/matches/rakow-czestochowa-vs-pogon-szczecin/177mfj#5804027",
               "date": null,
-              "teamPageUrl": "/teams/8028/overview/piast-gliwice",
+              "teamPageUrl": "/teams/8023/overview/pogon-szczecin",
               "tooltipText": {
-                "utcTime": "2026-09-14T17:00:00Z",
-                "homeTeam": "Radomiak Radom",
-                "homeTeamId": 5769,
-                "homeScore": 0,
-                "awayTeam": "Piast Gliwice",
-                "awayTeamId": 8028,
-                "awayScore": 2
+                "utcTime": "2026-11-02T19:30:00Z",
+                "homeTeam": "Raków Częstochowa",
+                "homeTeamId": 4024,
+                "homeScore": 3,
+                "awayTeam": "Pogoń Szczecin",
+                "awayTeamId": 8023,
+                "awayScore": 1
               },
-              "score": "0 - 2",
+              "score": "3 - 1",
               "home": {
-                "id": "5769",
-                "name": "Radomiak Radom",
-                "shortName": "Radomiak Radom",
+                "id": "4024",
+                "name": "Raków Częstochowa",
+                "shortName": "Raków Częstochowa",
                 "isOurTeam": true
               },
               "away": {
-                "id": "8028",
-                "name": "Piast Gliwice",
-                "shortName": "Piast Gliwice",
+                "id": "8023",
+                "name": "Pogoń Szczecin",
+                "shortName": "Pogoń Szczecin",
                 "isOurTeam": false
               }
-            },
+            }
+          ],
+          "5769": [
             {
               "result": -1,
               "resultString": "L",
@@ -11835,6 +11805,36 @@
                 "name": "Radomiak Radom",
                 "shortName": "Radomiak Radom",
                 "isOurTeam": true
+              }
+            },
+            {
+              "result": 1,
+              "resultString": "W",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8025.png",
+              "linkToMatch": "/matches/radomiak-radom-vs-slask-wrocaw/1knfv0#5804026",
+              "date": null,
+              "teamPageUrl": "/teams/8025/overview/slask-wrocaw",
+              "tooltipText": {
+                "utcTime": "2026-11-02T17:00:00Z",
+                "homeTeam": "Radomiak Radom",
+                "homeTeamId": 5769,
+                "homeScore": 3,
+                "awayTeam": "Śląsk Wrocław",
+                "awayTeamId": 8025,
+                "awayScore": 1
+              },
+              "score": "3 - 1",
+              "home": {
+                "id": "5769",
+                "name": "Radomiak Radom",
+                "shortName": "Radomiak Radom",
+                "isOurTeam": true
+              },
+              "away": {
+                "id": "8025",
+                "name": "Śląsk Wrocław",
+                "shortName": "Śląsk Wrocław",
+                "isOurTeam": false
               }
             }
           ],
@@ -11992,36 +11992,6 @@
           ],
           "8021": [
             {
-              "result": 1,
-              "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/4024.png",
-              "linkToMatch": "/matches/rakow-czestochowa-vs-zagebie-lubin/1773u8#5803938",
-              "date": null,
-              "teamPageUrl": "/teams/4024/overview/rakow-czestochowa",
-              "tooltipText": {
-                "utcTime": "2026-09-15T16:00:00Z",
-                "homeTeam": "Raków Częstochowa",
-                "homeTeamId": 4024,
-                "homeScore": 2,
-                "awayTeam": "Zagłębie Lubin",
-                "awayTeamId": 8021,
-                "awayScore": 3
-              },
-              "score": "2 - 3",
-              "home": {
-                "id": "4024",
-                "name": "Raków Częstochowa",
-                "shortName": "Raków Częstochowa",
-                "isOurTeam": false
-              },
-              "away": {
-                "id": "8021",
-                "name": "Zagłębie Lubin",
-                "shortName": "Zagłębie Lubin",
-                "isOurTeam": true
-              }
-            },
-            {
               "result": -1,
               "resultString": "L",
               "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8243.png",
@@ -12140,39 +12110,39 @@
                 "shortName": "Zagłębie Lubin",
                 "isOurTeam": true
               }
-            }
-          ],
-          "8023": [
+            },
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/1286895.png",
-              "linkToMatch": "/matches/pogon-szczecin-vs-wieczysta-krakow/ap5pv1fw#5803979",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8245.png",
+              "linkToMatch": "/matches/zagebie-lubin-vs-korona-kielce/26rtbg#5804030",
               "date": null,
-              "teamPageUrl": "/teams/1286895/overview/wieczysta-krakow",
+              "teamPageUrl": "/teams/8245/overview/korona-kielce",
               "tooltipText": {
-                "utcTime": "2026-09-13T12:45:00Z",
-                "homeTeam": "Pogoń Szczecin",
-                "homeTeamId": 8023,
-                "homeScore": 2,
-                "awayTeam": "Wieczysta Kraków",
-                "awayTeamId": 1286895,
+                "utcTime": "2026-11-02T17:00:00Z",
+                "homeTeam": "Zagłębie Lubin",
+                "homeTeamId": 8021,
+                "homeScore": 1,
+                "awayTeam": "Korona Kielce",
+                "awayTeamId": 8245,
                 "awayScore": 0
               },
-              "score": "2 - 0",
+              "score": "1 - 0",
               "home": {
-                "id": "8023",
-                "name": "Pogoń Szczecin",
-                "shortName": "Pogoń Szczecin",
+                "id": "8021",
+                "name": "Zagłębie Lubin",
+                "shortName": "Zagłębie Lubin",
                 "isOurTeam": true
               },
               "away": {
-                "id": "1286895",
-                "name": "Wieczysta Kraków",
-                "shortName": "Wieczysta Kraków",
+                "id": "8245",
+                "name": "Korona Kielce",
+                "shortName": "Korona Kielce",
                 "isOurTeam": false
               }
-            },
+            }
+          ],
+          "8023": [
             {
               "result": 1,
               "resultString": "W",
@@ -12291,6 +12261,36 @@
                 "name": "Radomiak Radom",
                 "shortName": "Radomiak Radom",
                 "isOurTeam": false
+              }
+            },
+            {
+              "result": -1,
+              "resultString": "L",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/4024.png",
+              "linkToMatch": "/matches/rakow-czestochowa-vs-pogon-szczecin/177mfj#5804027",
+              "date": null,
+              "teamPageUrl": "/teams/4024/overview/rakow-czestochowa",
+              "tooltipText": {
+                "utcTime": "2026-11-02T19:30:00Z",
+                "homeTeam": "Raków Częstochowa",
+                "homeTeamId": 4024,
+                "homeScore": 3,
+                "awayTeam": "Pogoń Szczecin",
+                "awayTeamId": 8023,
+                "awayScore": 1
+              },
+              "score": "3 - 1",
+              "home": {
+                "id": "4024",
+                "name": "Raków Częstochowa",
+                "shortName": "Raków Częstochowa",
+                "isOurTeam": false
+              },
+              "away": {
+                "id": "8023",
+                "name": "Pogoń Szczecin",
+                "shortName": "Pogoń Szczecin",
+                "isOurTeam": true
               }
             }
           ],
@@ -12450,36 +12450,6 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8245.png",
-              "linkToMatch": "/matches/slask-wrocaw-vs-korona-kielce/26t7j2#5803982",
-              "date": null,
-              "teamPageUrl": "/teams/8245/overview/korona-kielce",
-              "tooltipText": {
-                "utcTime": "2026-09-12T12:45:00Z",
-                "homeTeam": "Śląsk Wrocław",
-                "homeTeamId": 8025,
-                "homeScore": 1,
-                "awayTeam": "Korona Kielce",
-                "awayTeamId": 8245,
-                "awayScore": 2
-              },
-              "score": "1 - 2",
-              "home": {
-                "id": "8025",
-                "name": "Śląsk Wrocław",
-                "shortName": "Śląsk Wrocław",
-                "isOurTeam": true
-              },
-              "away": {
-                "id": "8245",
-                "name": "Korona Kielce",
-                "shortName": "Korona Kielce",
-                "isOurTeam": false
-              }
-            },
-            {
-              "result": -1,
-              "resultString": "L",
               "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10265.png",
               "linkToMatch": "/matches/slask-wrocaw-vs-wisa-krakow/2rldh0#5803993",
               "date": null,
@@ -12595,6 +12565,36 @@
                 "name": "Wieczysta Kraków",
                 "shortName": "Wieczysta Kraków",
                 "isOurTeam": false
+              }
+            },
+            {
+              "result": -1,
+              "resultString": "L",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5769.png",
+              "linkToMatch": "/matches/radomiak-radom-vs-slask-wrocaw/1knfv0#5804026",
+              "date": null,
+              "teamPageUrl": "/teams/5769/overview/radomiak-radom",
+              "tooltipText": {
+                "utcTime": "2026-11-02T17:00:00Z",
+                "homeTeam": "Radomiak Radom",
+                "homeTeamId": 5769,
+                "homeScore": 3,
+                "awayTeam": "Śląsk Wrocław",
+                "awayTeamId": 8025,
+                "awayScore": 1
+              },
+              "score": "3 - 1",
+              "home": {
+                "id": "5769",
+                "name": "Radomiak Radom",
+                "shortName": "Radomiak Radom",
+                "isOurTeam": false
+              },
+              "away": {
+                "id": "8025",
+                "name": "Śląsk Wrocław",
+                "shortName": "Śląsk Wrocław",
+                "isOurTeam": true
               }
             }
           ],
@@ -12904,36 +12904,6 @@
           ],
           "8245": [
             {
-              "result": -1,
-              "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8020.png",
-              "linkToMatch": "/matches/gornik-zabrze-vs-korona-kielce/26rgrm#5803925",
-              "date": null,
-              "teamPageUrl": "/teams/8020/overview/gornik-zabrze",
-              "tooltipText": {
-                "utcTime": "2026-09-15T18:30:00Z",
-                "homeTeam": "Korona Kielce",
-                "homeTeamId": 8245,
-                "homeScore": 0,
-                "awayTeam": "Górnik Zabrze",
-                "awayTeamId": 8020,
-                "awayScore": 2
-              },
-              "score": "0 - 2",
-              "home": {
-                "id": "8245",
-                "name": "Korona Kielce",
-                "shortName": "Korona Kielce",
-                "isOurTeam": true
-              },
-              "away": {
-                "id": "8020",
-                "name": "Górnik Zabrze",
-                "shortName": "Górnik Zabrze",
-                "isOurTeam": false
-              }
-            },
-            {
               "result": 1,
               "resultString": "W",
               "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/4024.png",
@@ -13051,6 +13021,36 @@
                 "name": "GKS Katowice",
                 "shortName": "GKS Katowice",
                 "isOurTeam": false
+              }
+            },
+            {
+              "result": -1,
+              "resultString": "L",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8021.png",
+              "linkToMatch": "/matches/zagebie-lubin-vs-korona-kielce/26rtbg#5804030",
+              "date": null,
+              "teamPageUrl": "/teams/8021/overview/zagebie-lubin",
+              "tooltipText": {
+                "utcTime": "2026-11-02T17:00:00Z",
+                "homeTeam": "Zagłębie Lubin",
+                "homeTeamId": 8021,
+                "homeScore": 1,
+                "awayTeam": "Korona Kielce",
+                "awayTeamId": 8245,
+                "awayScore": 0
+              },
+              "score": "1 - 0",
+              "home": {
+                "id": "8021",
+                "name": "Zagłębie Lubin",
+                "shortName": "Zagłębie Lubin",
+                "isOurTeam": false
+              },
+              "away": {
+                "id": "8245",
+                "name": "Korona Kielce",
+                "shortName": "Korona Kielce",
+                "isOurTeam": true
               }
             }
           ],
@@ -13729,36 +13729,36 @@
             "2026-11-08T13:45:00Z"
           ],
           "4024": [
-            "8023",
-            "Pogoń Szczecin",
-            "5804027",
+            "8673",
+            "Legia Warszawa",
+            "5804035",
+            {
+              "id": "8673",
+              "name": "Legia Warszawa",
+              "shortName": "Legia Warszawa"
+            },
             {
               "id": "4024",
               "name": "Raków Częstochowa",
               "shortName": "Raków Częstochowa"
             },
-            {
-              "id": "8023",
-              "name": "Pogoń Szczecin",
-              "shortName": "Pogoń Szczecin"
-            },
-            "2026-11-02T19:30:00Z"
+            "2026-11-08T16:30:00Z"
           ],
           "5769": [
-            "8025",
-            "Śląsk Wrocław",
-            "5804026",
+            "8245",
+            "Korona Kielce",
+            "5804033",
+            {
+              "id": "8245",
+              "name": "Korona Kielce",
+              "shortName": "Korona Kielce"
+            },
             {
               "id": "5769",
               "name": "Radomiak Radom",
               "shortName": "Radomiak Radom"
             },
-            {
-              "id": "8025",
-              "name": "Śląsk Wrocław",
-              "shortName": "Śląsk Wrocław"
-            },
-            "2026-11-02T17:00:00Z"
+            "2026-11-07T11:15:00Z"
           ],
           "8020": [
             "1286895",
@@ -13777,36 +13777,36 @@
             "2026-11-07T16:30:00Z"
           ],
           "8021": [
-            "8245",
-            "Korona Kielce",
-            "5804030",
+            "2182",
+            "Lech Poznań",
+            "5804034",
+            {
+              "id": "2182",
+              "name": "Lech Poznań",
+              "shortName": "Lech Poznań"
+            },
             {
               "id": "8021",
               "name": "Zagłębie Lubin",
               "shortName": "Zagłębie Lubin"
             },
-            {
-              "id": "8245",
-              "name": "Korona Kielce",
-              "shortName": "Korona Kielce"
-            },
-            "2026-11-02T17:00:00Z"
+            "2026-11-08T19:15:00Z"
           ],
           "8023": [
-            "4024",
-            "Raków Częstochowa",
-            "5804027",
+            "8024",
+            "Widzew Łódź",
+            "5804038",
             {
-              "id": "4024",
-              "name": "Raków Częstochowa",
-              "shortName": "Raków Częstochowa"
+              "id": "8024",
+              "name": "Widzew Łódź",
+              "shortName": "Widzew Łódź"
             },
             {
               "id": "8023",
               "name": "Pogoń Szczecin",
               "shortName": "Pogoń Szczecin"
             },
-            "2026-11-02T19:30:00Z"
+            "2026-11-07T19:15:00Z"
           ],
           "8024": [
             "8023",
@@ -13825,20 +13825,20 @@
             "2026-11-07T19:15:00Z"
           ],
           "8025": [
-            "5769",
-            "Radomiak Radom",
-            "5804026",
-            {
-              "id": "5769",
-              "name": "Radomiak Radom",
-              "shortName": "Radomiak Radom"
-            },
+            "8028",
+            "Piast Gliwice",
+            "5804037",
             {
               "id": "8025",
               "name": "Śląsk Wrocław",
               "shortName": "Śląsk Wrocław"
             },
-            "2026-11-02T17:00:00Z"
+            {
+              "id": "8028",
+              "name": "Piast Gliwice",
+              "shortName": "Piast Gliwice"
+            },
+            "2026-11-07T13:45:00Z"
           ],
           "8028": [
             "8025",
@@ -13873,20 +13873,20 @@
             "2026-11-06T17:00:00Z"
           ],
           "8245": [
-            "8021",
-            "Zagłębie Lubin",
-            "5804030",
-            {
-              "id": "8021",
-              "name": "Zagłębie Lubin",
-              "shortName": "Zagłębie Lubin"
-            },
+            "5769",
+            "Radomiak Radom",
+            "5804033",
             {
               "id": "8245",
               "name": "Korona Kielce",
               "shortName": "Korona Kielce"
             },
-            "2026-11-02T17:00:00Z"
+            {
+              "id": "5769",
+              "name": "Radomiak Radom",
+              "shortName": "Radomiak Radom"
+            },
+            "2026-11-07T11:15:00Z"
           ],
           "8673": [
             "4024",
@@ -18434,32 +18434,36 @@
         "opponent": {
           "id": "5769",
           "name": "Radomiak Radom",
-          "score": 0
+          "score": 3
         },
         "home": {
           "id": "5769",
           "name": "Radomiak Radom",
-          "score": 0
+          "score": 3
         },
         "away": {
           "id": "8025",
           "name": "Śląsk Wrocław",
-          "score": 0
+          "score": 1
         },
         "displayTournament": true,
-        "notStarted": true,
+        "notStarted": false,
         "tournament": {
           "stage": ""
         },
         "status": {
-          "utcTime": "2026-11-02T17:00:00.000Z",
-          "halfs": {
-            "firstHalfStarted": "02.11.2026 18:00:00"
-          },
-          "periodLength": 45,
-          "started": false,
+          "utcTime": "2026-11-02T17:00:00Z",
+          "finished": true,
+          "started": true,
           "cancelled": false,
-          "finished": false
+          "awarded": false,
+          "scoreStr": "3 - 1",
+          "reason": {
+            "short": "FT",
+            "shortKey": "fulltime_short",
+            "long": "Full-Time",
+            "longKey": "finished"
+          }
         }
       },
       {
@@ -18468,12 +18472,12 @@
         "opponent": {
           "id": "8021",
           "name": "Zagłębie Lubin",
-          "score": 0
+          "score": 1
         },
         "home": {
           "id": "8021",
           "name": "Zagłębie Lubin",
-          "score": 0
+          "score": 1
         },
         "away": {
           "id": "8245",
@@ -18481,19 +18485,23 @@
           "score": 0
         },
         "displayTournament": true,
-        "notStarted": true,
+        "notStarted": false,
         "tournament": {
           "stage": ""
         },
         "status": {
-          "utcTime": "2026-11-02T17:00:00.000Z",
-          "halfs": {
-            "firstHalfStarted": "02.11.2026 18:00:00"
-          },
-          "periodLength": 45,
-          "started": false,
+          "utcTime": "2026-11-02T17:00:00Z",
+          "finished": true,
+          "started": true,
           "cancelled": false,
-          "finished": false
+          "awarded": false,
+          "scoreStr": "1 - 0",
+          "reason": {
+            "short": "FT",
+            "shortKey": "fulltime_short",
+            "long": "Full-Time",
+            "longKey": "finished"
+          }
         }
       },
       {
@@ -18502,32 +18510,36 @@
         "opponent": {
           "id": "4024",
           "name": "Raków Częstochowa",
-          "score": 0
+          "score": 3
         },
         "home": {
           "id": "4024",
           "name": "Raków Częstochowa",
-          "score": 0
+          "score": 3
         },
         "away": {
           "id": "8023",
           "name": "Pogoń Szczecin",
-          "score": 0
+          "score": 1
         },
         "displayTournament": true,
-        "notStarted": true,
+        "notStarted": false,
         "tournament": {
           "stage": ""
         },
         "status": {
-          "utcTime": "2026-11-02T19:30:00.000Z",
-          "halfs": {
-            "firstHalfStarted": "02.11.2026 20:30:00"
-          },
-          "periodLength": 45,
-          "started": false,
+          "utcTime": "2026-11-02T19:30:00Z",
+          "finished": true,
+          "started": true,
           "cancelled": false,
-          "finished": false
+          "awarded": false,
+          "scoreStr": "3 - 1",
+          "reason": {
+            "short": "FT",
+            "shortKey": "fulltime_short",
+            "long": "Full-Time",
+            "longKey": "finished"
+          }
         }
       },
       {
@@ -24261,12 +24273,12 @@
         }
       }
     ],
-    "hasOngoingMatch": true,
+    "hasOngoingMatch": false,
     "shotMap": null,
     "matches": {
       "firstUnplayedMatch": {
-        "firstUnplayedMatchIndex": 112,
-        "firstUnplayedMatchId": "5804026"
+        "firstUnplayedMatchIndex": 115,
+        "firstUnplayedMatchId": "5804036"
       },
       "allMatches": [
         {
@@ -27757,14 +27769,19 @@
             "id": "8025"
           },
           "status": {
-            "utcTime": "2026-11-02T17:00:00.000Z",
-            "halfs": {
-              "firstHalfStarted": "02.11.2026 18:00:00"
-            },
-            "periodLength": 45,
-            "started": false,
+            "utcTime": "2026-11-02T17:00:00Z",
+            "timezone": "",
+            "finished": true,
+            "started": true,
             "cancelled": false,
-            "finished": false
+            "awarded": false,
+            "scoreStr": "3 - 1",
+            "reason": {
+              "short": "FT",
+              "shortKey": "fulltime_short",
+              "long": "Full-Time",
+              "longKey": "finished"
+            }
           }
         },
         {
@@ -27783,14 +27800,19 @@
             "id": "8245"
           },
           "status": {
-            "utcTime": "2026-11-02T17:00:00.000Z",
-            "halfs": {
-              "firstHalfStarted": "02.11.2026 18:00:00"
-            },
-            "periodLength": 45,
-            "started": false,
+            "utcTime": "2026-11-02T17:00:00Z",
+            "timezone": "",
+            "finished": true,
+            "started": true,
             "cancelled": false,
-            "finished": false
+            "awarded": false,
+            "scoreStr": "1 - 0",
+            "reason": {
+              "short": "FT",
+              "shortKey": "fulltime_short",
+              "long": "Full-Time",
+              "longKey": "finished"
+            }
           }
         },
         {
@@ -27809,14 +27831,19 @@
             "id": "8023"
           },
           "status": {
-            "utcTime": "2026-11-02T19:30:00.000Z",
-            "halfs": {
-              "firstHalfStarted": "02.11.2026 20:30:00"
-            },
-            "periodLength": 45,
-            "started": false,
+            "utcTime": "2026-11-02T19:30:00Z",
+            "timezone": "",
+            "finished": true,
+            "started": true,
             "cancelled": false,
-            "finished": false
+            "awarded": false,
+            "scoreStr": "3 - 1",
+            "reason": {
+              "short": "FT",
+              "shortKey": "fulltime_short",
+              "long": "Full-Time",
+              "longKey": "finished"
+            }
           }
         },
         {
@@ -32213,10 +32240,10 @@
           }
         }
       ],
-      "hasOngoingMatch": true,
+      "hasOngoingMatch": false,
       "fixtureInfo": {
         "activeRound": {
-          "roundId": "13",
+          "roundId": "14",
           "localizedKey": "round_fmt"
         },
         "rounds": [
@@ -32886,10 +32913,10 @@
           "ccode": "POL",
           "teamId": 8023,
           "teamName": "Pogoń Szczecin",
-          "value": 1.32,
+          "value": 1.17,
           "stat": {
             "name": "goals_per_90",
-            "value": 1.32,
+            "value": 1.17,
             "format": "fraction",
             "fractions": 2
           }
@@ -32903,10 +32930,10 @@
             "ccode": "POL",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
-            "value": 1.32,
+            "value": 1.17,
             "stat": {
               "name": "goals_per_90",
-              "value": 1.32,
+              "value": 1.17,
               "format": "fraction",
               "fractions": 2
             },
@@ -32918,30 +32945,9 @@
             }
           },
           {
-            "id": 906950,
-            "name": "Lamine Diaby-Fadiga",
-            "rank": 2,
-            "ccode": "GUI",
-            "teamId": 4024,
-            "teamName": "Raków Częstochowa",
-            "value": 1.13,
-            "stat": {
-              "name": "goals_per_90",
-              "value": 1.13,
-              "format": "fraction",
-              "fractions": 2
-            },
-            "teamColors": {
-              "darkMode": "#EC1B24",
-              "lightMode": "#EC1B24",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
             "id": 887680,
             "name": "Allahyar Sayyadmanesh",
-            "rank": 3,
+            "rank": 2,
             "ccode": "IRN",
             "teamId": 2182,
             "teamName": "Lech Poznań",
@@ -32955,6 +32961,27 @@
             "teamColors": {
               "darkMode": "#004898",
               "lightMode": "#004898",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 906950,
+            "name": "Lamine Diaby-Fadiga",
+            "rank": 3,
+            "ccode": "GUI",
+            "teamId": 4024,
+            "teamName": "Raków Częstochowa",
+            "value": 0.95,
+            "stat": {
+              "name": "goals_per_90",
+              "value": 0.95,
+              "format": "fraction",
+              "fractions": 2
+            },
+            "teamColors": {
+              "darkMode": "#EC1B24",
+              "lightMode": "#EC1B24",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -33033,10 +33060,10 @@
             "ccode": "ESP",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
-            "value": 6.3,
+            "value": 6.4,
             "stat": {
               "name": "expected_goals",
-              "value": 6.3,
+              "value": 6.4,
               "format": "fraction",
               "fractions": 1
             },
@@ -33062,10 +33089,10 @@
           "ccode": "GUI",
           "teamId": 4024,
           "teamName": "Raków Częstochowa",
-          "value": 1.01,
+          "value": 1.06,
           "stat": {
             "name": "expected_goals_per_90",
-            "value": 1.01,
+            "value": 1.06,
             "format": "fraction",
             "fractions": 2
           }
@@ -33079,10 +33106,10 @@
             "ccode": "GUI",
             "teamId": 4024,
             "teamName": "Raków Częstochowa",
-            "value": 1.01,
+            "value": 1.06,
             "stat": {
               "name": "expected_goals_per_90",
-              "value": 1.01,
+              "value": 1.06,
               "format": "fraction",
               "fractions": 2
             },
@@ -33238,10 +33265,10 @@
           "ccode": "POL",
           "teamId": 8025,
           "teamName": "Śląsk Wrocław",
-          "value": 3.2,
+          "value": 2.5,
           "stat": {
             "name": "ontarget_scoring_att",
-            "value": 3.2,
+            "value": 2.5,
             "format": "fraction",
             "fractions": 1
           }
@@ -33255,10 +33282,10 @@
             "ccode": "POL",
             "teamId": 8025,
             "teamName": "Śląsk Wrocław",
-            "value": 3.2,
+            "value": 2.5,
             "stat": {
               "name": "ontarget_scoring_att",
-              "value": 3.2,
+              "value": 2.5,
               "format": "fraction",
               "fractions": 1
             },
@@ -33276,10 +33303,10 @@
             "ccode": "GUI",
             "teamId": 4024,
             "teamName": "Raków Częstochowa",
-            "value": 2.3,
+            "value": 1.9,
             "stat": {
               "name": "ontarget_scoring_att",
-              "value": 2.3,
+              "value": 1.9,
               "format": "fraction",
               "fractions": 1
             },
@@ -33291,22 +33318,22 @@
             }
           },
           {
-            "id": 69541,
-            "name": "Kamil Grosicki",
+            "id": 887680,
+            "name": "Allahyar Sayyadmanesh",
             "rank": 3,
-            "ccode": "POL",
-            "teamId": 8023,
-            "teamName": "Pogoń Szczecin",
-            "value": 2,
+            "ccode": "IRN",
+            "teamId": 2182,
+            "teamName": "Lech Poznań",
+            "value": 1.8,
             "stat": {
               "name": "ontarget_scoring_att",
-              "value": 2,
+              "value": 1.8,
               "format": "fraction",
               "fractions": 1
             },
             "teamColors": {
-              "darkMode": "#1753a4",
-              "lightMode": "#102457",
+              "darkMode": "#004898",
+              "lightMode": "#004898",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -33326,10 +33353,10 @@
           "ccode": "GUI",
           "teamId": 4024,
           "teamName": "Raków Częstochowa",
-          "value": 5.6,
+          "value": 5.5,
           "stat": {
             "name": "total_scoring_att",
-            "value": 5.6,
+            "value": 5.5,
             "format": "fraction",
             "fractions": 1
           }
@@ -33343,10 +33370,10 @@
             "ccode": "GUI",
             "teamId": 4024,
             "teamName": "Raków Częstochowa",
-            "value": 5.6,
+            "value": 5.5,
             "stat": {
               "name": "total_scoring_att",
-              "value": 5.6,
+              "value": 5.5,
               "format": "fraction",
               "fractions": 1
             },
@@ -33408,16 +33435,16 @@
       {
         "header": "Accurate passes per 90",
         "participant": {
-          "id": 1184043,
-          "name": "Bernardo Vital",
+          "id": 848346,
+          "name": "Patrik Hellebrand",
           "rank": 1,
-          "ccode": "POR",
-          "teamId": 1957,
-          "teamName": "Jagiellonia Białystok",
-          "value": 64.4,
+          "ccode": "CZE",
+          "teamId": 8245,
+          "teamName": "Korona Kielce",
+          "value": 65.1,
           "stat": {
             "name": "accurate_pass",
-            "value": 64.4,
+            "value": 65.1,
             "format": "fraction",
             "fractions": 1
           }
@@ -33425,9 +33452,30 @@
         "fetchAllUrl": "https://data.fotmob.com/stats/196/season/37304/accurate_pass.json",
         "topThree": [
           {
+            "id": 848346,
+            "name": "Patrik Hellebrand",
+            "rank": 1,
+            "ccode": "CZE",
+            "teamId": 8245,
+            "teamName": "Korona Kielce",
+            "value": 65.1,
+            "stat": {
+              "name": "accurate_pass",
+              "value": 65.1,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#FBD23F",
+              "lightMode": "#e39b01",
+              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
             "id": 1184043,
             "name": "Bernardo Vital",
-            "rank": 1,
+            "rank": 2,
             "ccode": "POR",
             "teamId": 1957,
             "teamName": "Jagiellonia Białystok",
@@ -33448,7 +33496,7 @@
           {
             "id": 934952,
             "name": "Yuki Kobayashi",
-            "rank": 2,
+            "rank": 3,
             "ccode": "JPN",
             "teamId": 1957,
             "teamName": "Jagiellonia Białystok",
@@ -33463,27 +33511,6 @@
               "darkMode": "#D81921",
               "lightMode": "#D81921",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
-            "id": 485911,
-            "name": "Mikkel Maigaard",
-            "rank": 3,
-            "ccode": "DEN",
-            "teamId": 1286895,
-            "teamName": "Wieczysta Kraków",
-            "value": 62.9,
-            "stat": {
-              "name": "accurate_pass",
-              "value": 62.9,
-              "format": "fraction",
-              "fractions": 1
-            },
-            "teamColors": {
-              "darkMode": "#fde73c",
-              "lightMode": "#E09D00",
-              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           }
@@ -33710,37 +33737,16 @@
             }
           },
           {
-            "id": 448806,
-            "name": "Sebastian Kerk",
-            "rank": 2,
-            "ccode": "GER",
-            "teamId": 8021,
-            "teamName": "Zagłębie Lubin",
-            "value": 5.4,
-            "stat": {
-              "name": "accurate_long_balls",
-              "value": 5.4,
-              "format": "fraction",
-              "fractions": 1
-            },
-            "teamColors": {
-              "darkMode": "#EB6F08",
-              "lightMode": "#EB6F08",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
             "id": 848346,
             "name": "Patrik Hellebrand",
-            "rank": 3,
+            "rank": 2,
             "ccode": "CZE",
             "teamId": 8245,
             "teamName": "Korona Kielce",
-            "value": 4.9,
+            "value": 5,
             "stat": {
               "name": "accurate_long_balls",
-              "value": 4.9,
+              "value": 5,
               "format": "fraction",
               "fractions": 1
             },
@@ -33748,6 +33754,27 @@
               "darkMode": "#FBD23F",
               "lightMode": "#e39b01",
               "fontDarkMode": "rgba(29, 29, 29, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 448806,
+            "name": "Sebastian Kerk",
+            "rank": 3,
+            "ccode": "GER",
+            "teamId": 8021,
+            "teamName": "Zagłębie Lubin",
+            "value": 5,
+            "stat": {
+              "name": "accurate_long_balls",
+              "value": 5,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#EB6F08",
+              "lightMode": "#EB6F08",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           }
@@ -33760,16 +33787,16 @@
       {
         "header": "Line-breaking passes per 90",
         "participant": {
-          "id": 625528,
-          "name": "Fran Tudor",
+          "id": 1630298,
+          "name": "Guilherme Montóia",
           "rank": 1,
-          "ccode": "CRO",
-          "teamId": 4024,
-          "teamName": "Raków Częstochowa",
-          "value": 16.2,
+          "ccode": "POR",
+          "teamId": 1957,
+          "teamName": "Jagiellonia Białystok",
+          "value": 14.9,
           "stat": {
             "name": "lbp_total",
-            "value": 16.2,
+            "value": 14.9,
             "format": "fraction",
             "fractions": 1
           }
@@ -33777,51 +33804,9 @@
         "fetchAllUrl": "https://data.fotmob.com/stats/196/season/37304/lbp_total.json",
         "topThree": [
           {
-            "id": 625528,
-            "name": "Fran Tudor",
-            "rank": 1,
-            "ccode": "CRO",
-            "teamId": 4024,
-            "teamName": "Raków Częstochowa",
-            "value": 16.2,
-            "stat": {
-              "name": "lbp_total",
-              "value": 16.2,
-              "format": "fraction",
-              "fractions": 1
-            },
-            "teamColors": {
-              "darkMode": "#EC1B24",
-              "lightMode": "#EC1B24",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
-            "id": 611991,
-            "name": "Stratos Svarnas",
-            "rank": 2,
-            "ccode": "GRE",
-            "teamId": 4024,
-            "teamName": "Raków Częstochowa",
-            "value": 16,
-            "stat": {
-              "name": "lbp_total",
-              "value": 16,
-              "format": "fraction",
-              "fractions": 1
-            },
-            "teamColors": {
-              "darkMode": "#EC1B24",
-              "lightMode": "#EC1B24",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
             "id": 1630298,
             "name": "Guilherme Montóia",
-            "rank": 3,
+            "rank": 1,
             "ccode": "POR",
             "teamId": 1957,
             "teamName": "Jagiellonia Białystok",
@@ -33835,6 +33820,48 @@
             "teamColors": {
               "darkMode": "#D81921",
               "lightMode": "#D81921",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 955790,
+            "name": "Ibrahima Camará",
+            "rank": 2,
+            "ccode": "GUI",
+            "teamId": 5769,
+            "teamName": "Radomiak Radom",
+            "value": 14.5,
+            "stat": {
+              "name": "lbp_total",
+              "value": 14.5,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#09883C",
+              "lightMode": "#09883C",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 625528,
+            "name": "Fran Tudor",
+            "rank": 3,
+            "ccode": "CRO",
+            "teamId": 4024,
+            "teamName": "Raków Częstochowa",
+            "value": 14.4,
+            "stat": {
+              "name": "lbp_total",
+              "value": 14.4,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#EC1B24",
+              "lightMode": "#EC1B24",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -33936,16 +33963,16 @@
       {
         "header": "Expected assist (xA) per 90",
         "participant": {
-          "id": 1804831,
-          "name": "Adam Ciucka",
+          "id": 433535,
+          "name": "Bartosz Nowak",
           "rank": 1,
           "ccode": "POL",
-          "teamId": 8025,
-          "teamName": "Śląsk Wrocław",
-          "value": 0.61,
+          "teamId": 4023,
+          "teamName": "GKS Katowice",
+          "value": 0.55,
           "stat": {
             "name": "expected_assists_per_90",
-            "value": 0.61,
+            "value": 0.55,
             "format": "fraction",
             "fractions": 2
           }
@@ -33953,30 +33980,9 @@
         "fetchAllUrl": "https://data.fotmob.com/stats/196/season/37304/expected_assists_per_90.json",
         "topThree": [
           {
-            "id": 1804831,
-            "name": "Adam Ciucka",
-            "rank": 1,
-            "ccode": "POL",
-            "teamId": 8025,
-            "teamName": "Śląsk Wrocław",
-            "value": 0.61,
-            "stat": {
-              "name": "expected_assists_per_90",
-              "value": 0.61,
-              "format": "fraction",
-              "fractions": 2
-            },
-            "teamColors": {
-              "darkMode": "#138445",
-              "lightMode": "#006643",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
             "id": 433535,
             "name": "Bartosz Nowak",
-            "rank": 2,
+            "rank": 1,
             "ccode": "POL",
             "teamId": 4023,
             "teamName": "GKS Katowice",
@@ -33995,16 +34001,37 @@
             }
           },
           {
+            "id": 1804831,
+            "name": "Adam Ciucka",
+            "rank": 2,
+            "ccode": "POL",
+            "teamId": 8025,
+            "teamName": "Śląsk Wrocław",
+            "value": 0.52,
+            "stat": {
+              "name": "expected_assists_per_90",
+              "value": 0.52,
+              "format": "fraction",
+              "fractions": 2
+            },
+            "teamColors": {
+              "darkMode": "#138445",
+              "lightMode": "#006643",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
             "id": 974202,
             "name": "Piotr Samiec-Talar",
             "rank": 3,
             "ccode": "POL",
             "teamId": 8025,
             "teamName": "Śląsk Wrocław",
-            "value": 0.45,
+            "value": 0.43,
             "stat": {
               "name": "expected_assists_per_90",
-              "value": 0.45,
+              "value": 0.43,
               "format": "fraction",
               "fractions": 2
             },
@@ -34062,37 +34089,16 @@
             }
           },
           {
-            "id": 1804831,
-            "name": "Adam Ciucka",
-            "rank": 2,
-            "ccode": "POL",
-            "teamId": 8025,
-            "teamName": "Śląsk Wrocław",
-            "value": 1.1,
-            "stat": {
-              "name": "_expected_goals_and_expected_assists_per_90",
-              "value": 1.1,
-              "format": "fraction",
-              "fractions": 2
-            },
-            "teamColors": {
-              "darkMode": "#138445",
-              "lightMode": "#006643",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
             "id": 906950,
             "name": "Lamine Diaby-Fadiga",
-            "rank": 3,
+            "rank": 2,
             "ccode": "GUI",
             "teamId": 4024,
             "teamName": "Raków Częstochowa",
-            "value": 1.05,
+            "value": 1.09,
             "stat": {
               "name": "_expected_goals_and_expected_assists_per_90",
-              "value": 1.05,
+              "value": 1.09,
               "format": "fraction",
               "fractions": 2
             },
@@ -34100,6 +34106,27 @@
               "darkMode": "#EC1B24",
               "lightMode": "#EC1B24",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 433535,
+            "name": "Bartosz Nowak",
+            "rank": 3,
+            "ccode": "POL",
+            "teamId": 4023,
+            "teamName": "GKS Katowice",
+            "value": 0.99,
+            "stat": {
+              "name": "_expected_goals_and_expected_assists_per_90",
+              "value": 0.99,
+              "format": "fraction",
+              "fractions": 2
+            },
+            "teamColors": {
+              "darkMode": "#FEE200",
+              "lightMode": "#dd9e00",
+              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           }
@@ -34118,10 +34145,10 @@
           "ccode": "POL",
           "teamId": 8025,
           "teamName": "Śląsk Wrocław",
-          "value": 5.5,
+          "value": 4.4,
           "stat": {
             "name": "won_contest",
-            "value": 5.5,
+            "value": 4.4,
             "format": "fraction",
             "fractions": 1
           }
@@ -34135,10 +34162,10 @@
             "ccode": "POL",
             "teamId": 8025,
             "teamName": "Śląsk Wrocław",
-            "value": 5.5,
+            "value": 4.4,
             "stat": {
               "name": "won_contest",
-              "value": 5.5,
+              "value": 4.4,
               "format": "fraction",
               "fractions": 1
             },
@@ -34640,16 +34667,16 @@
       {
         "header": "Clearances per 90",
         "participant": {
-          "id": 989449,
-          "name": "Juan Rivas",
+          "id": 964516,
+          "name": "Damian Michalski",
           "rank": 1,
-          "ccode": "ESP",
-          "teamId": 8028,
-          "teamName": "Piast Gliwice",
-          "value": 8.5,
+          "ccode": "POL",
+          "teamId": 8021,
+          "teamName": "Zagłębie Lubin",
+          "value": 8.6,
           "stat": {
             "name": "effective_clearance",
-            "value": 8.5,
+            "value": 8.6,
             "format": "fraction",
             "fractions": 1
           }
@@ -34657,9 +34684,30 @@
         "fetchAllUrl": "https://data.fotmob.com/stats/196/season/37304/effective_clearance.json",
         "topThree": [
           {
+            "id": 964516,
+            "name": "Damian Michalski",
+            "rank": 1,
+            "ccode": "POL",
+            "teamId": 8021,
+            "teamName": "Zagłębie Lubin",
+            "value": 8.6,
+            "stat": {
+              "name": "effective_clearance",
+              "value": 8.6,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#EB6F08",
+              "lightMode": "#EB6F08",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
             "id": 989449,
             "name": "Juan Rivas",
-            "rank": 1,
+            "rank": 2,
             "ccode": "ESP",
             "teamId": 8028,
             "teamName": "Piast Gliwice",
@@ -34673,27 +34721,6 @@
             "teamColors": {
               "darkMode": "#0850A0",
               "lightMode": "#0850A0",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
-            "id": 964516,
-            "name": "Damian Michalski",
-            "rank": 2,
-            "ccode": "POL",
-            "teamId": 8021,
-            "teamName": "Zagłębie Lubin",
-            "value": 8.5,
-            "stat": {
-              "name": "effective_clearance",
-              "value": 8.5,
-              "format": "fraction",
-              "fractions": 1
-            },
-            "teamColors": {
-              "darkMode": "#EB6F08",
-              "lightMode": "#EB6F08",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -34965,7 +34992,7 @@
           {
             "id": 1735915,
             "name": "Oliwier Kwiatkowski",
-            "rank": 2,
+            "rank": 3,
             "ccode": "POL",
             "teamId": 4024,
             "teamName": "Raków Częstochowa",
@@ -35051,12 +35078,12 @@
             }
           },
           {
-            "id": 1804831,
-            "name": "Adam Ciucka",
+            "id": 1137726,
+            "name": "Lasse Nordås",
             "rank": 3,
-            "ccode": "POL",
-            "teamId": 8025,
-            "teamName": "Śląsk Wrocław",
+            "ccode": "NOR",
+            "teamId": 2186,
+            "teamName": "Cracovia",
             "value": 1.6,
             "stat": {
               "name": "poss_won_att_3rd",
@@ -35065,8 +35092,8 @@
               "fractions": 1
             },
             "teamColors": {
-              "darkMode": "#138445",
-              "lightMode": "#006643",
+              "darkMode": "#E21A22",
+              "lightMode": "#c7000f",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -35118,9 +35145,30 @@
             }
           },
           {
+            "id": 177711,
+            "name": "Zlatan Alomerović",
+            "rank": 2,
+            "ccode": "GER",
+            "teamId": 8021,
+            "teamName": "Zagłębie Lubin",
+            "value": 5,
+            "stat": {
+              "name": "clean_sheet",
+              "value": 5,
+              "format": "number",
+              "fractions": 0
+            },
+            "teamColors": {
+              "darkMode": "#EB6F08",
+              "lightMode": "#EB6F08",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
             "id": 1159532,
             "name": "Ottó Hindrich",
-            "rank": 2,
+            "rank": 3,
             "ccode": "ROU",
             "teamId": 8673,
             "teamName": "Legia Warsaw",
@@ -35134,27 +35182,6 @@
             "teamColors": {
               "darkMode": "#ffffff",
               "lightMode": "#009445",
-              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
-            "id": 1286191,
-            "name": "Philipp Schulze",
-            "rank": 2,
-            "ccode": "GER",
-            "teamId": 8020,
-            "teamName": "Górnik Zabrze",
-            "value": 4,
-            "stat": {
-              "name": "clean_sheet",
-              "value": 4,
-              "format": "number",
-              "fractions": 0
-            },
-            "teamColors": {
-              "darkMode": "#ffffff",
-              "lightMode": "#26419A",
               "fontDarkMode": "rgba(29, 29, 29, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -35174,10 +35201,10 @@
           "ccode": "ROU",
           "teamId": 8023,
           "teamName": "Pogoń Szczecin",
-          "value": 82.7,
+          "value": 80,
           "stat": {
             "name": "_save_percentage",
-            "value": 82.7,
+            "value": 80,
             "format": "percent",
             "fractions": 1
           }
@@ -35191,10 +35218,10 @@
             "ccode": "ROU",
             "teamId": 8023,
             "teamName": "Pogoń Szczecin",
-            "value": 82.7,
+            "value": 80,
             "stat": {
               "name": "_save_percentage",
-              "value": 82.7,
+              "value": 80,
               "format": "percent",
               "fractions": 1
             },
@@ -35227,22 +35254,22 @@
             }
           },
           {
-            "id": 630036,
-            "name": "Mateusz Lis",
+            "id": 177711,
+            "name": "Zlatan Alomerović",
             "rank": 3,
-            "ccode": "POL",
-            "teamId": 2182,
-            "teamName": "Lech Poznań",
-            "value": 74.4,
+            "ccode": "GER",
+            "teamId": 8021,
+            "teamName": "Zagłębie Lubin",
+            "value": 76.5,
             "stat": {
               "name": "_save_percentage",
-              "value": 74.4,
+              "value": 76.5,
               "format": "percent",
               "fractions": 1
             },
             "teamColors": {
-              "darkMode": "#004898",
-              "lightMode": "#004898",
+              "darkMode": "#EB6F08",
+              "lightMode": "#EB6F08",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -35315,22 +35342,22 @@
             }
           },
           {
-            "id": 289211,
-            "name": "Valentin Cojocaru",
+            "id": 867286,
+            "name": "Karol Niemczycki",
             "rank": 3,
-            "ccode": "ROU",
-            "teamId": 8023,
-            "teamName": "Pogoń Szczecin",
-            "value": 3.9,
+            "ccode": "POL",
+            "teamId": 8025,
+            "teamName": "Śląsk Wrocław",
+            "value": 3.8,
             "stat": {
               "name": "saves",
-              "value": 3.9,
+              "value": 3.8,
               "format": "fraction",
               "fractions": 1
             },
             "teamColors": {
-              "darkMode": "#1753a4",
-              "lightMode": "#102457",
+              "darkMode": "#138445",
+              "lightMode": "#006643",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -35382,30 +35409,9 @@
             }
           },
           {
-            "id": 289211,
-            "name": "Valentin Cojocaru",
-            "rank": 2,
-            "ccode": "ROU",
-            "teamId": 8023,
-            "teamName": "Pogoń Szczecin",
-            "value": 4,
-            "stat": {
-              "name": "_goals_prevented",
-              "value": 4,
-              "format": "fraction",
-              "fractions": 1
-            },
-            "teamColors": {
-              "darkMode": "#1753a4",
-              "lightMode": "#102457",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
             "id": 1122644,
             "name": "Domen Gril",
-            "rank": 3,
+            "rank": 2,
             "ccode": "SVN",
             "teamId": 8028,
             "teamName": "Piast Gliwice",
@@ -35422,6 +35428,27 @@
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
+          },
+          {
+            "id": 1525382,
+            "name": "Marcel Łubik",
+            "rank": 3,
+            "ccode": "POL",
+            "teamId": 10265,
+            "teamName": "Wisła Kraków",
+            "value": 3.9,
+            "stat": {
+              "name": "_goals_prevented",
+              "value": 3.9,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#DA241C",
+              "lightMode": "#DA241C",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
           }
         ],
         "order": 39,
@@ -35432,12 +35459,12 @@
       {
         "header": "Goals conceded per 90",
         "participant": {
-          "id": 289211,
-          "name": "Valentin Cojocaru",
+          "id": 1159532,
+          "name": "Ottó Hindrich",
           "rank": 1,
           "ccode": "ROU",
-          "teamId": 8023,
-          "teamName": "Pogoń Szczecin",
+          "teamId": 8673,
+          "teamName": "Legia Warsaw",
           "value": 0.8,
           "stat": {
             "name": "goals_conceded",
@@ -35449,30 +35476,9 @@
         "fetchAllUrl": "https://data.fotmob.com/stats/196/season/37304/goals_conceded.json",
         "topThree": [
           {
-            "id": 289211,
-            "name": "Valentin Cojocaru",
-            "rank": 1,
-            "ccode": "ROU",
-            "teamId": 8023,
-            "teamName": "Pogoń Szczecin",
-            "value": 0.8,
-            "stat": {
-              "name": "goals_conceded",
-              "value": 0.8,
-              "format": "fraction",
-              "fractions": 1
-            },
-            "teamColors": {
-              "darkMode": "#1753a4",
-              "lightMode": "#102457",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
             "id": 1159532,
             "name": "Ottó Hindrich",
-            "rank": 2,
+            "rank": 1,
             "ccode": "ROU",
             "teamId": 8673,
             "teamName": "Legia Warsaw",
@@ -35493,7 +35499,7 @@
           {
             "id": 1286191,
             "name": "Philipp Schulze",
-            "rank": 2,
+            "rank": 1,
             "ccode": "GER",
             "teamId": 8020,
             "teamName": "Górnik Zabrze",
@@ -35510,6 +35516,27 @@
               "fontDarkMode": "rgba(29, 29, 29, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
+          },
+          {
+            "id": 630036,
+            "name": "Mateusz Lis",
+            "rank": 3,
+            "ccode": "POL",
+            "teamId": 2182,
+            "teamName": "Lech Poznań",
+            "value": 0.9,
+            "stat": {
+              "name": "goals_conceded",
+              "value": 0.9,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#004898",
+              "lightMode": "#004898",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
           }
         ],
         "order": 40,
@@ -35520,16 +35547,16 @@
       {
         "header": "High claims per 90",
         "participant": {
-          "id": 289211,
-          "name": "Valentin Cojocaru",
+          "id": 1161563,
+          "name": "Xavier Dziekoński",
           "rank": 1,
-          "ccode": "ROU",
-          "teamId": 8023,
-          "teamName": "Pogoń Szczecin",
-          "value": 1.5,
+          "ccode": "POL",
+          "teamId": 8245,
+          "teamName": "Korona Kielce",
+          "value": 1.4,
           "stat": {
             "name": "total_high_claim",
-            "value": 1.5,
+            "value": 1.4,
             "format": "fraction",
             "fractions": 1
           }
@@ -35537,30 +35564,9 @@
         "fetchAllUrl": "https://data.fotmob.com/stats/196/season/37304/total_high_claim.json",
         "topThree": [
           {
-            "id": 289211,
-            "name": "Valentin Cojocaru",
-            "rank": 1,
-            "ccode": "ROU",
-            "teamId": 8023,
-            "teamName": "Pogoń Szczecin",
-            "value": 1.5,
-            "stat": {
-              "name": "total_high_claim",
-              "value": 1.5,
-              "format": "fraction",
-              "fractions": 1
-            },
-            "teamColors": {
-              "darkMode": "#1753a4",
-              "lightMode": "#102457",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
             "id": 1161563,
             "name": "Xavier Dziekoński",
-            "rank": 2,
+            "rank": 1,
             "ccode": "POL",
             "teamId": 8245,
             "teamName": "Korona Kielce",
@@ -35575,6 +35581,27 @@
               "darkMode": "#FBD23F",
               "lightMode": "#e39b01",
               "fontDarkMode": "rgba(29, 29, 29, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 289211,
+            "name": "Valentin Cojocaru",
+            "rank": 2,
+            "ccode": "ROU",
+            "teamId": 8023,
+            "teamName": "Pogoń Szczecin",
+            "value": 1.4,
+            "stat": {
+              "name": "total_high_claim",
+              "value": 1.4,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#1753a4",
+              "lightMode": "#102457",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           },
@@ -35790,10 +35817,10 @@
           "ccode": "POL",
           "teamId": 8245,
           "teamName": "Korona Kielce",
-          "value": 6,
+          "value": 4.7,
           "stat": {
             "name": "fouls",
-            "value": 6,
+            "value": 4.7,
             "format": "fraction",
             "fractions": 1
           }
@@ -35807,10 +35834,10 @@
             "ccode": "POL",
             "teamId": 8245,
             "teamName": "Korona Kielce",
-            "value": 6,
+            "value": 4.7,
             "stat": {
               "name": "fouls",
-              "value": 6,
+              "value": 4.7,
               "format": "fraction",
               "fractions": 1
             },
@@ -35910,12 +35937,12 @@
             }
           },
           {
-            "id": 433675,
-            "name": "Bartosz Kapustka",
+            "id": 625528,
+            "name": "Fran Tudor",
             "rank": 2,
-            "ccode": "POL",
-            "teamId": 8673,
-            "teamName": "Legia Warsaw",
+            "ccode": "CRO",
+            "teamId": 4024,
+            "teamName": "Raków Częstochowa",
             "value": 4,
             "stat": {
               "name": "yellow_card",
@@ -35924,19 +35951,19 @@
               "fractions": 0
             },
             "teamColors": {
-              "darkMode": "#ffffff",
-              "lightMode": "#009445",
-              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
+              "darkMode": "#EC1B24",
+              "lightMode": "#EC1B24",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           },
           {
-            "id": 845557,
-            "name": "David Čolina",
-            "rank": 2,
-            "ccode": "CRO",
-            "teamId": 8021,
-            "teamName": "Zagłębie Lubin",
+            "id": 1012795,
+            "name": "Abdoul Tapsoba",
+            "rank": 3,
+            "ccode": "BFA",
+            "teamId": 5769,
+            "teamName": "Radomiak Radom",
             "value": 4,
             "stat": {
               "name": "yellow_card",
@@ -35945,8 +35972,8 @@
               "fractions": 0
             },
             "teamColors": {
-              "darkMode": "#EB6F08",
-              "lightMode": "#EB6F08",
+              "darkMode": "#09883C",
+              "lightMode": "#09883C",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -36107,21 +36134,21 @@
           },
           {
             "id": 0,
-            "name": "Pogoń Szczecin",
+            "name": "Legia Warszawa",
             "rank": 3,
             "ccode": "POL",
-            "teamId": 8023,
-            "value": 7.06,
+            "teamId": 8673,
+            "value": 7.05,
             "stat": {
               "name": "rating_team",
-              "value": 7.06,
+              "value": 7.05,
               "format": "fraction",
               "fractions": 2
             },
             "teamColors": {
-              "darkMode": "#1753a4",
-              "lightMode": "#102457",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "darkMode": "#ffffff",
+              "lightMode": "#009445",
+              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           }
@@ -36219,10 +36246,10 @@
         "header": "Goals conceded per match",
         "participant": {
           "id": 0,
-          "name": "Pogoń Szczecin",
+          "name": "Legia Warszawa",
           "rank": 1,
           "ccode": "POL",
-          "teamId": 8023,
+          "teamId": 8673,
           "value": 0.8,
           "stat": {
             "name": "goals_conceded_team_match",
@@ -36235,28 +36262,8 @@
         "topThree": [
           {
             "id": 0,
-            "name": "Pogoń Szczecin",
-            "rank": 1,
-            "ccode": "POL",
-            "teamId": 8023,
-            "value": 0.8,
-            "stat": {
-              "name": "goals_conceded_team_match",
-              "value": 0.8,
-              "format": "fraction",
-              "fractions": 1
-            },
-            "teamColors": {
-              "darkMode": "#1753a4",
-              "lightMode": "#102457",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
-            "id": 0,
             "name": "Legia Warszawa",
-            "rank": 2,
+            "rank": 1,
             "ccode": "POL",
             "teamId": 8673,
             "value": 0.8,
@@ -36276,7 +36283,7 @@
           {
             "id": 0,
             "name": "Górnik Zabrze",
-            "rank": 2,
+            "rank": 1,
             "ccode": "POL",
             "teamId": 8020,
             "value": 0.8,
@@ -36290,6 +36297,26 @@
               "darkMode": "#ffffff",
               "lightMode": "#26419A",
               "fontDarkMode": "rgba(29, 29, 29, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 0,
+            "name": "Lech Poznań",
+            "rank": 3,
+            "ccode": "POL",
+            "teamId": 2182,
+            "value": 0.9,
+            "stat": {
+              "name": "goals_conceded_team_match",
+              "value": 0.9,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#004898",
+              "lightMode": "#004898",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           }
@@ -36427,10 +36454,10 @@
             "rank": 2,
             "ccode": "POL",
             "teamId": 8021,
-            "value": 4,
+            "value": 5,
             "stat": {
               "name": "clean_sheet_team",
-              "value": 4,
+              "value": 5,
               "format": "number",
               "fractions": 0
             },
@@ -36560,10 +36587,10 @@
           "ccode": "POL",
           "teamId": 2182,
           "teamName": "Lech Poznań",
-          "value": 43188363,
+          "value": 52367709,
           "stat": {
             "name": "squad_value_team",
-            "value": 43188363,
+            "value": 52367709,
             "format": "currency",
             "fractions": 0
           }
@@ -36577,10 +36604,10 @@
             "ccode": "POL",
             "teamId": 2182,
             "teamName": "Lech Poznań",
-            "value": 43188363,
+            "value": 52367709,
             "stat": {
               "name": "squad_value_team",
-              "value": 43188363,
+              "value": 52367709,
               "format": "currency",
               "fractions": 0
             },
@@ -36598,10 +36625,10 @@
             "ccode": "POL",
             "teamId": 8024,
             "teamName": "Widzew Łódź",
-            "value": 28285508,
+            "value": 27635175,
             "stat": {
               "name": "squad_value_team",
-              "value": 28285508,
+              "value": 27635175,
               "format": "currency",
               "fractions": 0
             },
@@ -36614,22 +36641,22 @@
           },
           {
             "id": 0,
-            "name": "Górnik Zabrze",
+            "name": "Raków Częstochowa",
             "rank": 3,
             "ccode": "POL",
-            "teamId": 8020,
-            "teamName": "Górnik Zabrze",
-            "value": 24953685,
+            "teamId": 4024,
+            "teamName": "Raków Częstochowa",
+            "value": 24543198,
             "stat": {
               "name": "squad_value_team",
-              "value": 24953685,
+              "value": 24543198,
               "format": "currency",
               "fractions": 0
             },
             "teamColors": {
-              "darkMode": "#ffffff",
-              "lightMode": "#26419A",
-              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
+              "darkMode": "#EC1B24",
+              "lightMode": "#EC1B24",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           }
@@ -37035,20 +37062,20 @@
           },
           {
             "id": 0,
-            "name": "Lech Poznań",
+            "name": "Radomiak Radom",
             "rank": 3,
             "ccode": "POL",
-            "teamId": 2182,
-            "value": 28,
+            "teamId": 5769,
+            "value": 29,
             "stat": {
               "name": "big_chance_missed_team",
-              "value": 28,
+              "value": 29,
               "format": "number",
               "fractions": 0
             },
             "teamColors": {
-              "darkMode": "#004898",
-              "lightMode": "#004898",
+              "darkMode": "#09883C",
+              "lightMode": "#09883C",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -37151,10 +37178,10 @@
           "rank": 1,
           "ccode": "POL",
           "teamId": 8021,
-          "value": 26.5,
+          "value": 25.9,
           "stat": {
             "name": "accurate_long_balls_team",
-            "value": 26.5,
+            "value": 25.9,
             "format": "fraction",
             "fractions": 1
           }
@@ -37167,10 +37194,10 @@
             "rank": 1,
             "ccode": "POL",
             "teamId": 8021,
-            "value": 26.5,
+            "value": 25.9,
             "stat": {
               "name": "accurate_long_balls_team",
-              "value": 26.5,
+              "value": 25.9,
               "format": "fraction",
               "fractions": 1
             },
@@ -37187,10 +37214,10 @@
             "rank": 2,
             "ccode": "POL",
             "teamId": 8023,
-            "value": 24.4,
+            "value": 23.9,
             "stat": {
               "name": "accurate_long_balls_team",
-              "value": 24.4,
+              "value": 23.9,
               "format": "fraction",
               "fractions": 1
             },
@@ -37351,8 +37378,28 @@
           },
           {
             "id": 0,
+            "name": "Raków Częstochowa",
+            "rank": 1,
+            "ccode": "POL",
+            "teamId": 4024,
+            "value": 5,
+            "stat": {
+              "name": "penalty_won_team",
+              "value": 5,
+              "format": "number",
+              "fractions": 0
+            },
+            "teamColors": {
+              "darkMode": "#EC1B24",
+              "lightMode": "#EC1B24",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 0,
             "name": "Jagiellonia Białystok",
-            "rank": 2,
+            "rank": 3,
             "ccode": "POL",
             "teamId": 1957,
             "value": 4,
@@ -37365,26 +37412,6 @@
             "teamColors": {
               "darkMode": "#D81921",
               "lightMode": "#D81921",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
-            "id": 0,
-            "name": "Raków Częstochowa",
-            "rank": 2,
-            "ccode": "POL",
-            "teamId": 4024,
-            "value": 4,
-            "stat": {
-              "name": "penalty_won_team",
-              "value": 4,
-              "format": "number",
-              "fractions": 0
-            },
-            "teamColors": {
-              "darkMode": "#EC1B24",
-              "lightMode": "#EC1B24",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -37459,10 +37486,10 @@
             "rank": 3,
             "ccode": "POL",
             "teamId": 89466,
-            "value": 371,
+            "value": 372,
             "stat": {
               "name": "touches_in_opp_box_team",
-              "value": 371,
+              "value": 372,
               "format": "number",
               "fractions": 0
             },
@@ -37483,14 +37510,14 @@
         "header": "Corners",
         "participant": {
           "id": 0,
-          "name": "Lech Poznań",
+          "name": "Radomiak Radom",
           "rank": 1,
           "ccode": "POL",
-          "teamId": 2182,
-          "value": 79,
+          "teamId": 5769,
+          "value": 81,
           "stat": {
             "name": "corner_taken_team",
-            "value": 79,
+            "value": 81,
             "format": "number",
             "fractions": 0
           }
@@ -37499,8 +37526,28 @@
         "topThree": [
           {
             "id": 0,
-            "name": "Lech Poznań",
+            "name": "Radomiak Radom",
             "rank": 1,
+            "ccode": "POL",
+            "teamId": 5769,
+            "value": 81,
+            "stat": {
+              "name": "corner_taken_team",
+              "value": 81,
+              "format": "number",
+              "fractions": 0
+            },
+            "teamColors": {
+              "darkMode": "#09883C",
+              "lightMode": "#09883C",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 0,
+            "name": "Lech Poznań",
+            "rank": 2,
             "ccode": "POL",
             "teamId": 2182,
             "value": 79,
@@ -37520,7 +37567,7 @@
           {
             "id": 0,
             "name": "Cracovia",
-            "rank": 2,
+            "rank": 3,
             "ccode": "POL",
             "teamId": 2186,
             "value": 78,
@@ -37533,26 +37580,6 @@
             "teamColors": {
               "darkMode": "#E21A22",
               "lightMode": "#c7000f",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
-            "id": 0,
-            "name": "Widzew Łódź",
-            "rank": 2,
-            "ccode": "POL",
-            "teamId": 8024,
-            "value": 78,
-            "stat": {
-              "name": "corner_taken_team",
-              "value": 78,
-              "format": "number",
-              "fractions": 0
-            },
-            "teamColors": {
-              "darkMode": "#AD180F",
-              "lightMode": "#AD180F",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -37707,20 +37734,20 @@
           },
           {
             "id": 0,
-            "name": "Pogoń Szczecin",
+            "name": "Wisła Kraków",
             "rank": 3,
             "ccode": "POL",
-            "teamId": 8023,
-            "value": 16.5,
+            "teamId": 10265,
+            "value": 16.8,
             "stat": {
               "name": "expected_goals_conceded_team",
-              "value": 16.5,
+              "value": 16.8,
               "format": "fraction",
               "fractions": 1
             },
             "teamColors": {
-              "darkMode": "#1753a4",
-              "lightMode": "#102457",
+              "darkMode": "#DA241C",
+              "lightMode": "#DA241C",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -37795,10 +37822,10 @@
             "rank": 3,
             "ccode": "POL",
             "teamId": 4024,
-            "value": 9.3,
+            "value": 9.2,
             "stat": {
               "name": "interception_team",
-              "value": 9.3,
+              "value": 9.2,
               "format": "fraction",
               "fractions": 1
             },
@@ -37907,10 +37934,10 @@
           "rank": 1,
           "ccode": "POL",
           "teamId": 8021,
-          "value": 35,
+          "value": 36.5,
           "stat": {
             "name": "effective_clearance_team",
-            "value": 35,
+            "value": 36.5,
             "format": "fraction",
             "fractions": 1
           }
@@ -37923,10 +37950,10 @@
             "rank": 1,
             "ccode": "POL",
             "teamId": 8021,
-            "value": 35,
+            "value": 36.5,
             "stat": {
               "name": "effective_clearance_team",
-              "value": 35,
+              "value": 36.5,
               "format": "fraction",
               "fractions": 1
             },
@@ -37959,20 +37986,20 @@
           },
           {
             "id": 0,
-            "name": "Radomiak Radom",
+            "name": "Śląsk Wrocław",
             "rank": 3,
             "ccode": "POL",
-            "teamId": 5769,
-            "value": 32,
+            "teamId": 8025,
+            "value": 32.7,
             "stat": {
               "name": "effective_clearance_team",
-              "value": 32,
+              "value": 32.7,
               "format": "fraction",
               "fractions": 1
             },
             "teamColors": {
-              "darkMode": "#09883C",
-              "lightMode": "#09883C",
+              "darkMode": "#138445",
+              "lightMode": "#006643",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -38127,10 +38154,10 @@
           },
           {
             "id": 0,
-            "name": "Wisła Płock",
+            "name": "Zagłębie Lubin",
             "rank": 3,
             "ccode": "POL",
-            "teamId": 8243,
+            "teamId": 8021,
             "value": 2,
             "stat": {
               "name": "_set_piece_goals_conceded_team",
@@ -38139,8 +38166,8 @@
               "fractions": 0
             },
             "teamColors": {
-              "darkMode": "#085AA6",
-              "lightMode": "#085AA6",
+              "darkMode": "#EB6F08",
+              "lightMode": "#EB6F08",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -38239,14 +38266,14 @@
         "header": "Saves per match",
         "participant": {
           "id": 0,
-          "name": "Pogoń Szczecin",
+          "name": "Śląsk Wrocław",
           "rank": 1,
           "ccode": "POL",
-          "teamId": 8023,
-          "value": 3.9,
+          "teamId": 8025,
+          "value": 3.8,
           "stat": {
             "name": "saves_team",
-            "value": 3.9,
+            "value": 3.8,
             "format": "fraction",
             "fractions": 1
           }
@@ -38255,20 +38282,20 @@
         "topThree": [
           {
             "id": 0,
-            "name": "Pogoń Szczecin",
+            "name": "Śląsk Wrocław",
             "rank": 1,
             "ccode": "POL",
-            "teamId": 8023,
-            "value": 3.9,
+            "teamId": 8025,
+            "value": 3.8,
             "stat": {
               "name": "saves_team",
-              "value": 3.9,
+              "value": 3.8,
               "format": "fraction",
               "fractions": 1
             },
             "teamColors": {
-              "darkMode": "#1753a4",
-              "lightMode": "#102457",
+              "darkMode": "#138445",
+              "lightMode": "#006643",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -38276,7 +38303,7 @@
           {
             "id": 0,
             "name": "Wieczysta Kraków",
-            "rank": 2,
+            "rank": 1,
             "ccode": "POL",
             "teamId": 1286895,
             "value": 3.8,
@@ -38295,20 +38322,20 @@
           },
           {
             "id": 0,
-            "name": "Raków Częstochowa",
+            "name": "Pogoń Szczecin",
             "rank": 3,
             "ccode": "POL",
-            "teamId": 4024,
-            "value": 3.8,
+            "teamId": 8023,
+            "value": 3.7,
             "stat": {
               "name": "saves_team",
-              "value": 3.8,
+              "value": 3.7,
               "format": "fraction",
               "fractions": 1
             },
             "teamColors": {
-              "darkMode": "#EC1B24",
-              "lightMode": "#EC1B24",
+              "darkMode": "#1753a4",
+              "lightMode": "#102457",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
@@ -38327,10 +38354,10 @@
           "rank": 1,
           "ccode": "POL",
           "teamId": 8023,
-          "value": 15.2,
+          "value": 15.1,
           "stat": {
             "name": "fk_foul_lost_team",
-            "value": 15.2,
+            "value": 15.1,
             "format": "fraction",
             "fractions": 1
           }
@@ -38343,10 +38370,10 @@
             "rank": 1,
             "ccode": "POL",
             "teamId": 8023,
-            "value": 15.2,
+            "value": 15.1,
             "stat": {
               "name": "fk_foul_lost_team",
-              "value": 15.2,
+              "value": 15.1,
               "format": "fraction",
               "fractions": 1
             },
@@ -38443,8 +38470,28 @@
           },
           {
             "id": 0,
-            "name": "Górnik Zabrze",
+            "name": "Zagłębie Lubin",
             "rank": 2,
+            "ccode": "POL",
+            "teamId": 8021,
+            "value": 33,
+            "stat": {
+              "name": "total_yel_card_team",
+              "value": 33,
+              "format": "number",
+              "fractions": 0
+            },
+            "teamColors": {
+              "darkMode": "#EB6F08",
+              "lightMode": "#EB6F08",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 0,
+            "name": "Górnik Zabrze",
+            "rank": 3,
             "ccode": "POL",
             "teamId": 8020,
             "value": 30,
@@ -38460,26 +38507,6 @@
               "fontDarkMode": "rgba(29, 29, 29, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
-          },
-          {
-            "id": 0,
-            "name": "Zagłębie Lubin",
-            "rank": 3,
-            "ccode": "POL",
-            "teamId": 8021,
-            "value": 30,
-            "stat": {
-              "name": "total_yel_card_team",
-              "value": 30,
-              "format": "number",
-              "fractions": 0
-            },
-            "teamColors": {
-              "darkMode": "#EB6F08",
-              "lightMode": "#EB6F08",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
           }
         ],
         "order": 75,
@@ -38491,14 +38518,14 @@
         "header": "Red cards",
         "participant": {
           "id": 0,
-          "name": "Raków Częstochowa",
+          "name": "Pogoń Szczecin",
           "rank": 1,
           "ccode": "POL",
-          "teamId": 4024,
-          "value": 2,
+          "teamId": 8023,
+          "value": 3,
           "stat": {
             "name": "total_red_card_team",
-            "value": 2,
+            "value": 3,
             "format": "number",
             "fractions": 0
           }
@@ -38507,8 +38534,28 @@
         "topThree": [
           {
             "id": 0,
-            "name": "Raków Częstochowa",
+            "name": "Pogoń Szczecin",
             "rank": 1,
+            "ccode": "POL",
+            "teamId": 8023,
+            "value": 3,
+            "stat": {
+              "name": "total_red_card_team",
+              "value": 3,
+              "format": "number",
+              "fractions": 0
+            },
+            "teamColors": {
+              "darkMode": "#1753a4",
+              "lightMode": "#102457",
+              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 0,
+            "name": "Raków Częstochowa",
+            "rank": 2,
             "ccode": "POL",
             "teamId": 4024,
             "value": 2,
@@ -38528,7 +38575,7 @@
           {
             "id": 0,
             "name": "Widzew Łódź",
-            "rank": 2,
+            "rank": 3,
             "ccode": "POL",
             "teamId": 8024,
             "value": 1,
@@ -38542,26 +38589,6 @@
               "darkMode": "#AD180F",
               "lightMode": "#AD180F",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
-            "id": 0,
-            "name": "Górnik Zabrze",
-            "rank": 3,
-            "ccode": "POL",
-            "teamId": 8020,
-            "value": 1,
-            "stat": {
-              "name": "total_red_card_team",
-              "value": 1,
-              "format": "number",
-              "fractions": 0
-            },
-            "teamColors": {
-              "darkMode": "#ffffff",
-              "lightMode": "#26419A",
-              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           }
@@ -38641,8 +38668,8 @@
   },
   "fixtures": {
     "firstUnplayedMatch": {
-      "firstUnplayedMatchIndex": 112,
-      "firstUnplayedMatchId": "5804026"
+      "firstUnplayedMatchIndex": 115,
+      "firstUnplayedMatchId": "5804036"
     },
     "allMatches": [
       {
@@ -42133,14 +42160,19 @@
           "id": "8025"
         },
         "status": {
-          "utcTime": "2026-11-02T17:00:00.000Z",
-          "halfs": {
-            "firstHalfStarted": "02.11.2026 18:00:00"
-          },
-          "periodLength": 45,
-          "started": false,
+          "utcTime": "2026-11-02T17:00:00Z",
+          "timezone": "",
+          "finished": true,
+          "started": true,
           "cancelled": false,
-          "finished": false
+          "awarded": false,
+          "scoreStr": "3 - 1",
+          "reason": {
+            "short": "FT",
+            "shortKey": "fulltime_short",
+            "long": "Full-Time",
+            "longKey": "finished"
+          }
         }
       },
       {
@@ -42159,14 +42191,19 @@
           "id": "8245"
         },
         "status": {
-          "utcTime": "2026-11-02T17:00:00.000Z",
-          "halfs": {
-            "firstHalfStarted": "02.11.2026 18:00:00"
-          },
-          "periodLength": 45,
-          "started": false,
+          "utcTime": "2026-11-02T17:00:00Z",
+          "timezone": "",
+          "finished": true,
+          "started": true,
           "cancelled": false,
-          "finished": false
+          "awarded": false,
+          "scoreStr": "1 - 0",
+          "reason": {
+            "short": "FT",
+            "shortKey": "fulltime_short",
+            "long": "Full-Time",
+            "longKey": "finished"
+          }
         }
       },
       {
@@ -42185,14 +42222,19 @@
           "id": "8023"
         },
         "status": {
-          "utcTime": "2026-11-02T19:30:00.000Z",
-          "halfs": {
-            "firstHalfStarted": "02.11.2026 20:30:00"
-          },
-          "periodLength": 45,
-          "started": false,
+          "utcTime": "2026-11-02T19:30:00Z",
+          "timezone": "",
+          "finished": true,
+          "started": true,
           "cancelled": false,
-          "finished": false
+          "awarded": false,
+          "scoreStr": "3 - 1",
+          "reason": {
+            "short": "FT",
+            "shortKey": "fulltime_short",
+            "long": "Full-Time",
+            "longKey": "finished"
+          }
         }
       },
       {
@@ -46589,10 +46631,10 @@
         }
       }
     ],
-    "hasOngoingMatch": true,
+    "hasOngoingMatch": false,
     "fixtureInfo": {
       "activeRound": {
-        "roundId": "13",
+        "roundId": "14",
         "localizedKey": "round_fmt"
       },
       "rounds": [

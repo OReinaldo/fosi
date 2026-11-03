@@ -1,7 +1,7 @@
 {
   "team_id": "8023",
-  "from": "2026-10-26",
-  "to": "2026-12-02",
+  "from": "2026-10-27",
+  "to": "2026-12-03",
   "matches": [
     {
       "id": 5904696,
@@ -501,28 +501,39 @@
       "time": "02.11.2026 20:30",
       "home": {
         "id": 4024,
-        "score": 0,
+        "score": 3,
         "name": "Raków Częstochowa",
         "longName": "Raków Częstochowa"
       },
       "away": {
         "id": 8023,
-        "score": 0,
+        "score": 1,
         "name": "Pogoń Szczecin",
+        "redCards": 2,
         "longName": "Pogoń Szczecin"
       },
       "eliminatedTeamId": null,
-      "statusId": 1,
+      "statusId": 6,
       "tournamentStage": "13",
       "status": {
         "utcTime": "2026-11-02T19:30:00.000Z",
+        "numberOfAwayRedCards": 2,
         "halfs": {
-          "firstHalfStarted": "02.11.2026 20:30:00"
+          "firstHalfStarted": "02.11.2026 20:33:02",
+          "secondHalfStarted": "02.11.2026 21:37:27"
         },
         "periodLength": 45,
-        "started": false,
+        "finished": true,
+        "started": true,
         "cancelled": false,
-        "finished": false
+        "awarded": false,
+        "scoreStr": "3 - 1",
+        "reason": {
+          "short": "FT",
+          "shortKey": "fulltime_short",
+          "long": "Full-Time",
+          "longKey": "finished"
+        }
       },
       "timeTS": 1793647800000
     },
