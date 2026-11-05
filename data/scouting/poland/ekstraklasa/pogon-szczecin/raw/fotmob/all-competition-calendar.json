@@ -1,7 +1,7 @@
 {
   "team_id": "8023",
-  "from": "2026-10-28",
-  "to": "2026-12-04",
+  "from": "2026-10-29",
+  "to": "2026-12-05",
   "matches": [
     {
       "id": 5904696,
@@ -624,37 +624,32 @@
     },
     {
       "id": 5804062,
-      "pageUrl": "/matches/gornik-zabrze-vs-pogon-szczecin/24mle1#5804062",
-      "opponent": {
-        "id": 8020,
-        "name": "Górnik Zabrze",
-        "score": 0
-      },
+      "leagueId": 937879,
+      "time": "05.12.2026 18:00",
       "home": {
         "id": 8023,
-        "name": "Pogoń Szczecin",
-        "score": 0
+        "score": 0,
+        "name": "Pogoń Szczecin"
       },
       "away": {
         "id": 8020,
-        "name": "Górnik Zabrze",
-        "score": 0
+        "score": 0,
+        "name": "Górnik Zabrze"
       },
-      "displayTournament": false,
-      "notStarted": true,
-      "tournament": {
-        "name": "Ekstraklasa",
-        "stage": "",
-        "leagueId": 196
-      },
+      "eliminatedTeamId": null,
+      "statusId": 1,
+      "tournamentStage": "17",
       "status": {
         "utcTime": "2026-12-05T17:00:00.000Z",
-        "matchDateTbd": true,
-        "matchTimeTbd": false,
+        "halfs": {
+          "firstHalfStarted": "05.12.2026 18:00:00"
+        },
+        "periodLength": 45,
         "started": false,
         "cancelled": false,
         "finished": false
-      }
+      },
+      "timeTS": 1796490000000
     },
     {
       "id": 5804070,
