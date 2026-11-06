@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-05T11:21:30.635309+00:00",
+  "generated_at": "2026-11-06T11:18:57.829207+00:00",
   "scope": {
     "country": "Poland",
     "competition": "Ekstraklasa",
@@ -176320,7 +176320,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.fixtures.previousFixturesUrl",
@@ -176440,7 +176440,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-10-29"
+      "example": "2026-10-30"
     },
     {
       "path": "$.gameInfo",
@@ -177114,7 +177114,7 @@
         "sites"
       ],
       "file_count": 1,
-      "example": "2026-11-05T11:20:18.924673+00:00"
+      "example": "2026-11-06T11:17:48.755118+00:00"
     },
     {
       "path": "$.hasOdds",
@@ -198014,7 +198014,7 @@
         "fotmob"
       ],
       "file_count": 2,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.overview.hasTotw",
@@ -200294,7 +200294,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "False"
+      "example": "True"
     },
     {
       "path": "$.overview.newsSummary",
@@ -200726,7 +200726,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "+120"
+      "example": "+125"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsDecimal",
@@ -200738,7 +200738,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2.20"
+      "example": "2.25"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].oddsFraction",
@@ -200750,7 +200750,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6/5"
+      "example": "5/4"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.matchfactMarkets[].selections[].team",
@@ -200954,7 +200954,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "+120"
+      "example": "+125"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsDecimal",
@@ -200966,7 +200966,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2.20"
+      "example": "2.25"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].oddsFraction",
@@ -200978,7 +200978,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "6/5"
+      "example": "5/4"
     },
     {
       "path": "$.overview.nextMatch.odds.odds.oddsTabMarkets[].markets[].selections[].team",
@@ -201319,14 +201319,14 @@
     {
       "path": "$.overview.nextMatch.startDay",
       "types": {
-        "null": 1
+        "string": 1
       },
       "occurrences": 1,
       "sources": [
         "fotmob"
       ],
       "file_count": 1,
-      "example": "None"
+      "example": "Tomorrow"
     },
     {
       "path": "$.overview.nextMatch.stats",
@@ -215705,7 +215705,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-11-05T11:20:37.547185+00:00"
+      "example": "2026-11-06T11:18:07.188591+00:00"
     },
     {
       "path": "$.rosters",
@@ -228718,7 +228718,7 @@
         "fotmob"
       ],
       "file_count": 1,
-      "example": "2026-12-05"
+      "example": "2026-12-06"
     },
     {
       "path": "$.topCompletedTransfer",
@@ -231747,7 +231747,7 @@
         "fotmob"
       ],
       "file_count": 21,
-      "example": "2026-11-05T11:20:17.614478+00:00"
+      "example": "2026-11-06T11:17:47.694567+00:00"
     },
     {
       "path": "$.videos",
