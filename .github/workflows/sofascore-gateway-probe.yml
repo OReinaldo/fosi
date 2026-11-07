@@ -1,11 +1,6 @@
 name: FOSI - SofaScore gateway probe
 on:
-  push:
-    paths:
-      - '.github/workflows/sofascore-gateway-probe.yml'
   workflow_dispatch:
-  schedule:
-    - cron: '45 3 * * *'
 permissions:
   contents: read
 jobs:
