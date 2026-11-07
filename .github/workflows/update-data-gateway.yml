@@ -1,17 +1,6 @@
 name: FOSI - Update scouting data via gateway
 on:
   workflow_dispatch:
-    inputs:
-      country: {description: 'Country', required: true, default: 'Poland'}
-      competition: {description: 'Competition', required: true, default: 'Ekstraklasa'}
-      team: {description: 'Team', required: true, default: 'Pogoń Szczecin'}
-  push:
-    paths:
-      - '.github/workflows/update-data-gateway.yml'
-      - 'collectors/sofascore_collector.py'
-      - 'collectors/sofascore_spa_collector.py'
-  schedule:
-    - cron: '30 3 * * *'
 permissions:
   contents: write
   pages: write
