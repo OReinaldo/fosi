@@ -3,7 +3,7 @@
     {
       "source": "fotmob",
       "status": "partial",
-      "retrieved_at": "2026-11-06T11:15:41.101290+00:00",
+      "retrieved_at": "2026-11-07T10:31:11.418442+00:00",
       "layers": {
         "team": "available",
         "players": "available",
@@ -24,8 +24,8 @@
         "player_match_source": "playerData.recentMatches",
         "transfers": 1,
         "date_scanned_matches": 5,
-        "date_scan_from": "2026-10-30",
-        "date_scan_to": "2026-12-06",
+        "date_scan_from": "2026-10-31",
+        "date_scan_to": "2026-12-07",
         "matches": 35,
         "match_details": 0,
         "match_details_skipped_existing": 35,
@@ -60,7 +60,7 @@
     {
       "source": "espn",
       "status": "success",
-      "retrieved_at": "2026-11-06T11:17:29.973264+00:00",
+      "retrieved_at": "2026-11-07T10:32:59.343812+00:00",
       "layers": {
         "matches": "available",
         "team": "available",
@@ -146,12 +146,12 @@
       "player_match_files_written": 21,
       "player_match_rows": 432,
       "errors": [],
-      "updated_at": "2026-11-05T11:20:17.652719+00:00"
+      "updated_at": "2026-11-06T11:17:47.725693+00:00"
     },
     {
       "source": "official-sites",
       "status": "partial",
-      "retrieved_at": "2026-11-06T11:17:37.804922+00:00",
+      "retrieved_at": "2026-11-07T10:33:07.294019+00:00",
       "layers": {
         "club": "available",
         "standings": "available",
@@ -160,7 +160,7 @@
       },
       "records": {
         "https://ekstraklasa.org/en/clubs/pogon-szczecin/?tab=stats": {
-          "bytes": 696562,
+          "bytes": 697496,
           "layer": "club",
           "embedded_json_records": 0,
           "html_tables": 0,
@@ -176,7 +176,7 @@
           "links": 37
         },
         "https://ekstraklasa.org/en/standings/2026-2027/": {
-          "bytes": 334581,
+          "bytes": 334579,
           "layer": "standings",
           "embedded_json_records": 0,
           "html_tables": 1,
@@ -184,20 +184,20 @@
           "links": 43
         },
         "https://ekstraklasa.org/statystyki/": {
-          "bytes": 2124426,
+          "bytes": 2129096,
           "layer": "stats",
           "embedded_json_records": 0,
           "html_tables": 0,
           "html_table_rows": 0,
-          "links": 71
+          "links": 70
         },
         "https://ekstraklasa.org/en/statistics/?ranking=xg": {
-          "bytes": 2221562,
+          "bytes": 2227025,
           "layer": "stats",
           "embedded_json_records": 0,
           "html_tables": 0,
           "html_table_rows": 0,
-          "links": 409
+          "links": 410
         },
         "https://ekstraklasa.org/en/schedule/2026-2027/1-round/": {
           "bytes": 320308,
@@ -271,15 +271,15 @@
     {
       "source": "sofascore-spa",
       "status": "partial",
-      "retrieved_at": "2026-11-05T11:20:18.979460+00:00",
+      "retrieved_at": "2026-11-06T11:17:48.801834+00:00",
       "records": {
-        "incidents": 0,
-        "statistics": 0,
-        "media": 0,
-        "lineups": 0,
         "event": 0,
+        "incidents": 0,
+        "graph": 0,
+        "lineups": 0,
+        "statistics": 0,
         "shotmap": 0,
-        "graph": 0
+        "media": 0
       },
       "errors": [],
       "proxy_configured": false,
@@ -340,7 +340,7 @@
     },
     {
       "source": "understat",
-      "retrieved_at": "2026-11-06T11:17:37.756200+00:00",
+      "retrieved_at": "2026-11-07T10:33:07.253636+00:00",
       "layers": {},
       "records": {},
       "errors": [],
@@ -350,7 +350,7 @@
     {
       "source": "sofascore",
       "status": "partial",
-      "retrieved_at": "2026-11-06T11:16:02.011667+00:00",
+      "retrieved_at": "2026-11-07T10:31:25.331930+00:00",
       "layers": {
         "matches": "partial",
         "stats": "partial",
@@ -461,7 +461,7 @@
     ],
     "last_team_id": null
   },
-  "updated_at": "2026-11-06T11:17:47.647590+00:00",
+  "updated_at": "2026-11-07T10:33:17.938020+00:00",
   "update_mode": "incremental",
   "collectors": [
     {
