@@ -1,14 +1,6 @@
 name: FOSI - Update scouting data
 on:
   workflow_dispatch:
-    inputs:
-      country: {description: 'Country', required: true, default: 'Poland'}
-      competition: {description: 'Competition', required: true, default: 'Ekstraklasa'}
-      team: {description: 'Team', required: true, default: 'Pogoń Szczecin'}
-  push:
-    paths: ['collectors/**','engine/**','config/**','.github/workflows/update-data.yml','requirements.txt']
-  #schedule:
-    #- cron: '15 3 * * *'
 permissions:
   contents: write
   pages: write
